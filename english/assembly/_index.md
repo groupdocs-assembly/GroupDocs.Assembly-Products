@@ -19,11 +19,11 @@ apis:
   api:
     # api loop
     - title: "GroupDocs.Assembly On Premise APIs Include"
-      link: "/assembly"
+      link: "/assembly/"
       label: "View All On Premise APIs"
       api_product:
         # api_product loop
-        - link: "/assembly/net"
+        - link: "/assembly/net/"
           img_alt: "GroupDocs.Assembly for .NET"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-assembly-net.png"
           product: "GroupDocs.Assembly for"
@@ -31,7 +31,7 @@ apis:
           content: "Native .NET API to automate popular document formats and generate high quality reports using custom templates and data within .NET applications."
 
         # api_product loop
-        - link: "/assembly/java"
+        - link: "/assembly/java/"
           img_alt: "GroupDocs.Assembly for Java"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-assembly-java.png"
           product: "GroupDocs.Assembly for"

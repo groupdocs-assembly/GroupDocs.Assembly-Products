@@ -338,7 +338,7 @@ solutions:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-assembly-net.png"
           product: "GroupDocs.Assembly"
           platform: ".NET"
-          link: "/assembly/net"
+          link: "/assembly/net/"
 
 ############################# Back to top ###############################
 back_to_top:

@@ -346,7 +346,7 @@ solutions:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-assembly-java.png"
           product: "GroupDocs.Assembly"
           platform: "Java"
-          link: "/assembly/java"
+          link: "/assembly/java/"
 
 ############################# Back to top ###############################
 back_to_top:
