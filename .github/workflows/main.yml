@@ -26,9 +26,9 @@ jobs:
       uses: andstor/copycat-action@v3
       with:
         personal_token: ${{ secrets.REPO_TOKEN }}
-        src_path: ./english/assembly/
-        dst_path: /content/english/assembly/
+        src_path: ./english/
+        dst_path: /content/
         dst_owner: groupdocs
-        dst_repo_name: products.groupdocs.com
-        dst_branch: master
+        dst_repo_name: products-qa.groupdocs.com
+        dst_branch: main
         src_branch: master
