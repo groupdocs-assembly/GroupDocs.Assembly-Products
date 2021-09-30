@@ -41,5 +41,5 @@ jobs:
         dst_path: /content/
         dst_owner: groupdocs
         dst_repo_name: products.groupdocs.com
-        dst_branch: master
+        dst_branch: stage
         src_branch: master
