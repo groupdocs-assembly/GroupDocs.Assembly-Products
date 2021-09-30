@@ -15,7 +15,7 @@ head_description: "C# .NET Document automation, assembly & reports generation AP
 
 ############################# Header ############################
 title: ".NET Document Automation & Reporting API"
-description: "‎API to Define Templates, Fetch Data Source, Insert Data in Template & Generate on the fly Reports in .NET Applications."
+description: "‎Generate Reports in .NET Applications by Defining Templates, and Megring the Data."
 button:
     enable: true
 
