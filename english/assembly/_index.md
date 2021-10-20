@@ -6,7 +6,7 @@ draft: false
 
 ############################# Head ############################
 head_title: ".NET, Java APIs & Online Document Assembly Apps by GroupDocs"
-head_description: "Get all-in-one document automation & reporting solution for .NET and Java applications. Generate all common documents from custom templates and data."
+head_description: "Get all-in-one Document Automation & Reporting Solution for .NET and Java applications. Generate all common documents from custom templates and data."
 
 ############################# Header ############################
 title: "Document Automation and Reporting Solution"
