@@ -33,7 +33,7 @@ jobs:
         dst_branch: stage
         src_branch: master
 
-#     - name: Copycat-Prod
+#     - name: Copycat
 #       uses: andstor/copycat-action@v3
 #       with:
 #         personal_token: ${{ secrets.REPO_TOKEN }}
