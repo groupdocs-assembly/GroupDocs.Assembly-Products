@@ -15,7 +15,7 @@ head_description: "C# .NET Document automation, assembly & reports generation AP
 
 ############################# Header ############################
 title: ".NET Document Automation & Reporting API"
-description: "‎Generate Reports in .NET Applications by Defining Templates, and Megring the Data."
+description: "Generate Reports in .NET Applications by Defining Templates, and Merging the Data."
 button:
     enable: true
 
@@ -137,7 +137,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Assembly for .NET supports following Operating Systems, Frameworks & Package Managers:‎
+          GroupDocs.Assembly for .NET supports following Operating Systems, Frameworks & Package Managers:
         
         left:
           enable: true
@@ -213,7 +213,7 @@ features:
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Dynamically Assign Attributes to Email Message Body & Insert Hyperlinks in Reports‎"
+        content: "Dynamically Assign Attributes to Email Message Body & Insert Hyperlinks in Reports"
 
       # feature loop
       - icon: "fas fa-location-arrow"
@@ -283,7 +283,7 @@ features:
       # more_feature_loop
       - title: "Support for Template Elements"
         content: |
-          GroupDocs.Assembly for .NET API gives you control to work with numerous template elements. You can work with formatted text blocks, HTML blocks, Images, Charts, Hyperlinks and Bar Codes (through Barcode Fonts). Repeated blocks & Conditional blocks are also supported including list items and table rows. You can also dynamically merge table cells containing the same text based on template expressions for spreadsheets, presentations, documents, and emails with HTML and RTF bodies.‎
+          GroupDocs.Assembly for .NET API gives you control to work with numerous template elements. You can work with formatted text blocks, HTML blocks, Images, Charts, Hyperlinks and Bar Codes (through Barcode Fonts). Repeated blocks & Conditional blocks are also supported including list items and table rows. You can also dynamically merge table cells containing the same text based on template expressions for spreadsheets, presentations, documents, and emails with HTML and RTF bodies.
 
       # more_feature_loop
       - title: "Working with List Reports"

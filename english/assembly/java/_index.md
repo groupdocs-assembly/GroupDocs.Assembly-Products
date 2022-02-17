@@ -15,7 +15,7 @@ head_description: "Java API for document automation, assembly & reporting. Creat
 
 ############################# Header ############################
 title: "Java API to Automate Documents & Reports"
-description: "‎Build Document Automation Applications to Fetch Data; put it in Customizable Templates & Generate Dynamic Reports via Java API.‎"
+description: "Build Document Automation Applications to Fetch Data; put it in Customizable Templates & Generate Dynamic Reports via Java API."
 button:
     enable: true
 
@@ -137,7 +137,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Assembly for Java supports following Operating Systems, Frameworks & Package ‎Managers:‎
+          GroupDocs.Assembly for Java supports following Operating Systems, Frameworks & Package Managers:
         
         left:
           enable: true

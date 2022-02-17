@@ -10,7 +10,7 @@ head_description: "Get all-in-one Document Automation & Reporting Solution for .
 
 ############################# Header ############################
 title: "Document Automation and Reporting Solution"
-description: "Auto-generate reports in different formats from custom templates and different data sources with our cross platform apps and APIs.‎"
+description: "Auto-generate reports in different formats from custom templates and different data sources with our cross platform apps and APIs."
 
 ############################# APIs ###############################
 apis:
