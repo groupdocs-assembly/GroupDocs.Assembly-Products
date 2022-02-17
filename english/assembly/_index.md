@@ -18,9 +18,9 @@ apis:
 
   api:
     # api loop
-    - title: "GroupDocs.Assembly On Premise APIs Include"
+    - title: "GroupDocs.Assembly High Code APIs Include"
       link: "/assembly/"
-      label: "View All On Premise APIs"
+      label: "View All High Code APIs"
       api_product:
         # api_product loop
         - link: "/assembly/net/"
@@ -39,9 +39,9 @@ apis:
           content: "Empower Java applications with document automation capabilities to quickly create custom reports in PDF, Office, HTML etc."
 
     # api loop
-    - title: "GroupDocs.Assembly Cross Platform Apps Include"
+    - title: "GroupDocs.Assembly No Code Apps Include"
       link: "https://products.groupdocs.app/assembly"
-      label: "View All Cross Platform Apps"
+      label: "View All No Code Apps"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.app/assembly/total"
