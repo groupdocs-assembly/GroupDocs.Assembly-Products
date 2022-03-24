@@ -27,7 +27,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-assembly-net.png"
           product: "GroupDocs.Assembly for"
           platform: ".NET"
-          content: "Native .NET APIs for Windows Forms, ASP.NET, WPF, WCF & other .NET Framework based applications."
+          content: "Native .NET APIs for Windows Forms, ASP.NET, WPF, WCF & other .NET applications."
 
         # api_product loop
         - link: "https://products.groupdocs.com/assembly/java/"
