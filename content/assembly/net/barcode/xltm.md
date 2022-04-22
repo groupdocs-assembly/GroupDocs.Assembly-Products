@@ -20,9 +20,9 @@ button:
 ############################# About ############################
 about:
     enable: true
-    title: "How to Apply Barcodes Generation in Spreadsheet Documents?"
+    title: "How to Add Barcode Generation for Spreadsheets?"
     content: |
-       This page provides information about how to generate barcodes in Excel spreadsheet using .NET API. Barcodes are digital code storing machine-readable information that is normally used for the quick identification of a large number of items. It brings speed and accuracy to your system which automatically reduces time of an operation. GroupDocs.Assembly is a powerful .NET API that allows software developers to programmatically draw numerous 1D & 2D barcode images with the customized text, appearance, and different encoding types inside Microsoft Excel spreadsheet at particular location. The API also makes it easy for users to manage their Barcodes with ease and modify Barcode image size, foreground and background colors, font size, setting Barcode image resolution, barcode text auto-correction and many more. 
+       This page provides information about how to generate barcodes in Excel spreadsheet using .NET API. Barcodes are digital code storing machine-readable information that is normally used for the quick identification of a large number of items. It brings speed and accuracy to your system which automatically reduces time of an operation. GroupDocs.Assembly is a powerful .NET API that allows software developers to programmatically draw numerous 1D & 2D barcode images with the customized text, appearance, and different encoding types inside Microsoft Excel spreadsheet at particular location. The API also makes it easy to manage barcode image size, foreground & background colors, font size, image resolution, text auto-correction and more. 
 
 ############################# content ############################
 steps:
@@ -34,10 +34,12 @@ steps:
 
       title_right: "How to Use Barcode Images in XLS"
       content_right: |
-        * Setting up source open spreadsheet template 
-        * Setting up destination open spreadsheet report 
         * Create an instance of [DocumentAssembler ](https://apireference.groupdocs.com/assembly/net/groupdocs.assembly/documentassembler) 
-        * Call AssembleDocument to generate  Report in open spreadsheet format. 
+        * Call [AssembleDocument]( https://apireference.groupdocs.com/assembly/net/groupdocs.assembly.documentassembler/assembledocument/methods/1) method with the following parameters
+          * Stream to read a template document.
+          * Stream to write the resultant document.
+          * Additional options for document loading and saving.
+          * Information on data source objects.
 
       gisthash: "8576f622912b355ce69966077033dcac"
       gistfile: "generate_barcodes_in_spreadsheets.cs"
@@ -54,7 +56,7 @@ steps:
       content_right: |
         * Allow users to create custom documents from templates.
         * No additional software is required to create and automate documents
-        * Ability to generates an output document based on the data source
+        * Ability to generate an output document based on the data source
         * Dynamically insert out document content in report
         * Dynamically attach email attachments & insert hyperlinks in reports 
 
