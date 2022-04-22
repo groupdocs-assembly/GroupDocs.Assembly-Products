@@ -22,7 +22,7 @@ about:
     enable: true
     title: "How to Generate & Place Barcodes inside Presentations?"
     content: |
-      Presentation is a great way for conveying information from a speaker to the audience. It is widely used companies, business people, teachers and student because it can be understood easily than text documents. Use of barcodes is getting very common and is used for identification in almost all types of business. GroupDocs.Assembly .NET API makes it possible to create and insert Barcode images inside PowerPoint and other types of presentations such as PPT, PPTX, PPTM, PPS, PPSX, PPSM, POT, POTX,  POTM, ODP and many more. It provided support for several commonly used 1D & 2D barcode Barcode types.  It also fully support customizing Barcodes in presentation’s slides  and allows resizing barcode image, setting fore and back colors, change fonts, enhance barcode text placement , setting barcode image resolution and many more. 
+      Presentation is a great way for conveying information from a speaker to the audience. It is widely used by the companies, business people, teachers and student because it can be understood easily than text documents. Use of barcodes is getting very common for identification in almost every type of business. GroupDocs.Assembly .NET API makes it possible to create and insert Barcode images inside PowerPoint and other types of presentations such as PPT, PPTX, PPTM, PPS, PPSX, PPSM, POT, POTX,  POTM, ODP and many more. It provides support for several commonly used 1D & 2D barcode types.  It also fully supports barcode customization in presentation’s slides as well as allows resizing of barcode image, setting fore and back colors, change fonts, enhance barcode text placement, setting barcode image resolution and many more. 
 
 ############################# content ############################
 steps:
@@ -34,10 +34,12 @@ steps:
       
       title_right: "Insert Barcodes in POTM File via .NET"
       content_right: |
-          * Setting up source open presentation document template 
-          * Setting up destination open presentation document  report 
-          * Create an instance of [DocumentAssembler ](https://apireference.groupdocs.com/assembly/net/groupdocs.assembly/documentassembler) 
-          * Call AssembleDocument to generate  Report in open document format. 
+        * Create an instance of [DocumentAssembler ](https://apireference.groupdocs.com/assembly/net/groupdocs.assembly/documentassembler) 
+        * Call [AssembleDocument]( https://apireference.groupdocs.com/assembly/net/groupdocs.assembly.documentassembler/assembledocument/methods/1) method with the following parameters
+          * Stream to read a template document.
+          * Stream to write the resultant document.
+          * Additional options for document loading and saving.
+          * Information on data source objects.
      
       gisthash: "1eb55d05b653c510028185fea185dabe"
       gistfile: "create_barcodes_in_presentations.cs"
@@ -54,7 +56,7 @@ steps:
       content_right: |
         * Allow users to create custom documents from templates.
         * No additional software is required to create and automate documents
-        * Ability to generates an output document based on the data source
+        * Ability to generate an output document based on data source
         * Dynamically insert out document content in report
         * Dynamically attach email attachments & insert hyperlinks in reports 
 
