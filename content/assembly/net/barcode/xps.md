@@ -28,6 +28,22 @@ about:
 steps:
     enable: true
     block:
+    - title_left: "Barcodes Generation in XPS Documents via .NET"
+      content_left: |
+       GroupDocs.Assembly .NET provides complete support for adding and managing Barcodes inside XPS documents. The following C# .NET code example demonstrates how to generate and insert barcode images inside a XPS document. 
+
+      title_right: "How to Use Barcode Images in XLS"
+      content_right: |
+        * Create an instance of [DocumentAssembler ](https://apireference.groupdocs.com/assembly/net/groupdocs.assembly/documentassembler) 
+        * Call [AssembleDocument]( https://apireference.groupdocs.com/assembly/net/groupdocs.assembly.documentassembler/assembledocument/methods/1) method with the following parameters
+          * Stream to read a template document.
+          * Stream to write the resultant document.
+          * Additional options for document loading and saving.
+          * Information on data source objects.
+
+      gisthash: "8576f622912b355ce69966077033dcac"
+      gistfile: "generate_barcodes_in_spreadsheets.cs"
+
     - title_left: "Set Barcode Image Resolution in XPS via .NET"
       content_left: |
        GroupDocs.Assembly .NET provides complete support for adding and managing Barcodes inside XPS  documents.  You can easily set barcode resolution with just a couple of lines of code. The following code allows users to set horizontal and vertical resolution to 300 DPI. 
