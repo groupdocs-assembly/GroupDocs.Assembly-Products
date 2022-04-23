@@ -32,7 +32,7 @@ steps:
       content_left: |
        GroupDocs.Assembly .NET provides complete support for adding and managing Barcodes inside PCL documents. The following C# .NET code example demonstrates how to generate and insert barcode images inside a PCL document. 
 
-      title_right: "How to Use Barcode Images in XLS"
+      title_right: "How to Use Barcode Images in PCL"
       content_right: |
         * Create an instance of [DocumentAssembler ](https://apireference.groupdocs.com/assembly/net/groupdocs.assembly/documentassembler) 
         * Call [AssembleDocument]( https://apireference.groupdocs.com/assembly/net/groupdocs.assembly.documentassembler/assembledocument/methods/1) method with the following parameters
