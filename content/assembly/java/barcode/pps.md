@@ -6,12 +6,12 @@ path: "assembly/java/barcode/pps"
 otherformats: PPT PPTX PPTM PPSX PPSM POT POTX POTM ODP OTP 
 
 ############################# Head ############################
-head_title: "Create & Add Barcode Images in PPS Presentations via Java API"
-head_description: "GroupDocs.Assembly Java API supports Barcode images creation & addition inside PowerPoint Presentation (PPT, PPTX, PPTM, PPS, PPSX, PPSM, POT & ODP) files."
+head_title: "Generate Barcodes Image & Insert It in Excel Spreadsheet via Java API"
+head_description: "GroupDocs.Assembly Java API enables programmers to generate & add barcode images inside Excel (XLS, XLT, XLSX, XLSM, XLTX, XLTM & XLSB) Spreadsheet documents."
 
 ############################# Header ############################
-title: "Generate & Edit Barcode images in PPS Presentations via Java API"
-description: "GroupDocs.Assembly Java API allows programmers to generate, edit & insert Barcode images in PPS PowerPoint Presentations inside Java & JSP apps."
+title: "Create & Manage Barcodes in Excel Spreadsheet Documents via Java API"
+description: "GroupDocs.Assembly Java API enables software developers to programmatically generate & manage Barcodes in Excel Spreadsheet documents inside Java & JSP apps."
 
 ######################### Download Button #######################
 button:
@@ -20,19 +20,19 @@ button:
 ############################# About ############################
 about:
     enable: true
-    title: "How to Create & Manage Barcodes in Presentations?"
+    title: "How to Generate Barcode Images in Spreadsheets?"
     content: |
-       Presentation is a great way of communication that allows companies as well as individuals to share information in a consistent and easy way. Barcodes are now very commonly used across the World to manage several important tasks, such as product identification, automobile parts tracking, inventory and stock management and many more.  GroupDocs.Assembly Java API makes it easy for software programmers to create and insert Barcodes inside their presentation documents with just a couple of lines of code.  It supports several presentations file format such as such as PPT, PPTX, PPTM, PPS, PPSX, PPSM, POT, POTX,  POTM, ODP and many more. It makes developers job easy by allowing them to run their applications without installing any third party applications or Microsoft Office on their device. It supports several advanced features for customizing Barcodes in presentation's slides such as set foreground and back colors, fonts settings, scaling barcode image, adjust barcode text, setting barcode image resolution and many more. 
+       Spreadsheet software program is a useful tool that allow users to store, analyze, and report on large amounts of data.  GroupDocs.Assembly is a great Java API that makes it easy for software developers to  create, organize, and print barcode images inside Excel spreadsheet. Barcodes are digital code storing machine-readable information that brings speed and accuracy to inventory systems. Using GroupDocs.Assembly Java API you can programmatically draw numerous 1D & 2D barcode images with the personalized text, appearance, and different encoding types inside Microsoft Excel spreadsheet. The API also makes it easy for users to manage their Barcodes and does not require any external software or third party tool to be installed. It support features like modifying Barcode image size, settings foreground and background colors, adjusting font size, Barcode image resolution adjustment, barcode text auto-correction and many more. 
 
 ############################# content ############################
 steps:
     enable: true
     block:
-    - title_left: "Barcodes Generation in PPS Presentations"
+    - title_left: "Create Barcodes in PPS Spreadsheets via Java"
       content_left: |
-       The below Java code explains how developers can generate Barcode images using different supported symbologies and add them into Microsoft PowerPoint PPS presentation slides with very littel effort and cost. 
+       GroupDocs.Assembly Java provides complete support for creating and managing Barcodes inside PPS  spreadsheet. The following Java code demonstrates how to create and insert barcode images inside a Microsoft Excel Spreadsheet document. 
 
-      title_right: "Add Barcodes in PPS File via Java"
+      title_right: "How to Add Barcode Images in PPS File"
       content_right: |
        * Create an instance of [DocumentAssembler](https://apireference.groupdocs.com/assembly/java/com.groupdocs.assembly/DocumentAssembler) 
        * Call [AssembleDocument](https://apireference.groupdocs.com/assembly/java/com.groupdocs.assembly/DocumentAssembler#assembleDocument-java.io.InputStream-java.io.OutputStream-com.groupdocs.assembly.DataSourceInfo...-) method with the following parameters
@@ -41,8 +41,8 @@ steps:
           * Document loading and saving options.
           * Details Information on data source objects to be used. .
 
-      gisthash: "ebb6d8215f329f457f843e9a9fc48c9c"
-      gistfile: "generate_barcodes_in_presentations.java"
+      gisthash: "d597241fa3f68e3945a19ef3231070eb"
+      gistfile: "create_barcodes_in_spreadsheet_file.java"
 
     - title_left: "System Requirements"
       content_left: |
