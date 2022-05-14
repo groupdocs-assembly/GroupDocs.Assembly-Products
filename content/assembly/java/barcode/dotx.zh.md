@@ -10,8 +10,8 @@ head_title: "通过 Java 在文字处理文档中创建和编辑条码"
 head_description: "GroupDocs.Assembly java API 使程序员能够在 Word（DOC、DOCX、DOCM、DOT、DOTX、RTF 和 ODT）文档中创建、添加和编辑条形码图像。"
 
 ############################# Header ############################
-title: "通过 Java API 在 Word BARCODE 文档中生成条形码图像"
-description: "GroupDocs.Assembly java API 使软件开发人员可以轻松地在 Java 应用程序中的 Word BARCODE 文档中动态创建和修改条形码图像。"
+title: "通过 Java API 在 Word DOTX 文档中生成条形码图像"
+description: "GroupDocs.Assembly java API 使软件开发人员可以轻松地在 Java 应用程序中的 Word DOTX 文档中动态创建和修改条形码图像。"
 
 ######################### Download Button #######################
 button:
@@ -28,11 +28,11 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "BARCODE 文档中的条码图像生成"
+    - title_left: "DOTX 文档中的条码图像生成"
       content_left: |
-       以下 java 代码示例显示了在 Microsoft Word BARCODE 文档中动态创建和插入条形码图像。 开发人员只需使用几行 Java 代码即可完成任务。
+       以下 java 代码示例显示了在 Microsoft Word DOTX 文档中动态创建和插入条形码图像。 开发人员只需使用几行 Java 代码即可完成任务。
 
-      title_right: "通过 Java 在 BARCODE 文件中添加条形码"
+      title_right: "通过 Java 在 DOTX 文件中添加条形码"
       content_right: |
        * 创建 [DocumentAssembler](https://apireference.groupdocs.com/assembly/java/com.groupdocs.assembly/DocumentAssembler) 的实例
        * 创建示例数据源对象

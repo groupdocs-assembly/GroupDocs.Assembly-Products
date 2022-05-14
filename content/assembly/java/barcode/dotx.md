@@ -10,8 +10,8 @@ head_title: "Barcodes Creation & Editing in Word Processing Documents via Java"
 head_description: "GroupDocs.Assembly java API has enables programmers to create, add & edit barcode images inside Word (DOC, DOCX, DOCM, DOT, DOTX, RTF & ODT) documents."
 
 ############################# Header ############################
-title: "Generate Barcode Images in Word BARCODE Documents via Java API"
-description: "GroupDocs.Assembly java API makes it easy for software developers to dynamically create & modify Barcode images inside their Word BARCODE documents inside Java applications."
+title: "Generate Barcode Images in Word DOTX Documents via Java API"
+description: "GroupDocs.Assembly java API makes it easy for software developers to dynamically create & modify Barcode images inside their Word DOTX documents inside Java applications."
 
 ######################### Download Button #######################
 button:
@@ -28,11 +28,11 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "Barcodes Images Generation in BARCODE Documents"
+    - title_left: "Barcodes Images Generation in DOTX Documents"
       content_left: |
-       The following java code example shows dynamic creation and insertion of Barcode images inside Microsoft Word BARCODE documents. Developers can achieve the task using just a couple of lines of Java code.
+       The following java code example shows dynamic creation and insertion of Barcode images inside Microsoft Word DOTX documents. Developers can achieve the task using just a couple of lines of Java code.
 
-      title_right: "Add Barcodes in BARCODE File via Java"
+      title_right: "Add Barcodes in DOTX File via Java"
       content_right: |
         * Create an instance of [DocumentAssembler ](https://apireference.groupdocs.com/assembly/java/com.groupdocs.assembly/DocumentAssembler) 
         * Call [AssembleDocument]( https://apireference.groupdocs.com/assembly/java/com.groupdocs.assembly/DocumentAssembler#assembleDocument-java.io.InputStream-java.io.OutputStream-com.groupdocs.assembly.DataSourceInfo...-) method with the following parameters

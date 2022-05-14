@@ -10,8 +10,8 @@ head_title: "Création et édition de codes-barres dans des documents de traitem
 head_description: "L'API Java GroupDocs.Assembly permet aux programmeurs de créer, d'ajouter et de modifier des images de codes à barres dans des documents Word (DOC, DOCX, DOCM, DOT, DOTX, RTF et ODT)."
 
 ############################# Header ############################
-title: "Générer des images de codes à barres dans des documents Word BARCODE via l'API Java"
-description: "L'API Java GroupDocs.Assembly permet aux développeurs de logiciels de créer et de modifier dynamiquement des images de codes-barres dans leurs documents Word BARCODE dans des applications Java."
+title: "Générer des images de codes à barres dans des documents Word DOTX via l'API Java"
+description: "L'API Java GroupDocs.Assembly permet aux développeurs de logiciels de créer et de modifier dynamiquement des images de codes-barres dans leurs documents Word DOTX dans des applications Java."
 
 ######################### Download Button #######################
 button:
@@ -28,11 +28,11 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "Génération d'images de codes-barres dans BARCODE Documents"
+    - title_left: "Génération d'images de codes-barres dans DOTX Documents"
       content_left: |
-       L'exemple de code Java suivant montre la création et l'insertion dynamiques d'images de codes à barres dans des documents Microsoft Word BARCODE . Les développeurs peuvent accomplir la tâche en utilisant seulement quelques lignes de code Java.
+       L'exemple de code Java suivant montre la création et l'insertion dynamiques d'images de codes à barres dans des documents Microsoft Word DOTX . Les développeurs peuvent accomplir la tâche en utilisant seulement quelques lignes de code Java.
 
-      title_right: "Add Barcodes in BARCODE File via Java"
+      title_right: "Add Barcodes in DOTX File via Java"
       content_right: |
        * Créez une instance de [DocumentAssembler](https://apireference.groupdocs.com/assembly/java/com.groupdocs.assembly/DocumentAssembler)
        * Créer un exemple d'objet de source de données

@@ -11,7 +11,7 @@ head_description: "Java API GroupDocs.Assembly поддерживает созд
 
 ############################# Header ############################
 title: "Создавайте и редактируйте изображения штрих-кода в презентациях BARCODE с помощью Java API"
-description: " GroupDocs.Assembly Java API позволяет программистам создавать, редактировать и вставлять изображения штрих-кода в BARCODE презентации PowerPoint внутри приложений Java и JSP."
+description: " GroupDocs.Assembly Java API позволяет программистам создавать, редактировать и вставлять изображения штрих-кода в DOTX презентации PowerPoint внутри приложений Java и JSP."
 
 ######################### Download Button #######################
 button:
@@ -28,11 +28,11 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "Генерация штрих-кодов в презентациях BARCODE"
+    - title_left: "Генерация штрих-кодов в презентациях DOTX"
       content_left: |
-       Приведенный ниже код Java объясняет, как разработчики могут создавать изображения штрих-кода, используя различные поддерживаемые символы, и добавлять их в слайды презентации Microsoft PowerPoint BARCODE с минимальными усилиями и затратами.
+       Приведенный ниже код Java объясняет, как разработчики могут создавать изображения штрих-кода, используя различные поддерживаемые символы, и добавлять их в слайды презентации Microsoft PowerPoint DOTX с минимальными усилиями и затратами.
 
-      title_right: "Добавьте штрих-коды в файл BARCODE через Java"
+      title_right: "Добавьте штрих-коды в файл DOTX через Java"
       content_right: |
        * Создайте экземпляр [DocumentAssembler](https://apireference.groupdocs.com/assembly/java/com.groupdocs.assembly/DocumentAssembler) 
        * Создать пример объекта источника данных
