@@ -10,8 +10,8 @@ head_title: "Generieren und bearbeiten Sie Barcodes in Textverarbeitungsdokument
 head_description: "GroupDocs.Assembly .NET API ermöglicht Entwicklern das Generieren, Einfügen und Ändern von Barcode-Bildern in Word-Dokumenten (DOC, DOCX, DOCM, DOT, DOTX, RTF und ODT)."
 
 ############################# Header ############################
-title: "Erstellen und verwenden Sie Barcode-Bilder in Word BARCODE-Dokumenten über .NET"
-description: "Mithilfe von GroupDocs.Assembly können .NET-API-Programmierer Barcode-Bilder in Word BARCODE Dokumenten innerhalb von C#, ASP.NET und anderen .NET-Apps dynamisch erstellen und verwalten."
+title: "Erstellen und verwenden Sie Barcode-Bilder in Word DOTX-Dokumenten über .NET"
+description: "Mithilfe von GroupDocs.Assembly können .NET-API-Programmierer Barcode-Bilder in Word DOTX Dokumenten innerhalb von C#, ASP.NET und anderen .NET-Apps dynamisch erstellen und verwalten."
 
 ######################### Download Button #######################
 button:
@@ -28,11 +28,11 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "So erstellen Sie Strichcodes in BARCODE Dokumenten"
+    - title_left: "So erstellen Sie Strichcodes in DOTX Dokumenten"
       content_left: |
-       Das folgende .NET-Codebeispiel zeigt, wie einfach Benutzer mit nur wenigen Codezeilen Barcode-Bilder dynamisch generieren und in ihre eigenen Microsoft Word BARCODE Dokumente einfügen können. 
+       Das folgende .NET-Codebeispiel zeigt, wie einfach Benutzer mit nur wenigen Codezeilen Barcode-Bilder dynamisch generieren und in ihre eigenen Microsoft Word DOTX Dokumente einfügen können. 
 
-      title_right: "Verwenden Sie Barcode-Bilder in der BARCODE Datei über .NET"
+      title_right: "Verwenden Sie Barcode-Bilder in der DOTX Datei über .NET"
       content_right: |
         * Erstellen Sie eine Instanz von [DocumentAssembler](https://apireference.groupdocs.com/assembly/net/groupdocs.assembly/documentassembler) 
         * Rufen Sie die Methode [AssembleDocument](https://apireference.groupdocs.com/assembly/net/groupdocs.assembly.documentassembler/assembledocument/methods/1) mit den folgenden Parametern auf
