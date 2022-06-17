@@ -28,8 +28,8 @@ steps:
       
       title_right: ".NETを介してPPTファイルにバーコードを挿入する"
       content_right: |
-        * [DocumentAssembler](https://apireference.groupdocs.com/assembly/net/groupdocs.assembly/documentassembler）のインスタンスを作成します 
-        * [AssembleDocument](https://apireference.groupdocs.com/assembly/net/groupdocs.assembly.documentassembler/assembledocument/methods/1）メソッドを次のパラメーターで呼び出します
+        * [DocumentAssembler](https://apireference.groupdocs.com/assembly/net/groupdocs.assembly/documentassembler)のインスタンスを作成します 
+        * [AssembleDocument](https://apireference.groupdocs.com/assembly/net/groupdocs.assembly.documentassembler/assembledocument/methods/1)メソッドを次のパラメーターで呼び出します
           *テンプレートドキュメントを読むためにストリーミングします。
           *結果のドキュメントを書き込むためのストリーム。
           *ドキュメントのロードと保存のための追加オプション。
@@ -40,11 +40,11 @@ steps:
 
     - title_left: "システム要求"
       content_left: |
-        GroupDocs.Assembly .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。完全なシステム要件ガイドについては、[システム要件](https://docs.groupdocs.com/assembly/net/system-requirements/）にアクセスしてください。以下のコードを実行する前に、次の前提条件がインストールされていることを確認してください。システム：
+        GroupDocs.Assembly .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。完全なシステム要件ガイドについては、[システム要件](https://docs.groupdocs.com/assembly/net/system-requirements/)にアクセスしてください。以下のコードを実行する前に、次の前提条件がインストールされていることを確認してください。システム：
         *オペレーティングシステム：Microsoft Windows、Linux、MacOS
         *開発環境：Visual Studio、Xamarin、MonoDevelopなど
         *フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
-        * [NuGet](https://www.nuget.org/packages/GroupDocs.Assembly/）から最新バージョンのGroupDocs.Assembly.NETAPIを取得します
+        * [NuGet](https://www.nuget.org/packages/GroupDocs.Assembly/)から最新バージョンのGroupDocs.Assembly.NETAPIを取得します
         
       title_right: "GroupDocs.Assemblyを使用する理由"
       content_right: |
