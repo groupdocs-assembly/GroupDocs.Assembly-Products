@@ -29,7 +29,7 @@ steps:
       title_right: "Javaを介してPPSXファイルにバーコードを追加する"
       content_right: |
        * [DocumentAssembler](https://apireference.groupdocs.com/assembly/java/com.groupdocs.assembly/DocumentAssembler)のインスタンスを作成します 
-       * [AssembleDocument](https://apireference.groupdocs.com/assembly/java/com.groupdocs.assembly/DocumentAssembler#assembleDocument-java.io.InputStream-java.io.OutputStream-com.groupdocs.assembly.DataSourceInfoを呼び出します。 ..-)次のパラメータを使用するメソッド
+       * [AssembleDocument](https://apireference.groupdocs.com/assembly/java/com.groupdocs.assembly/DocumentAssembler#assembleDocument-java.io.InputStream-java.io.OutputStream-com.groupdocs.assembly.DataSourceInfo)を呼び出します次のパラメータを使用するメソッド
           *テンプレートドキュメントを読み取るためのストリーム。
           *結果のドキュメントを書き込むためのストリーム。
           *ドキュメントの読み込みと保存のオプション。
