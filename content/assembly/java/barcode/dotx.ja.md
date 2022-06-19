@@ -5,10 +5,10 @@ path: "assembly/java//barcode"
 otherformats: DOC DOCX DOCM DOT DOTM RTF ODT OTT 
 
 head_title: "Javaを介したワードプロセッシングドキュメントでのバーコードの作成と編集"
-head_description: "GroupDocs.Assembly java APIを使用すると、プログラマーはWord（DOC、DOCX、DOCM、DOT、DOTX、RTF、ODT）ドキュメント内でバーコード画像を作成、追加、編集できます。."
+head_description: "GroupDocs.Assembly java APIを使用すると、プログラマーはWord（DOC、DOCX、DOCM、DOT、DOTX、RTF、ODT）ドキュメント内でバーコード画像を作成、追加、編集できます。"
 
 title: "JavaAPIを介してWordDOTXドキュメントでバーコード画像を生成する"
-description: "GroupDocs.Assembly java APIを使用すると、ソフトウェア開発者は、Javaアプリケーション内のWordDOTXドキュメント内のバーコードイメージを動的に作成および変更できます。."
+description: "GroupDocs.Assembly java APIを使用すると、ソフトウェア開発者は、Javaアプリケーション内のWordDOTXドキュメント内のバーコードイメージを動的に作成および変更できます。"
 
 button:
     enable: true
@@ -21,15 +21,15 @@ about:
 
 steps:
     enable: true
-    block:
+    ブロック：
     - title_left: "DOTXドキュメントでのバーコード画像の生成"
       content_left: |
-       次のJavaコード例は、Microsoft WordDOTXドキュメント内でのバーコードイメージの動的な作成と挿入を示しています。開発者は、わずか数行のJavaコードを使用してタスクを実行できます。
+       次のJavaコード例は、MicrosoftWordDOTXドキュメント内でのバーコードイメージの動的な作成と挿入を示しています。開発者は、わずか数行のJavaコードを使用してタスクを実行できます。
 
       title_right: "Javaを介してDOTXファイルにバーコードを追加する"
       content_right: |
-        * [DocumentAssembler](https://apireference.groupdocs.com/assembly/java/com.groupdocs.assembly/DocumentAssembler)のインスタンスを作成します 
-        * [AssembleDocument](https://apireference.groupdocs.com/assembly/java/com.groupdocs.assembly/DocumentAssembler#assembleDocument-java.io.InputStream-java.io.OutputStream-com.groupdocs.assembly.DataSourceInfo) を呼び出します。次のパラメータを使用するメソッド
+        * [DocumentAssembler]（https://apireference.groupdocs.com/assembly/java/com.groupdocs.assembly/DocumentAssembler）のインスタンスを作成します 
+        * [AssembleDocument]（https://apireference.groupdocs.com/assembly/java/com.groupdocs.assembly/DocumentAssembler#assembleDocument-java.io.InputStream-java.io.OutputStream-com.groupdocs.assembly.DataSourceInfoを呼び出します。 ..-）次のパラメータを使用するメソッド
           *テンプレートドキュメントを読み取るためのストリーム。
           *結果のドキュメントを書き込むためのストリーム。
           *ドキュメントの読み込みと保存のオプション。
@@ -41,10 +41,10 @@ steps:
 
     - title_left: "システム要求"
       content_left: |
-        GroupDocs.Assembly Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。 Microsoft Word、Excel、PowerPoint、Outlook、OpenOffice、その他50以上の形式でドキュメントを生成できます。完全なシステム要件ガイドについては、[システム要件](https://docs.groupdocs.com/assembly/java/system-requirements/)にアクセスしてください。以下のコードを実行する前に、次の前提条件がインストールされていることを確認してください。システム：
+        GroupDocs.Assembly Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。 Microsoft Word、Excel、PowerPoint、Outlook、OpenOffice、その他50以上の形式でドキュメントを生成できます。完全なシステム要件ガイドについては、[システム要件]（https://docs.groupdocs.com/assembly/java/system-requirements/）にアクセスしてください。以下のコードを実行する前に、次の前提条件がインストールされていることを確認してください。システム：
         *オペレーティングシステム：Microsoft Windows、Linux、MacOS
         * Javaバージョンのサポート：J2SE 7.0（1.7）、J2SE 8.0（1.8）以降
-        * [Maven](https://mvnrepository.com/artifact/com.groupdocs/groupdocs-assembly/)から最新バージョンのGroupDocs.AssemblyJavaAPIを入手します。
+        * [Maven]（https://mvnrepository.com/artifact/com.groupdocs/groupdocs-assembly/）から最新バージョンのGroupDocs.AssemblyJavaAPIを入手します。
         
       title_right: "GroupDocs.Assemblyを使用する理由"
       content_right: |

@@ -8,7 +8,7 @@ head_title: "C＃、ASP.NETを介してExcelスプレッドシートでバーコ
 head_description: "GroupDocs.Assembly .NET APIは、Excelスプレッドシート（XLS、XLT、XLSX、XLSM、XLTX、XLTM、およびXLSB）ドキュメント内でのバーコード画像の作成と挿入をサポートします."
 
 title: ".NETAPIを介したXLSスプレッドシートでのバーコードの作成と管理"
-description: "GroupDocs.Assembly .NET APIソフトウェア開発者は、C＃、ASP.NETアプリ内のExcelXLSスプレッドシートドキュメントでバーコードイメージを動的に作成および管理できます。."
+description: "GroupDocs.Assembly .NET APIソフトウェア開発者は、C＃、ASP.NETアプリ内のExcelXLSスプレッドシートドキュメントでバーコードイメージを動的に作成および管理できます。"
 
 button:
     enable: true
@@ -21,15 +21,15 @@ about:
 
 steps:
     enable: true
-    block:
+    ブロック：
     - title_left: ".NETを介したXLSスプレッドシートでのバーコード生成"
       content_left: |
-       GroupDocs.Assembly .NETは、XLSスプレッドシート内のバーコードの追加と管理を完全にサポートします。次のC＃.NETコード例は、Microsoft Excelスプレッドシートドキュメント内にバーコード画像を生成して挿入する方法を示しています。 
+       GroupDocs.Assembly .NETは、XLSスプレッドシート内のバーコードの追加と管理を完全にサポートします。次のC＃.NETコード例は、MicrosoftExcelスプレッドシートドキュメント内にバーコード画像を生成して挿入する方法を示しています。 
 
       title_right: "XLSでバーコード画像を使用する方法"
       content_right: |
-        * [DocumentAssembler](https://apireference.groupdocs.com/assembly/net/groupdocs.assembly/documentassembler)のインスタンスを作成します 
-        * [AssembleDocument](https://apireference.groupdocs.com/assembly/net/groupdocs.assembly.documentassembler/assembledocument/methods/1)メソッドを次のパラメーターで呼び出します
+        * [DocumentAssembler]（https://apireference.groupdocs.com/assembly/net/groupdocs.assembly/documentassembler）のインスタンスを作成します 
+        * [AssembleDocument]（https://apireference.groupdocs.com/assembly/net/groupdocs.assembly.documentassembler/assembledocument/methods/1）メソッドを次のパラメーターで呼び出します
           *テンプレートドキュメントを読むためにストリーミングします。
           *結果のドキュメントを書き込むためのストリーム。
           *ドキュメントのロードと保存のための追加オプション。
@@ -40,11 +40,11 @@ steps:
 
     - title_left: "システム要求"
       content_left: |
-        GroupDocs.Assembly .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。完全なシステム要件ガイドについては、[システム要件](https://docs.groupdocs.com/assembly/net/system-requirements/)にアクセスしてください。以下のコードを実行する前に、次の前提条件がインストールされていることを確認してください。システム：
+        GroupDocs.Assembly .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。完全なシステム要件ガイドについては、[システム要件]（https://docs.groupdocs.com/assembly/net/system-requirements/）にアクセスしてください。以下のコードを実行する前に、次の前提条件がインストールされていることを確認してください。システム：
         *オペレーティングシステム：Microsoft Windows、Linux、MacOS
         *開発環境：Visual Studio、Xamarin、MonoDevelopなど
         *フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
-        * [NuGet](https://www.nuget.org/packages/GroupDocs.Assembly/)から最新バージョンのGroupDocs.Assembly.NETAPIを取得します
+        * [NuGet](https://www.nuget.org/packages/groupdocs.Assembly/)から最新バージョンのGroupDocs.Assembly.NETAPIを取得します
         
       title_right: "GroupDocs.Assemblyを使用する理由"
       content_right: |

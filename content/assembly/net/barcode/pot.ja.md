@@ -5,10 +5,10 @@ path: "assembly/net/barcode/pot"
 otherformats: PPT PPTX PPTM PPS PPSX PPSM POTX POTM ODP OTP 
 
 head_title: ".POTプレゼンテーションでバーコード画像を作成するためのNETAPI"
-head_description: "GroupDocs.Assembly .NET APIを使用すると、開発者はプレゼンテーション（PPT、PPTX、PPTM、PPS、PPSX、PPSM、POT、およびODP）ドキュメント内にバーコードイメージを作成および挿入できます。."
+head_description: "GroupDocs.Assembly .NET APIを使用すると、開発者はプレゼンテーション（PPT、PPTX、PPTM、PPS、PPSX、PPSM、POT、およびODP）ドキュメント内にバーコードイメージを作成および挿入できます。"
 
 title: ".NETAPIを介してPOTプレゼンテーションでバーコード画像を作成および管理する"
-description: " GroupDocs.Assemblyを使用すると、.NETプログラマーは、C＃、ASP.NET、およびその他の.NETアプリ内のPOTプレゼンテーションでバーコードイメージを動的に作成、変更、および管理できます。."
+description: " GroupDocs.Assemblyを使用すると、.NETプログラマーは、C＃、ASP.NET、およびその他の.NETアプリ内のPOTプレゼンテーションでバーコードイメージを動的に作成、変更、および管理できます。"
 
 button:
     enable: true
@@ -21,15 +21,15 @@ about:
 
 steps:
     enable: true
-    block:
+    ブロック：
     - title_left: "POTプレゼンテーション内にバーコードを追加する"
       content_left: |
-       以下のC＃.NETコードは、サポートされているさまざまなシンボルを使用してバーコードイメージを動的に作成し、Microsoft PowerPointPOTプレゼンテーションスライド内に挿入する方法を示しています。
+       以下のC＃.NETコードは、サポートされているさまざまなシンボルを使用してバーコードイメージを動的に作成し、MicrosoftPowerPointPOTプレゼンテーションスライド内に挿入する方法を示しています。
       
       title_right: ".NETを介してPOTファイルにバーコードを挿入する"
       content_right: |
-        * [DocumentAssembler](https://apireference.groupdocs.com/assembly/net/groupdocs.assembly/documentassembler)のインスタンスを作成します 
-        * [AssembleDocument](https://apireference.groupdocs.com/assembly/net/groupdocs.assembly.documentassembler/assembledocument/methods/1)メソッドを次のパラメーターで呼び出します
+        * [DocumentAssembler]（https://apireference.groupdocs.com/assembly/net/groupdocs.assembly/documentassembler）のインスタンスを作成します 
+        * [AssembleDocument]（https://apireference.groupdocs.com/assembly/net/groupdocs.assembly.documentassembler/assembledocument/methods/1）メソッドを次のパラメーターで呼び出します
           *テンプレートドキュメントを読むためにストリーミングします。
           *結果のドキュメントを書き込むためのストリーム。
           *ドキュメントのロードと保存のための追加オプション。
@@ -40,11 +40,11 @@ steps:
 
     - title_left: "システム要求"
       content_left: |
-        GroupDocs.Assembly .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。完全なシステム要件ガイドについては、[システム要件](https://docs.groupdocs.com/assembly/net/system-requirements/)にアクセスしてください。以下のコードを実行する前に、次の前提条件がインストールされていることを確認してください。システム：
+        GroupDocs.Assembly .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。完全なシステム要件ガイドについては、[システム要件]（https://docs.groupdocs.com/assembly/net/system-requirements/）にアクセスしてください。以下のコードを実行する前に、次の前提条件がインストールされていることを確認してください。システム：
         *オペレーティングシステム：Microsoft Windows、Linux、MacOS
         *開発環境：Visual Studio、Xamarin、MonoDevelopなど
         *フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
-        * [NuGet](https://www.nuget.org/packages/GroupDocs.Assembly/)から最新バージョンのGroupDocs.Assembly.NETAPIを取得します
+        * [NuGet](https://www.nuget.org/packages/groupdocs.Assembly/)から最新バージョンのGroupDocs.Assembly.NETAPIを取得します
         
       title_right: "GroupDocs.Assemblyを使用する理由"
       content_right: |

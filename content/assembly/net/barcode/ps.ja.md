@@ -5,10 +5,10 @@ path: "assembly/net/barcode/ps"
 otherformats: PDF HTML XPS TIFF MHTML TXT XAML EPUB SVG PCL XML OXPS MD EML EMLX MSG 
 
 head_title: ".NETを介してドキュメントと電子メールでバーコード画像を作成および追加する"
-head_description: "GroupDocs.Assembly .NET APIを使用すると、開発者はドキュメント（PDF DOC、DOCX、RTF、XLSX、CSV、PPTX）および電子メールメッセージ内にバーコード画像を動的に生成および挿入できます。."
+head_description: "GroupDocs.Assembly .NET APIを使用すると、開発者はドキュメント（PDF DOC、DOCX、RTF、XLSX、CSV、PPTX）および電子メールメッセージ内にバーコード画像を動的に生成および挿入できます。"
 
 title: ".NETAPIを介したPSドキュメントでのバーコード画像の生成と挿入"
-description: "GroupDocs.Assembly .NETは、C＃およびVB.NET APIを使用して、動的なバーコードイメージの作成、編集、およびPSドキュメント内での追加を完全にサポートします。."
+description: "GroupDocs.Assembly .NETは、C＃およびVB.NET APIを使用して、動的なバーコードイメージの作成、編集、およびPSドキュメント内での追加を完全にサポートします。"
 
 button:
     enable: true
@@ -21,15 +21,15 @@ about:
 
 steps:
     enable: true
-    block:
+    ブロック：
     - title_left: ".NETを介したPSドキュメントでのバーコード生成"
       content_left: |
        GroupDocs.Assembly .NETは、PSドキュメント内のバーコードの追加と管理を完全にサポートします。次のC＃.NETコード例は、PSドキュメント内にバーコード画像を生成して挿入する方法を示しています。 
 
       title_right: "PSでバーコード画像を使用する方法"
       content_right: |
-        * [DocumentAssembler](https://apireference.groupdocs.com/assembly/net/groupdocs.assembly/documentassembler)のインスタンスを作成します 
-        * [AssembleDocument](https://apireference.groupdocs.com/assembly/net/groupdocs.assembly.documentassembler/assembledocument/methods/1)メソッドを次のパラメーターで呼び出します
+        * [DocumentAssembler]（https://apireference.groupdocs.com/assembly/net/groupdocs.assembly/documentassembler）のインスタンスを作成します 
+        * [AssembleDocument]（https://apireference.groupdocs.com/assembly/net/groupdocs.assembly.documentassembler/assembledocument/methods/1）メソッドを次のパラメーターで呼び出します
           *テンプレートドキュメントを読むためにストリーミングします。
           *結果のドキュメントを書き込むためのストリーム。
           *ドキュメントのロードと保存のための追加オプション。
@@ -44,7 +44,7 @@ steps:
 
       title_right: "PSでの強化されたバーコード解像度"
       content_right: |
-        * [DocumentAssembler](https://apireference.groupdocs.com/assembly/net/groupdocs.assembly/documentassembler)のインスタンスを作成します 
+        * [DocumentAssembler]（https://apireference.groupdocs.com/assembly/net/groupdocs.assembly/documentassembler）のインスタンスを作成します 
         * BarcodeSettings.Resolutionメソッドを呼び出して、バーコード画像の解像度を300DPIに設定します。 
 
       gisthash: "9d8d743bd67b4bce5a4a7f1250deef26"
@@ -53,11 +53,11 @@ steps:
 
     - title_left: "システム要求"
       content_left: |
-        GroupDocs.Assembly .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。完全なシステム要件ガイドについては、[システム要件](https://docs.groupdocs.com/assembly/net/system-requirements/)にアクセスしてください。以下のコードを実行する前に、次の前提条件がインストールされていることを確認してください。システム：
+        GroupDocs.Assembly .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。完全なシステム要件ガイドについては、[システム要件]（https://docs.groupdocs.com/assembly/net/system-requirements/）にアクセスしてください。以下のコードを実行する前に、次の前提条件がインストールされていることを確認してください。システム：
         *オペレーティングシステム：Microsoft Windows、Linux、MacOS
         *開発環境：Visual Studio、Xamarin、MonoDevelopなど
         *フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
-        * [NuGet](https://www.nuget.org/packages/GroupDocs.Assembly/)から最新バージョンのGroupDocs.Assembly.NETAPIを取得します
+        * [NuGet](https://www.nuget.org/packages/groupdocs.Assembly/)から最新バージョンのGroupDocs.Assembly.NETAPIを取得します
         
       title_right: "GroupDocs.Assemblyを使用する理由"
       content_right: |

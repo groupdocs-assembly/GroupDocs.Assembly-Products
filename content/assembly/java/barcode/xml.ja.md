@@ -5,10 +5,10 @@ path: "assembly/java/barcode/xml"
 otherformats: PDF HTML XPS TIFF MHTML TXT XAML EPUB SVG PS PCL OXPS MD EML EMLX MSG 
 
 head_title: "バーコード画像ドキュメントと電子メールメッセージを生成するJavaAPI"
-head_description: "GroupDocs.Assembly Java APIを使用すると、プログラマーはドキュメント（PDF、DOC、DOCX、RTF、XLSX、CSV、PPTX）およびEメール（EML EMLX MSG）メッセージにバーコードを作成および追加できます。."
+head_description: "GroupDocs.Assembly Java APIを使用すると、プログラマーはドキュメント（PDF、DOC、DOCX、RTF、XLSX、CSV、PPTX）およびEメール（EML EMLX MSG）メッセージにバーコードを作成および追加できます。"
 
 title: "Java BarcodesGeneratorAPI-XMLドキュメントで1Dおよび2Dバーコードを作成する"
-description: "GroupDocs.Assembly Java APIを使用すると、PDF HTML、XPS、PS、TXT、EPUB、PCL、SVG、ドキュメントおよび電子メール（EML、EMLX、MSG）メッセージ内に1Dおよび2Dバーコード画像を生成および追加できます。."
+description: "GroupDocs.Assembly Java APIを使用すると、PDF HTML、XPS、PS、TXT、EPUB、PCL、SVG、ドキュメントおよび電子メール（EML、EMLX、MSG）メッセージ内に1Dおよび2Dバーコード画像を生成および追加できます。"
 
 button:
     enable: true
@@ -21,16 +21,16 @@ about:
 
 steps:
     enable: true
-    block:
+    ブロック：
     - title_left: "Javaを介したXMLドキュメントのクレートバーコード"
       content_left: |
        GroupDocs.Assembly Javaには、XMLドキュメント内にバーコードを挿入および編集するための完全な機能が含まれています。次のJavaコード例は、わずか数行のコードでXMLドキュメント内にバーコード画像を作成して使用する方法を示しています。 
 
       title_right: "XMLファイルにバーコードを追加する方法は？"
       content_right: |
-       * [DocumentAssembler](https://apireference.groupdocs.com/assembly/java/com.groupdocs.assembly/DocumentAssembler)のインスタンスを作成します 
+       * [DocumentAssembler]（https://apireference.groupdocs.com/assembly/java/com.groupdocs.assembly/DocumentAssembler）のインスタンスを作成します 
        *サンプルデータソースオブジェクトを作成します
-       * [AssembleDocument](https://apireference.groupdocs.com/assembly/java/com.groupdocs.assembly/DocumentAssembler#assembleDocument-java.io.InputStream-java.io.OutputStream-com.groupdocs.assembly.DataSourceInfo) を呼び出します。次のパラメータを使用するメソッド
+       * [AssembleDocument]（https://apireference.groupdocs.com/assembly/java/com.groupdocs.assembly/DocumentAssembler#assembleDocument-java.io.InputStream-java.io.OutputStream-com.groupdocs.assembly.DataSourceInfoを呼び出します。 ..-）次のパラメータを使用するメソッド
           *テンプレートドキュメントを読み取るためのストリーム。
           *結果のドキュメントを書き込むためのストリーム。
           *ドキュメントの読み込みと保存のオプション。
@@ -41,10 +41,10 @@ steps:
 
     - title_left: "システム要求"
       content_left: |
-        GroupDocs.Assembly Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。 Microsoft Word、Excel、PowerPoint、Outlook、OpenOffice、その他50以上の形式でドキュメントを生成できます。完全なシステム要件ガイドについては、[システム要件](https://docs.groupdocs.com/assembly/java/system-requirements/)にアクセスしてください。以下のコードを実行する前に、次の前提条件がインストールされていることを確認してください。システム：
+        GroupDocs.Assembly Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。 Microsoft Word、Excel、PowerPoint、Outlook、OpenOffice、その他50以上の形式でドキュメントを生成できます。完全なシステム要件ガイドについては、[システム要件]（https://docs.groupdocs.com/assembly/java/system-requirements/）にアクセスしてください。以下のコードを実行する前に、次の前提条件がインストールされていることを確認してください。システム：
         *オペレーティングシステム：Microsoft Windows、Linux、MacOS
         * Javaバージョンのサポート：J2SE 7.0（1.7）、J2SE 8.0（1.8）以降
-        * [Maven](https://mvnrepository.com/artifact/com.groupdocs/groupdocs-assembly/)から最新バージョンのGroupDocs.AssemblyJavaAPIを入手します。
+        * [Maven]（https://mvnrepository.com/artifact/com.groupdocs/groupdocs-assembly/）から最新バージョンのGroupDocs.AssemblyJavaAPIを入手します。
         
       title_right: "GroupDocs.Assemblyを使用する理由"
       content_right: |
