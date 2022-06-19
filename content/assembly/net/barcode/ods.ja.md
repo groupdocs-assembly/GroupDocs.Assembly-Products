@@ -21,15 +21,15 @@ about:
 
 steps:
     enable: true
-    ブロック：
+    block:
     - title_left: ".NETを介したODSスプレッドシートでのバーコード生成"
       content_left: |
        GroupDocs.Assembly .NETは、ODSスプレッドシート内のバーコードの追加と管理を完全にサポートします。次のC＃.NETコード例は、MicrosoftExcelスプレッドシートドキュメント内にバーコード画像を生成して挿入する方法を示しています。 
 
       title_right: "XLSでバーコード画像を使用する方法"
       content_right: |
-        * [DocumentAssembler]（https://apireference.groupdocs.com/assembly/net/groupdocs.assembly/documentassembler）のインスタンスを作成します 
-        * [AssembleDocument]（https://apireference.groupdocs.com/assembly/net/groupdocs.assembly.documentassembler/assembledocument/methods/1）メソッドを次のパラメーターで呼び出します
+        * [DocumentAssembler](https://apireference.groupdocs.com/assembly/net/groupdocs.assembly/documentassembler)のインスタンスを作成します 
+        * [AssembleDocument](https://apireference.groupdocs.com/assembly/net/groupdocs.assembly.documentassembler/assembledocument/methods/1)メソッドを次のパラメーターで呼び出します
           *テンプレートドキュメントを読むためにストリーミングします。
           *結果のドキュメントを書き込むためのストリーム。
           *ドキュメントのロードと保存のための追加オプション。
@@ -40,7 +40,7 @@ steps:
 
     - title_left: "システム要求"
       content_left: |
-        GroupDocs.Assembly .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。完全なシステム要件ガイドについては、[システム要件]（https://docs.groupdocs.com/assembly/net/system-requirements/）にアクセスしてください。以下のコードを実行する前に、次の前提条件がインストールされていることを確認してください。システム：
+        GroupDocs.Assembly .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。完全なシステム要件ガイドについては、[システム要件](https://docs.groupdocs.com/assembly/net/system-requirements/)にアクセスしてください。以下のコードを実行する前に、次の前提条件がインストールされていることを確認してください。システム：
         *オペレーティングシステム：Microsoft Windows、Linux、MacOS
         *開発環境：Visual Studio、Xamarin、MonoDevelopなど
         *フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono

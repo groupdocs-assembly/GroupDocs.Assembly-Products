@@ -21,15 +21,15 @@ about:
 
 steps:
     enable: true
-    ブロック：
+    block:
     - title_left: "POTプレゼンテーションでのバーコードの生成"
       content_left: |
        以下のJavaコードは、開発者がサポートされているさまざまなシンボルを使用してバーコードイメージを生成し、非常に少ない労力とコストでMicrosoftPowerPointPOTプレゼンテーションスライドに追加する方法を説明しています。 
 
       title_right: "Javaを介してPOTファイルにバーコードを追加する"
       content_right: |
-       * [DocumentAssembler]（https://apireference.groupdocs.com/assembly/java/com.groupdocs.assembly/DocumentAssembler）のインスタンスを作成します 
-       * [AssembleDocument]（https://apireference.groupdocs.com/assembly/java/com.groupdocs.assembly/DocumentAssembler#assembleDocument-java.io.InputStream-java.io.OutputStream-com.groupdocs.assembly.DataSourceInfoを呼び出します。 ..-）次のパラメータを使用するメソッド
+       * [DocumentAssembler](https://apireference.groupdocs.com/assembly/java/com.groupdocs.assembly/DocumentAssembler)のインスタンスを作成します 
+       * [AssembleDocument](https://apireference.groupdocs.com/assembly/java/com.groupdocs.assembly/DocumentAssembler#assembleDocument-java.io.InputStream-java.io.OutputStream-com.groupdocs.assembly.DataSourceInfoを呼び出します。 ..-)次のパラメータを使用するメソッド
           *テンプレートドキュメントを読み取るためのストリーム。
           *結果のドキュメントを書き込むためのストリーム。
           *ドキュメントの読み込みと保存のオプション。
@@ -40,10 +40,10 @@ steps:
 
     - title_left: "システム要求"
       content_left: |
-        GroupDocs.Assembly Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。 Microsoft Word、Excel、PowerPoint、Outlook、OpenOffice、その他50以上の形式でドキュメントを生成できます。完全なシステム要件ガイドについては、[システム要件]（https://docs.groupdocs.com/assembly/java/system-requirements/）にアクセスしてください。以下のコードを実行する前に、次の前提条件がインストールされていることを確認してください。システム：
+        GroupDocs.Assembly Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。 Microsoft Word、Excel、PowerPoint、Outlook、OpenOffice、その他50以上の形式でドキュメントを生成できます。完全なシステム要件ガイドについては、[システム要件](https://docs.groupdocs.com/assembly/java/system-requirements/)にアクセスしてください。以下のコードを実行する前に、次の前提条件がインストールされていることを確認してください。システム：
         *オペレーティングシステム：Microsoft Windows、Linux、MacOS
         * Javaバージョンのサポート：J2SE 7.0（1.7）、J2SE 8.0（1.8）以降
-        * [Maven]（https://mvnrepository.com/artifact/com.groupdocs/groupdocs-assembly/）から最新バージョンのGroupDocs.AssemblyJavaAPIを入手します。
+        * [Maven](https://mvnrepository.com/artifact/com.groupdocs/groupdocs-assembly/)から最新バージョンのGroupDocs.AssemblyJavaAPIを入手します。
         
       title_right: "GroupDocs.Assemblyを使用する理由"
       content_right: |
