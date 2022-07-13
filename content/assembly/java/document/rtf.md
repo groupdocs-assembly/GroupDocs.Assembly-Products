@@ -22,7 +22,7 @@ about:
     enable: true
     title: "How to Insert External Document’s Content to Other Popular File Formats via Java?"
     content: |
-       A document or file is an electronic copy or hard copy containing information that can be retrieved at some later stage by the user. According to Wikipedia a document can be structured, like tabular documents, lists, forms, or scientific chart, semi-structured like a book or a newspaper article, or unstructured like a handwritten note. GroupDocs.Assembly for Java is a very useful API enables software developers to build powerful application for document automation and reporting. It fully support identifying and working with numerous document formats such as PDF, Microsoft Word, Excel worksheets, PowerPoint, , HTML, Outlook email and many more. It supports numerous advanced features working with reports such as manipulating template elements, lists report, chart reports, table reports and so on. Moreover, The API also fully supports several advanced features related to documents content addition and modification, such as adding contents to a document page, Inserting data to spreadsheet cells, contents replacement, adding contents to a presentation slide and many more. 
+       A document or file is an electronic copy or hard copy containing information that can be retrieved at some later stage by the user. According to Wikipedia a document can be structured, like tabular documents, lists, forms, or scientific chart, semi-structured like a book or a newspaper article, or unstructured like a handwritten note. GroupDocs.Assembly for Java is a very useful API that enables software developers to build powerful applications for document automation and reporting. It fully supports identifying and working with numerous document formats such as PDF, Microsoft Word, Excel worksheets, PowerPoint, , HTML, Outlook email and many more. It supports numerous advanced features for working with reports such as manipulating template elements, lists report, chart reports, table reports and so on. Moreover, The API also fully supports several advanced features related to documents content addition and modification, such as adding contents to a document page, inserting data to spreadsheet cells, contents replacement, adding contents to a presentation slide and many more. 
 
 ############################# content ############################
 steps:
@@ -30,7 +30,7 @@ steps:
     block:
     - title_left: "Add External File Contents to Word Document via Java"
       content_left: |
-       GroupDocs.Assembly Java API helps computer programmers to handle documents manipulation tasks inside their own Java apps. It fully supports file contents of an external document to various types of documents typers. The following Java code example shows how to add the contents of outer file to a Word processing document with just a couple of lines of code. 
+       GroupDocs.Assembly Java API helps computer programmers to handle documents manipulation tasks inside their own Java apps. It fully supports file contents of an external document to various types of documents types. The following Java code example shows how to add the contents of outer file to a Word processing document with just a couple of lines of code. 
 
       title_right: "How to Insert  Document's Content to RTF File"
       content_right: |
@@ -48,9 +48,9 @@ steps:
 
     - title_left: "Add External File's Contents to Email Messages via Java"
       content_left: |
-       GroupDocs.Assembly Java API has included functionality for dynamic external document's content inserttion to several popular documents file formats and email messages. The below java code shows how programmers can add outer document's content to their Email documents without any exteranl application. 
+       GroupDocs.Assembly Java API has included functionality for dynamic external document's content insertion to several popular documents file formats and email messages. The below java code shows how programmers can add outer document's content to their Email documents without any external application.
 
-      title_right: "Insert Document's Contents to An Email Message via C#"
+      title_right: "How to Add File's Contents to RTF Document"
       content_right: |
         * Setting source document template
         * Setting destination document report 
