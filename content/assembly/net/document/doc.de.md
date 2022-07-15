@@ -18,6 +18,7 @@ button:
     enable: true
 
 ############################# About ############################
+about:
     enable: true
     title: "Wie füge ich den Inhalt des äußeren Dokuments über .NET in andere Dateien, Berichte und E-Mails ein?"
     content: |
