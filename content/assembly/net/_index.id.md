@@ -11,7 +11,7 @@ platform_tag: "net"
 head_title: ".NET API untuk Otomatisasi Dokumen, Perakitan & Pembuatan Laporan"
 head_description: "C# .NET Otomatisasi dokumen, perakitan & pembuatan laporan API. Buat PDF Word Excel PPTX HTML & dokumen email dari templat khusus."
 
-title: "..NET Document Automation & Reporting API"
+title: ".NET Document Automation & Reporting API"
 description: "Hasilkan Laporan di Aplikasi .NET dengan Mendefinisikan Template, dan Menggabungkan Data."
 button:
     enable: true
