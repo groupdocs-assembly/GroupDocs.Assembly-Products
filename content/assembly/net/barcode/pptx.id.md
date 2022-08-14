@@ -4,7 +4,7 @@ draft: false
 path: "assembly/net/barcode/pptx"
 otherformats: PPT PPTM PPS PPSX PPSM POT POTX POTM ODP OTP 
 
-head_title: "..NET API untuk Pembuatan Gambar Kode Batang dalam Presentasi PPTX"
+head_title: ".NET API untuk Pembuatan Gambar Kode Batang dalam Presentasi PPTX"
 head_description: "GroupDocs.Assembly .NET API memungkinkan pengembang untuk membuat & menyisipkan gambar Barcode di dalam dokumen Presentasi (PPT, PPTX, PPTM, PPS, PPSX, PPSM, POT & ODP)."
 
 title: "Buat & Kelola gambar Barcode di PPTX Presentations melalui .NET API"
