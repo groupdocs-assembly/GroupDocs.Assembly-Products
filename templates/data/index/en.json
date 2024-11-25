@@ -1,0 +1,304 @@
+{
+  "index-content": {
+    "head_title": ".NET, Java APIs & Online Document Assembly Apps by GroupDocs",
+    "head_description": "Get all-in-one Document Automation & Reporting Solution for .NET and Java applications. Generate all common documents from custom templates and data.",
+    "title": "Document Automation and Reporting Solution",
+    "description_1": "Easily create detailed reports using templates and data sources with our cross-platform apps and APIs.",
+    "description_2": "Generate reports in formats like Word, Excel, Presentations, and many more using templates with flexible markup.",
+    "description_3": "Populate charts, barcodes, tables, and other elements with data from sources like JSON, XML, CSV, etc.",
+    "words_for": "for",
+    "release_title": "Version {0} released",
+    "release_notes": "See what’s new",
+    "release_downloads": "Downloads",
+    "code_more": "More examples",
+    "overview_title": "{{ProdShortName}} Overview",
+    "code_comment_1": "Select document",
+    "code_comment_2": "Provide text",
+    "code_comment_3": "Set color",
+    "code_comment_4": "Sign document and save to file",
+    "formats_title": "Supported file formats",
+    "platforms": {
+      "title": "Platform independence",
+      "head_title": "Choose your platform",
+      "description": "{{ProdShortName}} is compatible with the following operating systems and frameworks:",
+      "learn_more": "Learn more",
+      "any_other_text_editor": "Any other text editor"
+    },
+    "features": {
+      "title": "{{ProdShortName}} key features",
+      "description": "This solution helps you create reports in popular document formats, automatically filled with your business data. Easily automate your document generation tasks.",
+      "feature_1": {
+        "title": "Populate templates with data",
+        "content": "Fill reports using data from supported sources."
+      },
+      "feature_2": {
+        "title": "Flexible markup",
+        "content": "Add data to documents in a customizable way."
+      },
+      "feature_3": {
+        "title": "Native document features",
+        "content": "Display data using tables, charts, and barcodes."
+      },
+      "feature_4": {
+        "title": "All popular formats",
+        "content": "Supports all commonly used document formats."
+      }
+    },
+    "formats": {
+      "title": "Supports 50+ file formats",
+      "description": "{{ProdShortName}} works with nearly all popular file formats"
+    },
+    "code_samples": {
+      "title": "Code samples",
+      "index_title": "Generate well-customized reports",
+      "index_description": "{{ProdShortName}} code examples",
+      "more_examples": "More examples",
+      "sample_index": {
+        "title": "Using Generated Barcodes",
+        "content": "{{ProdShortName}} allows barcode markup in report templates. When creating a report, a barcode is generated based on the markup and provided data. Specify the path to the template containing the text, data objects, and markup. Also, specify the data source to fill the barcode with content.",
+        "comment_1": "Create an instance of the {{DocumentAssembler}} class",
+        "comment_2": "Specify the path to the template",
+        "comment_3": "Specify the path for the result document",
+        "comment_4": "Create an instance of the datasource",
+        "comment_5": "Call {{AssembleDocument}} to generate the report"
+      },
+      "sample_1": {
+        "code_title": "How to put QR code to .",
+        "comment_1": "Load the document to sign",
+        "comment_2": "Create QR code options with predefined text",
+        "comment_3": "Configure QR code encoding type and position on the page",
+        "comment_4": "Sign the document and save it as the result file"
+      },
+      "sample_2": {
+        "code_title": "Here is how to ensure document integrity.",
+        "comment_1": "Load the document to be digitally signed",
+        "comment_2": "Specify digital signing options and provide the path to the certificate file",
+        "comment_3": "Set the certificate password",
+        "comment_4": "Sign the document and save it to the desired path"
+      }
+    },
+    "metrics": {
+      "title": "Our product statistics",
+      "description": "Explore product metrics to gain insights into our progress, impact, and growth.",
+      "item_1": {
+        "title": "Supported Formats",
+        "description": "We support over 50 of the most widely used document formats."
+      },
+      "item_2": {
+        "title": "NuGet Downloads",
+        "description": "{{ProdShortName}} for .NET is a popular library with more than 650,000 downloads on NuGet."
+      },
+      "item_3": {
+        "title": "Maven Downloads",
+        "description": "Java developers have downloaded {{ProdShortName}} on Maven over 18,000 times."
+      },
+      "item_4": {
+        "title": "Happy Customers",
+        "description": "Our products are trusted by individual developers and leading companies worldwide to create innovative solutions."
+      }
+    },
+    "customers": {
+      "title": "Our Happy Customers",
+      "description": "GroupDocs libraries are used by some of the most renowned and respected brands across the globe."
+    },
+    "actions": {
+      "alt": "Licensing",
+      "title": "Ready to Get Started?",
+      "description": "Try the features of {{ProdShortName}} for free or request a license.",
+      "description_index": "Test {{ProdShortName}} features for free on your platform."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Browse our Frequently Asked Questions.",
+      "item_1": {
+        "question": "Does {{ProdShortName}} require any external libraries for document composing?",
+        "answer": "No, {{ProdShortName}} works independently and does not require third-party libraries like Adobe Acrobat or Microsoft Office."
+      },
+      "item_2": {
+        "question": "Can I test {{ProdShortName}} features before purchasing?",
+        "answer": "Yes, you can! {{ProdShortName}} offers a free trial. Install it and explore its features. The trial version adds 'trial badges' to your documents and only processes the first 3 pages. For the full experience, get a free 30-day temporary license to access all features. More details are available under [temporary license]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "What types of licenses are available?",
+        "answer": "Looking for a {{ProdShortName}} license? We offer a variety of options to suit your needs. Choose based on your team size, deployment location (single office or remote), and whether you need to share the SDK/API with clients for distribution. Alternatively, choose a monthly usage license with metered plans—pay only for what you use. Find the best option for you under [pricing]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} Low-Code APIs",
+      "description": "Generate documents using your application through our cloud-based REST API.",
+      "item_1": {
+        "content": "Use the cURL RESTful API to add data to Word, Excel, PowerPoint, and many other templates."
+      },
+      "item_2": {
+        "content": "Enhance your .NET applications by generating reports through the Cloud SDK. Display business data in your custom format."
+      },
+      "item_3": {
+        "content": "{{ProdShortName}} SDK offers different options for Java applications to generate various types of documents."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} Web Apps",
+      "description": "{{ProdShortName}} offers a free web application for generating documents. You can process more than 50 popular file formats directly in your browser, FOR FREE.",
+      "item_1": {
+        "content": "Generate reports in Excel, Word, PowerPoint, and many other file types directly from your web browser."
+      },
+      "item_2": {
+        "content": "Create Microsoft Word documents from templates and data sources."
+      },
+      "item_3": {
+        "content": "Upload a template and a data source to generate Excel reports for free."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Microsoft Office formats",
+      "title_2": "Images & Other Formats",
+      "title_3": "Other formats",
+      "format_portable": "Portable",
+      "format_other_office": "Other office formats",
+      "format_images": "Images",
+      "format_web": "Web",
+      "format_archives": "Archives",
+      "format_certificates": "Certificates"
+    }
+  },
+  "index-content-net": {
+    "head_title": "C# .NET Digital Signatures API - GroupDocs.Signature",
+    "head_description": "Integrate digital signatures processing in your .NET apps using GroupDocs.Signature. Secure your files with signatures quickly and efficiently.",
+    "title": "Sign documents via .NET API",
+    "description": "Sign digital documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users.",
+    "actions_main": "Free NuGet Download",
+    "code_title": "Sign PDF files in C#",
+    "overview_description": "API for performing document signing and related operations in .NET applications",
+    "overview_feature_1": {
+      "title": "Adding signatures to business documents in C#",
+      "description": "Documents signing: With GroupDocs.Signature for .NET, you can add various types of signatures, such as text, images, barcodes, and digital certificates, to PDF and Office documents. This API allows you to sign your documents with nearly any data type, including hidden metadata."
+    },
+    "overview_feature_2": {
+      "title": "Processing signed documents",
+      "description": "Additional processing: You can perform powerful operations on signed documents using GroupDocs.Signature. This includes searching for existing signatures within business documents and verifying them using specific criteria. Additionally, you can retrieve document information and preview pages through this .NET API."
+    },
+    "overview_feature_3": {
+      "title": "Customizing results",
+      "description": "GroupDocs.Signature for .NET offers extensive customization options. You can precisely position signatures anywhere on a document page and adjust their appearance using a variety of settings. Furthermore, this API supports saving processed documents in a wide range of supported formats."
+    },
+    "features": {
+      "title": "GroupDocs.Signature features",
+      "description": "Signing PDFs, Office Documents, and Images swiftly and accurately",
+      "feature_1": {
+        "title": "Document signing",
+        "content": "Add one or multiple supported types of signatures accurately at any specified position on business documents."
+      },
+      "feature_2": {
+        "title": "Customize signatures",
+        "content": "Utilize features such as color, font, border, rotation, etc., to configure the appearance of signatures."
+      },
+      "feature_3": {
+        "title": "Document password protection",
+        "content": "Secure certain document types by setting a password after signing."
+      },
+      "feature_4": {
+        "title": "Protection from changes",
+        "content": "Prevent changes to important business documents after appending a signature with a digital certificate."
+      },
+      "feature_5": {
+        "title": "Convert signed files to other formats",
+        "content": "Convert signed files to desired formats, such as saving a Word document as a PDF."
+      },
+      "feature_6": {
+        "title": "Extract page previews",
+        "content": "Extract pages from signed documents as individual images for future processing."
+      },
+      "feature_7": {
+        "title": "Signature search in documents",
+        "content": "Retrieve information about previously added signatures in specific documents."
+      },
+      "feature_8": {
+        "title": "Validate signed documents",
+        "content": "Verify the proper signing of documents using validation features."
+      },
+      "feature_9": {
+        "title": "Update or delete signatures",
+        "content": "Easily reposition specific signatures on a page, modify their text, or delete them without any issues."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature for .NET supports the following operating systems, frameworks and package managers",
+    "formats_description": "GroupDocs.Signature for .NET supports operations with the following [file formats](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "code_samples_description": "Some use cases of typical GroupDocs.Signature for .NET operations",
+    "code_title_sample_1": "Add QR-code to PDF",
+    "code_samples_sample_1_content_1": "Adding [QR-codes](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) to specific pages of PDF documents can enhance business processes.",
+    "code_samples_sample_1_content_2": "Below is an example of how to add a QR code using GroupDocs.Signature.",
+    "code_title_sample_2": "Protecting a DOCX document using a digital certificate",
+    "code_samples_sample_2_content_1": "You can [Protect a Document](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) using personal or corporate signatures stored as digital certificates.",
+    "code_samples_sample_2_content_2": "Such protected documents cannot be modified without invalidating the signature."
+  },
+  "index-content-java": {
+    "head_title": "Java Digital Signature Library - GroupDocs.Signature",
+    "head_description": "Empower Java apps by e-signatures with GroupDocs.Signature. Sign business documents quickly and effortlessly.",
+    "title": "Sign documents via {{EnvNameShort}} API",
+    "description": "Sign digital documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users.",
+    "actions_main": "Free Maven Download",
+    "code_title": "Sign PDF files in Java",
+    "overview_description": "API for performing document signing and related operations in Java applications",
+    "overview_feature_1": {
+      "title": "Improved business documents with digital signatures in Java",
+      "description": "Swift and customizable signing: GroupDocs.Signature for Java offers a wide range of digital signature options for PDFs, images, and Office documents. You can use text, barcodes, QR-codes, digital certificates, pictures, or hidden metadata. The document processing is fast and efficient."
+    },
+    "overview_feature_2": {
+      "title": "Manipulating signed documents",
+      "description": "Advanced document processing involves powerful operations on signed documents using GroupDocs.Signature for Java. You can search for and validate signatures that have been added to business documents using various useful criteria. Additionally, you can access detailed information about the document or obtain preview images of its pages."
+    },
+    "overview_feature_3": {
+      "title": "Variety of output choices",
+      "description": "Robust signing options allow you to customize the output for documents signed with GroupDocs.Signature for Java. You can precisely position any signature on any document page and configure its appearance in various ways. The Java API supports saving signed business documents in numerous supported formats and provides options for securing them with passwords."
+    },
+    "features": {
+      "title": "GroupDocs.Signature features",
+      "description": "Signing PDFs, Office Documents, and images with digital signatures",
+      "feature_1": {
+        "title": "Adding Signatures",
+        "content": "Sign a document using various supported signature types by placing a digital signature precisely at any position on any page."
+      },
+      "feature_2": {
+        "title": "Customizing results",
+        "content": "Customize the signature appearance by adjusting color, font, border, rotation, and other features to achieve the desired result."
+      },
+      "feature_3": {
+        "title": "Securing documents with password",
+        "content": "For many supported document types, you can protect the signed document with a password."
+      },
+      "feature_4": {
+        "title": "Preventing unauthorized changes",
+        "content": "Protect important business documents signed with a digital certificate from unauthorized modifications."
+      },
+      "feature_5": {
+        "title": "Obtaining results in desired formats",
+        "content": "Easily obtain signed result files in any supported format. You can also convert MS Word documents to PDF effortlessly."
+      },
+      "feature_6": {
+        "title": "Document preview",
+        "content": "Save any page of a document as an image for future processing."
+      },
+      "feature_7": {
+        "title": "Searching for signatures",
+        "content": "It is possible to get information about previously added signatures in specific documents."
+      },
+      "feature_8": {
+        "title": "Validating documents",
+        "content": "Validate the correctness of signatures on any signed document."
+      },
+      "feature_9": {
+        "title": "Managing signatures",
+        "content": "Once a signature is placed on a document page, it can be deleted, moved, or updated as needed."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature for Java supports the following operating systems, frameworks and package managers",
+    "formats_description": "GroupDocs.Signature for Java supports operations with the following [file formats](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "code_samples_description": "Some use cases of typical GroupDocs.Signature for Java operations",
+    "code_title_sample_1": "Enhance PDF document with QR-code",
+    "code_samples_sample_1_content_1": "Enhancing business processes by adding [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) to specific pages of PDF documents can be valuable.",
+    "code_samples_sample_1_content_2": "There is an example of how to add a QR code using GroupDocs.Signature for Java.",
+    "code_title_sample_2": "Use digital signature to protect a DOCX",
+    "code_samples_sample_2_content_1": "You can [Safeguard a Document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) using personal or corporate signatures stored as digital certificates.",
+    "code_samples_sample_2_content_2": "Documents secured with certificate cannot be altered without invalidating the signature."
+  }
+}

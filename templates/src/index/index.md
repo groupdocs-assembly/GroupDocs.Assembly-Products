@@ -1,34 +1,36 @@
+﻿<% configRef "..\\..\\configs\\index\\index.yml" %>
+<% include "..\\..\\data\\family_data.md" %>
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-11-25T17:01:55
+date:  <% date "utcnow" %>
 draft: false
 
 product: "Assembly"
 product_tag: "assembly"
 
-lang: en
+lang: <% lower ( get "lang") %>
 
 ############################# Head ############################
-head_title: ".NET, Java APIs & Online Document Assembly Apps by GroupDocs"
-head_description: "Get all-in-one Document Automation & Reporting Solution for .NET and Java applications. Generate all common documents from custom templates and data."
+head_title: "<% "{index-content.head_title}" %>"
+head_description: "<% "{index-content.head_description}" %>"
 
 ############################# Header ############################
-title: "Document Automation and Reporting Solution"
+title: "<% "{index-content.title}" %>"
 description:  |
-  Easily create detailed reports using templates and data sources with our cross-platform apps and APIs.
+  <% "{index-content.description_1}" %>
 
-  Generate reports in formats like Word, Excel, Presentations, and many more using templates with flexible markup.
+  <% "{index-content.description_2}" %>
 
-  Populate charts, barcodes, tables, and other elements with data from sources like JSON, XML, CSV, etc.
+  <% "{index-content.description_3}" %>
 
 ############################# Supported Platforms ###############################
 supported_platforms:
   enable: true
-  head_title: "Choose your platform"
-  title: "Platform independence"
-  description: "GroupDocs.Assembly is compatible with the following operating systems and frameworks:"
-  details_link_title: "Learn more"
+  head_title: "<% "{index-content.platforms.head_title}" %>"
+  title: "<% "{index-content.platforms.title}" %>"
+  description: "<% "{index-content.platforms.description}" %>"
+  details_link_title: "<% "{index-content.platforms.learn_more}" %>"
 
   items:
     # items loop
@@ -92,58 +94,58 @@ supported_platforms:
 ############################# Features ###############################
 features:
   enable: true
-  title: "GroupDocs.Assembly key features"
-  description: "This solution helps you create reports in popular document formats, automatically filled with your business data. Easily automate your document generation tasks."
+  title: "<% "{index-content.features.title}" %>"
+  description: "<% "{index-content.features.description}" %>"
 
   items:
     # items loop
     - icon: "additional"
-      title: "Populate templates with data"
-      content: "Fill reports using data from supported sources."
+      title: "<% "{index-content.features.feature_1.title}" %>"
+      content: "<% "{index-content.features.feature_1.content}" %>"
 
     # items loop
     - icon: "manipulate"
-      title: "Flexible markup"
-      content: "Add data to documents in a customizable way."
+      title: "<% "{index-content.features.feature_2.title}" %>"
+      content: "<% "{index-content.features.feature_2.content}" %>"
 
     # items loop
     - icon: "structure"
-      title: "Native document features"
-      content: "Display data using tables, charts, and barcodes."
+      title: "<% "{index-content.features.feature_3.title}" %>"
+      content: "<% "{index-content.features.feature_3.content}" %>"
 
     # items loop
     - icon: "merge"
-      title: "All popular formats"
-      content: "Supports all commonly used document formats."
+      title: "<% "{index-content.features.feature_4.title}" %>"
+      content: "<% "{index-content.features.feature_4.content}" %>"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "Generate well-customized reports"
-  description: "GroupDocs.Assembly code examples"
+  title: "<% "{index-content.code_samples.index_title}" %>"
+  description: "<% "{index-content.code_samples.index_description}" %>"
   items:
     # code sample loop
-    - title: "Using Generated Barcodes"
+    - title: "<% "{index-content.code_samples.sample_index.title}" %>"
       content: |
-       GroupDocs.Assembly allows barcode markup in report templates. When creating a report, a barcode is generated based on the markup and provided data. Specify the path to the template containing the text, data objects, and markup. Also, specify the data source to fill the barcode with content.
+       <% "{index-content.code_samples.sample_index.content}" %>
       samples:
         - language: "C#"
           color: "blue"
           content: |
             ```csharp {style=abap}   
-            // Create an instance of the DocumentAssembler class
+            // <% "{index-content.code_samples.sample_index.comment_1}" %>
             DocumentAssembler assembler = new DocumentAssembler();
 
-            //Specify the path to the template
+            //<% "{index-content.code_samples.sample_index.comment_2}" %>
             var tmp_path = "barcode_template.docx";
 
-            //Specify the path for the result document
+            //<% "{index-content.code_samples.sample_index.comment_3}" %>
             var res_path = "result.docx";
 
-            //Create an instance of the datasource
+            //<% "{index-content.code_samples.sample_index.comment_4}" %>
             var data = new DataSourceInfo(DataLayer.GetCustomerData(), "customer");
 
-            //Call AssembleDocument to generate the report
+            //<% "{index-content.code_samples.sample_index.comment_5}" %>
             assembler.AssembleDocument(tmp_path, res_path, data);
 
             ```
@@ -151,19 +153,19 @@ code_samples:
           color: "red"
           content: |
             ```java {style=abap}   
-            // Create an instance of the DocumentAssembler class
+            // <% "{index-content.code_samples.sample_index.comment_1}" %>
             DocumentAssembler assembler = new DocumentAssembler();
             
-            //Specify the path to the template
+            //<% "{index-content.code_samples.sample_index.comment_2}" %>
             String tmp_path = "barcode_template.docx";
 
-            //Specify the path for the result document
+            //<% "{index-content.code_samples.sample_index.comment_3}" %>
             String res_path = "result.docx";
 
-            //Create an instance of the datasource
+            //<% "{index-content.code_samples.sample_index.comment_4}" %>
             DataSourceInfo data = new DataSourceInfo(new DataStorage(), null);
 
-            // Call AssembleDocument to generate the report
+            // <% "{index-content.code_samples.sample_index.comment_5}" %>
             assembler.assembleDocument(tmp_path, res_path, data);
 
             ```
@@ -172,42 +174,42 @@ code_samples:
 ############################# Supported Formats ###############################
 formats:
   enable: true
-  title: "Supports 50+ file formats"
-  description: "GroupDocs.Assembly works with nearly all popular file formats"
+  title: "<% "{index-content.formats.title}" %>"
+  description: "<% "{index-content.formats.description}" %>"
 
 ############################# Metrics ###############################
 metrics:
   enable: true
-  title: "Our product statistics"
-  description: "Explore product metrics to gain insights into our progress, impact, and growth."
+  title: "<% "{index-content.metrics.title}" %>"
+  description: "<% "{index-content.metrics.description}" %>"
 
   items:
     # items loop
     - number: "50+"
-      title: "Supported Formats"
-      content: "We support over 50 of the most widely used document formats."
+      title: "<% "{index-content.metrics.item_1.title}" %>"
+      content: "<% "{index-content.metrics.item_1.description}" %>"
 
     # items loop
     - number: "650k"
-      title: "NuGet Downloads"
-      content: "GroupDocs.Assembly for .NET is a popular library with more than 650,000 downloads on NuGet."
+      title: "<% "{index-content.metrics.item_2.title}" %>"
+      content: "<% "{index-content.metrics.item_2.description}" %>"
 
     # items loop
     - number: "18k"
-      title: "Maven Downloads"
-      content: "Java developers have downloaded GroupDocs.Assembly on Maven over 18,000 times."
+      title: "<% "{index-content.metrics.item_3.title}" %>"
+      content: "<% "{index-content.metrics.item_3.description}" %>"
 
     # items loop
     - number: "150+"
-      title: "Happy Customers"
-      content: "Our products are trusted by individual developers and leading companies worldwide to create innovative solutions."
+      title: "<% "{index-content.metrics.item_4.title}" %>"
+      content: "<% "{index-content.metrics.item_4.description}" %>"
 
 
 ############################# Customers ###############################
 customers:
   enable: true
-  title: "Our Happy Customers"
-  description: "GroupDocs libraries are used by some of the most renowned and respected brands across the globe."
+  title: "<% "{index-content.customers.title}" %>"
+  description: "<% "{index-content.customers.description}" %>"
 
   items:
     # items loop
@@ -254,8 +256,8 @@ customers:
 ############################# Actions ###############################
 actions:
   enable: true
-  title: "Ready to Get Started?"
-  description: "Test GroupDocs.Assembly features for free on your platform."
+  title: "<% "{index-content.actions.title}" %>"
+  description: "<% "{index-content.actions.description_index}" %>"
 
   items:
     # items loop
@@ -271,69 +273,69 @@ actions:
 ############################# FAQ ###############################
 faq:
   enable: true
-  title: "Frequently Asked Questions"
-  description: "Browse our Frequently Asked Questions."
+  title: "<% "{index-content.faq.title}" %>"
+  description: "<% "{index-content.faq.description}" %>"
 
   items:
     # items loop
-    - question: "Does GroupDocs.Assembly require any external libraries for document composing?"
-      answer: "No, GroupDocs.Assembly works independently and does not require third-party libraries like Adobe Acrobat or Microsoft Office."
+    - question: "<% "{index-content.faq.item_1.question}" %>"
+      answer: "<% "{index-content.faq.item_1.answer}" %>"
 
     # items loop
-    - question: "Can I test GroupDocs.Assembly features before purchasing?"
-      answer: "Yes, you can! GroupDocs.Assembly offers a free trial. Install it and explore its features. The trial version adds 'trial badges' to your documents and only processes the first 3 pages. For the full experience, get a free 30-day temporary license to access all features. More details are available under [temporary license](https://purchase.groupdocs.com/temporary-license/)."
+    - question: "<% "{index-content.faq.item_2.question}" %>"
+      answer: "<% "{index-content.faq.item_2.answer}" %>"
 
     # items loop
-    - question: "What types of licenses are available?"
-      answer: "Looking for a GroupDocs.Assembly license? We offer a variety of options to suit your needs. Choose based on your team size, deployment location (single office or remote), and whether you need to share the SDK/API with clients for distribution. Alternatively, choose a monthly usage license with metered plans—pay only for what you use. Find the best option for you under [pricing](https://purchase.groupdocs.com/pricing/assembly/net/)."
+    - question: "<% "{index-content.faq.item_3.question}" %>"
+      answer: "<% "{index-content.faq.item_3.answer}" %>"
 
 ############################# Cloud Links ###############################
 cloud_links:
   enable: true
-  title: "GroupDocs.Assembly Low-Code APIs"
-  description: "Generate documents using your application through our cloud-based REST API."
+  title: "<% "{index-content.cloud_links.title}" %>"
+  description: "<% "{index-content.cloud_links.description}" %>"
   
   items:
     # items loop
     - title: "GroupDocs.Assembly Cloud for cURL"
-      content: "Use the cURL RESTful API to add data to Word, Excel, PowerPoint, and many other templates."
+      content: "<% "{index-content.cloud_links.item_1.content}" %>"
       icon: "groupdocs_assembly-for-curl"
       link: "https://products.groupdocs.cloud/assembly/curl"
 
     # items loop
     - title: "GroupDocs.Assembly Cloud for .NET"
-      content: "Enhance your .NET applications by generating reports through the Cloud SDK. Display business data in your custom format."
+      content: "<% "{index-content.cloud_links.item_2.content}" %>"
       icon: "groupdocs_assembly-for-net"
       link: "https://products.groupdocs.cloud/assembly/net"
 
     # items loop
     - title: "GroupDocs.Assembly Cloud for Java"
-      content: "GroupDocs.Assembly SDK offers different options for Java applications to generate various types of documents."
+      content: "<% "{index-content.cloud_links.item_3.content}" %>"
       icon: "groupdocs_assembly-for-java"
       link: "https://products.groupdocs.cloud/assembly/java"
 
 ############################# App links ###############################
 app_links:
   enable: true
-  title: "GroupDocs.Assembly Web Apps"
-  description: "GroupDocs.Assembly offers a free web application for generating documents. You can process more than 50 popular file formats directly in your browser, FOR FREE."
+  title: "<% "{index-content.app_links.title}" %>"
+  description: "<% "{index-content.app_links.description}" %>"
 
   items:
     # items loop
     - title: "GroupDocs.Assembly Total"
-      content: "Generate reports in Excel, Word, PowerPoint, and many other file types directly from your web browser."
+      content: "<% "{index-content.app_links.item_1.content}" %>"
       icon: "groupdocs_watermark-app"
       link: "https://products.groupdocs.app/assembly/total"
 
     # items loop
     - title: "GroupDocs.Assembly Word"
-      content: "Create Microsoft Word documents from templates and data sources."
+      content: "<% "{index-content.app_links.item_2.content}" %>"
       icon: "groupdocs_words-app"
       link: "https://products.groupdocs.app/assembly/docx"
 
     # items loop
     - title: "GroupDocs.Assembly Excel"
-      content: "Upload a template and a data source to generate Excel reports for free."
+      content: "<% "{index-content.app_links.item_3.content}" %>"
       icon: "groupdocs_pdf-app"
       link: "https://products.groupdocs.app/assembly/xlsx"
 

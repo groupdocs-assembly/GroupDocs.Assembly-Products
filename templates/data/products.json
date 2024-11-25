@@ -1,0 +1,72 @@
+{
+  "products": {
+    "nameCompany": "GroupDocs",
+    "nameProduct": "Assembly",
+    "productShortName": "GroupDocs.Assembly",
+    "licensingUrl": "https://purchase.groupdocs.com/temporary-license/",
+    "pricingUrl": "https://purchase.groupdocs.com/pricing/assembly/net/",
+    "textAssembly": "Assembly",
+    "documentAssembler": "DocumentAssembler",
+    "assembleDocument": "AssembleDocument",
+    "verifyOptions": "VerifyOptions",
+    "textSignOptions": "TextSignOptions",
+    "textSearchOptions": "TextSearchOptions",
+    "textVerifyOptions": "TextVerifyOptions",
+    "barcodeSignOptions": "BarcodeSignOptions",
+    "qrCodeSignOptions": "QrCodeSignOptions",
+    "imageSignOptions": "ImageSignOptions",
+    "stampSignOptions": "StampSignOptions",
+    "aspNet": "ASP.NET",
+    "coreNet": ".NET Core",
+    "mono": "Mono",
+    "net": {
+      "environmentName": ".NET",
+      "environmentNameShort": ".NET",
+      "productCode": "net",
+      "productPlatformLink": "/assembly/net/",
+      "productFullName": "GroupDocs.Assembly for .NET",
+
+      "programmingLanguage": "C#",
+      "srcFileExt": ".cs",
+      "syntax": "csharp",
+      "runtime": "Frameworks: .NET Framework, .NET Standard, .NET Core, Mono",
+
+      "productUrl": "https://products.groupdocs.com/assembly/net/",
+      "packageStoreName": "Nuget",
+      "packageUrl": "https://www.nuget.org/packages/GroupDocs.Assembly",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/assembly/net/",
+      "docsUrl": "https://docs.groupdocs.com/assembly/net/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/assembly/net/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/assembly/net/find-assembly-properties/",
+      "sample2Url": "https://docs.groupdocs.com/assembly/net/adding-assembly/",
+
+      "more_link": "https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-.NET/",
+      "release_downloads": "https://releases.groupdocs.com/assembly/net/"
+    },
+    "java": {
+      "environmentName": "Java",
+      "environmentNameShort": "Java",
+      "productCode": "java",
+      "productPlatformLink": "/assembly/java/",
+      "productFullName": "GroupDocs.Assembly for Java",
+
+      "programmingLanguage": "Java",
+      "srcFileExt": ".java",
+      "syntax": "java",
+      "runtime": "Java runtime: J2SE 6.0 and above",
+
+      "productUrl": "https://products.groupdocs.com/assembly/java/",
+      "packageStoreName": "Maven",
+      "packageUrl": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-assembly/",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/assembly/java/",
+      "docsUrl": "https://docs.groupdocs.com/assembly/java/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/assembly/java/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/assembly/java/find-assembly-properties/",
+      "sample2Url": "https://docs.groupdocs.com/assembly/java/adding-assembly/",
+
+      "more_link": "https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-Java/",
+      "release_downloads": "https://releases.groupdocs.com/assembly/java/"
+
+    }
+  }
+}
