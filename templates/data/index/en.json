@@ -238,73 +238,73 @@
     "code_samples_sample_2_content_2": "Enhance your reports with visually appealing data representations."
   },
   "index-content-java": {
-    "head_title": "Java API for Document Automation, Assembly & Report Generation",
-    "head_description": "Java API for document automation, assembly, and report generation. Create PDF, Word, Excel, PPTX, HTML, and email documents from custom templates.",
-    "title": "Java Document Automation & Reporting API",
-    "description": "Generate reports in Java applications by defining templates and merging data.",
-    "actions_main": "Download Trial via NuGet",
-    "code_title": "Fill a Chart in DOCX Using Java",
-    "overview_description": "Java solution for automating document creation with advanced data integration.",
+    "head_title": "Java Library for Document Creation, Automation & Reporting",
+    "head_description": "Java library for automating document creation and generating reports. Create PDF, Word, Excel, PPTX, HTML, and email documents using custom templates.",
+    "title": "Java API for Automating Reports and Documents",
+    "description": "Simplify report generation in Java by merging data with templates.",
+    "actions_main": "Get Trial via NuGet",
+    "code_title": "Generate a Chart in DOCX with Java",
+    "overview_description": "A Java library designed for automated document creation and seamless data integration.",
     "overview_feature_1": {
-      "title": "Add Business Data to Document Templates with Java",
-      "description": "Report generation made easy: With {{ProdFullName}}, you can effortlessly insert data from sources like JSON or XML into predefined templates."
+      "title": "Merge Business Data into Templates with Java",
+      "description": "Easily create professional reports by embedding data from JSON, XML, or other sources into pre-designed templates using {{ProdFullName}}."
     },
     "overview_feature_2": {
-      "title": "Process Native Data Objects",
-      "description": "Supported document types include embedded objects like diagrams, charts, tables, and lists that can be populated automatically with data."
+      "title": "Work with Embedded Objects",
+      "description": "Automatically populate elements like tables, charts, and diagrams in documents using data from external sources."
     },
     "overview_feature_3": {
-      "title": "Additional Features",
-      "description": "{{ProdFullName}} provides extensive customization options. Programmatically design data objects, generate barcodes, use online data sources via URLs, and save output in various formats."
+      "title": "Advanced Customization",
+      "description": "{{ProdFullName}} offers flexible features like generating barcodes, pulling online data through URLs, and exporting output in different formats."
     },
     "features": {
-      "title": "{{ProdShortName}} Features",
-      "description": "Create documents and reports using advanced data models.",
+      "title": "Key Capabilities of {{ProdShortName}}",
+      "description": "Create professional documents and reports with advanced data handling.",
       "feature_1": {
-        "title": "Advanced Data Representation",
-        "content": "Supports a wide range of data objects such as charts, lists, tables, images, and more."
+        "title": "Visual Data Elements",
+        "content": "Add and format elements like charts, tables, images, and lists directly in your documents."
       },
       "feature_2": {
-        "title": "Data Manipulation",
-        "content": "Apply formulas and sequential operations to format and display data effectively."
+        "title": "Data Transformation",
+        "content": "Use formulas, sorting, and other tools to organize and present your data effectively."
       },
       "feature_3": {
-        "title": "Wide Range of Supported Formats",
-        "content": "Work seamlessly with all common document formats for templates or output files."
+        "title": "Support for Multiple Formats",
+        "content": "Easily work with common file types for both templates and output files."
       },
       "feature_4": {
-        "title": "Rich Template Markup",
-        "content": "Leverage ordinal, cardinal, and alphabetic numeric formatting in templates."
+        "title": "Enhanced Template Formatting",
+        "content": "Customize templates with numeric, alphabetic, and other advanced formatting options."
       },
       "feature_5": {
-        "title": "Embed Barcodes",
-        "content": "Generate barcode images dynamically and insert them into your documents."
+        "title": "Dynamic Barcode Generation",
+        "content": "Quickly create and insert barcode images into documents as needed."
       },
       "feature_6": {
-        "title": "Data Formatting",
-        "content": "Format strings in templates as uppercase, lowercase, capitalized, or first-letter capital styles."
+        "title": "Flexible Text Styling",
+        "content": "Apply text transformations like uppercase, lowercase, title case, or other styles in templates."
       },
       "feature_7": {
-        "title": "Document Content Manipulation",
-        "content": "Dynamically insert content from external documents into your reports."
+        "title": "Import External Content",
+        "content": "Embed content from external files dynamically while generating documents."
       },
       "feature_8": {
-        "title": "Save in Multiple Formats",
-        "content": "Specify the output file format using file extensions or detailed configurations."
+        "title": "Export in Multiple Formats",
+        "content": "Save final documents in various file formats using specified extensions or configurations."
       },
       "feature_9": {
-        "title": "Flexible Data Processing",
-        "content": "Insert images and documents dynamically using Base64-encoded bytes."
+        "title": "Dynamic Media Embedding",
+        "content": "Insert images or other content using Base64-encoded data during document creation."
       }
     },
-    "platforms_description": "{{ProdFullName}} is compatible with the following operating systems, frameworks, and package managers.",
-    "formats_description": "{{ProdFullName}} can process the following [file formats](https://docs.groupdocs.com/assembly/java/supported-document-formats/).",
-    "code_samples_description": "Code snippets for typical {{ProdShortName}} operations.",
-    "code_title_sample_1": "Bulleted List in a Microsoft Word Document",
-    "code_samples_sample_1_content_1": "[Bulleted lists](https://docs.groupdocs.com/assembly/java/bulleted-list-in-word-processing-document/) are a common way to present business data.",
-    "code_samples_sample_1_content_2": "Here's an example of adding a list to a Word document using {{ProdShortName}}.",
-    "code_title_sample_2": "Pie Charts in PPTX Presentations",
-    "code_samples_sample_2_content_1": "You can create [Pie Charts](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/) using templates and XML data.",
-    "code_samples_sample_2_content_2": "Enhance your reports with visually appealing data representations."
+    "platforms_description": "{{ProdFullName}} works seamlessly with popular operating systems, development frameworks, and package managers.",
+    "formats_description": "{{ProdFullName}} supports a wide range of [document formats](https://docs.groupdocs.com/assembly/java/supported-document-formats/).",
+    "code_samples_description": "Explore sample code for common tasks with {{ProdShortName}}.",
+    "code_title_sample_1": "Create a Bulleted List in Word",
+    "code_samples_sample_1_content_1": "Learn how to add [bulleted lists](https://docs.groupdocs.com/assembly/java/bulleted-list-in-word-processing-document/) to Word documents for organized data representation.",
+    "code_samples_sample_1_content_2": "This example shows how to generate a list in Word using {{ProdShortName}}.",
+    "code_title_sample_2": "Create Pie Charts in PPTX",
+    "code_samples_sample_2_content_1": "Use templates and XML to add [pie charts](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/) to your presentations.",
+    "code_samples_sample_2_content_2": "Make your reports more engaging by including pie charts to visualize data."
   }
 }
