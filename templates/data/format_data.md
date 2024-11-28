@@ -24,7 +24,7 @@
 <% set "TextSignature" (dict "products.textSignature") %>
 <% set "DocumentAssembler" (dict "products.documentAssembler") %>
 <% set "AssembleDocument" (dict "products.assembleDocument") %>
-<% set "VerifyOptions" (dict "products.verifyOptions") %>
+<% set "DataSourceInfo" (dict "products.dataSourceInfo") %>
 <% set "TextSignOptions" (dict "products.textSignOptions") %>
 <% set "TextSearchOptions" (dict "products.textSearchOptions") %>
 <% set "TextVerifyOptions" (dict "products.textVerifyOptions") %>

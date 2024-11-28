@@ -12,10 +12,11 @@
     "release_downloads": "Downloads",
     "code_more": "More examples",
     "overview_title": "{{ProdShortName}} Overview",
-    "code_comment_1": "Select document",
-    "code_comment_2": "Provide text",
-    "code_comment_3": "Set color",
-    "code_comment_4": "Sign document and save to file",
+    "code_comment_1": "Path to the main template",
+    "code_comment_2": "Retrieve managers' productivity data from the source",
+    "code_comment_3": "Create an instance of {{DataSourceInfo}} with the data",
+    "code_comment_4": "Set chart colors using another {{DataSourceInfo}}",
+    "code_comment_5": "Fill the template with data and save it to the output",
     "formats_title": "Supported file formats",
     "platforms": {
       "title": "Platform independence",
@@ -63,18 +64,23 @@
         "comment_5": "Call {{AssembleDocument}} to generate the report"
       },
       "sample_1": {
-        "code_title": "How to put QR code to .",
-        "comment_1": "Load the document to sign",
-        "comment_2": "Create QR code options with predefined text",
-        "comment_3": "Configure QR code encoding type and position on the page",
-        "comment_4": "Sign the document and save it as the result file"
+        "code_title": "How to populate list in documents.",
+        "comment_1": "Put such template on a document page:",
+        "comment_2": "Managers' performance indicators",
+        "comment_3": "Provide template path",
+        "comment_4": "Set output path",
+        "comment_5": "Get managers data from JSON source",
+        "comment_6": "Create report with filled data"
       },
       "sample_2": {
-        "code_title": "Here is how to ensure document integrity.",
-        "comment_1": "Load the document to be digitally signed",
-        "comment_2": "Specify digital signing options and provide the path to the certificate file",
-        "comment_3": "Set the certificate password",
-        "comment_4": "Sign the document and save it to the desired path"
+        "code_title": "How to represent data in pie chart.",
+        "comment_1": "Add to presentation chart title template:",
+        "comment_2": "Customers' revenue",
+        "comment_3": "Also add chart data template:",
+        "comment_4": "Provide chart template path",
+        "comment_5": "Set path to result document",
+        "comment_6": "Get customers data from XML source",
+        "comment_7": "Populate chart and save result"
       }
     },
     "metrics": {
@@ -157,87 +163,87 @@
       "format_other_office": "Other office formats",
       "format_images": "Images",
       "format_web": "Web",
-      "format_archives": "Archives",
-      "format_certificates": "Certificates"
+      "format_emails": "Emails",
+      "format_other": "Other"
     }
   },
   "index-content-net": {
-    "head_title": "C# .NET Digital Signatures API - GroupDocs.Signature",
-    "head_description": "Integrate digital signatures processing in your .NET apps using GroupDocs.Signature. Secure your files with signatures quickly and efficiently.",
-    "title": "Sign documents via .NET API",
-    "description": "Sign digital documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users.",
-    "actions_main": "Free NuGet Download",
-    "code_title": "Sign PDF files in C#",
-    "overview_description": "API for performing document signing and related operations in .NET applications",
+    "head_title": ".NET API for Document Automation, Assembly & Reports Generation",
+    "head_description": "C# .NET Document automation, assembly & reports generation API. Create PDF Word Excel PPTX HTML & email documents from custom templates.",
+    "title": ".NET Document Automation & Reporting API",
+    "description": "Generate Reports in .NET Applications by Defining Templates, and Merging the Data.",
+    "actions_main": "Trial NuGet Download",
+    "code_title": "Fill chart in DOCX using C#",
+    "overview_description": ".NET solution for automating document creation with advanced data integration.",
     "overview_feature_1": {
-      "title": "Adding signatures to business documents in C#",
-      "description": "Documents signing: With GroupDocs.Signature for .NET, you can add various types of signatures, such as text, images, barcodes, and digital certificates, to PDF and Office documents. This API allows you to sign your documents with nearly any data type, including hidden metadata."
+      "title": "Add Business Data to Document Templates with C#",
+      "description": "Report Generation: With GroupDocs.Assembly for .NET, easily insert data from various sources like JSON or XML into predefined templates."
     },
     "overview_feature_2": {
-      "title": "Processing signed documents",
-      "description": "Additional processing: You can perform powerful operations on signed documents using GroupDocs.Signature. This includes searching for existing signatures within business documents and verifying them using specific criteria. Additionally, you can retrieve document information and preview pages through this .NET API."
+      "title": "Process Native Data Objects",
+      "description": "Supported document types can include various embedded objects to represent data. Diagrams, charts, tables, lists, and more can be automatically populated with data."
     },
     "overview_feature_3": {
-      "title": "Customizing results",
-      "description": "GroupDocs.Signature for .NET offers extensive customization options. You can precisely position signatures anywhere on a document page and adjust their appearance using a variety of settings. Furthermore, this API supports saving processed documents in a wide range of supported formats."
+      "title": "Additional Features",
+      "description": "GroupDocs.Assembly for .NET offers extensive customization options. Programmatically design data objects, generate custom elements like barcodes, use online data sources via URLs, and save outputs in your desired formats."
     },
     "features": {
-      "title": "GroupDocs.Signature features",
-      "description": "Signing PDFs, Office Documents, and Images swiftly and accurately",
+      "title": "GroupDocs.Assembly Features",
+      "description": "Create documents and reports using efficient data models.",
       "feature_1": {
-        "title": "Document signing",
-        "content": "Add one or multiple supported types of signatures accurately at any specified position on business documents."
+        "title": "Advanced Data Representation",
+        "content": "Supports a variety of data objects such as charts, lists, tables, images, and more."
       },
       "feature_2": {
-        "title": "Customize signatures",
-        "content": "Utilize features such as color, font, border, rotation, etc., to configure the appearance of signatures."
+        "title": "Data Manipulation",
+        "content": "Use formulas and sequential data operations to display data the way you need."
       },
       "feature_3": {
-        "title": "Document password protection",
-        "content": "Secure certain document types by setting a password after signing."
+        "title": "Wide Range of Supported Formats",
+        "content": "Work with all common document formats as templates or output files."
       },
       "feature_4": {
-        "title": "Protection from changes",
-        "content": "Prevent changes to important business documents after appending a signature with a digital certificate."
+        "title": "Rich Template Markup",
+        "content": "Apply ordinal, cardinal, and alphabetic numeric formatting in templates."
       },
       "feature_5": {
-        "title": "Convert signed files to other formats",
-        "content": "Convert signed files to desired formats, such as saving a Word document as a PDF."
+        "title": "Embed Barcodes",
+        "content": "Generate barcode images dynamically and embed them into your documents."
       },
       "feature_6": {
-        "title": "Extract page previews",
-        "content": "Extract pages from signed documents as individual images for future processing."
+        "title": "Data Formatting",
+        "content": "Format strings in templates to upper case, lower case, capitalized, or first-capital styles."
       },
       "feature_7": {
-        "title": "Signature search in documents",
-        "content": "Retrieve information about previously added signatures in specific documents."
+        "title": "Document Content Manipulation",
+        "content": "Insert content from external documents dynamically into your reports."
       },
       "feature_8": {
-        "title": "Validate signed documents",
-        "content": "Verify the proper signing of documents using validation features."
+        "title": "Save in Multiple Formats",
+        "content": "Define the output file format using file extensions or explicit specifications."
       },
       "feature_9": {
-        "title": "Update or delete signatures",
-        "content": "Easily reposition specific signatures on a page, modify their text, or delete them without any issues."
+        "title": "Flexible Data Processing",
+        "content": "Dynamically insert images and documents from Base64-encoded bytes."
       }
     },
-    "platforms_description": "GroupDocs.Signature for .NET supports the following operating systems, frameworks and package managers",
-    "formats_description": "GroupDocs.Signature for .NET supports operations with the following [file formats](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
-    "code_samples_description": "Some use cases of typical GroupDocs.Signature for .NET operations",
-    "code_title_sample_1": "Add QR-code to PDF",
-    "code_samples_sample_1_content_1": "Adding [QR-codes](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) to specific pages of PDF documents can enhance business processes.",
-    "code_samples_sample_1_content_2": "Below is an example of how to add a QR code using GroupDocs.Signature.",
-    "code_title_sample_2": "Protecting a DOCX document using a digital certificate",
-    "code_samples_sample_2_content_1": "You can [Protect a Document](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) using personal or corporate signatures stored as digital certificates.",
-    "code_samples_sample_2_content_2": "Such protected documents cannot be modified without invalidating the signature."
+    "platforms_description": "{{ProdFullName}} works with the following operating systems, frameworks and package managers",
+    "formats_description": "{{ProdFullName}} is able to process following [file formats](https://docs.groupdocs.com/assembly/net/supported-document-formats/).",
+    "code_samples_description": "Code snippets for typical {{ProdShortName}} operations",
+    "code_title_sample_1": "Bulleted List in Microsoft Word Document",
+    "code_samples_sample_1_content_1": "[Bulleted List](https://docs.groupdocs.com/assembly/net/bulleted-list-in-word-processing-document/) is a common way to represent business data.",
+    "code_samples_sample_1_content_2": "There is an example of how to add a list to Word document by {{ProdShortName}}.",
+    "code_title_sample_2": "Pie Charts in PPTX presentations",
+    "code_samples_sample_2_content_1": "You can add [Pie Charts](https://docs.groupdocs.com/assembly/net/pie-chart-in-presentation-document/) by templates and XML data.",
+    "code_samples_sample_2_content_2": "Enrich your reports with visual data representation."
   },
   "index-content-java": {
-    "head_title": "Java Digital Signature Library - GroupDocs.Signature",
-    "head_description": "Empower Java apps by e-signatures with GroupDocs.Signature. Sign business documents quickly and effortlessly.",
-    "title": "Sign documents via {{EnvNameShort}} API",
-    "description": "Sign digital documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users.",
-    "actions_main": "Free Maven Download",
-    "code_title": "Sign PDF files in Java",
+    "head_title": "Java Document Automation Assembly & Dynamic Reports Generator API",
+    "head_description": "Java API for document automation, assembly & reporting. Create reports from custom templates. Assemble PDF Word Excel PPTX HTML from DB, JSON, OData & XML data sources.",
+    "title": "Java API to Automate Documents & Reports",
+    "description": "Build Document Automation Applications to Fetch Data; put it in Customizable Templates & Generate Dynamic Reports via Java API.",
+    "actions_main": "Maven Download for Free",
+    "code_title": "Fill chart in DOCX using Java",
     "overview_description": "API for performing document signing and related operations in Java applications",
     "overview_feature_1": {
       "title": "Improved business documents with digital signatures in Java",
@@ -292,7 +298,7 @@
       }
     },
     "platforms_description": "GroupDocs.Signature for Java supports the following operating systems, frameworks and package managers",
-    "formats_description": "GroupDocs.Signature for Java supports operations with the following [file formats](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "formats_description": "GroupDocs.Signature for Java supports operations with the following [file formats](https://docs.groupdocs.com/assembly/java/supported-document-formats/).",
     "code_samples_description": "Some use cases of typical GroupDocs.Signature for Java operations",
     "code_title_sample_1": "Enhance PDF document with QR-code",
     "code_samples_sample_1_content_1": "Enhancing business processes by adding [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) to specific pages of PDF documents can be valuable.",

@@ -8,7 +8,7 @@
     "textAssembly": "Assembly",
     "documentAssembler": "DocumentAssembler",
     "assembleDocument": "AssembleDocument",
-    "verifyOptions": "VerifyOptions",
+    "dataSourceInfo": "DataSourceInfo",
     "textSignOptions": "TextSignOptions",
     "textSearchOptions": "TextSearchOptions",
     "textVerifyOptions": "TextVerifyOptions",

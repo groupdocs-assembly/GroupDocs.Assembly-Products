@@ -7,8 +7,8 @@ date: <% date "utcnow" %>
 draft: false
 
 lang: <% lower ( get "lang") %>
-product: "Signature"
-product_tag: "signature"
+product: "Assembly"
+product_tag: "assembly"
 platform: "Java"
 platform_tag: "java"
 
@@ -21,12 +21,6 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
-    # supported_platforms loop
-    - title: "Node.js"
-      tag: "nodejs-java" 
-    # supported_platforms loop
-    - title: "Python"
-      tag: "python-net" 
 
 ############################# Head ############################
 head_title: "<% "{index-content-java.head_title}" %>"
@@ -59,22 +53,28 @@ code:
   install: |
     <dependency>
       <groupId>com.groupdocs</groupId>
-      <artifactId>groupdocs-signature</artifactId>
+      <artifactId>groupdocs-assembly</artifactId>
       <version>{0}</version>
     </dependency>
   content: |
     ```java {style=abap}  
-    // <% "{index-content.code_comment_1}" %>
-    Signature signature = new Signature("sample.pdf");
-    
+    String template = "chart_template.docx";
+
     // <% "{index-content.code_comment_2}" %>
-    TextSignOptions options = 
-        new TextSignOptions("John Smith");
-    options.setForeColor(Color.RED);
+    DocumentTable data_table = 
+        new DocumentTable("Managers.json", 1);
+
+    // <% "{index-content.code_comment_3}" %>
+    DataSourceInfo data 
+        = new DataSourceInfo(data_table, "managers");
 
     // <% "{index-content.code_comment_4}" %>
-    signature.sign("signed.pdf", options);
-    
+    DataSourceInfo design = 
+        new DataSourceInfo("red", "color");
+
+    // <% "{index-content.code_comment_5}" %>
+    DocumentAssembler asm = new DocumentAssembler();
+    asm.AssembleDocument(template, "result.docx", data, design);
     ```
 
 ############################# Overview ############################
@@ -137,23 +137,23 @@ formats:
     - color: "green"
       content: |
         ### <% "{index-content.formats_groups.title_1}" %>
-        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
-        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF, WordprocessingML
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPTM, PPS, PPSX, PPSM, POTM, POTX
     # group loop
     - color: "blue"
       content: |
         ### <% "{index-content.formats_groups.title_2}" %>
         * **<% "{index-content.formats_groups.format_portable}" %>:** PDF
-        * **<% "{index-content.formats_groups.format_images}" %>:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **<% "{index-content.formats_groups.format_other_office}" %>:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        * **<% "{index-content.formats_groups.format_images}" %>:** SVG, TIFF
+        * **<% "{index-content.formats_groups.format_other_office}" %>:** ODT, OTT, OTS, ODS, ODP, OTP
       # group loop
     - color: "red"
       content: |
         ### <% "{index-content.formats_groups.title_3}" %>
         * **<% "{index-content.formats_groups.format_web}" %>:** HTML, MHTML
-        * **<% "{index-content.formats_groups.format_archives}" %>:** ZIP, TAR, 7Z
-        * **<% "{index-content.formats_groups.format_certificates}" %>:** PFX
+        * **<% "{index-content.formats_groups.format_emails}" %>:** EML, MSG, EMLX
+        * **<% "{index-content.formats_groups.format_other}" %>:** EPUB, MD
 
 ############################# Features ############################
 features:
@@ -163,42 +163,42 @@ features:
 
   items:
     # feature loop
-    - icon: "sign"
+    - icon: "preview"
       title: "<% "{index-content-java.features.feature_1.title}" %>"
       content: "<% "{index-content-java.features.feature_1.content}" %>"
 
     # feature loop
-    - icon: "custom"
+    - icon: "manipulate"
       title: "<% "{index-content-java.features.feature_2.title}" %>"
       content: "<% "{index-content-java.features.feature_2.content}" %>"
 
     # feature loop
-    - icon: "password"
+    - icon: "two_pages"
       title: "<% "{index-content-java.features.feature_3.title}" %>"
       content: "<% "{index-content-java.features.feature_3.content}" %>"
 
     # feature loop
-    - icon: "protect"
+    - icon: "document_settings"
       title: "<% "{index-content-java.features.feature_4.title}" %>"
       content: "<% "{index-content-java.features.feature_4.content}" %>"
 
     # feature loop
-    - icon: "convert"
+    - icon: "text"
       title: "<% "{index-content-java.features.feature_5.title}" %>"
       content: "<% "{index-content-java.features.feature_5.content}" %>"
 
     # feature loop
-    - icon: "preview"
+    - icon: "add"
       title: "<% "{index-content-java.features.feature_6.title}" %>"
       content: "<% "{index-content-java.features.feature_6.content}" %>"
 
     # feature loop
-    - icon: "search"
+    - icon: "manipulate"
       title: "<% "{index-content-java.features.feature_7.title}" %>"
       content: "<% "{index-content-java.features.feature_7.content}" %>"
 
     # feature loop
-    - icon: "validate"
+    - icon: "convert"
       title: "<% "{index-content-java.features.feature_8.title}" %>"
       content: "<% "{index-content-java.features.feature_8.content}" %>"
 
@@ -220,18 +220,23 @@ code_samples:
         {{< landing/code title="<% "{index-content-java.code_title_sample_1}" %>">}}
         ```java {style=abap}
         // <% "{index-content.code_samples.sample_1.comment_1}" %>
-        Signature signature = new Signature("file_to_sign.pdf");
-        
         // <% "{index-content.code_samples.sample_1.comment_2}" %>
-        QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
-        
+        // . <<foreach [in products]>><<[ProductName]>>
+        // <</foreach>>
+
         // <% "{index-content.code_samples.sample_1.comment_3}" %>
-        options.setEncodeType(QrCodeTypes.QR);
-        options.setLeft(100);
-        options.setTop(100);
+        String template = "Bulleted List Template.docx";
 
         // <% "{index-content.code_samples.sample_1.comment_4}" %>
-        signature.sign("file_with_QR.pdf", options);
+        String result = "Result Report.docx"
+
+        // <% "{index-content.code_samples.sample_1.comment_5}" %>
+        JsonDataSource dataSource = new JsonDataSource("Report data.json");
+        DataSourceInfo data = new DataSourceInfo(dataSource, "managers")
+
+        // <% "{index-content.code_samples.sample_1.comment_6}" %>
+        DocumentAssembler assembler = new DocumentAssembler();
+        assembler.assembleDocument(template, result, data);
         ```
         {{< /landing/code >}}
     # code sample loop
@@ -241,16 +246,26 @@ code_samples:
         {{< landing/code title="<% "{index-content-java.code_title_sample_2}" %>">}}
         ```java {style=abap}   
         // <% "{index-content.code_samples.sample_2.comment_1}" %>
-        Signature signature = new Signature("file_to_sign.docx");
-        
-        // <% "{index-content.code_samples.sample_2.comment_2}" %>
-        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+        // <% "{index-content.code_samples.sample_2.comment_2}" %> <<foreach [in customers]>> 
+        // <<x [CustomerName]>>
 
         // <% "{index-content.code_samples.sample_2.comment_3}" %>
-        options.setPassword("1234567890");
+        // Total Order Price<<foreach [in customers]>> 
+        // <<x [CustomerName]>>
 
         // <% "{index-content.code_samples.sample_2.comment_4}" %>
-        signature.sign("digitally_signed.docx", options);
+        String template = "Pie Chart Template.pptx";
+
+        // <% "{index-content.code_samples.sample_2.comment_5}" %>
+        String result = "Result Report.pptx"
+
+        // <% "{index-content.code_samples.sample_2.comment_6}" %>
+        JsonDataSource dataSource = new JsonDataSource("Chart data.xml");
+        DataSourceInfo data = new DataSourceInfo(dataSource, "customers")
+
+        // <% "{index-content.code_samples.sample_2.comment_7}" %>
+        DocumentAssembler assembler = new DocumentAssembler();
+        assembler.assembleDocument(template, result, data);
         ```
         {{< /landing/code >}}
 

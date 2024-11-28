@@ -10,3 +10,4 @@
 <% set "AspNet" (dict "products.aspNet") %>
 <% set "CoreNet" (dict "products.coreNet") %>
 <% set "Mono" (dict "products.mono") %>
+<% set "DataSourceInfo" (dict "products.dataSourceInfo") %>
