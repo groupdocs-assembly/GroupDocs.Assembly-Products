@@ -64,23 +64,23 @@
         "comment_5": "Call {{AssembleDocument}} to generate the report"
       },
       "sample_1": {
-        "code_title": "How to populate list in documents.",
-        "comment_1": "Put such template on a document page:",
+        "code_title": "How to Populate a List in Documents",
+        "comment_1": "Insert this template on a document page:",
         "comment_2": "Managers' performance indicators",
-        "comment_3": "Provide template path",
-        "comment_4": "Set output path",
-        "comment_5": "Get managers data from JSON source",
-        "comment_6": "Create report with filled data"
+        "comment_3": "Specify the template path",
+        "comment_4": "Set the output file path",
+        "comment_5": "Retrieve managers' data from a JSON source",
+        "comment_6": "Generate the report with the filled data"
       },
       "sample_2": {
-        "code_title": "How to represent data in pie chart.",
-        "comment_1": "Add to presentation chart title template:",
+        "code_title": "How to Represent Data in a Pie Chart",
+        "comment_1": "Add the chart title template to the presentation:",
         "comment_2": "Customers' revenue",
-        "comment_3": "Also add chart data template:",
-        "comment_4": "Provide chart template path",
-        "comment_5": "Set path to result document",
-        "comment_6": "Get customers data from XML source",
-        "comment_7": "Populate chart and save result"
+        "comment_3": "Also include the chart data template:",
+        "comment_4": "Specify the chart template path",
+        "comment_5": "Set the output file path",
+        "comment_6": "Retrieve customers' data from an XML source",
+        "comment_7": "Generate the chart and save the result"
       }
     },
     "metrics": {
@@ -168,143 +168,143 @@
     }
   },
   "index-content-net": {
-    "head_title": ".NET API for Document Automation, Assembly & Reports Generation",
-    "head_description": "C# .NET Document automation, assembly & reports generation API. Create PDF Word Excel PPTX HTML & email documents from custom templates.",
+    "head_title": ".NET API for Document Automation, Assembly & Report Generation",
+    "head_description": "C# .NET API for document automation, assembly, and report generation. Create PDF, Word, Excel, PPTX, HTML, and email documents from custom templates.",
     "title": ".NET Document Automation & Reporting API",
-    "description": "Generate Reports in .NET Applications by Defining Templates, and Merging the Data.",
-    "actions_main": "Trial NuGet Download",
-    "code_title": "Fill chart in DOCX using C#",
+    "description": "Generate reports in .NET applications by defining templates and merging data.",
+    "actions_main": "Download Trial via NuGet",
+    "code_title": "Fill a Chart in DOCX Using C#",
     "overview_description": ".NET solution for automating document creation with advanced data integration.",
     "overview_feature_1": {
       "title": "Add Business Data to Document Templates with C#",
-      "description": "Report Generation: With GroupDocs.Assembly for .NET, easily insert data from various sources like JSON or XML into predefined templates."
+      "description": "Report generation made easy: With {{ProdFullName}}, you can effortlessly insert data from sources like JSON or XML into predefined templates."
     },
     "overview_feature_2": {
       "title": "Process Native Data Objects",
-      "description": "Supported document types can include various embedded objects to represent data. Diagrams, charts, tables, lists, and more can be automatically populated with data."
+      "description": "Supported document types include embedded objects like diagrams, charts, tables, and lists that can be populated automatically with data."
     },
     "overview_feature_3": {
       "title": "Additional Features",
-      "description": "GroupDocs.Assembly for .NET offers extensive customization options. Programmatically design data objects, generate custom elements like barcodes, use online data sources via URLs, and save outputs in your desired formats."
+      "description": "{{ProdFullName}} provides extensive customization options. Programmatically design data objects, generate barcodes, use online data sources via URLs, and save output in various formats."
     },
     "features": {
-      "title": "GroupDocs.Assembly Features",
-      "description": "Create documents and reports using efficient data models.",
+      "title": "{{ProdShortName}} Features",
+      "description": "Create documents and reports using advanced data models.",
       "feature_1": {
         "title": "Advanced Data Representation",
-        "content": "Supports a variety of data objects such as charts, lists, tables, images, and more."
+        "content": "Supports a wide range of data objects such as charts, lists, tables, images, and more."
       },
       "feature_2": {
         "title": "Data Manipulation",
-        "content": "Use formulas and sequential data operations to display data the way you need."
+        "content": "Apply formulas and sequential operations to format and display data effectively."
       },
       "feature_3": {
         "title": "Wide Range of Supported Formats",
-        "content": "Work with all common document formats as templates or output files."
+        "content": "Work seamlessly with all common document formats for templates or output files."
       },
       "feature_4": {
         "title": "Rich Template Markup",
-        "content": "Apply ordinal, cardinal, and alphabetic numeric formatting in templates."
+        "content": "Leverage ordinal, cardinal, and alphabetic numeric formatting in templates."
       },
       "feature_5": {
         "title": "Embed Barcodes",
-        "content": "Generate barcode images dynamically and embed them into your documents."
+        "content": "Generate barcode images dynamically and insert them into your documents."
       },
       "feature_6": {
         "title": "Data Formatting",
-        "content": "Format strings in templates to upper case, lower case, capitalized, or first-capital styles."
+        "content": "Format strings in templates as uppercase, lowercase, capitalized, or first-letter capital styles."
       },
       "feature_7": {
         "title": "Document Content Manipulation",
-        "content": "Insert content from external documents dynamically into your reports."
+        "content": "Dynamically insert content from external documents into your reports."
       },
       "feature_8": {
         "title": "Save in Multiple Formats",
-        "content": "Define the output file format using file extensions or explicit specifications."
+        "content": "Specify the output file format using file extensions or detailed configurations."
       },
       "feature_9": {
         "title": "Flexible Data Processing",
-        "content": "Dynamically insert images and documents from Base64-encoded bytes."
+        "content": "Insert images and documents dynamically using Base64-encoded bytes."
       }
     },
-    "platforms_description": "{{ProdFullName}} works with the following operating systems, frameworks and package managers",
-    "formats_description": "{{ProdFullName}} is able to process following [file formats](https://docs.groupdocs.com/assembly/net/supported-document-formats/).",
-    "code_samples_description": "Code snippets for typical {{ProdShortName}} operations",
-    "code_title_sample_1": "Bulleted List in Microsoft Word Document",
-    "code_samples_sample_1_content_1": "[Bulleted List](https://docs.groupdocs.com/assembly/net/bulleted-list-in-word-processing-document/) is a common way to represent business data.",
-    "code_samples_sample_1_content_2": "There is an example of how to add a list to Word document by {{ProdShortName}}.",
-    "code_title_sample_2": "Pie Charts in PPTX presentations",
-    "code_samples_sample_2_content_1": "You can add [Pie Charts](https://docs.groupdocs.com/assembly/net/pie-chart-in-presentation-document/) by templates and XML data.",
-    "code_samples_sample_2_content_2": "Enrich your reports with visual data representation."
+    "platforms_description": "{{ProdFullName}} is compatible with the following operating systems, frameworks, and package managers.",
+    "formats_description": "{{ProdFullName}} can process the following [file formats](https://docs.groupdocs.com/assembly/net/supported-document-formats/).",
+    "code_samples_description": "Code snippets for typical {{ProdShortName}} operations.",
+    "code_title_sample_1": "Bulleted List in a Microsoft Word Document",
+    "code_samples_sample_1_content_1": "[Bulleted lists](https://docs.groupdocs.com/assembly/net/bulleted-list-in-word-processing-document/) are a common way to present business data.",
+    "code_samples_sample_1_content_2": "Here's an example of adding a list to a Word document using {{ProdShortName}}.",
+    "code_title_sample_2": "Pie Charts in PPTX Presentations",
+    "code_samples_sample_2_content_1": "You can create [Pie Charts](https://docs.groupdocs.com/assembly/net/pie-chart-in-presentation-document/) using templates and XML data.",
+    "code_samples_sample_2_content_2": "Enhance your reports with visually appealing data representations."
   },
   "index-content-java": {
-    "head_title": "Java Document Automation Assembly & Dynamic Reports Generator API",
-    "head_description": "Java API for document automation, assembly & reporting. Create reports from custom templates. Assemble PDF Word Excel PPTX HTML from DB, JSON, OData & XML data sources.",
-    "title": "Java API to Automate Documents & Reports",
-    "description": "Build Document Automation Applications to Fetch Data; put it in Customizable Templates & Generate Dynamic Reports via Java API.",
-    "actions_main": "Maven Download for Free",
-    "code_title": "Fill chart in DOCX using Java",
-    "overview_description": "API for performing document signing and related operations in Java applications",
+    "head_title": "Java API for Document Automation, Assembly & Report Generation",
+    "head_description": "Java API for document automation, assembly, and report generation. Create PDF, Word, Excel, PPTX, HTML, and email documents from custom templates.",
+    "title": "Java Document Automation & Reporting API",
+    "description": "Generate reports in Java applications by defining templates and merging data.",
+    "actions_main": "Download Trial via NuGet",
+    "code_title": "Fill a Chart in DOCX Using Java",
+    "overview_description": "Java solution for automating document creation with advanced data integration.",
     "overview_feature_1": {
-      "title": "Improved business documents with digital signatures in Java",
-      "description": "Swift and customizable signing: GroupDocs.Signature for Java offers a wide range of digital signature options for PDFs, images, and Office documents. You can use text, barcodes, QR-codes, digital certificates, pictures, or hidden metadata. The document processing is fast and efficient."
+      "title": "Add Business Data to Document Templates with Java",
+      "description": "Report generation made easy: With {{ProdFullName}}, you can effortlessly insert data from sources like JSON or XML into predefined templates."
     },
     "overview_feature_2": {
-      "title": "Manipulating signed documents",
-      "description": "Advanced document processing involves powerful operations on signed documents using GroupDocs.Signature for Java. You can search for and validate signatures that have been added to business documents using various useful criteria. Additionally, you can access detailed information about the document or obtain preview images of its pages."
+      "title": "Process Native Data Objects",
+      "description": "Supported document types include embedded objects like diagrams, charts, tables, and lists that can be populated automatically with data."
     },
     "overview_feature_3": {
-      "title": "Variety of output choices",
-      "description": "Robust signing options allow you to customize the output for documents signed with GroupDocs.Signature for Java. You can precisely position any signature on any document page and configure its appearance in various ways. The Java API supports saving signed business documents in numerous supported formats and provides options for securing them with passwords."
+      "title": "Additional Features",
+      "description": "{{ProdFullName}} provides extensive customization options. Programmatically design data objects, generate barcodes, use online data sources via URLs, and save output in various formats."
     },
     "features": {
-      "title": "GroupDocs.Signature features",
-      "description": "Signing PDFs, Office Documents, and images with digital signatures",
+      "title": "{{ProdShortName}} Features",
+      "description": "Create documents and reports using advanced data models.",
       "feature_1": {
-        "title": "Adding Signatures",
-        "content": "Sign a document using various supported signature types by placing a digital signature precisely at any position on any page."
+        "title": "Advanced Data Representation",
+        "content": "Supports a wide range of data objects such as charts, lists, tables, images, and more."
       },
       "feature_2": {
-        "title": "Customizing results",
-        "content": "Customize the signature appearance by adjusting color, font, border, rotation, and other features to achieve the desired result."
+        "title": "Data Manipulation",
+        "content": "Apply formulas and sequential operations to format and display data effectively."
       },
       "feature_3": {
-        "title": "Securing documents with password",
-        "content": "For many supported document types, you can protect the signed document with a password."
+        "title": "Wide Range of Supported Formats",
+        "content": "Work seamlessly with all common document formats for templates or output files."
       },
       "feature_4": {
-        "title": "Preventing unauthorized changes",
-        "content": "Protect important business documents signed with a digital certificate from unauthorized modifications."
+        "title": "Rich Template Markup",
+        "content": "Leverage ordinal, cardinal, and alphabetic numeric formatting in templates."
       },
       "feature_5": {
-        "title": "Obtaining results in desired formats",
-        "content": "Easily obtain signed result files in any supported format. You can also convert MS Word documents to PDF effortlessly."
+        "title": "Embed Barcodes",
+        "content": "Generate barcode images dynamically and insert them into your documents."
       },
       "feature_6": {
-        "title": "Document preview",
-        "content": "Save any page of a document as an image for future processing."
+        "title": "Data Formatting",
+        "content": "Format strings in templates as uppercase, lowercase, capitalized, or first-letter capital styles."
       },
       "feature_7": {
-        "title": "Searching for signatures",
-        "content": "It is possible to get information about previously added signatures in specific documents."
+        "title": "Document Content Manipulation",
+        "content": "Dynamically insert content from external documents into your reports."
       },
       "feature_8": {
-        "title": "Validating documents",
-        "content": "Validate the correctness of signatures on any signed document."
+        "title": "Save in Multiple Formats",
+        "content": "Specify the output file format using file extensions or detailed configurations."
       },
       "feature_9": {
-        "title": "Managing signatures",
-        "content": "Once a signature is placed on a document page, it can be deleted, moved, or updated as needed."
+        "title": "Flexible Data Processing",
+        "content": "Insert images and documents dynamically using Base64-encoded bytes."
       }
     },
-    "platforms_description": "GroupDocs.Signature for Java supports the following operating systems, frameworks and package managers",
-    "formats_description": "GroupDocs.Signature for Java supports operations with the following [file formats](https://docs.groupdocs.com/assembly/java/supported-document-formats/).",
-    "code_samples_description": "Some use cases of typical GroupDocs.Signature for Java operations",
-    "code_title_sample_1": "Enhance PDF document with QR-code",
-    "code_samples_sample_1_content_1": "Enhancing business processes by adding [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) to specific pages of PDF documents can be valuable.",
-    "code_samples_sample_1_content_2": "There is an example of how to add a QR code using GroupDocs.Signature for Java.",
-    "code_title_sample_2": "Use digital signature to protect a DOCX",
-    "code_samples_sample_2_content_1": "You can [Safeguard a Document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) using personal or corporate signatures stored as digital certificates.",
-    "code_samples_sample_2_content_2": "Documents secured with certificate cannot be altered without invalidating the signature."
+    "platforms_description": "{{ProdFullName}} is compatible with the following operating systems, frameworks, and package managers.",
+    "formats_description": "{{ProdFullName}} can process the following [file formats](https://docs.groupdocs.com/assembly/java/supported-document-formats/).",
+    "code_samples_description": "Code snippets for typical {{ProdShortName}} operations.",
+    "code_title_sample_1": "Bulleted List in a Microsoft Word Document",
+    "code_samples_sample_1_content_1": "[Bulleted lists](https://docs.groupdocs.com/assembly/java/bulleted-list-in-word-processing-document/) are a common way to present business data.",
+    "code_samples_sample_1_content_2": "Here's an example of adding a list to a Word document using {{ProdShortName}}.",
+    "code_title_sample_2": "Pie Charts in PPTX Presentations",
+    "code_samples_sample_2_content_1": "You can create [Pie Charts](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/) using templates and XML data.",
+    "code_samples_sample_2_content_2": "Enhance your reports with visually appealing data representations."
   }
 }
