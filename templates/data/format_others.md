@@ -13,18 +13,12 @@
           description: "<% dict "common-content.format-formats.docx.description" %>"
           
         # format loop 3
-        - name: "<% dict "common-content.format-operations.{OperationLow}.jpeg" %>"
-          format: "JPEG"
-          link: "/signature/<% get "ProdCode" %>/<% get "OperationLow" %>/jpeg/"
-          description: "<% dict "common-content.format-formats.jpeg.description" %>"
-          
-        # format loop 4
         - name: "<% dict "common-content.format-operations.{OperationLow}.pptx" %>"
           format: "PPTX"
           link: "/signature/<% get "ProdCode" %>/<% get "OperationLow" %>/pptx/"
           description: "<% dict "common-content.format-formats.pptx.description" %>"
           
-        # format loop 5
+        # format loop 4
         - name: "<% dict "common-content.format-operations.{OperationLow}.xlsx" %>"
           format: "XLSX"
           link: "/signature/<% get "ProdCode" %>/<% get "OperationLow" %>/xlsx/"

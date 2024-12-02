@@ -1,0 +1,95 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "description": "Adobe Portable Document Format"
+      },
+      "docx": {
+        "description": "Microsoft Word Open XML Document"
+      },
+      "xlsx": {
+        "description": "Microsoft Excel Open XML Spreadsheet"
+      },
+      "pptx": {
+        "description": "PowerPoint Open XML Presentation"
+      },
+      "jpeg": {
+        "description": "JPEG Image"
+      }
+    },
+    "format-operations": {
+      "barcode": {
+        "pdf": "Add barcode to PDF",
+        "docx": "Add barcode to DOCX",
+        "xlsx": "Add barcode to XLSX",
+        "pptx": "Add barcode to PPTX"
+      },
+      "diagram": {
+        "pdf": "PDF diagrams",
+        "docx": "DOCX diagrams",
+        "xlsx": "XLSX diagrams",
+        "pptx": "PPTX diagrams"
+      },
+      "document": {
+        "pdf": "Insert document to PDF",
+        "docx": "Insert document to DOCX",
+        "xlsx": "Insert document to XLSX",
+        "pptx": "Insert document to PPTX"
+      },
+      "list": {
+        "pdf": "PDF list",
+        "docx": "DOCX list",
+        "xlsx": "XLSX list",
+        "pptx": "PPTX list"
+      },
+      "table": {
+        "pdf": "Table in PDF",
+        "docx": "Table in DOCX",
+        "xlsx": "Table in XLSX",
+        "pptx": "Table in PPTX"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copy",
+      "result_title": "Sample document",
+      "result_title_bottom": "Download result",
+      "copy_tip": "click to copy",
+      "copy_done": "copied",
+      "links": {
+        "title_1": "More examples",
+        "title_2": "Documentation"
+      }
+    },
+    "format-actions": {
+      "title": "Ready to get started?",
+      "description": "Try {{ProdShortName}} features for free or request a license",
+      "comment_1": "{{PackageStoreName}} download",
+      "comment_2": "Licensing"
+    },
+    "texts": {
+      "learn_more": "Learn more"
+    },
+    "operations": {
+      "barcode": {
+        "name": "Create barcodes",
+        "description": "Add generated on the fly barcodes to documents"
+      },
+      "diagram": {
+        "name": "Represent data with diagrams",
+        "description": "Populate various types of diagrams with data"
+      },
+      "document": {
+        "name": "Merge documents",
+        "description": "Insert one document content into another"
+      },
+      "list": {
+        "name": "Use lists to show data",
+        "description": "Create list with demanded data in a document"
+      },
+      "table": {
+        "name": "Put data into table",
+        "description": "Get data from any source and add to a table"
+      }
+    }
+  }
+}
