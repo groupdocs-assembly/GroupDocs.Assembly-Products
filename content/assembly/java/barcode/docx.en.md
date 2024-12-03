@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-03T09:26:27
+date:  2024-12-03T19:10:40
 draft: false
 lang: en
 format: Docx
@@ -266,25 +266,25 @@ more_formats:
         # format loop 1
         - name: "Add a barcode to a PDF"
           format: "PDF"
-          link: "/signature/java/barcode/pdf/"
+          link: "/assembly/java/barcode/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 2
         - name: "Add a barcode to a DOCX"
           format: "DOCX"
-          link: "/signature/java/barcode/docx/"
+          link: "/assembly/java/barcode/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 3
         - name: "Add a barcode to a PPTX"
           format: "PPTX"
-          link: "/signature/java/barcode/pptx/"
+          link: "/assembly/java/barcode/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 4
         - name: "Add a barcode to an XLSX"
           format: "XLSX"
-          link: "/signature/java/barcode/xlsx/"
+          link: "/assembly/java/barcode/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
 

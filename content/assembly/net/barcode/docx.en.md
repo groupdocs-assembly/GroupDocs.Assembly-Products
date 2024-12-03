@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-03T09:26:27
+date:  2024-12-03T19:10:40
 draft: false
 lang: en
 format: Docx
@@ -155,7 +155,7 @@ more_features:
           #  loop
           - title: "Download the result"
             icon: "download"
-            link: "/examples/assembly/formats/assemblybarcode.docx"
+            link: "/examples/assembly/formats/assembly_barcode.docx"
         links:
           #  loop
           - title: "More examples"
@@ -235,25 +235,25 @@ more_formats:
         # format loop 1
         - name: "Add a barcode to a PDF"
           format: "PDF"
-          link: "/signature/net/barcode/pdf/"
+          link: "/assembly/net/barcode/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 2
         - name: "Add a barcode to a DOCX"
           format: "DOCX"
-          link: "/signature/net/barcode/docx/"
+          link: "/assembly/net/barcode/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 3
         - name: "Add a barcode to a PPTX"
           format: "PPTX"
-          link: "/signature/net/barcode/pptx/"
+          link: "/assembly/net/barcode/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 4
         - name: "Add a barcode to an XLSX"
           format: "XLSX"
-          link: "/signature/net/barcode/xlsx/"
+          link: "/assembly/net/barcode/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
 

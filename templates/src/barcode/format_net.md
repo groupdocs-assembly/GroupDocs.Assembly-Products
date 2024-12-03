@@ -154,7 +154,7 @@ more_features:
           #  loop
           - title: "<% "{common-content.format-code.result_title_bottom}" %>"
             icon: "download"
-            link: "/examples/assembly/formats/assembly<% get "OperationLow" %>.<% get "fileformat" %>"
+            link: "/examples/assembly/formats/assembly_<% get "OperationLow" %>.<% get "fileformat" %>"
         links:
           #  loop
           - title: "<% "{common-content.format-code.links.title_1}" %>"
