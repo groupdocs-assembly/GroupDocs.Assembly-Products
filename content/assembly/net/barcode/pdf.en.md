@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-02T19:05:17
+date:  2024-12-03T09:26:27
 draft: false
 lang: en
 format: Pdf
@@ -15,49 +15,49 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Generate barcodes in PDF Documents via C#"
-head_description: "GroupDocs.Assembly for .NET API allows developers to dynamically generate & insert Barcode images to documents & Email messages with ease."
+head_title: "Generate barcodes in PDF documents with C#"
+head_description: "GroupDocs.Assembly for .NET API enables developers to easily generate and embed barcode images into documents and emails dynamically."
 
 ############################# Header ############################
-title: "Insert generated Barcodes in PDF Documents with our .NET API " 
-description: "GroupDocs.Assembly for .NET provides complete support for dynamic Barcode image creation, editing and addition inside PDF documents using C# API."
+title: "Add barcodes to PDF documents using our .NET API" 
+description: "GroupDocs.Assembly for .NET offers full support for creating and embedding barcodes dynamically in PDF documents using the C# API."
 subtitle: "GroupDocs.Assembly for .NET" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download for free"
+    - title: "Download Free Trial"
       link: "https://releases.groupdocs.com/assembly/net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Assembly for .NET overview"
+    title: "Overview of GroupDocs.Assembly for .NET"
     link: "/assembly/net/"
     link_title: "Learn more"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       [GroupDocs.Assembly for .NET](/assembly/net/) is designed in order to generate documents and reports by adding various data from wide range of data sources. Populate with textual or numeric data objects like charts, tables, lists. Insert images or barcodes generated on the fly. Use sophisticated mark-up to insert data in the right place of a document. Over 50 document formats like PDF, MS Office, emails, etc. are supported.
+       [GroupDocs.Assembly for .NET](/assembly/net/) is built to help you generate documents and reports by integrating data from a wide variety of sources. Populate documents with text or numerical data, create charts, tables, and lists, or insert images and barcodes on the fly. Use advanced markup to place data precisely where needed. Supports over 50 formats, including PDF, MS Office files, and emails.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to add generated barcode to PDF document"
+    title: "Steps to add a generated barcode to a PDF document"
     content: |
-      [GroupDocs.Assembly](/assembly/net/) allows to insert barcodes to many templates in popular formats like PDF. More than 60 barcode types are supported. One and two-dimensional barcodes are ready for processing.
+      [GroupDocs.Assembly](/assembly/net/) makes it easy to insert barcodes into templates in formats like PDF. Supports over 60 barcode types, including one-dimensional and two-dimensional formats.
       
-      1. Provide PDF template with barcode markup.
-      2. Get data from the any supported data source.
-      3. Set up some additional properties like barcode dimensions or resolution.
-      4. Save the template with barcode as a new document.
+      1. Prepare a PDF template with barcode placeholders.
+      2. Retrieve data from any supported data source.
+      3. Configure additional properties like barcode size or resolution.
+      4. Save the template with the barcode as a new document.
    
     code:
       platform: "net"
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/assembly/assembly_all.pdf"
-      result_title: "Sample document"
+      result_title: "Example document"
       install:
         command: "dotnet add package GroupDocs.Assembly"
         copy_tip: "click to copy"
@@ -72,17 +72,17 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Use such template to insert a barcode to a document
+        // Insert this tag into your template to generate a barcode in the final document
         // <<barcode [barcode_expression] -barcode_type>>
 
-        // Specify the template path
+        // Specify the template file path
         string template = "barcode_template.docx";
 
-        // Get data from the source
+        // Retrieve data from your source
         DataSourceInfo data 
             = new DataSourceInfo(GetData(), "label");
 
-        // Save result document with generated barcode
+        // Save the document with the generated barcode
         DocumentAssembler asm = new DocumentAssembler();
         asm.AssembleDocument(template, "result.docx", data);
         ```            
@@ -90,59 +90,59 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Generate documents populating templates with data"
-  description: "The GroupDocs.Assembly for .NET solution is engineered to provide service of documents generating across widely used formats. Add charts, lists, tables, hyper-links, images, barcodes using special markup and templates."
+  title: "Generate documents by filling templates with data"
+  description: "GroupDocs.Assembly for .NET is designed to simplify the creation of documents in popular formats. Add charts, lists, tables, hyperlinks, images, and barcodes using advanced templates and markup."
   image: "/img/assembly/features_barcode.webp" # 500x500 px
   image_description: "GroupDocs.Assembly Features"
   features:
     # feature loop
-    - title: "Construct reports based on business data"
-      content: "Our API provides efficient algorithms to populate document of popular office formats with data from well-known data source formats like JSON, XML, CSV, etc."
+    - title: "Create reports from business data"
+      content: "Our API efficiently populates documents in popular office formats using data from sources like JSON, XML, and CSV."
 
     # feature loop
-    - title: "Use visual object to represent your data"
-      content: "GroupDocs.Assembly supports many native data objects such as lists, tables, charts in business documents. Text, hyper-links, images or on the spot generated barcodes are available."
+    - title: "Use visual elements to display data"
+      content: "GroupDocs.Assembly supports embedding native elements such as lists, tables, and charts, along with text, hyperlinks, images, and dynamically generated barcodes."
 
     # feature loop
-    - title: "Place data in any part of a document"
-      content: "Use LINQ-based template syntax to insert data in a proper place. Data arrays may be placed with for-each syntax. It is possible to set up format (color, etc.) of data elements programmatically."
+    - title: "Insert data anywhere in the document"
+      content: "Use LINQ-based syntax to place data exactly where it's needed. Arrays can be inserted using for-each loops, and formatting (e.g., color) can be customized programmatically."
 
     # feature loop
-    - title: "Wide range of supported formats"
-      content: "We provide access to processing many popular formats like MS Office, Open Office, PDF, Html, various email formats. Some documents may be inserted into other ones."
+    - title: "Supports a wide range of formats"
+      content: "Process popular file formats like MS Office, OpenOffice, PDF, HTML, and various email formats. Embed one document into another as needed."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "How to generate a barcode on the fly"
+    - title: "How to generate a barcode dynamically"
       content: |
-        This example demonstrates how to embed a generated barcode to PDF document.
+        This example demonstrates embedding a dynamically generated barcode into a PDF document.
       code:
         title: "C#"
         content: |
           ```csharp {style=abap}
-          // Use such template to insert a barcode to a document
+          // Use this template to insert a barcode into the document
           // <<barcode [barcode_expression] -barcode_type>>
 
-          // Specify the template path
+          // Specify the path to the template file
           string template = "barcode_template.pptx";
 
-          // Get data from the specific source
+          // Retrieve data from your chosen source
           CsvDataSource data_csv =
               new CsvDataSource("Barcode Labels.csv", 
               new CsvDataLoadOptions(true));
 
-          // Create data source object with only demanded data
+          // Create a data source object with only the required data
           DataSourceInfo data 
               = new DataSourceInfo(data_csv, "label");
 
-          // Instantiate DocumentAssembler
+          // Initialize DocumentAssembler
           DocumentAssembler asm = new DocumentAssembler();
 
-          // Set up additional barcode properties
+          // Set additional barcode properties
           asm.BarcodeSettings.Resolution = 1200;
           asm.BarcodeSettings.BaseYDimension = 5f;
 
-          // Save result document with barcode
+          // Save the final document with the embedded barcode
           asm.AssembleDocument(template, "result.pptx", data);
           ```
         platform: "net"
@@ -153,7 +153,7 @@ more_features:
           copy_done: "copied"
         top_links:
           #  loop
-          - title: "Download result"
+          - title: "Download the result"
             icon: "download"
             link: "/examples/assembly/formats/assemblybarcode.pdf"
         links:
@@ -172,15 +172,15 @@ more_features:
 
 actions:
   enable: true
-  title: "Ready to get started?"
-  description: "Try GroupDocs.Assembly features for free or request a license"
+  title: "Ready to begin?"
+  description: "Explore GroupDocs.Assembly features for free or request a license"
   items:
     #  loop
-    - title: "Nuget download"
+    - title: "Download from Nuget"
       link: "https://releases.groupdocs.com/assembly/net/"
       color: "red"
         #  loop
-    - title: "Licensing"
+    - title: "Learn about licensing"
       link: "https://purchase.groupdocs.com/pricing/assembly/net/"
       color: "light"
 
@@ -188,70 +188,70 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Inspect our main features"
+    title: "Explore key features"
     exclude: "barcode"
-    description: "We developed capable solution in order to help you with business documents"
+    description: "Our solution is designed to streamline your business document processing needs."
     items: 
           
         # operation loop 1
-        - name: "Create barcodes"
+        - name: "Generate barcodes"
           operation: "barcode"
           link: "/assembly/net/barcode/pdf/"
-          description: "Add generated on the fly barcodes to documents"
+          description: "Dynamically create and add barcodes to documents"
 
         # operation loop 2
-        - name: "Represent data with diagrams"
+        - name: "Visualize data with diagrams"
           operation: "diagram"
           link: "/assembly/net/diagram/pdf/"
-          description: "Populate various types of diagrams with data"
+          description: "Fill various diagram types with data"
 
         # operation loop 3
         - name: "Merge documents"
           operation: "document"
           link: "/assembly/net/document/pdf/"
-          description: "Insert one document content into another"
+          description: "Combine the content of one document into another"
 
         # operation loop 4
-        - name: "Use lists to show data"
+        - name: "Show data with lists"
           operation: "list"
           link: "/assembly/net/list/pdf/"
-          description: "Create list with demanded data in a document"
+          description: "Generate lists in documents using specific data"
 
         # operation loop 5
-        - name: "Put data into table"
+        - name: "Organize data in tables"
           operation: "table"
           link: "/assembly/net/table/pdf/"
-          description: "Get data from any source and add to a table"
+          description: "Retrieve data from any source and populate tables"
          
           
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Generate reports of popular formats"
+    title: "Create reports in popular formats"
     exclude: "PDF"
-    description: ".NET supports reporting in more than 50 different formats. Effortlessly merge data and documents to have an excellent result."
+    description: ".NET supports generating reports in over 50 formats, allowing you to seamlessly merge data and templates for outstanding results."
     items: 
           
         # format loop 1
-        - name: "Add barcode to PDF"
+        - name: "Add a barcode to a PDF"
           format: "PDF"
           link: "/signature/net/barcode/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 2
-        - name: "Add barcode to DOCX"
+        - name: "Add a barcode to a DOCX"
           format: "DOCX"
           link: "/signature/net/barcode/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 3
-        - name: "Add barcode to PPTX"
+        - name: "Add a barcode to a PPTX"
           format: "PPTX"
           link: "/signature/net/barcode/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 4
-        - name: "Add barcode to XLSX"
+        - name: "Add a barcode to an XLSX"
           format: "XLSX"
           link: "/signature/net/barcode/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

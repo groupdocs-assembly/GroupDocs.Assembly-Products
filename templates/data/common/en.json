@@ -19,40 +19,40 @@
     },
     "format-operations": {
       "barcode": {
-        "pdf": "Add barcode to PDF",
-        "docx": "Add barcode to DOCX",
-        "xlsx": "Add barcode to XLSX",
-        "pptx": "Add barcode to PPTX"
+        "pdf": "Add a barcode to a PDF",
+        "docx": "Add a barcode to a DOCX",
+        "xlsx": "Add a barcode to an XLSX",
+        "pptx": "Add a barcode to a PPTX"
       },
       "diagram": {
-        "pdf": "PDF diagrams",
-        "docx": "DOCX diagrams",
-        "xlsx": "XLSX diagrams",
-        "pptx": "PPTX diagrams"
+        "pdf": "Diagrams in PDF",
+        "docx": "Diagrams in DOCX",
+        "xlsx": "Diagrams in XLSX",
+        "pptx": "Diagrams in PPTX"
       },
       "document": {
-        "pdf": "Insert document to PDF",
-        "docx": "Insert document to DOCX",
-        "xlsx": "Insert document to XLSX",
-        "pptx": "Insert document to PPTX"
+        "pdf": "Embed a document in a PDF",
+        "docx": "Embed a document in a DOCX",
+        "xlsx": "Embed a document in an XLSX",
+        "pptx": "Embed a document in a PPTX"
       },
       "list": {
-        "pdf": "PDF list",
-        "docx": "DOCX list",
-        "xlsx": "XLSX list",
-        "pptx": "PPTX list"
+        "pdf": "Create a list in a PDF",
+        "docx": "Create a list in a DOCX",
+        "xlsx": "Create a list in an XLSX",
+        "pptx": "Create a list in a PPTX"
       },
       "table": {
-        "pdf": "Table in PDF",
-        "docx": "Table in DOCX",
-        "xlsx": "Table in XLSX",
-        "pptx": "Table in PPTX"
+        "pdf": "Add a table to a PDF",
+        "docx": "Add a table to a DOCX",
+        "xlsx": "Add a table to an XLSX",
+        "pptx": "Add a table to a PPTX"
       }
     },
     "format-code": {
       "copy_title": "Copy",
-      "result_title": "Sample document",
-      "result_title_bottom": "Download result",
+      "result_title": "Example document",
+      "result_title_bottom": "Download the result",
       "copy_tip": "click to copy",
       "copy_done": "copied",
       "links": {
@@ -61,34 +61,34 @@
       }
     },
     "format-actions": {
-      "title": "Ready to get started?",
-      "description": "Try {{ProdShortName}} features for free or request a license",
-      "comment_1": "{{PackageStoreName}} download",
-      "comment_2": "Licensing"
+      "title": "Ready to begin?",
+      "description": "Explore {{ProdShortName}} features for free or request a license",
+      "comment_1": "Download from {{PackageStoreName}}",
+      "comment_2": "Learn about licensing"
     },
     "texts": {
       "learn_more": "Learn more"
     },
     "operations": {
       "barcode": {
-        "name": "Create barcodes",
-        "description": "Add generated on the fly barcodes to documents"
+        "name": "Generate barcodes",
+        "description": "Dynamically create and add barcodes to documents"
       },
       "diagram": {
-        "name": "Represent data with diagrams",
-        "description": "Populate various types of diagrams with data"
+        "name": "Visualize data with diagrams",
+        "description": "Fill various diagram types with data"
       },
       "document": {
         "name": "Merge documents",
-        "description": "Insert one document content into another"
+        "description": "Combine the content of one document into another"
       },
       "list": {
-        "name": "Use lists to show data",
-        "description": "Create list with demanded data in a document"
+        "name": "Show data with lists",
+        "description": "Generate lists in documents using specific data"
       },
       "table": {
-        "name": "Put data into table",
-        "description": "Get data from any source and add to a table"
+        "name": "Organize data in tables",
+        "description": "Retrieve data from any source and populate tables"
       }
     }
   }
