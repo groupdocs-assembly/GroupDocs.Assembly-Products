@@ -4,8 +4,8 @@
     "description": "{{ProdFullName}} API enables developers to easily generate and embed barcode images into documents and emails dynamically."
   },
   "header": {
-    "title": "Add barcodes to {{FileFormatUp}} documents using our .NET API",
-    "description": "{{ProdFullName}} offers full support for creating and embedding barcodes dynamically in {{FileFormatUp}} documents using the {{ProgLang}} API.",
+    "title": "Add barcodes to {{FileFormatUp}} documents using our {{EnvNameShort}} API",
+    "description": "{{ProdFullName}} offers full support for creating and embedding barcodes dynamically in {{FileFormatUp}} documents.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download Free Trial"
   },

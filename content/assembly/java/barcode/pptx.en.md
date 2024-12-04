@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-03T19:10:40
+date:  2024-12-04T14:17:40
 draft: false
 lang: en
 format: Pptx
@@ -92,7 +92,7 @@ steps:
         // <<barcode [barcode_expression] -barcode_type>>
 
         // Set the file path for the template
-        String template = "barcode_template.docx";
+        String template = "barcode_template.pptx";
 
         // Fetch data from your source
         DataSourceInfo data 
@@ -100,7 +100,7 @@ steps:
 
         // Save the updated document with the barcode
         DocumentAssembler asm = new DocumentAssembler();
-        asm.AssembleDocument(template, "result.docx", data);
+        asm.AssembleDocument(template, "result.pptx", data);
         ```           
 
 ############################# More features ############################

@@ -91,7 +91,7 @@ steps:
         // <<barcode [barcode_expression] -barcode_type>>
 
         // <% "{examples.comment_2}" %>
-        String template = "barcode_template.docx";
+        String template = "barcode_template.<% get "fileformat" %>";
 
         // <% "{examples.comment_3}" %>
         DataSourceInfo data 
@@ -99,7 +99,7 @@ steps:
 
         // <% "{examples.comment_4}" %>
         DocumentAssembler asm = new DocumentAssembler();
-        asm.AssembleDocument(template, "result.docx", data);
+        asm.AssembleDocument(template, "result.<% get "fileformat" %>", data);
         ```           
 
 ############################# More features ############################
@@ -139,7 +139,7 @@ more_features:
           // <<barcode [barcode_expression] -barcode_type>>
 
           // <% "{code_1.comment_2}" %>
-          String template = "barcode_template.pptx";
+          String template = "barcode_template.<% get "fileformat" %>";
 
           // <% "{code_1.comment_3}" %>
           CsvDataSource data_csv =
@@ -158,7 +158,7 @@ more_features:
           asm.BarcodeSettings.BaseYDimension = 5f;
 
           // <% "{code_1.comment_7}" %>
-          asm.AssembleDocument(template, "result.pptx", data);
+          asm.AssembleDocument(template, "result.<% get "fileformat" %>", data);
           ```
         platform: "java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"

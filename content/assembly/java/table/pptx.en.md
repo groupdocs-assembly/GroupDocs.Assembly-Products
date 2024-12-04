@@ -5,29 +5,29 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-04T14:17:40
+date:  2024-12-04T15:35:32
 draft: false
 lang: en
-format: Pdf
+format: Pptx
 product: "Assembly"
 product_tag: "assembly"
 platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Embed barcodes in PDF files with Java"
-head_description: "The GroupDocs.Assembly for Java API makes it simple to create and insert barcode images into your documents and emails in real time."
+head_title: "Add tables to PPTX documents using Java"
+head_description: "With GroupDocs.Assembly for Java, developers can quickly integrate tables into documents and emails, pulling data from dynamic sources."
 
 ############################# Header ############################
-title: "Generate barcodes for PDF files with our .NET API" 
-description: "GroupDocs.Assembly for Java provides comprehensive tools to dynamically create, customize, and embed barcodes into PDF files using the Java API."
+title: "Easily populate tables in PPTX files with our Java API" 
+description: "GroupDocs.Assembly for Java simplifies the process of filling tables in PPTX documents with data from various inputs."
 subtitle: "GroupDocs.Assembly for Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download Now"
+    - title: "Get Your Free Trial"
       link: "https://releases.groupdocs.com/assembly/java/"
       
 ############################# About ############################
@@ -38,19 +38,19 @@ about:
     link_title: "Learn more"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       [GroupDocs.Assembly for Java](/assembly/java/) helps you generate and customize documents by adding data from multiple sources. Easily insert text, numbers, charts, tables, lists, images, and barcodes. Use advanced templates to ensure the data appears exactly where you want it. Supports over 50 formats, including PDF, Office files, and emails.
+       [GroupDocs.Assembly for Java](/assembly/java/) is a tool for generating documents and reports by automatically inserting data into pre-designed templates. You can effortlessly add tables, lists, charts, and images. Its advanced features allow you to precisely place content within your documents. Compatible with over 50 file types, including PDF, MS Office, and email formats.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to embed a barcode in a PDF document"
+    title: "Steps to insert data into a PPTX table"
     content: |
-      [GroupDocs.Assembly](/assembly/java/) lets you insert barcodes into popular formats like PDF templates. Supports over 60 types, including 1D and 2D barcodes.
+      [GroupDocs.Assembly](/assembly/java/) helps you populate table templates for PPTX and other formats. Use dynamic data from your sources to create tables with ease.
       
-      1. Set up a PDF template with barcode markers.
-      2. Fetch data from a supported source.
-      3. Adjust barcode settings such as size and resolution.
-      4. Save the document with the embedded barcode.
+      1. Set up a PPTX template with placeholders for table rows and columns.
+      2. Pull data from any supported input source.
+      3. Filter or preprocess the data to match your needs.
+      4. Generate the final document with the completed table.
    
     code:
       platform: "java"
@@ -88,78 +88,76 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Use this tag in your template to create a barcode in the output document
-        // <<barcode [barcode_expression] -barcode_type>>
+        // Use these tags in a table row placeholder within your template
+        // <<foreach [c in ds]>>
+        // <<[c.Client]>><<[c.Manager]>><<[c.Price]>>
+        // <</foreach>>
 
-        // Set the file path for the template
-        String template = "barcode_template.pdf";
+        // Define the path to the template file
+        String template = "table_template.pptx";
 
-        // Fetch data from your source
+        // Load data from your chosen source
         DataSourceInfo data 
-            = new DataSourceInfo(GetData(), "label");
+            = new DataSourceInfo(GetData(), "ds");
 
-        // Save the updated document with the barcode
+        // Save the output file with the table populated
         DocumentAssembler asm = new DocumentAssembler();
-        asm.AssembleDocument(template, "result.pdf", data);
+        asm.AssembleDocument(template, "result.pptx", data);
         ```           
 
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Build documents using data-powered templates"
-  description: "GroupDocs.Assembly for Java simplifies document creation across popular file types. Use templates to add charts, tables, lists, links, images, and barcodes seamlessly."
-  image: "/img/assembly/features_barcode.webp" # 500x500 px
-  image_description: "Features of GroupDocs.Assembly"
+  title: "Create documents with data-filled tables"
+  description: "GroupDocs.Assembly for Java makes it simple to automate table creation in your documents. It also supports adding elements like charts, lists, and images using templates."
+  image: "/img/assembly/features_table.webp" # 500x500 px
+  image_description: "Main Features of GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "Generate reports using business data"
-      content: "The API populates documents with data from formats like JSON, XML, and CSV efficiently and accurately."
+    - title: "Generate reports from multiple data formats"
+      content: "The API works seamlessly with JSON, XML, CSV, and other formats to fill tables in your documents with organized data."
 
     # feature loop
-    - title: "Visualize data with built-in elements"
-      content: "GroupDocs.Assembly supports native elements like tables, charts, and lists, along with text, links, images, and real-time barcode generation."
+    - title: "Present information visually"
+      content: "GroupDocs.Assembly helps you build professional tables, lists, and charts, as well as insert links, text, and images, for a polished look."
 
     # feature loop
-    - title: "Insert data where you need it"
-      content: "With LINQ-based templates, you can place data precisely, use loops to add arrays, and customize formatting such as color programmatically."
+    - title: "Place table content with precision"
+      content: "Use flexible LINQ-based syntax to add rows and columns dynamically. Customize appearance, such as font styles and colors, programmatically."
 
     # feature loop
-    - title: "Wide compatibility with file types"
-      content: "Handle files like MS Office documents, PDFs, HTML, OpenOffice, and emails. You can also merge one document into another."
+    - title: "Compatible with multiple formats"
+      content: "Work with MS Office, OpenOffice, PDF, HTML, and more. Merge tables into any supported file format effortlessly."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "How to create a barcode dynamically"
+    - title: "Dynamically create a data-filled table"
       content: |
-        This example shows how to dynamically generate and add a barcode to a PDF document.
+        This example shows how to populate a table in a PPTX document using dynamic input data.
       code:
         title: "Java"
         content: |
           ```java {style=abap}
-          // Prepare a template with a barcode placeholder
-          // <<barcode [barcode_expression] -barcode_type>>
+          // Design a template with a placeholder for the table
+          // <<foreach [c in items]>> <<[c.Client]>><<[c.Manager]>>
+          //  <<[c.Price]>> <</foreach>>
 
-          // Set the path to your template file
-          String template = "barcode_template.pdf";
+          // Set the template file location
+          String template = "table_template.pptx";
 
-          // Load data from a specific source
-          CsvDataSource data_csv =
-              new CsvDataSource("Barcode Labels.csv", 
-              new CsvDataLoadOptions(true));
+          // Load data from your preferred source
+          JsonDataSource data_json = 
+            new JsonDataSource("Items.json");
 
-          // Build a data source object with the necessary data
+          // Prepare a data object containing the necessary fields
           DataSourceInfo data 
-              = new DataSourceInfo(data_csv, "label");
+              = new DataSourceInfo(data_json, "items");
 
           // Create an instance of DocumentAssembler
           DocumentAssembler asm = new DocumentAssembler();
 
-          // Customize barcode settings
-          asm.BarcodeSettings.Resolution = 1200;
-          asm.BarcodeSettings.BaseYDimension = 5f;
-
-          // Save the updated document with the barcode
-          asm.AssembleDocument(template, "result.pdf", data);
+          // Save the document with the table populated
+          asm.AssembleDocument(template, "result.pptx", data);
           ```
         platform: "java"
         copy_title: "Copy"
@@ -186,7 +184,7 @@ more_features:
           #  loop
           - title: "Download the result"
             icon: "download"
-            link: "/examples/assembly/formats/assembly_barcode.pdf"
+            link: "/examples/assembly/formats/assembly_table.pptx"
         links:
           #  loop
           - title: "More examples"
@@ -219,72 +217,72 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Discover key features"
-    exclude: "barcode"
-    description: "Our platform simplifies handling business documents with powerful tools and automation."
+    title: "Key features at a glance"
+    exclude: "table"
+    description: "Our API simplifies creating professional documents by automating table population alongside other powerful components."
     items: 
           
         # operation loop 1
         - name: "Generate barcodes"
           operation: "barcode"
-          link: "/assembly/java/barcode/pdf/"
+          link: "/assembly/java/barcode/pptx/"
           description: "Dynamically create and add barcodes to documents"
 
         # operation loop 2
         - name: "Visualize data with diagrams"
           operation: "diagram"
-          link: "/assembly/java/diagram/pdf/"
+          link: "/assembly/java/diagram/pptx/"
           description: "Fill various diagram types with data"
 
         # operation loop 3
         - name: "Merge documents"
           operation: "document"
-          link: "/assembly/java/document/pdf/"
+          link: "/assembly/java/document/pptx/"
           description: "Combine the content of one document into another"
 
         # operation loop 4
         - name: "Show data with lists"
           operation: "list"
-          link: "/assembly/java/list/pdf/"
+          link: "/assembly/java/list/pptx/"
           description: "Generate lists in documents using specific data"
 
         # operation loop 5
         - name: "Organize data in tables"
           operation: "table"
-          link: "/assembly/java/table/pdf/"
+          link: "/assembly/java/table/pptx/"
           description: "Retrieve data from any source and populate tables"
          
           
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Create reports in various formats"
-    exclude: "PDF"
-    description: "Java supports over 50 file types, enabling effortless data merging and template processing for professional results."
+    title: "Produce detailed tables in various formats"
+    exclude: "PPTX"
+    description: "With Java, you can populate templates with data and generate detailed reports in over 50 file types."
     items: 
           
         # format loop 1
-        - name: "Add a barcode to a PDF"
+        - name: "Add a table to a PDF"
           format: "PDF"
-          link: "/assembly/java/barcode/pdf/"
+          link: "/assembly/java/table/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 2
-        - name: "Add a barcode to a DOCX"
+        - name: "Add a table to a DOCX"
           format: "DOCX"
-          link: "/assembly/java/barcode/docx/"
+          link: "/assembly/java/table/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 3
-        - name: "Add a barcode to a PPTX"
+        - name: "Add a table to a PPTX"
           format: "PPTX"
-          link: "/assembly/java/barcode/pptx/"
+          link: "/assembly/java/table/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 4
-        - name: "Add a barcode to an XLSX"
+        - name: "Add a table to an XLSX"
           format: "XLSX"
-          link: "/assembly/java/barcode/xlsx/"
+          link: "/assembly/java/table/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
 

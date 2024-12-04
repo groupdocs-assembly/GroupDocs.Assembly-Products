@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-03T19:10:40
+date:  2024-12-04T14:17:40
 draft: false
 lang: en
 format: Xlsx
@@ -92,7 +92,7 @@ steps:
         // <<barcode [barcode_expression] -barcode_type>>
 
         // Set the file path for the template
-        String template = "barcode_template.docx";
+        String template = "barcode_template.xlsx";
 
         // Fetch data from your source
         DataSourceInfo data 
@@ -100,7 +100,7 @@ steps:
 
         // Save the updated document with the barcode
         DocumentAssembler asm = new DocumentAssembler();
-        asm.AssembleDocument(template, "result.docx", data);
+        asm.AssembleDocument(template, "result.xlsx", data);
         ```           
 
 ############################# More features ############################
@@ -140,7 +140,7 @@ more_features:
           // <<barcode [barcode_expression] -barcode_type>>
 
           // Set the path to your template file
-          String template = "barcode_template.pptx";
+          String template = "barcode_template.xlsx";
 
           // Load data from a specific source
           CsvDataSource data_csv =
@@ -159,7 +159,7 @@ more_features:
           asm.BarcodeSettings.BaseYDimension = 5f;
 
           // Save the updated document with the barcode
-          asm.AssembleDocument(template, "result.pptx", data);
+          asm.AssembleDocument(template, "result.xlsx", data);
           ```
         platform: "java"
         copy_title: "Copy"

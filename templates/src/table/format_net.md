@@ -1,4 +1,4 @@
-<% configRef "..\\..\\configs\\barcode\\format_net.yml" %>
+<% configRef "..\\..\\configs\\table\\format_net.yml" %>
 <% include "..\\..\\data\\format_data.md" %>
 
 ---
@@ -72,14 +72,16 @@ steps:
       content: |
         ```csharp {style=abap}
         // <% "{examples.comment_1}" %>
-        // <<barcode [barcode_expression] -barcode_type>>
+        // <<foreach [c in ds]>>
+        // <<[c.Client]>><<[c.Manager]>><<[c.Price]>>
+        // <</foreach>>
 
         // <% "{examples.comment_2}" %>
-        string template = "barcode_template.<% get "fileformat" %>";
+        string template = "table_template.<% get "fileformat" %>";
 
         // <% "{examples.comment_3}" %>
         DataSourceInfo data 
-            = new DataSourceInfo(GetData(), "label");
+            = new DataSourceInfo(GetData(), "ds");
 
         // <% "{examples.comment_4}" %>
         DocumentAssembler asm = new DocumentAssembler();
@@ -91,7 +93,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/assembly/features_barcode.webp" # 500x500 px
+  image: "/img/assembly/features_table.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -120,28 +122,24 @@ more_features:
         content: |
           ```csharp {style=abap}
           // <% "{code_1.comment_1}" %>
-          // <<barcode [barcode_expression] -barcode_type>>
+          // <<foreach [c in items]>> <<[c.Client]>><<[c.Manager]>>
+          // <<[c.Price]>> <</foreach>>
 
           // <% "{code_1.comment_2}" %>
-          string template = "barcode_template.<% get "fileformat" %>";
+          string template = "table_template.<% get "fileformat" %>";
 
           // <% "{code_1.comment_3}" %>
-          CsvDataSource data_csv =
-              new CsvDataSource("Barcode Labels.csv", 
-              new CsvDataLoadOptions(true));
+          JsonDataSource data_json = 
+            new JsonDataSource("Items.json");
 
           // <% "{code_1.comment_4}" %>
           DataSourceInfo data 
-              = new DataSourceInfo(data_csv, "label");
+              = new DataSourceInfo(data_json, "items");
 
           // <% "{code_1.comment_5}" %>
           DocumentAssembler asm = new DocumentAssembler();
 
           // <% "{code_1.comment_6}" %>
-          asm.BarcodeSettings.Resolution = 1200;
-          asm.BarcodeSettings.BaseYDimension = 5f;
-
-          // <% "{code_1.comment_7}" %>
           asm.AssembleDocument(template, "result.<% get "fileformat" %>", data);
           ```
         platform: "net"
