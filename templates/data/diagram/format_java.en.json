@@ -1,0 +1,72 @@
+{
+  "head": {
+    "title": "Embed barcodes in {{FileFormatUp}} files with {{ProgLang}}",
+    "description": "The {{ProdFullName}} API makes it simple to create and insert barcode images into your documents and emails in real time."
+  },
+  "header": {
+    "title": "Generate barcodes for {{FileFormatUp}} files with our .NET API",
+    "description": "{{ProdFullName}} provides comprehensive tools to dynamically create, customize, and embed barcodes into {{FileFormatUp}} files using the {{ProgLang}} API.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Now"
+  },
+  "about": {
+    "title": "What is {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) helps you generate and customize documents by adding data from multiple sources. Easily insert text, numbers, charts, tables, lists, images, and barcodes. Use advanced templates to ensure the data appears exactly where you want it. Supports over 50 formats, including PDF, Office files, and emails."
+  },
+  "more_features": {
+    "title": "Build documents using data-powered templates",
+    "description": "{{ProdFullName}} simplifies document creation across popular file types. Use templates to add charts, tables, lists, links, images, and barcodes seamlessly.",
+    "image_description": "Features of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Generate reports using business data",
+      "content": "The API populates documents with data from formats like JSON, XML, and CSV efficiently and accurately."
+    },
+    "feature_2": {
+      "title": "Visualize data with built-in elements",
+      "content": "{{ProdShortName}} supports native elements like tables, charts, and lists, along with text, links, images, and real-time barcode generation."
+    },
+    "feature_3": {
+      "title": "Insert data where you need it",
+      "content": "With LINQ-based templates, you can place data precisely, use loops to add arrays, and customize formatting such as color programmatically."
+    },
+    "feature_4": {
+      "title": "Wide compatibility with file types",
+      "content": "Handle files like MS Office documents, PDFs, HTML, OpenOffice, and emails. You can also merge one document into another."
+    }
+  },
+  "formats": {
+    "title": "Create reports in various formats",
+    "description": "{{EnvName}} supports over 50 file types, enabling effortless data merging and template processing for professional results."
+  },
+  "operations": {
+    "title": "Discover key features",
+    "description": "Our platform simplifies handling business documents with powerful tools and automation."
+  },
+  "examples": {
+    "comment_1": "Use this tag in your template to create a barcode in the output document",
+    "comment_2": "Set the file path for the template",
+    "comment_3": "Fetch data from your source",
+    "comment_4": "Save the updated document with the barcode"
+  },
+  "steps": {
+    "title": "How to embed a barcode in a {{FileFormatUp}} document",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) lets you insert barcodes into popular formats like {{FileFormatUp}} templates. Supports over 60 types, including 1D and 2D barcodes.",
+      "step_1": "Set up a {{FileFormatUp}} template with barcode markers.",
+      "step_2": "Fetch data from a supported source.",
+      "step_3": "Adjust barcode settings such as size and resolution.",
+      "step_4": "Save the document with the embedded barcode."
+    }
+  },
+  "code_1": {
+    "title": "How to create a barcode dynamically",
+    "content": "This example shows how to dynamically generate and add a barcode to a {{FileFormatUp}} document.",
+    "comment_1": "Prepare a template with a barcode placeholder",
+    "comment_2": "Set the path to your template file",
+    "comment_3": "Load data from a specific source",
+    "comment_4": "Build a data source object with the necessary data",
+    "comment_5": "Create an instance of {{DocumentAssembler}}",
+    "comment_6": "Customize barcode settings",
+    "comment_7": "Save the updated document with the barcode"
+  }
+}

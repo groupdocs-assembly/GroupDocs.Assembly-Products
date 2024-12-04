@@ -4,7 +4,7 @@ dimensions:
 - alias: product
   values: [java]
 - alias:  operation
-  values: [document]
+  values: [table]
 - alias:  fileformat
   values: [ docx, pdf, pptx, xlsx ]
 

@@ -1,0 +1,72 @@
+{
+  "head": {
+    "title": "Generate barcodes in {{FileFormatUp}} documents with {{ProgLang}}",
+    "description": "{{ProdFullName}} API enables developers to easily generate and embed barcode images into documents and emails dynamically."
+  },
+  "header": {
+    "title": "Add barcodes to {{FileFormatUp}} documents using our .NET API",
+    "description": "{{ProdFullName}} offers full support for creating and embedding barcodes dynamically in {{FileFormatUp}} documents using the {{ProgLang}} API.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Free Trial"
+  },
+  "about": {
+    "title": "Overview of {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is built to help you generate documents and reports by integrating data from a wide variety of sources. Populate documents with text or numerical data, create charts, tables, and lists, or insert images and barcodes on the fly. Use advanced markup to place data precisely where needed. Supports over 50 formats, including PDF, MS Office files, and emails."
+  },
+  "more_features": {
+    "title": "Generate documents by filling templates with data",
+    "description": "{{ProdFullName}} is designed to simplify the creation of documents in popular formats. Add charts, lists, tables, hyperlinks, images, and barcodes using advanced templates and markup.",
+    "image_description": "{{ProdShortName}} Features",
+    "feature_1": {
+      "title": "Create reports from business data",
+      "content": "Our API efficiently populates documents in popular office formats using data from sources like JSON, XML, and CSV."
+    },
+    "feature_2": {
+      "title": "Use visual elements to display data",
+      "content": "{{ProdShortName}} supports embedding native elements such as lists, tables, and charts, along with text, hyperlinks, images, and dynamically generated barcodes."
+    },
+    "feature_3": {
+      "title": "Insert data anywhere in the document",
+      "content": "Use LINQ-based syntax to place data exactly where it's needed. Arrays can be inserted using for-each loops, and formatting (e.g., color) can be customized programmatically."
+    },
+    "feature_4": {
+      "title": "Supports a wide range of formats",
+      "content": "Process popular file formats like MS Office, OpenOffice, PDF, HTML, and various email formats. Embed one document into another as needed."
+    }
+  },
+  "formats": {
+    "title": "Create reports in popular formats",
+    "description": "{{EnvName}} supports generating reports in over 50 formats, allowing you to seamlessly merge data and templates for outstanding results."
+  },
+  "operations": {
+    "title": "Explore key features",
+    "description": "Our solution is designed to streamline your business document processing needs."
+  },
+  "examples": {
+    "comment_1": "Insert this tag into your template to generate a barcode in the final document",
+    "comment_2": "Specify the template file path",
+    "comment_3": "Retrieve data from your source",
+    "comment_4": "Save the document with the generated barcode"
+  },
+  "steps": {
+    "title": "Steps to add a generated barcode to a {{FileFormatUp}} document",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) makes it easy to insert barcodes into templates in formats like {{FileFormatUp}}. Supports over 60 barcode types, including one-dimensional and two-dimensional formats.",
+      "step_1": "Prepare a {{FileFormatUp}} template with barcode placeholders.",
+      "step_2": "Retrieve data from any supported data source.",
+      "step_3": "Configure additional properties like barcode size or resolution.",
+      "step_4": "Save the template with the barcode as a new document."
+    }
+  },
+  "code_1": {
+    "title": "How to generate a barcode dynamically",
+    "content": "This example demonstrates embedding a dynamically generated barcode into a {{FileFormatUp}} document.",
+    "comment_1": "Use this template to insert a barcode into the document",
+    "comment_2": "Specify the path to the template file",
+    "comment_3": "Retrieve data from your chosen source",
+    "comment_4": "Create a data source object with only the required data",
+    "comment_5": "Initialize {{DocumentAssembler}}",
+    "comment_6": "Set additional barcode properties",
+    "comment_7": "Save the final document with the embedded barcode"
+  }
+}

@@ -2,9 +2,9 @@ inherits: ..\\languages-formats.yml
 
 dimensions:
 - alias: product
-  values: [java]
+  values: [net]
 - alias:  operation
-  values: [document]
+  values: [diagram]
 - alias:  fileformat
   values: [ docx, pdf, pptx, xlsx ]
 
