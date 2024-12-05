@@ -1,72 +1,72 @@
 {
   "head": {
-    "title": "Populate tables in {{FileFormatUp}} files with {{ProgLang}}",
-    "description": "The {{ProdFullName}} API makes it simple to insert and populate tables in your documents and emails with data dynamically."
+    "title": "Generate charts in {{FileFormatUp}} documents using {{ProgLang}}",
+    "description": "The {{ProdFullName}} API allows developers to create and insert dynamic charts or graphs into documents seamlessly, powered by live data."
   },
   "header": {
-    "title": "Populate tables in {{FileFormatUp}} files with our .NET API",
-    "description": "{{ProdFullName}} provides comprehensive tools to dynamically create, customize, and populate tables in {{FileFormatUp}} files using the {{ProgLang}} API.",
+    "title": "Add charts to {{FileFormatUp}} documents with {{EnvNameShort}} API",
+    "description": "{{ProdFullName}} simplifies the process of embedding charts into {{FileFormatUp}} documents by utilizing real-time data.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Download Now"
+    "action_title": "Get Started for Free"
   },
   "about": {
-    "title": "What is {{ProdFullName}}?",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) helps you generate and customize documents by integrating data from multiple sources. Easily populate tables with structured data, insert text, charts, lists, and images. Use advanced templates to ensure data appears exactly where it’s needed. Supports over 50 formats, including PDFs, Office documents, and emails."
+    "title": "Introduction to {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a versatile solution for automating the creation of documents and reports. It enables you to add charts, tables, lists, barcodes, and images directly into your files, with advanced tools for precise formatting and data integration. The platform supports over 50 formats, including PDF, Microsoft Office files, and emails."
   },
   "more_features": {
-    "title": "Build documents using data-driven templates",
-    "description": "{{ProdFullName}} simplifies document creation across popular file types. Use templates to populate tables, charts, lists, links, and images seamlessly.",
-    "image_description": "Features of {{ProdShortName}}",
+    "title": "Effortlessly embed dynamic charts in your documents",
+    "description": "{{ProdFullName}} provides an easy way to build data-rich documents in popular formats. Use templates to insert charts, tables, barcodes, lists, links, and images with dynamic updates from your data.",
+    "image_description": "Key features of {{ProdShortName}}",
     "feature_1": {
-      "title": "Generate reports using business data",
-      "content": "The API populates tables in documents with data from formats like JSON, XML, and CSV efficiently and accurately."
+      "title": "Easily turn data into charts",
+      "content": "Use the API to transform data from JSON, XML, CSV, or other sources into clean, professional charts for your documents."
     },
     "feature_2": {
-      "title": "Visualize data with built-in table elements",
-      "content": "{{ProdShortName}} supports creating dynamic tables and other native elements like charts and lists, along with text, links, and images."
+      "title": "Create visually impactful content",
+      "content": "{{ProdShortName}} supports various visual formats, including bar graphs, pie charts, and line graphs, which can be combined with tables, barcodes, images, and more for enhanced reports."
     },
     "feature_3": {
-      "title": "Insert data precisely into tables",
-      "content": "With LINQ-based templates, you can populate table rows and columns dynamically, use loops for arrays, and customize styles like colors and fonts programmatically."
+      "title": "Customizable chart placement and styling",
+      "content": "With LINQ-based syntax, you can dynamically generate and position charts in the document, while easily adjusting styles, colors, and layouts to meet your design needs."
     },
     "feature_4": {
-      "title": "Wide compatibility with file types",
-      "content": "Handle files like MS Office documents, PDFs, HTML, OpenOffice, and emails. You can also embed populated tables into other documents seamlessly."
+      "title": "Supports multiple document formats",
+      "content": "Generate documents in formats like MS Office, PDF, OpenOffice, and HTML. The charts integrate smoothly into any supported format for professional results."
     }
   },
   "formats": {
-    "title": "Create reports with dynamic tables",
-    "description": "{{EnvName}} supports over 50 file types, enabling effortless table population and template processing for professional document creation."
+    "title": "Generate comprehensive reports in diverse formats",
+    "description": "{{EnvName}} lets you create documents with integrated charts across over 50 file formats, ensuring seamless merging of templates and data."
   },
   "operations": {
-    "title": "Discover key features",
-    "description": "Our platform simplifies handling business documents with powerful tools for automating table population and data integration."
+    "title": "Explore powerful capabilities",
+    "description": "This platform simplifies the process of designing data-focused, visually appealing documents tailored to your needs."
   },
   "examples": {
-    "comment_1": "Use this tag in your template to populate a table in the output document",
-    "comment_2": "Set the file path for the template",
-    "comment_3": "Fetch data from your source",
-    "comment_4": "Save the updated document with the populated table"
+    "comment_1": "Add this tag to your template to include a chart",
+    "comment_2": "Provide the file path to your template",
+    "comment_3": "Extract the necessary data from your source",
+    "comment_4": "Save the final document with the embedded chart"
   },
   "steps": {
-    "title": "How to populate a table in a {{FileFormatUp}} document",
+    "title": "Steps to embed a chart into a {{FileFormatUp}} document",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) lets you dynamically populate tables in templates for popular formats like {{FileFormatUp}}. Easily integrate structured data from various sources.",
-      "step_1": "Set up a {{FileFormatUp}} template with table markers.",
-      "step_2": "Fetch data from a supported source.",
-      "step_3": "Configure table settings such as styles and layout.",
-      "step_4": "Save the document with the populated table."
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) simplifies the process of inserting charts into {{FileFormatUp}} templates. Choose from a variety of chart styles, including bar, pie, and line charts.",
+      "step_1": "Create a {{FileFormatUp}} template with placeholders for the chart.",
+      "step_2": "Load your data from a compatible source.",
+      "step_3": "Set the chart options, such as type, labels, and colors.",
+      "step_4": "Save the document with the chart included."
     }
   },
   "code_1": {
-    "title": "How to populate a table dynamically",
-    "content": "This example shows how to dynamically populate a table in a {{FileFormatUp}} document using data from a chosen source.",
-    "comment_1": "Prepare a template with a table placeholder",
-    "comment_2": "Set the path to your template file",
-    "comment_3": "Load data from a specific source",
-    "comment_4": "Build a data source object with the necessary data",
-    "comment_5": "Create an instance of {{DocumentAssembler}}",
-    "comment_6": "Customize table settings",
-    "comment_7": "Save the updated document with the populated table"
+    "title": "Programmatically generate and embed charts",
+    "content": "This example demonstrates how to create and embed a chart into a {{FileFormatUp}} document programmatically.",
+    "comment_1": "Prepare a template with a placeholder for the chart",
+    "comment_2": "Specify the file path to the template",
+    "comment_3": "Load data from your chosen source",
+    "comment_4": "Create a data object with the relevant information",
+    "comment_5": "Configure the chart's type and appearance",
+    "comment_6": "Initialize {{DocumentAssembler}}",
+    "comment_7": "Save the completed document with the chart embedded"
   }
 }

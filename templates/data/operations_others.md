@@ -7,10 +7,10 @@
           description: "<% "{common-content.operations.barcode.description}" %>"
 
         # operation loop 2
-        - name: "<% "{common-content.operations.diagram.name}" %>"
-          operation: "diagram"
-          link: "/assembly/<% get "ProdCode" %>/diagram/<% get "FileFormat" %>/"
-          description: "<% "{common-content.operations.diagram.description}" %>"
+        - name: "<% "{common-content.operations.chart.name}" %>"
+          operation: "chart"
+          link: "/assembly/<% get "ProdCode" %>/chart/<% get "FileFormat" %>/"
+          description: "<% "{common-content.operations.chart.description}" %>"
 
         # operation loop 3
         - name: "<% "{common-content.operations.document.name}" %>"

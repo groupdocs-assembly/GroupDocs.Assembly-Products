@@ -88,16 +88,14 @@ steps:
       content: |
         ```java {style=abap}
         // <% "{examples.comment_1}" %>
-        // <<foreach [c in ds]>>
-        // <<[c.Client]>><<[c.Manager]>><<[c.Price]>>
-        // <</foreach>>
+        // Orders Prices by months<<y [Sum(c => c.Price)]>><<size [Count()]>>
 
         // <% "{examples.comment_2}" %>
         String template = "chart_template.<% get "fileformat" %>";
 
         // <% "{examples.comment_3}" %>
         DataSourceInfo data 
-            = new DataSourceInfo(GetData(), "ds");
+            = new DataSourceInfo(GetChartData(), "orders");
 
         // <% "{examples.comment_4}" %>
         DocumentAssembler asm = new DocumentAssembler();
@@ -138,8 +136,8 @@ more_features:
         content: |
           ```java {style=abap}
           // <% "{code_1.comment_1}" %>
-          // <<foreach [c in items]>> <<[c.Client]>><<[c.Manager]>>
-          //  <<[c.Price]>> <</foreach>>
+          // Total Contract Price<<y [m.Total_Contract_Price]>>
+          // <<seriesColor [color]>>
 
           // <% "{code_1.comment_2}" %>
           String template = "table_template.<% get "fileformat" %>";
@@ -153,10 +151,14 @@ more_features:
               = new DataSourceInfo(data_json, "items");
 
           // <% "{code_1.comment_5}" %>
-          DocumentAssembler asm = new DocumentAssembler();
+          DataSourceInfo design 
+              = new DataSourceInfo("red", "color");
 
           // <% "{code_1.comment_6}" %>
-          asm.AssembleDocument(template, "result.<% get "fileformat" %>", data);
+          DocumentAssembler asm = new DocumentAssembler();
+
+          // <% "{code_1.comment_7}" %>
+          asm.AssembleDocument(template, "result.<% get "fileformat" %>", data, design);
           ```
         platform: "java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"

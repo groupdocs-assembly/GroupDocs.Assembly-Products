@@ -24,11 +24,11 @@
         "xlsx": "Add a barcode to an XLSX",
         "pptx": "Add a barcode to a PPTX"
       },
-      "diagram": {
-        "pdf": "Diagrams in PDF",
-        "docx": "Diagrams in DOCX",
-        "xlsx": "Diagrams in XLSX",
-        "pptx": "Diagrams in PPTX"
+      "chart": {
+        "pdf": "Charts in PDF",
+        "docx": "Charts in DOCX",
+        "xlsx": "Charts in XLSX",
+        "pptx": "Charts in PPTX"
       },
       "document": {
         "pdf": "Embed a document in a PDF",
@@ -74,7 +74,7 @@
         "name": "Generate barcodes",
         "description": "Dynamically create and add barcodes to documents"
       },
-      "diagram": {
+      "chart": {
         "name": "Visualize data with diagrams",
         "description": "Fill various diagram types with data"
       },
