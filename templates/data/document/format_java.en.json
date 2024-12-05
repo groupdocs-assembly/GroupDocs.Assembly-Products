@@ -11,7 +11,7 @@
   },
   "about": {
     "title": "About {{ProdFullName}}",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced signing solution that supports a wide range of signature types. You can sign documents with text, images, barcodes, digital certificates, stamps, and more across 60+ file formats, including PDF, MS Office, images, ZIP files, and other popular business formats. Additionally, signatures in signed documents can be searched, verified, modified, or deleted at any time."
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced signing solution that supports a wide range of signature types. You can sign documents with text, images, barcodes, digital certificates, stamps, and more across 50+ file formats, including PDF, MS Office, images, ZIP files, and other popular business formats. Additionally, signatures in signed documents can be searched, verified, modified, or deleted at any time."
   },
   "more_features": {
     "title": "Enhance or protect document content with signatures",
@@ -36,7 +36,7 @@
   },
   "formats": {
     "title": "Sign documents in other formats",
-    "description": "Over 60 formats can be signed using our {{EnvName}} API. Apply various signatures to any page or position within the document."
+    "description": "Over 50 formats can be signed using our {{EnvName}} API. Apply various signatures to any page or position within the document."
   },
   "operations": {
     "title": "Discover our core capabilities",
@@ -51,7 +51,7 @@
   "steps": {
     "title": "Steps to generate and add a barcode to {{FileFormatUp}} file",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) can generate barcodes in various popular formats and place them on {{FileFormatUp}} pages. With support for over 60 barcode types, {{EnvName}} applications can easily be enhanced with barcode signing capabilities by incorporating our library.",
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) can generate barcodes in various popular formats and place them on {{FileFormatUp}} pages. With support for over 50 barcode types, {{EnvName}} applications can easily be enhanced with barcode signing capabilities by incorporating our library.",
       "step_1": "Provide the {{FileFormatUp}} file or stream to be processed.",
       "step_2": "Pass the barcode text to the {{BarcodeSignOptions}} instance.",
       "step_3": "Customize barcode options such as position, size, etc.",

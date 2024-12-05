@@ -1,4 +1,4 @@
-<% configRef "..\\..\\configs\\barcode\\format_java.yml" %>
+<% configRef "..\\..\\configs\\document\\format_java.yml" %>
 <% include "..\\..\\data\\format_data.md" %>
 
 ---
@@ -8,8 +8,8 @@ date:  <% date "utcnow" %>
 draft: false
 lang: <% lower ( get "lang") %>
 format: <% get "FileformatCap" %>
-product: "Signature"
-product_tag: "signature"
+product: "Assembly"
+product_tag: "assembly"
 platform: "Java"
 platform_tag: "java"
 
@@ -33,9 +33,9 @@ header_actions:
 about:
     enable: true
     title: "<% (dict "about.title") %>"
-    link: "/signature/<% get "ProdCode" %>/"
+    link: "/assembly/<% get "ProdCode" %>/"
     link_title: "<% "{common-content.texts.learn_more}" %>"
-    picture: "about_signature.svg" # 480 X 400
+    picture: "about_assembly.svg" # 480 X 400
     content: |
        <% (dict "about.content") %>
 
@@ -55,7 +55,7 @@ steps:
       platform: "java"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       result_enable: true
-      result_link: "/examples/signature/signature_all.pdf"
+      result_link: "/examples/assembly/assembly_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
         command_title: "Maven XML"
@@ -63,7 +63,7 @@ steps:
           <dependencies>
             <dependency>
               <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-signature</artifactId>
+              <artifactId>groupdocs-assembly</artifactId>
               <version>{0}</version>
             </dependency>
           </dependencies>
@@ -88,27 +88,26 @@ steps:
       content: |
         ```java {style=abap}
         // <% "{examples.comment_1}" %>
-        Signature signature = new Signature("input.<% get "fileformat" %>");
+        // <<doc [doc_expression]>>
 
         // <% "{examples.comment_2}" %>
-        BarcodeSignOptions options = new BarcodeSignOptions("Business data");
+        string template = "doc_template.<% get "fileformat" %>";
 
         // <% "{examples.comment_3}" %>
-        options.setEncodeType(BarcodeTypes.Code128);
-        options.setLeft(100);
-        options.setTop(100);
+        DataSourceInfo data 
+            = new DataSourceInfo("insert.<% get "fileformat" %>", "doc_expression");
 
         // <% "{examples.comment_4}" %>
-        signature.sign("output.<% get "fileformat" %>", options);
-
-        ```            
+        DocumentAssembler asm = new DocumentAssembler();
+        asm.AssembleDocument(template, "result.<% get "fileformat" %>", data);
+        ```           
 
 ############################# More features ############################
 more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/signature/features_barcode.webp" # 500x500 px
+  image: "/img/assembly/features_barcode.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -137,37 +136,20 @@ more_features:
         content: |
           ```java {style=abap}
           // <% "{code_1.comment_1}" %>
-          Signature signature = new Signature("input.<% get "fileformat" %>");
+          // <<image [expression]>>
 
           // <% "{code_1.comment_2}" %>
-          BarcodeSignOptions signOptions = new BarcodeSignOptions("Accepted");
-          signOptions.setEncodeType(BarcodeTypes.Code39FullASCII);
+          string template = "template.<% get "fileformat" %>";
 
           // <% "{code_1.comment_3}" %>
-          signOptions.setVerticalAlignment(VerticalAlignment.Bottom);
-          signOptions.setHorizontalAlignment(HorizontalAlignment.Left);
+          DataSourceInfo data =
+              = new DataSourceInfo("photo.jpg", "expression");
 
           // <% "{code_1.comment_4}" %>
-          Padding padding = new Padding();
-          padding.setLeft(20);
-          padding.setTop(180);
-          signOptions.setMargin(padding);
+          DocumentAssembler asm = new DocumentAssembler();
 
           // <% "{code_1.comment_5}" %>
-          signOptions.setForeColor(Color.RED);
-
-          // <% "{code_1.comment_6}" %>
-          SignatureFont font = new SignatureFont();
-          font.setSize(12);
-          font.setFamilyName("Arial");
-          signOptions.setFont(font);
-
-          // <% "{code_1.comment_7}" %>
-          signOptions.setCodeTextAlignment(CodeTextAlignment.Above);
-
-          // <% "{code_1.comment_8}" %>
-          SignResult signResult = signature.sign("output.<% get "fileformat" %>", signOptions);
-
+          asm.AssembleDocument(template, "result.<% get "fileformat" %>", data);
           ```
         platform: "java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"
@@ -177,7 +159,7 @@ more_features:
             <dependencies>
               <dependency>
                 <groupId>com.groupdocs</groupId>
-                <artifactId>groupdocs-signature</artifactId>
+                <artifactId>groupdocs-assembly</artifactId>
                 <version>{0}</version>
               </dependency>
             </dependencies>
@@ -194,7 +176,7 @@ more_features:
           #  loop
           - title: "<% "{common-content.format-code.result_title_bottom}" %>"
             icon: "download"
-            link: "/examples/signature/formats/signature_<% get "OperationLow" %>.<% get "fileformat" %>"
+            link: "/examples/assembly/formats/assembly_<% get "OperationLow" %>.<% get "fileformat" %>"
         links:
           #  loop
           - title: "<% "{common-content.format-code.links.title_1}" %>"

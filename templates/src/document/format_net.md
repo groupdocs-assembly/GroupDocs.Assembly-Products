@@ -1,4 +1,4 @@
-<% configRef "..\\..\\configs\\barcode\\format_net.yml" %>
+<% configRef "..\\..\\configs\\document\\format_net.yml" %>
 <% include "..\\..\\data\\format_data.md" %>
 
 ---
@@ -8,8 +8,8 @@ date:  <% date "utcnow" %>
 draft: false
 lang: <% lower ( get "lang") %>
 format: <% get "FileformatCap" %>
-product: "Signature"
-product_tag: "signature"
+product: "Assembly"
+product_tag: "assembly"
 platform: ".NET"
 platform_tag: "net"
 
@@ -33,9 +33,9 @@ header_actions:
 about:
     enable: true
     title: "<% (dict "about.title") %>"
-    link: "/signature/<% get "ProdCode" %>/"
+    link: "/assembly/<% get "ProdCode" %>/"
     link_title: "<% "{common-content.texts.learn_more}" %>"
-    picture: "about_signature.svg" # 480 X 400
+    picture: "about_assembly.svg" # 480 X 400
     content: |
        <% (dict "about.content") %>
 
@@ -55,10 +55,10 @@ steps:
       platform: "net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       result_enable: true
-      result_link: "/examples/signature/signature_all.pdf"
+      result_link: "/examples/assembly/assembly_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
-        command: "dotnet add package GroupDocs.Signature"
+        command: "dotnet add package GroupDocs.Assembly"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -72,20 +72,18 @@ steps:
       content: |
         ```csharp {style=abap}
         // <% "{examples.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{examples.comment_2}" %>
-            BarcodeSignOptions options = new BarcodeSignOptions("Business data")
-            {
-                // <% "{examples.comment_3}" %>
-                EncodeType = BarcodeTypes.Code128,
-                Left = 50,
-                Top = 150
-            };
+        // <<doc [doc_expression]>>
 
-            // <% "{examples.comment_4}" %>
-            SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
-        }
+        // <% "{examples.comment_2}" %>
+        string template = "doc_template.<% get "fileformat" %>";
+
+        // <% "{examples.comment_3}" %>
+        DataSourceInfo data 
+            = new DataSourceInfo("insert.<% get "fileformat" %>", "doc_expression");
+
+        // <% "{examples.comment_4}" %>
+        DocumentAssembler asm = new DocumentAssembler();
+        asm.AssembleDocument(template, "result.<% get "fileformat" %>", data);
         ```            
 
 ############################# More features ############################
@@ -93,7 +91,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/signature/features_barcode.webp" # 500x500 px
+  image: "/img/assembly/features_barcode.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -121,45 +119,33 @@ more_features:
         title: "C#"
         content: |
           ```csharp {style=abap}
-          using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-          {
-              // <% "{code_1.comment_2}" %>
-              BarcodeSignOptions options = new BarcodeSignOptions("Accepted")
-              {
-                  EncodeType = BarcodeTypes.Code39FullASCII,
+          // <% "{code_1.comment_1}" %>
+          // <<image [expression]>>
 
-                  // <% "{code_1.comment_3}" %>
-                  VerticalAlignment = Domain.VerticalAlignment.Top,
-                  HorizontalAlignment = Domain.HorizontalAlignment.Left,
+          // <% "{code_1.comment_2}" %>
+          string template = "template.<% get "fileformat" %>";
 
-                  // <% "{code_1.comment_4}" %>
-                  Margin = new Padding() { Top = 180, Right = 20 },
+          // <% "{code_1.comment_3}" %>
+          DataSourceInfo data =
+              = new DataSourceInfo("photo.jpg", "expression");
 
-                  // <% "{code_1.comment_5}" %>
-                  ForeColor = Color.Red,
+          // <% "{code_1.comment_4}" %>
+          DocumentAssembler asm = new DocumentAssembler();
 
-                  // <% "{code_1.comment_6}" %>
-                  Font = new SignatureFont { Size = 12, FamilyName = "Arial" },
-
-                  // <% "{code_1.comment_7}" %>
-                  CodeTextAlignment = CodeTextAlignment.Above
-              };
-
-              // <% "{code_1.comment_8}" %>
-              SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
-          }
+          // <% "{code_1.comment_5}" %>
+          asm.AssembleDocument(template, "result.<% get "fileformat" %>", data);
           ```
         platform: "net"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"
         install:
-          command: "dotnet add package GroupDocs.Signature"
+          command: "dotnet add package GroupDocs.Assembly"
           copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
           copy_done: "<% "{common-content.format-code.copy_done}" %>"
         top_links:
           #  loop
           - title: "<% "{common-content.format-code.result_title_bottom}" %>"
             icon: "download"
-            link: "/examples/signature/formats/signature_<% get "OperationLow" %>.<% get "fileformat" %>"
+            link: "/examples/assembly/formats/assembly_<% get "OperationLow" %>.<% get "fileformat" %>"
         links:
           #  loop
           - title: "<% "{common-content.format-code.links.title_1}" %>"
