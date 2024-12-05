@@ -107,7 +107,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/assembly/features_barcode.webp" # 500x500 px
+  image: "/img/assembly/features_document.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -143,7 +143,7 @@ more_features:
 
           // <% "{code_1.comment_3}" %>
           DataSourceInfo data =
-              = new DataSourceInfo("photo.jpg", "expression");
+              = new DataSourceInfo("logo.jpg", "expression");
 
           // <% "{code_1.comment_4}" %>
           DocumentAssembler asm = new DocumentAssembler();

@@ -1,70 +1,70 @@
 {
   "head": {
-    "title": "Insert one document into another in {{FileFormatUp}} using {{ProgLang}} API",
-    "description": "Merge one {{FileFormatUp}} document into another using {{ProgLang}}. With just a few lines of code, combine files seamlessly using {{ProdShortName}}."
+    "title": "Embed one document into another in {{FileFormatUp}} with {{ProgLang}} API",
+    "description": "Easily merge {{FileFormatUp}} documents using {{ProgLang}}. With {{ProdShortName}}, combine files seamlessly in just a few steps."
   },
   "header": {
-    "title": "Embed one document into another in {{FileFormatUp}} format",
-    "description": "Use {{ProdFullName}} to insert documents into other {{FileFormatUp}} documents easily. Our API provides powerful tools to merge documents with precision.",
+    "title": "Combine documents in {{FileFormatUp}} format",
+    "description": "With {{ProdFullName}}, you can quickly embed one {{FileFormatUp}} document into another. This API provides robust tools for precise document merging.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download for Free"
   },
   "about": {
-    "title": "Overview of {{ProdFullName}}",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced solution for document composition and manipulation. It allows you to combine multiple files by inserting one document into another with precise control. Supporting over 50 formats—including PDF, MS Office files, and more—this tool also lets you organize, edit, and customize the merged content to fit your needs."
+    "title": "What is {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a powerful tool for document composition and manipulation. It allows users to embed one document into another, enabling seamless merging of content. With support for over 50 formats—including PDFs, MS Office files, and more—you can organize, edit, and customize the final output to meet your requirements."
   },
   "more_features": {
-    "title": "Simplify document merging with advanced features",
-    "description": "The {{ProdFullName}} library enables smooth integration of documents into one another for a variety of formats. Combine and customize content effortlessly.",
+    "title": "Streamline document merging with advanced tools",
+    "description": "The {{ProdFullName}} library simplifies embedding one document into another, supporting various file formats and offering customization for seamless integration.",
     "image_description": "Key Features of {{ProdShortName}}",
     "feature_1": {
-      "title": "Create reports from your business data",
-      "content": "Easily fill documents with data from sources like JSON, XML, and CSV, ensuring accurate and efficient processing."
+      "title": "Generate reports from your business data",
+      "content": "Automatically populate documents with data from JSON, XML, CSV, or other sources, ensuring accurate and efficient workflows."
     },
     "feature_2": {
-      "title": "Bring your data to life with visual elements",
-      "content": "{{ProdShortName}} lets you add tables, charts, and lists, as well as text, hyperlinks, images, and even barcodes generated on the fly."
+      "title": "Enrich documents with visual elements",
+      "content": "{{ProdShortName}} allows you to include tables, charts, and lists, as well as text, links, images, and dynamically generated barcodes."
     },
     "feature_3": {
-      "title": "Place data exactly where it's needed",
-      "content": "Use LINQ-based templates to control data placement, handle arrays with loops, and programmatically apply custom styles like colors."
+      "title": "Precisely place and format data",
+      "content": "LINQ-based templates give you control over data placement, let you handle loops for arrays, and allow styling such as color customization."
     },
     "feature_4": {
-      "title": "Works with a variety of file formats",
-      "content": "Supports MS Office documents, PDFs, HTML, OpenOffice files, emails, and more. You can also embed one document into another with ease."
+      "title": "Works with multiple file formats",
+      "content": "Easily embed documents into one another across formats like MS Office, PDFs, HTML, OpenOffice, and more."
     }
   },
   "formats": {
-    "title": "Merge documents across multiple formats",
-    "description": "{{EnvName}} API allows seamless document merging with support for over 50 file formats. Easily embed files or sections into your documents, regardless of the format."
+    "title": "Merge documents in various formats",
+    "description": "With {{EnvName}} API, you can combine documents across more than 50 supported formats. Effortlessly embed files or sections into your final documents."
   },
   "operations": {
-    "title": "Explore our core features",
-    "description": "Discover the powerful document composition tools that {{ProdShortName}} provides for merging and embedding files."
+    "title": "Discover our powerful tools",
+    "description": "Explore the features {{ProdShortName}} offers for embedding and merging documents with precision."
   },
   "examples": {
-    "comment_1": "Place this tag in your template to specify where the document will be inserted",
-    "comment_2": "Define the file path for your template",
-    "comment_3": "Retrieve the content of the document you want to insert",
-    "comment_4": "Save the completed document"
+    "comment_1": "Add this tag to your template to mark the insertion point",
+    "comment_2": "Specify the file path for the template",
+    "comment_3": "Provide the path of the document to be embedded",
+    "comment_4": "Save the merged document"
   },
   "steps": {
-    "title": "Steps to embed a document into a {{FileFormatUp}} file",
+    "title": "How to merge a document into a {{FileFormatUp}} file",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) lets you combine documents by embedding one file into another {{FileFormatUp}} file. Easily merge content with a variety of customization options.",
-      "step_1": "Create a {{FileFormatUp}} template with designated placeholders.",
-      "step_2": "Specify the file path for the template.",
-      "step_3": "Provide the path to the document you want to insert.",
-      "step_4": "Save the final document with the inserted content."
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) allows you to embed one document into another {{FileFormatUp}} file effortlessly. Merge and customize content with ease.",
+      "step_1": "Design a {{FileFormatUp}} template with placeholders for the embedded document.",
+      "step_2": "Define the file path for the template.",
+      "step_3": "Specify the file path of the document to embed.",
+      "step_4": "Save the final file with the embedded content."
     }
   },
   "code_1": {
     "title": "How to embed an image into a document programmatically",
-    "content": "This example demonstrates how to insert image into {{FileFormatUp}} document using {{ProdShortName}}.",
-    "comment_1": "Add specific tag to template document",
-    "comment_2": "Set up the path to the template",
-    "comment_3": "Set up the path to the image",
-    "comment_4": "Create an instance of {{DocumentAssembler}}",
-    "comment_5": "Save the result document with the inserted image"
+    "content": "This example demonstrates how to insert an image into a {{FileFormatUp}} document using {{ProdShortName}}.",
+    "comment_1": "Add a placeholder tag in your template",
+    "comment_2": "Specify the file path for the template",
+    "comment_3": "Set the path to the image file",
+    "comment_4": "Initialize an instance of {{DocumentAssembler}}",
+    "comment_5": "Save the document with the embedded image"
   }
 }

@@ -1,73 +1,70 @@
 {
   "head": {
-    "title": "Easily add barcodes to {{FileFormatUp}} files with {{ProgLang}}",
-    "description": "Create and insert barcode signatures into {{FileFormatUp}} documents in {{ProgLang}} with ease. {{ProdShortName}} enables versatile signature integration for multiple formats."
+    "title": "Insert one document into another in {{FileFormatUp}} using {{ProgLang}}",
+    "description": "Combine {{FileFormatUp}} files easily with {{ProgLang}}. {{ProdShortName}} simplifies the process of merging documents in just a few lines of code."
   },
   "header": {
-    "title": "Generate barcode for {{FileFormatUp}}",
-    "description": "Add barcodes of popular formats to any position in your business documents with {{ProdFullName}}. Our solution provides extensive options to customize barcode signatures.",
+    "title": "Embed content into {{FileFormatUp}} files effortlessly",
+    "description": "Use {{ProdFullName}} to seamlessly insert one {{FileFormatUp}} document into another. Get precise results with flexible and reliable tools.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Download for Free"
+    "action_title": "Get it for Free"
   },
   "about": {
-    "title": "About {{ProdFullName}}",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced signing solution that supports a wide range of signature types. You can sign documents with text, images, barcodes, digital certificates, stamps, and more across 50+ file formats, including PDF, MS Office, images, ZIP files, and other popular business formats. Additionally, signatures in signed documents can be searched, verified, modified, or deleted at any time."
+    "title": "What is {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a versatile solution for handling documents. It enables you to integrate one document into another with ease, supporting over 50 formats such as PDFs and MS Office files. Tailor your output by merging, editing, and organizing content exactly how you want."
   },
   "more_features": {
-    "title": "Enhance or protect document content with signatures",
-    "description": "The {{ProdFullName}} library is designed for signing and further processing popular file formats. Quickly and easily add, modify, verify, or delete various types of signatures.",
-    "image_description": "Features of {{ProdShortName}}",
+    "title": "Advanced tools to simplify document integration",
+    "description": "With {{ProdFullName}}, embedding documents is straightforward and customizable, no matter the file type. Achieve clean and consistent results across your projects.",
+    "image_description": "Highlights of {{ProdShortName}}",
     "feature_1": {
-      "title": "Document signing",
-      "content": "Sign any page of supported documents with text, images, barcodes, QR codes, or stamps. Add hidden metadata like EXIF in images or protect document content from unauthorized changes using digital certificates."
+      "title": "Create reports using business data",
+      "content": "Fill documents with data from sources like JSON, XML, or CSV quickly and reliably, streamlining your workflows."
     },
     "feature_2": {
-      "title": "Signature search and verification",
-      "content": "There’s much more you can do with a signed document. We offer verification of signatures to ensure everything is in order. Additionally, you can retrieve a list of all document signatures through a search."
+      "title": "Enhance documents with visual content",
+      "content": "{{ProdShortName}} lets you insert tables, charts, and lists alongside text, hyperlinks, images, and even dynamic barcodes."
     },
     "feature_3": {
-      "title": "Modify signatures",
-      "content": "Most previously added signatures can be modified. Easily correct text, adjust position, or change color."
+      "title": "Place data exactly where it belongs",
+      "content": "LINQ templates help position your data with precision, handle repeating elements like arrays, and apply custom styles effortlessly."
     },
     "feature_4": {
-      "title": "Delete signatures",
-      "content": "Our solution supports full CRUD operations for signatures. Many types of signatures can be deleted from a document when necessary."
+      "title": "Compatible with diverse file formats",
+      "content": "Merge documents across various formats, including PDFs, HTML, MS Office files, and OpenOffice, ensuring flexibility for your projects."
     }
   },
   "formats": {
-    "title": "Sign documents in other formats",
-    "description": "Over 50 formats can be signed using our {{EnvName}} API. Apply various signatures to any page or position within the document."
+    "title": "Merge across different document types",
+    "description": "With {{EnvName}}, you can embed and combine content across more than 50 file formats. Add files seamlessly to create professional results."
   },
   "operations": {
-    "title": "Discover our core capabilities",
-    "description": "We proudly present an extensive variety of supported signatures and functions"
+    "title": "Key capabilities at a glance",
+    "description": "Discover the extensive features {{ProdShortName}} offers to make embedding and combining documents efficient and hassle-free."
   },
   "examples": {
-    "comment_1": "Create a new {{TextSignature}} instance with the document path",
-    "comment_2": "Use {{BarcodeSignOptions}} to add a barcode to the document",
-    "comment_3": "Set up the barcode type and other properties",
-    "comment_4": "Save the signed file"
+    "comment_1": "Use this tag in your template to mark the spot for the embedded document",
+    "comment_2": "Set the file path for the main template",
+    "comment_3": "Provide the path to the document you want to insert",
+    "comment_4": "Save the final file with the embedded content"
   },
   "steps": {
-    "title": "Steps to generate and add a barcode to {{FileFormatUp}} file",
+    "title": "Steps to insert a document into a {{FileFormatUp}} file",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) can generate barcodes in various popular formats and place them on {{FileFormatUp}} pages. With support for over 50 barcode types, {{EnvName}} applications can easily be enhanced with barcode signing capabilities by incorporating our library.",
-      "step_1": "Provide the {{FileFormatUp}} file or stream to be processed.",
-      "step_2": "Pass the barcode text to the {{BarcodeSignOptions}} instance.",
-      "step_3": "Customize barcode options such as position, size, etc.",
-      "step_4": "Save the file with the newly added barcode."
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) makes embedding one {{FileFormatUp}} document into another simple and customizable.",
+      "step_1": "Prepare a {{FileFormatUp}} template with placeholders for the embedded content.",
+      "step_2": "Specify the file path for the template.",
+      "step_3": "Provide the file path for the document to embed.",
+      "step_4": "Save the output file with the merged content."
     }
   },
   "code_1": {
-    "title": "How to create a barcode signature",
-    "content": "This example demonstrates how to place a customized barcode on {{FileFormatUp}} document pages.",
-    "comment_1": "Provide the document to be signed",
-    "comment_2": "Create signature options with the desired text",
-    "comment_3": "Set the relative barcode position on the page",
-    "comment_4": "Set the barcode padding from the page edge",
-    "comment_5": "Set the color of the bars",
-    "comment_6": "Define the message font style",
-    "comment_7": "Specify the message position",
-    "comment_8": "Sign and save the document"
+    "title": "How to programmatically insert an image into a document",
+    "content": "This example shows how to embed an image into a {{FileFormatUp}} file using {{ProdShortName}}.",
+    "comment_1": "Add a placeholder tag in the template file",
+    "comment_2": "Define the path to the template",
+    "comment_3": "Specify the path to the image",
+    "comment_4": "Initialize the {{DocumentAssembler}} instance",
+    "comment_5": "Save the file with the embedded image"
   }
 }
