@@ -1,0 +1,72 @@
+{
+  "head": {
+    "title": "Populate tables in {{FileFormatUp}} files with {{ProgLang}}",
+    "description": "The {{ProdFullName}} API makes it simple to insert and populate tables in your documents and emails with data dynamically."
+  },
+  "header": {
+    "title": "Populate tables in {{FileFormatUp}} files with our .NET API",
+    "description": "{{ProdFullName}} provides comprehensive tools to dynamically create, customize, and populate tables in {{FileFormatUp}} files using the {{ProgLang}} API.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Now"
+  },
+  "about": {
+    "title": "What is {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) helps you generate and customize documents by integrating data from multiple sources. Easily populate tables with structured data, insert text, charts, lists, and images. Use advanced templates to ensure data appears exactly where it’s needed. Supports over 50 formats, including PDFs, Office documents, and emails."
+  },
+  "more_features": {
+    "title": "Build documents using data-driven templates",
+    "description": "{{ProdFullName}} simplifies document creation across popular file types. Use templates to populate tables, charts, lists, links, and images seamlessly.",
+    "image_description": "Features of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Generate reports using business data",
+      "content": "The API populates tables in documents with data from formats like JSON, XML, and CSV efficiently and accurately."
+    },
+    "feature_2": {
+      "title": "Visualize data with built-in table elements",
+      "content": "{{ProdShortName}} supports creating dynamic tables and other native elements like charts and lists, along with text, links, and images."
+    },
+    "feature_3": {
+      "title": "Insert data precisely into tables",
+      "content": "With LINQ-based templates, you can populate table rows and columns dynamically, use loops for arrays, and customize styles like colors and fonts programmatically."
+    },
+    "feature_4": {
+      "title": "Wide compatibility with file types",
+      "content": "Handle files like MS Office documents, PDFs, HTML, OpenOffice, and emails. You can also embed populated tables into other documents seamlessly."
+    }
+  },
+  "formats": {
+    "title": "Create reports with dynamic tables",
+    "description": "{{EnvName}} supports over 50 file types, enabling effortless table population and template processing for professional document creation."
+  },
+  "operations": {
+    "title": "Discover key features",
+    "description": "Our platform simplifies handling business documents with powerful tools for automating table population and data integration."
+  },
+  "examples": {
+    "comment_1": "Use this tag in your template to populate a table in the output document",
+    "comment_2": "Set the file path for the template",
+    "comment_3": "Fetch data from your source",
+    "comment_4": "Save the updated document with the populated table"
+  },
+  "steps": {
+    "title": "How to populate a table in a {{FileFormatUp}} document",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) lets you dynamically populate tables in templates for popular formats like {{FileFormatUp}}. Easily integrate structured data from various sources.",
+      "step_1": "Set up a {{FileFormatUp}} template with table markers.",
+      "step_2": "Fetch data from a supported source.",
+      "step_3": "Configure table settings such as styles and layout.",
+      "step_4": "Save the document with the populated table."
+    }
+  },
+  "code_1": {
+    "title": "How to populate a table dynamically",
+    "content": "This example shows how to dynamically populate a table in a {{FileFormatUp}} document using data from a chosen source.",
+    "comment_1": "Prepare a template with a table placeholder",
+    "comment_2": "Set the path to your template file",
+    "comment_3": "Load data from a specific source",
+    "comment_4": "Build a data source object with the necessary data",
+    "comment_5": "Create an instance of {{DocumentAssembler}}",
+    "comment_6": "Customize table settings",
+    "comment_7": "Save the updated document with the populated table"
+  }
+}

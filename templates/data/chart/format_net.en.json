@@ -1,0 +1,72 @@
+{
+  "head": {
+    "title": "Generate charts in {{FileFormatUp}} files using {{ProgLang}}",
+    "description": "{{ProdFullName}} API helps developers quickly create and embed charts or diagrams into documents with dynamic data."
+  },
+  "header": {
+    "title": "Insert charts into {{FileFormatUp}} files using {{EnvNameShort}} API",
+    "description": "{{ProdFullName}} provides useful tools to dynamically populate with data and insert charts into {{FileFormatUp}} files with ease.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Try It Free"
+  },
+  "about": {
+    "title": "What is {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) helps users automate the creation of documents and reports by combining data from multiple sources. Generate charts, tables, lists, barcodes, and even add images dynamically to your files. Use advanced markup options to place and format content precisely. The tool supports more than 50 file types, including PDFs, MS Office documents, and email formats."
+  },
+  "more_features": {
+    "title": "Easily add charts to your documents",
+    "description": "{{ProdFullName}} makes it simple to create documents in popular file formats. Use templates to include charts, tables, barcodes, lists, links, and images with a dynamic setup for data-driven visuals.",
+    "image_description": "Main features of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Transform data into charts effortlessly",
+      "content": "With our API, you can take data from sources like JSON, XML, CSV, etc. and turn it into clean, professional charts within your documents."
+    },
+    "feature_2": {
+      "title": "Make your data visually engaging",
+      "content": "{{ProdShortName}} supports a variety of visuals like bar charts, pie charts, and line graphs. You can also combine them with tables, barcodes, lists, links, or images to create impactful content."
+    },
+    "feature_3": {
+      "title": "Place charts exactly where you want",
+      "content": "Using LINQ syntax, you can populate your charts with demanded data. Add multiple visuals dynamically and customize their appearance, including styles and colors."
+    },
+    "feature_4": {
+      "title": "Wide format compatibility",
+      "content": "Create documents in popular formats like MS Office, PDF, OpenOffice, HTML, and many others. Embed your charts directly into any supported format with seamless integration."
+    }
+  },
+  "formats": {
+    "title": "Build professional reports in various formats",
+    "description": "{{EnvName}} allows you to generate documents with integrated charts across more than 50 supported file types. Combine templates and data easily to produce visual outputs."
+  },
+  "operations": {
+    "title": "Discover what you can do",
+    "description": "Our platform simplifies creating visually rich, data-driven documents tailored for your needs."
+  },
+  "examples": {
+    "comment_1": "Add this tag to your template to generate a chart",
+    "comment_2": "Provide the file path to your template",
+    "comment_3": "Extract data from your chosen data source",
+    "comment_4": "Save the document with the chart included"
+  },
+  "steps": {
+    "title": "How to insert a chart into a {{FileFormatUp}} document",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) lets you create and add charts to your {{FileFormatUp}} templates with ease. Supports different chart styles like bar, pie, and line charts.",
+      "step_1": "Create a {{FileFormatUp}} template with chart placeholders.",
+      "step_2": "Get your data from a supported source.",
+      "step_3": "Set chart preferences such as type, labels, and colors.",
+      "step_4": "Save the final file with the chart embedded."
+    }
+  },
+  "code_1": {
+    "title": "Generate a chart programmatically",
+    "content": "This example shows how to programmatically create and add a chart to a {{FileFormatUp}} document.",
+    "comment_1": "Prepare a template file with a chart placeholder",
+    "comment_2": "Point to the template's file path",
+    "comment_3": "Load data from your source",
+    "comment_4": "Build a data source object with the required information",
+    "comment_5": "Customize chart settings such as type and colors",
+    "comment_6": "Set up {{DocumentAssembler}}",
+    "comment_7": "Export the document with the new chart included"
+  }
+}

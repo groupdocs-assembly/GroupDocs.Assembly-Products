@@ -1,4 +1,4 @@
-<% configRef "..\\..\\configs\\diagram\\format_java.yml" %>
+<% configRef "..\\..\\configs\\chart\\format_net.yml" %>
 <% include "..\\..\\data\\format_data.md" %>
 
 ---
@@ -10,8 +10,8 @@ lang: <% lower ( get "lang") %>
 format: <% get "FileformatCap" %>
 product: "Assembly"
 product_tag: "assembly"
-platform: "Java"
-platform_tag: "java"
+platform: ".NET"
+platform_tag: "net"
 
 ############################# Head ############################
 head_title: "<% (dict "head.title") %>"
@@ -52,29 +52,13 @@ steps:
       4. <% "{steps.content.step_4}" %>
    
     code:
-      platform: "java"
+      platform: "net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       result_enable: true
       result_link: "/examples/assembly/assembly_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
-        command_title: "Maven XML"
-        command: |
-          <dependencies>
-            <dependency>
-              <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-assembly</artifactId>
-              <version>{0}</version>
-            </dependency>
-          </dependencies>
-
-          <repositories>
-            <repository>
-              <id>repository.groupdocs.com</id>
-              <name>GroupDocs Repository</name>
-              <url>https://repository.groupdocs.com/repo/</url>
-            </repository>
-          </repositories>
+        command: "dotnet add package GroupDocs.Assembly"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -86,28 +70,28 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```java {style=abap}
+        ```csharp {style=abap}
         // <% "{examples.comment_1}" %>
-        // <<barcode [barcode_expression] -barcode_type>>
+        // Orders Prices by months<<y [Sum(c => c.Price)]>><<size [Count()]>>
 
         // <% "{examples.comment_2}" %>
-        String template = "barcode_template.docx";
+        string template = "chart_template.<% get "fileformat" %>";
 
         // <% "{examples.comment_3}" %>
         DataSourceInfo data 
-            = new DataSourceInfo(GetData(), "label");
+            = new DataSourceInfo(GetChartData(), "orders");
 
         // <% "{examples.comment_4}" %>
         DocumentAssembler asm = new DocumentAssembler();
-        asm.AssembleDocument(template, "result.docx", data);
-        ```           
+        asm.AssembleDocument(template, "result.<% get "fileformat" %>", data);
+        ```            
 
 ############################# More features ############################
 more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/assembly/features_barcode.webp" # 500x500 px
+  image: "/img/assembly/features_chart.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -132,53 +116,38 @@ more_features:
       content: |
         <% "{code_1.content}" %>
       code:
-        title: "Java"
+        title: "C#"
         content: |
-          ```java {style=abap}
+          ```csharp {style=abap}
           // <% "{code_1.comment_1}" %>
-          // <<barcode [barcode_expression] -barcode_type>>
+          // Total Contract Price<<y [m.Total_Contract_Price]>>
+          // <<seriesColor [color]>>
 
           // <% "{code_1.comment_2}" %>
-          String template = "barcode_template.pptx";
+          string template = "table_template.<% get "fileformat" %>";
 
           // <% "{code_1.comment_3}" %>
-          CsvDataSource data_csv =
-              new CsvDataSource("Barcode Labels.csv", 
-              new CsvDataLoadOptions(true));
+          JsonDataSource data_json = 
+            new JsonDataSource("Items.json");
 
           // <% "{code_1.comment_4}" %>
           DataSourceInfo data 
-              = new DataSourceInfo(data_csv, "label");
+              = new DataSourceInfo(data_json, "items");
 
           // <% "{code_1.comment_5}" %>
-          DocumentAssembler asm = new DocumentAssembler();
+          DataSourceInfo design 
+              = new DataSourceInfo("red", "color");
 
           // <% "{code_1.comment_6}" %>
-          asm.BarcodeSettings.Resolution = 1200;
-          asm.BarcodeSettings.BaseYDimension = 5f;
+          DocumentAssembler asm = new DocumentAssembler();
 
           // <% "{code_1.comment_7}" %>
-          asm.AssembleDocument(template, "result.pptx", data);
+          asm.AssembleDocument(template, "result.<% get "fileformat" %>", data, design);
           ```
-        platform: "java"
+        platform: "net"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"
         install:
-          command_title: "Maven XML"
-          command: |
-            <dependencies>
-              <dependency>
-                <groupId>com.groupdocs</groupId>
-                <artifactId>groupdocs-assembly</artifactId>
-                <version>{0}</version>
-              </dependency>
-            </dependencies>
-            <repositories>
-              <repository>
-                <id>repository.groupdocs.com</id>
-                <name>GroupDocs Repository</name>
-                <url>https://repository.groupdocs.com/repo/</url>
-              </repository>
-            </repositories>
+          command: "dotnet add package GroupDocs.Assembly"
           copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
           copy_done: "<% "{common-content.format-code.copy_done}" %>"
         top_links:
@@ -198,7 +167,7 @@ more_features:
             
 
 
-############################## Actions ############################
+############################# Actions ############################
 
 actions:
   enable: true
