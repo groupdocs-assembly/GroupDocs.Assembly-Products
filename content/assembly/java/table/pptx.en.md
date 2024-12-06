@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-04T15:35:32
+date:  2024-12-06T10:48:53
 draft: false
 lang: en
 format: Pptx
@@ -230,8 +230,8 @@ more_operations:
 
         # operation loop 2
         - name: "Visualize data with diagrams"
-          operation: "diagram"
-          link: "/assembly/java/diagram/pptx/"
+          operation: "chart"
+          link: "/assembly/java/chart/pptx/"
           description: "Fill various diagram types with data"
 
         # operation loop 3

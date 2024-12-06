@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-04T14:17:40
+date:  2024-12-06T10:48:51
 draft: false
 lang: en
 format: Pptx
@@ -19,8 +19,8 @@ head_title: "Embed barcodes in PPTX files with Java"
 head_description: "The GroupDocs.Assembly for Java API makes it simple to create and insert barcode images into your documents and emails in real time."
 
 ############################# Header ############################
-title: "Generate barcodes for PPTX files with our .NET API" 
-description: "GroupDocs.Assembly for Java provides comprehensive tools to dynamically create, customize, and embed barcodes into PPTX files using the Java API."
+title: "Generate barcodes for PPTX files with our Java API" 
+description: "GroupDocs.Assembly for Java provides comprehensive tools to dynamically create, customize, and embed barcodes into PPTX files."
 subtitle: "GroupDocs.Assembly for Java" 
 
 header_actions:
@@ -232,8 +232,8 @@ more_operations:
 
         # operation loop 2
         - name: "Visualize data with diagrams"
-          operation: "diagram"
-          link: "/assembly/java/diagram/pptx/"
+          operation: "chart"
+          link: "/assembly/java/chart/pptx/"
           description: "Fill various diagram types with data"
 
         # operation loop 3

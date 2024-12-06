@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-04T14:17:40
+date:  2024-12-06T10:48:51
 draft: false
 lang: en
 format: Pptx
@@ -20,7 +20,7 @@ head_description: "GroupDocs.Assembly for .NET API enables developers to easily 
 
 ############################# Header ############################
 title: "Add barcodes to PPTX documents using our .NET API" 
-description: "GroupDocs.Assembly for .NET offers full support for creating and embedding barcodes dynamically in PPTX documents using the C# API."
+description: "GroupDocs.Assembly for .NET offers full support for creating and embedding barcodes dynamically in PPTX documents."
 subtitle: "GroupDocs.Assembly for .NET" 
 
 header_actions:
@@ -201,8 +201,8 @@ more_operations:
 
         # operation loop 2
         - name: "Visualize data with diagrams"
-          operation: "diagram"
-          link: "/assembly/net/diagram/pptx/"
+          operation: "chart"
+          link: "/assembly/net/chart/pptx/"
           description: "Fill various diagram types with data"
 
         # operation loop 3
