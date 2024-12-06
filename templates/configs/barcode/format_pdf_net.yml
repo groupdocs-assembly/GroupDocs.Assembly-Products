@@ -2,15 +2,15 @@ inherits: ..\\languages-formats.yml
 
 dimensions:
 - alias: product
-  values: [java]
+  values: [net]
 - alias:  operation
   values: [barcode]
 - alias:  fileformat
-  values: [ docx, pptx, xlsx ]
+  values: [ pdf ]
 
 generationRules:
   include:
-  - fileformat[docx, pptx, xlsx]
+  - fileformat[pdf]
   
 outputPath: "assembly\\{product}\\{operation}\\{fileformat}.{lang}.md"
 

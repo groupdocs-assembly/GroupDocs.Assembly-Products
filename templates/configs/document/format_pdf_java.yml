@@ -4,13 +4,13 @@ dimensions:
 - alias: product
   values: [java]
 - alias:  operation
-  values: [barcode]
+  values: [document]
 - alias:  fileformat
-  values: [ docx, pptx, xlsx ]
+  values: [ pdf ]
 
 generationRules:
   include:
-  - fileformat[docx, pptx, xlsx]
+  - fileformat[pdf]
   
 outputPath: "assembly\\{product}\\{operation}\\{fileformat}.{lang}.md"
 

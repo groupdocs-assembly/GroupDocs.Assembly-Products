@@ -68,5 +68,10 @@
     "comment_5": "Create an instance of {{DocumentAssembler}}",
     "comment_6": "Customize barcode settings",
     "comment_7": "Save the updated document with the barcode"
+  },
+  "texts_pdf": {
+    "step_1": "Prepare a template with placeholders for barcodes (PDF templates are not supported).",
+    "step_4": "Save the document with the added barcode as a PDF file.",
+    "comment_tmp": "PDF templates are currently not supported."
   }
 }

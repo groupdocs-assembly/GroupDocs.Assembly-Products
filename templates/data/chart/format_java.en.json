@@ -68,5 +68,10 @@
     "comment_5": "Configure the chart's type and appearance",
     "comment_6": "Initialize {{DocumentAssembler}}",
     "comment_7": "Save the completed document with the chart embedded"
+  },
+  "texts_pdf": {
+    "step_1": "Create a template with placeholders for the chart (PDF templates are not supported).",
+    "step_4": "Save the document containing the chart as a PDF file.",
+    "comment_tmp": "PDF templates are not supported at this time."
   }
 }

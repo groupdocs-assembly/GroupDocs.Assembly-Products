@@ -67,5 +67,10 @@
     "comment_4": "Create a data source object with the necessary information",
     "comment_5": "Initialize {{DocumentAssembler}}",
     "comment_6": "Save the final document with the generated list"
+  },
+  "texts_pdf": {
+    "step_1": "Create a template with designated spots for the list (PDF templates are currently unsupported).",
+    "step_4": "Export the completed document with the list as a PDF file.",
+    "comment_tmp": "Support for PDF templates is not available at the moment."
   }
 }

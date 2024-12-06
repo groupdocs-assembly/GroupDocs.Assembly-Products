@@ -67,5 +67,10 @@
     "comment_4": "Prepare a data object containing the necessary fields",
     "comment_5": "Create an instance of {{DocumentAssembler}}",
     "comment_6": "Save the document with the table populated"
+  },
+  "texts_pdf": {
+    "step_1": "Design a template with placeholders for the table (PDF templates are not currently supported).",
+    "step_4": "Save the document with the table filled in as a PDF file.",
+    "comment_tmp": "PDF templates are not supported at this time."
   }
 }

@@ -68,5 +68,10 @@
     "comment_5": "Initialize {{DocumentAssembler}}",
     "comment_6": "Set additional barcode properties",
     "comment_7": "Save the final document with the embedded barcode"
+  },
+  "texts_pdf": {
+    "step_1": "Create a template with specific tags for barcode placement (note: PDF templates are not compatible).",
+    "step_4": "Save the final document with the inserted barcode as a PDF.",
+    "comment_tmp": "Support for PDF templates is not available at this time."
   }
 }

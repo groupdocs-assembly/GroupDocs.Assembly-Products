@@ -6,11 +6,11 @@ dimensions:
 - alias:  operation
   values: [table]
 - alias:  fileformat
-  values: [ docx, pdf, pptx, xlsx ]
+  values: [ docx, pptx, xlsx ]
 
 generationRules:
   include:
-  - fileformat[docx, pdf, pptx, xlsx]
+  - fileformat[docx, pptx, xlsx]
   
 outputPath: "assembly\\{product}\\{operation}\\{fileformat}.{lang}.md"
 

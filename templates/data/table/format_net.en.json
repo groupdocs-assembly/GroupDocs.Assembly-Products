@@ -67,5 +67,10 @@
     "comment_4": "Create a data source object with the necessary data",
     "comment_5": "Initialize {{DocumentAssembler}}",
     "comment_6": "Save the completed document with the populated table"
+  },
+  "texts_pdf": {
+    "step_1": "Create a template and add placeholders for the table (PDF templates are not supported at the moment).",
+    "step_4": "Save the document with the table completed as a PDF file.",
+    "comment_tmp": "PDF templates are not available at this time."
   }
 }

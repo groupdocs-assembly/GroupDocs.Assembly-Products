@@ -67,5 +67,10 @@
     "comment_4": "Prepare the data source with the necessary details",
     "comment_5": "Initialize {{DocumentAssembler}}",
     "comment_6": "Save the output document with the completed list"
+  },
+  "texts_pdf": {
+    "step_1": "Design a template and specify placeholders for the list (PDF templates are not supported).",
+    "step_4": "Save the finished document with the list included as a PDF.",
+    "comment_tmp": "PDF templates are not supported at this time."
   }
 }

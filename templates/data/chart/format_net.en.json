@@ -68,5 +68,10 @@
     "comment_5": "Set up chart properties such as type and appearance",
     "comment_6": "Initialize {{DocumentAssembler}}",
     "comment_7": "Export the document with the chart included"
+  },
+  "texts_pdf": {
+    "step_1": "Design a template with designated spots for the chart (PDF templates are not supported).",
+    "step_4": "Export the document with the chart as a PDF file.",
+    "comment_tmp": "Currently, PDF templates are not supported."
   }
 }

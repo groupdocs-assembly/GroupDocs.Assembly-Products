@@ -66,5 +66,10 @@
     "comment_3": "Set the path to the image file",
     "comment_4": "Initialize an instance of {{DocumentAssembler}}",
     "comment_5": "Save the document with the embedded image"
+  },
+  "texts_pdf": {
+    "step_1": "Design a template with specific placeholders for the content to be embedded (PDF templates are not supported).",
+    "step_4": "Export the completed file with the integrated content as a PDF document.",
+    "comment_tmp": "Currently, PDF templates cannot be used."
   }
 }
