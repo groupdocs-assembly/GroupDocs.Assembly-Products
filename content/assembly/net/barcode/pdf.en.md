@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-06T10:48:51
+date:  2024-12-06T14:23:46
 draft: false
 lang: en
 format: Pdf
@@ -47,10 +47,10 @@ steps:
     content: |
       [GroupDocs.Assembly](/assembly/net/) makes it easy to insert barcodes into templates in formats like PDF. Supports over 60 barcode types, including one-dimensional and two-dimensional formats.
       
-      1. Prepare a PDF template with barcode placeholders.
+      1. Create a template with specific tags for barcode placement (note: PDF templates are not compatible).
       2. Retrieve data from any supported data source.
       3. Configure additional properties like barcode size or resolution.
-      4. Save the template with the barcode as a new document.
+      4. Save the final document with the inserted barcode as a PDF.
    
     code:
       platform: "net"
@@ -76,7 +76,8 @@ steps:
         // <<barcode [barcode_expression] -barcode_type>>
 
         // Specify the template file path
-        string template = "barcode_template.pdf";
+        // Support for PDF templates is not available at this time.
+        string template = "barcode_template.docx";
 
         // Retrieve data from your source
         DataSourceInfo data 
@@ -124,7 +125,8 @@ more_features:
           // <<barcode [barcode_expression] -barcode_type>>
 
           // Specify the path to the template file
-          string template = "barcode_template.pdf";
+          // Support for PDF templates is not available at this time.
+          string template = "barcode_template.docx";
 
           // Retrieve data from your chosen source
           CsvDataSource data_csv =

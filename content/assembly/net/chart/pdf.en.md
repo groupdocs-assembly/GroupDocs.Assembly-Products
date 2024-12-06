@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-06T10:48:51
+date:  2024-12-06T14:23:47
 draft: false
 lang: en
 format: Pdf
@@ -47,10 +47,10 @@ steps:
     content: |
       [GroupDocs.Assembly](/assembly/net/) makes it simple to generate and embed charts into your PDF templates. Supports a variety of chart types, such as bar, pie, and line charts.
       
-      1. Design a PDF template with placeholders for the charts.
+      1. Design a template with designated spots for the chart (PDF templates are not supported).
       2. Retrieve your data from a compatible source.
       3. Define chart options like type, labels, and color scheme.
-      4. Save the updated file with the chart embedded.
+      4. Export the document with the chart as a PDF file.
    
     code:
       platform: "net"
@@ -76,7 +76,8 @@ steps:
         // Orders Prices by months<<y [Sum(c => c.Price)]>><<size [Count()]>>
 
         // Specify the file path for your template
-        string template = "chart_template.pdf";
+        // Currently, PDF templates are not supported.
+        string template = "chart_template.docx";
 
         // Load data from your preferred source
         DataSourceInfo data 
@@ -125,7 +126,8 @@ more_features:
           // <<seriesColor [color]>>
 
           // Provide the path to the template file
-          string template = "table_template.pdf";
+          // Currently, PDF templates are not supported.
+          string template = "table_template.docx";
 
           // Retrieve the data from your source
           JsonDataSource data_json = 

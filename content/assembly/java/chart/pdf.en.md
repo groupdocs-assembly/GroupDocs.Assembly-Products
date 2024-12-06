@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-06T10:48:51
+date:  2024-12-06T14:23:47
 draft: false
 lang: en
 format: Pdf
@@ -47,10 +47,10 @@ steps:
     content: |
       [GroupDocs.Assembly](/assembly/java/) simplifies the process of inserting charts into PDF templates. Choose from a variety of chart styles, including bar, pie, and line charts.
       
-      1. Create a PDF template with placeholders for the chart.
+      1. Create a template with placeholders for the chart (PDF templates are not supported).
       2. Load your data from a compatible source.
       3. Set the chart options, such as type, labels, and colors.
-      4. Save the document with the chart included.
+      4. Save the document containing the chart as a PDF file.
    
     code:
       platform: "java"
@@ -92,7 +92,8 @@ steps:
         // Orders Prices by months<<y [Sum(c => c.Price)]>><<size [Count()]>>
 
         // Provide the file path to your template
-        String template = "chart_template.pdf";
+        // PDF templates are not supported at this time.
+        String template = "chart_template.docx";
 
         // Extract the necessary data from your source
         DataSourceInfo data 
@@ -141,7 +142,8 @@ more_features:
           // <<seriesColor [color]>>
 
           // Specify the file path to the template
-          String template = "table_template.pdf";
+          // PDF templates are not supported at this time.
+          String template = "table_template.docx";
 
           // Load data from your chosen source
           JsonDataSource data_json = 

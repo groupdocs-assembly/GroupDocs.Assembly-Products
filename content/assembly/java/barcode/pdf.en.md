@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-06T10:48:51
+date:  2024-12-06T14:23:46
 draft: false
 lang: en
 format: Pdf
@@ -47,10 +47,10 @@ steps:
     content: |
       [GroupDocs.Assembly](/assembly/java/) lets you insert barcodes into popular formats like PDF templates. Supports over 60 types, including 1D and 2D barcodes.
       
-      1. Set up a PDF template with barcode markers.
+      1. Prepare a template with placeholders for barcodes (PDF templates are not supported).
       2. Fetch data from a supported source.
       3. Adjust barcode settings such as size and resolution.
-      4. Save the document with the embedded barcode.
+      4. Save the document with the added barcode as a PDF file.
    
     code:
       platform: "java"
@@ -92,7 +92,8 @@ steps:
         // <<barcode [barcode_expression] -barcode_type>>
 
         // Set the file path for the template
-        String template = "barcode_template.pdf";
+        // PDF templates are currently not supported.
+        String template = "barcode_template.docx";
 
         // Fetch data from your source
         DataSourceInfo data 
@@ -140,7 +141,8 @@ more_features:
           // <<barcode [barcode_expression] -barcode_type>>
 
           // Set the path to your template file
-          String template = "barcode_template.pdf";
+          // PDF templates are currently not supported.
+          String template = "barcode_template.docx";
 
           // Load data from a specific source
           CsvDataSource data_csv =

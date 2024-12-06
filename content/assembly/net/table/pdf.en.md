@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-06T10:48:53
+date:  2024-12-06T14:23:48
 draft: false
 lang: en
 format: Pdf
@@ -47,10 +47,10 @@ steps:
     content: |
       [GroupDocs.Assembly](/assembly/net/) lets you dynamically populate tables in templates for formats like PDF. Insert data from various sources into your tables.
       
-      1. Create a PDF template with table placeholders.
+      1. Create a template and add placeholders for the table (PDF templates are not supported at the moment).
       2. Fetch data from any supported source.
       3. Filter the data to include only the required information.
-      4. Save the document with the populated table.
+      4. Save the document with the table completed as a PDF file.
    
     code:
       platform: "net"
@@ -78,7 +78,8 @@ steps:
         // <</foreach>>
 
         // Set the file path for the template
-        string template = "table_template.pdf";
+        // PDF templates are not available at this time.
+        string template = "table_template.docx";
 
         // Fetch data from a supported source
         DataSourceInfo data 
@@ -127,7 +128,8 @@ more_features:
           // <<[c.Price]>> <</foreach>>
 
           // Specify the file path to the template
-          string template = "table_template.pdf";
+          // PDF templates are not available at this time.
+          string template = "table_template.docx";
 
           // Retrieve data from your chosen source
           JsonDataSource data_json = 

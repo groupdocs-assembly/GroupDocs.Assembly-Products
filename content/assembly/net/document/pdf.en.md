@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-06T10:48:52
+date:  2024-12-06T14:23:47
 draft: false
 lang: en
 format: Pdf
@@ -47,10 +47,10 @@ steps:
     content: |
       [GroupDocs.Assembly](/assembly/net/) allows you to embed one document into another PDF file effortlessly. Merge and customize content with ease.
       
-      1. Design a PDF template with placeholders for the embedded document.
+      1. Design a template with specific placeholders for the content to be embedded (PDF templates are not supported).
       2. Define the file path for the template.
       3. Specify the file path of the document to embed.
-      4. Save the final file with the embedded content.
+      4. Export the completed file with the integrated content as a PDF document.
    
     code:
       platform: "net"
@@ -76,11 +76,12 @@ steps:
         // <<doc [doc_expression]>>
 
         // Specify the file path for the template
-        string template = "doc_template.pdf";
+        // Currently, PDF templates cannot be used.
+        string template = "doc_template.docx";
 
         // Provide the path of the document to be embedded
         DataSourceInfo data 
-            = new DataSourceInfo("insert.pdf", "doc_expression");
+            = new DataSourceInfo("insert.docx", "doc_expression");
 
         // Save the merged document
         DocumentAssembler asm = new DocumentAssembler();
@@ -124,7 +125,8 @@ more_features:
           // <<image [expression]>>
 
           // Specify the file path for the template
-          string template = "template.pdf";
+          // Currently, PDF templates cannot be used.
+          string template = "template.docx";
 
           // Set the path to the image file
           DataSourceInfo data =

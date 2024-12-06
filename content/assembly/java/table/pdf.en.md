@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-06T10:48:53
+date:  2024-12-06T14:23:48
 draft: false
 lang: en
 format: Pdf
@@ -47,10 +47,10 @@ steps:
     content: |
       [GroupDocs.Assembly](/assembly/java/) helps you populate table templates for PDF and other formats. Use dynamic data from your sources to create tables with ease.
       
-      1. Set up a PDF template with placeholders for table rows and columns.
+      1. Design a template with placeholders for the table (PDF templates are not currently supported).
       2. Pull data from any supported input source.
       3. Filter or preprocess the data to match your needs.
-      4. Generate the final document with the completed table.
+      4. Save the document with the table filled in as a PDF file.
    
     code:
       platform: "java"
@@ -94,7 +94,8 @@ steps:
         // <</foreach>>
 
         // Define the path to the template file
-        String template = "table_template.pdf";
+        // PDF templates are not supported at this time.
+        String template = "table_template.docx";
 
         // Load data from your chosen source
         DataSourceInfo data 
@@ -143,7 +144,8 @@ more_features:
           //  <<[c.Price]>> <</foreach>>
 
           // Set the template file location
-          String template = "table_template.pdf";
+          // PDF templates are not supported at this time.
+          String template = "table_template.docx";
 
           // Load data from your preferred source
           JsonDataSource data_json = 

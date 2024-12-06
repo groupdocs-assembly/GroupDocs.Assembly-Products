@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-06T10:48:52
+date:  2024-12-06T14:23:47
 draft: false
 lang: en
 format: Pdf
@@ -47,10 +47,10 @@ steps:
     content: |
       [GroupDocs.Assembly](/assembly/java/) makes embedding one PDF document into another simple and customizable.
       
-      1. Prepare a PDF template with placeholders for the embedded content.
+      1. Create a template with placeholders for the embedded content (PDF templates are not supported).
       2. Specify the file path for the template.
       3. Provide the file path for the document to embed.
-      4. Save the output file with the merged content.
+      4. Save the final file with the merged content as a PDF.
    
     code:
       platform: "java"
@@ -92,11 +92,12 @@ steps:
         // <<doc [doc_expression]>>
 
         // Set the file path for the main template
-        string template = "doc_template.pdf";
+        // PDF templates are not supported at the moment.
+        string template = "doc_template.docx";
 
         // Provide the path to the document you want to insert
         DataSourceInfo data 
-            = new DataSourceInfo("insert.pdf", "doc_expression");
+            = new DataSourceInfo("insert.docx", "doc_expression");
 
         // Save the final file with the embedded content
         DocumentAssembler asm = new DocumentAssembler();
@@ -140,7 +141,8 @@ more_features:
           // <<image [expression]>>
 
           // Define the path to the template
-          string template = "template.pdf";
+          // PDF templates are not supported at the moment.
+          string template = "template.docx";
 
           // Specify the path to the image
           DataSourceInfo data =

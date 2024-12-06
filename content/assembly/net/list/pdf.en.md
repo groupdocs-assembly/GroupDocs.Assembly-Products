@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-06T10:48:52
+date:  2024-12-06T14:23:48
 draft: false
 lang: en
 format: Pdf
@@ -47,10 +47,10 @@ steps:
     content: |
       [GroupDocs.Assembly](/assembly/net/) makes it simple to insert data-driven lists into PDF templates. Create and customize lists with ease.
       
-      1. Prepare a PDF template with placeholders for the list.
+      1. Create a template with designated spots for the list (PDF templates are currently unsupported).
       2. Set path to the template.
       3. Retrieve data from supported sources like JSON or XML.
-      4. Save the final document with the embedded list.
+      4. Export the completed document with the list as a PDF file.
    
     code:
       platform: "net"
@@ -76,7 +76,8 @@ steps:
         // <<foreach [in customers]>><<[CustomerName]>><</foreach>>
 
         // Specify the path to the template file
-        string template = "list_template.pdf";
+        // Support for PDF templates is not available at the moment.
+        string template = "list_template.docx";
 
         // Retrieve data from your chosen source
         DataSourceInfo data 
@@ -125,7 +126,8 @@ more_features:
           // <</foreach>>
 
           // Specify the path to the template file
-          string template = "numlist_template.pdf";
+          // Support for PDF templates is not available at the moment.
+          string template = "numlist_template.docx";
 
           // Retrieve the data to populate the list
           XmlDataSource data_xml =

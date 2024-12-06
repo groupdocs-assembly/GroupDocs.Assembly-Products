@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-06T10:48:52
+date:  2024-12-06T14:23:48
 draft: false
 lang: en
 format: Pdf
@@ -47,10 +47,10 @@ steps:
     content: |
       [GroupDocs.Assembly](/assembly/java/) lets you quickly insert data-rich lists into PDF templates. Customize and organize content effortlessly.
       
-      1. Create a PDF template and mark placeholder spots for the list.
+      1. Design a template and specify placeholders for the list (PDF templates are not supported).
       2. Set the file path to the template.
       3. Fetch data from supported formats like JSON or XML.
-      4. Save the final document with the list added.
+      4. Save the finished document with the list included as a PDF.
    
     code:
       platform: "java"
@@ -92,7 +92,8 @@ steps:
         // <<foreach [in customers]>><<[CustomerName]>><</foreach>>
 
         // Define the file path of the template
-        String template = "list_template.pdf";
+        // PDF templates are not supported at this time.
+        String template = "list_template.docx";
 
         // Pull data from your chosen source
         DataSourceInfo data 
@@ -141,7 +142,8 @@ more_features:
           // <</foreach>>
 
           // Provide the file path to your template
-          String template = "numlist_template.pdf";
+          // PDF templates are not supported at this time.
+          String template = "numlist_template.docx";
 
           // Pull the required data to populate the list
           XmlDataSource data_xml =
