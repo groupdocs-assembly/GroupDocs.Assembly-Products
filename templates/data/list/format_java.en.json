@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Create lists in {{FileFormatUp}} documents using {{ProgLang}}",
+    "description": "Easily design and embed dynamic lists into your {{FileFormatUp}} templates with {{ProdFullName}} API."
+  },
+  "header": {
+    "title": "Add dynamic lists to {{FileFormatUp}} files with our {{EnvNameShort}} API",
+    "description": "{{ProdFullName}} provides flexible tools to generate and insert data-rich lists directly into {{FileFormatUp}} documents.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Try it for Free"
+  },
+  "about": {
+    "title": "What is {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) makes it easy to design professional documents by pulling data from multiple sources. Use it to create lists, tables, charts, or text, and place these elements exactly where needed using advanced template features. With support for over 50 formats, including PDFs, MS Office files, and email documents, it helps automate and streamline your workflow."
+  },
+  "more_features": {
+    "title": "Generate documents from templates with data integration",
+    "description": "{{ProdFullName}} simplifies adding dynamic lists, tables, charts, and other components into document templates.",
+    "image_description": "Key Features of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Build reports with data from various sources",
+      "content": "Use data from formats like JSON, XML, and CSV to populate lists and other components efficiently."
+    },
+    "feature_2": {
+      "title": "Add lists and other data elements seamlessly",
+      "content": "{{ProdShortName}} enables embedding of lists, charts, tables, and more, alongside text, images, and links to create polished documents."
+    },
+    "feature_3": {
+      "title": "Precisely control where data appears",
+      "content": "LINQ-based templates allow you to define exact locations for your lists and data. Use loops to create detailed lists automatically and apply custom formatting."
+    },
+    "feature_4": {
+      "title": "Supports various document formats",
+      "content": "Create or edit files in formats such as MS Office, PDF, OpenOffice, HTML, and email. Merge content from multiple documents as needed."
+    }
+  },
+  "formats": {
+    "title": "Produce documents in various formats",
+    "description": "{{EnvName}} supports over 50 formats, allowing you to create structured documents by combining data and templates."
+  },
+  "operations": {
+    "title": "Discover what {{ProdShortName}} can do",
+    "description": "Easily design and generate content-rich documents with advanced data integration tools."
+  },
+  "examples": {
+    "comment_1": "Include this tag in your template where the list should appear",
+    "comment_2": "Define the file path of the template",
+    "comment_3": "Pull data from your chosen source",
+    "comment_4": "Save the document with the embedded list"
+  },
+  "steps": {
+    "title": "How to add a data-driven list to a {{FileFormatUp}} document",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) lets you quickly insert data-rich lists into {{FileFormatUp}} templates. Customize and organize content effortlessly.",
+      "step_1": "Create a {{FileFormatUp}} template and mark placeholder spots for the list.",
+      "step_2": "Set the file path to the template.",
+      "step_3": "Fetch data from supported formats like JSON or XML.",
+      "step_4": "Save the final document with the list added."
+    }
+  },
+  "code_1": {
+    "title": "How to create a list programmatically",
+    "content": "This example shows how to add a list dynamically into a {{FileFormatUp}} file using {{ProdShortName}}.",
+    "comment_1": "Add a placeholder tag in your template for the list",
+    "comment_2": "Provide the file path to your template",
+    "comment_3": "Pull the required data to populate the list",
+    "comment_4": "Prepare the data source with the necessary details",
+    "comment_5": "Initialize {{DocumentAssembler}}",
+    "comment_6": "Save the output document with the completed list"
+  }
+}

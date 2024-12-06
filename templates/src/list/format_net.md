@@ -1,4 +1,4 @@
-<% configRef "..\\..\\configs\\barcode\\format_java.yml" %>
+<% configRef "..\\..\\configs\\list\\format_net.yml" %>
 <% include "..\\..\\data\\format_data.md" %>
 
 ---
@@ -8,10 +8,10 @@ date:  <% date "utcnow" %>
 draft: false
 lang: <% lower ( get "lang") %>
 format: <% get "FileformatCap" %>
-product: "Signature"
-product_tag: "signature"
-platform: "Java"
-platform_tag: "java"
+product: "Assembly"
+product_tag: "assembly"
+platform: ".NET"
+platform_tag: "net"
 
 ############################# Head ############################
 head_title: "<% (dict "head.title") %>"
@@ -33,9 +33,9 @@ header_actions:
 about:
     enable: true
     title: "<% (dict "about.title") %>"
-    link: "/signature/<% get "ProdCode" %>/"
+    link: "/assembly/<% get "ProdCode" %>/"
     link_title: "<% "{common-content.texts.learn_more}" %>"
-    picture: "about_signature.svg" # 480 X 400
+    picture: "about_assembly.svg" # 480 X 400
     content: |
        <% (dict "about.content") %>
 
@@ -52,29 +52,13 @@ steps:
       4. <% "{steps.content.step_4}" %>
    
     code:
-      platform: "java"
+      platform: "net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       result_enable: true
-      result_link: "/examples/signature/signature_all.pdf"
+      result_link: "/examples/assembly/assembly_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
-        command_title: "Maven XML"
-        command: |
-          <dependencies>
-            <dependency>
-              <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-signature</artifactId>
-              <version>{0}</version>
-            </dependency>
-          </dependencies>
-
-          <repositories>
-            <repository>
-              <id>repository.groupdocs.com</id>
-              <name>GroupDocs Repository</name>
-              <url>https://repository.groupdocs.com/repo/</url>
-            </repository>
-          </repositories>
+        command: "dotnet add package GroupDocs.Assembly"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -86,21 +70,20 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```java {style=abap}
+        ```csharp {style=abap}
         // <% "{examples.comment_1}" %>
-        Signature signature = new Signature("input.<% get "fileformat" %>");
+        // <<foreach [in customers]>><<[CustomerName]>><</foreach>>
 
         // <% "{examples.comment_2}" %>
-        BarcodeSignOptions options = new BarcodeSignOptions("Business data");
+        string template = "list_template.<% get "fileformat" %>";
 
         // <% "{examples.comment_3}" %>
-        options.setEncodeType(BarcodeTypes.Code128);
-        options.setLeft(100);
-        options.setTop(100);
+        DataSourceInfo data 
+            = new DataSourceInfo(GetData(), "label");
 
         // <% "{examples.comment_4}" %>
-        signature.sign("output.<% get "fileformat" %>", options);
-
+        DocumentAssembler asm = new DocumentAssembler();
+        asm.AssembleDocument(template, "result.<% get "fileformat" %>", data);
         ```            
 
 ############################# More features ############################
@@ -108,7 +91,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/signature/features_barcode.webp" # 500x500 px
+  image: "/img/assembly/features_list.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -133,68 +116,41 @@ more_features:
       content: |
         <% "{code_1.content}" %>
       code:
-        title: "Java"
+        title: "C#"
         content: |
-          ```java {style=abap}
+          ```csharp {style=abap}
           // <% "{code_1.comment_1}" %>
-          Signature signature = new Signature("input.<% get "fileformat" %>");
+          // <<foreach [in products]>><<[NumberOf()]>>. <<[ProductName]>>
+          // <</foreach>>
 
           // <% "{code_1.comment_2}" %>
-          BarcodeSignOptions signOptions = new BarcodeSignOptions("Accepted");
-          signOptions.setEncodeType(BarcodeTypes.Code39FullASCII);
+          string template = "numlist_template.<% get "fileformat" %>";
 
           // <% "{code_1.comment_3}" %>
-          signOptions.setVerticalAlignment(VerticalAlignment.Bottom);
-          signOptions.setHorizontalAlignment(HorizontalAlignment.Left);
+          XmlDataSource data_xml =
+              new XmlDataSource("products.xml");
 
           // <% "{code_1.comment_4}" %>
-          Padding padding = new Padding();
-          padding.setLeft(20);
-          padding.setTop(180);
-          signOptions.setMargin(padding);
+          DataSourceInfo data 
+              = new DataSourceInfo(data_xml, "products");
 
           // <% "{code_1.comment_5}" %>
-          signOptions.setForeColor(Color.RED);
+          DocumentAssembler asm = new DocumentAssembler();
 
           // <% "{code_1.comment_6}" %>
-          SignatureFont font = new SignatureFont();
-          font.setSize(12);
-          font.setFamilyName("Arial");
-          signOptions.setFont(font);
-
-          // <% "{code_1.comment_7}" %>
-          signOptions.setCodeTextAlignment(CodeTextAlignment.Above);
-
-          // <% "{code_1.comment_8}" %>
-          SignResult signResult = signature.sign("output.<% get "fileformat" %>", signOptions);
-
+          asm.AssembleDocument(template, "result.<% get "fileformat" %>", data);
           ```
-        platform: "java"
+        platform: "net"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"
         install:
-          command_title: "Maven XML"
-          command: |
-            <dependencies>
-              <dependency>
-                <groupId>com.groupdocs</groupId>
-                <artifactId>groupdocs-signature</artifactId>
-                <version>{0}</version>
-              </dependency>
-            </dependencies>
-            <repositories>
-              <repository>
-                <id>repository.groupdocs.com</id>
-                <name>GroupDocs Repository</name>
-                <url>https://repository.groupdocs.com/repo/</url>
-              </repository>
-            </repositories>
+          command: "dotnet add package GroupDocs.Assembly"
           copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
           copy_done: "<% "{common-content.format-code.copy_done}" %>"
         top_links:
           #  loop
           - title: "<% "{common-content.format-code.result_title_bottom}" %>"
             icon: "download"
-            link: "/examples/signature/formats/signature_<% get "OperationLow" %>.<% get "fileformat" %>"
+            link: "/examples/assembly/formats/assembly_<% get "OperationLow" %>.<% get "fileformat" %>"
         links:
           #  loop
           - title: "<% "{common-content.format-code.links.title_1}" %>"
@@ -207,7 +163,7 @@ more_features:
             
 
 
-############################## Actions ############################
+############################# Actions ############################
 
 actions:
   enable: true

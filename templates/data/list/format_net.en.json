@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Generate lists in {{FileFormatUp}} documents with {{ProgLang}}",
+    "description": "{{ProdFullName}} API enables developers to dynamically create and embed data-filled lists into documents and templates with ease."
+  },
+  "header": {
+    "title": "Add data-driven lists to {{FileFormatUp}} documents using our {{EnvNameShort}} API",
+    "description": "{{ProdFullName}} offers powerful tools to dynamically generate and embed lists in {{FileFormatUp}} documents.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Free Trial"
+  },
+  "about": {
+    "title": "Overview of {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is designed to streamline the creation of documents and reports by seamlessly integrating data from various sources. Populate templates with lists, charts, tables, barcodes, or text, and place content precisely using advanced markup. With support for over 50 formats—including PDFs, MS Office files, and emails—it's ideal for automating document workflows."
+  },
+  "more_features": {
+    "title": "Create documents by filling templates with structured data",
+    "description": "{{ProdFullName}} simplifies building data-driven documents. Add lists, tables, barcodes, charts, images, and other elements dynamically with advanced templates.",
+    "image_description": "{{ProdShortName}} Features",
+    "feature_1": {
+      "title": "Generate reports from business data",
+      "content": "The API populates documents in popular formats using data from sources like JSON, XML, CSV, etc. with accuracy and efficiency."
+    },
+    "feature_2": {
+      "title": "Use lists and other elements to present data",
+      "content": "{{ProdShortName}} enables you to embed lists, tables, and charts along with text, barcodes, hyperlinks, and images to create well-structured documents."
+    },
+    "feature_3": {
+      "title": "Insert data precisely where needed",
+      "content": "Leverage LINQ-based syntax to position lists and other data elements with precision. Use loops to populate lists dynamically and apply custom formatting programmatically."
+    },
+    "feature_4": {
+      "title": "Supports multiple document formats",
+      "content": "Generate and manage documents in various formats such as MS Office, OpenOffice, PDF, HTML, and email files. Easily integrate multiple documents into one."
+    }
+  },
+  "formats": {
+    "title": "Create structured documents in popular formats",
+    "description": "{{EnvName}} supports over 50 formats, allowing you to seamlessly merge data and templates to produce polished, structured results."
+  },
+  "operations": {
+    "title": "Explore key capabilities",
+    "description": "Our platform is built to simplify the creation and integration of data-driven document content."
+  },
+  "examples": {
+    "comment_1": "Add this tag to your template to mark where the list will appear",
+    "comment_2": "Specify the path to the template file",
+    "comment_3": "Retrieve data from your chosen source",
+    "comment_4": "Save the document with the generated list"
+  },
+  "steps": {
+    "title": "Steps to add a data-filled list to a {{FileFormatUp}} document",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) makes it simple to insert data-driven lists into {{FileFormatUp}} templates. Create and customize lists with ease.",
+      "step_1": "Prepare a {{FileFormatUp}} template with placeholders for the list.",
+      "step_2": "Set path to the template.",
+      "step_3": "Retrieve data from supported sources like JSON or XML.",
+      "step_4": "Save the final document with the embedded list."
+    }
+  },
+  "code_1": {
+    "title": "How to generate a list dynamically",
+    "content": "This example demonstrates how to embed a dynamically generated list into a {{FileFormatUp}} document.",
+    "comment_1": "Add a placeholder tag to your template for the list",
+    "comment_2": "Specify the path to the template file",
+    "comment_3": "Retrieve the data to populate the list",
+    "comment_4": "Create a data source object with the necessary information",
+    "comment_5": "Initialize {{DocumentAssembler}}",
+    "comment_6": "Save the final document with the generated list"
+  }
+}
