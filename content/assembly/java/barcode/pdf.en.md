@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-06T14:23:46
+date:  2024-12-12T14:14:44
 draft: false
 lang: en
 format: Pdf
@@ -99,9 +99,9 @@ steps:
         DataSourceInfo data 
             = new DataSourceInfo(GetData(), "label");
 
-        // Save the updated document with the barcode
+        // Save the document with the added barcode as a PDF file.
         DocumentAssembler asm = new DocumentAssembler();
-        asm.AssembleDocument(template, "result.pdf", data);
+        asm.assembleDocument(template, "result.pdf", data);
         ```           
 
 ############################# More features ############################
@@ -157,11 +157,11 @@ more_features:
           DocumentAssembler asm = new DocumentAssembler();
 
           // Customize barcode settings
-          asm.BarcodeSettings.Resolution = 1200;
-          asm.BarcodeSettings.BaseYDimension = 5f;
+          asm.getBarcodeSettings().setResolution(1200);
+          asm.getBarcodeSettings().setBaseYDimension(5f);
 
           // Save the updated document with the barcode
-          asm.AssembleDocument(template, "result.pdf", data);
+          asm.assembleDocument(template, "result.pdf", data);
           ```
         platform: "java"
         copy_title: "Copy"

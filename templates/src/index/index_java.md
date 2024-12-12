@@ -57,7 +57,8 @@ code:
       <version>{0}</version>
     </dependency>
   content: |
-    ```java {style=abap}  
+    ```java {style=abap}
+    // <% "{index-content.code_comment_1}" %>
     String template = "chart_template.docx";
 
     // <% "{index-content.code_comment_2}" %>
@@ -74,7 +75,7 @@ code:
 
     // <% "{index-content.code_comment_5}" %>
     DocumentAssembler asm = new DocumentAssembler();
-    asm.AssembleDocument(template, "result.docx", data, design);
+    asm.assembleDocument(template, "result.docx", data, design);
     ```
 
 ############################# Overview ############################

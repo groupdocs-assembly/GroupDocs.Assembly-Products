@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-06T14:23:47
+date:  2024-12-12T14:14:45
 draft: false
 lang: en
 format: Docx
@@ -92,7 +92,7 @@ steps:
         // <<doc [doc_expression]>>
 
         // Set the file path for the main template
-        string template = "doc_template.docx";
+        String template = "doc_template.docx";
 
         // Provide the path to the document you want to insert
         DataSourceInfo data 
@@ -100,7 +100,7 @@ steps:
 
         // Save the final file with the embedded content
         DocumentAssembler asm = new DocumentAssembler();
-        asm.AssembleDocument(template, "result.docx", data);
+        asm.assembleDocument(template, "result.docx", data);
         ```           
 
 ############################# More features ############################
@@ -140,7 +140,7 @@ more_features:
           // <<image [expression]>>
 
           // Define the path to the template
-          string template = "template.docx";
+          String template = "template.docx";
 
           // Specify the path to the image
           DataSourceInfo data =
@@ -150,7 +150,7 @@ more_features:
           DocumentAssembler asm = new DocumentAssembler();
 
           // Save the file with the embedded image
-          asm.AssembleDocument(template, "result.docx", data);
+          asm.assembleDocument(template, "result.docx", data);
           ```
         platform: "java"
         copy_title: "Copy"

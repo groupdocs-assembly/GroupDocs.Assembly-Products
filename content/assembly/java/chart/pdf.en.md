@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-06T14:23:47
+date:  2024-12-12T14:14:44
 draft: false
 lang: en
 format: Pdf
@@ -101,7 +101,7 @@ steps:
 
         // Save the final document with the embedded chart
         DocumentAssembler asm = new DocumentAssembler();
-        asm.AssembleDocument(template, "result.pdf", data);
+        asm.assembleDocument(template, "result.pdf", data);
         ```           
 
 ############################# More features ############################
@@ -161,7 +161,7 @@ more_features:
           DocumentAssembler asm = new DocumentAssembler();
 
           // Save the completed document with the chart embedded
-          asm.AssembleDocument(template, "result.pdf", data, design);
+          asm.assembleDocument(template, "result.pdf", data, design);
           ```
         platform: "java"
         copy_title: "Copy"

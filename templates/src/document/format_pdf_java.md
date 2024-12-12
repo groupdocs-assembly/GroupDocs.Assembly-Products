@@ -92,7 +92,7 @@ steps:
 
         // <% "{examples.comment_2}" %>
         // <% "{texts_pdf.comment_tmp}" %>
-        string template = "doc_template.docx";
+        String template = "doc_template.docx";
 
         // <% "{examples.comment_3}" %>
         DataSourceInfo data 
@@ -100,7 +100,7 @@ steps:
 
         // <% "{examples.comment_4}" %>
         DocumentAssembler asm = new DocumentAssembler();
-        asm.AssembleDocument(template, "result.<% get "fileformat" %>", data);
+        asm.assembleDocument(template, "result.<% get "fileformat" %>", data);
         ```           
 
 ############################# More features ############################
@@ -141,7 +141,7 @@ more_features:
 
           // <% "{code_1.comment_2}" %>
           // <% "{texts_pdf.comment_tmp}" %>
-          string template = "template.docx";
+          String template = "template.docx";
 
           // <% "{code_1.comment_3}" %>
           DataSourceInfo data =
@@ -151,7 +151,7 @@ more_features:
           DocumentAssembler asm = new DocumentAssembler();
 
           // <% "{code_1.comment_5}" %>
-          asm.AssembleDocument(template, "result.<% get "fileformat" %>", data);
+          asm.assembleDocument(template, "result.<% get "fileformat" %>", data);
           ```
         platform: "java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-06T14:23:48
+date:  2024-12-12T14:14:45
 draft: false
 lang: en
 format: Xlsx
@@ -100,7 +100,7 @@ steps:
 
         // Save the document with the embedded list
         DocumentAssembler asm = new DocumentAssembler();
-        asm.AssembleDocument(template, "result.xlsx", data);
+        asm.assembleDocument(template, "result.xlsx", data);
         ```           
 
 ############################# More features ############################
@@ -155,7 +155,7 @@ more_features:
           DocumentAssembler asm = new DocumentAssembler();
 
           // Save the output document with the completed list
-          asm.AssembleDocument(template, "result.xlsx", data);
+          asm.assembleDocument(template, "result.xlsx", data);
           ```
         platform: "java"
         copy_title: "Copy"

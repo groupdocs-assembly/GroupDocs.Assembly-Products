@@ -100,7 +100,7 @@ steps:
 
         // <% "{texts_pdf.step_4}" %>
         DocumentAssembler asm = new DocumentAssembler();
-        asm.AssembleDocument(template, "result.<% get "fileformat" %>", data);
+        asm.assembleDocument(template, "result.<% get "fileformat" %>", data);
         ```           
 
 ############################# More features ############################
@@ -156,11 +156,11 @@ more_features:
           DocumentAssembler asm = new DocumentAssembler();
 
           // <% "{code_1.comment_6}" %>
-          asm.BarcodeSettings.Resolution = 1200;
-          asm.BarcodeSettings.BaseYDimension = 5f;
+          asm.getBarcodeSettings().setResolution(1200);
+          asm.getBarcodeSettings().setBaseYDimension(5f);
 
           // <% "{code_1.comment_7}" %>
-          asm.AssembleDocument(template, "result.<% get "fileformat" %>", data);
+          asm.assembleDocument(template, "result.<% get "fileformat" %>", data);
           ```
         platform: "java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"

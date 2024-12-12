@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-06T14:23:46
+date:  2024-12-12T14:14:44
 draft: false
 lang: en
 format: Docx
@@ -100,7 +100,7 @@ steps:
 
         // Save the updated document with the barcode
         DocumentAssembler asm = new DocumentAssembler();
-        asm.AssembleDocument(template, "result.docx", data);
+        asm.assembleDocument(template, "result.docx", data);
         ```           
 
 ############################# More features ############################
@@ -155,11 +155,11 @@ more_features:
           DocumentAssembler asm = new DocumentAssembler();
 
           // Customize barcode settings
-          asm.BarcodeSettings.Resolution = 1200;
-          asm.BarcodeSettings.BaseYDimension = 5f;
+          asm.getBarcodeSettings().setResolution(1200);
+          asm.getBarcodeSettings().setBaseYDimension(5f);
 
           // Save the updated document with the barcode
-          asm.AssembleDocument(template, "result.docx", data);
+          asm.assembleDocument(template, "result.docx", data);
           ```
         platform: "java"
         copy_title: "Copy"

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-06T14:23:48
+date:  2024-12-12T14:14:45
 draft: false
 lang: en
 format: Docx
@@ -102,7 +102,7 @@ steps:
 
         // Save the output file with the table populated
         DocumentAssembler asm = new DocumentAssembler();
-        asm.AssembleDocument(template, "result.docx", data);
+        asm.assembleDocument(template, "result.docx", data);
         ```           
 
 ############################# More features ############################
@@ -157,7 +157,7 @@ more_features:
           DocumentAssembler asm = new DocumentAssembler();
 
           // Save the document with the table populated
-          asm.AssembleDocument(template, "result.docx", data);
+          asm.assembleDocument(template, "result.docx", data);
           ```
         platform: "java"
         copy_title: "Copy"

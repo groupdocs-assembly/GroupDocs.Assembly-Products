@@ -101,7 +101,7 @@ steps:
 
         // <% "{examples.comment_4}" %>
         DocumentAssembler asm = new DocumentAssembler();
-        asm.AssembleDocument(template, "result.<% get "fileformat" %>", data);
+        asm.assembleDocument(template, "result.<% get "fileformat" %>", data);
         ```           
 
 ############################# More features ############################
@@ -156,7 +156,7 @@ more_features:
           DocumentAssembler asm = new DocumentAssembler();
 
           // <% "{code_1.comment_6}" %>
-          asm.AssembleDocument(template, "result.<% get "fileformat" %>", data);
+          asm.assembleDocument(template, "result.<% get "fileformat" %>", data);
           ```
         platform: "java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"

@@ -91,7 +91,7 @@ steps:
         // <<doc [doc_expression]>>
 
         // <% "{examples.comment_2}" %>
-        string template = "doc_template.<% get "fileformat" %>";
+        String template = "doc_template.<% get "fileformat" %>";
 
         // <% "{examples.comment_3}" %>
         DataSourceInfo data 
@@ -99,7 +99,7 @@ steps:
 
         // <% "{examples.comment_4}" %>
         DocumentAssembler asm = new DocumentAssembler();
-        asm.AssembleDocument(template, "result.<% get "fileformat" %>", data);
+        asm.assembleDocument(template, "result.<% get "fileformat" %>", data);
         ```           
 
 ############################# More features ############################
@@ -139,7 +139,7 @@ more_features:
           // <<image [expression]>>
 
           // <% "{code_1.comment_2}" %>
-          string template = "template.<% get "fileformat" %>";
+          String template = "template.<% get "fileformat" %>";
 
           // <% "{code_1.comment_3}" %>
           DataSourceInfo data =
@@ -149,7 +149,7 @@ more_features:
           DocumentAssembler asm = new DocumentAssembler();
 
           // <% "{code_1.comment_5}" %>
-          asm.AssembleDocument(template, "result.<% get "fileformat" %>", data);
+          asm.assembleDocument(template, "result.<% get "fileformat" %>", data);
           ```
         platform: "java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"

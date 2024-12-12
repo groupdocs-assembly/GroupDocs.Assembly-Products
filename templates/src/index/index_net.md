@@ -231,7 +231,7 @@ code_samples:
 
         // <% "{index-content.code_samples.sample_1.comment_6}" %>
         DocumentAssembler assembler = new DocumentAssembler();
-        assembler.assembleDocument(template, result, data);
+        assembler.AssembleDocument(template, result, data);
         ```
         {{< /landing/code >}}
     # code sample loop
@@ -260,7 +260,7 @@ code_samples:
 
         // <% "{index-content.code_samples.sample_2.comment_7}" %>
         DocumentAssembler assembler = new DocumentAssembler();
-        assembler.assembleDocument(template, result, data);
+        assembler.AssembleDocument(template, result, data);
         ```
         {{< /landing/code >}}
 
