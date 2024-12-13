@@ -1,0 +1,310 @@
+{
+  "index-content": {
+    "head_title": "APIs .NET e Java & Aplicativos Online de Montagem de Documentos pelo GroupDocs",
+    "head_description": "Obtenha uma solução completa de Automação e Relatórios de Documentos para aplicações .NET e Java. Gere todos os documentos comuns a partir de templates personalizados e dados.",
+    "title": "Solução de Automação e Relatórios de Documentos",
+    "description_1": "Crie relatórios detalhados utilizando templates e fontes de dados com nossos aplicativos e APIs multiplataforma.",
+    "description_2": "Gere relatórios em formatos como Word, Excel, Apresentações e muitos mais, utilizando templates com marcação flexível.",
+    "description_3": "Preencha gráficos, códigos de barra, tabelas e outros elementos com dados de fontes como JSON, XML, CSV, etc.",
+    "words_for": "para",
+    "release_title": "Versão {0} lançada",
+    "release_notes": "Veja o que há de novo",
+    "release_downloads": "Downloads",
+    "code_more": "Mais exemplos",
+    "overview_title": "Visão Geral do {{ProdShortName}}",
+    "code_comment_1": "Caminho para o template principal",
+    "code_comment_2": "Recuperar dados de produtividade dos gerentes a partir da fonte",
+    "code_comment_3": "Crie uma instância de {{DataSourceInfo}} com os dados",
+    "code_comment_4": "Defina as cores do gráfico utilizando outro {{DataSourceInfo}}",
+    "code_comment_5": "Preencha o template com dados e salve na saída",
+    "formats_title": "Formatos de arquivo suportados",
+    "platforms": {
+      "title": "Independência de plataforma",
+      "head_title": "Escolha sua plataforma",
+      "description": "{{ProdShortName}} é compatível com os seguintes sistemas operacionais e frameworks:",
+      "learn_more": "Saiba mais",
+      "any_other_text_editor": "Qualquer outro editor de texto"
+    },
+    "features": {
+      "title": "Principais recursos do {{ProdShortName}}",
+      "description": "Esta solução ajuda você a criar relatórios em formatos populares de documentos, automaticamente preenchidos com seus dados de negócios. Automatize suas tarefas de geração de documentos.",
+      "feature_1": {
+        "title": "Preencher templates com dados",
+        "content": "Preencha relatórios usando dados de fontes suportadas."
+      },
+      "feature_2": {
+        "title": "Marcação flexível",
+        "content": "Adicione dados a documentos de uma forma personalizável."
+      },
+      "feature_3": {
+        "title": "Recursos nativos de documentos",
+        "content": "Exiba dados usando tabelas, gráficos e códigos de barra."
+      },
+      "feature_4": {
+        "title": "Todos os formatos populares",
+        "content": "Suporta todos os formatos de documentos comumente usados."
+      }
+    },
+    "formats": {
+      "title": "Suporta mais de 50 formatos de arquivo",
+      "description": "{{ProdShortName}} trabalha com quase todos os formatos de arquivo populares"
+    },
+    "code_samples": {
+      "title": "Exemplos de código",
+      "index_title": "Gere relatórios bem personalizados",
+      "index_description": "Exemplos de código do {{ProdShortName}}",
+      "more_examples": "Mais exemplos",
+      "sample_index": {
+        "title": "Utilizando Códigos de Barras Gerados",
+        "content": "{{ProdShortName}} permite a marcação de códigos de barras em templates de relatórios. Ao criar um relatório, um código de barras é gerado com base na marcação e nos dados fornecidos. Especifique o caminho para o template que contém o texto, os objetos de dados e a marcação. Além disso, especifique a fonte de dados para preencher o código de barras com conteúdo.",
+        "comment_1": "Crie uma instância da classe {{DocumentAssembler}}",
+        "comment_2": "Especifique o caminho para o template",
+        "comment_3": "Especifique o caminho para o documento de resultado",
+        "comment_4": "Crie uma instância da fonte de dados",
+        "comment_5": "Chame {{AssembleDocument}} para gerar o relatório"
+      },
+      "sample_1": {
+        "code_title": "Como Preencher uma Lista em Documentos",
+        "comment_1": "Insira este template em uma página do documento:",
+        "comment_2": "Indicadores de desempenho dos gerentes",
+        "comment_3": "Especifique o caminho do template",
+        "comment_4": "Defina o caminho do arquivo de saída",
+        "comment_5": "Recupere dados dos gerentes de uma fonte JSON",
+        "comment_6": "Gere o relatório com os dados preenchidos"
+      },
+      "sample_2": {
+        "code_title": "Como Representar Dados em um Gráfico de Pizza",
+        "comment_1": "Adicione o template do título do gráfico à apresentação:",
+        "comment_2": "Receita dos clientes",
+        "comment_3": "Inclua também o template de dados do gráfico:",
+        "comment_4": "Especifique o caminho do template do gráfico",
+        "comment_5": "Defina o caminho do arquivo de saída",
+        "comment_6": "Recupere os dados dos clientes de uma fonte XML",
+        "comment_7": "Gere o gráfico e salve o resultado"
+      }
+    },
+    "metrics": {
+      "title": "Estatísticas do nosso produto",
+      "description": "Explore métricas do produto para obter insights sobre nosso progresso, impacto e crescimento.",
+      "item_1": {
+        "title": "Formatos Suportados",
+        "description": "Suportamos mais de 50 dos formatos de documentos mais amplamente utilizados."
+      },
+      "item_2": {
+        "title": "Downloads do NuGet",
+        "description": "{{ProdShortName}} para .NET é uma biblioteca popular com mais de 650.000 downloads no NuGet."
+      },
+      "item_3": {
+        "title": "Downloads do Maven",
+        "description": "Desenvolvedores Java baixaram {{ProdShortName}} no Maven mais de 18.000 vezes."
+      },
+      "item_4": {
+        "title": "Clientes Satisfeitos",
+        "description": "Nossos produtos são confiáveis por desenvolvedores individuais e empresas líderes em todo o mundo para criar soluções inovadoras."
+      }
+    },
+    "customers": {
+      "title": "Nossos Clientes Satisfeitos",
+      "description": "As bibliotecas GroupDocs são utilizadas por algumas das marcas mais renomadas e respeitadas em todo o mundo."
+    },
+    "actions": {
+      "alt": "Licenciamento",
+      "title": "Pronto para Começar?",
+      "description": "Experimente os recursos do {{ProdShortName}} gratuitamente ou solicite uma licença.",
+      "description_index": "Teste os recursos do {{ProdShortName}} gratuitamente em sua plataforma."
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "description": "Navegue pelas nossas Perguntas Frequentes.",
+      "item_1": {
+        "question": "O {{ProdShortName}} requer bibliotecas externas para a composição de documentos?",
+        "answer": "Não, o {{ProdShortName}} funciona de forma independente e não requer bibliotecas de terceiros como Adobe Acrobat ou Microsoft Office."
+      },
+      "item_2": {
+        "question": "Posso testar os recursos do {{ProdShortName}} antes de comprar?",
+        "answer": "Sim, você pode! O {{ProdShortName}} oferece um teste gratuito. Instale-o e explore seus recursos. A versão de teste adiciona 'etiquetas de teste' aos seus documentos e processa apenas as primeiras 3 páginas. Para a experiência completa, obtenha uma licença temporária gratuita de 30 dias para acessar todos os recursos. Mais detalhes estão disponíveis em [licença temporária]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "Quais tipos de licenças estão disponíveis?",
+        "answer": "Procurando uma licença para o {{ProdShortName}}? Oferecemos uma variedade de opções para atender às suas necessidades. Escolha com base no tamanho de sua equipe, local de implantação (um único escritório ou remoto), e se você precisa compartilhar o SDK/API com clientes para distribuição. Alternativamente, escolha uma licença de uso mensal com planos medidos — pague apenas pelo que você usa. Encontre a melhor opção para você em [preços]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "APIs de Baixo Código do {{ProdShortName}}",
+      "description": "Gere documentos usando sua aplicação através da nossa API REST baseada em nuvem.",
+      "item_1": {
+        "content": "Use a API RESTful cURL para adicionar dados a Word, Excel, PowerPoint e muitos outros templates."
+      },
+      "item_2": {
+        "content": "Melhore suas aplicações .NET gerando relatórios através do SDK Cloud. Exiba dados de negócios no seu formato personalizado."
+      },
+      "item_3": {
+        "content": "O SDK do {{ProdShortName}} oferece diferentes opções para aplicações Java gerarem vários tipos de documentos."
+      }
+    },
+    "app_links": {
+      "title": "Aplicativos Web do {{ProdShortName}}",
+      "description": "{{ProdShortName}} oferece um aplicativo web gratuito para gerar documentos. Você pode processar mais de 50 formatos de arquivo populares diretamente no seu navegador, GRÁTIS.",
+      "item_1": {
+        "content": "Gere relatórios em Excel, Word, PowerPoint e muitos outros tipos de arquivos diretamente do seu navegador."
+      },
+      "item_2": {
+        "content": "Crie documentos do Microsoft Word a partir de templates e fontes de dados."
+      },
+      "item_3": {
+        "content": "Carregue um template e uma fonte de dados para gerar relatórios Excel gratuitamente."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Formatos do Microsoft Office",
+      "title_2": "Imagens & Outros Formatos",
+      "title_3": "Outros formatos",
+      "format_portable": "Portátil",
+      "format_other_office": "Outros formatos de office",
+      "format_images": "Imagens",
+      "format_web": "Web",
+      "format_emails": "Emails",
+      "format_other": "Outro"
+    }
+  },
+  "index-content-net": {
+    "head_title": "API .NET para Automação de Documentos, Montagem & Geração de Relatórios",
+    "head_description": "API C# .NET para automação de documentos, montagem e geração de relatórios. Crie documentos PDF, Word, Excel, PPTX, HTML e email a partir de templates personalizados.",
+    "title": "API .NET para Automação de Documentos & Relatórios",
+    "description": "Gere relatórios em aplicações .NET definindo templates e mesclando dados.",
+    "actions_main": "Baixar Trial via NuGet",
+    "code_title": "Preencher um Gráfico em DOCX Usando C#",
+    "overview_description": "Solução .NET para automação na criação de documentos com integração avançada de dados.",
+    "overview_feature_1": {
+      "title": "Adicionar Dados Comerciais a Templates de Documentos com C#",
+      "description": "Geração de relatórios facilitada: Com {{ProdFullName}}, você pode inserir dados de fontes como JSON ou XML em templates predefinidos com facilidade."
+    },
+    "overview_feature_2": {
+      "title": "Processar Objetos de Dados Nativos",
+      "description": "Tipos de documentos suportados incluem objetos incorporados como diagramas, gráficos, tabelas e listas que podem ser preenchidos automaticamente com dados."
+    },
+    "overview_feature_3": {
+      "title": "Recursos Adicionais",
+      "description": "{{ProdFullName}} fornece amplas opções de personalização. Projete programaticamente objetos de dados, gere códigos de barra, use fontes de dados online via URLs e salve a saída em vários formatos."
+    },
+    "features": {
+      "title": "Recursos do {{ProdShortName}}",
+      "description": "Crie documentos e relatórios utilizando modelos de dados avançados.",
+      "feature_1": {
+        "title": "Representação Avançada de Dados",
+        "content": "Suporta uma ampla gama de objetos de dados como gráficos, listas, tabelas, imagens e mais."
+      },
+      "feature_2": {
+        "title": "Manipulação de Dados",
+        "content": "Aplique fórmulas e operações sequenciais para formatar e exibir dados de forma eficaz."
+      },
+      "feature_3": {
+        "title": "Ampla Variedade de Formatos Suportados",
+        "content": "Trabalhe sem problemas com todos os formatos de documentos comuns para templates ou arquivos de saída."
+      },
+      "feature_4": {
+        "title": "Marcação Enriquecida de Templates",
+        "content": "Aproveite a formatação ordinal, cardinal e alfabética em templates."
+      },
+      "feature_5": {
+        "title": "Incorporar Códigos de Barra",
+        "content": "Gere imagens de código de barras dinamicamente e insira-as em seus documentos."
+      },
+      "feature_6": {
+        "title": "Formatação de Dados",
+        "content": "Formate strings em templates como maiúsculas, minúsculas, com capitalização ou estilos de primeira letra maiúscula."
+      },
+      "feature_7": {
+        "title": "Manipulação do Conteúdo do Documento",
+        "content": "Insira dinamicamente conteúdo de documentos externos em seus relatórios."
+      },
+      "feature_8": {
+        "title": "Salvar em Vários Formatos",
+        "content": "Especifique o formato de arquivo de saída usando extensões de arquivo ou configurações detalhadas."
+      },
+      "feature_9": {
+        "title": "Processamento de Dados Flexível",
+        "content": "Insira imagens e documentos dinamicamente usando bytes codificados em Base64."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} é compatível com os seguintes sistemas operacionais, frameworks e gerenciadores de pacotes.",
+    "formats_description": "{{ProdFullName}} pode processar os seguintes [formatos de arquivo](https://docs.groupdocs.com/assembly/net/supported-document-formats/).",
+    "code_samples_description": "Trechos de código para operações típicas do {{ProdShortName}}.",
+    "code_title_sample_1": "Lista com Marcadores em um Documento Microsoft Word",
+    "code_samples_sample_1_content_1": "[Listas com marcadores](https://docs.groupdocs.com/assembly/net/bulleted-list-in-word-processing-document/) são uma forma comum de apresentar dados comerciais.",
+    "code_samples_sample_1_content_2": "Aqui está um exemplo de como adicionar uma lista a um documento Word usando {{ProdShortName}}.",
+    "code_title_sample_2": "Gráficos de Pizza em Presentações PPTX",
+    "code_samples_sample_2_content_1": "Você pode criar [Gráficos de Pizza](https://docs.groupdocs.com/assembly/net/pie-chart-in-presentation-document/) usando templates e dados XML.",
+    "code_samples_sample_2_content_2": "Melhore seus relatórios com representações de dados visualmente atraentes."
+  },
+  "index-content-java": {
+    "head_title": "Biblioteca Java para Criação, Automação & Relatórios de Documentos",
+    "head_description": "Biblioteca Java para automação na criação de documentos e geração de relatórios. Crie documentos PDF, Word, Excel, PPTX, HTML e email utilizando templates personalizados.",
+    "title": "API Java para Automação de Relatórios e Documentos",
+    "description": "Simplifique a geração de relatórios em Java mesclando dados com templates.",
+    "actions_main": "Obtenha Trial via NuGet",
+    "code_title": "Gerar um Gráfico em DOCX com Java",
+    "overview_description": "Uma biblioteca Java projetada para criação automatizada de documentos e integração de dados sem costura.",
+    "overview_feature_1": {
+      "title": "Mesclar Dados Comerciais em Templates com Java",
+      "description": "Crie relatórios profissionais facilmente incorporando dados de JSON, XML ou outras fontes em templates pré-projetados usando {{ProdFullName}}."
+    },
+    "overview_feature_2": {
+      "title": "Trabalhar com Objetos Incorporados",
+      "description": "Preencha automaticamente elementos como tabelas, gráficos e diagramas em documentos utilizando dados de fontes externas."
+    },
+    "overview_feature_3": {
+      "title": "Personalização Avançada",
+      "description": "{{ProdFullName}} oferece recursos flexíveis, como geração de códigos de barras, recuperação de dados online por meio de URLs e exportação de saída em diferentes formatos."
+    },
+    "features": {
+      "title": "Principais Capacidades do {{ProdShortName}}",
+      "description": "Crie documentos e relatórios profissionais com manipulação avançada de dados.",
+      "feature_1": {
+        "title": "Elementos de Dados Visuais",
+        "content": "Adicione e formate elementos como gráficos, tabelas, imagens e listas diretamente em seus documentos."
+      },
+      "feature_2": {
+        "title": "Transformação de Dados",
+        "content": "Use fórmulas, ordenação e outras ferramentas para organizar e apresentar seus dados de forma eficaz."
+      },
+      "feature_3": {
+        "title": "Suporte para Vários Formatos",
+        "content": "Trabalhe facilmente com tipos de arquivos comuns para templates e arquivos de saída."
+      },
+      "feature_4": {
+        "title": "Formatação Avançada de Templates",
+        "content": "Personalize templates com opções de formatação numérica, alfabética e outras opções avançadas."
+      },
+      "feature_5": {
+        "title": "Geração Dinâmica de Códigos de Barras",
+        "content": "Crie rapidamente e insira imagens de códigos de barras nos documentos conforme necessário."
+      },
+      "feature_6": {
+        "title": "Estilização de Texto Flexível",
+        "content": "Aplique transformações de texto como maiúsculas, minúsculas ou capitalização em templates."
+      },
+      "feature_7": {
+        "title": "Importação de Conteúdo Externo",
+        "content": "Incorpore conteúdo de arquivos externos dinamicamente durante a geração de documentos."
+      },
+      "feature_8": {
+        "title": "Exportar em Múltiplos Formatos",
+        "content": "Salve documentos finais em vários formatos de arquivo usando extensões ou configurações especificadas."
+      },
+      "feature_9": {
+        "title": "Incorporação Dinâmica de Mídia",
+        "content": "Insira imagens ou outros conteúdos utilizando dados codificados em Base64 ao criar documentos."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} funciona perfeitamente com sistemas operacionais, frameworks de desenvolvimento e gerenciadores de pacotes populares.",
+    "formats_description": "{{ProdFullName}} suporta uma ampla gama de [formatos de documentos](https://docs.groupdocs.com/assembly/java/supported-document-formats/).",
+    "code_samples_description": "Explore exemplos de código para tarefas comuns com {{ProdShortName}}.",
+    "code_title_sample_1": "Crie uma Lista com Marcadores em Word",
+    "code_samples_sample_1_content_1": "Saiba como adicionar [listas com marcadores](https://docs.groupdocs.com/assembly/java/bulleted-list-in-word-processing-document/) aos documentos Word para uma representação organizada de dados.",
+    "code_samples_sample_1_content_2": "Este exemplo mostra como gerar uma lista em Word usando {{ProdShortName}}.",
+    "code_title_sample_2": "Crie Gráficos de Pizza em PPTX",
+    "code_samples_sample_2_content_1": "Use templates e XML para adicionar [gráficos de pizza](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/) às suas apresentações.",
+    "code_samples_sample_2_content_2": "Torne seus relatórios mais envolventes ao incluir gráficos de pizza para visualizar dados."
+  }
+}

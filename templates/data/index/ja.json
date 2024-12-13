@@ -1,0 +1,310 @@
+{
+  "index-content": {
+    "head_title": "GroupDocsによる.NETおよびJavaのAPIとオンラインドキュメント生成アプリ",
+    "head_description": ".NETおよびJavaアプリケーションのためのオールインワンドキュメント自動化・レポーティングソリューション。カスタムテンプレートとデータから一般的なドキュメントを生成します。",
+    "title": "ドキュメント自動化およびレポーティングソリューション",
+    "description_1": "クロスプラットフォームアプリおよびAPIを使用して、テンプレートとデータソースを利用した詳細なレポートを作成します。",
+    "description_2": "柔軟なマークアップを使用して、Word、Excel、プレゼンテーションなどの形式でレポートを生成します。",
+    "description_3": "JSON、XML、CSVなどのデータソースからデータを用いて、チャート、バーコード、表、およびその他の要素をポピュレートします。",
+    "words_for": "のため",
+    "release_title": "バージョン{0}リリース",
+    "release_notes": "新機能を確認する",
+    "release_downloads": "ダウンロード",
+    "code_more": "詳細な例",
+    "overview_title": "{{ProdShortName}}の概要",
+    "code_comment_1": "メインテンプレートへのパス",
+    "code_comment_2": "データソースからマネージャーの生産性データを取得",
+    "code_comment_3": "{{DataSourceInfo}}のインスタンスをデータで作成",
+    "code_comment_4": "別の{{DataSourceInfo}}を使用してチャートの色を設定",
+    "code_comment_5": "テンプレートをデータで埋めて出力先に保存",
+    "formats_title": "サポートされているファイル形式",
+    "platforms": {
+      "title": "プラットフォームの独立性",
+      "head_title": "プラットフォームを選択してください",
+      "description": "{{ProdShortName}}は以下のオペレーティングシステムおよびフレームワークに対応しています:",
+      "learn_more": "詳細を学ぶ",
+      "any_other_text_editor": "その他のテキストエディタ"
+    },
+    "features": {
+      "title": "{{ProdShortName}}の主な機能",
+      "description": "このソリューションは、ビジネスデータで自動的に埋め込まれた人気のあるドキュメント形式でレポートを作成するのに役立ちます。ドキュメント生成タスクを自動化します。",
+      "feature_1": {
+        "title": "データでテンプレートを埋める",
+        "content": "サポートされているソースからデータを使用してレポートを埋める。"
+      },
+      "feature_2": {
+        "title": "柔軟なマークアップ",
+        "content": "カスタマイズ可能な方法でドキュメントにデータを追加。"
+      },
+      "feature_3": {
+        "title": "ネイティブドキュメント機能",
+        "content": "テーブル、チャート、バーコードを使用してデータを表示。"
+      },
+      "feature_4": {
+        "title": "すべての一般的な形式",
+        "content": "すべての一般的に使用されるドキュメント形式をサポート。"
+      }
+    },
+    "formats": {
+      "title": "50以上のファイル形式をサポート",
+      "description": "{{ProdShortName}}はほぼすべての人気ファイル形式で動作します。"
+    },
+    "code_samples": {
+      "title": "コードサンプル",
+      "index_title": "カスタマイズされたレポートを生成",
+      "index_description": "{{ProdShortName}}のコード例",
+      "more_examples": "詳細な例",
+      "sample_index": {
+        "title": "生成されたバーコードを使用",
+        "content": "{{ProdShortName}}はレポートテンプレートにバーコードのマークアップを許可します。レポートを作成する際に、マークアップと提供されたデータに基づいてバーコードが生成されます。テキスト、データオブジェクト、およびマークアップを含むテンプレートへのパスを指定します。また、バーコードにコンテンツを埋め込むデータソースを指定します。",
+        "comment_1": "{{DocumentAssembler}}クラスのインスタンスを作成",
+        "comment_2": "テンプレートへのパスを指定",
+        "comment_3": "結果ドキュメントへのパスを指定",
+        "comment_4": "データソースのインスタンスを作成",
+        "comment_5": "{{AssembleDocument}}を呼び出してレポートを生成"
+      },
+      "sample_1": {
+        "code_title": "ドキュメントにリストを埋め込む方法",
+        "comment_1": "ドキュメントページにこのテンプレートを挿入:",
+        "comment_2": "マネージャーのパフォーマンス指標",
+        "comment_3": "テンプレートパスを指定",
+        "comment_4": "出力ファイルパスを設定",
+        "comment_5": "JSONソースからマネージャーのデータを取得",
+        "comment_6": "埋め込まれたデータでレポートを生成"
+      },
+      "sample_2": {
+        "code_title": "円グラフを表現する方法",
+        "comment_1": "プレゼンテーションにチャートタイトルテンプレートを追加:",
+        "comment_2": "顧客の収益",
+        "comment_3": "チャートデータテンプレートも含める:",
+        "comment_4": "チャートテンプレートパスを指定",
+        "comment_5": "出力ファイルパスを設定",
+        "comment_6": "XMLソースから顧客データを取得",
+        "comment_7": "チャートを生成して結果を保存"
+      }
+    },
+    "metrics": {
+      "title": "製品の統計",
+      "description": "製品のメトリクスを探求し、進捗、影響、成長についての洞察を得ましょう。",
+      "item_1": {
+        "title": "サポートされている形式",
+        "description": "最も広く使用されている50以上のドキュメント形式をサポートしています。"
+      },
+      "item_2": {
+        "title": "NuGetダウンロード数",
+        "description": "{{ProdShortName}} for .NETは、NuGetで65万回以上ダウンロードされた人気のライブラリです。"
+      },
+      "item_3": {
+        "title": "Mavenダウンロード数",
+        "description": "Java開発者は、Mavenで{{ProdShortName}}を18000回以上ダウンロードしています。"
+      },
+      "item_4": {
+        "title": "満足している顧客",
+        "description": "私たちの製品は、世界中の個々の開発者や大手企業に信頼され、革新的なソリューションを作成するために使用されています。"
+      }
+    },
+    "customers": {
+      "title": "私たちの満足した顧客",
+      "description": "GroupDocsのライブラリは、世界中の著名なブランドの一部によって使用されています。"
+    },
+    "actions": {
+      "alt": "ライセンス",
+      "title": "始める準備はできましたか？",
+      "description": "{{ProdShortName}}の機能を無料で試すか、ライセンスをリクエストしてください。",
+      "description_index": "お使いのプラットフォームで{{ProdShortName}}の機能を無料でお試しください。"
+    },
+    "faq": {
+      "title": "よくある質問",
+      "description": "よくある質問を参照してください。",
+      "item_1": {
+        "question": "{{ProdShortName}}はドキュメント作成のために外部ライブラリを必要としますか？",
+        "answer": "いいえ、{{ProdShortName}}は独立して動作し、Adobe AcrobatやMicrosoft Officeなどのサードパーティライブラリは必要ありません。"
+      },
+      "item_2": {
+        "question": "{{ProdShortName}}の機能を購入前に試すことはできますか？",
+        "answer": "はい、できます！{{ProdShortName}}は無料体験を提供しています。それをインストールして機能を探索してください。トライアルバージョンは、ドキュメントに「トライアルバッジ」を追加し、最初の3ページのみを処理します。完全な体験をするために、すべての機能にアクセスできる30日間の一時ライセンスを取得してください。詳細は[一時ライセンス]({{LicensingUrl}})をご覧ください。"
+      },
+      "item_3": {
+        "question": "どのようなライセンスが利用可能ですか？",
+        "answer": "{{ProdShortName}}ライセンスをお探しですか？お客様のニーズに応じたさまざまなオプションを提供しています。チームのサイズ、展開場所（単一オフィスまたはリモート）、お客様がクライアントにSDK/APIを配布するために共有する必要があるかどうかに応じて選択してください。もしくは、使用した分だけ支払うメーター制のプランがある月額使用ライセンスを選択できます。自分に最適なオプションを[価格設定]({{PricingUrl}})で見つけてください。"
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}}のローコードAPI",
+      "description": "クラウドベースのREST APIを介してアプリケーションを使用してドキュメントを生成します。",
+      "item_1": {
+        "content": "cURL RESTful APIを使用して、Word、Excel、PowerPointなどのテンプレートにデータを追加します。"
+      },
+      "item_2": {
+        "content": ".NETアプリケーションを強化し、クラウドSDKを介してレポートを生成します。ビジネスデータをカスタム形式で表示。"
+      },
+      "item_3": {
+        "content": "{{ProdShortName}} SDKは、Javaアプリケーション向けにさまざまな種類のドキュメントを生成するオプションを提供します。"
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}}のWebアプリ",
+      "description": "{{ProdShortName}}は、ドキュメントを生成するための無料Webアプリケーションを提供します。ブラウザ上で50を超える人気ファイル形式を直接処理できます、無料で。",
+      "item_1": {
+        "content": "Excel、Word、PowerPointなどのファイルタイプでレポートを生成し、ブラウザから直接それを行います。"
+      },
+      "item_2": {
+        "content": "テンプレートとデータソースからMicrosoft Wordドキュメントを作成。"
+      },
+      "item_3": {
+        "content": "テンプレートとデータソースをアップロードして、Excelレポートを無料で生成。"
+      }
+    },
+    "formats_groups": {
+      "title_1": "Microsoft Office形式",
+      "title_2": "画像およびその他の形式",
+      "title_3": "その他の形式",
+      "format_portable": "ポータブル",
+      "format_other_office": "その他のオフィス形式",
+      "format_images": "画像",
+      "format_web": "ウェブ",
+      "format_emails": "メール",
+      "format_other": "その他"
+    }
+  },
+  "index-content-net": {
+    "head_title": ".NETドキュメント自動化、アセンブリおよびレポート生成用API",
+    "head_description": "C# .NET APIによるドキュメント自動化、アセンブリ、およびレポート生成。カスタムテンプレートからPDF、Word、Excel、PPTX、HTML、およびメール文書を作成します。",
+    "title": ".NETドキュメント自動化およびレポーティングAPI",
+    "description": ".NETアプリケーションでテンプレートを定義し、データをマージしてレポートを生成。",
+    "actions_main": "NuGetからトライアルをダウンロード",
+    "code_title": "C#を使用してDOCXでチャートを埋める",
+    "overview_description": ".NETソリューションによる高度なデータ統合を使用したドキュメント作成の自動化。",
+    "overview_feature_1": {
+      "title": "C#でドキュメントテンプレートにビジネスデータを追加",
+      "description": "{{ProdFullName}}を使用すると、JSONやXMLなどのソースからデータを事前定義のテンプレートに簡単に挿入できます。"
+    },
+    "overview_feature_2": {
+      "title": "ネイティブデータオブジェクトの処理",
+      "description": "サポートされているドキュメントタイプには、データで自動的にポピュレートできる図、チャート、テーブル、リストなどが含まれます。"
+    },
+    "overview_feature_3": {
+      "title": "追加機能",
+      "description": "{{ProdFullName}}は幅広いカスタマイズオプションを提供します。プログラムによるデータオブジェクトの設計、バーコードの生成、URL経由でのオンラインデータソースの利用、さまざまな形式での出力の保存が可能です。"
+    },
+    "features": {
+      "title": "{{ProdShortName}}の機能",
+      "description": "高度なデータモデルを使用してドキュメントやレポートを作成。",
+      "feature_1": {
+        "title": "高度なデータ表現",
+        "content": "チャート、リスト、テーブル、画像など幅広いデータオブジェクトをサポート。"
+      },
+      "feature_2": {
+        "title": "データ操作",
+        "content": "データを効果的に表示するための数式や順序操作を適用。"
+      },
+      "feature_3": {
+        "title": "広範なサポート形式",
+        "content": "テンプレートや出力ファイル用のすべての一般的なドキュメント形式でシームレスに動作。"
+      },
+      "feature_4": {
+        "title": "リッチテンプレートマークアップ",
+        "content": "テンプレート内で順序、基数、およびアルファベットの数値形式を活用。"
+      },
+      "feature_5": {
+        "title": "バーコードの埋め込み",
+        "content": "動的にバーコード画像を生成し、ドキュメントに挿入。"
+      },
+      "feature_6": {
+        "title": "データのフォーマット",
+        "content": "テンプレート内の文字列を大文字、小文字、頭文字大文字またはその他のスタイルでフォーマット。"
+      },
+      "feature_7": {
+        "title": "ドキュメントコンテンツの操作",
+        "content": "外部ドキュメントからのコンテンツをダイナミックに挿入。"
+      },
+      "feature_8": {
+        "title": "複数形式での保存",
+        "content": "ファイル拡張子または詳細設定を使用して出力ファイル形式を指定。"
+      },
+      "feature_9": {
+        "title": "柔軟なデータ処理",
+        "content": "Base64でエンコードされたバイトを使用して、動的に画像やドキュメントを挿入。"
+      }
+    },
+    "platforms_description": "{{ProdFullName}}は以下のオペレーティングシステム、フレームワーク、およびパッケージマネージャーに対応しています。",
+    "formats_description": "{{ProdFullName}}は以下の[ファイル形式](https://docs.groupdocs.com/assembly/net/supported-document-formats/)を処理できます。",
+    "code_samples_description": "{{ProdShortName}}の一般的な操作に関するコードスニペット。",
+    "code_title_sample_1": "Microsoft Word文書に箇条書きリストを作成",
+    "code_samples_sample_1_content_1": "[箇条書きリスト](https://docs.groupdocs.com/assembly/net/bulleted-list-in-word-processing-document/)はビジネスデータを提示する一般的な方法です。",
+    "code_samples_sample_1_content_2": "こちらは{{ProdShortName}}を使用してWord文書にリストを追加する例です。",
+    "code_title_sample_2": "PPTXプレゼンテーションに円グラフを作成",
+    "code_samples_sample_2_content_1": "テンプレートとXMLデータを使用して[円グラフ](https://docs.groupdocs.com/assembly/net/pie-chart-in-presentation-document/)を作成できます。",
+    "code_samples_sample_2_content_2": "視覚的に魅力的なデータ表現でレポートを強化。"
+  },
+  "index-content-java": {
+    "head_title": "ドキュメント作成、自動化、レポーティング用のJavaライブラリ",
+    "head_description": "ドキュメント作成とレポート生成を自動化するためのJavaライブラリ。カスタムテンプレートを使用してPDF、Word、Excel、PPTX、HTML、およびメール文書を作成します。",
+    "title": "レポートとドキュメントを自動化するためのJava API",
+    "description": "データをテンプレートとマージすることによって、Javaでのレポート生成を簡素化。",
+    "actions_main": "NuGetからトライアルを入手",
+    "code_title": "JavaでDOCXにチャートを生成",
+    "overview_description": "自動化されたドキュメント作成とシームレスなデータ統合のために設計されたJavaライブラリ。",
+    "overview_feature_1": {
+      "title": "Javaでテンプレートにビジネスデータをマージ",
+      "description": "{{ProdFullName}}を使用して、JSON、XML、またはその他のソースからのデータを事前に設計されたテンプレートに簡単に埋め込むことができます。"
+    },
+    "overview_feature_2": {
+      "title": "埋め込みオブジェクトと作業",
+      "description": "外部ソースからのデータを用いて、ドキュメント内のテーブル、チャート、および図を自動的に埋め込みます。"
+    },
+    "overview_feature_3": {
+      "title": "高度なカスタマイズ",
+      "description": "{{ProdFullName}}は、バーコードの生成、URLを介したオンラインデータの取得、さまざまな形式での出力のエクスポートなど、柔軟な機能を提供します。"
+    },
+    "features": {
+      "title": "{{ProdShortName}}の主な機能",
+      "description": "高度なデータ処理を伴ったプロフェッショナルなドキュメントとレポートを作成。",
+      "feature_1": {
+        "title": "視覚データ要素",
+        "content": "ドキュメント内にチャート、テーブル、画像、リストなどの要素を追加し、フォーマット。"
+      },
+      "feature_2": {
+        "title": "データ変換",
+        "content": "データを効果的に整理し表示するために、数式やソート、その他のツールを使用。"
+      },
+      "feature_3": {
+        "title": "マルチフォーマットサポート",
+        "content": "テンプレートと出力ファイルの一般的なファイルタイプで簡単に作業。"
+      },
+      "feature_4": {
+        "title": "強化されたテンプレートフォーマット",
+        "content": "数値、アルファベットなどの高度なフォーマットオプションでテンプレートをカスタマイズ。"
+      },
+      "feature_5": {
+        "title": "動的なバーコード生成",
+        "content": "必要に応じてバーコード画像を迅速に作成しドキュメントに挿入。"
+      },
+      "feature_6": {
+        "title": "柔軟なテキストスタイリング",
+        "content": "テンプレート内で大文字、小文字、タイトルケースなどのテキスト変換を適用。"
+      },
+      "feature_7": {
+        "title": "外部コンテンツのインポート",
+        "content": "ドキュメントを生成する際に、外部ファイルからのコンテンツを動的に埋め込みます。"
+      },
+      "feature_8": {
+        "title": "複数フォーマットでのエクスポート",
+        "content": "指定された拡張子や設定を使用して、最終的なドキュメントをさまざまなファイル形式で保存。"
+      },
+      "feature_9": {
+        "title": "動的メディアの埋め込み",
+        "content": "ドキュメント作成中にBase64エンコードデータを使用して画像やその他のコンテンツを挿入。"
+      }
+    },
+    "platforms_description": "{{ProdFullName}}は人気のオペレーティングシステム、開発フレームワーク、およびパッケージマネージャーとシームレスに連携します。",
+    "formats_description": "{{ProdFullName}}は幅広い[ドキュメント形式](https://docs.groupdocs.com/assembly/java/supported-document-formats/)をサポートしています。",
+    "code_samples_description": "{{ProdShortName}}の一般的なタスク向けのサンプルコードを探求します。",
+    "code_title_sample_1": "Wordで箇条書きリストを作成",
+    "code_samples_sample_1_content_1": "Word文書に整理されたデータ表現のために[箇条書きリスト](https://docs.groupdocs.com/assembly/java/bulleted-list-in-word-processing-document/)の追加方法を学びます。",
+    "code_samples_sample_1_content_2": "この例では、{{ProdShortName}}を使用してWordにリストを生成します。",
+    "code_title_sample_2": "PPTXで円グラフを作成",
+    "code_samples_sample_2_content_1": "テンプレートとXMLを使用してプレゼンテーションに[円グラフ](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/)を追加します。",
+    "code_samples_sample_2_content_2": "データを視覚化するために円グラフを含めることで、レポートをより魅力的にします。"
+  }
+}

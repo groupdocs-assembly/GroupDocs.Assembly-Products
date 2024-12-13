@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": "Inserir um documento em outro no {{FileFormatUp}} usando {{ProgLang}}",
+    "description": "Combine arquivos {{FileFormatUp}} com {{ProgLang}}. O {{ProdShortName}} simplifica o processo de mesclagem de documentos em apenas algumas linhas de código."
+  },
+  "header": {
+    "title": "Incorpore conteúdo em arquivos {{FileFormatUp}} sem complicações",
+    "description": "Use o {{ProdFullName}} para inserir um documento {{FileFormatUp}} em outro de forma integrada. Obtenha resultados precisos com ferramentas flexíveis e confiáveis.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Obtenha gratuitamente"
+  },
+  "about": {
+    "title": "O que é o {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma solução versátil para o manuseio de documentos. Ele permite integrar um documento a outro de forma eficiente, com suporte a mais de 50 formatos, como PDFs e arquivos do MS Office. Personalize sua saída mesclando, editando e organizando o conteúdo exatamente como desejar."
+  },
+  "more_features": {
+    "title": "Ferramentas avançadas para simplificar a integração de documentos",
+    "description": "Com o {{ProdFullName}}, incorporar documentos é simples e personalizável, independentemente do tipo de arquivo. Alcance resultados limpos e consistentes em seus projetos.",
+    "image_description": "Destaques do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Crie relatórios usando dados de negócios",
+      "content": "Preencha documentos com dados de fontes como JSON, XML ou CSV de forma rápida e confiável, otimizando seus fluxos de trabalho."
+    },
+    "feature_2": {
+      "title": "Melhore documentos com conteúdo visual",
+      "content": "O {{ProdShortName}} permite inserir tabelas, gráficos e listas ao lado de texto, hyperlinks, imagens e até mesmo códigos de barras dinâmicos."
+    },
+    "feature_3": {
+      "title": "Coloque os dados exatamente onde pertencem",
+      "content": "Os templates LINQ ajudam a posicionar seus dados com precisão, gerenciando elementos repetidos como arrays e aplicando estilos personalizados sem dificuldades."
+    },
+    "feature_4": {
+      "title": "Compatível com diversos formatos de arquivo",
+      "content": "Mescle documentos em vários formatos, incluindo PDFs, HTML, arquivos do MS Office e OpenOffice, garantindo flexibilidade para seus projetos."
+    }
+  },
+  "formats": {
+    "title": "Mescle diferentes tipos de documentos",
+    "description": "Com {{EnvName}}, você pode incorporar e combinar conteúdos em mais de 50 formatos de arquivo. Adicione arquivos de forma integrada para criar resultados profissionais."
+  },
+  "operations": {
+    "title": "Principais capacidades de uma olhada",
+    "description": "Descubra os amplos recursos que o {{ProdShortName}} oferece para tornar a integração e combinação de documentos eficientes e sem complicações."
+  },
+  "examples": {
+    "comment_1": "Use esta tag em seu template para marcar o local do documento incorporado",
+    "comment_2": "Defina o caminho do arquivo para o template principal",
+    "comment_3": "Forneça o caminho para o documento que deseja inserir",
+    "comment_4": "Salve o arquivo final com o conteúdo incorporado"
+  },
+  "steps": {
+    "title": "Passos para inserir um documento em um arquivo {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) torna a incorporação de um documento {{FileFormatUp}} em outro simples e personalizável.",
+      "step_1": "Prepare um template {{FileFormatUp}} com marcadores para o conteúdo incorporado.",
+      "step_2": "Especifique o caminho do arquivo para o template.",
+      "step_3": "Forneça o caminho do arquivo para o documento a ser incorporado.",
+      "step_4": "Salve o arquivo de saída com o conteúdo mesclado."
+    }
+  },
+  "code_1": {
+    "title": "Como inserir programaticamente uma imagem em um documento",
+    "content": "Este exemplo mostra como incorporar uma imagem em um arquivo {{FileFormatUp}} usando o {{ProdShortName}}.",
+    "comment_1": "Adicione uma tag de marcador no arquivo do template",
+    "comment_2": "Defina o caminho para o template",
+    "comment_3": "Especifique o caminho para a imagem",
+    "comment_4": "Inicialize a instância do {{DocumentAssembler}}",
+    "comment_5": "Salve o arquivo com a imagem incorporada"
+  },
+  "texts_pdf": {
+    "step_1": "Crie um template com marcadores para o conteúdo incorporado (templates PDF não são suportados).",
+    "step_4": "Salve o arquivo final com o conteúdo mesclado como um PDF.",
+    "comment_tmp": "Templates PDF não são suportados no momento."
+  }
+}

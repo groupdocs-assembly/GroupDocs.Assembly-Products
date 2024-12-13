@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "Crea tablas en documentos {{FileFormatUp}} con {{ProgLang}}",
+    "description": "La API {{ProdFullName}} permite a los desarrolladores añadir y llenar tablas en documentos y correos electrónicos con datos de fuentes dinámicas."
+  },
+  "header": {
+    "title": "Genera tablas de datos en documentos {{FileFormatUp}} utilizando nuestra API {{EnvNameShort}}",
+    "description": "{{ProdFullName}} permite llenar dinámicamente tablas en documentos {{FileFormatUp}} con datos de diversas fuentes.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar Prueba Gratis"
+  },
+  "about": {
+    "title": "Visión general de {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) está diseñado para crear documentos e informes llenando plantillas con datos de múltiples fuentes. Inserta datos estructurados en tablas, listas y gráficos sin esfuerzo, o incrusta imágenes de manera dinámica. La sintaxis avanzada asegura una colocación precisa de los datos. Soporta más de 50 formatos, incluidos PDFs, documentos de MS Office y archivos de correo electrónico."
+  },
+  "more_features": {
+    "title": "Genera documentos con tablas dinámicas",
+    "description": "{{ProdFullName}} optimiza la creación de documentos al automatizar el llenado de tablas y soportar elementos adicionales como gráficos, listas e imágenes a través de plantillas y marcado avanzado.",
+    "image_description": "Características Clave de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Crea informes a partir de datos estructurados",
+      "content": "La API procesa datos de fuentes como JSON, XML y CSV para llenar tablas en documentos de oficina de manera eficiente y precisa."
+    },
+    "feature_2": {
+      "title": "Visualiza los datos",
+      "content": "{{ProdShortName}} permite la creación de tablas, listas y gráficos, además de incrustar texto, enlaces e imágenes para un diseño profesional de documentos."
+    },
+    "feature_3": {
+      "title": "Posiciona datos de tabla con precisión",
+      "content": "Utiliza sintaxis basada en LINQ para añadir dinámicamente filas y columnas a las tablas. Personaliza estilos, incluidos colores y formatos, programáticamente."
+    },
+    "feature_4": {
+      "title": "Soporta una amplia variedad de formatos",
+      "content": "Maneja sin problemas formatos de archivo populares como MS Office, OpenOffice, PDF y HTML. Inserta tablas pobladas en tipos de documentos soportados sin complicaciones."
+    }
+  },
+  "formats": {
+    "title": "Crea informes con tablas detalladas",
+    "description": "{{EnvName}} permite la creación de informes comprensivos llenando plantillas con tablas y otros elementos de datos en más de 50 formatos soportados."
+  },
+  "operations": {
+    "title": "Explora características clave",
+    "description": "Nuestra solución simplifica la creación de documentos profesionales con tablas pobladas dinámicamente y elementos adicionales."
+  },
+  "examples": {
+    "comment_1": "Añade estas etiquetas en una fila de plantilla de tabla",
+    "comment_2": "Establece la ruta del archivo para la plantilla",
+    "comment_3": "Obtén datos de una fuente soportada",
+    "comment_4": "Guarda el documento con la tabla llena de datos"
+  },
+  "steps": {
+    "title": "Cómo llenar una tabla en un documento {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) te permite llenar dinámicamente tablas en plantillas para formatos como {{FileFormatUp}}. Inserta datos de diversas fuentes en tus tablas.",
+      "step_1": "Crea una plantilla {{FileFormatUp}} con marcadores de posición para la tabla.",
+      "step_2": "Obtén datos de cualquier fuente soportada.",
+      "step_3": "Filtra los datos para incluir solo la información necesaria.",
+      "step_4": "Guarda el documento con la tabla poblada."
+    }
+  },
+  "code_1": {
+    "title": "Cómo llenar dinámicamente una tabla de datos",
+    "content": "Este ejemplo demuestra cómo llenar una tabla en un documento {{FileFormatUp}} utilizando datos dinámicos.",
+    "comment_1": "Prepara una plantilla con un marcador de posición para la tabla",
+    "comment_2": "Especifica la ruta del archivo para la plantilla",
+    "comment_3": "Recupera datos de tu fuente elegida",
+    "comment_4": "Crea un objeto fuente de datos con los datos necesarios",
+    "comment_5": "Inicializa {{DocumentAssembler}}",
+    "comment_6": "Guarda el documento completado con la tabla poblada"
+  },
+  "texts_pdf": {
+    "step_1": "Crea una plantilla y añade marcadores de posición para la tabla (los templates PDF no son soportados en este momento).",
+    "step_4": "Guarda el documento con la tabla completada como un archivo PDF.",
+    "comment_tmp": "Los templates PDF no están disponibles en este momento."
+  }
+}

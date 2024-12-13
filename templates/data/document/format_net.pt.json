@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": "Incorporar um documento em outro em {{FileFormatUp}} com a API {{ProgLang}}",
+    "description": "Mescle documentos {{FileFormatUp}} usando {{ProgLang}}. Com o {{ProdShortName}}, combine arquivos de forma contínua em apenas algumas etapas."
+  },
+  "header": {
+    "title": "Combine documentos no formato {{FileFormatUp}}",
+    "description": "Com o {{ProdFullName}}, você pode rapidamente incorporar um documento {{FileFormatUp}} em outro. Esta API fornece ferramentas robustas para fusões precisas de documentos.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar gratuitamente"
+  },
+  "about": {
+    "title": "O que é {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma ferramenta poderosa para composição e manipulação de documentos. Permite aos usuários incorporar um documento em outro, possibilitando uma fusão contínua de conteúdo. Com suporte a mais de 50 formatos — incluindo PDFs, arquivos do MS Office e muito mais — você pode organizar, editar e personalizar a saída final para atender às suas necessidades."
+  },
+  "more_features": {
+    "title": "Otimize a fusão de documentos com ferramentas avançadas",
+    "description": "A biblioteca {{ProdFullName}} simplifica a incorporação de um documento em outro, oferecendo suporte a vários formatos de arquivo e opções de personalização para uma integração perfeita.",
+    "image_description": "Recursos principais do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Gere relatórios a partir dos seus dados empresariais",
+      "content": "Preencha automaticamente documentos com dados de JSON, XML, CSV ou outras fontes, garantindo fluxos de trabalho precisos e eficientes."
+    },
+    "feature_2": {
+      "title": "Enriqueça documentos com elementos visuais",
+      "content": "{{ProdShortName}} permite incluir tabelas, gráficos e listas, além de texto, links, imagens e códigos de barras gerados dinamicamente."
+    },
+    "feature_3": {
+      "title": "Coloque e formate dados com precisão",
+      "content": "Templates baseados em LINQ oferecem controle sobre o posicionamento de dados, permitindo gerenciar loops para arrays e aplicar estilização, como personalização de cor."
+    },
+    "feature_4": {
+      "title": "Funciona com vários formatos de arquivo",
+      "content": "Incorpore documentos entre si em formatos como MS Office, PDFs, HTML, OpenOffice e muito mais."
+    }
+  },
+  "formats": {
+    "title": "Mescle documentos em diversos formatos",
+    "description": "Com a API {{EnvName}}, você pode combinar documentos em mais de 50 formatos suportados. Incorpore arquivos ou seções em seus documentos finais sem esforço."
+  },
+  "operations": {
+    "title": "Descubra nossas ferramentas poderosas",
+    "description": "Explore os recursos que o {{ProdShortName}} oferece para a incorporação e fusão de documentos com precisão."
+  },
+  "examples": {
+    "comment_1": "Adicione esta tag ao seu template para marcar o ponto de inserção",
+    "comment_2": "Especifique o caminho do arquivo para o template",
+    "comment_3": "Forneça o caminho do documento a ser incorporado",
+    "comment_4": "Salve o documento mesclado"
+  },
+  "steps": {
+    "title": "Como mesclar um documento em um arquivo {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permite que você incorpore rapidamente um documento em outro arquivo {{FileFormatUp}}. Mescle e personalize o conteúdo de forma eficiente.",
+      "step_1": "Projetar um template {{FileFormatUp}} com marcadores de posição para o documento embutido.",
+      "step_2": "Defina o caminho do arquivo para o template.",
+      "step_3": "Especifique o caminho do arquivo do documento a ser incorporado.",
+      "step_4": "Salve o arquivo final com o conteúdo embutido."
+    }
+  },
+  "code_1": {
+    "title": "Como incorporar uma imagem em um documento programaticamente",
+    "content": "Este exemplo demonstra como inserir uma imagem em um documento {{FileFormatUp}} usando {{ProdShortName}}.",
+    "comment_1": "Adicione uma tag de marcador de posição em seu template",
+    "comment_2": "Especifique o caminho do arquivo para o template",
+    "comment_3": "Defina o caminho para o arquivo de imagem",
+    "comment_4": "Inicialize uma instância de {{DocumentAssembler}}",
+    "comment_5": "Salve o documento com a imagem incorporada"
+  },
+  "texts_pdf": {
+    "step_1": "Projete um template com marcadores de posição específicos para o conteúdo a ser incorporado (templates PDF não são suportados).",
+    "step_4": "Exporte o arquivo concluído com o conteúdo integrado como um documento PDF.",
+    "comment_tmp": "Atualmente, templates PDF não podem ser utilizados."
+  }
+}

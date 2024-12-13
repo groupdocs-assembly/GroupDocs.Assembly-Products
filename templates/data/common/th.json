@@ -1,0 +1,95 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "description": "รูปแบบเอกสารพกพาของ Adobe"
+      },
+      "docx": {
+        "description": "เอกสาร XML เปิดของ Microsoft Word"
+      },
+      "xlsx": {
+        "description": "สเปรดชีต XML เปิดของ Microsoft Excel"
+      },
+      "pptx": {
+        "description": "การนำเสนอ XML เปิดของ PowerPoint"
+      },
+      "jpeg": {
+        "description": "ภาพ JPEG"
+      }
+    },
+    "format-operations": {
+      "barcode": {
+        "pdf": "เพิ่มบาร์โค้ดลงใน PDF",
+        "docx": "เพิ่มบาร์โค้ดลงใน DOCX",
+        "xlsx": "เพิ่มบาร์โค้ดลงใน XLSX",
+        "pptx": "เพิ่มบาร์โค้ดลงใน PPTX"
+      },
+      "chart": {
+        "pdf": "แผนภูมิใน PDF",
+        "docx": "แผนภูมิใน DOCX",
+        "xlsx": "แผนภูมิใน XLSX",
+        "pptx": "แผนภูมิใน PPTX"
+      },
+      "document": {
+        "pdf": "ฝังเอกสารใน PDF",
+        "docx": "ฝังเอกสารใน DOCX",
+        "xlsx": "ฝังเอกสารใน XLSX",
+        "pptx": "ฝังเอกสารใน PPTX"
+      },
+      "list": {
+        "pdf": "สร้างรายการใน PDF",
+        "docx": "สร้างรายการใน DOCX",
+        "xlsx": "สร้างรายการใน XLSX",
+        "pptx": "สร้างรายการใน PPTX"
+      },
+      "table": {
+        "pdf": "เพิ่มตารางใน PDF",
+        "docx": "เพิ่มตารางใน DOCX",
+        "xlsx": "เพิ่มตารางใน XLSX",
+        "pptx": "เพิ่มตารางใน PPTX"
+      }
+    },
+    "format-code": {
+      "copy_title": "คัดลอก",
+      "result_title": "เอกสารตัวอย่าง",
+      "result_title_bottom": "ดาวน์โหลดผลลัพธ์",
+      "copy_tip": "คลิกเพื่อลอก",
+      "copy_done": "คัดลอกแล้ว",
+      "links": {
+        "title_1": "ตัวอย่างเพิ่มเติม",
+        "title_2": "เอกสาร"
+      }
+    },
+    "format-actions": {
+      "title": "พร้อมที่จะเริ่มต้นหรือยัง?",
+      "description": "สำรวจฟีเจอร์ของ {{ProdShortName}} ฟรี หรือขอใบอนุญาต",
+      "comment_1": "ดาวน์โหลดจาก {{PackageStoreName}}",
+      "comment_2": "เรียนรู้เกี่ยวกับการอนุญาต"
+    },
+    "texts": {
+      "learn_more": "เรียนรู้เพิ่มเติม"
+    },
+    "operations": {
+      "barcode": {
+        "name": "สร้างบาร์โค้ด",
+        "description": "สร้างและเพิ่มบาร์โค้ดให้กับเอกสารอย่างไดนามิก"
+      },
+      "chart": {
+        "name": "แสดงข้อมูลด้วยแผนภูมิ",
+        "description": "เติมข้อมูลให้กับประเภทของแผนภูมิต่างๆ"
+      },
+      "document": {
+        "name": "รวมเอกสาร",
+        "description": "รวมเนื้อหาของเอกสารหนึ่งเข้ากับอีกเอกสารหนึ่ง"
+      },
+      "list": {
+        "name": "แสดงข้อมูลด้วยรายการ",
+        "description": "สร้างรายการในเอกสารโดยใช้ข้อมูลเฉพาะ"
+      },
+      "table": {
+        "name": "จัดระเบียบข้อมูลในตาราง",
+        "description": "ดึงข้อมูลจากแหล่งใดๆ และเติมลงในตาราง"
+      }
+    }
+  }
+}

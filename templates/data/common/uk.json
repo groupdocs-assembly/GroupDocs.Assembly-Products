@@ -1,0 +1,95 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "description": "Формат документа Adobe Portable"
+      },
+      "docx": {
+        "description": "Документ Microsoft Word Open XML"
+      },
+      "xlsx": {
+        "description": "Електронна таблиця Microsoft Excel Open XML"
+      },
+      "pptx": {
+        "description": "Презентація PowerPoint Open XML"
+      },
+      "jpeg": {
+        "description": "Зображення JPEG"
+      }
+    },
+    "format-operations": {
+      "barcode": {
+        "pdf": "Додати штрих-код до PDF",
+        "docx": "Додати штрих-код до DOCX",
+        "xlsx": "Додати штрих-код до XLSX",
+        "pptx": "Додати штрих-код до PPTX"
+      },
+      "chart": {
+        "pdf": "Діаграми у PDF",
+        "docx": "Діаграми у DOCX",
+        "xlsx": "Діаграми у XLSX",
+        "pptx": "Діаграми у PPTX"
+      },
+      "document": {
+        "pdf": "Вставити документ у PDF",
+        "docx": "Вставити документ у DOCX",
+        "xlsx": "Вставити документ у XLSX",
+        "pptx": "Вставити документ у PPTX"
+      },
+      "list": {
+        "pdf": "Створити список у PDF",
+        "docx": "Створити список у DOCX",
+        "xlsx": "Створити список у XLSX",
+        "pptx": "Створити список у PPTX"
+      },
+      "table": {
+        "pdf": "Додати таблицю до PDF",
+        "docx": "Додати таблицю до DOCX",
+        "xlsx": "Додати таблицю до XLSX",
+        "pptx": "Додати таблицю до PPTX"
+      }
+    },
+    "format-code": {
+      "copy_title": "Копіювати",
+      "result_title": "Приклад документа",
+      "result_title_bottom": "Завантажити результат",
+      "copy_tip": "натисніть, щоб скопіювати",
+      "copy_done": "скопійовано",
+      "links": {
+        "title_1": "Більше прикладів",
+        "title_2": "Документація"
+      }
+    },
+    "format-actions": {
+      "title": "Готові почати?",
+      "description": "Досліджуйте можливості {{ProdShortName}} безкоштовно або запитайте ліцензію",
+      "comment_1": "Завантажити з {{PackageStoreName}}",
+      "comment_2": "Дізнатися про ліцензування"
+    },
+    "texts": {
+      "learn_more": "Дізнатися більше"
+    },
+    "operations": {
+      "barcode": {
+        "name": "Генерувати штрих-коди",
+        "description": "Динамічно створювати та додавати штрих-коди до документів"
+      },
+      "chart": {
+        "name": "Візуалізувати дані за допомогою діаграм",
+        "description": "Заповнити різні типи діаграм даними"
+      },
+      "document": {
+        "name": "Об'єднувати документи",
+        "description": "Об'єднати вміст одного документа в інший"
+      },
+      "list": {
+        "name": "Відображати дані за допомогою списків",
+        "description": "Генерувати списки в документах, використовуючи специфічні дані"
+      },
+      "table": {
+        "name": "Організовувати дані в таблицях",
+        "description": "Витягувати дані з будь-якого джерела та заповнювати таблиці"
+      }
+    }
+  }
+}

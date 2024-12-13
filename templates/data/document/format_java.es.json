@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": "Inserte un documento en otro en {{FileFormatUp}} usando {{ProgLang}}",
+    "description": "Combina archivos {{FileFormatUp}} con {{ProgLang}}. {{ProdShortName}} simplifica el proceso de fusión de documentos en solo unas pocas líneas de código."
+  },
+  "header": {
+    "title": "Incorpore contenido en archivos {{FileFormatUp}} sin esfuerzo",
+    "description": "Utilice {{ProdFullName}} para insertar sin problemas un documento {{FileFormatUp}} en otro. Obtenga resultados precisos con herramientas flexibles y confiables.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Consíguelo gratis"
+  },
+  "about": {
+    "title": "¿Qué es {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una solución versátil para el manejo de documentos. Le permite integrar un documento en otro, admitiendo más de 50 formatos como PDFs y archivos de MS Office. Personalice su salida fusionando, editando y organizando el contenido exactamente como lo desee."
+  },
+  "more_features": {
+    "title": "Herramientas avanzadas para simplificar la integración de documentos",
+    "description": "Con {{ProdFullName}}, la incorporación de documentos es directa y personalizable, sin importar el tipo de archivo. Logre resultados claros y consistentes en sus proyectos.",
+    "image_description": "Aspectos destacados de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Cree informes utilizando datos empresariales",
+      "content": "Rellene documentos con datos de fuentes como JSON, XML o CSV de manera rápida y confiable, optimizando sus flujos de trabajo."
+    },
+    "feature_2": {
+      "title": "Mejore los documentos con contenido visual",
+      "content": "{{ProdShortName}} le permite insertar tablas, gráficos y listas junto con texto, hiperenlaces, imágenes e incluso códigos de barras dinámicos."
+    },
+    "feature_3": {
+      "title": "Coloque los datos exactamente donde pertenecen",
+      "content": "Las plantillas LINQ ayudan a posicionar sus datos con precisión, manejar elementos repetidos como matrices y aplicar estilos personalizados sin complicaciones."
+    },
+    "feature_4": {
+      "title": "Compatible con diversos formatos de archivo",
+      "content": "Fusionar documentos a través de varios formatos, incluidos PDFs, HTML, archivos de MS Office y OpenOffice, garantiza flexibilidad para sus proyectos."
+    }
+  },
+  "formats": {
+    "title": "Fusionar entre diferentes tipos de documentos",
+    "description": "Con {{EnvName}}, puede incorporar y combinar contenido en más de 50 formatos de archivo. Añada archivos sin problemas para crear resultados profesionales."
+  },
+  "operations": {
+    "title": "Capacidades clave a simple vista",
+    "description": "Descubra las amplias características que {{ProdShortName}} ofrece para hacer que la integración y combinación de documentos sea eficiente y sin complicaciones."
+  },
+  "examples": {
+    "comment_1": "Use esta etiqueta en su plantilla para marcar el lugar del documento embebido",
+    "comment_2": "Establezca la ruta del archivo para la plantilla principal",
+    "comment_3": "Proporcione la ruta al documento que desea insertar",
+    "comment_4": "Guarde el archivo final con el contenido embebido"
+  },
+  "steps": {
+    "title": "Pasos para insertar un documento en un archivo {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) hace que la incorporación de un documento {{FileFormatUp}} en otro sea simple y personalizable.",
+      "step_1": "Prepare una plantilla {{FileFormatUp}} con marcadores de posición para el contenido embebido.",
+      "step_2": "Especifique la ruta del archivo para la plantilla.",
+      "step_3": "Proporcione la ruta del archivo para el documento que desea incorporar.",
+      "step_4": "Guarde el archivo de salida con el contenido fusionado."
+    }
+  },
+  "code_1": {
+    "title": "Cómo insertar programáticamente una imagen en un documento",
+    "content": "Este ejemplo muestra cómo incrustar una imagen en un archivo {{FileFormatUp}} utilizando {{ProdShortName}}.",
+    "comment_1": "Añada una etiqueta de marcador de posición en el archivo de plantilla",
+    "comment_2": "Defina la ruta a la plantilla",
+    "comment_3": "Especifique la ruta de la imagen",
+    "comment_4": "Inicialice la instancia de {{DocumentAssembler}}",
+    "comment_5": "Guarde el archivo con la imagen embebida"
+  },
+  "texts_pdf": {
+    "step_1": "Cree una plantilla con marcadores de posición para el contenido embebido (las plantillas PDF no están soportadas).",
+    "step_4": "Guarde el archivo final con el contenido fusionado como PDF.",
+    "comment_tmp": "Las plantillas PDF no son compatibles en este momento."
+  }
+}

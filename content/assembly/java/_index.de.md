@@ -1,343 +1,271 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "landing"
+date: 2024-12-13T10:30:57
 draft: false
 
+lang: de
 product: "Assembly"
 product_tag: "assembly"
 platform: "Java"
 platform_tag: "java"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+
 ############################# Head ############################
-head_title: "Java Document Automation Assembly & Dynamic Reports Generator-API"
-head_description: "Java-API für Dokumentenautomatisierung, Zusammenstellung und Berichterstellung. Erstellen Sie Berichte aus benutzerdefinierten Vorlagen. Stellen Sie PDF Word Excel PPTX HTML aus DB-, JSON-, OData- und XML-Datenquellen zusammen."
+head_title: "Java-Bibliothek zur Dokumentenerstellung, Automatisierung und Berichterstellung"
+head_description: "Java-Bibliothek zur Automatisierung der Dokumentenerstellung und Generierung von Berichten. Erstellen Sie PDF-, Word-, Excel-, PPTX-, HTML- und E-Mail-Dokumente mit benutzerdefinierten Vorlagen."
 
 ############################# Header ############################
-title: "Java-API zur Automatisierung von Dokumenten und Berichten"
-description: "Erstellen Sie Dokumentenautomatisierungsanwendungen zum Abrufen von Daten; Fügen Sie es in anpassbare Vorlagen ein und generieren Sie dynamische Berichte über die Java-API."
-button:
-    enable: true
+title: "Java-API zur Automatisierung von Berichten und Dokumenten"
+description: "Vereinfachen Sie die Berichterstellung in Java, indem Sie Daten mit Vorlagen zusammenführen."
+words:
+  for: "für"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Assembly for Java"
-        image: "/border/groupdocs-assembly-java.svg"
-        product: "GroupDocs.Assembly"
-        platform: "Java"
+actions:
+  main: "Testversion über NuGet erhalten"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-assembly/"
+  alt: "Lizenzierung"
+  alt_link: "https://purchase.groupdocs.com/pricing/assembly/java/"
+  title: "Bereit, loszulegen?"
+  description: "Testen Sie die Funktionen von GroupDocs.Assembly kostenlos oder fordern Sie eine Lizenz an."
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Überblick"
+release:
+  title: "Version {0} veröffentlicht"
+  notes: "Sehen Sie, was neu ist"
+  downloads: "Downloads"
 
-            # button loop
-            - link: "#features"
-              text: "Merkmale"
+code:
+  title: "Erzeugen eines Diagramms in DOCX mit Java"
+  more: "Weitere Beispiele"
+  more_link: "https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-Java/"
+  install_title : "Maven XML"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-assembly</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}
+    // Pfad zur Hauptvorlage
+    String template = "chart_template.docx";
 
-            # button loop
-            - link: "#support"
-              text: "Support"
+    // Produktivitätsdaten der Manager aus der Quelle abrufen
+    DocumentTable data_table = 
+        new DocumentTable("Managers.json", 1);
 
-            # button loop
-            - link: "https://products.groupdocs.app/assembly"
-              text: "Live Demo"
+    // Erstellen Sie eine Instanz von DataSourceInfo mit den Daten
+    DataSourceInfo data 
+        = new DataSourceInfo(data_table, "managers");
 
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/assembly/java"
-              text: "Preisgestaltung"
+    // Die Diagrammfaben mit einem anderen DataSourceInfo festlegen
+    DataSourceInfo design = 
+        new DataSourceInfo("red", "color");
 
-    right:
-        link_download: "https://downloads.groupdocs.com/assembly"
-        link_learn: "https://docs.groupdocs.com/assembly/java/"
-        link_buy: "https://purchase.groupdocs.com"
+    // Die Vorlage mit Daten füllen und in die Ausgabe speichern
+    DocumentAssembler asm = new DocumentAssembler();
+    asm.assembleDocument(template, "result.docx", data, design);
+    ```
 
-############################# Überblick ############################
+############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Assembly for Java API unterstützt Sie bei der schnellen Entwicklung von Dokumentenautomatisierungs- und Berichterstellungsanwendungen in Java, um benutzerdefinierte Berichte aus Vorlagen zu generieren, ohne externe Software installieren zu müssen. Die Berichterstellungs-Engine ruft Daten aus dem Vorlagendokument ab, stellt sie zusammen und generiert Berichte im angegebenen Ausgabeformat gemäß der definierten Syntax. Es ermöglicht Ihnen, Formatierungseigenschaften von Vorlagenelementen dynamisch zu konfigurieren und einzufügen und unterstützt verschiedene Datenquellen (JSON, XML, OData, Datenbanken, CSV, Tabellenkalkulation als Datentabelle, Textverarbeitungstabelle als Datentabelle und Datenbanken), um Daten abzurufen.
-
-      Die Dokumentzusammenstellungsbibliothek erkennt mehrere Dokumentformate und ermöglicht Ihnen das Erstellen von Vorlagen in allen unterstützten Dateitypen wie PDF, HTML, Outlook-E-Mail, Microsoft Office Word, Excel-Arbeitsblättern, PowerPoint-Präsentationen und Text. Es unterstützt LINQ-basierte Vorlagensyntax und Benutzer können auch Formatierungseigenschaften von Vorlagenelementen dynamisch konfigurieren und einfügen.
-
-      GroupDocs.Assembly für Java lässt sich einfach in neue oder bestehende Java-Anwendungen integrieren. Es ist hochkompatibel mit allen Java-Versionen und unterstützt gängige Betriebssysteme (Windows, Linux, MacOS), die Java-Runtime ausführen können.
-    tabs:
-      enable: true     
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Nachfolgend finden Sie eine Übersicht über GroupDocs.Assembly für Java:
-
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Überblick"
-          content: |
-            * Datenformulierung
-            * Datenformatierung
-            * Datenautomatisierung
-            * Vorlage erstellen
-            * Formatierung von Vorlagenelementen
-            * Berichterstellung
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          Unterstützte [Dokumentdateiformate](https://docs.groupdocs.com/assembly/java/supported-document-formats/) für die Java-Dokumentgenerierungs-API sind unten aufgeführt.
-
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office-Formate"
-              content: |
-                * **Word**: DOC, DOCX, DOT, DOTX, DOTM, DOCM, RTF, WordprocessingML (XML)
-                * **Excel**: XLS, XLSX, XLSM, XLSB, XLT, XLTM, XLTX, SpreadsheetML (XML)
-                * **PowerPoint**: PPT, PPTX, PPTM, PPS, PPSX, PPSM, POTX, POTM
-                * **Outlook**: EML, EMLX, MSG, MHT
-
-            # table loop
-            - title: "Unterstützte Datenquellen"
-              content: |
-                * Datenbank
-                * XML
-                * OData
-                * JSON
-                * CSV
-                * Benutzerdefinierte .NET-Objekte
-                * Tabellenkalkulation als Datentabelle
-                * Textverarbeitungstabelle als Datentabelle
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Andere Formate"
-              content: |
-                * **OpenOffice Document Formats**: ODT, OTT, ODS, ODP
-                * **Email**: MHT, MHTML
-                * **Web**: HTML
-                * **Markdown Dokumentation File**: MD
-                * **Other**: TXT
-
-            # table loop
-            - title: "Unterstützung für Formatübergreifende Assemblierungen"
-              content: |
-                * Word Processing **TO** Word Processing, HTML, PDF, XPS, TIFF, MHTML, Markdown, TXT, XAML, OpenXPS, EPUB, SVG, PS, PCL
-                * Spreadsheet **TO** Spreadsheet, HTML, PDF, XPS, TIFF, MHTML
-                * Presentation **TO** Presentation, HTML, PDF, XPS, TIFF
-                * Email **TO** Word Processing, Email, HTML, PDF, XPS, TIFF, MHTML, Markdown, TXT, XAML, OpenXPS, EPUB, SVG, PS, PCL
-                * HTML & TXT **TO** Word Processing, HTML, PDF, XPS, TIFF, MHTML, Markdown, TXT, XAML, OpenXPS, EPUB, SVG, PS, PCL
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Assembly for Java unterstützt das Folgen Betriebssysteme, Frameworks & Paket-Managers:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Betriebssysteme"
-              content: |
-                * Microsoft Windows Desktop
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Unterstützte Frameworks"
-              content: |
-                * Java 7 (1.7) und höher
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-cogs"
-              title: "Entwicklungsumgebungen"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Build-Automatisierungstool"
-              content: |
-                * Maven
-
-############################# Merkmale ############################
-features:
-    enable: true
-    title: "GroupDocs.Assembly für Java-Funktionen"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Passen Sie das Bild im Textfeld von Word, Excel, Präsentationen und E-Mails an, während Sie das Bildverhältnis beibehalten"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Verwenden Sie Formeln und führen Sie sequentielle Datenoperationen durch - Wenden Sie die Formel während der Tabellenkalkulation an"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Wenden Sie die Formatierung Upper, Lower, Capital, FirstCap auf Zeichenfolgen in der Vorlagensyntax an"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Vorlagensyntax unterstützt die Formatierung von Ordinal-, Kardinal- und alphabetischer Numerik"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Unterstützen Sie Vorlagendokumente mit benutzerdefinierten Variablen und Textkommentaren innerhalb von Vorlagensyntax-Tags"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Fügen Sie Dokumentinhalte dynamisch in den Bericht ein"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Konfigurieren Sie dynamisch die Hintergrundfarbe von HTML-Dokumenten und generieren Sie Barcodes in Berichten"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Fügen Sie dynamisch Hyperlinks in Berichte ein und wenden Sie Attribute auf den E-Mail-Nachrichtentext an"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Hängen Sie E-Mail-Anhänge dynamisch an und aktualisieren Sie Felder während der Zusammenstellung von Textverarbeitungsdokumenten"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Unterstützung von NEXT Field Analogue von Microsoft Word"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Fügen Sie dynamisch Links und Lesezeichen zu Dokumentformaten hinzu und benennen Sie die Zellbereiche von Excel-Tabellen"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Laden und Speichern von zusammengesetzten POT- und OTP-Präsentationsdokumentformaten"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Vorlagenformatierung für numerische, Text-, Bild-, Datum-Uhrzeit-, Diagrammelemente"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Dynamisches Einfügen von Bildern und Dokumenten aus Base64-codierten Bytes"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "LINQ-basierte Vorlagensyntax"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Ändern Sie das Format der zusammengesetzten Datei mit expliziten Spezifikationen oder der Dateierweiterung"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Geordnete Liste unterstützt für Markdown – Speichern Sie neu zusammengestellte E-Mails und Word-Dokumente in Markdown"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Generieren Sie verschiedene Berichtstypen, z. B. Diagramme, Bilder, Tabellen, Listen und mehr"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Inline-Vorlagensyntaxfehler in generierten Dokumenten anstelle von Ausnahmeauslösungen"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Starten Sie dynamisch eine nummerierte Liste in Word-Dokumenten sowie E-Mails mit HTML- und RTF-Texten neu"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Unterstützung von Tabellen, Autolinks, Inline-Links und Bildern für zusammengesetzte Markdown-Dokumente"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Barcodes dynamisch generieren (GS1-128 AI 8102 Coupon Extended und UPCA & GS1 Databar Coupon"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Laden Sie Vorlagendokumente aus HTML mit Ressourcen und speichern Sie zusammengesetzte Word-, Excel-, PowerPoint- und E-Mail-Dateien in HTML mit Ressourcen"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Vorlagenelemente manipulieren"
-        content: |
-          Bearbeiten Sie zahlreiche Vorlagenelemente mit GroupDocs.Assembly für die Java-API. Zu den Vorlagenelementen, mit denen Sie arbeiten können, gehören Textblöcke, Bilder, Hyperlinks, HTML-Blöcke, Barcodes (über Barcode-Schriftarten) und Diagramme. Sie können auch wiederholte Blöcke und bedingte Blöcke für Listenelemente und Tabellenzeilen anwenden. Dynamisches Zusammenführen von Tabellenzellen mit demselben Text basierend auf Vorlagenausdrücken für Dokumente, Präsentationen, Tabellenkalkulationen und E-Mails mit HTML- und RTF-Bodys.
-      
-      # more_feature_loop
-      - title: "Listenberichte manipulieren"
-        content: |
-          Die Verwendung von GroupDocs.Assembly für die Java-API unterstützt die folgenden Arten von Listenberichten:
-
-          * Liste mit Aufzählungszeichen
-          * Nummerierte Liste
-          * Colored Nummerierte Liste
-
-      # more_feature_loop
-      - title: "Diagrammberichte manipulieren"
-        content: |
-          GroupDocs.Assembly für Java unterstützt die folgenden Arten von Diagrammberichten:
-
-          * Blasendiagramm, das drei Dimensionen von Daten anzeigt
-          * Säulendiagramm
-          * Kuchendiagramm
-          * Streudiagramm
-          * Seriendiagramm (farbig)
-
-      # more_feature_loop
-      - title: "Tabellenberichte manipulieren"
-        content: |
-          GroupDocs.Assembly für Java unterstützt die folgenden Arten von Tabellenberichten:
-
-          * Master-Detail-Tabelle
-          * Tabelle mit hervorgehobenen Zeilen
-          * Tabelle mit alternativem Inhalt
-          * Tabelle mit Filtern, Gruppieren und Ordnen
-
-          Sie können Datenbänder auch in Tabellenzeilen verwenden.
-
-      # more_feature_loop
-      - title: "Diagrammberichte manipulieren"
-        content: |
-          Die Integration von GroupDocs.Assembly for Java API in Ihre Java-Anwendung ist wie ein Kinderspiel. Es folgt ein Beispielcodeblock, der einen Bericht im OpenDocument-Format mit Java generiert: 
-
-          ```java
-          DocumentAssembler assembler = new DocumentAssembler();
-          assembler.assembleDocument("D:\\WordTemplates\\Nested External Document.docx", "D:\\WordReports\\Nested External Document.docx", 
-          new DataSourceInfo( new DataStorage(), null));
-          ```
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Assembly bietet APIs zum Anzeigen von Dokumenten für andere beliebte Entwicklungsumgebungen"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Assembly for .NET"
-          image: "/border/groupdocs-assembly-net.svg"
-          product: "GroupDocs.Assembly"
-          platform: ".NET"
-          link: "/assembly/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Assembly Übersicht"
+  description: "Eine Java-Bibliothek, die für die automatisierte Dokumentenerstellung und nahtlose Datenintegration entwickelt wurde."
+  features:
+    # feature loop
+    - title: "Fügen Sie Geschäftsdaten mit Java in Vorlagen ein"
+      content: "Erstellen Sie mühelos professionelle Berichte, indem Sie Daten aus JSON, XML oder anderen Quellen in vordefinierte Vorlagen mithilfe von GroupDocs.Assembly for Java einfügen."
+
+    # feature loop
+    - title: "Arbeiten Sie mit eingebetteten Objekten"
+      content: "Füllen Sie automatisch Elemente wie Tabellen, Diagramme und Diagramme in Dokumenten mit Daten aus externen Quellen aus."
+
+    # feature loop
+    - title: "Erweiterte Anpassung"
+      content: "GroupDocs.Assembly for Java bietet flexible Funktionen wie die Erzeugung von Barcodes, das Abrufen von Online-Daten über URLs und das Exportieren von Ausgaben in verschiedenen Formaten."
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Plattformunabhängigkeit"
+  description: "GroupDocs.Assembly for Java funktioniert nahtlos mit gängigen Betriebssystemen, Entwicklungsframeworks und Paketmanagern."
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Unterstützte Dateiformate"
+  description: |
+    GroupDocs.Assembly for Java unterstützt eine Vielzahl von [Dokumentformaten](https://docs.groupdocs.com/assembly/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office Formate
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF, WordprocessingML
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPTM, PPS, PPSX, PPSM, POTM, POTX
+    # group loop
+    - color: "blue"
+      content: |
+        ### Bilder & Andere Formate
+        * **Portabel:** PDF
+        * **Bilder:** SVG, TIFF
+        * **Andere Office-Formate:** ODT, OTT, OTS, ODS, ODP, OTP
+      # group loop
+    - color: "red"
+      content: |
+        ### Andere Formate
+        * **Web:** HTML, MHTML
+        * **E-Mails:** EML, MSG, EMLX
+        * **Andere:** EPUB, MD
+
+############################# Features ############################
+features:
+  enable: true
+  title: "Hauptfähigkeiten von GroupDocs.Assembly"
+  description: "Erstellen Sie professionelle Dokumente und Berichte mit fortschrittlicher Datenverarbeitung."
+
+  items:
+    # feature loop
+    - icon: "preview"
+      title: "Visuelle Datenobjekte"
+      content: "Fügen Sie Elemente wie Diagramme, Tabellen, Bilder und Listen direkt in Ihre Dokumente ein und formatieren Sie diese."
+
+    # feature loop
+    - icon: "manipulate"
+      title: "Datenumwandlung"
+      content: "Verwenden Sie Formeln, Sortierung und andere Werkzeuge, um Ihre Daten effektiv zu organisieren und darzustellen."
+
+    # feature loop
+    - icon: "two_pages"
+      title: "Unterstützung für mehrere Formate"
+      content: "Arbeiten Sie mühelos mit gängigen Dateitypen für Vorlagen und Ausgabedateien."
+
+    # feature loop
+    - icon: "document_settings"
+      title: "Erweiterte Formatierung von Vorlagen"
+      content: "Passen Sie Vorlagen mit numerischen, alphabetischen und anderen erweiterten Formatierungsoptionen an."
+
+    # feature loop
+    - icon: "text"
+      title: "Dynamische Barcode-Generierung"
+      content: "Erstellen und fügen Sie schnell Barcode-Bilder nach Bedarf in Dokumente ein."
+
+    # feature loop
+    - icon: "add"
+      title: "Flexible Textformatierung"
+      content: "Wenden Sie Texttransformationen wie Großbuchstaben, Kleinbuchstaben, Titelcase oder andere Stile in Vorlagen an."
+
+    # feature loop
+    - icon: "manipulate"
+      title: "Importieren Sie externe Inhalte"
+      content: "Binden Sie Inhalte aus externen Dateien dynamisch in die Erstellung von Dokumenten ein."
+
+    # feature loop
+    - icon: "convert"
+      title: "Exportieren in mehreren Formaten"
+      content: "Speichern Sie endgültige Dokumente in verschiedenen Dateiformaten mit angegebenen Erweiterungen oder Konfigurationen."
+
+    # feature loop
+    - icon: "update"
+      title: "Dynamisches Medien-Embedding"
+      content: "Fügen Sie Bilder oder andere Inhalte mit Base64-codierten Daten während der Erstellung von Dokumenten ein."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Codebeispiele"
+  description: "Entdecken Sie Beispielcodes für häufige Aufgaben mit GroupDocs.Assembly."
+  items:
+    # code sample loop
+    - title: "Erstellen Sie eine Aufzählungsliste in Word"
+      content: |
+        Erfahren Sie, wie Sie [Aufzählungslisten](https://docs.groupdocs.com/assembly/java/bulleted-list-in-word-processing-document/) zu Word-Dokumenten für eine organisierte Datenpräsentation hinzufügen. Dieses Beispiel zeigt, wie Sie mit GroupDocs.Assembly eine Liste in Word generieren.
+        {{< landing/code title="Erstellen Sie eine Aufzählungsliste in Word">}}
+        ```java {style=abap}
+        // Fügen Sie diese Vorlage auf einer Dokumentseite ein:
+        // Leistungsindikatoren der Manager
+        // . <<foreach [in products]>><<[ProductName]>>
+        // <</foreach>>
+
+        // Geben Sie den Vorlagenpfad an
+        String template = "Bulleted List Template.docx";
+
+        // Legen Sie den Ausgabedateipfad fest
+        String result = "Result Report.docx"
+
+        // Rufen Sie die Daten der Manager aus einer JSON-Quelle ab
+        JsonDataSource dataSource = new JsonDataSource("Report data.json");
+        DataSourceInfo data = new DataSourceInfo(dataSource, "managers")
+
+        // Generieren Sie den Bericht mit den ausgefüllten Daten
+        DocumentAssembler assembler = new DocumentAssembler();
+        assembler.assembleDocument(template, result, data);
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Erstellen Sie Tortendiagramme in PPTX"
+      content: |
+        Verwenden Sie Vorlagen und XML, um [Tortendiagramme](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/) in Ihre Präsentationen einzufügen. Machen Sie Ihre Berichte ansprechender, indem Sie Tortendiagramme zur Visualisierung von Daten einfügen.
+        {{< landing/code title="Erstellen Sie Tortendiagramme in PPTX">}}
+        ```java {style=abap}   
+        // Fügen Sie das Titel-Template für das Diagramm zur Präsentation hinzu:
+        // Umsatz der Kunden <<foreach [in customers]>> 
+        // <<x [CustomerName]>>
+
+        // Fügen Sie auch das Daten-Template für das Diagramm hinzu:
+        // Total Order Price<<foreach [in customers]>> 
+        // <<x [CustomerName]>>
+
+        // Geben Sie den Pfad zur Diagrammvorlage an
+        String template = "Pie Chart Template.pptx";
+
+        // Legen Sie den Ausgabedateipfad fest
+        String result = "Result Report.pptx"
+
+        // Rufen Sie die Kundendaten aus einer XML-Quelle ab
+        JsonDataSource dataSource = new JsonDataSource("Chart data.xml");
+        DataSourceInfo data = new DataSourceInfo(dataSource, "customers")
+
+        // Generieren Sie das Diagramm und speichern Sie das Ergebnis
+        DocumentAssembler assembler = new DocumentAssembler();
+        assembler.assembleDocument(template, result, data);
+        ```
+        {{< /landing/code >}}
+
 ---

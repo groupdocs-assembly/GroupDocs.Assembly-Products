@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-11-28T14:09:03
+date: 2024-12-13T10:30:57
 draft: false
 
 lang: en
@@ -55,7 +55,8 @@ code:
       <version>{0}</version>
     </dependency>
   content: |
-    ```java {style=abap}  
+    ```java {style=abap}
+    // Path to the main template
     String template = "chart_template.docx";
 
     // Retrieve managers' productivity data from the source
@@ -72,7 +73,7 @@ code:
 
     // Fill the template with data and save it to the output
     DocumentAssembler asm = new DocumentAssembler();
-    asm.AssembleDocument(template, "result.docx", data, design);
+    asm.assembleDocument(template, "result.docx", data, design);
     ```
 
 ############################# Overview ############################

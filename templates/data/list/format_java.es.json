@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "Crea listas en documentos {{FileFormatUp}} utilizando {{ProgLang}}",
+    "description": "Diseña e incrusta dinámicamente listas en tus plantillas {{FileFormatUp}} con la API de {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Añade listas dinámicas a archivos {{FileFormatUp}} con nuestra API de {{EnvNameShort}}",
+    "description": "{{ProdFullName}} proporciona herramientas flexibles para generar e insertar listas ricas en datos directamente en documentos {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Pruébalo Gratis"
+  },
+  "about": {
+    "title": "¿Qué es {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) facilita el diseño de documentos profesionales extrayendo datos de múltiples fuentes. Úsalo para crear listas, tablas, gráficos o texto, y coloca estos elementos exactamente donde los necesites utilizando características avanzadas de plantillas. Con soporte para más de 50 formatos, incluidos PDFs, archivos de MS Office y documentos de correo electrónico, ayuda a automatizar y mejorar tu flujo de trabajo."
+  },
+  "more_features": {
+    "title": "Genera documentos a partir de plantillas con integración de datos",
+    "description": "{{ProdFullName}} simplifica la incorporación de listas dinámicas, tablas, gráficos y otros componentes en las plantillas de documentos.",
+    "image_description": "Características Clave de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Genera informes con datos de diversas fuentes",
+      "content": "Utiliza datos de formatos como JSON, XML y CSV para poblaciones de listas y otros componentes de manera eficiente."
+    },
+    "feature_2": {
+      "title": "Incorpora listas y otros elementos de datos sin complicaciones",
+      "content": "{{ProdShortName}} permite la inserción de listas, gráficos, tablas y más, junto con texto, imágenes y enlaces para crear documentos pulidos."
+    },
+    "feature_3": {
+      "title": "Control preciso sobre dónde aparecen los datos",
+      "content": "Las plantillas basadas en LINQ te permiten definir ubicaciones exactas para tus listas y datos. Usa bucles para crear listas detalladas automáticamente y aplicar formato personalizado."
+    },
+    "feature_4": {
+      "title": "Soporta diversos formatos de documentos",
+      "content": "Crea o edita archivos en formatos como MS Office, PDF, OpenOffice, HTML y correo electrónico. Une contenido de múltiples documentos según sea necesario."
+    }
+  },
+  "formats": {
+    "title": "Produce documentos en varios formatos",
+    "description": "{{EnvName}} admite más de 50 formatos, permitiéndote crear documentos estructurados al combinar datos y plantillas."
+  },
+  "operations": {
+    "title": "Descubre lo que {{ProdShortName}} puede hacer",
+    "description": "Diseña y genera fácilmente documentos ricos en contenido con herramientas avanzadas de integración de datos."
+  },
+  "examples": {
+    "comment_1": "Incluye esta etiqueta en tu plantilla donde debe aparecer la lista",
+    "comment_2": "Define la ruta del archivo de la plantilla",
+    "comment_3": "Extrae datos de tu fuente elegida",
+    "comment_4": "Guarda el documento con la lista incrustada"
+  },
+  "steps": {
+    "title": "Cómo añadir una lista basada en datos a un documento {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) te permite insertar rápidamente listas ricas en datos en las plantillas {{FileFormatUp}}. Personaliza y organiza el contenido sin esfuerzo.",
+      "step_1": "Crea una plantilla {{FileFormatUp}} y marca los lugares reservados para la lista.",
+      "step_2": "Establece la ruta del archivo de la plantilla.",
+      "step_3": "Obtén datos de formatos compatibles como JSON o XML.",
+      "step_4": "Guarda el documento final con la lista añadida."
+    }
+  },
+  "code_1": {
+    "title": "Cómo crear una lista programáticamente",
+    "content": "Este ejemplo muestra cómo añadir dinámicamente una lista a un archivo {{FileFormatUp}} utilizando {{ProdShortName}}.",
+    "comment_1": "Añade una etiqueta de marcador de posición en tu plantilla para la lista",
+    "comment_2": "Proporciona la ruta del archivo a tu plantilla",
+    "comment_3": "Extrae los datos necesarios para poblar la lista",
+    "comment_4": "Prepara la fuente de datos con los detalles necesarios",
+    "comment_5": "Inicializa {{DocumentAssembler}}",
+    "comment_6": "Guarda el documento de salida con la lista completada"
+  },
+  "texts_pdf": {
+    "step_1": "Diseña una plantilla y especifica marcadores de posición para la lista (las plantillas PDF no son compatibles).",
+    "step_4": "Guarda el documento terminado con la lista incluida como un PDF.",
+    "comment_tmp": "Las plantillas PDF no son compatibles en este momento."
+  }
+}

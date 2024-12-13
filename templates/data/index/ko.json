@@ -1,0 +1,310 @@
+{
+  "index-content": {
+    "head_title": "GroupDocs의 .NET 및 Java API 및 온라인 문서 생성 앱",
+    "head_description": ".NET 및 Java 애플리케이션을 위한 올인원 문서 자동화 및 보고 솔루션. 사용자 정의 템플릿 및 데이터에서 모든 일반 문서를 생성합니다.",
+    "title": "문서 자동화 및 보고 솔루션",
+    "description_1": "크로스 플랫폼 애플리케이션 및 API를 사용하여 템플릿 및 데이터 소스를 활용하여 상세한 보고서를 만듭니다.",
+    "description_2": "{{FileFormatUp}}와 같은 형식으로 Word, Excel, 프레젠테이션 및 기타 많은 문서를 생성합니다. 유연한 마크업이 있는 템플릿을 사용합니다.",
+    "description_3": "JSON, XML, CSV 등의 데이터 소스에서 데이터를 사용하여 차트, 바코드, 테이블 및 기타 요소를 채웁니다.",
+    "words_for": "용",
+    "release_title": "버전 {0} 출시",
+    "release_notes": "새로운 사항 보기",
+    "release_downloads": "다운로드",
+    "code_more": "더 많은 예시",
+    "overview_title": "{{ProdShortName}} 개요",
+    "code_comment_1": "주 템플릿의 경로",
+    "code_comment_2": "소스에서 관리자 생산성 데이터 검색",
+    "code_comment_3": "{{DataSourceInfo}}의 인스턴스를 데이터로 생성",
+    "code_comment_4": "다른 {{DataSourceInfo}}를 사용하여 차트 색상 설정",
+    "code_comment_5": "데이터로 템플릿 채우고 출력으로 저장",
+    "formats_title": "지원하는 파일 형식",
+    "platforms": {
+      "title": "플랫폼 독립성",
+      "head_title": "플랫폼 선택",
+      "description": "{{ProdShortName}}는 다음 운영 체제 및 프레임워크와 호환됩니다:",
+      "learn_more": "더 알아보기",
+      "any_other_text_editor": "기타 텍스트 편집기"
+    },
+    "features": {
+      "title": "{{ProdShortName}} 주요 기능",
+      "description": "이 솔루션은 인기 있는 문서 형식으로 비즈니스 데이터로 자동 채워진 보고서를 생성하는 데 도움이 됩니다. 문서 생성 작업을 자동화합니다.",
+      "feature_1": {
+        "title": "데이터로 템플릿 채우기",
+        "content": "지원되는 소스의 데이터를 사용하여 보고서를 채웁니다."
+      },
+      "feature_2": {
+        "title": "유연한 마크업",
+        "content": "사용자 정의 방식으로 문서에 데이터를 추가합니다."
+      },
+      "feature_3": {
+        "title": "네이티브 문서 기능",
+        "content": "테이블, 차트 및 바코드를 사용하여 데이터를 표시합니다."
+      },
+      "feature_4": {
+        "title": "모든 유명한 형식",
+        "content": "모든 일반적으로 사용되는 문서 형식을 지원합니다."
+      }
+    },
+    "formats": {
+      "title": "50개 이상의 파일 형식 지원",
+      "description": "{{ProdShortName}}는 거의 모든 인기 있는 파일 형식으로 작업합니다."
+    },
+    "code_samples": {
+      "title": "코드 샘플",
+      "index_title": "잘 맞춤화된 보고서 생성",
+      "index_description": "{{ProdShortName}} 코드 예제",
+      "more_examples": "더 많은 예제",
+      "sample_index": {
+        "title": "생성된 바코드 사용하기",
+        "content": "{{ProdShortName}}는 보고서 템플릿에 바코드 마크업을 허용합니다. 보고서를 생성할 때 마크업 및 제공된 데이터를 기반으로 바코드가 생성됩니다. 텍스트, 데이터 객체 및 마크업이 포함된 템플릿의 경로를 지정합니다. 또한 바코드에 내용을 채우기 위해 데이터 소스를 지정합니다.",
+        "comment_1": "{{DocumentAssembler}} 클래스의 인스턴스 생성",
+        "comment_2": "템플릿 경로 지정",
+        "comment_3": "결과 문서 경로 지정",
+        "comment_4": "데이터 소스의 인스턴스 생성",
+        "comment_5": "{{AssembleDocument}}를 호출하여 보고서 생성"
+      },
+      "sample_1": {
+        "code_title": "문서에 목록 채우기",
+        "comment_1": "문서 페이지에 이 템플릿을 삽입하세요:",
+        "comment_2": "관리자의 성과 지표",
+        "comment_3": "템플릿 경로 지정",
+        "comment_4": "출력 파일 경로 설정",
+        "comment_5": "JSON 소스에서 관리자 데이터를 가져옵니다",
+        "comment_6": "채워진 데이터로 보고서를 생성합니다"
+      },
+      "sample_2": {
+        "code_title": "원형 차트로 데이터 표현하기",
+        "comment_1": "프레젠테이션에 차트 제목 템플릿 추가:",
+        "comment_2": "고객 수익",
+        "comment_3": "차트 데이터 템플릿도 포함하세요:",
+        "comment_4": "차트 템플릿 경로 지정",
+        "comment_5": "출력 파일 경로 설정",
+        "comment_6": "XML 소스에서 고객 데이터를 가져옵니다",
+        "comment_7": "차트를 생성하고 결과를 저장합니다"
+      }
+    },
+    "metrics": {
+      "title": "우리 제품 통계",
+      "description": "진행 상황, 영향 및 성장에 대한 통찰력을 얻기 위해 제품 메트릭을 탐색합니다.",
+      "item_1": {
+        "title": "지원되는 형식",
+        "description": "우리는 50개 이상의 가장 널리 사용되는 문서 형식을 지원합니다."
+      },
+      "item_2": {
+        "title": "NuGet 다운로드",
+        "description": "{{ProdShortName}} for .NET은 NuGet에서 650,000회 이상의 다운로드를 기록한 인기 있는 라이브러리입니다."
+      },
+      "item_3": {
+        "title": "Maven 다운로드",
+        "description": "Java 개발자들은 Maven에서 {{ProdShortName}}를 18,000회 이상 다운로드했습니다."
+      },
+      "item_4": {
+        "title": "만족한 고객",
+        "description": "우리 제품은 개별 개발자 및 세계 유수의 기업들이 혁신적인 솔루션을 만들기 위해 신뢰하고 있습니다."
+      }
+    },
+    "customers": {
+      "title": "우리의 행복한 고객",
+      "description": "GroupDocs 라이브러리는 전 세계에서 가장 유명하고 존경받는 브랜드들에 의해 사용되고 있습니다."
+    },
+    "actions": {
+      "alt": "라이선스 관리",
+      "title": "시작할 준비가 되셨나요?",
+      "description": "{{ProdShortName}}의 기능을 무료로 사용해 보거나 라이선스를 요청하세요.",
+      "description_index": "당신의 플랫폼에서 {{ProdShortName}}의 기능을 무료로 시험해 보세요."
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "description": "자주 묻는 질문을 살펴보세요.",
+      "item_1": {
+        "question": "{{ProdShortName}}는 문서 생성에 외부 라이브러리를 필요로 하나요?",
+        "answer": "아니요, {{ProdShortName}}는 독립적으로 작동하며 Adobe Acrobat이나 Microsoft Office와 같은 타사 라이브러리를 필요로 하지 않습니다."
+      },
+      "item_2": {
+        "question": "{{ProdShortName}} 기능을 구매 전에 시험해 볼 수 있나요?",
+        "answer": "네, 가능합니다! {{ProdShortName}}는 무료 체험을 제공합니다. 설치하고 기능을 탐색해보세요. 체험 버전은 문서에 '체험 배지'를 추가하고 처음 3페이지만 처리합니다. 완전한 경험을 위해 모든 기능에 접근할 수 있는 무료 30일 임시 라이선스를 얻으세요. 더 자세한 내용은 [임시 라이선스]({{LicensingUrl}})에서 확인할 수 있습니다."
+      },
+      "item_3": {
+        "question": "어떤 종류의 라이선스가 있나요?",
+        "answer": "{{ProdShortName}} 라이선스를 찾고 계신가요? 필요에 맞추어 다양한 옵션을 제공합니다. 팀 규모, 배포 위치(단일 사무실 또는 원격) 및 고객과의 SDK/API 공유 여부에 따라 선택하세요. 또는 사용량에 따라 요금을 지불하는 월별 사용 라이선스를 선택할 수 있습니다. [가격 책정]({{PricingUrl}})에서 최적의 옵션을 찾아보세요."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} 저코드 API",
+      "description": "클라우드 기반 REST API를 통해 애플리케이션에서 문서를 생성합니다.",
+      "item_1": {
+        "content": "cURL RESTful API를 사용하여 Word, Excel, PowerPoint 및 기타 많은 템플릿에 데이터를 추가합니다."
+      },
+      "item_2": {
+        "content": ".NET 애플리케이션을 강화하여 Cloud SDK를 통해 보고서를 생성합니다. 비즈니스 데이터를 사용자 정의 형식으로 표시합니다."
+      },
+      "item_3": {
+        "content": "{{ProdShortName}} SDK는 Java 애플리케이션이 다양한 유형의 문서를 생성할 수 있도록 다양한 옵션을 제공합니다."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} 웹 앱",
+      "description": "{{ProdShortName}}는 문서를 생성하기 위한 무료 웹 애플리케이션을 제공합니다. 브라우저에서 50개 이상의 인기 파일 형식을 무료로 처리할 수 있습니다.",
+      "item_1": {
+        "content": "브라우저에서 직접 Excel, Word, PowerPoint 및 기타 여러 파일 유형의 보고서를 생성합니다."
+      },
+      "item_2": {
+        "content": "템플릿 및 데이터 소스를 사용하여 Microsoft Word 문서를 생성합니다."
+      },
+      "item_3": {
+        "content": "템플릿과 데이터 소스를 업로드하여 무료로 Excel 보고서를 생성합니다."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Microsoft Office 형식",
+      "title_2": "이미지 및 기타 형식",
+      "title_3": "기타 형식",
+      "format_portable": "휴대용",
+      "format_other_office": "기타 오피스 형식",
+      "format_images": "이미지",
+      "format_web": "웹",
+      "format_emails": "이메일",
+      "format_other": "기타"
+    }
+  },
+  "index-content-net": {
+    "head_title": ".NET 문서 자동화, 조립 및 보고 생성 API",
+    "head_description": "문서 자동화, 조립 및 보고 생성을 위한 C# .NET API. 사용자 정의 템플릿에서 PDF, Word, Excel, PPTX, HTML 및 이메일 문서를 생성합니다.",
+    "title": ".NET 문서 자동화 및 보고 API",
+    "description": ".NET 애플리케이션에서 템플릿을 정의하고 데이터를 병합하여 보고서를 생성합니다.",
+    "actions_main": "NuGet에서 무료 체험 다운로드",
+    "code_title": "C#를 사용한 DOCX의 차트 채우기",
+    "overview_description": ".NET 솔루션으로 고급 데이터 통합과 함께 문서 생성을 자동화합니다.",
+    "overview_feature_1": {
+      "title": "C#로 문서 템플릿에 비즈니스 데이터 추가",
+      "description": "보고서 생성: {{ProdFullName}}를 사용하여 JSON 또는 XML과 같은 소스에서 데이터를 쉽게 삽입할 수 있습니다."
+    },
+    "overview_feature_2": {
+      "title": "네이티브 데이터 객체 처리",
+      "description": "지원되는 문서 유형에는 데이터로 자동 채울 수 있는 다이어그램, 차트, 테이블 및 목록과 같은 포함된 객체가 포함됩니다."
+    },
+    "overview_feature_3": {
+      "title": "추가 기능",
+      "description": "{{ProdFullName}}는 광범위한 사용자 정의 옵션을 제공합니다. 데이터 객체를 프로그래밍 방식으로 디자인하고, 바코드를 생성하며, URL을 통해 온라인 데이터 소스를 사용하고, 다양한 형식으로 출력을 저장합니다."
+    },
+    "features": {
+      "title": "{{ProdShortName}} 기능",
+      "description": "고급 데이터 모델을 사용하여 문서 및 보고서를 생성합니다.",
+      "feature_1": {
+        "title": "고급 데이터 표현",
+        "content": "차트, 목록, 테이블, 이미지 등 다양한 데이터 객체를 지원합니다."
+      },
+      "feature_2": {
+        "title": "데이터 조작",
+        "content": "데이터를 효과적으로 형식화하고 표시하기 위해 수식 및 순차 작업을 적용합니다."
+      },
+      "feature_3": {
+        "title": "지원되는 형식의 폭넓은 범위",
+        "content": "템플릿 또는 출력 파일을 위해 모든 일반 문서 형식과 원활하게 작업합니다."
+      },
+      "feature_4": {
+        "title": "풍부한 템플릿 마크업",
+        "content": "템플릿에 서수, 기수 및 알파벳 숫자 형식을 활용합니다."
+      },
+      "feature_5": {
+        "title": "바코드 삽입",
+        "content": "바코드 이미지를 동적으로 생성하고 문서에 삽입합니다."
+      },
+      "feature_6": {
+        "title": "데이터 형식 지정",
+        "content": "템플릿에서 대문자, 소문자, 대문자 첫 글자 등의 스타일로 문자열을 형식화합니다."
+      },
+      "feature_7": {
+        "title": "문서 콘텐츠 조작",
+        "content": "외부 문서에서 콘텐츠를 동적으로 삽입하여 보고서를 생성합니다."
+      },
+      "feature_8": {
+        "title": "여러 형식으로 저장",
+        "content": "파일 확장자나 자세한 구성 설정을 사용하여 출력 파일 형식을 지정합니다."
+      },
+      "feature_9": {
+        "title": "유연한 데이터 처리",
+        "content": "Base64 인코딩된 바이트를 사용하여 동적으로 이미지 및 문서를 삽입합니다."
+      }
+    },
+    "platforms_description": "{{ProdFullName}}는 다음 운영 체제, 프레임워크 및 패키지 관리자와 호환됩니다.",
+    "formats_description": "{{ProdFullName}}는 다음 [파일 형식](https://docs.groupdocs.com/assembly/net/supported-document-formats/)을 처리할 수 있습니다.",
+    "code_samples_description": "일반적인 {{ProdShortName}} 작업을 위한 코드 스니펫.",
+    "code_title_sample_1": "Microsoft Word 문서의 글머리 목록",
+    "code_samples_sample_1_content_1": "[글머리 목록](https://docs.groupdocs.com/assembly/net/bulleted-list-in-word-processing-document/)은 비즈니스 데이터를 제공하는 일반적인 방법입니다.",
+    "code_samples_sample_1_content_2": "다음은 {{ProdShortName}}를 사용하여 Word 문서에 목록을 추가하는 예입니다.",
+    "code_title_sample_2": "PPTX 프리젠테이션의 원형 차트",
+    "code_samples_sample_2_content_1": "템플릿과 XML 데이터를 사용하여 [원형 차트](https://docs.groupdocs.com/assembly/net/pie-chart-in-presentation-document/)를 생성할 수 있습니다.",
+    "code_samples_sample_2_content_2": "시각적으로 매력적인 데이터 표현으로 보고서를 더욱 향상시킵니다."
+  },
+  "index-content-java": {
+    "head_title": "문서 생성, 자동화 및 보고를 위한 Java 라이브러리",
+    "head_description": "문서 생성을 자동화하고 보고서를 생성하기 위한 Java 라이브러리. 사용자 정의 템플릿을 사용하여 PDF, Word, Excel, PPTX, HTML 및 이메일 문서를 생성합니다.",
+    "title": "보고서 및 문서 자동화를 위한 Java API",
+    "description": "데이터와 템플릿을 병합하여 Java에서 보고서 생성을 간소화합니다.",
+    "actions_main": "NuGet에서 무료 체험 받기",
+    "code_title": "Java로 DOCX에서 차트 생성하기",
+    "overview_description": "문서 생성을 자동화하고 원활한 데이터 통합을 위해 설계된 Java 라이브러리입니다.",
+    "overview_feature_1": {
+      "title": "Java로 템플릿에 비즈니스 데이터 병합하기",
+      "description": "{{ProdFullName}}를 사용하여 JSON, XML 또는 기타 소스의 데이터를 디자인된 템플릿에 쉽게 삽입하여 전문 보고서를 생성합니다."
+    },
+    "overview_feature_2": {
+      "title": "포함된 객체 작업하기",
+      "description": "외부 소스의 데이터를 사용하여 문서의 테이블, 차트 및 다이어그램과 같은 요소를 자동으로 채웁니다."
+    },
+    "overview_feature_3": {
+      "title": "고급 사용자 정의",
+      "description": "{{ProdFullName}}는 바코드 생성, URL을 통해 온라인 데이터 가져오기, 여러 형식으로 출력 내보내기와 같은 유연한 기능을 제공합니다."
+    },
+    "features": {
+      "title": "{{ProdShortName}}의 주요 기능",
+      "description": "고급 데이터 핸들링으로 전문 문서 및 보고서를 생성합니다.",
+      "feature_1": {
+        "title": "시각적 데이터 요소",
+        "content": "문서에 차트, 테이블, 이미지 및 목록과 같은 요소를 추가하고 형식화합니다."
+      },
+      "feature_2": {
+        "title": "데이터 변환",
+        "content": "효과적으로 데이터를 정리하고 표시하기 위해 수식, 정렬 및 기타 도구를 사용합니다."
+      },
+      "feature_3": {
+        "title": "다양한 형식 지원",
+        "content": "템플릿과 출력 파일 모두 일반 파일 형식으로 쉽게 작업할 수 있습니다."
+      },
+      "feature_4": {
+        "title": "향상된 템플릿 형식화",
+        "content": "서수, 기수 및 기타 고급 형식 옵션으로 템플릿을 사용자 정의합니다."
+      },
+      "feature_5": {
+        "title": "동적 바코드 생성",
+        "content": "필요에 따라 신속하게 바코드 이미지를 생성하고 문서에 삽입합니다."
+      },
+      "feature_6": {
+        "title": "유연한 텍스트 스타일링",
+        "content": "템플릿에서 대문자, 소문자, 제목 대문자 또는 기타 스타일을 적용합니다."
+      },
+      "feature_7": {
+        "title": "외부 콘텐츠 가져오기",
+        "content": "문서를 생성하는 동안 외부 파일의 콘텐츠를 동적으로 삽입합니다."
+      },
+      "feature_8": {
+        "title": "여러 형식으로 내보내기",
+        "content": "지정한 확장자 또는 구성을 사용하여 최종 문서를 다양한 파일 형식으로 저장합니다."
+      },
+      "feature_9": {
+        "title": "동적 미디어 삽입",
+        "content": "문서 생성 중에 Base64 인코딩된 데이터를 사용하여 이미지 또는 기타 콘텐츠를 삽입합니다."
+      }
+    },
+    "platforms_description": "{{ProdFullName}}는 인기 있는 운영 체제, 개발 프레임워크 및 패키지 관리자와 원활하게 작동합니다.",
+    "formats_description": "{{ProdFullName}}는 다양한 [문서 형식](https://docs.groupdocs.com/assembly/java/supported-document-formats/)을 지원합니다.",
+    "code_samples_description": "{{ProdShortName}}의 일반적인 작업을 위한 샘플 코드 탐색.",
+    "code_title_sample_1": "Word에서 글머리 목록 만들기",
+    "code_samples_sample_1_content_1": "Word 문서에 조직적인 데이터 표현을 위해 [글머리 목록](https://docs.groupdocs.com/assembly/java/bulleted-list-in-word-processing-document/)을 추가하는 방법을 배웁니다.",
+    "code_samples_sample_1_content_2": "이 예는 {{ProdShortName}}를 사용하여 Word에 목록을 생성하는 방법을 보여줍니다.",
+    "code_title_sample_2": "PPTX에서 원형 차트 생성하기",
+    "code_samples_sample_2_content_1": "템플릿과 XML을 사용하여 프레젠테이션에 [원형 차트](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/)를 추가합니다.",
+    "code_samples_sample_2_content_2": "데이터를 시각화하여 보고서를 더욱 매력적으로 만듭니다."
+  }
+}

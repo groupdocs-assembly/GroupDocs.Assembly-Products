@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-11-28T14:09:03
+date: 2024-12-13T10:30:57
 draft: false
 
 lang: en
@@ -229,7 +229,7 @@ code_samples:
 
         // Generate the report with the filled data
         DocumentAssembler assembler = new DocumentAssembler();
-        assembler.assembleDocument(template, result, data);
+        assembler.AssembleDocument(template, result, data);
         ```
         {{< /landing/code >}}
     # code sample loop
@@ -258,7 +258,7 @@ code_samples:
 
         // Generate the chart and save the result
         DocumentAssembler assembler = new DocumentAssembler();
-        assembler.assembleDocument(template, result, data);
+        assembler.AssembleDocument(template, result, data);
         ```
         {{< /landing/code >}}
 

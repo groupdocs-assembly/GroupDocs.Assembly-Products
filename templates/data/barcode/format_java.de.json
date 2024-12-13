@@ -1,0 +1,77 @@
+{
+  "head": {
+    "title": "Barcodes in {{FileFormatUp}}-Dateien mit {{ProgLang}} einbetten",
+    "description": "Die {{ProdFullName}}-API ermöglicht es, Barcode-Bilder in Echtzeit in Ihre Dokumente und E-Mails zu erstellen und einzufügen."
+  },
+  "header": {
+    "title": "Generieren Sie Barcodes für {{FileFormatUp}}-Dateien mit unserer {{EnvNameShort}}-API",
+    "description": "{{ProdFullName}} bietet umfassende Werkzeuge zur dynamischen Erstellung, Anpassung und Einbettung von Barcodes in {{FileFormatUp}}-Dateien.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Jetzt herunterladen"
+  },
+  "about": {
+    "title": "Was ist {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) hilft Ihnen beim Generieren und Anpassen von Dokumenten, indem Daten aus verschiedenen Quellen hinzugefügt werden. Fügen Sie Text, Zahlen, Diagramme, Tabellen, Listen, Bilder und Barcodes ein. Verwenden Sie fortschrittliche Vorlagen, um sicherzustellen, dass die Daten genau dort erscheinen, wo Sie möchten. Unterstützt über 50 Formate, einschließlich PDF, Office-Dateien und E-Mails."
+  },
+  "more_features": {
+    "title": "Dokumente mit datengestützten Vorlagen erstellen",
+    "description": "{{ProdFullName}} vereinfacht die Dokumentenerstellung für gängige Dateitypen. Nutzen Sie Vorlagen, um nahtlos Diagramme, Tabellen, Listen, Links, Bilder und Barcodes hinzuzufügen.",
+    "image_description": "Funktionen von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Berichte mit Geschäftsdaten generieren",
+      "content": "Die API füllt Dokumente effizient und genau mit Daten aus Formaten wie JSON, XML und CSV."
+    },
+    "feature_2": {
+      "title": "Daten mit integrierten Elementen visualisieren",
+      "content": "{{ProdShortName}} unterstützt native Elemente wie Tabellen, Diagramme und Listen sowie Text, Links, Bilder und die Generierung von Barcodes in Echtzeit."
+    },
+    "feature_3": {
+      "title": "Daten genau dort einfügen, wo Sie sie benötigen",
+      "content": "Mit LINQ-basierten Vorlagen können Sie Daten präzise platzieren, Schleifen verwenden, um Arrays hinzuzufügen, und das Format programmatisch anpassen, wie z. B. die Farbe."
+    },
+    "feature_4": {
+      "title": "Breite Kompatibilität mit Dateitypen",
+      "content": "Verarbeiten Sie Dateien wie MS Office-Dokumente, PDFs, HTML, OpenOffice und E-Mails. Sie können auch ein Dokument in ein anderes zusammenführen."
+    }
+  },
+  "formats": {
+    "title": "Berichte in verschiedenen Formaten erstellen",
+    "description": "{{EnvName}} unterstützt über 50 Dateitypen und ermöglicht müheloses Daten-Merging und die Verarbeitung von Vorlagen für professionelle Ergebnisse."
+  },
+  "operations": {
+    "title": "Entdecken Sie die wichtigsten Funktionen",
+    "description": "Unsere Plattform vereinfacht den Umgang mit Geschäftsdokumenten durch leistungsstarke Werkzeuge und Automatisierung."
+  },
+  "examples": {
+    "comment_1": "Verwenden Sie dieses Tag in Ihrer Vorlage, um einen Barcode im Ausgabedokument zu erstellen",
+    "comment_2": "Legen Sie den Dateipfad für die Vorlage fest",
+    "comment_3": "Holen Sie Daten aus Ihrer Quelle",
+    "comment_4": "Speichern Sie das aktualisierte Dokument mit dem Barcode"
+  },
+  "steps": {
+    "title": "So betten Sie einen Barcode in ein {{FileFormatUp}}-Dokument ein",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ermöglicht es Ihnen, Barcodes in gängigen Formaten wie {{FileFormatUp}}-Vorlagen einzufügen. Unterstützt über 60 Typen, einschließlich 1D- und 2D-Barcodes.",
+      "step_1": "Richten Sie eine {{FileFormatUp}}-Vorlage mit Barcode-Markierungen ein.",
+      "step_2": "Holen Sie Daten aus einer unterstützten Quelle.",
+      "step_3": "Passen Sie die Barcode-Einstellungen wie Größe und Auflösung an.",
+      "step_4": "Speichern Sie das Dokument mit dem eingebetteten Barcode."
+    }
+  },
+  "code_1": {
+    "title": "Wie man einen Barcode dynamisch erstellt",
+    "content": "Dieses Beispiel zeigt, wie man dynamisch einen Barcode zu einem {{FileFormatUp}}-Dokument generiert und hinzufügt.",
+    "comment_1": "Bereiten Sie eine Vorlage mit einem Barcode-Platzhalter vor",
+    "comment_2": "Legen Sie den Pfad zu Ihrer Vorlagendatei fest",
+    "comment_3": "Laden Sie Daten aus einer spezifischen Quelle",
+    "comment_4": "Erstellen Sie ein Datenquellenobjekt mit den erforderlichen Daten",
+    "comment_5": "Erstellen Sie eine Instanz von {{DocumentAssembler}}",
+    "comment_6": "Passen Sie die Barcode-Einstellungen an",
+    "comment_7": "Speichern Sie das aktualisierte Dokument mit dem Barcode"
+  },
+  "texts_pdf": {
+    "step_1": "Bereiten Sie eine Vorlage mit Platzhaltern für Barcodes vor (PDF-Vorlagen werden derzeit nicht unterstützt).",
+    "step_4": "Speichern Sie das Dokument mit dem hinzugefügten Barcode als PDF-Datei.",
+    "comment_tmp": "PDF-Vorlagen werden derzeit nicht unterstützt."
+  }
+}

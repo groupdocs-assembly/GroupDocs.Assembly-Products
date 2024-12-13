@@ -1,344 +1,271 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "landing"
+date: 2024-12-13T10:30:57
 draft: false
 
+lang: fr
 product: "Assembly"
 product_tag: "assembly"
 platform: "Java"
 platform_tag: "java"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+
 ############################# Head ############################
-head_title: "API d'assemblage d'automatisation de documents Java et de générateur de rapports dynamiques"
-head_description: "API Java pour l'automatisation des documents, l'assemblage et la création de rapports. Créer des rapports à partir de modèles personnalisés. Assembler PDF Word Excel PPTX HTML à partir de sources de données DB, JSON, OData et XML."
+head_title: "Bibliothèque Java pour la création, l'automatisation et le reporting de documents"
+head_description: "Bibliothèque Java pour automatiser la création de documents et générer des rapports. Créez des documents PDF, Word, Excel, PPTX, HTML et email à l'aide de modèles personnalisés."
 
 ############################# Header ############################
-title: "API Java pour automatiser les documents et les rapports"
-description: "Créer des applications d'automatisation de documents pour récupérer des données ; mettez-le dans des modèles personnalisables et générez des rapports dynamiques via l'API Java."
-button:
-    enable: true
+title: "API Java pour l'automatisation des rapports et des documents"
+description: "Simplifiez la génération de rapports en Java en fusionnant des données avec des modèles."
+words:
+  for: "pour"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Assembly for Java"
-        image: "/border/groupdocs-assembly-java.svg"
-        product: "GroupDocs.Assembly"
-        platform: "Java"
+actions:
+  main: "Obtenir un essai via NuGet"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-assembly/"
+  alt: "Licences"
+  alt_link: "https://purchase.groupdocs.com/pricing/assembly/java/"
+  title: "Prêt à commencer ?"
+  description: "Essayez les fonctionnalités de GroupDocs.Assembly gratuitement ou demandez une licence."
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Aperçu"
+release:
+  title: "Version {0} publiée"
+  notes: "Découvrez les nouveautés"
+  downloads: "Téléchargements"
 
-            # button loop
-            - link: "#features"
-              text: "Caractéristiques"
+code:
+  title: "Générer un graphique dans DOCX avec Java"
+  more: "Plus d'exemples"
+  more_link: "https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-Java/"
+  install_title : "Maven XML"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-assembly</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}
+    // Chemin vers le modèle principal
+    String template = "chart_template.docx";
 
-            # button loop
-            - link: "#support"
-              text: "Support"
+    // Récupérer les données de productivité des managers à partir de la source
+    DocumentTable data_table = 
+        new DocumentTable("Managers.json", 1);
 
-            # button loop
-            - link: "https://products.groupdocs.app/assembly"
-              text: "Live Demo"
+    // Créer une instance de DataSourceInfo avec les données
+    DataSourceInfo data 
+        = new DataSourceInfo(data_table, "managers");
 
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/assembly/java"
-              text: "Pricing"
+    // Définir les couleurs du graphique à l'aide d'un autre DataSourceInfo
+    DataSourceInfo design = 
+        new DataSourceInfo("red", "color");
 
-    right:
-        link_download: "https://downloads.groupdocs.com/assembly"
-        link_learn: "https://docs.groupdocs.com/assembly/java/"
-        link_buy: "https://purchase.groupdocs.com"
+    // Remplir le modèle avec des données et l'enregistrer en sortie
+    DocumentAssembler asm = new DocumentAssembler();
+    asm.assembleDocument(template, "result.docx", data, design);
+    ```
 
-############################# Aperçu ############################
+############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      L'API GroupDocs.Assembly pour Java vous aide à développer rapidement des applications d'automatisation de documents et de création de rapports en Java pour générer des rapports personnalisés à partir de modèles sans installer de logiciel externe. Le moteur de génération de rapports récupère les données du document modèle, les assemble et génère des rapports dans le format de sortie spécifié selon la syntaxe définie. Il vous permet de configurer et d'insérer dynamiquement les propriétés de mise en forme des éléments de modèle et prend en charge diverses sources de données (JSON, XML, OData, bases de données, CSV, tableur en tant que table de données, table de traitement de texte en tant que table de données et bases de données) pour récupérer des données.
-
-      La bibliothèque d'assemblage de documents reconnaît plusieurs formats de documents et vous permet de créer des modèles dans tous les types de fichiers pris en charge tels que PDF, HTML, e-mail Outlook, Microsoft Office Word, feuilles de calcul Excel, présentations PowerPoint et texte. Il prend en charge la syntaxe de modèle basée sur LINQ et les utilisateurs peuvent également configurer et insérer dynamiquement les propriétés de mise en forme des éléments de modèle.
-
-      GroupDocs.Assembly pour Java est facile à intégrer aux applications Java nouvelles ou existantes. Il est hautement compatible avec toutes les versions de Java et prend en charge les systèmes d'exploitation populaires (Windows, Linux, Mac OS) capables d'exécuter l'environnement d'exécution Java.
-
-    tabs:
-      enable: true     
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Voici un aperçu de GroupDocs.Assembly pour Java :
-
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Aperçu"
-          content: |
-            * Formulation des données
-            * Formatage des données
-            * Automatisation des données
-            * Créer un modèle
-            * Formatage des éléments du modèle
-            * Génération de rapports
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          Les [formats de fichiers de documents](https://docs.groupdocs.com/assembly/java/supported-document-formats/) pris en charge pour l'API de génération de documents Java sont répertoriés ci-dessous.
-
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Formats Microsoft Office"
-              content: |
-                * **Word**: DOC, DOCX, DOT, DOTX, DOTM, DOCM, RTF, WordprocessingML (XML)
-                * **Excel**: XLS, XLSX, XLSM, XLSB, XLT, XLTM, XLTX, SpreadsheetML (XML)
-                * **PowerPoint**: PPT, PPTX, PPTM, PPS, PPSX, PPSM, POTX, POTM
-                * **Outlook**: EML, EMLX, MSG, MHT
-
-            # table loop
-            - title: "Sources de données prises en charge"
-              content: |
-                * Base de données
-                * XML
-                * OData
-                * JSON
-                * CSV
-                * Objets .NET personnalisés
-                * Feuille de calcul sous forme de tableau de données
-                * Table de traitement de texte comme table de données
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Autres formats"
-              content: |
-                * **OpenOffice Document Formats**: ODT, OTT, ODS, ODP
-                * **Email**: MHT, MHTML
-                * **Web**: HTML
-                * **Markdown Documentation File**: MD
-                * **Other**: TXT
-
-            # table loop
-            - title: "Prise en charge de l'assemblage inter-formats"
-              content: |
-                * Traitement de texte **TO** Traitement de texte, HTML, PDF, XPS, TIFF, MHTML, Markdown, TXT, XAML, OpenXPS, EPUB, SVG, PS, PCL
-                * Tableur **TO** Tableur, HTML, PDF, XPS, TIFF, MHTML
-                * Présentation **TO** Présentation, HTML, PDF, XPS, TIFF
-                * Courriel **À** Traitement de texte, Courriel, HTML, PDF, XPS, TIFF, MHTML, Markdown, TXT, XAML, OpenXPS, EPUB, SVG, PS, PCL
-                * Traitement de texte HTML et TXT **TO**, HTML, PDF, XPS, TIFF, MHTML, Markdown, TXT, XAML, OpenXPS, EPUB, SVG, PS, PCL
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Assembly for Java prend en charge la suite Systèmes d'exploitation, Frameworks & Directeur chargé d'emballages:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Systèmes d'exploitation"
-              content: |
-                * Bureau Microsoft Windows
-                * Serveur Microsoft Windows
-                * Linux
-                * Mac OS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Cadres pris en charge"
-              content: |
-                * Java 7 (1.7) et supérieur
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-cogs"
-              title: "Environnements de développement"
-              content: |
-                * NetBeans
-                * IDÉE IntelliJ
-                * Éclipse
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Outil d'automatisation de construction"
-              content: |
-                * Maven
-
-############################# Caractéristiques ############################
-features:
-    enable: true
-    title: "GroupDocs.Assembly pour les fonctionnalités Java"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Ajustez l'image dans la zone de texte de Word, Excel, présentations et e-mails tout en préservant le rapport d'image"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Utiliser des formules et effectuer des opérations de données séquentielles - Appliquer la formule lors de l'assemblage de la feuille de calcul"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Appliquer le formatage supérieur, inférieur, majuscule, FirstCap aux chaînes dans la syntaxe du modèle"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Prise en charge de la syntaxe du modèle Formatage de la nature numérique ordinale, cardinale et alphabétique"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Prend en charge les modèles de documents avec des variables personnalisées et des commentaires de texte dans les balises de syntaxe de modèle"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Insérer dynamiquement le contenu du document dans le rapport"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Configurer dynamiquement la couleur d'arrière-plan des documents HTML et générer un code-barres dans les rapports"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Insérer dynamiquement des hyperliens dans les rapports et appliquer des attributs au corps du message électronique"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Joindre dynamiquement des pièces jointes aux e-mails et mettre à jour les champs lors de l'assemblage du document de traitement de texte"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Prise en charge de NEXT Field Analogue de Microsoft Word"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Ajouter dynamiquement des liens et des signets aux formats de document et nommer les plages de cellules des feuilles de calcul Excel"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Chargement et enregistrement des formats de documents de présentation POT et OTP assemblés"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Formatage de modèle pour les éléments numériques, texte, image, date-heure et graphiques"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Insérer dynamiquement des images et des documents à partir d'octets encodés en Base64"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Syntaxe de modèle basée sur LINQ"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Modifier le format du fichier assemblé à l'aide de spécifications explicites ou d'une extension de fichier"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Liste ordonnée prise en charge pour Markdown - Enregistrer les e-mails et les documents Word nouvellement assemblés dans Markdown"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Générez divers types de rapports, par exemple, des graphiques, des images, des tableaux, des listes, etc."
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Erreurs de syntaxe de modèle en ligne dans les documents générés au lieu de lancer des exceptions"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Redémarrer dynamiquement une liste numérotée dans des documents Word ainsi que des e-mails avec des corps HTML et RTF"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Prise en charge des tableaux, des liens automatiques, des liens en ligne et des images pour les documents Markdown assemblés"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Génération dynamique de codes-barres (GS1-128 AI 8102 Coupon Extended et UPCA & GS1 Databar Coupon"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Chargez des documents modèles à partir de HTML avec des ressources et enregistrez Word, Excel, PowerPoint et des e-mails assemblés au format HTML avec des ressources"
-
-    more_feature :
-      # more_feature_loop
-      - title: "Manipuler les éléments du modèle"
-        content: |
-          Manipulez de nombreux éléments de modèle avec GroupDocs.Assembly pour l'API Java. Les éléments de modèle avec lesquels vous pouvez travailler incluent les blocs de texte, les images, les hyperliens, les blocs HTML, les codes-barres (via les polices de code-barres) et les graphiques. Vous pouvez également appliquer des blocs répétés et des blocs conditionnels pour les éléments de liste et les lignes de tableau. Fusion dynamique de cellules de tableau contenant le même texte, basée sur des expressions de modèle pour les documents, les présentations, les feuilles de calcul et les e-mails avec des corps HTML et RTF.
-      
-      # more_feature_loop
-      - title: "Manipuler les rapports de liste"
-        content: |
-          L'utilisation de l'API GroupDocs.Assembly pour Java prend en charge les types de rapports de liste suivants :
-
-          * Liste à puces
-          * Liste numérotée
-          * Colored Liste numérotée
-
-      # more_feature_loop
-      - title: "Manipuler les rapports graphiques"
-        content: |
-          GroupDocs.Assembly pour Java prend en charge les types de rapports graphiques suivants :
-
-          * Graphique à bulles, qui affiche trois dimensions de données
-          * Graphique à colonnes
-          * Diagramme circulaire
-          * Diagramme de dispersion
-          * Tableau des séries (en couleur)
-
-      # more_feature_loop
-      - title: "Manipuler les rapports de table"
-        content: |
-          GroupDocs.Assembly pour Java prend en charge les types de rapports de table suivants :
-
-          * Tableau maître-détail
-          * Tableau avec lignes en surbrillance
-          * Tableau avec contenu alternatif
-          * Tableau avec filtrage, regroupement et classement
-
-          Vous pouvez également utiliser des bandes de données dans les lignes du tableau.
-
-      # more_feature_loop
-      - title: "Manipuler les rapports graphiques"
-        content: |
-          L'intégration de GroupDocs.Assembly pour l'API Java avec votre application Java est un jeu d'enfant. Ce qui suit est un exemple de bloc de code qui génère un rapport au format OpenDocument à l'aide de Java : 
-
-          ```java
-          DocumentAssembler assembler = new DocumentAssembler();
-          assembler.assembleDocument("D:\\WordTemplates\\Nested External Document.docx", "D:\\WordReports\\Nested External Document.docx", 
-          new DataSourceInfo( new DataStorage(), null));
-          ```
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Assembly propose des API de visualisation de documents pour d'autres environnements de développement populaires"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Assembly for .NET"
-          image: "/border/groupdocs-assembly-net.svg"
-          product: "GroupDocs.Assembly"
-          platform: ".NET"
-          link: "/assembly/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "Aperçu de GroupDocs.Assembly"
+  description: "Une bibliothèque Java conçue pour la création automatisée de documents et l'intégration de données sans effort."
+  features:
+    # feature loop
+    - title: "Fusionner des données commerciales dans des modèles avec Java"
+      content: "Créez facilement des rapports professionnels en intégrant des données provenant de JSON, XML ou d'autres sources dans des modèles préconçus en utilisant GroupDocs.Assembly for Java."
+
+    # feature loop
+    - title: "Travailler avec des objets intégrés"
+      content: "Remplissez automatiquement des éléments tels que des tableaux, graphiques et diagrammes dans des documents en utilisant des données provenant de sources externes."
+
+    # feature loop
+    - title: "Personnalisation avancée"
+      content: "GroupDocs.Assembly for Java offre des fonctionnalités flexibles telles que la génération de codes-barres, l'extraction de données en ligne via des URL, et l'exportation de la sortie dans différents formats."
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Indépendance de la plateforme"
+  description: "GroupDocs.Assembly for Java fonctionne sans effort avec des systèmes d'exploitation, frameworks et gestionnaires de paquets populaires."
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Formats de fichiers pris en charge"
+  description: |
+    GroupDocs.Assembly for Java prend en charge une large gamme de [formats de documents](https://docs.groupdocs.com/assembly/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Formats Microsoft Office
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF, WordprocessingML
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPTM, PPS, PPSX, PPSM, POTM, POTX
+    # group loop
+    - color: "blue"
+      content: |
+        ### Images & Autres Formats
+        * **Portable:** PDF
+        * **Images:** SVG, TIFF
+        * **Autres formats de bureau:** ODT, OTT, OTS, ODS, ODP, OTP
+      # group loop
+    - color: "red"
+      content: |
+        ### Autres formats
+        * **Web:** HTML, MHTML
+        * **Emails:** EML, MSG, EMLX
+        * **Autre:** EPUB, MD
+
+############################# Features ############################
+features:
+  enable: true
+  title: "Capacités clés de GroupDocs.Assembly"
+  description: "Créez des documents et des rapports professionnels avec une gestion avancée des données."
+
+  items:
+    # feature loop
+    - icon: "preview"
+      title: "Éléments de données visuels"
+      content: "Ajoutez et formatez des éléments tels que des graphiques, tableaux, images et listes directement dans vos documents."
+
+    # feature loop
+    - icon: "manipulate"
+      title: "Transformation des données"
+      content: "Utilisez des formules, des tris, et d'autres outils pour organiser et présenter vos données efficacement."
+
+    # feature loop
+    - icon: "two_pages"
+      title: "Prise en charge de plusieurs formats"
+      content: "Travaillez facilement avec des types de fichiers courants pour les modèles et les fichiers de sortie."
+
+    # feature loop
+    - icon: "document_settings"
+      title: "Formatage amélioré des modèles"
+      content: "Personnalisez les modèles avec des options de formatage numérique, alphabétique et autres."
+
+    # feature loop
+    - icon: "text"
+      title: "Génération dynamique de codes-barres"
+      content: "Créez et insérez rapidement des images de codes-barres dans les documents selon les besoins."
+
+    # feature loop
+    - icon: "add"
+      title: "Style de texte flexible"
+      content: "Appliquez des transformations de texte comme majuscules, minuscules, casse de titre, ou d'autres styles dans les modèles."
+
+    # feature loop
+    - icon: "manipulate"
+      title: "Importer du contenu externe"
+      content: "Intégrez dynamiquement du contenu provenant de fichiers externes lors de la génération de documents."
+
+    # feature loop
+    - icon: "convert"
+      title: "Exporter dans plusieurs formats"
+      content: "Enregistrez les documents finaux dans divers formats de fichiers en utilisant des extensions ou configurations spécifiées."
+
+    # feature loop
+    - icon: "update"
+      title: "Incorporation dynamique de médias"
+      content: "Insérez des images ou d'autres contenus en utilisant des données encodées en Base64 lors de la création des documents."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Exemples de code"
+  description: "Explorez le code d'exemple pour des tâches courantes avec GroupDocs.Assembly."
+  items:
+    # code sample loop
+    - title: "Créer une liste à puces dans Word"
+      content: |
+        Découvrez comment ajouter des [listes à puces](https://docs.groupdocs.com/assembly/java/bulleted-list-in-word-processing-document/) aux documents Word pour une représentation organisée des données. Cet exemple montre comment générer une liste dans Word en utilisant GroupDocs.Assembly.
+        {{< landing/code title="Créer une liste à puces dans Word">}}
+        ```java {style=abap}
+        // Insérez ce modèle sur une page de document :
+        // Indicateurs de performance des managers
+        // . <<foreach [in products]>><<[ProductName]>>
+        // <</foreach>>
+
+        // Spécifiez le chemin du modèle
+        String template = "Bulleted List Template.docx";
+
+        // Définissez le chemin du fichier de sortie
+        String result = "Result Report.docx"
+
+        // Récupérez les données des managers à partir d'une source JSON
+        JsonDataSource dataSource = new JsonDataSource("Report data.json");
+        DataSourceInfo data = new DataSourceInfo(dataSource, "managers")
+
+        // Générez le rapport avec les données remplies
+        DocumentAssembler assembler = new DocumentAssembler();
+        assembler.assembleDocument(template, result, data);
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Créer des graphiques circulaires dans PPTX"
+      content: |
+        Utilisez des modèles et XML pour ajouter [des graphiques circulaires](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/) à vos présentations. Rendez vos rapports plus engageants en incluant des graphiques circulaires pour visualiser les données.
+        {{< landing/code title="Créer des graphiques circulaires dans PPTX">}}
+        ```java {style=abap}   
+        // Ajoutez le modèle de titre du graphique à la présentation :
+        // Revenus des clients <<foreach [in customers]>> 
+        // <<x [CustomerName]>>
+
+        // Incluez également le modèle de données du graphique :
+        // Total Order Price<<foreach [in customers]>> 
+        // <<x [CustomerName]>>
+
+        // Spécifiez le chemin du modèle de graphique
+        String template = "Pie Chart Template.pptx";
+
+        // Définissez le chemin du fichier de sortie
+        String result = "Result Report.pptx"
+
+        // Récupérez les données des clients à partir d'une source XML
+        JsonDataSource dataSource = new JsonDataSource("Chart data.xml");
+        DataSourceInfo data = new DataSourceInfo(dataSource, "customers")
+
+        // Générez le graphique et enregistrez le résultat
+        DocumentAssembler assembler = new DocumentAssembler();
+        assembler.assembleDocument(template, result, data);
+        ```
+        {{< /landing/code >}}
+
 ---

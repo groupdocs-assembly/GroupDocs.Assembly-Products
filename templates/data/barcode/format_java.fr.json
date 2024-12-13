@@ -1,0 +1,77 @@
+{
+  "head": {
+    "title": "Intégrez des codes-barres dans des fichiers {{FileFormatUp}} avec {{ProgLang}}",
+    "description": "L'API {{ProdFullName}} simplifie la création et l'insertion d'images de codes-barres dans vos documents et emails en temps réel."
+  },
+  "header": {
+    "title": "Générez des codes-barres pour des fichiers {{FileFormatUp}} avec notre API {{EnvNameShort}}",
+    "description": "{{ProdFullName}} offre des outils complets pour créer, personnaliser et intégrer des codes-barres de manière dynamique dans des fichiers {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger maintenant"
+  },
+  "about": {
+    "title": "Qu'est-ce que {{ProdFullName}} ?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) vous aide à générer et personnaliser des documents en ajoutant des données provenant de plusieurs sources. Insérez des textes, des chiffres, des tableaux, des listes, des images et des codes-barres. Utilisez des modèles avancés pour garantir que les données apparaissent exactement là où vous le souhaitez. Prend en charge plus de 50 formats, y compris PDF, fichiers Office et emails."
+  },
+  "more_features": {
+    "title": "Créez des documents en utilisant des modèles alimentés par des données",
+    "description": "{{ProdFullName}} simplifie la création de documents pour les types de fichiers populaires. Utilisez des modèles pour ajouter des graphiques, des tableaux, des listes, des liens, des images et des codes-barres de manière fluide.",
+    "image_description": "Fonctionnalités de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Générez des rapports à l'aide de données commerciales",
+      "content": "L'API remplit les documents avec des données provenant de formats tels que JSON, XML et CSV de manière efficace et précise."
+    },
+    "feature_2": {
+      "title": "Visualisez les données avec des éléments intégrés",
+      "content": "{{ProdShortName}} prend en charge des éléments natifs tels que des tableaux, des graphiques et des listes, ainsi que du texte, des liens, des images et la génération de codes-barres en temps réel."
+    },
+    "feature_3": {
+      "title": "Insérez des données là où vous en avez besoin",
+      "content": "Avec des modèles basés sur LINQ, vous pouvez placer les données avec précision, utiliser des boucles pour ajouter des tableaux et personnaliser des formats tels que la couleur par programme."
+    },
+    "feature_4": {
+      "title": "Large compatibilité avec les types de fichiers",
+      "content": "Gérez des fichiers comme des documents MS Office, des PDF, HTML, OpenOffice et des emails. Vous pouvez également fusionner un document dans un autre."
+    }
+  },
+  "formats": {
+    "title": "Créez des rapports dans divers formats",
+    "description": "{{EnvName}} prend en charge plus de 50 types de fichiers, permettant une fusion de données et un traitement de modèles sans effort pour des résultats professionnels."
+  },
+  "operations": {
+    "title": "Découvrez les fonctionnalités clés",
+    "description": "Notre plateforme simplifie la gestion des documents professionnels avec des outils puissants et une automatisation."
+  },
+  "examples": {
+    "comment_1": "Utilisez cette balise dans votre modèle pour créer un code-barres dans le document de sortie",
+    "comment_2": "Définissez le chemin d'accès au modèle",
+    "comment_3": "Récupérez les données de votre source",
+    "comment_4": "Enregistrez le document mis à jour avec le code-barres"
+  },
+  "steps": {
+    "title": "Comment intégrer un code-barres dans un document {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) vous permet d'insérer des codes-barres dans des formats populaires tels que des modèles {{FileFormatUp}}. Prend en charge plus de 60 types, y compris des codes-barres 1D et 2D.",
+      "step_1": "Configurez un modèle {{FileFormatUp}} avec des marqueurs de code-barres.",
+      "step_2": "Récupérez des données d'une source prise en charge.",
+      "step_3": "Ajustez les paramètres du code-barres tels que la taille et la résolution.",
+      "step_4": "Enregistrez le document avec le code-barres intégré."
+    }
+  },
+  "code_1": {
+    "title": "Comment créer un code-barres dynamiquement",
+    "content": "Cet exemple montre comment générer et ajouter dynamiquement un code-barres à un document {{FileFormatUp}}.",
+    "comment_1": "Préparez un modèle avec un espace réservé pour le code-barres",
+    "comment_2": "Définissez le chemin d'accès à votre fichier modèle",
+    "comment_3": "Chargez des données à partir d'une source spécifique",
+    "comment_4": "Construisez un objet source de données avec les données nécessaires",
+    "comment_5": "Créez une instance de {{DocumentAssembler}}",
+    "comment_6": "Personnalisez les paramètres du code-barres",
+    "comment_7": "Enregistrez le document mis à jour avec le code-barres"
+  },
+  "texts_pdf": {
+    "step_1": "Préparez un modèle avec des espaces réservés pour les codes-barres (les modèles PDF ne sont pas pris en charge).",
+    "step_4": "Enregistrez le document avec le code-barres ajouté en tant que fichier PDF.",
+    "comment_tmp": "Les modèles PDF ne sont actuellement pas pris en charge."
+  }
+}

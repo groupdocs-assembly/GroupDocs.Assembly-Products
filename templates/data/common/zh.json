@@ -1,0 +1,95 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "description": "Adobe可移植文档格式"
+      },
+      "docx": {
+        "description": "Microsoft Word开放XML文档"
+      },
+      "xlsx": {
+        "description": "Microsoft Excel开放XML电子表格"
+      },
+      "pptx": {
+        "description": "PowerPoint开放XML演示文稿"
+      },
+      "jpeg": {
+        "description": "JPEG图像"
+      }
+    },
+    "format-operations": {
+      "barcode": {
+        "pdf": "在PDF中添加条形码",
+        "docx": "在DOCX中添加条形码",
+        "xlsx": "在XLSX中添加条形码",
+        "pptx": "在PPTX中添加条形码"
+      },
+      "chart": {
+        "pdf": "在PDF中插入图表",
+        "docx": "在DOCX中插入图表",
+        "xlsx": "在XLSX中插入图表",
+        "pptx": "在PPTX中插入图表"
+      },
+      "document": {
+        "pdf": "在PDF中嵌入文档",
+        "docx": "在DOCX中嵌入文档",
+        "xlsx": "在XLSX中嵌入文档",
+        "pptx": "在PPTX中嵌入文档"
+      },
+      "list": {
+        "pdf": "在PDF中创建列表",
+        "docx": "在DOCX中创建列表",
+        "xlsx": "在XLSX中创建列表",
+        "pptx": "在PPTX中创建列表"
+      },
+      "table": {
+        "pdf": "在PDF中添加表格",
+        "docx": "在DOCX中添加表格",
+        "xlsx": "在XLSX中添加表格",
+        "pptx": "在PPTX中添加表格"
+      }
+    },
+    "format-code": {
+      "copy_title": "复制",
+      "result_title": "示例文档",
+      "result_title_bottom": "下载结果",
+      "copy_tip": "点击以复制",
+      "copy_done": "已复制",
+      "links": {
+        "title_1": "更多示例",
+        "title_2": "文档"
+      }
+    },
+    "format-actions": {
+      "title": "准备开始了吗？",
+      "description": "免费探索{{ProdShortName}}的功能或请求许可证",
+      "comment_1": "从{{PackageStoreName}}下载",
+      "comment_2": "了解许可证信息"
+    },
+    "texts": {
+      "learn_more": "了解更多"
+    },
+    "operations": {
+      "barcode": {
+        "name": "生成条形码",
+        "description": "动态创建并添加条形码到文档中"
+      },
+      "chart": {
+        "name": "用图表可视化数据",
+        "description": "用数据填充各种图表类型"
+      },
+      "document": {
+        "name": "合并文档",
+        "description": "将一个文档的内容合并到另一个文档中"
+      },
+      "list": {
+        "name": "使用列表展示数据",
+        "description": "使用特定数据在文档中生成列表"
+      },
+      "table": {
+        "name": "在表格中组织数据",
+        "description": "从任何来源获取数据并填充表格"
+      }
+    }
+  }
+}

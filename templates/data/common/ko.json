@@ -1,0 +1,95 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "description": "어도비 휴대용 문서 형식"
+      },
+      "docx": {
+        "description": "마이크로소프트 워드 오픈 XML 문서"
+      },
+      "xlsx": {
+        "description": "마이크로소프트 엑셀 오픈 XML 스프레드시트"
+      },
+      "pptx": {
+        "description": "파워포인트 오픈 XML 프레젠테이션"
+      },
+      "jpeg": {
+        "description": "JPEG 이미지"
+      }
+    },
+    "format-operations": {
+      "barcode": {
+        "pdf": "PDF에 바코드 추가",
+        "docx": "DOCX에 바코드 추가",
+        "xlsx": "XLSX에 바코드 추가",
+        "pptx": "PPTX에 바코드 추가"
+      },
+      "chart": {
+        "pdf": "PDF의 차트",
+        "docx": "DOCX의 차트",
+        "xlsx": "XLSX의 차트",
+        "pptx": "PPTX의 차트"
+      },
+      "document": {
+        "pdf": "PDF에 문서 삽입",
+        "docx": "DOCX에 문서 삽입",
+        "xlsx": "XLSX에 문서 삽입",
+        "pptx": "PPTX에 문서 삽입"
+      },
+      "list": {
+        "pdf": "PDF에 목록 작성",
+        "docx": "DOCX에 목록 작성",
+        "xlsx": "XLSX에 목록 작성",
+        "pptx": "PPTX에 목록 작성"
+      },
+      "table": {
+        "pdf": "PDF에 표 추가",
+        "docx": "DOCX에 표 추가",
+        "xlsx": "XLSX에 표 추가",
+        "pptx": "PPTX에 표 추가"
+      }
+    },
+    "format-code": {
+      "copy_title": "복사",
+      "result_title": "예제 문서",
+      "result_title_bottom": "결과 다운로드",
+      "copy_tip": "복사하려면 클릭",
+      "copy_done": "복사됨",
+      "links": {
+        "title_1": "더 많은 예제",
+        "title_2": "문서"
+      }
+    },
+    "format-actions": {
+      "title": "시작할 준비가 되셨나요?",
+      "description": "{{ProdShortName}}의 기능을 무료로 탐색하거나 라이센스를 요청하세요",
+      "comment_1": "{{PackageStoreName}}에서 다운로드",
+      "comment_2": "라이센스에 대해 알아보세요"
+    },
+    "texts": {
+      "learn_more": "자세히 알아보기"
+    },
+    "operations": {
+      "barcode": {
+        "name": "바코드 생성",
+        "description": "문서에 바코드를 동적으로 생성하고 추가"
+      },
+      "chart": {
+        "name": "다이어그램으로 데이터 시각화",
+        "description": "다양한 다이어그램 유형에 데이터를 채우기"
+      },
+      "document": {
+        "name": "문서 병합",
+        "description": "한 문서의 내용을 다른 문서에 결합"
+      },
+      "list": {
+        "name": "목록으로 데이터 표시",
+        "description": "특정 데이터를 사용하여 문서에 목록 생성"
+      },
+      "table": {
+        "name": "표로 데이터 정리",
+        "description": "모든 소스에서 데이터를 검색하고 표를 채우기"
+      }
+    }
+  }
+}

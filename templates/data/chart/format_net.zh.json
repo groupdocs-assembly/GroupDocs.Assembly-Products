@@ -1,0 +1,77 @@
+{
+  "head": {
+    "title": "使用 {{ProgLang}} 在 {{FileFormatUp}} 文件中创建图表",
+    "description": "{{ProdFullName}} API 使开发人员能够动态地使用实时数据生成并插入图表或图形到文档中。"
+  },
+  "header": {
+    "title": "通过 {{EnvNameShort}} API 在 {{FileFormatUp}} 文件中嵌入图表",
+    "description": "{{ProdFullName}} 提供了一种强大的方法可以用动态数据填充 {{FileFormatUp}} 文件，并轻松集成图表。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费试用"
+  },
+  "about": {
+    "title": "什么是 {{ProdFullName}}？",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是一种旨在通过整合来自各种来源的数据来简化文档和报告创建的工具。动态生成图表、表格、列表、条形码和图像。先进的格式选项允许准确定位和自定义内容。它支持超过 50 种文件格式，包括 PDF、MS Office 文档和电子邮件。"
+  },
+  "more_features": {
+    "title": "轻松向文档添加动态图表",
+    "description": "{{ProdFullName}} 简化了在广泛使用的格式中创建数据驱动文档的过程。使用模板插入图表、表格、条形码、列表、超链接和图像，进行高级动态数据集成。",
+    "image_description": "{{ProdShortName}} 的主要功能",
+    "feature_1": {
+      "title": "将数据转换为专业图表",
+      "content": "借助我们的 API，只需几个步骤即可将来自 JSON、XML、CSV 和其他源的数据转换为视觉吸引力十足的图表。"
+    },
+    "feature_2": {
+      "title": "创建视觉上吸引人的内容",
+      "content": "{{ProdShortName}} 支持多种图表类型，如条形图、饼图和折线图。将这些与表格、条形码、图像和其他元素结合，创建专业报告。"
+    },
+    "feature_3": {
+      "title": "精确定位和自定义图表",
+      "content": "使用 LINQ 语法，可以动态生成并在所需位置放置图表。轻松自定义样式、颜色和布局，以满足您的需求。"
+    },
+    "feature_4": {
+      "title": "支持多种文件格式",
+      "content": "生成流行格式的文档，如 MS Office、PDF、OpenOffice 和 HTML。无缝嵌入图表到任何受支持的格式中，确保完全兼容。"
+    }
+  },
+  "formats": {
+    "title": "以多种格式创建视觉丰富的报告",
+    "description": "{{EnvName}} 允许您在超过 50 种支持的格式中生成带有集成图表的文档，完美结合模板和您的数据。"
+  },
+  "operations": {
+    "title": "探索关键功能",
+    "description": "我们的平台帮助您创建引人注目的、数据驱动的文档，满足您的需求。"
+  },
+  "examples": {
+    "comment_1": "在您的模板中包含此标签以生成图表",
+    "comment_2": "指定您的模板文件路径",
+    "comment_3": "从您首选的来源加载数据",
+    "comment_4": "保存嵌入图表的文档"
+  },
+  "steps": {
+    "title": "如何向 {{FileFormatUp}} 文档添加图表",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 使生成并嵌入图表到您的 {{FileFormatUp}} 模板中变得简单。支持多种图表类型，如条形图、饼图和折线图。",
+      "step_1": "设计一个 {{FileFormatUp}} 模板，留出图表的位置。",
+      "step_2": "从兼容的来源获取数据。",
+      "step_3": "定义图表选项，如类型、标签和配色方案。",
+      "step_4": "保存更新后的文件，并嵌入图表。"
+    }
+  },
+  "code_1": {
+    "title": "以编程方式创建图表",
+    "content": "此示例演示了如何动态创建并将图表嵌入到 {{FileFormatUp}} 文档中。",
+    "comment_1": "准备一个带有图表占位符的模板",
+    "comment_2": "提供模板文件的路径",
+    "comment_3": "从您的数据源获取数据",
+    "comment_4": "构建一个包含必要信息的数据对象",
+    "comment_5": "设置图表属性，如类型和外观",
+    "comment_6": "初始化 {{DocumentAssembler}}",
+    "comment_7": "导出包含图表的文档"
+  },
+  "texts_pdf": {
+    "step_1": "设计一个模板，在指定点放置图表（不支持 PDF 模板）。",
+    "step_4": "将文档导出为包含图表的 PDF 文件。",
+    "comment_tmp": "当前不支持 PDF 模板。"
+  }
+}

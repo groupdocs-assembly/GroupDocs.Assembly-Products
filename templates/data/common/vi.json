@@ -1,0 +1,95 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "description": "Định dạng tài liệu di động Adobe"
+      },
+      "docx": {
+        "description": "Tài liệu mở XML của Microsoft Word"
+      },
+      "xlsx": {
+        "description": "Bảng tính mở XML của Microsoft Excel"
+      },
+      "pptx": {
+        "description": "Bài thuyết trình mở XML của PowerPoint"
+      },
+      "jpeg": {
+        "description": "Hình ảnh JPEG"
+      }
+    },
+    "format-operations": {
+      "barcode": {
+        "pdf": "Thêm mã vạch vào PDF",
+        "docx": "Thêm mã vạch vào DOCX",
+        "xlsx": "Thêm mã vạch vào XLSX",
+        "pptx": "Thêm mã vạch vào PPTX"
+      },
+      "chart": {
+        "pdf": "Biểu đồ trong PDF",
+        "docx": "Biểu đồ trong DOCX",
+        "xlsx": "Biểu đồ trong XLSX",
+        "pptx": "Biểu đồ trong PPTX"
+      },
+      "document": {
+        "pdf": "Nhúng tài liệu vào PDF",
+        "docx": "Nhúng tài liệu vào DOCX",
+        "xlsx": "Nhúng tài liệu vào XLSX",
+        "pptx": "Nhúng tài liệu vào PPTX"
+      },
+      "list": {
+        "pdf": "Tạo danh sách trong PDF",
+        "docx": "Tạo danh sách trong DOCX",
+        "xlsx": "Tạo danh sách trong XLSX",
+        "pptx": "Tạo danh sách trong PPTX"
+      },
+      "table": {
+        "pdf": "Thêm bảng vào PDF",
+        "docx": "Thêm bảng vào DOCX",
+        "xlsx": "Thêm bảng vào XLSX",
+        "pptx": "Thêm bảng vào PPTX"
+      }
+    },
+    "format-code": {
+      "copy_title": "Sao chép",
+      "result_title": "Tài liệu mẫu",
+      "result_title_bottom": "Tải xuống kết quả",
+      "copy_tip": "nhấn để sao chép",
+      "copy_done": "đã sao chép",
+      "links": {
+        "title_1": "Nhiều ví dụ hơn",
+        "title_2": "Tài liệu"
+      }
+    },
+    "format-actions": {
+      "title": "Sẵn sàng bắt đầu chưa?",
+      "description": "Khám phá các tính năng của {{ProdShortName}} miễn phí hoặc yêu cầu giấy phép",
+      "comment_1": "Tải xuống từ {{PackageStoreName}}",
+      "comment_2": "Tìm hiểu về giấy phép"
+    },
+    "texts": {
+      "learn_more": "Tìm hiểu thêm"
+    },
+    "operations": {
+      "barcode": {
+        "name": "Tạo mã vạch",
+        "description": "Tạo và thêm mã vạch vào tài liệu một cách động"
+      },
+      "chart": {
+        "name": "Trực quan hóa dữ liệu với biểu đồ",
+        "description": "Điền dữ liệu vào nhiều loại biểu đồ khác nhau"
+      },
+      "document": {
+        "name": "Gộp tài liệu",
+        "description": "Kết hợp nội dung của một tài liệu vào tài liệu khác"
+      },
+      "list": {
+        "name": "Hiển thị dữ liệu với danh sách",
+        "description": "Tạo danh sách trong tài liệu bằng dữ liệu cụ thể"
+      },
+      "table": {
+        "name": "Tổ chức dữ liệu trong bảng",
+        "description": "Truy xuất dữ liệu từ bất kỳ nguồn nào và điền vào bảng"
+      }
+    }
+  }
+}

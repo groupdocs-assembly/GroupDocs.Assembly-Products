@@ -1,0 +1,95 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "description": "فرمت سند قابل حمل Adobe"
+      },
+      "docx": {
+        "description": "سند Open XML مایکروسافت ورد"
+      },
+      "xlsx": {
+        "description": "صفحه‌گسترده Open XML مایکروسافت اکسل"
+      },
+      "pptx": {
+        "description": "ارائه Open XML پاورپوینت"
+      },
+      "jpeg": {
+        "description": "تصویر JPEG"
+      }
+    },
+    "format-operations": {
+      "barcode": {
+        "pdf": "اضافه کردن بارکد به PDF",
+        "docx": "اضافه کردن بارکد به DOCX",
+        "xlsx": "اضافه کردن بارکد به XLSX",
+        "pptx": "اضافه کردن بارکد به PPTX"
+      },
+      "chart": {
+        "pdf": "نمودارها در PDF",
+        "docx": "نمودارها در DOCX",
+        "xlsx": "نمودارها در XLSX",
+        "pptx": "نمودارها در PPTX"
+      },
+      "document": {
+        "pdf": "گنجاندن یک سند در PDF",
+        "docx": "گنجاندن یک سند در DOCX",
+        "xlsx": "گنجاندن یک سند در XLSX",
+        "pptx": "گنجاندن یک سند در PPTX"
+      },
+      "list": {
+        "pdf": "ایجاد یک لیست در PDF",
+        "docx": "ایجاد یک لیست در DOCX",
+        "xlsx": "ایجاد یک لیست در XLSX",
+        "pptx": "ایجاد یک لیست در PPTX"
+      },
+      "table": {
+        "pdf": "اضافه کردن جدول به PDF",
+        "docx": "اضافه کردن جدول به DOCX",
+        "xlsx": "اضافه کردن جدول به XLSX",
+        "pptx": "اضافه کردن جدول به PPTX"
+      }
+    },
+    "format-code": {
+      "copy_title": "کپی",
+      "result_title": "سند مثال",
+      "result_title_bottom": "دانلود نتیجه",
+      "copy_tip": "برای کپی کلیک کنید",
+      "copy_done": "کپی شد",
+      "links": {
+        "title_1": "نمونه‌های بیشتر",
+        "title_2": "مستندات"
+      }
+    },
+    "format-actions": {
+      "title": "آماده برای شروع هستید؟",
+      "description": "ویژگی‌های {{ProdShortName}} را رایگان آزمایش کنید یا درخواست مجوز نمایید",
+      "comment_1": "دانلود از {{PackageStoreName}}",
+      "comment_2": "درباره مجوزدهی بیاموزید"
+    },
+    "texts": {
+      "learn_more": "بیشتر بیاموزید"
+    },
+    "operations": {
+      "barcode": {
+        "name": "تولید بارکدها",
+        "description": "بارکدهایی به صورت دینامیکی ایجاد و به اسناد اضافه کنید"
+      },
+      "chart": {
+        "name": "تصویرسازی داده‌ها با نمودارها",
+        "description": "انواع مختلف نمودارها را با داده‌ها پر کنید"
+      },
+      "document": {
+        "name": "ادغام اسناد",
+        "description": "محتوای یک سند را به سند دیگر ترکیب کنید"
+      },
+      "list": {
+        "name": "نمایش داده‌ها با لیست‌ها",
+        "description": "با استفاده از داده‌های خاص، لیست‌ها را در اسناد تولید کنید"
+      },
+      "table": {
+        "name": "سازماندهی داده‌ها در جداول",
+        "description": "داده‌ها را از هر منبعی بازیابی کرده و جداول را پر کنید"
+      }
+    }
+  }
+}

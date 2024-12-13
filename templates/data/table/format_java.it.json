@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "Aggiungi tabelle ai documenti {{FileFormatUp}} utilizzando {{ProgLang}}",
+    "description": "Con {{ProdFullName}}, gli sviluppatori possono integrare rapidamente tabelle in documenti e email, estraendo dati da fonti dinamiche."
+  },
+  "header": {
+    "title": "Popola facilmente le tabelle nei file {{FileFormatUp}} con la nostra API {{EnvNameShort}}",
+    "description": "{{ProdFullName}} semplifica il processo di riempimento delle tabelle nei documenti {{FileFormatUp}} con dati provenienti da vari input.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Ottieni la tua prova gratuita"
+  },
+  "about": {
+    "title": "Cos'è {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è uno strumento per generare documenti e report inserendo automaticamente dati in modelli pre-progettati. Puoi aggiungere tabellet, elenchi, grafici e immagini senza sforzo. Le sue funzionalità avanzate ti consentono di posizionare con precisione contenuti all'interno dei tuoi documenti. Compatibile con oltre 50 tipi di file, tra cui PDF, MS Office e formati email."
+  },
+  "more_features": {
+    "title": "Crea documenti con tabelle popolate da dati",
+    "description": "{{ProdFullName}} rende semplice automatizzare la creazione di tabelle nei tuoi documenti. Supporta anche l'aggiunta di elementi come grafici, elenchi e immagini utilizzando modelli.",
+    "image_description": "Caratteristiche principali di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Genera report da più formati di dati",
+      "content": "L'API funziona senza problemi con JSON, XML, CSV e altri formati per riempire le tabelle nei tuoi documenti con dati organizzati."
+    },
+    "feature_2": {
+      "title": "Presenta le informazioni in modo visivo",
+      "content": "{{ProdShortName}} ti aiuta a costruire tabelle professionali, elenchi e grafici, nonché ad inserire link, testo e immagini, per un aspetto curato."
+    },
+    "feature_3": {
+      "title": "Posiziona il contenuto della tabella con precisione",
+      "content": "Utilizza una sintassi flessibile basata su LINQ per aggiungere righe e colonne dinamicamente. Personalizza l'aspetto, come stili dei caratteri e colori, programmaticamente."
+    },
+    "feature_4": {
+      "title": "Compatibile con più formati",
+      "content": "Lavora con MS Office, OpenOffice, PDF, HTML e altro. Unisci tabelle in qualsiasi formato di file supportato senza difficoltà."
+    }
+  },
+  "formats": {
+    "title": "Produci tabelle dettagliate in vari formati",
+    "description": "Con {{EnvName}}, puoi popolare modelli con dati e generare report dettagliati in oltre 50 tipi di file."
+  },
+  "operations": {
+    "title": "Caratteristiche chiave a colpo d'occhio",
+    "description": "La nostra API semplifica la creazione di documenti professionali automatizzando il riempimento delle tabelle insieme ad altri componenti potenti."
+  },
+  "examples": {
+    "comment_1": "Utilizza questi tag in un segnaposto di riga della tabella all'interno del tuo modello",
+    "comment_2": "Definisci il percorso al file del modello",
+    "comment_3": "Carica i dati dalla sorgente scelta",
+    "comment_4": "Salva il file di output con la tabella popolata"
+  },
+  "steps": {
+    "title": "Passaggi per inserire i dati in una tabella {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ti aiuta a popolare i modelli di tabella per {{FileFormatUp}} e altri formati. Utilizza dati dinamici dalle tue fonti per creare tabelle senza difficoltà.",
+      "step_1": "Imposta un modello {{FileFormatUp}} con segnaposto per le righe e le colonne della tabella.",
+      "step_2": "Estrai dati da qualsiasi fonte di input supportata.",
+      "step_3": "Filtra o pre-processa i dati per soddisfare le tue esigenze.",
+      "step_4": "Genera il documento finale con la tabella completata."
+    }
+  },
+  "code_1": {
+    "title": "Crea dinamicamente una tabella riempita di dati",
+    "content": "Questo esempio mostra come popolare una tabella in un documento {{FileFormatUp}} utilizzando dati di input dinamici.",
+    "comment_1": "Progetta un modello con un segnaposto per la tabella",
+    "comment_2": "Imposta la posizione del file del modello",
+    "comment_3": "Carica i dati dalla tua fonte preferita",
+    "comment_4": "Prepara un oggetto dati contenente i campi necessari",
+    "comment_5": "Crea un'istanza di {{DocumentAssembler}}",
+    "comment_6": "Salva il documento con la tabella popolata"
+  },
+  "texts_pdf": {
+    "step_1": "Progetta un modello con segnaposti per la tabella (i modelli PDF non sono attualmente supportati).",
+    "step_4": "Salva il documento con la tabella completata come file PDF.",
+    "comment_tmp": "I modelli PDF non sono supportati al momento."
+  }
+}

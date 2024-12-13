@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": "{{ProgLang}}를 사용하여 {{FileFormatUp}}에 문서 삽입하기",
+    "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일을 결합하세요. {{ProdShortName}}는 몇 줄의 코드로 문서를 병합하는 과정을 간소화합니다."
+  },
+  "header": {
+    "title": "{{FileFormatUp}} 파일에 콘텐츠를 손쉽게 삽입하세요",
+    "description": "{{ProdFullName}}를 사용하여 한 {{FileFormatUp}} 문서를 다른 문서에 원활하게 삽입할 수 있습니다. 유연하고 신뢰할 수 있는 도구로 정확한 결과를 얻으세요.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료로 받기"
+  },
+  "about": {
+    "title": "{{ProdFullName}}란?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})은 문서 처리에 대한 다재다능한 솔루션입니다. 50개 이상의 형식을 지원하며, 문서와 문서를 통합할 수 있도록 해줍니다. PDF 및 MS Office 파일과 같은 다양한 형식을 지원합니다. 원하는 대로 콘텐츠를 병합, 편집 및 구성하여 결과를 맞춤 설정하세요."
+  },
+  "more_features": {
+    "title": "문서 통합을 간소화하는 고급 도구",
+    "description": "{{ProdFullName}}을 사용하면 파일 형식에 관계없이 문서를 삽입하는 것이 간단하고 사용자 정의가 가능합니다. 프로젝트 전반에 걸쳐 깔끔하고 일관된 결과를 얻으세요.",
+    "image_description": "{{ProdShortName}}의 주요 기능",
+    "feature_1": {
+      "title": "비즈니스 데이터를 사용하여 보고서 생성",
+      "content": "JSON, XML 또는 CSV와 같은 다양한 소스에서 데이터를 문서에 신속하고 신뢰성 있게 채워 워크플로를 간소화합니다."
+    },
+    "feature_2": {
+      "title": "시각적 콘텐츠로 문서 보강",
+      "content": "{{ProdShortName}}를 사용하면 텍스트, 하이퍼링크, 이미지와 함께 표, 차트 및 목록을 삽입할 수 있습니다. 동적 바코드도 지원합니다."
+    },
+    "feature_3": {
+      "title": "데이터를 정확한 위치에 배치",
+      "content": "LINQ 템플릿을 사용하면 데이터를 정밀하게 배치하고, 배열과 같은 반복 요소를 처리하며, 사용자 정의 스타일을 쉽게 적용할 수 있습니다."
+    },
+    "feature_4": {
+      "title": "다양한 파일 형식과 호환",
+      "content": "PDF, HTML, MS Office 파일 및 OpenOffice 등 다양한 형식의 문서를 병합하여 프로젝트의 유연성을 보장합니다."
+    }
+  },
+  "formats": {
+    "title": "다양한 문서 유형 간 병합",
+    "description": "{{EnvName}}를 사용하면 50개 이상의 파일 형식 간 콘텐츠를 삽입하고 결합할 수 있습니다. 전문적인 결과를 생성하기 위해 파일을 원활하게 추가하세요."
+  },
+  "operations": {
+    "title": "핵심 기능 한눈에 보기",
+    "description": "{{ProdShortName}}이 문서를 삽입하고 결합하는 과정을 효율적이고 번거롭지 않게 만들어주는 다양한 기능을 살펴보세요."
+  },
+  "examples": {
+    "comment_1": "템플릿에서 삽입할 문서의 위치를 표시하기 위해 이 태그를 사용하세요",
+    "comment_2": "주 템플릿의 파일 경로를 설정하세요",
+    "comment_3": "삽입할 문서의 경로를 제공하세요",
+    "comment_4": "삽입된 콘텐츠와 함께 최종 파일을 저장하세요"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}} 파일에 문서를 삽입하는 단계",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})를 사용하면 하나의 {{FileFormatUp}} 문서를 다른 문서에 간단하고 유연하게 삽입할 수 있습니다.",
+      "step_1": "{{FileFormatUp}} 템플릿을 준비하고 삽입할 콘텐츠에 대한 자리 표시자를 추가하세요.",
+      "step_2": "템플릿의 파일 경로를 지정하세요.",
+      "step_3": "삽입할 문서의 파일 경로를 제공하세요.",
+      "step_4": "병합된 콘텐츠와 함께 출력 파일을 저장하세요."
+    }
+  },
+  "code_1": {
+    "title": "문서에 이미지를 프로그래밍적으로 삽입하는 방법",
+    "content": "이 예제는 {{ProdShortName}}를 사용하여 {{FileFormatUp}} 파일에 이미지를 삽입하는 방법을 보여줍니다.",
+    "comment_1": "템플릿 파일에 자리 표시자 태그를 추가하세요",
+    "comment_2": "템플릿에 대한 경로를 정의하세요",
+    "comment_3": "이미지에 대한 경로를 지정하세요",
+    "comment_4": "{{DocumentAssembler}} 인스턴스를 초기화하세요",
+    "comment_5": "삽입된 이미지와 함께 파일을 저장하세요"
+  },
+  "texts_pdf": {
+    "step_1": "삽입할 콘텐츠에 대한 자리 표시자가 있는 템플릿을 만드세요 (PDF 템플릿은 지원되지 않습니다).",
+    "step_4": "병합된 콘텐츠와 함께 최종 파일을 PDF 형식으로 저장하세요.",
+    "comment_tmp": "현재 PDF 템플릿은 지원되지 않습니다."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "head": {
+    "title": "Cree gráficos en archivos {{FileFormatUp}} con {{ProgLang}}",
+    "description": "La API {{ProdFullName}} permite a los desarrolladores generar e insertar gráficos en documentos de forma dinámica utilizando datos en tiempo real."
+  },
+  "header": {
+    "title": "Incorpore gráficos en archivos {{FileFormatUp}} con la API {{EnvNameShort}}",
+    "description": "{{ProdFullName}} ofrece una forma poderosa de llenar archivos {{FileFormatUp}} con datos dinámicos e integrar gráficos sin esfuerzo.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Pruebe Gratis"
+  },
+  "about": {
+    "title": "¿Qué es {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una herramienta diseñada para optimizar la creación de documentos e informes integrando datos de diversas fuentes. Genere gráficos, tablas, listas, códigos de barras e imágenes de forma dinámica. Las opciones avanzadas de formato permiten una colocación precisa y personalización de su contenido. Soporta más de 50 formatos de archivo, incluidos PDF, documentos de MS Office y correos electrónicos."
+  },
+  "more_features": {
+    "title": "Agregue gráficos dinámicos a sus documentos sin esfuerzo",
+    "description": "{{ProdFullName}} simplifica la creación de documentos impulsados por datos en formatos ampliamente utilizados. Utilice plantillas para insertar gráficos, tablas, códigos de barras, listas, hipervínculos e imágenes con una integración de datos dinámica y avanzada.",
+    "image_description": "Características clave de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Convierta datos en gráficos profesionales",
+      "content": "Transforme datos de JSON, XML, CSV y otras fuentes en gráficos visualmente atractivos con solo unos pocos pasos utilizando nuestra API."
+    },
+    "feature_2": {
+      "title": "Cree contenido visualmente atractivo",
+      "content": "{{ProdShortName}} soporta múltiples tipos de gráficos, como gráficos de barras, gráficos circulares y gráficos de líneas. Combínelos con tablas, códigos de barras, imágenes y otros elementos para crear informes profesionales."
+    },
+    "feature_3": {
+      "title": "Coloque y personalice gráficos con precisión",
+      "content": "Con la sintaxis LINQ, puede generar y colocar gráficos dinámicamente exactamente donde se necesiten. Personalice fácilmente estilos, colores y disposición para satisfacer sus requisitos."
+    },
+    "feature_4": {
+      "title": "Funciona con varios formatos de archivo",
+      "content": "Produzca documentos en formatos populares como MS Office, PDF, OpenOffice y HTML. Incorpore gráficos sin problemas en cualquier formato compatible con plena compatibilidad."
+    }
+  },
+  "formats": {
+    "title": "Cree informes visualmente ricos en múltiples formatos",
+    "description": "{{EnvName}} le permite generar documentos con gráficos integrados en más de 50 formatos compatibles, combinando plantillas con sus datos sin complicaciones."
+  },
+  "operations": {
+    "title": "Descubra capacidades clave",
+    "description": "Nuestra plataforma le ayuda a crear documentos cautivadores impulsados por datos, adaptados a sus necesidades."
+  },
+  "examples": {
+    "comment_1": "Incluya esta etiqueta en su plantilla para generar un gráfico",
+    "comment_2": "Especifique la ruta del archivo para su plantilla",
+    "comment_3": "Cargue datos de su fuente preferida",
+    "comment_4": "Guarde el documento con el gráfico incorporado"
+  },
+  "steps": {
+    "title": "Cómo añadir un gráfico a un documento {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilita la generación e inserción de gráficos en sus plantillas {{FileFormatUp}}. Soporta una variedad de tipos de gráficos, como gráficos de barras, circulares y de líneas.",
+      "step_1": "Diseñe una plantilla {{FileFormatUp}} con marcadores de posición para los gráficos.",
+      "step_2": "Recupere sus datos de una fuente compatible.",
+      "step_3": "Defina las opciones del gráfico como tipo, etiquetas y esquema de colores.",
+      "step_4": "Guarde el archivo actualizado con el gráfico incorporado."
+    }
+  },
+  "code_1": {
+    "title": "Cree un gráfico programáticamente",
+    "content": "Este ejemplo demuestra cómo crear e incorporar dinámicamente un gráfico en un documento {{FileFormatUp}}.",
+    "comment_1": "Prepare una plantilla con un marcador de posición para el gráfico.",
+    "comment_2": "Proporcione la ruta al archivo de plantilla.",
+    "comment_3": "Recupere los datos de su fuente.",
+    "comment_4": "Construya un objeto de datos con la información necesaria.",
+    "comment_5": "Configure las propiedades del gráfico, como tipo y apariencia.",
+    "comment_6": "Inicialice {{DocumentAssembler}}.",
+    "comment_7": "Exporte el documento con el gráfico incluido."
+  },
+  "texts_pdf": {
+    "step_1": "Diseñe una plantilla con lugares designados para el gráfico (los archivos de plantilla PDF no son compatibles).",
+    "step_4": "Exporte el documento con el gráfico como un archivo PDF.",
+    "comment_tmp": "Actualmente, los archivos de plantilla PDF no son compatibles."
+  }
+}

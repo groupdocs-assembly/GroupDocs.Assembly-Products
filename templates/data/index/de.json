@@ -1,0 +1,310 @@
+{
+  "index-content": {
+    "head_title": ".NET, Java APIs & Online Dokumentenerstellungsanwendungen von GroupDocs",
+    "head_description": "Erhalten Sie die All-in-One-Lösung für Dokumentautomatisierung und Berichterstattung für .NET- und Java-Anwendungen. Generieren Sie alle gängigen Dokumente aus benutzerdefinierten Vorlagen und Daten.",
+    "title": "Dokumentautomatisierung und Berichterstattungslösung",
+    "description_1": "Erstellen Sie detaillierte Berichte mit Vorlagen und Datenquellen mit unseren plattformübergreifenden Apps und APIs.",
+    "description_2": "Generieren Sie Berichte in Formaten wie Word, Excel, Präsentationen und vielen weiteren mithilfe von Vorlagen mit flexibel einstellbarem Markup.",
+    "description_3": "Füllen Sie Diagramme, Barcodes, Tabellen und andere Elemente mit Daten aus Quellen wie JSON, XML, CSV usw. aus.",
+    "words_for": "für",
+    "release_title": "Version {0} veröffentlicht",
+    "release_notes": "Sehen Sie, was neu ist",
+    "release_downloads": "Downloads",
+    "code_more": "Weitere Beispiele",
+    "overview_title": "{{ProdShortName}} Übersicht",
+    "code_comment_1": "Pfad zur Hauptvorlage",
+    "code_comment_2": "Produktivitätsdaten der Manager aus der Quelle abrufen",
+    "code_comment_3": "Erstellen Sie eine Instanz von {{DataSourceInfo}} mit den Daten",
+    "code_comment_4": "Die Diagrammfaben mit einem anderen {{DataSourceInfo}} festlegen",
+    "code_comment_5": "Die Vorlage mit Daten füllen und in die Ausgabe speichern",
+    "formats_title": "Unterstützte Dateiformate",
+    "platforms": {
+      "title": "Plattformunabhängigkeit",
+      "head_title": "Wählen Sie Ihre Plattform",
+      "description": "{{ProdShortName}} ist mit den folgenden Betriebssystemen und Frameworks kompatibel:",
+      "learn_more": "Erfahren Sie mehr",
+      "any_other_text_editor": "Jeder andere Texteditor"
+    },
+    "features": {
+      "title": "{{ProdShortName}} Hauptmerkmale",
+      "description": "Diese Lösung hilft Ihnen, Berichte in gängigen Dokumentformaten zu erstellen, die automatisch mit Ihren Geschäftsdaten gefüllt werden. Automatisieren Sie Ihre Dokumentgenerierungsaufgaben.",
+      "feature_1": {
+        "title": "Vorlagen mit Daten füllen",
+        "content": "Füllen Sie Berichte mit Daten aus unterstützten Quellen."
+      },
+      "feature_2": {
+        "title": "Flexibles Markup",
+        "content": "Fügen Sie Daten auf anpassbare Weise zu Dokumenten hinzu."
+      },
+      "feature_3": {
+        "title": "Native Dokumentfunktionen",
+        "content": "Stellen Sie Daten mit Tabellen, Diagrammen und Barcodes dar."
+      },
+      "feature_4": {
+        "title": "Alle gängigen Formate",
+        "content": "Unterstützt alle gängig verwendeten Dokumentformate."
+      }
+    },
+    "formats": {
+      "title": "Unterstützt über 50 Dateiformate",
+      "description": "{{ProdShortName}} arbeitet mit nahezu allen gängigen Dateiformaten."
+    },
+    "code_samples": {
+      "title": "Codebeispiele",
+      "index_title": "Erstellen Sie gut angepasste Berichte",
+      "index_description": "{{ProdShortName}} Codebeispiele",
+      "more_examples": "Weitere Beispiele",
+      "sample_index": {
+        "title": "Verwendung von generierten Barcodes",
+        "content": "{{ProdShortName}} ermöglicht Barcode-Markup in Berichtsvorlagen. Bei der Erstellung eines Berichts wird ein Barcode basierend auf dem Markup und den bereitgestellten Daten generiert. Geben Sie den Pfad zur Vorlage mit dem Text, den Datenobjekten und dem Markup an. Geben Sie auch die Datenquelle an, um den Barcode mit Inhalten zu füllen.",
+        "comment_1": "Erstellen Sie eine Instanz der {{DocumentAssembler}}-Klasse",
+        "comment_2": "Geben Sie den Pfad zur Vorlage an",
+        "comment_3": "Geben Sie den Pfad zum Ergebnissdokument an",
+        "comment_4": "Erstellen Sie eine Instanz der Datenquelle",
+        "comment_5": "Rufen Sie {{AssembleDocument}} auf, um den Bericht zu erstellen"
+      },
+      "sample_1": {
+        "code_title": "Wie man eine Liste in Dokumenten füllt",
+        "comment_1": "Fügen Sie diese Vorlage auf einer Dokumentseite ein:",
+        "comment_2": "Leistungsindikatoren der Manager",
+        "comment_3": "Geben Sie den Vorlagenpfad an",
+        "comment_4": "Legen Sie den Ausgabedateipfad fest",
+        "comment_5": "Rufen Sie die Daten der Manager aus einer JSON-Quelle ab",
+        "comment_6": "Generieren Sie den Bericht mit den ausgefüllten Daten"
+      },
+      "sample_2": {
+        "code_title": "Wie man Daten in einem Tortendiagramm darstellt",
+        "comment_1": "Fügen Sie das Titel-Template für das Diagramm zur Präsentation hinzu:",
+        "comment_2": "Umsatz der Kunden",
+        "comment_3": "Fügen Sie auch das Daten-Template für das Diagramm hinzu:",
+        "comment_4": "Geben Sie den Pfad zur Diagrammvorlage an",
+        "comment_5": "Legen Sie den Ausgabedateipfad fest",
+        "comment_6": "Rufen Sie die Kundendaten aus einer XML-Quelle ab",
+        "comment_7": "Generieren Sie das Diagramm und speichern Sie das Ergebnis"
+      }
+    },
+    "metrics": {
+      "title": "Unsere Produktstatistiken",
+      "description": "Entdecken Sie Produktmetriken, um Einblicke in unseren Fortschritt, Einfluss und Wachstum zu gewinnen.",
+      "item_1": {
+        "title": "Unterstützte Formate",
+        "description": "Wir unterstützen über 50 der am weitesten verbreiteten Dokumentformate."
+      },
+      "item_2": {
+        "title": "NuGet-Downloads",
+        "description": "{{ProdShortName}} für .NET ist eine beliebte Bibliothek mit über 650.000 Downloads auf NuGet."
+      },
+      "item_3": {
+        "title": "Maven-Downloads",
+        "description": "Java-Entwickler haben {{ProdShortName}} auf Maven über 18.000 Mal heruntergeladen."
+      },
+      "item_4": {
+        "title": "Zufriedene Kunden",
+        "description": "Unsere Produkte werden von einzelnen Entwicklern und führenden Unternehmen weltweit verwendet, um innovative Lösungen zu erstellen."
+      }
+    },
+    "customers": {
+      "title": "Unsere zufriedenen Kunden",
+      "description": "Die GroupDocs-Bibliotheken werden von einigen der renommiertesten und angesehensten Marken weltweit verwendet."
+    },
+    "actions": {
+      "alt": "Lizenzierung",
+      "title": "Bereit, loszulegen?",
+      "description": "Testen Sie die Funktionen von {{ProdShortName}} kostenlos oder fordern Sie eine Lizenz an.",
+      "description_index": "Testen Sie die Funktionen von {{ProdShortName}} kostenlos auf Ihrer Plattform."
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Durchsuchen Sie unsere häufig gestellten Fragen.",
+      "item_1": {
+        "question": "Benötigt {{ProdShortName}} externe Bibliotheken für die Dokumentenerstellung?",
+        "answer": "Nein, {{ProdShortName}} arbeitet unabhängig und benötigt keine Drittanbieter-Bibliotheken wie Adobe Acrobat oder Microsoft Office."
+      },
+      "item_2": {
+        "question": "Kann ich die Funktionen von {{ProdShortName}} vor dem Kauf testen?",
+        "answer": "Ja, können Sie! {{ProdShortName}} bietet eine kostenlose Testversion. Installieren Sie es und erkunden Sie seine Funktionen. Die Testversion fügt 'Testabzeichen' zu Ihren Dokumenten hinzu und verarbeitet nur die ersten 3 Seiten. Um die vollständige Erfahrung zu machen, erhalten Sie eine kostenlose 30-tägige Testlizenz, um alle Funktionen zu nutzen. Weitere Informationen finden Sie unter [temporäre Lizenz]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "Welche Arten von Lizenzen sind verfügbar?",
+        "answer": "Suchen Sie eine {{ProdShortName}}-Lizenz? Wir bieten eine Vielzahl von Optionen, die Ihren Bedürfnissen entsprechen. Wählen Sie basierend auf der Teamgröße, dem Bereitstellungsort (einzelnes Büro oder remote) und ob Sie das SDK/API mit Kunden zur Verteilung teilen müssen. Alternativ können Sie eine monatliche Nutzungslizenz mit verbrauchsabhängigen Plänen wählen – zahlen Sie nur für das, was Sie verwenden. Finden Sie die beste Option für Sie unter [Preise]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} Low-Code APIs",
+      "description": "Generieren Sie Dokumente über unsere cloudbasierten REST-API aus Ihrer Anwendung.",
+      "item_1": {
+        "content": "Verwenden Sie die cURL RESTful API, um Daten zu Word, Excel, PowerPoint und vielen anderen Vorlagen hinzuzufügen."
+      },
+      "item_2": {
+        "content": "Verbessern Sie Ihre .NET-Anwendungen, indem Sie Berichte über das Cloud SDK generieren. Stellen Sie Geschäftsdaten in Ihrem benutzerdefinierten Format dar."
+      },
+      "item_3": {
+        "content": "{{ProdShortName}} SDK bietet verschiedene Optionen für Java-Anwendungen zur Erstellung verschiedener Dokumenttypen."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} Web Apps",
+      "description": "{{ProdShortName}} bietet eine kostenlose Webanwendung zum Generieren von Dokumenten. Sie können über 50 gängige Dateiformate direkt in Ihrem Browser kostenlos verarbeiten.",
+      "item_1": {
+        "content": "Generieren Sie Berichte in Excel, Word, PowerPoint und vielen anderen Dateitypen direkt aus Ihrem Webbrowser."
+      },
+      "item_2": {
+        "content": "Erstellen Sie Microsoft Word-Dokumente aus Vorlagen und Datenquellen."
+      },
+      "item_3": {
+        "content": "Laden Sie eine Vorlage und eine Datenquelle hoch, um Excel-Berichte kostenlos zu generieren."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Microsoft Office Formate",
+      "title_2": "Bilder & Andere Formate",
+      "title_3": "Andere Formate",
+      "format_portable": "Portabel",
+      "format_other_office": "Andere Office-Formate",
+      "format_images": "Bilder",
+      "format_web": "Web",
+      "format_emails": "E-Mails",
+      "format_other": "Andere"
+    }
+  },
+  "index-content-net": {
+    "head_title": ".NET-API für Dokumentautomatisierung, -zusammenstellung und -berichterstellung",
+    "head_description": "C# .NET API für Dokumentautomatisierung, -zusammenstellung und -berichterstellung. Erstellen Sie PDF, Word, Excel, PPTX, HTML- und E-Mail-Dokumente aus benutzerdefinierten Vorlagen.",
+    "title": ".NET-Dokumentautomatisierungs- und Berichterstellungs-API",
+    "description": "Generieren Sie Berichte in .NET-Anwendungen, indem Sie Vorlagen definieren und Daten zusammenführen.",
+    "actions_main": "Testversion über NuGet herunterladen",
+    "code_title": "Diagramm in DOCX mit C# ausfüllen",
+    "overview_description": ".NET-Lösung zur Automatisierung der Dokumentenerstellung mit fortschrittlicher Datenintegration.",
+    "overview_feature_1": {
+      "title": "Fügen Sie Geschäftsdaten mit C# zu Dokumentvorlagen hinzu",
+      "description": "Berichterstellung leicht gemacht: Mit {{ProdFullName}} können Sie mühelos Daten aus Quellen wie JSON oder XML in vordefinierte Vorlagen einfügen."
+    },
+    "overview_feature_2": {
+      "title": "Verarbeiten Sie native Datenobjekte",
+      "description": "Unterstützte Dokumenttypen umfassen eingebettete Objekte wie Diagramme, Tabellen, Tabellen und Listen, die automatisch mit Daten gefüllt werden können."
+    },
+    "overview_feature_3": {
+      "title": "Zusätzliche Funktionen",
+      "description": "{{ProdFullName}} bietet umfangreiche Anpassungsoptionen. Gestalten Sie Datenobjekte programmatisch, generieren Sie Barcodes, nutzen Sie Online-Datenquellen über URLs und speichern Sie Ausgaben in verschiedenen Formaten."
+    },
+    "features": {
+      "title": "{{ProdShortName}} Funktionen",
+      "description": "Erstellen Sie Dokumente und Berichte mit erweiterten Datenmodellen.",
+      "feature_1": {
+        "title": "Erweiterte Datenrepräsentation",
+        "content": "Unterstützt eine breite Palette von Datenobjekten wie Diagramme, Listen, Tabellen, Bilder und mehr."
+      },
+      "feature_2": {
+        "title": "Datenmanipulation",
+        "content": "Wenden Sie Formeln und sequenzielle Operationen an, um Daten effektiv zu formatieren und darzustellen."
+      },
+      "feature_3": {
+        "title": "Breite der unterstützten Formate",
+        "content": "Arbeiten Sie nahtlos mit allen gängigen Dokumentformaten für Vorlagen oder Ausgabedateien."
+      },
+      "feature_4": {
+        "title": "Reiches Vorlagen-Markup",
+        "content": "Nutzen Sie ordinale, kardinale und alphabetische numerische Formatierung in Vorlagen."
+      },
+      "feature_5": {
+        "title": "Barcodes einfügen",
+        "content": "Erzeugen Sie Barcode-Bilder dynamisch und fügen Sie diese in Ihre Dokumente ein."
+      },
+      "feature_6": {
+        "title": "Datenformatierung",
+        "content": "Formatieren Sie Strings in Vorlagen als Großbuchstaben, Kleinbuchstaben, kapitalisierte oder mit dem ersten Buchstaben als Großbuchstaben."
+      },
+      "feature_7": {
+        "title": "Inhalt von Dokumenten manipulieren",
+        "content": "Fügen Sie dynamisch Inhalte von externen Dokumenten in Ihre Berichte ein."
+      },
+      "feature_8": {
+        "title": "In mehreren Formaten speichern",
+        "content": "Geben Sie das Ausgabeformat der Datei anhand von Dateidownloads oder detaillierten Konfigurationen an."
+      },
+      "feature_9": {
+        "title": "Flexibles Datenverarbeiten",
+        "content": "Fügen Sie Bilder und Dokumente dynamisch mit Base64-codierten Bytes ein."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} ist mit den folgenden Betriebssystemen, Frameworks und Paketmanagern kompatibel.",
+    "formats_description": "{{ProdFullName}} kann die folgenden [Dateiformate](https://docs.groupdocs.com/assembly/net/supported-document-formats/)verarbeiten.",
+    "code_samples_description": "Codebeispiele für typische {{ProdShortName}}-Operationen.",
+    "code_title_sample_1": "Aufzählungsliste in einem Microsoft Word-Dokument",
+    "code_samples_sample_1_content_1": "[Aufzählungslisten](https://docs.groupdocs.com/assembly/net/bulleted-list-in-word-processing-document/) sind eine gängige Möglichkeit, Geschäftsdaten darzustellen.",
+    "code_samples_sample_1_content_2": "Hier ist ein Beispiel, wie man mit {{ProdShortName}} eine Liste in ein Word-Dokument hinzufügt.",
+    "code_title_sample_2": "Tortendiagramme in PPTX-Präsentationen",
+    "code_samples_sample_2_content_1": "Sie können [Tortendiagramme](https://docs.groupdocs.com/assembly/net/pie-chart-in-presentation-document/) mithilfe von Vorlagen und XML-Daten erstellen.",
+    "code_samples_sample_2_content_2": "Verbessern Sie Ihre Berichte mit ansprechend dargestellten Daten."
+  },
+  "index-content-java": {
+    "head_title": "Java-Bibliothek zur Dokumentenerstellung, Automatisierung und Berichterstellung",
+    "head_description": "Java-Bibliothek zur Automatisierung der Dokumentenerstellung und Generierung von Berichten. Erstellen Sie PDF-, Word-, Excel-, PPTX-, HTML- und E-Mail-Dokumente mit benutzerdefinierten Vorlagen.",
+    "title": "Java-API zur Automatisierung von Berichten und Dokumenten",
+    "description": "Vereinfachen Sie die Berichterstellung in Java, indem Sie Daten mit Vorlagen zusammenführen.",
+    "actions_main": "Testversion über NuGet erhalten",
+    "code_title": "Erzeugen eines Diagramms in DOCX mit Java",
+    "overview_description": "Eine Java-Bibliothek, die für die automatisierte Dokumentenerstellung und nahtlose Datenintegration entwickelt wurde.",
+    "overview_feature_1": {
+      "title": "Fügen Sie Geschäftsdaten mit Java in Vorlagen ein",
+      "description": "Erstellen Sie mühelos professionelle Berichte, indem Sie Daten aus JSON, XML oder anderen Quellen in vordefinierte Vorlagen mithilfe von {{ProdFullName}} einfügen."
+    },
+    "overview_feature_2": {
+      "title": "Arbeiten Sie mit eingebetteten Objekten",
+      "description": "Füllen Sie automatisch Elemente wie Tabellen, Diagramme und Diagramme in Dokumenten mit Daten aus externen Quellen aus."
+    },
+    "overview_feature_3": {
+      "title": "Erweiterte Anpassung",
+      "description": "{{ProdFullName}} bietet flexible Funktionen wie die Erzeugung von Barcodes, das Abrufen von Online-Daten über URLs und das Exportieren von Ausgaben in verschiedenen Formaten."
+    },
+    "features": {
+      "title": "Hauptfähigkeiten von {{ProdShortName}}",
+      "description": "Erstellen Sie professionelle Dokumente und Berichte mit fortschrittlicher Datenverarbeitung.",
+      "feature_1": {
+        "title": "Visuelle Datenobjekte",
+        "content": "Fügen Sie Elemente wie Diagramme, Tabellen, Bilder und Listen direkt in Ihre Dokumente ein und formatieren Sie diese."
+      },
+      "feature_2": {
+        "title": "Datenumwandlung",
+        "content": "Verwenden Sie Formeln, Sortierung und andere Werkzeuge, um Ihre Daten effektiv zu organisieren und darzustellen."
+      },
+      "feature_3": {
+        "title": "Unterstützung für mehrere Formate",
+        "content": "Arbeiten Sie mühelos mit gängigen Dateitypen für Vorlagen und Ausgabedateien."
+      },
+      "feature_4": {
+        "title": "Erweiterte Formatierung von Vorlagen",
+        "content": "Passen Sie Vorlagen mit numerischen, alphabetischen und anderen erweiterten Formatierungsoptionen an."
+      },
+      "feature_5": {
+        "title": "Dynamische Barcode-Generierung",
+        "content": "Erstellen und fügen Sie schnell Barcode-Bilder nach Bedarf in Dokumente ein."
+      },
+      "feature_6": {
+        "title": "Flexible Textformatierung",
+        "content": "Wenden Sie Texttransformationen wie Großbuchstaben, Kleinbuchstaben, Titelcase oder andere Stile in Vorlagen an."
+      },
+      "feature_7": {
+        "title": "Importieren Sie externe Inhalte",
+        "content": "Binden Sie Inhalte aus externen Dateien dynamisch in die Erstellung von Dokumenten ein."
+      },
+      "feature_8": {
+        "title": "Exportieren in mehreren Formaten",
+        "content": "Speichern Sie endgültige Dokumente in verschiedenen Dateiformaten mit angegebenen Erweiterungen oder Konfigurationen."
+      },
+      "feature_9": {
+        "title": "Dynamisches Medien-Embedding",
+        "content": "Fügen Sie Bilder oder andere Inhalte mit Base64-codierten Daten während der Erstellung von Dokumenten ein."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} funktioniert nahtlos mit gängigen Betriebssystemen, Entwicklungsframeworks und Paketmanagern.",
+    "formats_description": "{{ProdFullName}} unterstützt eine Vielzahl von [Dokumentformaten](https://docs.groupdocs.com/assembly/java/supported-document-formats/).",
+    "code_samples_description": "Entdecken Sie Beispielcodes für häufige Aufgaben mit {{ProdShortName}}.",
+    "code_title_sample_1": "Erstellen Sie eine Aufzählungsliste in Word",
+    "code_samples_sample_1_content_1": "Erfahren Sie, wie Sie [Aufzählungslisten](https://docs.groupdocs.com/assembly/java/bulleted-list-in-word-processing-document/) zu Word-Dokumenten für eine organisierte Datenpräsentation hinzufügen.",
+    "code_samples_sample_1_content_2": "Dieses Beispiel zeigt, wie Sie mit {{ProdShortName}} eine Liste in Word generieren.",
+    "code_title_sample_2": "Erstellen Sie Tortendiagramme in PPTX",
+    "code_samples_sample_2_content_1": "Verwenden Sie Vorlagen und XML, um [Tortendiagramme](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/) in Ihre Präsentationen einzufügen.",
+    "code_samples_sample_2_content_2": "Machen Sie Ihre Berichte ansprechender, indem Sie Tortendiagramme zur Visualisierung von Daten einfügen."
+  }
+}

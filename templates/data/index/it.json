@@ -1,0 +1,310 @@
+{
+  "index-content": {
+    "head_title": "API per Document Automation e Applicazioni Online di GroupDocs per .NET e Java",
+    "head_description": "Ottieni una soluzione completa di automazione documentale e reporting per applicazioni .NET e Java. Genera tutti i documenti comuni da modelli e dati personalizzati.",
+    "title": "Soluzione di Automazione Documentale e Reporting",
+    "description_1": "Crea report dettagliati utilizzando modelli e fonti di dati con le nostre app e API multipiattaforma.",
+    "description_2": "Genera report in formati come Word, Excel, Presentazioni e molti altri utilizzando modelli con markup flessibile.",
+    "description_3": "Popola grafici, codici a barre, tabelle e altri elementi con dati provenienti da fonti come JSON, XML, CSV, ecc.",
+    "words_for": "per",
+    "release_title": "Versione {0} rilasciata",
+    "release_notes": "Scopri le novità",
+    "release_downloads": "Download",
+    "code_more": "Ulteriori esempi",
+    "overview_title": "Panoramica di {{ProdShortName}}",
+    "code_comment_1": "Percorso del modello principale",
+    "code_comment_2": "Recupera i dati di produttività dei manager dalla fonte",
+    "code_comment_3": "Crea un'istanza di {{DataSourceInfo}} con i dati",
+    "code_comment_4": "Imposta i colori dei grafici utilizzando un altro {{DataSourceInfo}}",
+    "code_comment_5": "Compila il modello con i dati e salvalo nell'output",
+    "formats_title": "Formati di file supportati",
+    "platforms": {
+      "title": "Indipendenza dalla piattaforma",
+      "head_title": "Scegli la tua piattaforma",
+      "description": "{{ProdShortName}} è compatibile con i seguenti sistemi operativi e framework:",
+      "learn_more": "Scopri di più",
+      "any_other_text_editor": "Qualsiasi altro editor di testo"
+    },
+    "features": {
+      "title": "Caratteristiche principali di {{ProdShortName}}",
+      "description": "Questa soluzione ti aiuta a creare report in formati documentali popolari, automaticamente riempiti con i tuoi dati aziendali. Automatizza i tuoi compiti di generazione documentale.",
+      "feature_1": {
+        "title": "Popola i modelli con i dati",
+        "content": "Compila report utilizzando dati provenienti da fonti supportate."
+      },
+      "feature_2": {
+        "title": "Markup flessibile",
+        "content": "Aggiungi dati ai documenti in modo personalizzabile."
+      },
+      "feature_3": {
+        "title": "Caratteristiche documentali native",
+        "content": "Visualizza i dati utilizzando tabelle, grafici e codici a barre."
+      },
+      "feature_4": {
+        "title": "Tutti i formati popolari",
+        "content": "Supporta tutti i formati documentali comunemente utilizzati."
+      }
+    },
+    "formats": {
+      "title": "Supporta più di 50 formati di file",
+      "description": "{{ProdShortName}} lavora praticamente con tutti i formati di file popolari"
+    },
+    "code_samples": {
+      "title": "Esempi di codice",
+      "index_title": "Genera report ben personalizzati",
+      "index_description": "{{ProdShortName}} esempi di codice",
+      "more_examples": "Ulteriori esempi",
+      "sample_index": {
+        "title": "Utilizzo di Codici a Barre Generati",
+        "content": "{{ProdShortName}} consente il markup dei codici a barre nei modelli di report. Durante la creazione di un report, un codice a barre viene generato in base al markup e ai dati forniti. Specifica il percorso del modello contenente il testo, gli oggetti dati e il markup. Specifica anche la fonte dei dati per riempire il codice a barre con il contenuto.",
+        "comment_1": "Crea un'istanza della classe {{DocumentAssembler}}",
+        "comment_2": "Specifica il percorso del modello",
+        "comment_3": "Specifica il percorso per il documento di risultato",
+        "comment_4": "Crea un'istanza della fonte dati",
+        "comment_5": "Chiama {{AssembleDocument}} per generare il report"
+      },
+      "sample_1": {
+        "code_title": "Come Popolare un Elenco nei Documenti",
+        "comment_1": "Inserisci questo modello in una pagina del documento:",
+        "comment_2": "Indicatori di prestazione dei manager",
+        "comment_3": "Specifica il percorso del modello",
+        "comment_4": "Imposta il percorso del file di output",
+        "comment_5": "Recupera i dati dei manager da una fonte JSON",
+        "comment_6": "Genera il report con i dati completati"
+      },
+      "sample_2": {
+        "code_title": "Come Rappresentare Dati in un Grafico a Torta",
+        "comment_1": "Aggiungi il modello del titolo del grafico alla presentazione:",
+        "comment_2": "Fatturato dei clienti",
+        "comment_3": "Includi anche il modello del dato del grafico:",
+        "comment_4": "Specifica il percorso del modello del grafico",
+        "comment_5": "Imposta il percorso del file di output",
+        "comment_6": "Recupera i dati dei clienti da una fonte XML",
+        "comment_7": "Genera il grafico e salva il risultato"
+      }
+    },
+    "metrics": {
+      "title": "Statistiche del nostro prodotto",
+      "description": "Esplora le metriche del prodotto per ottenere informazioni sui nostri progressi, impatti e crescita.",
+      "item_1": {
+        "title": "Formati Supportati",
+        "description": "Supportiamo oltre 50 dei formati documentali più utilizzati."
+      },
+      "item_2": {
+        "title": "Download NuGet",
+        "description": "{{ProdShortName}} per .NET è una libreria popolare con oltre 650.000 download su NuGet."
+      },
+      "item_3": {
+        "title": "Download Maven",
+        "description": "Gli sviluppatori Java hanno scaricato {{ProdShortName}} su Maven oltre 18.000 volte."
+      },
+      "item_4": {
+        "title": "Clienti Soddisfatti",
+        "description": "I nostri prodotti sono affidati da sviluppatori individuali e da aziende leader in tutto il mondo per creare soluzioni innovative."
+      }
+    },
+    "customers": {
+      "title": "I Nostri Clienti Soddisfatti",
+      "description": "Le librerie di GroupDocs sono utilizzate da alcuni dei marchi più rinomati e rispettati a livello globale."
+    },
+    "actions": {
+      "alt": "Licenze",
+      "title": "Pronto per Cominciare?",
+      "description": "Prova le funzionalità di {{ProdShortName}} gratuitamente o richiedi una licenza.",
+      "description_index": "Testa le funzionalità di {{ProdShortName}} gratuitamente sulla tua piattaforma."
+    },
+    "faq": {
+      "title": "Domande Frequenti",
+      "description": "Esplora le nostre Domande Frequenti.",
+      "item_1": {
+        "question": "Richiede {{ProdShortName}} librerie esterne per la composizione dei documenti?",
+        "answer": "No, {{ProdShortName}} funziona in modo indipendente e non richiede librerie di terzi come Adobe Acrobat o Microsoft Office."
+      },
+      "item_2": {
+        "question": "Posso testare le funzionalità di {{ProdShortName}} prima di acquistare?",
+        "answer": "Sì, puoi! {{ProdShortName}} offre una prova gratuita. Installala ed esplora le sue funzionalità. La versione di prova aggiunge 'badge di prova' ai tuoi documenti e elabora solo le prime 3 pagine. Per l'esperienza completa, ottieni una licenza temporanea gratuita di 30 giorni per accedere a tutte le funzionalità. Maggiori dettagli sono disponibili sotto [licenza temporanea]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "Quali tipi di licenze sono disponibili?",
+        "answer": "Cerchi una licenza {{ProdShortName}}? Offriamo diverse opzioni per soddisfare le tue esigenze. Scegli in base alle dimensioni del tuo team, posizione di distribuzione (ufficio singolo o remoto) e se desideri condividere l'SDK/API con i clienti per la distribuzione. In alternativa, scegli una licenza di utilizzo mensile con piani tariffari basati sull'uso: paga solo per ciò che utilizzi. Scopri l'opzione migliore per te nella sezione [prezzi]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "API Low-Code di {{ProdShortName}}",
+      "description": "Genera documenti utilizzando la tua applicazione attraverso la nostra API REST basata su cloud.",
+      "item_1": {
+        "content": "Utilizza l'API RESTful cURL per aggiungere dati a Word, Excel, PowerPoint e a molti altri modelli."
+      },
+      "item_2": {
+        "content": "Migliora le tue applicazioni .NET generando report attraverso il Cloud SDK. Visualizza i dati aziendali nel tuo formato personalizzato."
+      },
+      "item_3": {
+        "content": "Il SDK di {{ProdShortName}} offre diverse opzioni per le applicazioni Java per generare vari tipi di documenti."
+      }
+    },
+    "app_links": {
+      "title": "Web Apps di {{ProdShortName}}",
+      "description": "{{ProdShortName}} offre un'applicazione web gratuita per generare documenti. Puoi elaborare più di 50 formati di file popolari direttamente nel tuo browser, GRATIS.",
+      "item_1": {
+        "content": "Genera report in Excel, Word, PowerPoint e in molti altri tipi di file direttamente dal tuo browser web."
+      },
+      "item_2": {
+        "content": "Crea documenti Microsoft Word da modelli e fonti di dati."
+      },
+      "item_3": {
+        "content": "Carica un modello e una fonte di dati per generare report Excel gratuitamente."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Formati Microsoft Office",
+      "title_2": "Immagini e Altri Formati",
+      "title_3": "Altri formati",
+      "format_portable": "Portabile",
+      "format_other_office": "Altri formati di ufficio",
+      "format_images": "Immagini",
+      "format_web": "Web",
+      "format_emails": "Email",
+      "format_other": "Altro"
+    }
+  },
+  "index-content-net": {
+    "head_title": "API .NET per Automazione Documentale, Assemblaggio e Generazione Report",
+    "head_description": "API C# .NET per automazione documentale, assemblaggio e generazione di report. Crea documenti PDF, Word, Excel, PPTX, HTML e email da modelli personalizzati.",
+    "title": "API di Automazione Documentale e Reporting per .NET",
+    "description": "Genera report nelle applicazioni .NET definendo modelli e unendo dati.",
+    "actions_main": "Scarica il Trial tramite NuGet",
+    "code_title": "Compila un Grafico in DOCX Utilizzando C#",
+    "overview_description": "Soluzione .NET per automatizzare la creazione di documenti con integrazione dati avanzata.",
+    "overview_feature_1": {
+      "title": "Aggiungi Dati Aziendali ai Modelli di Documento con C#",
+      "description": "Generazione di report semplificata: con {{ProdFullName}}, puoi facilmente inserire dati da fonti come JSON o XML in modelli predefiniti."
+    },
+    "overview_feature_2": {
+      "title": "Elaborazione di Oggetti Dati Nativi",
+      "description": "I tipi di documenti supportati includono oggetti incorporati come diagrammi, grafici, tabelle e elenchi che possono essere popolati automaticamente con i dati."
+    },
+    "overview_feature_3": {
+      "title": "Funzionalità Aggiuntive",
+      "description": "{{ProdFullName}} fornisce ampie opzioni di personalizzazione. Progetta oggetti dati programmaticamente, genera codici a barre, utilizza fonti di dati online tramite URL e salva output in vari formati."
+    },
+    "features": {
+      "title": "Caratteristiche di {{ProdShortName}}",
+      "description": "Crea documenti e report utilizzando modelli di dati avanzati.",
+      "feature_1": {
+        "title": "Rappresentazione Avanzata dei Dati",
+        "content": "Supporta un'ampia gamma di oggetti dati come grafici, elenchi, tabelle, immagini e altro."
+      },
+      "feature_2": {
+        "title": "Manipolazione dei Dati",
+        "content": "Applica formule e operazioni sequenziali per formattare e visualizzare i dati in modo efficace."
+      },
+      "feature_3": {
+        "title": "Ampia Gamma di Formati Supportati",
+        "content": "Lavora senza soluzione di continuità con tutti i formati di documento comuni per modelli o file di output."
+      },
+      "feature_4": {
+        "title": "Markup Ricco del Modello",
+        "content": "Sfrutta la formattazione numerica ordinale, cardinale e alfabetica nei modelli."
+      },
+      "feature_5": {
+        "title": "Incorpora Codici a Barre",
+        "content": "Genera immagini di codici a barre dinamicamente e inseriscile nei tuoi documenti."
+      },
+      "feature_6": {
+        "title": "Formattazione dei Dati",
+        "content": "Formatta le stringhe nei modelli in maiuscolo, minuscolo, maiuscolo iniziale o stili con prima lettera maiuscola."
+      },
+      "feature_7": {
+        "title": "Manipolazione dei Contenuti Documentali",
+        "content": "Inserisci dinamicamente contenuti da documenti esterni nei tuoi report."
+      },
+      "feature_8": {
+        "title": "Salva in Formati Multipli",
+        "content": "Specifica il formato del file di output utilizzando estensioni di file o configurazioni dettagliate."
+      },
+      "feature_9": {
+        "title": "Elaborazione Dati Flessibile",
+        "content": "Inserisci immagini e documenti dinamicamente utilizzando byte codificati in Base64."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} è compatibile con i seguenti sistemi operativi, framework e gestori di pacchetti.",
+    "formats_description": "{{ProdFullName}} può elaborare i seguenti [formati di file](https://docs.groupdocs.com/assembly/net/supported-document-formats/).",
+    "code_samples_description": "Esempi di codice per operazioni tipiche di {{ProdShortName}}.",
+    "code_title_sample_1": "Elenco Puntato in un Documento Microsoft Word",
+    "code_samples_sample_1_content_1": "[Elenchi puntati](https://docs.groupdocs.com/assembly/net/bulleted-list-in-word-processing-document/) sono un modo comune per presentare i dati aziendali.",
+    "code_samples_sample_1_content_2": "Ecco un esempio di come aggiungere un elenco a un documento Word utilizzando {{ProdShortName}}.",
+    "code_title_sample_2": "Grafici a Torta in Presentazioni PPTX",
+    "code_samples_sample_2_content_1": "Puoi creare [Grafici a Torta](https://docs.groupdocs.com/assembly/net/pie-chart-in-presentation-document/) utilizzando modelli e dati XML.",
+    "code_samples_sample_2_content_2": "Migliora i tuoi report con rappresentazioni grafiche dei dati visivamente accattivanti."
+  },
+  "index-content-java": {
+    "head_title": "Libreria Java per Creazione Documentale, Automazione e Reporting",
+    "head_description": "Libreria Java per l'automazione della creazione di documenti e generazione di report. Crea documenti PDF, Word, Excel, PPTX, HTML e email utilizzando modelli personalizzati.",
+    "title": "API Java per Automazione di Report e Documenti",
+    "description": "Semplifica la generazione di report in Java unendo dati con modelli.",
+    "actions_main": "Richiedi Trial tramite NuGet",
+    "code_title": "Genera un Grafico in DOCX con Java",
+    "overview_description": "Una libreria Java progettata per la creazione automatica di documenti e l'integrazione dati semplificata.",
+    "overview_feature_1": {
+      "title": "Unisci Dati Aziendali ai Modelli con Java",
+      "description": "Crea facilmente report professionali incorporando dati da JSON, XML o altre fonti in modelli preprogettati utilizzando {{ProdFullName}}."
+    },
+    "overview_feature_2": {
+      "title": "Lavora con Oggetti Incorporati",
+      "description": "Popola automaticamente elementi come tabelle, grafici e diagrammi nei documenti utilizzando dati provenienti da fonti esterne."
+    },
+    "overview_feature_3": {
+      "title": "Personalizzazione Avanzata",
+      "description": "{{ProdFullName}} offre funzionalità flessibili come la generazione di codici a barre, l'acquisizione di dati online tramite URL e l'esportazione di output in diversi formati."
+    },
+    "features": {
+      "title": "Capacità Chiave di {{ProdShortName}}",
+      "description": "Crea documenti e report professionali con gestione dati avanzata.",
+      "feature_1": {
+        "title": "Elementi Dati Visivi",
+        "content": "Aggiungi e formatta elementi come grafici, tabelle, immagini ed elenchi direttamente nei tuoi documenti."
+      },
+      "feature_2": {
+        "title": "Trasformazione dei Dati",
+        "content": "Utilizza formule, ordinamenti e altri strumenti per organizzare e presentare i tuoi dati in modo efficace."
+      },
+      "feature_3": {
+        "title": "Supporto per Formati Multipli",
+        "content": "Lavora facilmente con tipi di file comuni per modelli e file di output."
+      },
+      "feature_4": {
+        "title": "Formattazione Avanzata del Modello",
+        "content": "Personalizza i modelli con opzioni di formattazione numerica, alfabetica e altre avanzate."
+      },
+      "feature_5": {
+        "title": "Generazione Dinamica di Codici a Barre",
+        "content": "Crea rapidamente e inserisci immagini di codici a barre nei documenti secondo necessità."
+      },
+      "feature_6": {
+        "title": "Formattazione Flessibile del Testo",
+        "content": "Applica trasformazioni di testo come maiuscolo, minuscolo, maiuscolo per la prima lettera o altri stili nei modelli."
+      },
+      "feature_7": {
+        "title": "Importa Contenuti Esterni",
+        "content": "Incorpora dinamicamente contenuti da file esterni mentre generi i documenti."
+      },
+      "feature_8": {
+        "title": "Esporta in Formati Multipli",
+        "content": "Salva i documenti finali in vari formati di file utilizzando estensioni o configurazioni specifiche."
+      },
+      "feature_9": {
+        "title": "Incorporamento Dinamico dei Media",
+        "content": "Inserisci immagini o altri contenuti utilizzando dati codificati in Base64 durante la creazione del documento."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} funziona senza soluzione di continuità con sistemi operativi, framework di sviluppo e gestori di pacchetti popolari.",
+    "formats_description": "{{ProdFullName}} supporta un'ampia gamma di [formati documentali](https://docs.groupdocs.com/assembly/java/supported-document-formats/).",
+    "code_samples_description": "Esplora il codice di esempio per compiti comuni con {{ProdShortName}}.",
+    "code_title_sample_1": "Crea un Elenco Puntato in Word",
+    "code_samples_sample_1_content_1": "Scopri come aggiungere [elenchi puntati](https://docs.groupdocs.com/assembly/java/bulleted-list-in-word-processing-document/) ai documenti Word per una rappresentazione organizzata dei dati.",
+    "code_samples_sample_1_content_2": "Questo esempio mostra come generare un elenco in Word utilizzando {{ProdShortName}}.",
+    "code_title_sample_2": "Crea Grafici a Torta in PPTX",
+    "code_samples_sample_2_content_1": "Utilizza modelli e XML per aggiungere [grafici a torta](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/) alle tue presentazioni.",
+    "code_samples_sample_2_content_2": "Rendi i tuoi report più coinvolgenti includendo grafici a torta per visualizzare i dati."
+  }
+}

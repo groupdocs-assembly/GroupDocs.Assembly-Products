@@ -1,0 +1,77 @@
+{
+  "head": {
+    "title": "Buat diagram dalam dokumen {{FileFormatUp}} menggunakan {{ProgLang}}",
+    "description": "API {{ProdFullName}} memungkinkan pengembang untuk membuat dan menyisipkan grafik atau diagram dinamis ke dalam dokumen secara mulus, didukung oleh data waktu nyata."
+  },
+  "header": {
+    "title": "Tambahkan grafik ke dokumen {{FileFormatUp}} dengan API {{EnvNameShort}}",
+    "description": "{{ProdFullName}} menyederhanakan proses penyisipan grafik ke dalam dokumen {{FileFormatUp}} dengan memanfaatkan data waktu nyata.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Mulai Gratis"
+  },
+  "about": {
+    "title": "Pengantar {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah solusi serbaguna untuk mengotomatiskan pembuatan dokumen dan laporan. Ini memungkinkan Anda menambahkan grafik, tabel, daftar, barcode, dan gambar langsung ke dalam file Anda, dengan alat canggih untuk pemformatan dan integrasi data yang tepat. Platform ini mendukung lebih dari 50 format, termasuk PDF, file Microsoft Office, dan email."
+  },
+  "more_features": {
+    "title": "Menyisipkan grafik dinamis ke dalam dokumen Anda dengan mudah",
+    "description": "{{ProdFullName}} menyediakan cara yang efektif untuk membangun dokumen kaya data dalam format populer. Gunakan template untuk menyisipkan grafik, tabel, barcode, daftar, tautan, dan gambar dengan pembaruan dinamis dari data Anda.",
+    "image_description": "Fitur kunci dari {{ProdShortName}}",
+    "feature_1": {
+      "title": "Ubah data menjadi grafik",
+      "content": "Gunakan API untuk mengubah data dari JSON, XML, CSV, atau sumber lainnya menjadi grafik profesional yang bersih untuk dokumen Anda."
+    },
+    "feature_2": {
+      "title": "Buat konten yang berdampak visual",
+      "content": "{{ProdShortName}} mendukung berbagai format visual, termasuk grafik batang, diagram lingkaran, dan grafik garis, yang dapat dikombinasikan dengan tabel, barcode, gambar, dan lainnya untuk laporan yang lebih baik."
+    },
+    "feature_3": {
+      "title": "Tempatkan dan sesuaikan grafik dengan fleksibilitas",
+      "content": "Dengan sintaks berbasis LINQ, Anda dapat secara dinamis menghasilkan dan memposisikan grafik dalam dokumen, sambil dengan mudah menyesuaikan gaya, warna, dan tata letak untuk memenuhi kebutuhan desain Anda."
+    },
+    "feature_4": {
+      "title": "Mendukung berbagai format dokumen",
+      "content": "Hasilkan dokumen dalam format seperti MS Office, PDF, OpenOffice, dan HTML. Grafik terintegrasi dengan mulus ke dalam format mana pun yang didukung untuk hasil yang profesional."
+    }
+  },
+  "formats": {
+    "title": "Hasilkan laporan komprehensif dalam berbagai format",
+    "description": "{{EnvName}} memungkinkan Anda membuat dokumen dengan grafik yang terintegrasi di lebih dari 50 format file, memastikan penggabungan template dan data yang mulus."
+  },
+  "operations": {
+    "title": "Jelajahi kemampuan yang kuat",
+    "description": "Platform ini menyederhanakan proses perancangan dokumen yang fokus pada data dan menarik secara visual sesuai kebutuhan Anda."
+  },
+  "examples": {
+    "comment_1": "Tambahkan tag ini ke template Anda untuk menyertakan grafik",
+    "comment_2": "Berikan jalur file ke template Anda",
+    "comment_3": "Ambil data yang diperlukan dari sumber Anda",
+    "comment_4": "Simpan dokumen akhir dengan grafik yang disisipkan"
+  },
+  "steps": {
+    "title": "Langkah untuk memasukkan grafik ke dalam dokumen {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) menyederhanakan proses penyisipan grafik ke dalam template {{FileFormatUp}}. Pilih dari berbagai gaya grafik, termasuk grafik batang, lingkaran, dan garis.",
+      "step_1": "Buat template {{FileFormatUp}} dengan tempat untuk grafik.",
+      "step_2": "Muat data Anda dari sumber yang kompatibel.",
+      "step_3": "Tentukan opsi grafik, seperti jenis, label, dan warna.",
+      "step_4": "Simpan dokumen dengan grafik yang disertakan."
+    }
+  },
+  "code_1": {
+    "title": "Secara programatis menghasilkan dan menyisipkan grafik",
+    "content": "Contoh ini menunjukkan cara membuat dan menyisipkan grafik ke dalam dokumen {{FileFormatUp}} secara programatis.",
+    "comment_1": "Siapkan template dengan tempat untuk grafik",
+    "comment_2": "Tentukan jalur file ke template",
+    "comment_3": "Muat data dari sumber pilihan Anda",
+    "comment_4": "Buat objek data dengan informasi yang relevan",
+    "comment_5": "Konfigurasi jenis dan penampilan grafik",
+    "comment_6": "Inisialisasi {{DocumentAssembler}}",
+    "comment_7": "Simpan dokumen yang telah selesai dengan grafik yang disisipkan"
+  },
+  "texts_pdf": {
+    "step_1": "Buat template dengan tempat untuk grafik (template PDF tidak didukung).",
+    "step_4": "Simpan dokumen yang berisi grafik sebagai file PDF.",
+    "comment_tmp": "Template PDF tidak didukung saat ini."
+  }
+}

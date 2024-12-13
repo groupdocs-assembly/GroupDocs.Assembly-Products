@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": "Incorpora un documento in un altro in {{FileFormatUp}} con l'API {{ProgLang}}",
+    "description": "Unisci documenti {{FileFormatUp}} utilizzando {{ProgLang}}. Con {{ProdShortName}}, combina file senza soluzione di continuità in pochi passaggi."
+  },
+  "header": {
+    "title": "Combina documenti nel formato {{FileFormatUp}}",
+    "description": "Con {{ProdFullName}}, puoi rapidamente incorporare un documento {{FileFormatUp}} in un altro. Questa API offre strumenti robusti per unire documenti con precisione.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica Gratis"
+  },
+  "about": {
+    "title": "Cos'è {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è uno strumento potente per la composizione e la manipolazione di documenti. Permette agli utenti di incorporare un documento in un altro, consentendo l'unione fluida dei contenuti. Con supporto per oltre 50 formati, tra cui PDF, file MS Office e altro, puoi organizzare, modificare e personalizzare il risultato finale per soddisfare le tue esigenze."
+  },
+  "more_features": {
+    "title": "Ottimizza l'unione dei documenti con strumenti avanzati",
+    "description": "La libreria {{ProdFullName}} semplifica l'incorporamento di un documento in un altro, supportando vari formati di file e offrendo personalizzazioni per un'integrazione senza soluzione di continuità.",
+    "image_description": "Caratteristiche principali di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Genera report dai tuoi dati aziendali",
+      "content": "Popola automaticamente i documenti con dati provenienti da JSON, XML, CSV o altre fonti, garantendo flussi di lavoro accurati ed efficienti."
+    },
+    "feature_2": {
+      "title": "Arricchisci i documenti con elementi visivi",
+      "content": "{{ProdShortName}} ti consente di includere tabelle, grafici e elenchi, oltre a testo, collegamenti, immagini e codici a barre generati dinamicamente."
+    },
+    "feature_3": {
+      "title": "Posiziona e formatta i dati con precisione",
+      "content": "I modelli basati su LINQ ti offrono controllo sul posizionamento dei dati, permettendoti di gestire cicli per gli array e consentendo stilizzazioni come la personalizzazione dei colori."
+    },
+    "feature_4": {
+      "title": "Funziona con più formati di file",
+      "content": "Incorpora facilmente documenti l'uno nell'altro tra formati come MS Office, PDF, HTML, OpenOffice e altro."
+    }
+  },
+  "formats": {
+    "title": "Unisci documenti in vari formati",
+    "description": "Con l'API {{EnvName}}, puoi combinare documenti in oltre 50 formati supportati. Incorpora senza sforzo file o sezioni nei tuoi documenti finali."
+  },
+  "operations": {
+    "title": "Scopri i nostri potenti strumenti",
+    "description": "Esplora le funzionalità che {{ProdShortName}} offre per l'incorporamento e l'unione di documenti con precisione."
+  },
+  "examples": {
+    "comment_1": "Aggiungi questo tag al tuo modello per contrassegnare il punto di inserimento",
+    "comment_2": "Specifica il percorso del file per il modello",
+    "comment_3": "Fornisci il percorso del documento da incorporare",
+    "comment_4": "Salva il documento unito"
+  },
+  "steps": {
+    "title": "Come unire un documento in un file {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ti consente di incorporare un documento in un altro file {{FileFormatUp}} senza sforzo. Unisci e personalizza i contenuti.",
+      "step_1": "Progetta un modello {{FileFormatUp}} con segnaposto per il documento incorporato.",
+      "step_2": "Definisci il percorso del file per il modello.",
+      "step_3": "Specifica il percorso del documento da incorporare.",
+      "step_4": "Salva il file finale con il contenuto incorporato."
+    }
+  },
+  "code_1": {
+    "title": "Come incorporare un'immagine in un documento programmaticamente",
+    "content": "Questo esempio dimostra come inserire un'immagine in un documento {{FileFormatUp}} utilizzando {{ProdShortName}}.",
+    "comment_1": "Aggiungi un tag segnaposto nel tuo modello",
+    "comment_2": "Specifica il percorso del file per il modello",
+    "comment_3": "Imposta il percorso del file immagine",
+    "comment_4": "Inizializza un'istanza di {{DocumentAssembler}}",
+    "comment_5": "Salva il documento con l'immagine incorporata"
+  },
+  "texts_pdf": {
+    "step_1": "Progetta un modello con segnaposto specifici per i contenuti da incorporare (i modelli PDF non sono supportati).",
+    "step_4": "Esporta il file completato con il contenuto integrato come documento PDF.",
+    "comment_tmp": "Attualmente, i modelli PDF non possono essere utilizzati."
+  }
+}

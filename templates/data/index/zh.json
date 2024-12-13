@@ -1,0 +1,310 @@
+{
+  "index-content": {
+    "head_title": "GroupDocs的.NET、Java API和在线文档生成应用",
+    "head_description": "获取针对.NET和Java应用的全能文档自动化与报告解决方案。根据自定义模板和数据生成所有常见文档。",
+    "title": "文档自动化和报告解决方案",
+    "description_1": "使用我们的跨平台应用和API，通过模板和数据源轻松生成详细报告。",
+    "description_2": "使用具有灵活标记的模板生成Word、Excel、演示文稿等格式的报告。",
+    "description_3": "使用来自JSON、XML、CSV等源的数据填充图表、条形码、表格和其他元素。",
+    "words_for": "用于",
+    "release_title": "版本 {0} 已发布",
+    "release_notes": "查看新功能",
+    "release_downloads": "下载",
+    "code_more": "更多示例",
+    "overview_title": "{{ProdShortName}} 概述",
+    "code_comment_1": "主模板的路径",
+    "code_comment_2": "从源中检索管理者的生产力数据",
+    "code_comment_3": "创建一个包含数据的 {{DataSourceInfo}} 实例",
+    "code_comment_4": "使用另一个 {{DataSourceInfo}} 设置图表颜色",
+    "code_comment_5": "用数据填充模板并保存到输出",
+    "formats_title": "支持的文件格式",
+    "platforms": {
+      "title": "平台独立性",
+      "head_title": "选择您的平台",
+      "description": "{{ProdShortName}} 兼容以下操作系统和框架：",
+      "learn_more": "了解更多",
+      "any_other_text_editor": "任何其他文本编辑器"
+    },
+    "features": {
+      "title": "{{ProdShortName}} 的主要特点",
+      "description": "该解决方案帮助您在流行的文档格式中创建报告，自动填充您的业务数据。自动化您的文档生成任务。",
+      "feature_1": {
+        "title": "用数据填充模板",
+        "content": "使用来自支持来源的数据填充报告。"
+      },
+      "feature_2": {
+        "title": "灵活的标记",
+        "content": "以可定制的方式向文档添加数据。"
+      },
+      "feature_3": {
+        "title": "本地文档功能",
+        "content": "使用表格、图表和条形码显示数据。"
+      },
+      "feature_4": {
+        "title": "所有流行格式",
+        "content": "支持所有常用文档格式。"
+      }
+    },
+    "formats": {
+      "title": "支持50多种文件格式",
+      "description": "{{ProdShortName}} 可以处理几乎所有流行的文件格式。"
+    },
+    "code_samples": {
+      "title": "代码示例",
+      "index_title": "生成定制良好的报告",
+      "index_description": "{{ProdShortName}} 代码示例",
+      "more_examples": "更多示例",
+      "sample_index": {
+        "title": "使用生成的条形码",
+        "content": "{{ProdShortName}} 允许在报告模板中使用条形码标记。在创建报告时，基于标记和提供的数据生成条形码。指定包含文本、数据对象和标记的模板路径。同时，指定数据源以填充条形码内容。",
+        "comment_1": "创建 {{DocumentAssembler}} 类的实例",
+        "comment_2": "指定模板的路径",
+        "comment_3": "指定结果文档的路径",
+        "comment_4": "创建数据源的实例",
+        "comment_5": "调用 {{AssembleDocument}} 生成报告"
+      },
+      "sample_1": {
+        "code_title": "如何在文档中填充列表",
+        "comment_1": "在文档页面插入此模板：",
+        "comment_2": "管理者的绩效指标",
+        "comment_3": "指定模板路径",
+        "comment_4": "设置输出文件路径",
+        "comment_5": "从JSON源中检索管理者的数据",
+        "comment_6": "生成填充数据的报告"
+      },
+      "sample_2": {
+        "code_title": "如何在饼图中表示数据",
+        "comment_1": "将图表标题模板添加到演示文稿中：",
+        "comment_2": "客户的收入",
+        "comment_3": "还要包括图表数据模板：",
+        "comment_4": "指定图表模板路径",
+        "comment_5": "设置输出文件路径",
+        "comment_6": "从XML源中检索客户的数据",
+        "comment_7": "生成图表并保存结果"
+      }
+    },
+    "metrics": {
+      "title": "我们的产品统计数据",
+      "description": "探索产品指标，以获取我们进展、影响和增长的见解。",
+      "item_1": {
+        "title": "支持的格式",
+        "description": "我们支持50多种最常用的文档格式。"
+      },
+      "item_2": {
+        "title": "NuGet 下载",
+        "description": "{{ProdShortName}} for .NET 是一个流行的库，在NuGet上有超过650,000次下载。"
+      },
+      "item_3": {
+        "title": "Maven 下载",
+        "description": "Java开发者在Maven上下载了{{ProdShortName}}超过18,000次。"
+      },
+      "item_4": {
+        "title": "满意客户",
+        "description": "我们的产品受到全球各地的个人开发者和领先公司的信任，以创建创新解决方案。"
+      }
+    },
+    "customers": {
+      "title": "我们的满意客户",
+      "description": "GroupDocs库被全球一些最著名和备受尊敬的品牌使用。"
+    },
+    "actions": {
+      "alt": "许可",
+      "title": "准备开始吗？",
+      "description": "免费试用{{ProdShortName}}的功能或请求许可证。",
+      "description_index": "在您的平台上免费测试{{ProdShortName}}的功能。"
+    },
+    "faq": {
+      "title": "常见问题",
+      "description": "浏览我们的常见问题。",
+      "item_1": {
+        "question": "{{ProdShortName}} 是否需要任何外部库来进行文档构建？",
+        "answer": "不，{{ProdShortName}} 独立工作，不需要像Adobe Acrobat或Microsoft Office这样的第三方库。"
+      },
+      "item_2": {
+        "question": "我可以在购买之前测试{{ProdShortName}}的功能吗？",
+        "answer": "可以！{{ProdShortName}} 提供免费试用。安装并探索其功能。试用版本会在您的文档中添加“试用标签”，并仅处理前3页。要获得完整体验，请获取免费的30天临时许可证以访问所有功能。有关更多细节，请查看[临时许可证]({{LicensingUrl}})。"
+      },
+      "item_3": {
+        "question": "有哪些类型的许可证可用？",
+        "answer": "您在寻找{{ProdShortName}}许可证吗？我们提供多种选项以满足您的需求。根据团队规模、部署位置（单个办公室或远程）以及您是否需要与客户共享SDK/API进行分发进行选择。或者，选择按月计费的使用许可证，仅为您使用的部分付费。您可以在[定价]({{PricingUrl}})下找到适合您的最佳选项。"
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} 低代码 API",
+      "description": "通过我们的基于云的REST API使用您的应用生成文档。",
+      "item_1": {
+        "content": "使用cURL RESTful API将数据添加到Word、Excel、PowerPoint和其他许多模板中。"
+      },
+      "item_2": {
+        "content": "通过云SDK增强您的.NET应用程序。以您的自定义格式显示业务数据。"
+      },
+      "item_3": {
+        "content": "{{ProdShortName}} SDK为Java应用程序提供不同的选项，以生成各种类型的文档。"
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} 网络应用",
+      "description": "{{ProdShortName}} 提供免费的网络应用程序以生成文档。您可以直接在浏览器中处理50多种流行的文件格式，完全免费。",
+      "item_1": {
+        "content": "直接从您的网页浏览器生成Excel、Word、PowerPoint等文件类型的报告。"
+      },
+      "item_2": {
+        "content": "从模板和数据源创建Microsoft Word文档。"
+      },
+      "item_3": {
+        "content": "上传模板和数据源免费生成Excel报告。"
+      }
+    },
+    "formats_groups": {
+      "title_1": "Microsoft Office 格式",
+      "title_2": "图像及其他格式",
+      "title_3": "其他格式",
+      "format_portable": "可移植",
+      "format_other_office": "其他办公格式",
+      "format_images": "图像",
+      "format_web": "网络",
+      "format_emails": "电子邮件",
+      "format_other": "其他"
+    }
+  },
+  "index-content-net": {
+    "head_title": ".NET文档自动化、组装和报告生成API",
+    "head_description": "C# .NET API用于文档自动化、组装和报告生成。根据自定义模板创建PDF、Word、Excel、PPTX、HTML和电子邮件文档。",
+    "title": ".NET文档自动化和报告API",
+    "description": "通过定义模板和合并数据来在.NET应用程序中生成报告。",
+    "actions_main": "通过NuGet下载试用版",
+    "code_title": "使用C#填充DOCX中的图表",
+    "overview_description": ".NET解决方案用于自动化文档创建及高级数据集成。",
+    "overview_feature_1": {
+      "title": "使用C#将业务数据添加到文档模板",
+      "description": "报告生成变得容易：使用{{ProdFullName}}，您可以轻松将来自JSON或XML等源的数据插入到预定义模板中。"
+    },
+    "overview_feature_2": {
+      "title": "处理本地数据对象",
+      "description": "支持的文档类型包括可以用数据自动填充的嵌入对象，如图示、图表、表格和列表。"
+    },
+    "overview_feature_3": {
+      "title": "其他功能",
+      "description": "{{ProdFullName}} 提供广泛的自定义选项。可以通过编程设计数据对象，生成条形码，通过URL使用在线数据源，以及以多种格式保存输出。"
+    },
+    "features": {
+      "title": "{{ProdShortName}} 功能",
+      "description": "使用高级数据模型创建文档和报告。",
+      "feature_1": {
+        "title": "高级数据表示",
+        "content": "支持多种数据对象，如图表、列表、表格、图像等。"
+      },
+      "feature_2": {
+        "title": "数据处理",
+        "content": "应用公式和顺序操作以有效格式化和显示数据。"
+      },
+      "feature_3": {
+        "title": "广泛支持的格式范围",
+        "content": "与所有常用文档格式无缝协作，无论是模板还是输出文件。"
+      },
+      "feature_4": {
+        "title": "丰富的模板标记",
+        "content": "在模板中利用序数、基数和字母数字格式。"
+      },
+      "feature_5": {
+        "title": "嵌入条形码",
+        "content": "动态生成条形码图像并将其插入到文档中。"
+      },
+      "feature_6": {
+        "title": "数据格式化",
+        "content": "以大写、小写、大写或首字母大写样式格式化模板中的字符串。"
+      },
+      "feature_7": {
+        "title": "文档内容处理",
+        "content": "动态将外部文档中的内容插入到您的报告中。"
+      },
+      "feature_8": {
+        "title": "多种格式保存",
+        "content": "通过文件扩展名或详细配置指定输出文件格式。"
+      },
+      "feature_9": {
+        "title": "灵活的数据处理",
+        "content": "使用Base64编码的字节动态插入图像和文档。"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} 兼容以下操作系统、框架和包管理器。",
+    "formats_description": "{{ProdFullName}} 可以处理以下[文件格式](https://docs.groupdocs.com/assembly/net/supported-document-formats/)。",
+    "code_samples_description": "典型{{ProdShortName}}操作的代码片段。",
+    "code_title_sample_1": "在Microsoft Word文档中插入项目符号列表",
+    "code_samples_sample_1_content_1": "[项目符号列表](https://docs.groupdocs.com/assembly/net/bulleted-list-in-word-processing-document/)是展示商业数据的常见方式。",
+    "code_samples_sample_1_content_2": "以下示例展示如何使用{{ProdShortName}}将列表添加到Word文档中。",
+    "code_title_sample_2": "在PPTX演示文稿中插入饼图",
+    "code_samples_sample_2_content_1": "您可以使用模板和XML数据创建[饼图](https://docs.groupdocs.com/assembly/net/pie-chart-in-presentation-document/)。",
+    "code_samples_sample_2_content_2": "通过直观的数据表现增强您的报告。"
+  },
+  "index-content-java": {
+    "head_title": "Java库用于文档创建、自动化和报告",
+    "head_description": "Java库用于自动化文档创建和生成报告。使用自定义模板创建PDF、Word、Excel、PPTX、HTML和电子邮件文档。",
+    "title": "用于自动化报告和文档的Java API",
+    "description": "通过将数据与模板合并简化Java中的报告生成。",
+    "actions_main": "通过NuGet获取试用版",
+    "code_title": "使用Java在DOCX中生成图表",
+    "overview_description": "一个旨在自动化文档创建和无缝数据集成的Java库。",
+    "overview_feature_1": {
+      "title": "使用Java将业务数据合并到模板",
+      "description": "轻松创建专业报告，通过使用{{ProdFullName}}将JSON、XML或其他源的数据嵌入到预设计的模板中。"
+    },
+    "overview_feature_2": {
+      "title": "处理嵌入对象",
+      "description": "使用来自外部源的数据自动填充文档中的表格、图表和图示等元素。"
+    },
+    "overview_feature_3": {
+      "title": "高级自定义",
+      "description": "{{ProdFullName}} 提供灵活的功能，如生成条形码、通过URL提取在线数据和以不同格式导出输出。"
+    },
+    "features": {
+      "title": "{{ProdShortName}} 的关键能力",
+      "description": "使用先进的数据处理创建专业文档和报告。",
+      "feature_1": {
+        "title": "可视数据元素",
+        "content": "在文档中直接添加和格式化图表、表格、图像和列表等元素。"
+      },
+      "feature_2": {
+        "title": "数据转换",
+        "content": "使用公式、排序和其他工具有效地组织和展示数据。"
+      },
+      "feature_3": {
+        "title": "支持多种格式",
+        "content": "轻松处理常用文件类型，无论是模板还是输出文件。"
+      },
+      "feature_4": {
+        "title": "增强的模板格式设置",
+        "content": "使用数字、字母和其他高级格式选项自定义模板。"
+      },
+      "feature_5": {
+        "title": "动态条形码生成",
+        "content": "迅速在需要时创建和插入条形码图像。"
+      },
+      "feature_6": {
+        "title": "灵活的文本样式",
+        "content": "在模板中应用文本转换，如大写、小写、首字母大写或其他样式。"
+      },
+      "feature_7": {
+        "title": "导入外部内容",
+        "content": "在生成文档时动态嵌入来自外部文件的内容。"
+      },
+      "feature_8": {
+        "title": "以多种格式导出",
+        "content": "使用指定的扩展名或配置保存最终文档。"
+      },
+      "feature_9": {
+        "title": "动态媒体嵌入",
+        "content": "在文档创建过程中使用Base64编码的数据插入图像或其他内容。"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} 与流行的操作系统、开发框架和包管理器无缝协作。",
+    "formats_description": "{{ProdFullName}} 支持广泛的[文档格式](https://docs.groupdocs.com/assembly/java/supported-document-formats/)。",
+    "code_samples_description": "探索{{ProdShortName}}常见任务的示例代码。",
+    "code_title_sample_1": "在Word中创建项目符号列表",
+    "code_samples_sample_1_content_1": "了解如何在Word文档中添加[项目符号列表](https://docs.groupdocs.com/assembly/java/bulleted-list-in-word-processing-document/)，以组织数据表示。",
+    "code_samples_sample_1_content_2": "此示例展示如何使用{{ProdShortName}}在Word中生成列表。",
+    "code_title_sample_2": "在PPTX中创建饼图",
+    "code_samples_sample_2_content_1": "使用模板和XML将[饼图](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/)添加到您的演示文稿中。",
+    "code_samples_sample_2_content_2": "通过包含饼图以可视化数据，让您的报告更具吸引力。"
+  }
+}

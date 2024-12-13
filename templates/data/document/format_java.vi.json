@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": "Chèn một tài liệu vào tài liệu khác trong {{FileFormatUp}} bằng {{ProgLang}}",
+    "description": "Kết hợp các tệp {{FileFormatUp}} bằng {{ProgLang}}. {{ProdShortName}} đơn giản hóa quy trình hợp nhất tài liệu chỉ với một vài dòng mã."
+  },
+  "header": {
+    "title": "Nhúng nội dung vào tệp {{FileFormatUp}} một cách hiệu quả",
+    "description": "Sử dụng {{ProdFullName}} để chèn một tài liệu {{FileFormatUp}} vào tài liệu khác một cách liền mạch. Đạt được kết quả chính xác với các công cụ linh hoạt và đáng tin cậy.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Nhận miễn phí"
+  },
+  "about": {
+    "title": "{{ProdFullName}} là gì?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một giải pháp đa năng cho việc xử lý tài liệu. Nó cho phép bạn tích hợp một tài liệu vào tài liệu khác mà không gặp khó khăn, hỗ trợ hơn 50 định dạng như PDF và tệp MS Office. Tùy chỉnh đầu ra của bạn bằng cách hợp nhất, chỉnh sửa và tổ chức nội dung đúng theo ý muốn."
+  },
+  "more_features": {
+    "title": "Công cụ nâng cao để đơn giản hóa tích hợp tài liệu",
+    "description": "Với {{ProdFullName}}, việc nhúng tài liệu là đơn giản và có thể tùy chỉnh, bất kể loại tệp nào. Đạt được kết quả sạch sẽ và đồng nhất trên các dự án của bạn.",
+    "image_description": "Điểm nổi bật của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Tạo báo cáo sử dụng dữ liệu kinh doanh",
+      "content": "Điền vào tài liệu với dữ liệu từ các nguồn như JSON, XML hoặc CSV một cách nhanh chóng và đáng tin cậy, giúp tinh giản quy trình làm việc của bạn."
+    },
+    "feature_2": {
+      "title": "Cải thiện tài liệu với nội dung trực quan",
+      "content": "{{ProdShortName}} cho phép bạn nhúng bảng, biểu đồ và danh sách bên cạnh văn bản, liên kết, hình ảnh và thậm chí mã vạch động."
+    },
+    "feature_3": {
+      "title": "Đặt dữ liệu chính xác nơi nó thuộc về",
+      "content": "Các mẫu LINQ giúp xác định vị trí dữ liệu của bạn một cách chính xác, xử lý các yếu tố lặp lại như mảng và áp dụng kiểu tùy chỉnh một cách dễ dàng."
+    },
+    "feature_4": {
+      "title": "Tương thích với nhiều định dạng tệp khác nhau",
+      "content": "Hợp nhất tài liệu từ các định dạng khác nhau, bao gồm PDF, HTML, tệp MS Office và OpenOffice, đảm bảo tính linh hoạt cho các dự án của bạn."
+    }
+  },
+  "formats": {
+    "title": "Hợp nhất giữa các loại tài liệu khác nhau",
+    "description": "Với {{EnvName}}, bạn có thể nhúng và kết hợp nội dung qua hơn 50 định dạng tệp. Thêm tài liệu một cách liền mạch để tạo ra những kết quả chuyên nghiệp."
+  },
+  "operations": {
+    "title": "Các khả năng chính trong tầm nhìn",
+    "description": "Khám phá các tính năng phong phú mà {{ProdShortName}} cung cấp để làm cho việc nhúng và kết hợp tài liệu trở nên hiệu quả và không gặp rắc rối."
+  },
+  "examples": {
+    "comment_1": "Sử dụng thẻ này trong mẫu của bạn để đánh dấu vị trí cho tài liệu được nhúng",
+    "comment_2": "Đặt đường dẫn tệp cho mẫu chính",
+    "comment_3": "Cung cấp đường dẫn đến tài liệu mà bạn muốn chèn",
+    "comment_4": "Lưu tệp cuối cùng với nội dung đã nhúng"
+  },
+  "steps": {
+    "title": "Các bước để chèn một tài liệu vào tệp {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) giúp việc nhúng một tài liệu {{FileFormatUp}} vào tài liệu khác trở nên đơn giản và có thể tùy chỉnh.",
+      "step_1": "Chuẩn bị một mẫu {{FileFormatUp}} với các ký hiệu cho nội dung được nhúng.",
+      "step_2": "Chỉ định đường dẫn tệp cho mẫu.",
+      "step_3": "Cung cấp đường dẫn tệp cho tài liệu cần nhúng.",
+      "step_4": "Lưu tệp đầu ra với nội dung đã được hợp nhất."
+    }
+  },
+  "code_1": {
+    "title": "Cách nhúng một hình ảnh vào tài liệu lập trình",
+    "content": "Ví dụ này cho thấy cách nhúng một hình ảnh vào tệp {{FileFormatUp}} sử dụng {{ProdShortName}}.",
+    "comment_1": "Thêm một thẻ ký hiệu trong tệp mẫu",
+    "comment_2": "Xác định đường dẫn đến mẫu",
+    "comment_3": "Chỉ định đường dẫn đến hình ảnh",
+    "comment_4": "Khởi tạo thể hiện {{DocumentAssembler}}",
+    "comment_5": "Lưu tệp với hình ảnh đã nhúng"
+  },
+  "texts_pdf": {
+    "step_1": "Tạo một mẫu với các ký hiệu cho nội dung được nhúng (mẫu PDF hiện không được hỗ trợ).",
+    "step_4": "Lưu tệp cuối cùng với nội dung đã hợp nhất dưới dạng PDF.",
+    "comment_tmp": "Mẫu PDF hiện không được hỗ trợ."
+  }
+}

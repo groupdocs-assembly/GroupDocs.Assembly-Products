@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "Tạo danh sách trong tài liệu {{FileFormatUp}} bằng {{ProgLang}}",
+    "description": "Thiết kế và nhúng danh sách động vào các mẫu {{FileFormatUp}} của bạn với API {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Thêm danh sách động vào tệp {{FileFormatUp}} với API {{EnvNameShort}} của chúng tôi",
+    "description": "{{ProdFullName}} cung cấp các công cụ linh hoạt để tạo và chèn các danh sách chứa dữ liệu trực tiếp vào tài liệu {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Thử miễn phí"
+  },
+  "about": {
+    "title": "{{ProdFullName}} là gì?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) giúp bạn thiết kế tài liệu chuyên nghiệp bằng cách kéo dữ liệu từ nhiều nguồn khác nhau. Sử dụng nó để tạo danh sách, bảng, biểu đồ hoặc văn bản, và đặt các phần tử này chính xác ở nơi cần thiết với các tính năng mẫu nâng cao. Với hỗ trợ cho hơn 50 định dạng, bao gồm PDF, tệp MS Office và tài liệu email, nó giúp tự động hóa và tối ưu hóa quy trình làm việc của bạn."
+  },
+  "more_features": {
+    "title": "Tạo tài liệu từ các mẫu với tích hợp dữ liệu",
+    "description": "{{ProdFullName}} đơn giản hóa việc thêm các danh sách động, bảng, biểu đồ và các thành phần khác vào các mẫu tài liệu.",
+    "image_description": "Các tính năng chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Xây dựng báo cáo với dữ liệu từ nhiều nguồn khác nhau",
+      "content": "Sử dụng dữ liệu từ các định dạng như JSON, XML và CSV để điền các danh sách và các thành phần khác một cách hiệu quả."
+    },
+    "feature_2": {
+      "title": "Thêm danh sách và các yếu tố dữ liệu khác một cách liền mạch",
+      "content": "{{ProdShortName}} cho phép nhúng danh sách, biểu đồ, bảng và nhiều hơn nữa, bên cạnh văn bản, hình ảnh và liên kết để tạo tài liệu hoàn thiện."
+    },
+    "feature_3": {
+      "title": "Kiểm soát chính xác vị trí xuất hiện của dữ liệu",
+      "content": "Các mẫu dựa trên LINQ cho phép bạn xác định chính xác các vị trí cho danh sách và dữ liệu của bạn. Sử dụng vòng lặp để tự động tạo danh sách chi tiết và áp dụng định dạng tùy chỉnh."
+    },
+    "feature_4": {
+      "title": "Hỗ trợ nhiều định dạng tài liệu",
+      "content": "Tạo hoặc chỉnh sửa tệp ở các định dạng như MS Office, PDF, OpenOffice, HTML và email. Hợp nhất nội dung từ nhiều tài liệu khi cần thiết."
+    }
+  },
+  "formats": {
+    "title": "Sản xuất tài liệu ở nhiều định dạng khác nhau",
+    "description": "{{EnvName}} hỗ trợ hơn 50 định dạng, cho phép bạn tạo các tài liệu có cấu trúc bằng cách kết hợp dữ liệu và mẫu."
+  },
+  "operations": {
+    "title": "Khám phá những gì {{ProdShortName}} có thể làm",
+    "description": "Tạo và thiết kế tài liệu giàu nội dung dễ dàng với các công cụ tích hợp dữ liệu nâng cao."
+  },
+  "examples": {
+    "comment_1": "Thêm thẻ này vào mẫu của bạn nơi danh sách nên xuất hiện",
+    "comment_2": "Xác định đường dẫn tệp của mẫu",
+    "comment_3": "Kéo dữ liệu từ nguồn bạn đã chọn",
+    "comment_4": "Lưu tài liệu với danh sách đã nhúng"
+  },
+  "steps": {
+    "title": "Cách thêm danh sách dựa trên dữ liệu vào tài liệu {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) cho phép bạn nhanh chóng chèn các danh sách chứa dữ liệu vào mẫu {{FileFormatUp}}. Tùy chỉnh và tổ chức nội dung một cách dễ dàng.",
+      "step_1": "Tạo một mẫu {{FileFormatUp}} và đánh dấu các vị trí giữ chỗ cho danh sách.",
+      "step_2": "Xác định đường dẫn tệp đến mẫu.",
+      "step_3": "Lấy dữ liệu từ các định dạng được hỗ trợ như JSON hoặc XML.",
+      "step_4": "Lưu tài liệu cuối cùng với danh sách đã được thêm vào."
+    }
+  },
+  "code_1": {
+    "title": "Cách tạo danh sách một cách lập trình",
+    "content": "Ví dụ này cho thấy cách thêm một danh sách một cách động vào tệp {{FileFormatUp}} bằng {{ProdShortName}}.",
+    "comment_1": "Thêm một thẻ giữ chỗ trong mẫu của bạn cho danh sách",
+    "comment_2": "Cung cấp đường dẫn tệp đến mẫu của bạn",
+    "comment_3": "Lấy dữ liệu cần thiết để điền vào danh sách",
+    "comment_4": "Chuẩn bị nguồn dữ liệu với các thông tin cần thiết",
+    "comment_5": "Khởi tạo {{DocumentAssembler}}",
+    "comment_6": "Lưu tài liệu xuất ra với danh sách đã hoàn thành"
+  },
+  "texts_pdf": {
+    "step_1": "Thiết kế một mẫu và xác định các chỗ giữ chỗ cho danh sách (các mẫu PDF không được hỗ trợ).",
+    "step_4": "Lưu tài liệu hoàn chỉnh với danh sách đã bao gồm dưới dạng PDF.",
+    "comment_tmp": "Hiện tại, các mẫu PDF không được hỗ trợ."
+  }
+}

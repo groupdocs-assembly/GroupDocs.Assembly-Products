@@ -1,0 +1,95 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "description": "Format de document portable Adobe"
+      },
+      "docx": {
+        "description": "Document Microsoft Word Open XML"
+      },
+      "xlsx": {
+        "description": "Tableur Microsoft Excel Open XML"
+      },
+      "pptx": {
+        "description": "Présentation PowerPoint Open XML"
+      },
+      "jpeg": {
+        "description": "Image JPEG"
+      }
+    },
+    "format-operations": {
+      "barcode": {
+        "pdf": "Ajouter un code-barres à un PDF",
+        "docx": "Ajouter un code-barres à un DOCX",
+        "xlsx": "Ajouter un code-barres à un XLSX",
+        "pptx": "Ajouter un code-barres à un PPTX"
+      },
+      "chart": {
+        "pdf": "Graphiques dans PDF",
+        "docx": "Graphiques dans DOCX",
+        "xlsx": "Graphiques dans XLSX",
+        "pptx": "Graphiques dans PPTX"
+      },
+      "document": {
+        "pdf": "Intégrer un document dans un PDF",
+        "docx": "Intégrer un document dans un DOCX",
+        "xlsx": "Intégrer un document dans un XLSX",
+        "pptx": "Intégrer un document dans un PPTX"
+      },
+      "list": {
+        "pdf": "Créer une liste dans un PDF",
+        "docx": "Créer une liste dans un DOCX",
+        "xlsx": "Créer une liste dans un XLSX",
+        "pptx": "Créer une liste dans un PPTX"
+      },
+      "table": {
+        "pdf": "Ajouter un tableau à un PDF",
+        "docx": "Ajouter un tableau à un DOCX",
+        "xlsx": "Ajouter un tableau à un XLSX",
+        "pptx": "Ajouter un tableau à un PPTX"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copier",
+      "result_title": "Document d'exemple",
+      "result_title_bottom": "Télécharger le résultat",
+      "copy_tip": "cliquez pour copier",
+      "copy_done": "copié",
+      "links": {
+        "title_1": "Plus d'exemples",
+        "title_2": "Documentation"
+      }
+    },
+    "format-actions": {
+      "title": "Prêt à commencer ?",
+      "description": "Découvrez les fonctionnalités de {{ProdShortName}} gratuitement ou demandez une licence",
+      "comment_1": "Télécharger depuis {{PackageStoreName}}",
+      "comment_2": "En savoir plus sur les licences"
+    },
+    "texts": {
+      "learn_more": "En savoir plus"
+    },
+    "operations": {
+      "barcode": {
+        "name": "Générer des codes-barres",
+        "description": "Créer et ajouter dynamiquement des codes-barres aux documents"
+      },
+      "chart": {
+        "name": "Visualiser des données avec des diagrammes",
+        "description": "Remplir divers types de diagrammes avec des données"
+      },
+      "document": {
+        "name": "Fusionner des documents",
+        "description": "Combiner le contenu d'un document dans un autre"
+      },
+      "list": {
+        "name": "Afficher des données avec des listes",
+        "description": "Générer des listes dans les documents en utilisant des données spécifiques"
+      },
+      "table": {
+        "name": "Organiser des données dans des tableaux",
+        "description": "Récupérer des données de n'importe quelle source et peupler des tableaux"
+      }
+    }
+  }
+}

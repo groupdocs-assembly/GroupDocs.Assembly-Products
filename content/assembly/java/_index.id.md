@@ -1,292 +1,271 @@
 ---
-layout: "product"
-date: 2022-07-07T12:44:18+03:00
+############################# Static ############################
+layout: "landing"
+date: 2024-12-13T10:30:57
 draft: false
 
+lang: id
 product: "Assembly"
 product_tag: "assembly"
 platform: "Java"
 platform_tag: "java"
 
-head_title: "Perakitan Otomatisasi Dokumen Java & API Pembuat Laporan Dinamis"
-head_description: "Java API untuk otomatisasi dokumen, perakitan & pelaporan. Buat laporan dari template khusus. Rakit PDF Word Excel PPTX HTML dari sumber data DB, JSON, OData & XML."
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
 
-title: "Java API untuk Mengotomatiskan Dokumen & Laporan"
-description: "Membangun Aplikasi Otomasi Dokumen untuk Mengambil Data; letakkan di Template yang Dapat Disesuaikan & Hasilkan Laporan Dinamis melalui Java API."
-button:
-    enable: true
+############################# Head ############################
+head_title: "Perpustakaan Java untuk Pembuatan, Otomasi & Pelaporan Dokumen"
+head_description: "Perpustakaan Java untuk mengotomatisasi pembuatan dokumen dan menghasilkan laporan. Buat dokumen PDF, Word, Excel, PPTX, HTML, dan email menggunakan template kustom."
 
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Assembly for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-assembly-java.png"
-        product: "GroupDocs.Assembly"
-        platform: "Java"
+############################# Header ############################
+title: "API Java untuk Mengotomatisasi Laporan dan Dokumen"
+description: "Sederhanakan pembuatan laporan di Java dengan menggabungkan data dengan template."
+words:
+  for: "untuk"
 
-    middle:
-        button:
-            - link: "#overview"
-              text: "Ringkasan"
+actions:
+  main: "Dapatkan Uji Coba melalui NuGet"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-assembly/"
+  alt: "Lisensi"
+  alt_link: "https://purchase.groupdocs.com/pricing/assembly/java/"
+  title: "Siap untuk Memulai?"
+  description: "Coba fitur GroupDocs.Assembly secara gratis atau minta lisensi."
 
-            - link: "#features"
-              text: "Fitur"
+release:
+  title: "Versi {0} dirilis"
+  notes: "Lihat apa yang baru"
+  downloads: "Unduhan"
 
-            - link: "#support"
-              text: "Mendukung"
+code:
+  title: "Hasilkan Grafik di DOCX dengan Java"
+  more: "Lebih banyak contoh"
+  more_link: "https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-Java/"
+  install_title : "Maven XML"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-assembly</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}
+    // Path ke template utama
+    String template = "chart_template.docx";
 
-            - link: "https://products.groupdocs.app/assembly"
-              text: "Demo Langsung"
+    // Ambil data produktivitas manajer dari sumber
+    DocumentTable data_table = 
+        new DocumentTable("Managers.json", 1);
 
-            - link: "https://purchase.groupdocs.com/pricing/assembly/java"
-              text: "Harga"
+    // Buat instance DataSourceInfo dengan data
+    DataSourceInfo data 
+        = new DataSourceInfo(data_table, "managers");
 
-    right:
-        link_download: "https://downloads.groupdocs.com/assembly"
-        link_learn: "https://docs.groupdocs.com/assembly/java/"
-        link_buy: "https://purchase.groupdocs.com"
+    // Atur warna grafik menggunakan DataSourceInfo lain
+    DataSourceInfo design = 
+        new DataSourceInfo("red", "color");
 
+    // Isi template dengan data dan simpan ke output
+    DocumentAssembler asm = new DocumentAssembler();
+    asm.assembleDocument(template, "result.docx", data, design);
+    ```
+
+############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Assembly for Java API membantu Anda dengan cepat mengembangkan otomatisasi dokumen dan aplikasi pelaporan di Java untuk menghasilkan laporan kustom dari template tanpa menginstal perangkat lunak eksternal apa pun. Mesin pembuat laporan mengambil data dari dokumen template, merakitnya dan menghasilkan laporan dalam format output yang ditentukan sesuai dengan sintaks yang ditentukan. Ini memungkinkan Anda untuk mengonfigurasi dan menyisipkan properti pemformatan elemen template secara dinamis dan mendukung berbagai sumber data (JSON, XML, OData, database, CSV, spreadsheet sebagai tabel data, tabel pengolah kata sebagai tabel data dan database) untuk mengambil data.  
-
-      Pustaka rakitan dokumen mengenali beberapa format dokumen dan memungkinkan Anda membuat templat di semua jenis file yang didukung seperti PDF, HTML, email Outlook, Microsoft Office Word, lembar kerja Excel, presentasi PowerPoint, dan teks. Ini mendukung sintaks template berbasis LINQ dan pengguna juga dapat mengonfigurasi dan menyisipkan properti pemformatan elemen template secara dinamis.  
-
-      GroupDocs.Assembly untuk Java mudah diintegrasikan dengan aplikasi java baru atau yang sudah ada. Ini sangat kompatibel dengan semua versi Java dan mendukung sistem operasi populer (Windows, Linux, MacOS) yang mampu menjalankan runtime Java.
-    tabs:
-      enable: true     
-      
-      tab_one:
-        description: |
-          Berikut ini adalah ikhtisar GroupDocs.Assembly untuk Java:
-
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Ringkasan"
-          content: |
-            * Formulasi Data
-            * Pemformatan Data
-            * Otomatisasi Data
-            * Buat Template
-            * Pemformatan Elemen Template
-            * Pembuatan Laporan
-      
-      tab_two:
-        description: |
-          [Format file dokumen](https://docs.groupdocs.com/assembly/java/supported-document-formats/) yang didukung untuk API pembuatan dokumen Java tercantum di bawah ini.
-
-        left:
-          enable: true
-          table:
-            - title: "Format Microsoft Office"
-              content: |
-                * **Kata**: DOC, DOCX, DOT, DOTX, DOTM, DOCM, RTF, WordprocessingML (XML)
-                * **Excel**: XLS, XLSX, XLSM, XLSB, XLT, XLTM, XLTX, SpreadsheetML (XML)
-                * **PowerPoint**: PPT, PPTX, PPTM, PPS, PPSX, PPSM, POTX, POTM
-                * **Outlook**: EML, EMLX, MSG, MHT
-
-            - title: "Sumber Data yang Didukung"
-              content: |
-                * Basis Data
-                * XML
-                * OData
-                * JSON
-                * CSV
-                * Objek .NET Kustom
-                * Spreadsheet sebagai Tabel Data
-                * Tabel Pengolah Kata sebagai Tabel Data
-
-        right:
-          enable: true
-          table:
-            - title: "Format lainnya"
-              content: |
-                * **Format Dokumen OpenOffice**: ODT, OTT, ODS, ODP
-                * **Email**: MHT, MHTML
-                * **Web**: HTML
-                * **File Dokumentasi Penurunan Harga**: MD
-                * **Lainnya**: TXT
-
-            - title: "Dukungan Perakitan Antar-Format"
-              content: |
-                * Pemrosesan Kata **TO** Pemrosesan Kata, HTML, PDF, XPS, TIFF, MHTML, Penurunan Harga, TXT, XAML, OpenXPS, EPUB, SVG, PS, PCL
-                * Spreadsheet **TO** Spreadsheet, HTML, PDF, XPS, TIFF, MHTML
-                * Presentasi **TO** Presentasi, HTML, PDF, XPS, TIFF
-                * Email **TO** Pemrosesan Kata, Email, HTML, PDF, XPS, TIFF, MHTML, Penurunan Harga, TXT, XAML, OpenXPS, EPUB, SVG, PS, PCL
-                * HTML & TXT **TO** Pemrosesan Kata, HTML, PDF, XPS, TIFF, MHTML, Penurunan Harga, TXT, XAML, OpenXPS, EPUB, SVG, PS, PCL
-
-      tab_three:
-        description: |
-          GroupDocs.Assembly untuk Java mendukung Sistem Operasi, Kerangka Kerja & Manajer Paket berikut:
-        
-        left:
-          enable: true
-          table:
-            - icon: "fab fa-windows"
-              title: "Sistem operasi"
-              content: |
-                * Microsoft Windows Desktop
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
-
-            - icon: "fas fa-code"
-              title: "Kerangka yang Didukung"
-              content: |
-                * Java 7 (1.7) ke atas
-
-        right:
-          enable: true
-          table:
-            - icon: "fas fa-cogs"
-              title: "Lingkungan Pengembangan"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-            - icon: "fas fa-tools"
-              title: "Bangun Alat Otomatisasi"
-              content: |
-                * Maven
-
-features:
-    enable: true
-    title: "GroupDocs.Assembly untuk Fitur Java"
-
-    feature:
-      - icon: "fas fa-copy"
-        content: "Sesuaikan Gambar di Textbox Word, Excel, Presentasi & Email sambil Mempertahankan Rasio Gambar"
-
-      - icon: "fas fa-eye"
-        content: "Gunakan Rumus & Lakukan Operasi Data Berurutan - Terapkan Rumus selama Perakitan Spreadsheet"
-
-      - icon: "fas fa-bolt"
-        content: "Terapkan Pemformatan Atas, Bawah, Kapital, FirstCap ke String di Sintaks Template"
-      
-      - icon: "fas fa-file-powerpoint"
-        content: "Dukungan Sintaks Templat Pemformatan Sifat Numerik Ordinal, Kardinal, Alfabetik"
-
-      - icon: "fas fa-code"
-        content: "Mendukung Dokumen Template dengan Variabel Khusus & Komentar Teks dalam Tag Sintaks Template"
-
-      - icon: "fas fa-cloud"
-        content: "Sisipkan Konten Dokumen Secara Dinamis dalam Laporan"
-
-      - icon: "fas fa-remove-format"
-        content: "Konfigurasi Secara Dinamis Warna Latar Belakang Dokumen HTML & Hasilkan Barcode di Laporan"
-
-      - icon: "fas fa-comment-slash"
-        content: "Sisipkan Hyperlink secara Dinamis di Laporan & Terapkan Atribut ke Badan Pesan Email"
-
-      - icon: "fas fa-location-arrow"
-        content: "Lampirkan Lampiran Email dan Perbarui Bidang Secara Dinamis selama Perakitan Dokumen Pemrosesan Kata"
-
-      - icon: "fas fa-border-all"
-        content: "Dukungan Analog Bidang BERIKUTNYA dari Microsoft Word"
-
-      - icon: "fas fa-wrench"
-        content: "Tambahkan Tautan dan Bookmark secara Dinamis ke Format Dokumen dan Beri Nama Rentang Sel Spreadsheet Excel"
-
-      - icon: "fas fa-columns"
-        content: "Memuat & Menyimpan Format Dokumen Presentasi POT & OTP Rakitan"
-
-      - icon: "fas fa-file-word"
-        content: "Pemformatan Template untuk Numerik, Teks, Gambar, Tanggal-Waktu, Elemen Bagan"
-
-      - icon: "fas fa-envelope"
-        content: "Sisipkan gambar & dokumen secara dinamis dari byte yang disandikan Base64"
-
-      - icon: "fas fa-print"
-        content: "Sintaks Template Berbasis LINQ"
-
-      - icon: "fas fa-file-archive"
-        content: "Ubah Format File Rakitan menggunakan Spesifikasi Eksplisit atau Ekstensi File"
-
-      - icon: "fas fa-lock"
-        content: "Daftar Pesanan Didukung untuk Penurunan Harga - Simpan Email & Dokumen Word yang Baru Dirakit ke Penurunan Harga"
-
-      - icon: "fas fa-file-code"
-        content: "Hasilkan Berbagai Jenis Laporan, mis., Bagan, Gambar, Tabel, Daftar, dan lainnya"
-      
-      - icon: "fas fa-fill-drip"
-        content: "Kesalahan Sintaks Template Sebaris dalam Dokumen yang Dihasilkan alih-alih Melempar Pengecualian"
-
-      - icon: "fas fa-file-excel"
-        content: "Mulai Ulang Daftar Bernomor secara Dinamis di Dokumen Word serta Email dengan Badan HTML & RTF"
-
-      - icon: "fas fa-heading"
-        content: "Dukungan Tabel, Tautan Otomatis, Tautan Sebaris, dan Gambar untuk Dokumen Penurunan Harga Rakitan"
-
-      - icon: "fas fa-project-diagram"
-        content: "Menghasilkan Barcode Secara Dinamis (GS1-128 AI 8102 Kupon Diperpanjang dan Kupon UPCA & GS1 Databar"
-
-      - icon: "fas fa-cube"
-        content: "Muat Dokumen Template dari HTML dengan Sumber Daya dan Simpan Rakitan Word, Excel, PowerPoint & Email ke HTML dengan Sumber Daya"
-
-    more_feature:
-      - title: "Memanipulasi Elemen Template"
-        content: |
-          Manipulasi banyak elemen template dengan GroupDocs.Assembly untuk Java API. Elemen template yang dapat Anda gunakan termasuk, blok teks, Gambar, Hyperlink, blok HTML, Barcode (melalui font Barcode), dan Bagan. Anda juga dapat menerapkan blok berulang & blok bersyarat untuk item daftar dan baris tabel. Penggabungan dinamis sel tabel yang menyimpan teks yang sama, berdasarkan ekspresi template untuk dokumen, presentasi, spreadsheet, dan email dengan badan HTML dan RTF.
-      
-      - title: "Memanipulasi Daftar Laporan"
-        content: |
-          Menggunakan GroupDocs.Assembly untuk Java API, mendukung jenis Laporan Daftar berikut:  
-
-          * Daftar Berpoin
-          * Daftar Bernomor
-          * Daftar Bernomor Berwarna
-
-      - title: "Memanipulasi Laporan Bagan"
-        content: |
-          GroupDocs.Assembly untuk Java mendukung jenis Laporan Bagan berikut:
-
-          * Bagan Gelembung, yang menampilkan tiga dimensi data
-          * Bagan Kolom
-          * Pie chart
-          * Bagan Sebar
-          * Bagan Seri (Berwarna)
-
-      - title: "Memanipulasi Laporan Tabel"
-        content: |
-          GroupDocs.Assembly untuk Java mendukung jenis Laporan Tabel berikut:  
-
-          * Tabel Master-Detail
-          * Tabel dengan Baris yang Disorot
-          * Tabel dengan Konten Alternatif
-          * Tabel dengan Filtering, Grouping, dan Ordering  
-
-          Anda juga dapat menggunakan Pita Data di baris tabel.
-
-      - title: "Memanipulasi Laporan Bagan"
-        content: |
-          Integrasi GroupDocs.Assembly untuk Java API dengan aplikasi Java Anda sangat mudah. Berikut ini adalah contoh blok kode yang menghasilkan laporan dalam format OpenDocument menggunakan Java:  
-
-          ```java
-          // Membuat instance kelas DocumentAssembler
-          DocumentAssembler assembler = new DocumentAssembler();
-          //Panggil AssembleDocument untuk menghasilkan laporan
-          assembler.assembleDocument("D:\\WordTemplates\\Nested External Document.docx", "D:\\WordReports\\Nested External Document.docx", 
-          new DataSourceInfo( new DataStorage(), null));
-          //(Lihat detail metode DataStorage() baru di https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-Java)
-          ```
-
-support:
-    enable: true
-
-solutions:
-    enable: true
-    title: "GroupDocs.Assembly menawarkan API tampilan dokumen untuk lingkungan pengembangan populer lainnya"
-
-    solution:
-        - img_alt: "GroupDocs.Assembly for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-assembly-net.png"
-          product: "GroupDocs.Assembly"
-          platform: ".NET"
-          link: "/assembly/net/"
-
-back_to_top:
   enable: true
+  title: "Ikhtisar GroupDocs.Assembly"
+  description: "Perpustakaan Java yang dirancang untuk pembuatan dokumen otomatis dan integrasi data yang mulus."
+  features:
+    # feature loop
+    - title: "Gabungkan Data Bisnis ke dalam Template dengan Java"
+      content: "Buat laporan profesional dengan mudah dengan memasukkan data dari JSON, XML, atau sumber lain ke dalam template yang telah dirancang menggunakan GroupDocs.Assembly for Java."
+
+    # feature loop
+    - title: "Bekerja dengan Objek Tertanam"
+      content: "Isi elemen secara otomatis seperti tabel, grafik, dan diagram dalam dokumen menggunakan data dari sumber eksternal."
+
+    # feature loop
+    - title: "Kustomisasi Canggih"
+      content: "GroupDocs.Assembly for Java menawarkan fitur fleksibel seperti menghasilkan barcode, menarik data online melalui URL, dan mengekspor output dalam berbagai format."
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Independensi platform"
+  description: "GroupDocs.Assembly for Java bekerja dengan mulus dengan sistem operasi, framework, dan pengelola paket populer."
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Format file yang didukung"
+  description: |
+    GroupDocs.Assembly for Java mendukung berbagai [format dokumen](https://docs.groupdocs.com/assembly/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Format Microsoft Office
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF, WordprocessingML
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPTM, PPS, PPSX, PPSM, POTM, POTX
+    # group loop
+    - color: "blue"
+      content: |
+        ### Gambar & Format Lainnya
+        * **Portabel:** PDF
+        * **Gambar:** SVG, TIFF
+        * **Format kantor lainnya:** ODT, OTT, OTS, ODS, ODP, OTP
+      # group loop
+    - color: "red"
+      content: |
+        ### Format Lainnya
+        * **Web:** HTML, MHTML
+        * **Email:** EML, MSG, EMLX
+        * **Lainnya:** EPUB, MD
+
+############################# Features ############################
+features:
+  enable: true
+  title: "Kemampuan Utama GroupDocs.Assembly"
+  description: "Buat dokumen profesional dan laporan dengan penanganan data yang canggih."
+
+  items:
+    # feature loop
+    - icon: "preview"
+      title: "Elemen Data Visual"
+      content: "Tambahkan dan format elemen seperti grafik, tabel, gambar, dan daftar langsung di dokumen Anda."
+
+    # feature loop
+    - icon: "manipulate"
+      title: "Transformasi Data"
+      content: "Gunakan formula, penyortiran, dan alat lainnya untuk mengatur dan menyajikan data Anda secara efektif."
+
+    # feature loop
+    - icon: "two_pages"
+      title: "Dukungan untuk Berbagai Format"
+      content: "Dengan mudah bekerja dengan tipe file umum untuk template dan file output."
+
+    # feature loop
+    - icon: "document_settings"
+      title: "Format Template yang Ditingkatkan"
+      content: "Kustomisasi template dengan opsi format numerik, alfabetik, dan lainnya."
+
+    # feature loop
+    - icon: "text"
+      title: "Pembuatan Barcode Dinamis"
+      content: "Dengan cepat buat dan sisipkan gambar barcode ke dalam dokumen sesuai kebutuhan."
+
+    # feature loop
+    - icon: "add"
+      title: "Gaya Teks Fleksibel"
+      content: "Terapkan transformasi teks seperti huruf besar, huruf kecil, gaya judul, atau gaya lain dalam template."
+
+    # feature loop
+    - icon: "manipulate"
+      title: "Impor Konten Eksternal"
+      content: "Sisipkan konten dari file eksternal secara dinamis saat menghasilkan dokumen."
+
+    # feature loop
+    - icon: "convert"
+      title: "Ekspor dalam Berbagai Format"
+      content: "Simpan dokumen akhir dalam berbagai format file menggunakan ekstensi atau konfigurasi yang ditentukan."
+
+    # feature loop
+    - icon: "update"
+      title: "Sisipan Media Dinamis"
+      content: "Sisipkan gambar atau konten lain menggunakan data yang terenkode Base64 saat pembuatan dokumen."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Contoh kode"
+  description: "Jelajahi kode sampel untuk tugas umum dengan GroupDocs.Assembly."
+  items:
+    # code sample loop
+    - title: "Buat Daftar Bertitik di Word"
+      content: |
+        Pelajari cara menambahkan [daftar bertitik](https://docs.groupdocs.com/assembly/java/bulleted-list-in-word-processing-document/) ke dokumen Word untuk representasi data yang terorganisir. Contoh ini menunjukkan cara menghasilkan daftar di Word menggunakan GroupDocs.Assembly.
+        {{< landing/code title="Buat Daftar Bertitik di Word">}}
+        ```java {style=abap}
+        // Sisipkan template ini di halaman dokumen:
+        // Indikator kinerja manajer
+        // . <<foreach [in products]>><<[ProductName]>>
+        // <</foreach>>
+
+        // Tentukan path template
+        String template = "Bulleted List Template.docx";
+
+        // Atur path file output
+        String result = "Result Report.docx"
+
+        // Ambil data manajer dari sumber JSON
+        JsonDataSource dataSource = new JsonDataSource("Report data.json");
+        DataSourceInfo data = new DataSourceInfo(dataSource, "managers")
+
+        // Hasilkan laporan dengan data yang diisi
+        DocumentAssembler assembler = new DocumentAssembler();
+        assembler.assembleDocument(template, result, data);
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Buat Grafik Pie di PPTX"
+      content: |
+        Gunakan template dan XML untuk menambahkan [grafik pie](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/) ke presentasi Anda. Buat laporan Anda lebih menarik dengan menyertakan grafik pie untuk memvisualisasikan data.
+        {{< landing/code title="Buat Grafik Pie di PPTX">}}
+        ```java {style=abap}   
+        // Tambahkan template judul grafik ke presentasi:
+        // Pendapatan pelanggan <<foreach [in customers]>> 
+        // <<x [CustomerName]>>
+
+        // Sertakan juga template data grafik:
+        // Total Order Price<<foreach [in customers]>> 
+        // <<x [CustomerName]>>
+
+        // Tentukan path template grafik
+        String template = "Pie Chart Template.pptx";
+
+        // Atur path file output
+        String result = "Result Report.pptx"
+
+        // Ambil data pelanggan dari sumber XML
+        JsonDataSource dataSource = new JsonDataSource("Chart data.xml");
+        DataSourceInfo data = new DataSourceInfo(dataSource, "customers")
+
+        // Hasilkan grafik dan simpan hasilnya
+        DocumentAssembler assembler = new DocumentAssembler();
+        assembler.assembleDocument(template, result, data);
+        ```
+        {{< /landing/code >}}
+
 ---

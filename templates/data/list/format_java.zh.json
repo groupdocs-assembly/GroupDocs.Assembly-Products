@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "使用{{ProgLang}}在{{FileFormatUp}}文档中创建列表",
+    "description": "使用{{ProdFullName}} API设计和嵌入动态列表到您的{{FileFormatUp}}模板中。"
+  },
+  "header": {
+    "title": "通过我们的{{EnvNameShort}} API向{{FileFormatUp}}文件添加动态列表",
+    "description": "{{ProdFullName}}提供灵活的工具，可以直接在{{FileFormatUp}}文档中生成和插入数据丰富的列表。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费试用"
+  },
+  "about": {
+    "title": "{{ProdFullName}}是什么？",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})使通过从多个来源提取数据来设计专业文档变得简便。使用它创建列表、表格、图表或文本，并使用高级模板功能将这些元素放置在所需位置。支持包括PDF、MS Office文件和电子邮件文档在内的50种以上格式，有助于自动化和简化您的工作流程。"
+  },
+  "more_features": {
+    "title": "通过数据集成从模板生成文档",
+    "description": "{{ProdFullName}}简化了向文档模板中添加动态列表、表格、图表和其他组件的过程。",
+    "image_description": "{{ProdShortName}}的关键特性",
+    "feature_1": {
+      "title": "利用多种来源的数据构建报告",
+      "content": "使用JSON、XML和CSV等格式的数据高效填充列表和其他组件。"
+    },
+    "feature_2": {
+      "title": "无缝添加列表和其他数据元素",
+      "content": "{{ProdShortName}}支持将列表、图表、表格等嵌入文本、图像和链接中，以创建精美的文档。"
+    },
+    "feature_3": {
+      "title": "精准控制数据出现的位置",
+      "content": "基于LINQ的模板允许您定义列表和数据的确切位置。使用循环自动创建详细列表，并应用自定义格式。"
+    },
+    "feature_4": {
+      "title": "支持多种文档格式",
+      "content": "创建或编辑MS Office、PDF、OpenOffice、HTML和电子邮件等格式的文件。根据需要合并来自多个文档的内容。"
+    }
+  },
+  "formats": {
+    "title": "在多种格式中生成文档",
+    "description": "{{EnvName}}支持超过50种格式，使您能够通过结合数据和模板创建结构化文档。"
+  },
+  "operations": {
+    "title": "发现{{ProdShortName}}的功能",
+    "description": "使用先进的数据集成工具轻松设计和生成内容丰富的文档。"
+  },
+  "examples": {
+    "comment_1": "在模板中包含此标签以指示列表应出现的位置",
+    "comment_2": "定义模板的文件路径",
+    "comment_3": "从您选择的来源提取数据",
+    "comment_4": "将文档保存为嵌入列表的文件"
+  },
+  "steps": {
+    "title": "如何将数据驱动的列表添加到{{FileFormatUp}}文档中",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})使您能够快速将数据丰富的列表插入到{{FileFormatUp}}模板中。自定义和组织内容轻松便捷。",
+      "step_1": "创建一个{{FileFormatUp}}模板，并标记列表的占位符位置。",
+      "step_2": "设置模板的文件路径。",
+      "step_3": "从支持的格式（如JSON或XML）中获取数据。",
+      "step_4": "保存添加了列表的最终文档。"
+    }
+  },
+  "code_1": {
+    "title": "如何通过编程创建列表",
+    "content": "此示例展示了如何使用{{ProdShortName}}动态添加列表到{{FileFormatUp}}文件中。",
+    "comment_1": "在模板中添加列表的占位符标签",
+    "comment_2": "提供模板的文件路径",
+    "comment_3": "提取所需数据以填充列表",
+    "comment_4": "准备包含必要详细信息的数据源",
+    "comment_5": "初始化{{DocumentAssembler}}",
+    "comment_6": "保存包含完整列表的输出文档"
+  },
+  "texts_pdf": {
+    "step_1": "设计一个模板并指定列表的占位符（当前不支持PDF模板）。",
+    "step_4": "将包含列表的完成文档作为PDF保存。",
+    "comment_tmp": "当前不支持PDF模板。"
+  }
+}

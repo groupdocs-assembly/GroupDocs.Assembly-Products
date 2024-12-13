@@ -1,0 +1,77 @@
+{
+  "head": {
+    "title": "使用 {{ProgLang}} 在 {{FileFormatUp}} 文档中生成图表",
+    "description": "{{ProdFullName}} API 使开发人员能够无缝地创建并插入动态图表或图形到文档中，依赖于实时数据。"
+  },
+  "header": {
+    "title": "使用 {{EnvNameShort}} API 将图表添加到 {{FileFormatUp}} 文档中",
+    "description": "{{ProdFullName}} 通过利用实时数据简化了将图表嵌入 {{FileFormatUp}} 文档的过程。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费开始"
+  },
+  "about": {
+    "title": "关于 {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是一个多功能解决方案，用于自动化文档和报告的创建。它使您能够将图表、表格、列表、条形码和图像直接添加到文件中，并提供用于精准格式化和数据集成的高级工具。该平台支持超过 50 种格式，包括 PDF、Microsoft Office 文件和电子邮件。"
+  },
+  "more_features": {
+    "title": "轻松地在文档中嵌入动态图表",
+    "description": "{{ProdFullName}} 提供了一种便捷的方式来构建数据丰富的流行格式文档。使用模板插入图表、表格、条形码、列表、链接和图像，并利用实时数据进行动态更新。",
+    "image_description": "{{ProdShortName}} 的关键特点",
+    "feature_1": {
+      "title": "简单将数据转换为图表",
+      "content": "使用 API 将来自 JSON、XML、CSV 或其他源的数据转换为干净专业的图表，以便插入您的文档。"
+    },
+    "feature_2": {
+      "title": "创建视觉冲击力强的内容",
+      "content": "{{ProdShortName}} 支持多种视觉格式，包括条形图、饼图和折线图，可以与表格、条形码、图像等结合使用，以增强报告的效果。"
+    },
+    "feature_3": {
+      "title": "可自定义的图表位置和样式",
+      "content": "借助基于 LINQ 的语法，您可以动态生成并定位文档中的图表，同时轻松调整样式、颜色和布局以满足设计需求。"
+    },
+    "feature_4": {
+      "title": "支持多种文档格式",
+      "content": "生成 MS Office、PDF、OpenOffice 和 HTML 格式的文档。所生成的图表可以无缝整合到任何受支持的格式中，以获得专业的效果。"
+    }
+  },
+  "formats": {
+    "title": "在多种格式中生成综合报告",
+    "description": "{{EnvName}} 允许您在超过 50 种文件格式中创建集成图表的文档，确保模板和数据的无缝合并。"
+  },
+  "operations": {
+    "title": "探索强大的功能",
+    "description": "该平台简化了设计以数据为中心、视觉吸引人的文档的过程，满足您的需求。"
+  },
+  "examples": {
+    "comment_1": "在模板中添加此标签以包括图表",
+    "comment_2": "提供模板的文件路径",
+    "comment_3": "从源中提取必要的数据",
+    "comment_4": "保存包含嵌入图表的最终文档"
+  },
+  "steps": {
+    "title": "将图表嵌入 {{FileFormatUp}} 文档的步骤",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 简化了在 {{FileFormatUp}} 模板中插入图表的过程。可选择多种图表样式，包括条形图、饼图和折线图。",
+      "step_1": "创建一个包含图表占位符的 {{FileFormatUp}} 模板。",
+      "step_2": "从兼容的源加载数据。",
+      "step_3": "设置图表选项，例如类型、标签和颜色。",
+      "step_4": "保存包含图表的文档。"
+    }
+  },
+  "code_1": {
+    "title": "以编程方式生成并嵌入图表",
+    "content": "该示例演示了如何以编程方式创建并嵌入图表到 {{FileFormatUp}} 文档中。",
+    "comment_1": "准备一个模板，其中包含图表的占位符",
+    "comment_2": "指定模板的文件路径",
+    "comment_3": "从所选源加载数据",
+    "comment_4": "创建一个包含相关信息的数据对象",
+    "comment_5": "配置图表的类型和外观",
+    "comment_6": "初始化 {{DocumentAssembler}}",
+    "comment_7": "保存完成的文档，其中包含嵌入的图表"
+  },
+  "texts_pdf": {
+    "step_1": "创建一个包含图表占位符的模板（不支持 PDF 模板）。",
+    "step_4": "将包含图表的文档保存为 PDF 文件。",
+    "comment_tmp": "目前不支持 PDF 模板。"
+  }
+}

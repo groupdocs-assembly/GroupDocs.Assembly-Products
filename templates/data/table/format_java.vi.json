@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "Thêm bảng vào tài liệu {{FileFormatUp}} bằng {{ProgLang}}",
+    "description": "Với {{ProdFullName}}, các nhà phát triển có thể nhanh chóng tích hợp bảng vào tài liệu và email, kéo dữ liệu từ các nguồn động."
+  },
+  "header": {
+    "title": "Dễ dàng điền bảng vào tệp {{FileFormatUp}} với API {{EnvNameShort}} của chúng tôi",
+    "description": "{{ProdFullName}} đơn giản hóa quy trình điền bảng trong tài liệu {{FileFormatUp}} bằng dữ liệu từ nhiều nguồn khác nhau.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Nhận Bản Dùng Thử Miễn Phí"
+  },
+  "about": {
+    "title": "{{ProdFullName}} là gì?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một công cụ tạo tài liệu và báo cáo bằng cách tự động chèn dữ liệu vào các mẫu đã thiết kế sẵn. Bạn có thể dễ dàng thêm bảng, danh sách, biểu đồ và hình ảnh. Các tính năng tiên tiến cho phép bạn đặt nội dung chính xác trong tài liệu của mình. Tương thích với hơn 50 định dạng tệp, bao gồm PDF, MS Office và các định dạng email."
+  },
+  "more_features": {
+    "title": "Tạo tài liệu với bảng đã điền dữ liệu",
+    "description": "{{ProdFullName}} giúp việc tự động hóa tạo bảng trong tài liệu của bạn trở nên đơn giản. Nó cũng hỗ trợ thêm các phần tử như biểu đồ, danh sách và hình ảnh bằng cách sử dụng các mẫu.",
+    "image_description": "Các Tính Năng Chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Tạo báo cáo từ nhiều định dạng dữ liệu",
+      "content": "API hoạt động liền mạch với JSON, XML, CSV và các định dạng khác để điền bảng trong tài liệu của bạn với dữ liệu có tổ chức."
+    },
+    "feature_2": {
+      "title": "Trình bày thông tin một cách trực quan",
+      "content": "{{ProdShortName}} giúp bạn xây dựng bảng, danh sách và biểu đồ chuyên nghiệp, cũng như chèn liên kết, văn bản và hình ảnh, để có cái nhìn tinh tế."
+    },
+    "feature_3": {
+      "title": "Đặt nội dung bảng một cách chính xác",
+      "content": "Sử dụng cú pháp linh hoạt dựa trên LINQ để thêm hàng và cột một cách động. Tùy chỉnh giao diện, chẳng hạn như kiểu và màu sắc phông chữ, một cách lập trình."
+    },
+    "feature_4": {
+      "title": "Tương thích với nhiều định dạng",
+      "content": "Làm việc với MS Office, OpenOffice, PDF, HTML và nhiều định dạng khác. Gộp bảng vào bất kỳ định dạng tệp nào được hỗ trợ một cách dễ dàng."
+    }
+  },
+  "formats": {
+    "title": "Tạo bảng chi tiết trong nhiều định dạng",
+    "description": "Với {{EnvName}}, bạn có thể điền dữ liệu vào các mẫu và tạo báo cáo chi tiết trong hơn 50 định dạng tệp."
+  },
+  "operations": {
+    "title": "Các tính năng chính trong tầm nhìn",
+    "description": "API của chúng tôi đơn giản hóa việc tạo tài liệu chuyên nghiệp bằng cách tự động hóa việc điền bảng cùng với các thành phần mạnh mẽ khác."
+  },
+  "examples": {
+    "comment_1": "Sử dụng các thẻ này trong một vị trí hàng bảng trong mẫu của bạn",
+    "comment_2": "Xác định đường dẫn đến tệp mẫu",
+    "comment_3": "Tải dữ liệu từ nguồn bạn chọn",
+    "comment_4": "Lưu tệp đầu ra với bảng đã được điền"
+  },
+  "steps": {
+    "title": "Các bước để chèn dữ liệu vào bảng {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) giúp bạn điền các mẫu bảng cho {{FileFormatUp}} và các định dạng khác. Sử dụng dữ liệu động từ các nguồn của bạn để tạo bảng một cách hiệu quả.",
+      "step_1": "Thiết lập một mẫu {{FileFormatUp}} với các vị trí giữ chỗ cho hàng và cột bảng.",
+      "step_2": "Kéo dữ liệu từ bất kỳ nguồn đầu vào nào được hỗ trợ.",
+      "step_3": "Lọc hoặc xử lý trước dữ liệu để phù hợp với nhu cầu của bạn.",
+      "step_4": "Tạo tài liệu cuối cùng với bảng đã hoàn thành."
+    }
+  },
+  "code_1": {
+    "title": "Tạo bảng điền dữ liệu một cách động",
+    "content": "Ví dụ này cho thấy cách điền một bảng trong tài liệu {{FileFormatUp}} sử dụng dữ liệu đầu vào động.",
+    "comment_1": "Thiết kế một mẫu với một vị trí giữ chỗ cho bảng",
+    "comment_2": "Đặt vị trí tệp mẫu",
+    "comment_3": "Tải dữ liệu từ nguồn ưa thích của bạn",
+    "comment_4": "Chuẩn bị một đối tượng dữ liệu chứa các trường cần thiết",
+    "comment_5": "Tạo một phiên bản của {{DocumentAssembler}}",
+    "comment_6": "Lưu tài liệu với bảng đã được điền"
+  },
+  "texts_pdf": {
+    "step_1": "Thiết kế một mẫu với vị trí giữ chỗ cho bảng (các mẫu PDF hiện tại không được hỗ trợ).",
+    "step_4": "Lưu tài liệu với bảng đã được điền dưới dạng tệp PDF.",
+    "comment_tmp": "Các mẫu PDF chưa được hỗ trợ vào lúc này."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "head": {
+    "title": "Gerar códigos de barras em documentos {{FileFormatUp}} com {{ProgLang}}",
+    "description": "A API {{ProdFullName}} permite que os desenvolvedores gerem e integrem dinamicamente imagens de códigos de barras em documentos e e-mails."
+  },
+  "header": {
+    "title": "Adicione códigos de barras a documentos {{FileFormatUp}} usando nossa API {{EnvNameShort}}",
+    "description": "{{ProdFullName}} oferece suporte total para criar e incorporar códigos de barras dinamicamente em documentos {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar Avaliação Gratuita"
+  },
+  "about": {
+    "title": "Visão Geral do {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) foi desenvolvido para ajudar você a gerar documentos e relatórios integrando dados de uma ampla variedade de fontes. Preencha documentos com texto ou dados numéricos, crie gráficos, tabelas e listas, ou insira imagens e códigos de barras instantaneamente. Use uma marcação avançada para colocar dados exatamente onde necessário. Suporta mais de 50 formatos, incluindo PDF, arquivos do MS Office e e-mails."
+  },
+  "more_features": {
+    "title": "Gere documentos preenchendo modelos com dados",
+    "description": "{{ProdFullName}} é projetado para simplificar a criação de documentos em formatos populares. Adicione gráficos, listas, tabelas, hiperlinks, imagens e códigos de barras usando modelos e marcação avançados.",
+    "image_description": "Recursos do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Crie relatórios a partir de dados de negócios",
+      "content": "Nossa API preenche documentos em formatos de escritório populares usando dados de fontes como JSON, XML e CSV de maneira eficiente."
+    },
+    "feature_2": {
+      "title": "Use elementos visuais para exibir dados",
+      "content": "{{ProdShortName}} suporta a incorporação de elementos nativos como listas, tabelas e gráficos, junto com texto, hiperlinks, imagens e códigos de barras gerados dinamicamente."
+    },
+    "feature_3": {
+      "title": "Insira dados em qualquer lugar do documento",
+      "content": "Utilize uma sintaxe baseada em LINQ para colocar dados exatamente onde necessário. Arrays podem ser inseridos usando loops for-each, e a formatação (por exemplo, cor) pode ser personalizada programaticamente."
+    },
+    "feature_4": {
+      "title": "Suporta uma ampla gama de formatos",
+      "content": "Processar formatos de arquivo populares como MS Office, OpenOffice, PDF, HTML e vários formatos de e-mail. Incorpore um documento em outro conforme necessário."
+    }
+  },
+  "formats": {
+    "title": "Crie relatórios em formatos populares",
+    "description": "{{EnvName}} suporta a geração de relatórios em mais de 50 formatos, permitindo que você mescle dados e modelos de forma eficiente para resultados excepcionais."
+  },
+  "operations": {
+    "title": "Explore recursos principais",
+    "description": "Nossa solução é projetada para otimizar suas necessidades de processamento de documentos empresariais."
+  },
+  "examples": {
+    "comment_1": "Insira esta tag em seu modelo para gerar um código de barras no documento final",
+    "comment_2": "Especifique o caminho do arquivo do modelo",
+    "comment_3": "Recupere dados da sua fonte",
+    "comment_4": "Salve o documento com o código de barras gerado"
+  },
+  "steps": {
+    "title": "Passos para adicionar um código de barras gerado a um documento {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilita a inserção de códigos de barras em modelos em formatos como {{FileFormatUp}}. Suporta mais de 60 tipos de códigos de barras, incluindo formatos unidimensionais e bidimensionais.",
+      "step_1": "Prepare um modelo {{FileFormatUp}} com espaços reservados para códigos de barras.",
+      "step_2": "Recupere dados de qualquer fonte de dados suportada.",
+      "step_3": "Configure propriedades adicionais como tamanho ou resolução do código de barras.",
+      "step_4": "Salve o modelo com o código de barras como um novo documento."
+    }
+  },
+  "code_1": {
+    "title": "Como gerar um código de barras dinamicamente",
+    "content": "Este exemplo demonstra a incorporação de um código de barras gerado dinamicamente em um documento {{FileFormatUp}}.",
+    "comment_1": "Use este modelo para inserir um código de barras no documento",
+    "comment_2": "Especifique o caminho para o arquivo do modelo",
+    "comment_3": "Recupere dados de sua fonte escolhida",
+    "comment_4": "Crie um objeto de fonte de dados com apenas os dados necessários",
+    "comment_5": "Inicialize {{DocumentAssembler}}",
+    "comment_6": "Defina propriedades adicionais do código de barras",
+    "comment_7": "Salve o documento final com o código de barras incorporado"
+  },
+  "texts_pdf": {
+    "step_1": "Crie um modelo com tags específicas para a colocação do código de barras (observação: modelos PDF não são compatíveis).",
+    "step_4": "Salve o documento final com o código de barras inserido como um PDF.",
+    "comment_tmp": "O suporte para modelos PDF não está disponível no momento."
+  }
+}

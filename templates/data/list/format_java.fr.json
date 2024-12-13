@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "Créer des listes dans des documents {{FileFormatUp}} en utilisant {{ProgLang}}",
+    "description": "Concevez et intégrez facilement des listes dynamiques dans vos modèles {{FileFormatUp}} avec l'API {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Ajoutez des listes dynamiques aux fichiers {{FileFormatUp}} avec notre API {{EnvNameShort}}",
+    "description": "{{ProdFullName}} fournit des outils flexibles pour générer et insérer des listes riches en données directement dans des documents {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Essayez gratuitement"
+  },
+  "about": {
+    "title": "Qu'est-ce que {{ProdFullName}} ?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) facilite la conception de documents professionnels en extrayant des données de multiples sources. Utilisez-le pour créer des listes, des tableaux, des graphiques ou du texte, et placez ces éléments exactement où vous le souhaitez grâce à des fonctionnalités avancées de modèle. Avec le support de plus de 50 formats, y compris les fichiers PDF, MS Office et documents email, il aide à automatiser et rationaliser votre flux de travail."
+  },
+  "more_features": {
+    "title": "Générez des documents à partir de modèles avec intégration de données",
+    "description": "{{ProdFullName}} simplifie l'ajout de listes dynamiques, de tableaux, de graphiques et d'autres composants dans les modèles de documents.",
+    "image_description": "Fonctionnalités clés de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Construisez des rapports avec des données provenant de diverses sources",
+      "content": "Utilisez des données provenant de formats comme JSON, XML et CSV pour peupler efficacement les listes et autres composants."
+    },
+    "feature_2": {
+      "title": "Ajoutez des listes et d'autres éléments de données de manière fluide",
+      "content": "{{ProdShortName}} permet d'incorporer des listes, des graphiques, des tableaux, et plus encore, aux côtés de texte, d'images et de liens pour créer des documents soignés."
+    },
+    "feature_3": {
+      "title": "Contrôlez précisément où les données apparaissent",
+      "content": "Les modèles basés sur LINQ vous permettent de définir des emplacements exacts pour vos listes et données. Utilisez des boucles pour créer automatiquement des listes détaillées et appliquer un formatage personnalisé."
+    },
+    "feature_4": {
+      "title": "Prend en charge divers formats de documents",
+      "content": "Créez ou éditez des fichiers dans des formats tels que MS Office, PDF, OpenOffice, HTML et email. Fusionnez le contenu de plusieurs documents selon vos besoins."
+    }
+  },
+  "formats": {
+    "title": "Produisez des documents dans divers formats",
+    "description": "{{EnvName}} prend en charge plus de 50 formats, vous permettant de créer des documents structurés en combinant des données et des modèles."
+  },
+  "operations": {
+    "title": "Découvrez ce que {{ProdShortName}} peut faire",
+    "description": "Concevez et générez facilement des documents riches en contenu avec des outils d'intégration de données avancés."
+  },
+  "examples": {
+    "comment_1": "Incluez cette balise dans votre modèle à l'endroit où la liste doit apparaître",
+    "comment_2": "Définissez le chemin d'accès du modèle",
+    "comment_3": "Tirez des données de votre source choisie",
+    "comment_4": "Enregistrez le document avec la liste intégrée"
+  },
+  "steps": {
+    "title": "Comment ajouter une liste basée sur des données à un document {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) vous permet d'insérer rapidement des listes riches en données dans des modèles {{FileFormatUp}}. Personnalisez et organisez le contenu sans difficulté.",
+      "step_1": "Créez un modèle {{FileFormatUp}} et marquez les emplacements des espaces réservés pour la liste.",
+      "step_2": "Définissez le chemin d'accès au modèle.",
+      "step_3": "Récupérez les données à partir de formats supportés comme JSON ou XML.",
+      "step_4": "Enregistrez le document final avec la liste ajoutée."
+    }
+  },
+  "code_1": {
+    "title": "Comment créer une liste par programmation",
+    "content": "Cet exemple montre comment ajouter dynamiquement une liste dans un fichier {{FileFormatUp}} en utilisant {{ProdShortName}}.",
+    "comment_1": "Ajoutez une balise d'espace réservé dans votre modèle pour la liste",
+    "comment_2": "Fournissez le chemin d'accès à votre modèle",
+    "comment_3": "Tirez les données nécessaires pour peupler la liste",
+    "comment_4": "Préparez la source de données avec les détails requis",
+    "comment_5": "Initialisez {{DocumentAssembler}}",
+    "comment_6": "Enregistrez le document de sortie avec la liste complétée"
+  },
+  "texts_pdf": {
+    "step_1": "Concevez un modèle et spécifiez les espaces réservés pour la liste (les modèles PDF ne sont pas pris en charge).",
+    "step_4": "Enregistrez le document final avec la liste incluse en tant que PDF.",
+    "comment_tmp": "Les modèles PDF ne sont pas pris en charge actuellement."
+  }
+}

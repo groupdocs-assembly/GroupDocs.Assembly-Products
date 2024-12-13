@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "Menghasilkan daftar dalam dokumen {{FileFormatUp}} dengan {{ProgLang}}",
+    "description": "API {{ProdFullName}} memungkinkan pengembang untuk secara dinamis membuat dan menyisipkan daftar yang diisi data ke dalam dokumen dan templat."
+  },
+  "header": {
+    "title": "Tambahkan daftar berbasis data ke dokumen {{FileFormatUp}} menggunakan API {{EnvNameShort}} kami",
+    "description": "{{ProdFullName}} menawarkan alat yang kuat untuk secara dinamis menghasilkan dan menyisipkan daftar dalam dokumen {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Versi Percobaan Gratis"
+  },
+  "about": {
+    "title": "Ikhtisar {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) dirancang untuk mempercepat pembuatan dokumen dan laporan dengan mengintegrasikan data dari berbagai sumber. Isi templat dengan daftar, grafik, tabel, barcode, atau teks, dan tempatkan konten secara tepat menggunakan tanda markup lanjutan. Dengan dukungan lebih dari 50 format—termasuk PDF, file MS Office, dan email—ini sangat ideal untuk mengotomatiskan alur kerja dokumen."
+  },
+  "more_features": {
+    "title": "Buat dokumen dengan mengisi templat menggunakan data terstruktur",
+    "description": "{{ProdFullName}} menyederhanakan pembangunan dokumen berbasis data. Tambahkan daftar, tabel, barcode, grafik, gambar, dan elemen lainnya secara dinamis menggunakan templat lanjutan.",
+    "image_description": "Fitur {{ProdShortName}}",
+    "feature_1": {
+      "title": "Hasilkan laporan dari data bisnis",
+      "content": "API ini mengisi dokumen dalam format populer menggunakan data dari sumber seperti JSON, XML, CSV, dll. dengan akurasi dan efisiensi."
+    },
+    "feature_2": {
+      "title": "Gunakan daftar dan elemen lainnya untuk menyajikan data",
+      "content": "{{ProdShortName}} memungkinkan Anda untuk menyisipkan daftar, tabel, dan grafik bersamaan dengan teks, barcode, hyperlink, dan gambar untuk menciptakan dokumen yang terstruktur dengan baik."
+    },
+    "feature_3": {
+      "title": "Sisipkan data dengan tepat di tempat yang diinginkan",
+      "content": "Manfaatkan sintaksis berbasis LINQ untuk memposisikan daftar dan elemen data lainnya dengan presisi. Gunakan loop untuk mengisi daftar secara dinamis dan terapkan format khusus secara programatik."
+    },
+    "feature_4": {
+      "title": "Mendukung berbagai format dokumen",
+      "content": "Hasilkan dan kelola dokumen dalam berbagai format seperti MS Office, OpenOffice, PDF, HTML, dan file email. Mudah mengintegrasikan beberapa dokumen menjadi satu."
+    }
+  },
+  "formats": {
+    "title": "Buat dokumen terstruktur dalam format populer",
+    "description": "{{EnvName}} mendukung lebih dari 50 format, memungkinkan Anda untuk dengan mudah menggabungkan data dan templat untuk menghasilkan hasil yang rapi dan terstruktur."
+  },
+  "operations": {
+    "title": "Jelajahi kemampuan kunci",
+    "description": "Platform kami dibangun untuk menyederhanakan pembuatan dan integrasi konten dokumen berbasis data."
+  },
+  "examples": {
+    "comment_1": "Tambahkan tag ini ke templat Anda untuk menandai tempat di mana daftar akan muncul",
+    "comment_2": "Tentukan jalur ke file templat",
+    "comment_3": "Ambil data dari sumber pilihan Anda",
+    "comment_4": "Simpan dokumen dengan daftar yang dihasilkan"
+  },
+  "steps": {
+    "title": "Langkah-langkah untuk menambahkan daftar yang diisi data ke dokumen {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memudahkan menyisipkan daftar berbasis data ke dalam templat {{FileFormatUp}}. Buat dan sesuaikan daftar dengan lancar.",
+      "step_1": "Siapkan templat {{FileFormatUp}} dengan placeholder untuk daftar.",
+      "step_2": "Atur jalur ke templat.",
+      "step_3": "Ambil data dari sumber yang didukung seperti JSON atau XML.",
+      "step_4": "Simpan dokumen akhir dengan daftar yang disisipkan."
+    }
+  },
+  "code_1": {
+    "title": "Cara menghasilkan daftar secara dinamis",
+    "content": "Contoh ini menunjukkan cara menyematkan daftar yang dihasilkan secara dinamis ke dalam dokumen {{FileFormatUp}}.",
+    "comment_1": "Tambahkan tag placeholder ke templat Anda untuk daftar",
+    "comment_2": "Tentukan jalur ke file templat",
+    "comment_3": "Ambil data untuk mengisi daftar",
+    "comment_4": "Buat objek sumber data dengan informasi yang diperlukan",
+    "comment_5": "Inisialisasi {{DocumentAssembler}}",
+    "comment_6": "Simpan dokumen akhir dengan daftar yang dihasilkan"
+  },
+  "texts_pdf": {
+    "step_1": "Buat templat dengan tempat yang ditentukan untuk daftar (templat PDF saat ini tidak didukung).",
+    "step_4": "Ekspor dokumen yang telah selesai dengan daftar sebagai file PDF.",
+    "comment_tmp": "Dukungan untuk templat PDF tidak tersedia saat ini."
+  }
+}

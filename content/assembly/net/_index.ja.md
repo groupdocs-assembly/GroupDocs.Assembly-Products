@@ -1,299 +1,265 @@
 ---
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+############################# Static ############################
+layout: "landing"
+date: 2024-12-13T10:30:57
 draft: false
 
+lang: ja
 product: "Assembly"
 product_tag: "assembly"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
-head_title: ".ドキュメント自動化、アセンブリ、レポート生成のためのNET API"
-head_description: "C＃.NETドキュメントの自動化、アセンブリ、レポート生成API。カスタムテンプレートからPDFWordExcelPPTXHTMLおよび電子メールドキュメントを作成する."
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
 
-title: ".NET Document Automation＆Reporting API"
-description: "テンプレートを定義し、データをマージして、.NETアプリケーションでレポートを生成する."
-button:
-    enable: true
+############################# Head ############################
+head_title: ".NETドキュメント自動化、アセンブリおよびレポート生成用API"
+head_description: "C# .NET APIによるドキュメント自動化、アセンブリ、およびレポート生成。カスタムテンプレートからPDF、Word、Excel、PPTX、HTML、およびメール文書を作成します。"
 
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Assembly for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-assembly-net.png"
-        product: "GroupDocs.Assembly"
-        platform: ".NET"
+############################# Header ############################
+title: ".NETドキュメント自動化およびレポーティングAPI"
+description: ".NETアプリケーションでテンプレートを定義し、データをマージしてレポートを生成。"
+words:
+  for: "のため"
 
-    middle:
-        button:
-            - link: "#overview"
-              text: "概要"
+actions:
+  main: "NuGetからトライアルをダウンロード"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Assembly"
+  alt: "ライセンス"
+  alt_link: "https://purchase.groupdocs.com/pricing/assembly/net/"
+  title: "始める準備はできましたか？"
+  description: "GroupDocs.Assemblyの機能を無料で試すか、ライセンスをリクエストしてください。"
 
-            - link: "#features"
-              text: "特徴"
+release:
+  title: "バージョン{0}リリース"
+  notes: "新機能を確認する"
+  downloads: "ダウンロード"
 
-            - link: "#support"
-              text: "サポート"
+code:
+  title: "C#を使用してDOCXでチャートを埋める"
+  more: "詳細な例"
+  more_link: "https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-.NET/"
+  install: "dotnet add package GroupDocs.Assembly"
+  content: |
+    ```csharp {style=abap}   
+    // メインテンプレートへのパス
+    string template = "chart_template.docx";
 
-            - link: "https://products.groupdocs.app/assembly"
-              text: "ライブデモ"
+    // データソースからマネージャーの生産性データを取得
+    DocumentTable data_table = 
+        new DocumentTable("Managers.json", 1);
 
-            - link: "https://purchase.groupdocs.com/pricing/assembly/net"
-              text: "価格設定"
+    // DataSourceInfoのインスタンスをデータで作成
+    DataSourceInfo data 
+        = new DataSourceInfo(data_table, "managers");
 
-    right:
-        link_download: "https://downloads.groupdocs.com/assembly"
-        link_learn: "https://docs.groupdocs.com/assembly/net/"
-        link_buy: "https://purchase.groupdocs.com"
+    // 別のDataSourceInfoを使用してチャートの色を設定
+    DataSourceInfo design = 
+        new DataSourceInfo("red", "color");
 
+    // テンプレートをデータで埋めて出力先に保存
+    DocumentAssembler asm = new DocumentAssembler();
+    asm.AssembleDocument(template, "result.docx", data, design);
+    ```
+
+############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Assembly for .NET APIは、C＃、ASP.NET、およびその他の.NET関連アプリケーションでカスタマイズされたテンプレートからレポートを生成する機能を備えた強力なドキュメント自動化およびレポート生成アプリケーションを構築するのに役立ちます。わずか数行のコードで、.NETレポートライブラリは、定義されたドキュメントテンプレートから指定されたデータをインテリジェントにアセンブルし、さまざまなデータソース（データベース、XML、JSON、ODATA、CSV、カスタム.NETオブジェクト）。  
-
-      LINQベースのテンプレート構文をサポートしており、ユーザーは、PDF、HTML、Outlook電子メール、Microsoft Office Word、Excelワークシート、PowerPointプレゼンテーション、スライドなど、一般的に使用されるすべてのビジネスファイル形式で出力ドキュメントを簡単に生成できます。テンプレート要素のフォーマットプロパティは、テキスト、HTMLおよび条件付きブロック、画像、チャート、バーコード、ハイパーリンク、ピボットテーブルなどを操作することによっても構成できます。  
-
-      GroupDocs.Assembly for .NETを使用して、.NETプラットフォームを対象とする任意の開発環境でアプリケーションを開発できます。すべての.NETベースの言語と互換性があり、Monoまたは.NETフレームワーク（.NET Coreを含む）をインストールできる一般的なオペレーティングシステム（Windows、Linux、MacOS）をサポートします。
-    tabs:
-      enable: true
-      
-      tab_one:
-        description: |
-          以下は、GroupDocs.Assemblyfor.NETの概要です。
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "概要"
-          content: |
-            *データの定式化
-            *データフォーマット
-            *データの自動化
-            *テンプレートを作成
-            *テンプレート要素のフォーマット
-            *レポートの生成
-      
-      tab_two:
-        description: |
-          .NETドキュメント生成APIでサポートされている[ドキュメントファイル形式]（https://docs.groupdocs.com/assembly/net/supported-document-formats/）を以下に示します。
-
-        left:
-          enable: true
-          table:
-            - title: "MicrosoftOfficeの形式"
-              content: |
-                * ** Word **：DOC、DOCX、DOT、DOTX、DOTM、DOCM、RTF、WordprocessingML（XML）
-                * ** Excel **：XLS、XLSX、XLSM、XLSB、XLT、XLTM、XLTX、SpreadsheetML（XML）
-                * ** PowerPoint **：PPT、PPTX、PPTM、PPS、PPSX、PPSM、POTX、POTM
-                * ** Outlook **：EML、EMLX、MSG、MHT
-
-            - title: "サポートされているデータソース"
-              content: |
-                *データベース
-                * XML
-                * OData
-                * JSON
-                * CSV
-                *カスタム.NETオブジェクト
-                *データの表としてのスプレッドシート
-                *データのテーブルとしてのワードプロセッシングテーブル
-
-        right:
-          enable: true
-          table:
-            - title: "その他のフォーマット"
-              content: |
-                * ** OpenOfficeドキュメント形式**：ODT、OTT、ODS、ODP
-                * **メール**：MHT、MHTML
-                * ** Web **：HTML
-                * ** Markdownドキュメントファイル**：MD
-                * **その他**：TXT
-
-            - title: "フォーマット間アセンブリのサポート"
-              content: |
-                *ワードプロセッシング**TO**ワードプロセッシング、HTML、PDF、XPS、TIFF、MHTML、Markdown、TXT、XAML、OpenXPS、EPUB、SVG、PS、PCL
-                *スプレッドシート**TO**スプレッドシート、HTML、PDF、XPS、TIFF、MHTML
-                *プレゼンテーション**TO**プレゼンテーション、HTML、PDF、XPS、TIFF
-                *メール**TO**ワードプロセッシング、メール、HTML、PDF、XPS、TIFF、MHTML、マークダウン、TXT、XAML、OpenXPS、EPUB、SVG、PS、PCL
-                * HTML＆TXT ** TO **ワードプロセッシング、HTML、PDF、XPS、TIFF、MHTML、Markdown、TXT、XAML、OpenXPS、EPUB、SVG、PS、PCL
-
-      tab_three:
-        description: |
-          GroupDocs.Assembly for .NETは、次のオペレーティングシステム、フレームワーク、およびパッケージマネージャーをサポートしています。
-        
-        left:
-          enable: true
-          table:
-            - icon: "fab fa-windows"
-              title: "オペレーティングシステム"
-              content: |
-                *Windowsデスクトップ
-                * WindowsServer
-                * Windows Azure
-                * Linux
-
-            - icon: "fas fa-code"
-              title: "サポートされているフレームワーク"
-              content: |
-                * .NETFramework2.0以降
-                * MonoFramework1.2以降
-
-        right:
-          enable: true
-          table:
-            - icon: "fas fa-box"
-              title: "パッケージマネージャー"
-              content: |
-                * NuGet
-
-            - icon: "fas fa-tools"
-              title: "開発環境"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
-
-features:
-    enable: true
-    title: "GroupDocs.Assemblyfor.NET機能"
-
-    feature:
-      - icon: "fas fa-copy"
-        content: "複数のデータ形式で動作します"
-
-      - icon: "fas fa-eye"
-        content: "数式とシーケンシャルデータ操作を使用してデータを操作できる"
-
-      - icon: "fas fa-bolt"
-        content: "テンプレート構文の文字列をUpper、Lower、Capital、FirstCapにフォーマットします"
-      
-      - icon: "fas fa-file-powerpoint"
-        content: "テンプレート構文で序数、基数、アルファベットの数値フォーマットを実行する"
-
-      - icon: "fas fa-code"
-        content: "テンプレートドキュメントで変数を定義し、テンプレート構文タグ内でテキストコメントをサポートする"
-
-      - icon: "fas fa-cloud"
-        content: "外部ドキュメントのコンテンツをレポートに動的に挿入する"
-
-      - icon: "fas fa-remove-format"
-        content: "レポートでバーコード画像を動的に生成し、HTMLドキュメントの背景色を設定します"
-
-      - icon: "fas fa-comment-slash"
-        content: "電子メールメッセージ本文に属性を動的に割り当て、レポートにハイパーリンクを挿入する"
-
-      - icon: "fas fa-location-arrow"
-        content: "電子メールメッセージの添付ファイルを動的に作成する"
-
-      - icon: "fas fa-border-all"
-        content: "MicrosoftWordNEXTフィールドのアナログのサポート"
-
-      - icon: "fas fa-wrench"
-        content: "ワードプロセッシングドキュメントのアセンブル中にフィールドを更新する"
-
-      - icon: "fas fa-columns"
-        content: "スプレッドシートドキュメントを組み立てながら数式を計算する"
-
-      - icon: "fas fa-file-word"
-        content: "テンプレートの数値、テキスト、画像、チャート、日時要素をフォーマットします"
-
-      - icon: "fas fa-envelope"
-        content: "組み立てられたPOTおよびOTPプレゼンテーションドキュメント形式のロードと保存"
-
-      - icon: "fas fa-print"
-        content: "テンプレートにLINQベースの構文を使用し、テンプレート要素の条件付きテキストフォーマットを実行する"
-
-      - icon: "fas fa-file-archive"
-        content: "ファイル拡張子または明示的な仕様を使用して、アセンブルされたドキュメントのファイル形式を変更する"
-
-      - icon: "fas fa-lock"
-        content: "マークダウンでサポートされている順序付きリスト-新しく組み立てられた電子メールとWord文書をマークダウンに保存"
-
-      - icon: "fas fa-file-code"
-        content: "チャート、リスト、表、画像など、さまざまなタイプのレポートをサポートします"
-      
-      - icon: "fas fa-fill-drip"
-        content: "例外スローではなく、生成されたドキュメントのインラインテンプレート構文エラー"
-
-      - icon: "fas fa-file-excel"
-        content: "リソースを使用してHTMLからテンプレートドキュメントをロードし、アセンブルされたWord、Excel、PowerPoint、および電子メールをリソースを使用してHTMLに保存します"
-
-      - icon: "fas fa-heading"
-        content: "再起動リストの番号付けをWord文書形式で動的に追加し、HTMLおよびRTF本文を使用して電子メールを送信"
-
-      - icon: "fas fa-project-diagram"
-        content: "Base64でエンコードされたバイトから画像とドキュメントを動的に挿入し、Wordドキュメントのチェックボックス値の設定を調整します"
-
-      - icon: "fas fa-cube"
-        content: "画像の比率を維持しながら、Word、Excel、プレゼンテーション、電子メールのテキストボックスで画像を拡大"
-
-      - icon: "fab fa-uncharted"
-        content: "リンクとブックマークをドキュメント形式に動的に追加し、Excelスプレッドシートのセル範囲に名前を付けます"
-
-    more_feature:
-      - title: "テンプレート要素のサポート"
-        content: |
-          GroupDocs.Assembly for .NET APIを使用すると、多数のテンプレート要素を操作するための制御が可能になります。フォーマットされたテキストブロック、HTMLブロック、画像、チャート、ハイパーリンク、およびバーコード（バーコードフォントを使用）を操作できます。リスト項目やテーブル行など、繰り返しブロックと条件付きブロックもサポートされています。スプレッドシート、プレゼンテーション、ドキュメント、および電子メールのテンプレート式に基づいて、同じテキストを含むテーブルセルをHTMLおよびRTF本文で動的にマージすることもできます。
-
-      - title: "リストレポートの操作"
-        content: |
-          GroupDocs.Assembly for .NET APIを使用すると、次の3つのタイプのリストレポートを操作できます。  
-
-          *箇条書き
-          *番号付きリスト
-          *色付きの番号付きリスト
-
-      - title: "チャートレポートの操作"
-        content: |
-          GroupDocs.Assembly for .NETは、次のタイプのグラフレポートをサポートしています。  
-
-          *データの3つの次元を表示するバブルチャート
-          *縦棒グラフ
-          * 円グラフ
-          *散布図
-          *シリーズチャート（カラー）
-
-      - title: "テーブルレポートの操作"
-        content: |
-          GroupDocs.Assembly for .NETは、次のタイプのテーブルレポートをサポートします。  
-
-          *マスター-詳細テーブル
-          *強調表示された行のあるテーブル
-          *代替コンテンツを含むテーブル
-          *フィルタリング、グループ化、および順序付けを含むテーブル  
-          
-          テーブル行でデータバンドを使用することもできます。
-
-      - title: "簡単な統合"
-        content: |
-          ほんの数行のコードを使用して、GroupDocs.Assembly for.NETAPIを.NETアプリケーションと簡単に統合できます。以下は、オープンドキュメント形式でレポートを生成するためのサンプルコードです。
-
-          ```cs
-          //DocumentAssemblerクラスをインスタンス化します
-          DocumentAssembler assembler = new DocumentAssembler();
-          //AssembleDocumentを呼び出してレポートを生成します
-          assembler.AssembleDocument("D:\\WordTemplates\\Barcode.docx", "D:\\WordReports\\Barcode.docx", new DataSourceInfo(DataLayer.GetCustomerData(), 
-          "customer"));
-          //（https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-.NETでDataLayer.GetCustomerData（）メソッドの詳細を参照してください）
-          ```
-
-support:
-    enable: true
-
-solutions:
-    enable: true
-    title: "GroupDocs.Assemblyは、他の一般的な開発環境向けのドキュメント表示APIを提供します"
-
-    solution:
-        - img_alt: "GroupDocs.Assembly for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-assembly-java.png"
-          product: "GroupDocs.Assembly"
-          platform: "Java"
-          link: "/assembly/java/"
-
-back_to_top:
   enable: true
+  title: "GroupDocs.Assemblyの概要"
+  description: ".NETソリューションによる高度なデータ統合を使用したドキュメント作成の自動化。"
+  features:
+    # feature loop
+    - title: "C#でドキュメントテンプレートにビジネスデータを追加"
+      content: "GroupDocs.Assembly for .NETを使用すると、JSONやXMLなどのソースからデータを事前定義のテンプレートに簡単に挿入できます。"
+
+    # feature loop
+    - title: "ネイティブデータオブジェクトの処理"
+      content: "サポートされているドキュメントタイプには、データで自動的にポピュレートできる図、チャート、テーブル、リストなどが含まれます。"
+
+    # feature loop
+    - title: "追加機能"
+      content: "GroupDocs.Assembly for .NETは幅広いカスタマイズオプションを提供します。プログラムによるデータオブジェクトの設計、バーコードの生成、URL経由でのオンラインデータソースの利用、さまざまな形式での出力の保存が可能です。"
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "プラットフォームの独立性"
+  description: "GroupDocs.Assembly for .NETは以下のオペレーティングシステム、フレームワーク、およびパッケージマネージャーに対応しています。"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "サポートされているファイル形式"
+  description: |
+    GroupDocs.Assembly for .NETは以下の[ファイル形式](https://docs.groupdocs.com/assembly/net/supported-document-formats/)を処理できます。
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office形式
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF, WordprocessingML
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPTM, PPS, PPSX, PPSM, POTM, POTX
+    # group loop
+    - color: "blue"
+      content: |
+        ### 画像およびその他の形式
+        * **ポータブル:** PDF
+        * **画像:** SVG, TIFF
+        * **その他のオフィス形式:** ODT, OTT, OTS, ODS, ODP, OTP
+      # group loop
+    - color: "red"
+      content: |
+        ### その他の形式
+        * **ウェブ:** HTML, MHTML
+        * **メール:** EML, MSG, EMLX
+        * **その他:** EPUB, MD
+
+############################# Features ############################
+features:
+  enable: true
+  title: "GroupDocs.Assemblyの機能"
+  description: "高度なデータモデルを使用してドキュメントやレポートを作成。"
+
+  items:
+    # feature loop
+    - icon: "preview"
+      title: "高度なデータ表現"
+      content: "チャート、リスト、テーブル、画像など幅広いデータオブジェクトをサポート。"
+
+    # feature loop
+    - icon: "manipulate"
+      title: "データ操作"
+      content: "データを効果的に表示するための数式や順序操作を適用。"
+
+    # feature loop
+    - icon: "two_pages"
+      title: "広範なサポート形式"
+      content: "テンプレートや出力ファイル用のすべての一般的なドキュメント形式でシームレスに動作。"
+
+    # feature loop
+    - icon: "document_settings"
+      title: "リッチテンプレートマークアップ"
+      content: "テンプレート内で順序、基数、およびアルファベットの数値形式を活用。"
+
+    # feature loop
+    - icon: "text"
+      title: "バーコードの埋め込み"
+      content: "動的にバーコード画像を生成し、ドキュメントに挿入。"
+
+    # feature loop
+    - icon: "add"
+      title: "データのフォーマット"
+      content: "テンプレート内の文字列を大文字、小文字、頭文字大文字またはその他のスタイルでフォーマット。"
+
+    # feature loop
+    - icon: "manipulate"
+      title: "ドキュメントコンテンツの操作"
+      content: "外部ドキュメントからのコンテンツをダイナミックに挿入。"
+
+    # feature loop
+    - icon: "convert"
+      title: "複数形式での保存"
+      content: "ファイル拡張子または詳細設定を使用して出力ファイル形式を指定。"
+
+    # feature loop
+    - icon: "update"
+      title: "柔軟なデータ処理"
+      content: "Base64でエンコードされたバイトを使用して、動的に画像やドキュメントを挿入。"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "コードサンプル"
+  description: "GroupDocs.Assemblyの一般的な操作に関するコードスニペット。"
+  items:
+    # code sample loop
+    - title: "Microsoft Word文書に箇条書きリストを作成"
+      content: |
+        [箇条書きリスト](https://docs.groupdocs.com/assembly/net/bulleted-list-in-word-processing-document/)はビジネスデータを提示する一般的な方法です。 こちらはGroupDocs.Assemblyを使用してWord文書にリストを追加する例です。
+        {{< landing/code title="ドキュメントにリストを埋め込む方法">}}
+        ```csharp {style=abap}
+        // ドキュメントページにこのテンプレートを挿入:
+        // マネージャーのパフォーマンス指標
+        // . <<foreach [in products]>><<[ProductName]>>
+        // <</foreach>>
+
+        // テンプレートパスを指定
+        string template = "Bulleted List Template.docx";
+
+        // 出力ファイルパスを設定
+        string result = "Result Report.docx"
+
+        // JSONソースからマネージャーのデータを取得
+        JsonDataSource dataSource = new JsonDataSource("Report data.json");
+        DataSourceInfo data = new DataSourceInfo(dataSource, "managers")
+
+        // 埋め込まれたデータでレポートを生成
+        DocumentAssembler assembler = new DocumentAssembler();
+        assembler.AssembleDocument(template, result, data);
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "PPTXプレゼンテーションに円グラフを作成"
+      content: |
+        テンプレートとXMLデータを使用して[円グラフ](https://docs.groupdocs.com/assembly/net/pie-chart-in-presentation-document/)を作成できます。 視覚的に魅力的なデータ表現でレポートを強化。
+        {{< landing/code title="円グラフを表現する方法">}}
+        ```csharp {style=abap}
+        // プレゼンテーションにチャートタイトルテンプレートを追加:
+        // 顧客の収益 <<foreach [in customers]>> 
+        // <<x [CustomerName]>>
+
+        // チャートデータテンプレートも含める:
+        // Total Order Price<<foreach [in customers]>> 
+        // <<x [CustomerName]>>
+
+        // チャートテンプレートパスを指定
+        string template = "Pie Chart Template.pptx";
+
+        // 出力ファイルパスを設定
+        string result = "Result Report.pptx"
+
+        // XMLソースから顧客データを取得
+        JsonDataSource dataSource = new JsonDataSource("Chart data.xml");
+        DataSourceInfo data = new DataSourceInfo(dataSource, "customers")
+
+        // チャートを生成して結果を保存
+        DocumentAssembler assembler = new DocumentAssembler();
+        assembler.AssembleDocument(template, result, data);
+        ```
+        {{< /landing/code >}}
+
 ---

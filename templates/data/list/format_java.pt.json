@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "Crie listas em documentos {{FileFormatUp}} usando {{ProgLang}}",
+    "description": "Projete e insira listas dinâmicas em seus templates {{FileFormatUp}} com a API {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Adicione listas dinâmicas a arquivos {{FileFormatUp}} com nossa API {{EnvNameShort}}",
+    "description": "{{ProdFullName}} fornece ferramentas flexíveis para gerar e inserir listas ricas em dados diretamente em documentos {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Experimente Gratuitamente"
+  },
+  "about": {
+    "title": "O que é {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) facilita o design de documentos profissionais extraindo dados de múltiplas fontes. Utilize para criar listas, tabelas, gráficos ou textos, posicionando esses elementos exatamente onde necessário, utilizando recursos avançados de template. Com suporte para mais de 50 formatos, incluindo PDFs, arquivos do MS Office e documentos de e-mail, ele ajuda a automatizar e agilizar seu fluxo de trabalho."
+  },
+  "more_features": {
+    "title": "Gere documentos a partir de templates com integração de dados",
+    "description": "{{ProdFullName}} simplifica a adição de listas dinâmicas, tabelas, gráficos e outros componentes em templates de documentos.",
+    "image_description": "Principais Recursos do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Construa relatórios com dados de diversas fontes",
+      "content": "Utilize dados de formatos como JSON, XML e CSV para preencher listas e outros componentes de forma eficiente."
+    },
+    "feature_2": {
+      "title": "Adicione listas e outros elementos de dados de forma integrada",
+      "content": "{{ProdShortName}} possibilita a inserção de listas, gráficos, tabelas e mais, junto a textos, imagens e links para criar documentos refinados."
+    },
+    "feature_3": {
+      "title": "Controle precisamente onde os dados aparecem",
+      "content": "Templates baseados em LINQ permitem definir locais exatos para suas listas e dados. Utilize loops para criar listas detalhadas automaticamente e aplicar formatação personalizada."
+    },
+    "feature_4": {
+      "title": "Suporta vários formatos de documento",
+      "content": "Crie ou edite arquivos em formatos como MS Office, PDF, OpenOffice, HTML e e-mail. Una conteúdos de múltiplos documentos conforme necessário."
+    }
+  },
+  "formats": {
+    "title": "Produza documentos em vários formatos",
+    "description": "{{EnvName}} suporta mais de 50 formatos, permitindo criar documentos estruturados combinando dados e templates."
+  },
+  "operations": {
+    "title": "Descubra do que {{ProdShortName}} é capaz",
+    "description": "Projete e gere documentos ricos em conteúdo com ferramentas avançadas de integração de dados."
+  },
+  "examples": {
+    "comment_1": "Inclua esta tag no seu template onde a lista deve aparecer",
+    "comment_2": "Defina o caminho do arquivo do template",
+    "comment_3": "Extraia dados da fonte escolhida",
+    "comment_4": "Salve o documento com a lista embutida"
+  },
+  "steps": {
+    "title": "Como adicionar uma lista orientada a dados a um documento {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permite que você insira rapidamente listas ricas em dados em templates {{FileFormatUp}}. Personalize e organize o conteúdo com eficiência.",
+      "step_1": "Crie um template {{FileFormatUp}} e marque os locais reservados para a lista.",
+      "step_2": "Defina o caminho do arquivo para o template.",
+      "step_3": "Extraia dados de formatos suportados como JSON ou XML.",
+      "step_4": "Salve o documento final com a lista adicionada."
+    }
+  },
+  "code_1": {
+    "title": "Como criar uma lista programaticamente",
+    "content": "Este exemplo mostra como adicionar uma lista dinamicamente em um arquivo {{FileFormatUp}} usando {{ProdShortName}}.",
+    "comment_1": "Adicione uma tag de espaço reservado em seu template para a lista",
+    "comment_2": "Forneça o caminho do arquivo para o seu template",
+    "comment_3": "Extraia os dados necessários para preencher a lista",
+    "comment_4": "Prepare a fonte de dados com os detalhes necessários",
+    "comment_5": "Inicialize {{DocumentAssembler}}",
+    "comment_6": "Salve o documento de saída com a lista concluída"
+  },
+  "texts_pdf": {
+    "step_1": "Projete um template e especifique espaços reservados para a lista (templates PDF não são suportados).",
+    "step_4": "Salve o documento final com a lista incluída como um PDF.",
+    "comment_tmp": "Templates PDF não são suportados no momento."
+  }
+}

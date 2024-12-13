@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": "利用 {{ProgLang}} API 将一个文档嵌入到另一个 {{FileFormatUp}} 中",
+    "description": "使用 {{ProgLang}} 合并 {{FileFormatUp}} 文档。有了 {{ProdShortName}}，只需几个步骤即可无缝组合文件。"
+  },
+  "header": {
+    "title": "在 {{FileFormatUp}} 格式中合并文档",
+    "description": "使用 {{ProdFullName}}，您可以快速将一个 {{FileFormatUp}} 文档嵌入到另一个文档中。该 API 提供强大的工具来实现精确的文档合并。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费下载"
+  },
+  "about": {
+    "title": "{{ProdFullName}} 是什么？",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是一种强大的文档组合和处理工具。它允许用户将一个文档嵌入到另一个文档中，从而实现内容的无缝合并。支持超过 50 种格式，包括 PDF、MS Office 文件等，您可以组织、编辑并自定义最终输出以满足您的需求。"
+  },
+  "more_features": {
+    "title": "利用高级工具简化文档合并",
+    "description": "{{ProdFullName}} 库简化了将一个文档嵌入到另一个文档中的过程，支持多种文件格式并提供无缝集成的自定义选项。",
+    "image_description": "{{ProdShortName}} 的主要特性",
+    "feature_1": {
+      "title": "根据业务数据生成报告",
+      "content": "自动使用来自 JSON、XML、CSV 或其他来源的数据填充文档，确保工作流的准确性和高效性。"
+    },
+    "feature_2": {
+      "title": "为文档增添视觉元素",
+      "content": "{{ProdShortName}} 允许您包含表格、图表和列表，以及文本、链接、图像和动态生成的条形码。"
+    },
+    "feature_3": {
+      "title": "精确放置和格式化数据",
+      "content": "基于 LINQ 的模板让您控制数据的放置，处理数组循环，并允许颜色等样式的自定义。"
+    },
+    "feature_4": {
+      "title": "支持多种文件格式",
+      "content": "轻松地在 MS Office、PDF、HTML、OpenOffice 等格式之间嵌入文档。"
+    }
+  },
+  "formats": {
+    "title": "合并多种格式的文档",
+    "description": "使用 {{EnvName}} API，您可以在超过 50 种支持的格式之间合并文档。轻松将文件或部分嵌入到最终文档中。"
+  },
+  "operations": {
+    "title": "发现我们强大的工具",
+    "description": "探索 {{ProdShortName}} 提供的精准嵌入和合并文档的功能。"
+  },
+  "examples": {
+    "comment_1": "在模板中添加此标签以标记插入点",
+    "comment_2": "指定模板的文件路径",
+    "comment_3": "提供要嵌入文档的路径",
+    "comment_4": "保存合并后的文档"
+  },
+  "steps": {
+    "title": "如何将文档合并到 {{FileFormatUp}} 文件中",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 允许您轻松将一个文档嵌入到另一个 {{FileFormatUp}} 文件中。合并并自定义内容。",
+      "step_1": "设计一个 {{FileFormatUp}} 模板，包含用于嵌入文档的占位符。",
+      "step_2": "定义模板的文件路径。",
+      "step_3": "指定要嵌入的文档的文件路径。",
+      "step_4": "保存最终文件，包含嵌入的内容。"
+    }
+  },
+  "code_1": {
+    "title": "如何以编程方式将图像嵌入文档",
+    "content": "此示例演示如何使用 {{ProdShortName}} 将图像插入到 {{FileFormatUp}} 文档中。",
+    "comment_1": "在模板中添加一个占位符标签",
+    "comment_2": "指定模板的文件路径",
+    "comment_3": "设置图像文件的路径",
+    "comment_4": "初始化一个 {{DocumentAssembler}} 实例",
+    "comment_5": "保存包含嵌入图像的文档"
+  },
+  "texts_pdf": {
+    "step_1": "设计一个模板，包含要嵌入内容的特定占位符（PDF 模板不受支持）。",
+    "step_4": "将包含集成内容的完成文件导出为 PDF 文档。",
+    "comment_tmp": "当前无法使用 PDF 模板。"
+  }
+}

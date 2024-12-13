@@ -1,0 +1,77 @@
+{
+  "head": {
+    "title": "Tạo biểu đồ trong tệp {{FileFormatUp}} với {{ProgLang}}",
+    "description": "API {{ProdFullName}} giúp các nhà phát triển dễ dàng tạo và chèn biểu đồ hoặc đồ thị vào tài liệu một cách động bằng dữ liệu thời gian thực."
+  },
+  "header": {
+    "title": "Nhúng biểu đồ vào tệp {{FileFormatUp}} với API {{EnvNameShort}}",
+    "description": "{{ProdFullName}} cung cấp cách mạnh mẽ để làm đầy tệp {{FileFormatUp}} bằng dữ liệu động và tích hợp biểu đồ một cách liền mạch.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Dùng thử miễn phí"
+  },
+  "about": {
+    "title": "{{ProdFullName}} là gì?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một công cụ được thiết kế để đơn giản hóa việc tạo tài liệu và báo cáo bằng cách tích hợp dữ liệu từ nhiều nguồn khác nhau. Tạo biểu đồ, bảng, danh sách, mã vạch và hình ảnh động. Các tùy chọn định dạng nâng cao cho phép đặt chính xác và tùy chỉnh nội dung của bạn. Nó hỗ trợ hơn 50 định dạng tệp, bao gồm PDF, tài liệu MS Office và email."
+  },
+  "more_features": {
+    "title": "Thêm biểu đồ động vào tài liệu của bạn một cách dễ dàng",
+    "description": "{{ProdFullName}} đơn giản hóa việc tạo các tài liệu dựa trên dữ liệu trong các định dạng phổ biến. Sử dụng mẫu để chèn biểu đồ, bảng, mã vạch, danh sách, liên kết và hình ảnh với tích hợp dữ liệu động tiên tiến.",
+    "image_description": "Các tính năng chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Chuyển đổi dữ liệu thành biểu đồ chuyên nghiệp",
+      "content": "Chuyển đổi dữ liệu từ JSON, XML, CSV và các nguồn khác thành các biểu đồ hấp dẫn một cách nhanh chóng bằng API của chúng tôi."
+    },
+    "feature_2": {
+      "title": "Tạo nội dung thu hút thị giác",
+      "content": "{{ProdShortName}} hỗ trợ nhiều loại biểu đồ như biểu đồ cột, biểu đồ tròn và biểu đồ đường. Kết hợp chúng với bảng, mã vạch, hình ảnh và các yếu tố khác để tạo báo cáo chuyên nghiệp."
+    },
+    "feature_3": {
+      "title": "Đặt và tùy chỉnh biểu đồ một cách chính xác",
+      "content": "Với cú pháp LINQ, bạn có thể tạo và đặt biểu đồ một cách động chính xác nơi cần thiết. Tùy chỉnh kiểu dáng, màu sắc và bố cục để phù hợp với yêu cầu của bạn."
+    },
+    "feature_4": {
+      "title": "Hoạt động với nhiều định dạng tệp khác nhau",
+      "content": "Xuất bản tài liệu ở các định dạng phổ biến như MS Office, PDF, OpenOffice và HTML. Nhúng biểu đồ một cách liền mạch trong bất kỳ định dạng nào được hỗ trợ với khả năng tương thích hoàn toàn."
+    }
+  },
+  "formats": {
+    "title": "Tạo báo cáo phong phú về nội dung trong nhiều định dạng",
+    "description": "{{EnvName}} cho phép bạn tạo tài liệu với các biểu đồ tích hợp trong hơn 50 định dạng được hỗ trợ, kết hợp các mẫu với dữ liệu của bạn một cách liền mạch."
+  },
+  "operations": {
+    "title": "Khám phá các khả năng chính",
+    "description": "Nền tảng của chúng tôi giúp bạn tạo ra các tài liệu hấp dẫn, dựa trên dữ liệu được tùy chỉnh theo nhu cầu của bạn."
+  },
+  "examples": {
+    "comment_1": "Bao gồm thẻ này trong mẫu của bạn để tạo biểu đồ",
+    "comment_2": "Xác định đường dẫn tệp cho mẫu của bạn",
+    "comment_3": "Tải dữ liệu từ nguồn mà bạn chọn",
+    "comment_4": "Lưu tài liệu với biểu đồ được nhúng"
+  },
+  "steps": {
+    "title": "Cách thêm biểu đồ vào tài liệu {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) giúp đơn giản hóa việc tạo và nhúng biểu đồ vào các mẫu {{FileFormatUp}} của bạn. Hỗ trợ nhiều loại biểu đồ như biểu đồ cột, biểu đồ tròn và biểu đồ đường.",
+      "step_1": "Thiết kế một mẫu {{FileFormatUp}} với các vị trí dành cho biểu đồ.",
+      "step_2": "Lấy dữ liệu của bạn từ một nguồn tương thích.",
+      "step_3": "Xác định các tùy chọn biểu đồ như loại, nhãn và bảng màu.",
+      "step_4": "Lưu tệp đã cập nhật với biểu đồ được nhúng."
+    }
+  },
+  "code_1": {
+    "title": "Tạo biểu đồ lập trình",
+    "content": "Ví dụ này minh họa cách tạo và nhúng một biểu đồ vào tài liệu {{FileFormatUp}} một cách động.",
+    "comment_1": "Chuẩn bị một mẫu với một vị trí dành cho biểu đồ",
+    "comment_2": "Cung cấp đường dẫn đến tệp mẫu",
+    "comment_3": "Lấy dữ liệu từ nguồn của bạn",
+    "comment_4": "Xây dựng một đối tượng dữ liệu với các thông tin cần thiết",
+    "comment_5": "Cài đặt thuộc tính biểu đồ như loại và hình thức",
+    "comment_6": "Khởi tạo {{DocumentAssembler}}",
+    "comment_7": "Xuất tài liệu với biểu đồ đã bao gồm"
+  },
+  "texts_pdf": {
+    "step_1": "Thiết kế một mẫu với các vị trí dành cho biểu đồ (các mẫu PDF hiện không được hỗ trợ).",
+    "step_4": "Xuất tài liệu dưới dạng tệp PDF với biểu đồ.",
+    "comment_tmp": "Hiện tại, các mẫu PDF không được hỗ trợ."
+  }
+}

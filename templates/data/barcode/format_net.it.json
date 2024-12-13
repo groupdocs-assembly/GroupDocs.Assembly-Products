@@ -1,0 +1,77 @@
+{
+  "head": {
+    "title": "Genera codici a barre in documenti {{FileFormatUp}} con {{ProgLang}}",
+    "description": "L'API {{ProdFullName}} consente agli sviluppatori di generare e incorporare dinamicamente immagini di codici a barre in documenti ed email."
+  },
+  "header": {
+    "title": "Aggiungi codici a barre a documenti {{FileFormatUp}} utilizzando la nostra API {{EnvNameShort}}",
+    "description": "{{ProdFullName}} offre pieno supporto per creare e incorporare codici a barre in modo dinamico nei documenti {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica la versione di prova gratuita"
+  },
+  "about": {
+    "title": "Panoramica di {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è progettato per aiutarti a generare documenti e report integrando dati provenienti da una vasta gamma di fonti. Popola documenti con dati testuali o numerici, crea grafici, tabelle e liste, o inserisci immagini e codici a barre al volo. Utilizza markup avanzati per posizionare i dati esattamente dove necessario. Supporta oltre 50 formati, tra cui PDF, file MS Office e email."
+  },
+  "more_features": {
+    "title": "Genera documenti compilando modelli con dati",
+    "description": "{{ProdFullName}} è progettato per semplificare la creazione di documenti in formati popolari. Aggiungi grafici, liste, tabelle, collegamenti ipertestuali, immagini e codici a barre utilizzando modelli e markup avanzati.",
+    "image_description": "Caratteristiche di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Crea report da dati aziendali",
+      "content": "La nostra API popola efficientemente documenti in formati office popolari utilizzando dati provenienti da fonti come JSON, XML e CSV."
+    },
+    "feature_2": {
+      "title": "Usa elementi visivi per visualizzare i dati",
+      "content": "{{ProdShortName}} supporta l'incorporamento di elementi nativi come liste, tabelle e grafici, insieme a testo, collegamenti ipertestuali, immagini e codici a barre generati dinamicamente."
+    },
+    "feature_3": {
+      "title": "Inserisci dati ovunque nel documento",
+      "content": "Utilizza una sintassi basata su LINQ per posizionare i dati esattamente dove necessario. Gli array possono essere inseriti utilizzando cicli for-each, e il formato (ad es. colore) può essere personalizzato programmaticamente."
+    },
+    "feature_4": {
+      "title": "Supporta una vasta gamma di formati",
+      "content": "Elabora formati di file popolari come MS Office, OpenOffice, PDF, HTML e vari formati email. Incorpora un documento all'interno di un altro secondo necessità."
+    }
+  },
+  "formats": {
+    "title": "Crea report in formati popolari",
+    "description": "{{EnvName}} supporta la generazione di report in oltre 50 formati, permettendoti di fondere senza problemi dati e modelli per risultati eccezionali."
+  },
+  "operations": {
+    "title": "Esplora le caratteristiche principali",
+    "description": "La nostra soluzione è progettata per semplificare le tue esigenze di elaborazione documenti aziendali."
+  },
+  "examples": {
+    "comment_1": "Inserisci questa etichetta nel tuo modello per generare un codice a barre nel documento finale",
+    "comment_2": "Specifica il percorso del file del modello",
+    "comment_3": "Recupera i dati dalla tua fonte",
+    "comment_4": "Salva il documento con il codice a barre generato"
+  },
+  "steps": {
+    "title": "Passi per aggiungere un codice a barre generato a un documento {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) consente di inserire codici a barre in modelli in formati come {{FileFormatUp}}. Supporta oltre 60 tipi di codici a barre, inclusi formati unidimensionali e bidimensionali.",
+      "step_1": "Prepara un modello {{FileFormatUp}} con segnaposto per il codice a barre.",
+      "step_2": "Recupera i dati da qualsiasi fonte di dati supportata.",
+      "step_3": "Configura ulteriori proprietà come la dimensione o la risoluzione del codice a barre.",
+      "step_4": "Salva il modello con il codice a barre come un nuovo documento."
+    }
+  },
+  "code_1": {
+    "title": "Come generare dinamicamente un codice a barre",
+    "content": "Questo esempio dimostra come incorporare un codice a barre generato dinamicamente in un documento {{FileFormatUp}}.",
+    "comment_1": "Utilizza questo modello per inserire un codice a barre nel documento",
+    "comment_2": "Specifica il percorso del file del modello",
+    "comment_3": "Recupera i dati dalla tua fonte scelta",
+    "comment_4": "Crea un oggetto sorgente dati con solo i dati necessari",
+    "comment_5": "Inizializza {{DocumentAssembler}}",
+    "comment_6": "Imposta proprietà aggiuntive del codice a barre",
+    "comment_7": "Salva il documento finale con il codice a barre incorporato"
+  },
+  "texts_pdf": {
+    "step_1": "Crea un modello con tag specifici per il posizionamento del codice a barre (nota: i modelli PDF non sono compatibili).",
+    "step_4": "Salva il documento finale con il codice a barre inserito come PDF.",
+    "comment_tmp": "Il supporto per modelli PDF non è attualmente disponibile."
+  }
+}

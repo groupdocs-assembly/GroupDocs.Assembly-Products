@@ -1,0 +1,95 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "description": "Adobeポータブルドキュメントフォーマット"
+      },
+      "docx": {
+        "description": "Microsoft WordオープンXMLドキュメント"
+      },
+      "xlsx": {
+        "description": "Microsoft ExcelオープンXMLスプレッドシート"
+      },
+      "pptx": {
+        "description": "PowerPointオープンXMLプレゼンテーション"
+      },
+      "jpeg": {
+        "description": "JPEG画像"
+      }
+    },
+    "format-operations": {
+      "barcode": {
+        "pdf": "PDFにバーコードを追加",
+        "docx": "DOCXにバーコードを追加",
+        "xlsx": "XLSXにバーコードを追加",
+        "pptx": "PPTXにバーコードを追加"
+      },
+      "chart": {
+        "pdf": "PDFにチャートを挿入",
+        "docx": "DOCXにチャートを挿入",
+        "xlsx": "XLSXにチャートを挿入",
+        "pptx": "PPTXにチャートを挿入"
+      },
+      "document": {
+        "pdf": "PDFに文書を埋め込む",
+        "docx": "DOCXに文書を埋め込む",
+        "xlsx": "XLSXに文書を埋め込む",
+        "pptx": "PPTXに文書を埋め込む"
+      },
+      "list": {
+        "pdf": "PDFにリストを作成",
+        "docx": "DOCXにリストを作成",
+        "xlsx": "XLSXにリストを作成",
+        "pptx": "PPTXにリストを作成"
+      },
+      "table": {
+        "pdf": "PDFに表を追加",
+        "docx": "DOCXに表を追加",
+        "xlsx": "XLSXに表を追加",
+        "pptx": "PPTXに表を追加"
+      }
+    },
+    "format-code": {
+      "copy_title": "コピー",
+      "result_title": "例の文書",
+      "result_title_bottom": "結果をダウンロード",
+      "copy_tip": "コピーするにはクリック",
+      "copy_done": "コピーしました",
+      "links": {
+        "title_1": "他の例",
+        "title_2": "ドキュメント"
+      }
+    },
+    "format-actions": {
+      "title": "始める準備はできましたか？",
+      "description": "{{ProdShortName}}の機能を無料で試すか、ライセンスをリクエストしてください",
+      "comment_1": "{{PackageStoreName}}からダウンロード",
+      "comment_2": "ライセンスについて学ぶ"
+    },
+    "texts": {
+      "learn_more": "詳細を見る"
+    },
+    "operations": {
+      "barcode": {
+        "name": "バーコードを生成",
+        "description": "文書にバーコードを動的に作成して追加"
+      },
+      "chart": {
+        "name": "図を用いてデータを視覚化",
+        "description": "さまざまな図のタイプにデータを埋め込む"
+      },
+      "document": {
+        "name": "文書を統合",
+        "description": "1つの文書の内容を別の文書に組み合わせる"
+      },
+      "list": {
+        "name": "リストを使ってデータを表示",
+        "description": "特定のデータを使用して文書内にリストを生成"
+      },
+      "table": {
+        "name": "表にデータを整理",
+        "description": "任意のソースからデータを取得し、表を埋める"
+      }
+    }
+  }
+}

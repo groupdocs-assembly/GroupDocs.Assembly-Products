@@ -1,0 +1,77 @@
+{
+  "head": {
+    "title": "使用{{ProgLang}}在{{FileFormatUp}}文档中生成条形码",
+    "description": "{{ProdFullName}} API使开发人员能够动态生成并嵌入条形码图像到文档和电子邮件中。"
+  },
+  "header": {
+    "title": "使用我们的{{EnvNameShort}} API向{{FileFormatUp}}文档添加条形码",
+    "description": "{{ProdFullName}}提供全面支持，以动态创建和嵌入条形码到{{FileFormatUp}}文档中。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "下载免费试用"
+  },
+  "about": {
+    "title": "{{ProdFullName}}概述",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})旨在通过整合来自多种来源的数据来帮助您生成文档和报告。使用文本或数字数据填充文档，创建图表、表格和列表，或即时插入图像和条形码。使用高级标记精确放置数据。支持超过50种格式，包括PDF、MS Office文件和电子邮件。"
+  },
+  "more_features": {
+    "title": "通过填写模板数据生成文档",
+    "description": "{{ProdFullName}}旨在简化在热门格式中创建文档的过程。使用高级模板和标记添加图表、列表、表格、超链接、图像和条形码。",
+    "image_description": "{{ProdShortName}} 功能",
+    "feature_1": {
+      "title": "从业务数据创建报告",
+      "content": "我们的API有效地使用来自JSON、XML和CSV等来源的数据填充热门办公格式的文档。"
+    },
+    "feature_2": {
+      "title": "使用视觉元素展示数据",
+      "content": "{{ProdShortName}}支持嵌入原生元素，例如列表、表格和图表，以及文本、超链接、图像和动态生成的条形码。"
+    },
+    "feature_3": {
+      "title": "在文档的任何位置插入数据",
+      "content": "使用基于LINQ的语法精确放置所需的数据。可以使用foreach循环插入数组，并可根据需要以编程方式自定义格式（例如，颜色）。"
+    },
+    "feature_4": {
+      "title": "支持广泛的格式",
+      "content": "处理流行的文件格式，如MS Office、OpenOffice、PDF、HTML以及各种电子邮件格式。根据需要将一个文档嵌入到另一个文档中。"
+    }
+  },
+  "formats": {
+    "title": "在流行格式中创建报告",
+    "description": "{{EnvName}}支持生成超过50种格式的报告，使您能够无缝地合并数据和模板以取得卓越成果。"
+  },
+  "operations": {
+    "title": "探索关键功能",
+    "description": "我们的解决方案旨在简化您的业务文档处理需求。"
+  },
+  "examples": {
+    "comment_1": "将此标签插入到模板中以在最终文档中生成条形码",
+    "comment_2": "指定模板文件路径",
+    "comment_3": "从您的数据源中检索数据",
+    "comment_4": "保存包含生成条形码的文档"
+  },
+  "steps": {
+    "title": "将生成的条形码添加到{{FileFormatUp}}文档的步骤",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})简化了在{{FileFormatUp}}格式的模板中插入条形码的过程。支持超过60种条形码类型，包括一维和二维格式。",
+      "step_1": "准备一个带有条形码占位符的{{FileFormatUp}}模板。",
+      "step_2": "从任何支持的数据源中检索数据。",
+      "step_3": "配置条形码的额外属性，如大小或分辨率。",
+      "step_4": "将带有条形码的模板保存为新文档。"
+    }
+  },
+  "code_1": {
+    "title": "如何动态生成条形码",
+    "content": "此示例演示如何将动态生成的条形码嵌入{{FileFormatUp}}文档中。",
+    "comment_1": "使用此模板将条形码插入到文档中",
+    "comment_2": "指定模板文件的路径",
+    "comment_3": "从选择的数据源中检索数据",
+    "comment_4": "创建仅包含必要数据的数据源对象",
+    "comment_5": "初始化{{DocumentAssembler}}",
+    "comment_6": "设置条形码的附加属性",
+    "comment_7": "保存最终文档，其中嵌入了条形码"
+  },
+  "texts_pdf": {
+    "step_1": "创建带有特定标签的模板以放置条形码（注意：PDF模板不兼容）。",
+    "step_4": "将插入条形码的最终文档保存为PDF。",
+    "comment_tmp": "目前不支持PDF模板。"
+  }
+}

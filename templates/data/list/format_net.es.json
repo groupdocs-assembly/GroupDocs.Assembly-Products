@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "Generar listas en documentos {{FileFormatUp}} con {{ProgLang}}",
+    "description": "La API {{ProdFullName}} permite a los desarrolladores crear e incrustar dinámicamente listas llenas de datos en documentos y plantillas."
+  },
+  "header": {
+    "title": "Agrega listas impulsadas por datos a documentos {{FileFormatUp}} usando nuestra API {{EnvNameShort}}",
+    "description": "{{ProdFullName}} ofrece herramientas potentes para generar e incrustar listas dinámicamente en documentos {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar Prueba Gratuita"
+  },
+  "about": {
+    "title": "Visión general de {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) está diseñado para optimizar la creación de documentos e informes mediante la integración fluida de datos de diversas fuentes. Rellena plantillas con listas, gráficos, tablas, códigos de barras o texto, y coloca el contenido con precisión utilizando un marcado avanzado. Con soporte para más de 50 formatos, incluidos PDFs, archivos de MS Office y correos electrónicos, es ideal para automatizar flujos de trabajo de documentos."
+  },
+  "more_features": {
+    "title": "Crea documentos rellenando plantillas con datos estructurados",
+    "description": "{{ProdFullName}} simplifica la construcción de documentos impulsados por datos. Agrega listas, tablas, códigos de barras, gráficos, imágenes y otros elementos dinámicamente con plantillas avanzadas.",
+    "image_description": "Funciones de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Generar informes a partir de datos empresariales",
+      "content": "La API pobla documentos en formatos populares utilizando datos de fuentes como JSON, XML, CSV, etc., con precisión y eficiencia."
+    },
+    "feature_2": {
+      "title": "Utiliza listas y otros elementos para presentar datos",
+      "content": "{{ProdShortName}} te permite incrustar listas, tablas y gráficos junto con texto, códigos de barras, hiperenlaces e imágenes para crear documentos bien estructurados."
+    },
+    "feature_3": {
+      "title": "Inserta datos precisamente donde se necesiten",
+      "content": "Aprovecha la sintaxis basada en LINQ para posicionar listas y otros elementos de datos con precisión. Usa bucles para poblar listas dinámicamente y aplica formato personalizado de manera programática."
+    },
+    "feature_4": {
+      "title": "Soporta múltiples formatos de documentos",
+      "content": "Genera y gestiona documentos en varios formatos como MS Office, OpenOffice, PDF, HTML y archivos de correo electrónico. Integra fácilmente múltiples documentos en uno."
+    }
+  },
+  "formats": {
+    "title": "Crea documentos estructurados en formatos populares",
+    "description": "{{EnvName}} soporta más de 50 formatos, lo que te permite fusionar datos y plantillas sin problemas para obtener resultados estructurados y pulidos."
+  },
+  "operations": {
+    "title": "Explora capacidades clave",
+    "description": "Nuestra plataforma está construida para simplificar la creación y la integración del contenido de documentos impulsados por datos."
+  },
+  "examples": {
+    "comment_1": "Agrega esta etiqueta a tu plantilla para marcar dónde aparecerá la lista",
+    "comment_2": "Especifica la ruta al archivo de la plantilla",
+    "comment_3": "Recupera datos de tu fuente elegida",
+    "comment_4": "Guarda el documento con la lista generada"
+  },
+  "steps": {
+    "title": "Pasos para añadir una lista llenada de datos a un documento {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilita la inserción de listas impulsadas por datos en plantillas {{FileFormatUp}}. Crea y personaliza listas de manera efectiva.",
+      "step_1": "Prepara una plantilla {{FileFormatUp}} con marcadores de posición para la lista.",
+      "step_2": "Establece la ruta a la plantilla.",
+      "step_3": "Recupera datos de fuentes compatibles como JSON o XML.",
+      "step_4": "Guarda el documento final con la lista incrustada."
+    }
+  },
+  "code_1": {
+    "title": "Cómo generar una lista dinámicamente",
+    "content": "Este ejemplo demuestra cómo incrustar una lista generada dinámicamente en un documento {{FileFormatUp}}.",
+    "comment_1": "Agrega una etiqueta de marcador de posición a tu plantilla para la lista",
+    "comment_2": "Especifica la ruta al archivo de la plantilla",
+    "comment_3": "Recupera los datos para poblar la lista",
+    "comment_4": "Crea un objeto de origen de datos con la información necesaria",
+    "comment_5": "Inicializa {{DocumentAssembler}}",
+    "comment_6": "Guarda el documento final con la lista generada"
+  },
+  "texts_pdf": {
+    "step_1": "Crea una plantilla con lugares designados para la lista (las plantillas PDF no son compatibles actualmente).",
+    "step_4": "Exporta el documento completado con la lista como un archivo PDF.",
+    "comment_tmp": "El soporte para plantillas PDF no está disponible en este momento."
+  }
+}

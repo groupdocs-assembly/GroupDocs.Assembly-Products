@@ -1,0 +1,95 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "description": "Adobe Portable Document Format"
+      },
+      "docx": {
+        "description": "Microsoft Word Open XML-Dokument"
+      },
+      "xlsx": {
+        "description": "Microsoft Excel Open XML-Tabellenblatt"
+      },
+      "pptx": {
+        "description": "PowerPoint Open XML-Präsentation"
+      },
+      "jpeg": {
+        "description": "JPEG-Bild"
+      }
+    },
+    "format-operations": {
+      "barcode": {
+        "pdf": "Fügen Sie einen Barcode zu einem PDF hinzu",
+        "docx": "Fügen Sie einen Barcode zu einem DOCX hinzu",
+        "xlsx": "Fügen Sie einen Barcode zu einem XLSX hinzu",
+        "pptx": "Fügen Sie einen Barcode zu einem PPTX hinzu"
+      },
+      "chart": {
+        "pdf": "Diagramme in PDF",
+        "docx": "Diagramme in DOCX",
+        "xlsx": "Diagramme in XLSX",
+        "pptx": "Diagramme in PPTX"
+      },
+      "document": {
+        "pdf": "Binden Sie ein Dokument in ein PDF ein",
+        "docx": "Binden Sie ein Dokument in ein DOCX ein",
+        "xlsx": "Binden Sie ein Dokument in ein XLSX ein",
+        "pptx": "Binden Sie ein Dokument in ein PPTX ein"
+      },
+      "list": {
+        "pdf": "Erstellen Sie eine Liste in einem PDF",
+        "docx": "Erstellen Sie eine Liste in einem DOCX",
+        "xlsx": "Erstellen Sie eine Liste in einem XLSX",
+        "pptx": "Erstellen Sie eine Liste in einem PPTX"
+      },
+      "table": {
+        "pdf": "Fügen Sie eine Tabelle zu einem PDF hinzu",
+        "docx": "Fügen Sie eine Tabelle zu einem DOCX hinzu",
+        "xlsx": "Fügen Sie eine Tabelle zu einem XLSX hinzu",
+        "pptx": "Fügen Sie eine Tabelle zu einem PPTX hinzu"
+      }
+    },
+    "format-code": {
+      "copy_title": "Kopieren",
+      "result_title": "Beispieldokument",
+      "result_title_bottom": "Laden Sie das Ergebnis herunter",
+      "copy_tip": "Klicken Sie zum Kopieren",
+      "copy_done": "kopiert",
+      "links": {
+        "title_1": "Weitere Beispiele",
+        "title_2": "Dokumentation"
+      }
+    },
+    "format-actions": {
+      "title": "Bereit anzufangen?",
+      "description": "Erforschen Sie die Funktionen von {{ProdShortName}} kostenlos oder fordern Sie eine Lizenz an",
+      "comment_1": "Herunterladen von {{PackageStoreName}}",
+      "comment_2": "Erfahren Sie mehr über Lizenzen"
+    },
+    "texts": {
+      "learn_more": "Mehr erfahren"
+    },
+    "operations": {
+      "barcode": {
+        "name": "Barcodes generieren",
+        "description": "Erstellen und fügen Sie dynamisch Barcodes in Dokumente ein"
+      },
+      "chart": {
+        "name": "Daten mit Diagrammen visualisieren",
+        "description": "Füllen Sie verschiedene Diagrammtypen mit Daten"
+      },
+      "document": {
+        "name": "Dokumente zusammenführen",
+        "description": "Kombinieren Sie den Inhalt eines Dokuments mit einem anderen"
+      },
+      "list": {
+        "name": "Daten mit Listen anzeigen",
+        "description": "Erstellen Sie Listen in Dokumenten mit spezifischen Daten"
+      },
+      "table": {
+        "name": "Daten in Tabellen organisieren",
+        "description": "Daten aus jeder Quelle abrufen und Tabellen befüllen"
+      }
+    }
+  }
+}

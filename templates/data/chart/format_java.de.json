@@ -1,0 +1,77 @@
+{
+  "head": {
+    "title": "Diagramme in {{FileFormatUp}}-Dokumenten mit {{ProgLang}} generieren",
+    "description": "Die {{ProdFullName}} API ermöglicht Entwicklern die nahtlose Erstellung und Einfügung dynamischer Diagramme oder Grafiken in Dokumente, unterstützt durch Live-Daten."
+  },
+  "header": {
+    "title": "Diagramme zu {{FileFormatUp}}-Dokumenten mit {{EnvNameShort}} API hinzufügen",
+    "description": "{{ProdFullName}} vereinfacht den Prozess der Einbettung von Diagrammen in {{FileFormatUp}}-Dokumenten, indem es Echtzeitdaten nutzt.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Jetzt kostenlos starten"
+  },
+  "about": {
+    "title": "Einführung in {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist eine vielseitige Lösung zur Automatisierung der Erstellung von Dokumenten und Berichten. Es ermöglicht die direkte Einfügung von Diagrammen, Tabellen, Listen, Barcodes und Bildern in Ihre Dateien, mit erweiterten Tools für präzise Formatierung und Datenintegration. Die Plattform unterstützt über 50 Formate, darunter PDF, Microsoft Office-Dateien und E-Mails."
+  },
+  "more_features": {
+    "title": "Dynamische Diagramme mühelos in Ihre Dokumente einbetten",
+    "description": "{{ProdFullName}} bietet eine unkomplizierte Möglichkeit, datenreiche Dokumente in gängigen Formaten zu erstellen. Verwenden Sie Vorlagen, um Diagramme, Tabellen, Barcodes, Listen, Links und Bilder mit dynamischen Updates aus Ihren Daten einzufügen.",
+    "image_description": "Hauptmerkmale von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Daten in Diagramme umwandeln",
+      "content": "Nutzen Sie die API, um Daten aus JSON, XML, CSV oder anderen Quellen in saubere, professionelle Diagramme für Ihre Dokumente zu verwandeln."
+    },
+    "feature_2": {
+      "title": "Visuell ansprechende Inhalte erstellen",
+      "content": "{{ProdShortName}} unterstützt verschiedene visuelle Formate, darunter Säulendiagramme, Kreisdiagramme und Liniendiagramme, die mit Tabellen, Barcodes, Bildern und mehr für verbessere Berichte kombiniert werden können."
+    },
+    "feature_3": {
+      "title": "Anpassbare Diagrammplatzierung und -gestaltung",
+      "content": "Mit der LINQ-basierten Syntax können Sie Diagramme dynamisch im Dokument erstellen und positionieren und gleichzeitig Stil, Farben und Layouts problemlos an Ihre Designvorgaben anpassen."
+    },
+    "feature_4": {
+      "title": "Unterstützt mehrere Dokumentformate",
+      "content": "Generieren Sie Dokumente in Formaten wie MS Office, PDF, OpenOffice und HTML. Die Diagramme fügen sich nahtlos in jedes unterstützte Format ein und sorgen für professionelle Ergebnisse."
+    }
+  },
+  "formats": {
+    "title": "Umfassende Berichte in verschiedenen Formaten generieren",
+    "description": "{{EnvName}} ermöglicht Ihnen die Erstellung von Dokumenten mit integrierten Diagrammen in über 50 Dateiformaten, wodurch eine nahtlose Zusammenführung von Vorlagen und Daten gewährleistet wird."
+  },
+  "operations": {
+    "title": "Entdecken Sie leistungsstarke Funktionen",
+    "description": "Diese Plattform vereinfacht den Entwurfsprozess für datenorientierte, visuell ansprechende Dokumente, die auf Ihre Bedürfnisse zugeschnitten sind."
+  },
+  "examples": {
+    "comment_1": "Fügen Sie dieses Tag Ihrer Vorlage hinzu, um ein Diagramm einzufügen",
+    "comment_2": "Geben Sie den Dateipfad zu Ihrer Vorlage an",
+    "comment_3": "Extrahieren Sie die erforderlichen Daten aus Ihrer Quelle",
+    "comment_4": "Speichern Sie das endgültige Dokument mit dem eingebetteten Diagramm"
+  },
+  "steps": {
+    "title": "Schritte zur Einbettung eines Diagramms in ein {{FileFormatUp}}-Dokument",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) vereinfacht den Prozess der Einfügung von Diagrammen in {{FileFormatUp}}-Vorlagen. Wählen Sie aus verschiedenen Diagrammtypen, einschließlich Balken-, Kreis- und Liniendiagrammen.",
+      "step_1": "Erstellen Sie eine {{FileFormatUp}}-Vorlage mit Platzhaltern für das Diagramm.",
+      "step_2": "Laden Sie Ihre Daten aus einer kompatiblen Quelle.",
+      "step_3": "Legen Sie die Diagrammoptionen wie Typ, Labels und Farben fest.",
+      "step_4": "Speichern Sie das Dokument mit dem eingebetteten Diagramm."
+    }
+  },
+  "code_1": {
+    "title": "Diagramme programmgesteuert generieren und einfügen",
+    "content": "Dieses Beispiel zeigt, wie Sie ein Diagramm programmatisch in ein {{FileFormatUp}}-Dokument erstellen und einfügen.",
+    "comment_1": "Bereiten Sie eine Vorlage mit einem Platzhalter für das Diagramm vor",
+    "comment_2": "Geben Sie den Dateipfad zur Vorlage an",
+    "comment_3": "Laden Sie Daten aus Ihrer gewählten Quelle",
+    "comment_4": "Erstellen Sie ein Datenobjekt mit den relevanten Informationen",
+    "comment_5": "Konfigurieren Sie den Diagrammtyp und das Aussehen",
+    "comment_6": "Initialisieren Sie {{DocumentAssembler}}",
+    "comment_7": "Speichern Sie das fertige Dokument mit dem eingebetteten Diagramm"
+  },
+  "texts_pdf": {
+    "step_1": "Erstellen Sie eine Vorlage mit Platzhaltern für das Diagramm (PDF-Vorlagen werden nicht unterstützt).",
+    "step_4": "Speichern Sie das Dokument, das das Diagramm enthält, als PDF-Datei.",
+    "comment_tmp": "PDF-Vorlagen werden derzeit nicht unterstützt."
+  }
+}

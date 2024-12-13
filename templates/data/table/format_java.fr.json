@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "Ajoutez des tableaux aux documents {{FileFormatUp}} en utilisant {{ProgLang}}",
+    "description": "Avec {{ProdFullName}}, les développeurs peuvent rapidement intégrer des tableaux dans des documents et des e-mails, en extrayant des données de sources dynamiques."
+  },
+  "header": {
+    "title": "Remplissez des tableaux dans des fichiers {{FileFormatUp}} avec notre API {{EnvNameShort}}",
+    "description": "{{ProdFullName}} simplifie le processus de remplissage des tableaux dans les documents {{FileFormatUp}} avec des données provenant de diverses sources.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Obtenez votre essai gratuit"
+  },
+  "about": {
+    "title": "Qu'est-ce que {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est un outil de génération de documents et de rapports en insérant automatiquement des données dans des modèles prédéfinis. Vous pouvez ajouter des tableaux, des listes, des graphiques et des images sans effort. Ses fonctionnalités avancées vous permettent de placer précisément le contenu dans vos documents. Compatible avec plus de 50 types de fichiers, y compris PDF, MS Office et formats de messagerie."
+  },
+  "more_features": {
+    "title": "Créez des documents avec des tableaux remplis de données",
+    "description": "{{ProdFullName}} facilite l'automatisation de la création de tableaux dans vos documents. Il prend également en charge l'ajout d'éléments tels que des graphiques, des listes et des images à l'aide de modèles.",
+    "image_description": "Fonctionnalités principales de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Générez des rapports à partir de plusieurs formats de données",
+      "content": "L'API fonctionne sans problème avec JSON, XML, CSV et d'autres formats pour remplir des tableaux dans vos documents avec des données organisées."
+    },
+    "feature_2": {
+      "title": "Présentez les informations de manière visuelle",
+      "content": "{{ProdShortName}} vous aide à créer des tableaux, des listes et des graphiques professionnels, ainsi qu'à insérer des liens, du texte et des images, pour un rendu soigné."
+    },
+    "feature_3": {
+      "title": "Placez le contenu des tableaux avec précision",
+      "content": "Utilisez une syntaxe flexible basée sur LINQ pour ajouter des lignes et des colonnes dynamiquement. Personnalisez l'apparence, comme les styles de police et les couleurs, par programmation."
+    },
+    "feature_4": {
+      "title": "Compatible avec plusieurs formats",
+      "content": "Travaillez avec MS Office, OpenOffice, PDF, HTML, et plus encore. Fusionnez des tableaux dans n'importe quel format de fichier pris en charge sans effort."
+    }
+  },
+  "formats": {
+    "title": "Produisez des tableaux détaillés dans divers formats",
+    "description": "Avec {{EnvName}}, vous pouvez remplir des modèles avec des données et générer des rapports détaillés dans plus de 50 types de fichiers."
+  },
+  "operations": {
+    "title": "Fonctionnalités clés en un coup d'œil",
+    "description": "Notre API simplifie la création de documents professionnels en automatisant le peuplement des tableaux aux côtés d'autres composants puissants."
+  },
+  "examples": {
+    "comment_1": "Utilisez ces balises dans un espace réservé de ligne de tableau dans votre modèle",
+    "comment_2": "Définissez le chemin vers le fichier modèle",
+    "comment_3": "Chargez des données à partir de votre source choisie",
+    "comment_4": "Enregistrez le fichier de sortie avec le tableau rempli"
+  },
+  "steps": {
+    "title": "Étapes pour insérer des données dans un tableau {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) vous aide à remplir des modèles de tableaux pour {{FileFormatUp}} et d'autres formats. Utilisez des données dynamiques provenant de vos sources pour créer des tableaux sans effort.",
+      "step_1": "Configurez un modèle {{FileFormatUp}} avec des espaces réservés pour les lignes et les colonnes du tableau.",
+      "step_2": "Récupérez des données de n'importe quelle source d'entrée prise en charge.",
+      "step_3": "Filtrez ou prétraitez les données pour répondre à vos besoins.",
+      "step_4": "Générez le document final avec le tableau complété."
+    }
+  },
+  "code_1": {
+    "title": "Créez dynamiquement un tableau rempli de données",
+    "content": "Cet exemple montre comment remplir un tableau dans un document {{FileFormatUp}} en utilisant des données d'entrée dynamiques.",
+    "comment_1": "Conception d'un modèle avec un espace réservé pour le tableau",
+    "comment_2": "Définissez l'emplacement du fichier modèle",
+    "comment_3": "Chargez des données à partir de votre source préférée",
+    "comment_4": "Préparez un objet de données contenant les champs nécessaires",
+    "comment_5": "Créez une instance de {{DocumentAssembler}}",
+    "comment_6": "Enregistrez le document avec le tableau rempli"
+  },
+  "texts_pdf": {
+    "step_1": "Conception d'un modèle avec des espaces réservés pour le tableau (les modèles PDF ne sont pas actuellement pris en charge).",
+    "step_4": "Enregistrez le document avec le tableau rempli sous forme de fichier PDF.",
+    "comment_tmp": "Les modèles PDF ne sont pas pris en charge pour le moment."
+  }
+}

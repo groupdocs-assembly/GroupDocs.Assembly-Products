@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-06T14:23:46
+date:  2024-12-13T10:30:52
 draft: false
 lang: en
 format: Pptx

@@ -1,0 +1,95 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "description": "Formato de Documento Portable de Adobe"
+      },
+      "docx": {
+        "description": "Documento XML Abierto de Microsoft Word"
+      },
+      "xlsx": {
+        "description": "Hoja de Cálculo XML Abierta de Microsoft Excel"
+      },
+      "pptx": {
+        "description": "Presentación XML Abierta de PowerPoint"
+      },
+      "jpeg": {
+        "description": "Imagen JPEG"
+      }
+    },
+    "format-operations": {
+      "barcode": {
+        "pdf": "Agregar un código de barras a un PDF",
+        "docx": "Agregar un código de barras a un DOCX",
+        "xlsx": "Agregar un código de barras a un XLSX",
+        "pptx": "Agregar un código de barras a un PPTX"
+      },
+      "chart": {
+        "pdf": "Gráficos en PDF",
+        "docx": "Gráficos en DOCX",
+        "xlsx": "Gráficos en XLSX",
+        "pptx": "Gráficos en PPTX"
+      },
+      "document": {
+        "pdf": "Incorporar un documento en un PDF",
+        "docx": "Incorporar un documento en un DOCX",
+        "xlsx": "Incorporar un documento en un XLSX",
+        "pptx": "Incorporar un documento en un PPTX"
+      },
+      "list": {
+        "pdf": "Crear una lista en un PDF",
+        "docx": "Crear una lista en un DOCX",
+        "xlsx": "Crear una lista en un XLSX",
+        "pptx": "Crear una lista en un PPTX"
+      },
+      "table": {
+        "pdf": "Agregar una tabla a un PDF",
+        "docx": "Agregar una tabla a un DOCX",
+        "xlsx": "Agregar una tabla a un XLSX",
+        "pptx": "Agregar una tabla a un PPTX"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copiar",
+      "result_title": "Documento de ejemplo",
+      "result_title_bottom": "Descargar el resultado",
+      "copy_tip": "haz clic para copiar",
+      "copy_done": "copiado",
+      "links": {
+        "title_1": "Más ejemplos",
+        "title_2": "Documentación"
+      }
+    },
+    "format-actions": {
+      "title": "¿Listo para comenzar?",
+      "description": "Explora las funciones de {{ProdShortName}} de forma gratuita o solicita una licencia",
+      "comment_1": "Descargar desde {{PackageStoreName}}",
+      "comment_2": "Conocer sobre la licencia"
+    },
+    "texts": {
+      "learn_more": "Aprender más"
+    },
+    "operations": {
+      "barcode": {
+        "name": "Generar códigos de barras",
+        "description": "Crear y añadir dinámicamente códigos de barras a documentos"
+      },
+      "chart": {
+        "name": "Visualizar datos con diagramas",
+        "description": "Rellenar varios tipos de diagramas con datos"
+      },
+      "document": {
+        "name": "Combinar documentos",
+        "description": "Integrar el contenido de un documento en otro"
+      },
+      "list": {
+        "name": "Mostrar datos con listas",
+        "description": "Generar listas en documentos utilizando datos específicos"
+      },
+      "table": {
+        "name": "Organizar datos en tablas",
+        "description": "Recuperar datos de cualquier fuente y completar tablas"
+      }
+    }
+  }
+}

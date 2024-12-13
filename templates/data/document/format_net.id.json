@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": "Sisipkan satu dokumen ke dalam dokumen lain dalam {{FileFormatUp}} menggunakan API {{ProgLang}}",
+    "description": "Gabungkan dokumen {{FileFormatUp}} dengan menggunakan {{ProgLang}}. Dengan {{ProdShortName}}, gabungkan file tanpa kendala dalam beberapa langkah saja."
+  },
+  "header": {
+    "title": "Gabungkan dokumen dalam format {{FileFormatUp}}",
+    "description": "Dengan {{ProdFullName}}, Anda dapat dengan cepat menyisipkan satu dokumen {{FileFormatUp}} ke dalam dokumen lainnya. API ini menyediakan alat yang kuat untuk penggabungan dokumen yang tepat.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Gratis"
+  },
+  "about": {
+    "title": "Apa itu {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah alat yang kuat untuk komposisi dan manipulasi dokumen. Ini memungkinkan pengguna untuk menyisipkan satu dokumen ke dalam dokumen lainnya, memungkinkan penggabungan konten yang mulus. Dengan dukungan untuk lebih dari 50 format—termasuk PDF, file MS Office, dan lainnya—Anda dapat mengatur, mengedit, dan menyesuaikan hasil akhir sesuai kebutuhan Anda."
+  },
+  "more_features": {
+    "title": "Permudah penggabungan dokumen dengan alat canggih",
+    "description": "Koleksi {{ProdFullName}} menyederhanakan penyisipan satu dokumen ke dalam dokumen lain, mendukung berbagai format file dan menawarkan kustomisasi untuk integrasi yang mulus.",
+    "image_description": "Fitur Utama dari {{ProdShortName}}",
+    "feature_1": {
+      "title": "Hasilkan laporan dari data bisnis Anda",
+      "content": "Secara otomatis populasi dokumen dengan data dari JSON, XML, CSV, atau sumber lain, memastikan alur kerja yang akurat dan efektif."
+    },
+    "feature_2": {
+      "title": "Perkaya dokumen dengan elemen visual",
+      "content": "{{ProdShortName}} memungkinkan Anda untuk menyertakan tabel, grafik, dan daftar, serta teks, tautan, gambar, dan kode batang yang dihasilkan secara dinamis."
+    },
+    "feature_3": {
+      "title": "Tempatkan dan format data dengan tepat",
+      "content": "Template berbasis LINQ memberi Anda kontrol atas penempatan data, memungkinkan Anda menangani loop untuk array, dan memungkinkan gaya seperti kustomisasi warna."
+    },
+    "feature_4": {
+      "title": "Bekerja dengan berbagai format file",
+      "content": "Dengan mudah sisipkan dokumen satu sama lain di berbagai format seperti MS Office, PDF, HTML, OpenOffice, dan lainnya."
+    }
+  },
+  "formats": {
+    "title": "Gabungkan dokumen dalam berbagai format",
+    "description": "Dengan API {{EnvName}}, Anda dapat menggabungkan dokumen di lebih dari 50 format yang didukung. Dengan efisien sisipkan file atau bagian ke dalam dokumen akhir Anda."
+  },
+  "operations": {
+    "title": "Temukan alat kami yang kuat",
+    "description": "Jelajahi fitur yang ditawarkan {{ProdShortName}} untuk menyisipkan dan menggabungkan dokumen dengan akurasi."
+  },
+  "examples": {
+    "comment_1": "Tambahkan tag ini ke template Anda untuk menandai titik penyisipan",
+    "comment_2": "Tentukan jalur file untuk template",
+    "comment_3": "Sediakan jalur dokumen yang akan disisipkan",
+    "comment_4": "Simpan dokumen yang digabungkan"
+  },
+  "steps": {
+    "title": "Cara menggabungkan dokumen ke dalam file {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memungkinkan Anda menyisipkan satu dokumen ke dalam file {{FileFormatUp}} lain tanpa kesulitan. Gabungkan dan sesuaikan konten dengan tepat.",
+      "step_1": "Rancang template {{FileFormatUp}} dengan placeholder untuk dokumen yang disisipkan.",
+      "step_2": "Tentukan jalur file untuk template.",
+      "step_3": "Tentukan jalur file dokumen yang akan disisipkan.",
+      "step_4": "Simpan file akhir dengan konten yang disisipkan."
+    }
+  },
+  "code_1": {
+    "title": "Cara menyisipkan gambar ke dalam dokumen secara programatis",
+    "content": "Contoh ini menunjukkan bagaimana cara menyisipkan gambar ke dalam dokumen {{FileFormatUp}} menggunakan {{ProdShortName}}.",
+    "comment_1": "Tambahkan tag placeholder di template Anda",
+    "comment_2": "Tentukan jalur file untuk template",
+    "comment_3": "Atur jalur ke file gambar",
+    "comment_4": "Inisialisasi instansi {{DocumentAssembler}}",
+    "comment_5": "Simpan dokumen dengan gambar yang disisipkan"
+  },
+  "texts_pdf": {
+    "step_1": "Rancang template dengan placeholder tertentu untuk konten yang akan disisipkan (template PDF tidak didukung).",
+    "step_4": "Ekspor file yang telah selesai dengan konten terintegrasi sebagai dokumen PDF.",
+    "comment_tmp": "Saat ini, template PDF tidak dapat digunakan."
+  }
+}

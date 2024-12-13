@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": "Insérer un document dans un autre en {{FileFormatUp}} à l'aide de {{ProgLang}}",
+    "description": "Combinez des fichiers {{FileFormatUp}} avec {{ProgLang}}. {{ProdShortName}} simplifie le processus de fusion de documents en seulement quelques lignes de code."
+  },
+  "header": {
+    "title": "Intégrez du contenu dans des fichiers {{FileFormatUp}} sans effort",
+    "description": "Utilisez {{ProdFullName}} pour insérer facilement un document {{FileFormatUp}} dans un autre. Obtenez des résultats précis avec des outils flexibles et fiables.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Obtenez-le gratuitement"
+  },
+  "about": {
+    "title": "Qu'est-ce que {{ProdFullName}} ?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est une solution polyvalente pour la gestion de documents. Elle vous permet d'intégrer un document dans un autre, prenant en charge plus de 50 formats tels que des PDF et des fichiers MS Office. Personnalisez votre sortie en fusionnant, modifiant et organisant le contenu exactement comme vous le souhaitez."
+  },
+  "more_features": {
+    "title": "Outils avancés pour simplifier l'intégration de documents",
+    "description": "Avec {{ProdFullName}}, l'intégration de documents est simple et personnalisable, peu importe le type de fichier. Obtenez des résultats clairs et cohérents dans vos projets.",
+    "image_description": "Fonctionnalités de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Créer des rapports à l'aide de données commerciales",
+      "content": "Remplissez les documents avec des données provenant de sources comme JSON, XML ou CSV rapidement et de manière fiable, rationalisant ainsi vos flux de travail."
+    },
+    "feature_2": {
+      "title": "Améliorer les documents avec du contenu visuel",
+      "content": "{{ProdShortName}} vous permet d'insérer des tableaux, des graphiques et des listes aux côtés de texte, d'hyperliens, d'images et même de codes-barres dynamiques."
+    },
+    "feature_3": {
+      "title": "Placez les données exactement où elles doivent être",
+      "content": "Les modèles LINQ aident à positionner vos données avec précision, à gérer des éléments répétitifs comme des tableaux et à appliquer des styles personnalisés sans effort."
+    },
+    "feature_4": {
+      "title": "Compatible avec divers formats de fichiers",
+      "content": "Fusionnez des documents de différents formats, y compris des PDF, HTML, des fichiers MS Office et OpenOffice, garantissant flexibilité pour vos projets."
+    }
+  },
+  "formats": {
+    "title": "Fusionnez différents types de documents",
+    "description": "Avec {{EnvName}}, vous pouvez intégrer et combiner du contenu dans plus de 50 formats de fichiers. Ajoutez des fichiers sans effort pour créer des résultats professionnels."
+  },
+  "operations": {
+    "title": "Capacités clés en un coup d'œil",
+    "description": "Découvrez les fonctionnalités étendues que {{ProdShortName}} offre pour rendre l'intégration et la fusion de documents efficaces et sans tracas."
+  },
+  "examples": {
+    "comment_1": "Utilisez cette balise dans votre modèle pour marquer l'emplacement du document intégré",
+    "comment_2": "Définissez le chemin du fichier pour le modèle principal",
+    "comment_3": "Indiquez le chemin du document que vous souhaitez insérer",
+    "comment_4": "Enregistrez le fichier final avec le contenu intégré"
+  },
+  "steps": {
+    "title": "Étapes pour insérer un document dans un fichier {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) rend l'insertion d'un document {{FileFormatUp}} dans un autre simple et personnalisable.",
+      "step_1": "Préparez un modèle {{FileFormatUp}} avec des espaces réservés pour le contenu intégré.",
+      "step_2": "Spécifiez le chemin du fichier pour le modèle.",
+      "step_3": "Indiquez le chemin du document à intégrer.",
+      "step_4": "Enregistrez le fichier de sortie avec le contenu fusionné."
+    }
+  },
+  "code_1": {
+    "title": "Comment insérer programmatique un image dans un document",
+    "content": "Cet exemple montre comment intégrer une image dans un fichier {{FileFormatUp}} en utilisant {{ProdShortName}}.",
+    "comment_1": "Ajoutez une balise d'espace réservé dans le fichier modèle",
+    "comment_2": "Définissez le chemin vers le modèle",
+    "comment_3": "Spécifiez le chemin vers l'image",
+    "comment_4": "Initialisez l'instance {{DocumentAssembler}}",
+    "comment_5": "Enregistrez le fichier avec l'image intégrée"
+  },
+  "texts_pdf": {
+    "step_1": "Créez un modèle avec des espaces réservés pour le contenu intégré (les modèles PDF ne sont pas pris en charge).",
+    "step_4": "Enregistrez le fichier final avec le contenu fusionné au format PDF.",
+    "comment_tmp": "Les modèles PDF ne sont pas pris en charge pour le moment."
+  }
+}

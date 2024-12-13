@@ -1,0 +1,95 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "description": "Format Dokumen Portabel Adobe"
+      },
+      "docx": {
+        "description": "Dokumen XML Terbuka Microsoft Word"
+      },
+      "xlsx": {
+        "description": "Spreadsheet XML Terbuka Microsoft Excel"
+      },
+      "pptx": {
+        "description": "Presentasi XML Terbuka PowerPoint"
+      },
+      "jpeg": {
+        "description": "Gambar JPEG"
+      }
+    },
+    "format-operations": {
+      "barcode": {
+        "pdf": "Tambahkan barcode ke PDF",
+        "docx": "Tambahkan barcode ke DOCX",
+        "xlsx": "Tambahkan barcode ke XLSX",
+        "pptx": "Tambahkan barcode ke PPTX"
+      },
+      "chart": {
+        "pdf": "Diagram dalam PDF",
+        "docx": "Diagram dalam DOCX",
+        "xlsx": "Diagram dalam XLSX",
+        "pptx": "Diagram dalam PPTX"
+      },
+      "document": {
+        "pdf": "Sisipkan dokumen dalam PDF",
+        "docx": "Sisipkan dokumen dalam DOCX",
+        "xlsx": "Sisipkan dokumen dalam XLSX",
+        "pptx": "Sisipkan dokumen dalam PPTX"
+      },
+      "list": {
+        "pdf": "Buat daftar dalam PDF",
+        "docx": "Buat daftar dalam DOCX",
+        "xlsx": "Buat daftar dalam XLSX",
+        "pptx": "Buat daftar dalam PPTX"
+      },
+      "table": {
+        "pdf": "Tambahkan tabel ke PDF",
+        "docx": "Tambahkan tabel ke DOCX",
+        "xlsx": "Tambahkan tabel ke XLSX",
+        "pptx": "Tambahkan tabel ke PPTX"
+      }
+    },
+    "format-code": {
+      "copy_title": "Salin",
+      "result_title": "Dokumen contoh",
+      "result_title_bottom": "Unduh hasilnya",
+      "copy_tip": "klik untuk menyalin",
+      "copy_done": "disalin",
+      "links": {
+        "title_1": "Lebih banyak contoh",
+        "title_2": "Dokumentasi"
+      }
+    },
+    "format-actions": {
+      "title": "Siap untuk memulai?",
+      "description": "Jelajahi fitur {{ProdShortName}} secara gratis atau minta lisensi",
+      "comment_1": "Unduh dari {{PackageStoreName}}",
+      "comment_2": "Pelajari tentang lisensi"
+    },
+    "texts": {
+      "learn_more": "Pelajari lebih lanjut"
+    },
+    "operations": {
+      "barcode": {
+        "name": "Hasilkan barcode",
+        "description": "Buat dan tambahkan barcode secara dinamis ke dokumen"
+      },
+      "chart": {
+        "name": "Visualisasikan data dengan diagram",
+        "description": "Isi berbagai jenis diagram dengan data"
+      },
+      "document": {
+        "name": "Gabungkan dokumen",
+        "description": "Kombinasikan konten satu dokumen ke dokumen lain"
+      },
+      "list": {
+        "name": "Tampilkan data dengan daftar",
+        "description": "Hasilkan daftar dalam dokumen menggunakan data tertentu"
+      },
+      "table": {
+        "name": "Atur data dalam tabel",
+        "description": "Ambil data dari sumber mana pun dan isi tabel"
+      }
+    }
+  }
+}

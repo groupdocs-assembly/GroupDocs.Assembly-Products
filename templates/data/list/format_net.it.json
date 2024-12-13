@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "Genera el documento di liste in {{FileFormatUp}} con {{ProgLang}}",
+    "description": "L'API {{ProdFullName}} consente agli sviluppatori di creare dinamicamente e incorporare liste piene di dati all'interno di documenti e modelli."
+  },
+  "header": {
+    "title": "Aggiungi liste orientate ai dati ai documenti {{FileFormatUp}} usando la nostra API {{EnvNameShort}}",
+    "description": "{{ProdFullName}} offre strumenti potenti per generare e incorporare dinamicamente liste nei documenti {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica la Versione di Prova Gratuita"
+  },
+  "about": {
+    "title": "Panoramica di {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è progettato per semplificare la creazione di documenti e report integrando senza soluzione di continuità i dati provenienti da varie fonti. Popola i modelli con liste, grafici, tabelle, codici a barre o testo, e posiziona il contenuto con precisione utilizzando markup avanzato. Con il supporto per oltre 50 formati—compresi PDF, file MS Office e email—è ideale per automatizzare i flussi di lavoro documentali."
+  },
+  "more_features": {
+    "title": "Crea documenti riempiendo modelli con dati strutturati",
+    "description": "{{ProdFullName}} semplifica la creazione di documenti orientati ai dati. Aggiungi dinamicamente liste, tabelle, codici a barre, grafici, immagini e altri elementi con modelli avanzati.",
+    "image_description": "Caratteristiche di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Genera report da dati aziendali",
+      "content": "L'API popola documenti in formati popolari utilizzando dati provenienti da fonti come JSON, XML, CSV, ecc. con precisione ed efficienza."
+    },
+    "feature_2": {
+      "title": "Usa liste e altri elementi per presentare dati",
+      "content": "{{ProdShortName}} ti consente di incorporare liste, tabelle e grafici insieme a testo, codici a barre, collegamenti ipertestuali e immagini per creare documenti ben strutturati."
+    },
+    "feature_3": {
+      "title": "Inserisci i dati esattamente dove necessario",
+      "content": "Sfrutta la sintassi basata su LINQ per posizionare liste e altri elementi di dati con precisione. Utilizza i cicli per popolare le liste dinamicamente e applica formattazioni personalizzate in modo programmato."
+    },
+    "feature_4": {
+      "title": "Supporta più formati di documento",
+      "content": "Genera e gestisci documenti in vari formati come MS Office, OpenOffice, PDF, HTML e file email. Integra facilmente più documenti in uno."
+    }
+  },
+  "formats": {
+    "title": "Crea documenti strutturati in formati popolari",
+    "description": "{{EnvName}} supporta oltre 50 formati, permettendo di unire senza difficoltà dati e modelli per produrre risultati strutturati e raffinati."
+  },
+  "operations": {
+    "title": "Esplora le capacità principali",
+    "description": "La nostra piattaforma è costruita per semplificare la creazione e l'integrazione dei contenuti documentali orientati ai dati."
+  },
+  "examples": {
+    "comment_1": "Aggiungi questo tag al tuo modello per segnare dove apparirà la lista",
+    "comment_2": "Specifica il percorso del file modello",
+    "comment_3": "Recupera i dati dalla tua fonte scelta",
+    "comment_4": "Salva il documento con la lista generata"
+  },
+  "steps": {
+    "title": "Passi per aggiungere una lista riempita di dati a un documento {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) semplifica l'inserimento di liste orientate ai dati nei modelli {{FileFormatUp}}. Crea e personalizza le liste con precisione.",
+      "step_1": "Prepara un modello {{FileFormatUp}} con segnaposto per la lista.",
+      "step_2": "Imposta il percorso per il modello.",
+      "step_3": "Recupera i dati da fonti supportate come JSON o XML.",
+      "step_4": "Salva il documento finale con la lista incorporata."
+    }
+  },
+  "code_1": {
+    "title": "Come generare una lista dinamicamente",
+    "content": "Questo esempio dimostra come incorporare una lista generata dinamicamente in un documento {{FileFormatUp}}.",
+    "comment_1": "Aggiungi un tag segnaposto al tuo modello per la lista",
+    "comment_2": "Specifica il percorso del file modello",
+    "comment_3": "Recupera i dati per popolare la lista",
+    "comment_4": "Crea un oggetto sorgente dati con le informazioni necessarie",
+    "comment_5": "Inizializza {{DocumentAssembler}}",
+    "comment_6": "Salva il documento finale con la lista generata"
+  },
+  "texts_pdf": {
+    "step_1": "Crea un modello con spazi designati per la lista (i modelli PDF non sono attualmente supportati).",
+    "step_4": "Esporta il documento completato con la lista come file PDF.",
+    "comment_tmp": "Il supporto per i modelli PDF non è attualmente disponibile."
+  }
+}

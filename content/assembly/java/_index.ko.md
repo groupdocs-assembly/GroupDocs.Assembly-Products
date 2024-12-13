@@ -1,292 +1,271 @@
 ---
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+############################# Static ############################
+layout: "landing"
+date: 2024-12-13T10:30:57
 draft: false
 
+lang: ko
 product: "Assembly"
 product_tag: "assembly"
 platform: "Java"
 platform_tag: "java"
 
-head_title: "Java 문서 자동화 어셈블리 및 동적 보고서 생성기 API"
-head_description: "문서 자동화, 어셈블리 및 보고를 위한 Java API. 사용자 지정 템플릿에서 보고서를 만듭니다. DB, JSON, OData 및 XML 데이터 소스에서 PDF Word Excel PPTX HTML 조합."
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
 
-title: "문서 및 보고서를 자동화하는 Java API"
-description: "데이터를 가져오기 위한 문서 자동화 애플리케이션 구축 사용자 정의 가능한 템플릿에 넣고 Java API를 통해 동적 보고서 생성."
-button:
-    enable: true
+############################# Head ############################
+head_title: "문서 생성, 자동화 및 보고를 위한 Java 라이브러리"
+head_description: "문서 생성을 자동화하고 보고서를 생성하기 위한 Java 라이브러리. 사용자 정의 템플릿을 사용하여 PDF, Word, Excel, PPTX, HTML 및 이메일 문서를 생성합니다."
 
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Assembly for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-assembly-java.png"
-        product: "GroupDocs.Assembly"
-        platform: "Java"
+############################# Header ############################
+title: "보고서 및 문서 자동화를 위한 Java API"
+description: "데이터와 템플릿을 병합하여 Java에서 보고서 생성을 간소화합니다."
+words:
+  for: "용"
 
-    middle:
-        button:
-            - link: "#overview"
-              text: "개요"
+actions:
+  main: "NuGet에서 무료 체험 받기"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-assembly/"
+  alt: "라이선스 관리"
+  alt_link: "https://purchase.groupdocs.com/pricing/assembly/java/"
+  title: "시작할 준비가 되셨나요?"
+  description: "GroupDocs.Assembly의 기능을 무료로 사용해 보거나 라이선스를 요청하세요."
 
-            - link: "#features"
-              text: "특징"
+release:
+  title: "버전 {0} 출시"
+  notes: "새로운 사항 보기"
+  downloads: "다운로드"
 
-            - link: "#support"
-              text: "지원하다"
+code:
+  title: "Java로 DOCX에서 차트 생성하기"
+  more: "더 많은 예시"
+  more_link: "https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-Java/"
+  install_title : "Maven XML"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-assembly</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}
+    // 주 템플릿의 경로
+    String template = "chart_template.docx";
 
-            - link: "https://products.groupdocs.app/assembly"
-              text: "라이브 데모"
+    // 소스에서 관리자 생산성 데이터 검색
+    DocumentTable data_table = 
+        new DocumentTable("Managers.json", 1);
 
-            - link: "https://purchase.groupdocs.com/pricing/assembly/java"
-              text: "가격"
+    // DataSourceInfo의 인스턴스를 데이터로 생성
+    DataSourceInfo data 
+        = new DataSourceInfo(data_table, "managers");
 
-    right:
-        link_download: "https://downloads.groupdocs.com/assembly"
-        link_learn: "https://docs.groupdocs.com/assembly/java/"
-        link_buy: "https://purchase.groupdocs.com"
+    // 다른 DataSourceInfo를 사용하여 차트 색상 설정
+    DataSourceInfo design = 
+        new DataSourceInfo("red", "color");
 
+    // 데이터로 템플릿 채우고 출력으로 저장
+    DocumentAssembler asm = new DocumentAssembler();
+    asm.assembleDocument(template, "result.docx", data, design);
+    ```
+
+############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      Java API용 GroupDocs.Assembly를 사용하면 외부 소프트웨어를 설치하지 않고도 템플릿에서 사용자 정의 보고서를 생성할 수 있도록 Java로 문서 자동화 및 보고 응용 프로그램을 신속하게 개발할 수 있습니다. 보고서 생성 엔진은 템플릿 문서에서 데이터를 가져와서 조합하고 정의된 구문에 따라 지정된 출력 형식으로 보고서를 생성합니다. 템플릿 요소의 서식 속성을 동적으로 구성 및 삽입할 수 있으며 데이터를 검색할 다양한 데이터 소스(JSON, XML, OData, 데이터베이스, CSV, 데이터 테이블로 스프레드시트, 데이터 및 데이터베이스 테이블로 워드 프로세싱 테이블)를 지원합니다.  
-
-      문서 어셈블리 라이브러리는 여러 문서 형식을 인식하고 PDF, HTML, Outlook 이메일, Microsoft Office Word, Excel 워크시트, PowerPoint 프레젠테이션 및 텍스트와 같이 지원되는 모든 파일 형식으로 템플릿을 만들 수 있습니다. LINQ 기반 템플릿 구문을 지원하며 사용자는 템플릿 요소의 서식 속성을 동적으로 구성하고 삽입할 수도 있습니다.  
-
-      Java용 GroupDocs.Assembly는 신규 또는 기존 Java 애플리케이션과 쉽게 통합됩니다. 모든 Java 버전과 매우 호환되며 Java 런타임을 실행할 수 있는 널리 사용되는 운영 체제(Windows, Linux, MacOS)를 지원합니다.
-    tabs:
-      enable: true     
-      
-      tab_one:
-        description: |
-          다음은 Java용 GroupDocs.Assembly의 개요입니다.
-
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "개요"
-          content: |
-            * 데이터 공식화
-            * 데이터 포맷
-            * 데이터 자동화
-            * 템플릿 만들기
-            * 템플릿 요소 서식
-            * 보고서 생성
-      
-      tab_two:
-        description: |
-          Java 문서 생성 API에 지원되는 [문서 파일 형식](https://docs.groupdocs.com/assembly/java/supported-document-formats/)은 다음과 같습니다.
-
-        left:
-          enable: true
-          table:
-            - title: "마이크로소프트 오피스 형식"
-              content: |
-                * **워드**: DOC, DOCX, DOT, DOTX, DOTM, DOCM, RTF, WordprocessingML(XML)
-                * **엑셀**: XLS, XLSX, XLSM, XLSB, XLT, XLTM, XLTX, SpreadsheetML(XML)
-                * **파워포인트**: PPT, PPTX, PPTM, PPS, PPSX, PPSM, POTX, POTM
-                * **전망**: EML, EMLX, MSG, MHT
-
-            - title: "지원되는 데이터 소스"
-              content: |
-                * 데이터베이스
-                * XML
-                * 오데이터
-                * JSON
-                * CSV
-                * 사용자 정의 .NET 개체
-                * 데이터 테이블로서의 스프레드시트
-                * 데이터 테이블로서의 워드 프로세싱 테이블
-
-        right:
-          enable: true
-          table:
-            - title: "기타 형식"
-              content: |
-                * **오픈오피스 문서 형식**: ODT, OTT, ODS, ODP
-                * **이메일**: MHT, MHTML
-                * **웹**: HTML
-                * **마크다운 문서 파일**: MD
-                * **기타**: TXT
-
-            - title: "형식 간 어셈블리 지원"
-              content: |
-                * 워드 프로세싱 **TO** 워드 프로세싱, HTML, PDF, XPS, TIFF, MHTML, Markdown, TXT, XAML, OpenXPS, EPUB, SVG, PS, PCL
-                * 스프레드시트 **TO** 스프레드시트, HTML, PDF, XPS, TIFF, MHTML
-                * 프레젠테이션 **TO** 프레젠테이션, HTML, PDF, XPS, TIFF
-                * 이메일 **TO** 워드 프로세싱, 이메일, HTML, PDF, XPS, TIFF, MHTML, Markdown, TXT, XAML, OpenXPS, EPUB, SVG, PS, PCL
-                * HTML 및 TXT **TO** 워드 프로세싱, HTML, PDF, XPS, TIFF, MHTML, Markdown, TXT, XAML, OpenXPS, EPUB, SVG, PS, PCL
-
-      tab_three:
-        description: |
-          Java용 GroupDocs.Assembly는 다음 운영 체제, 프레임워크 및 패키지 관리자를 지원합니다.
-        
-        left:
-          enable: true
-          table:
-            - icon: "fab fa-windows"
-              title: "운영체제"
-              content: |
-                * 마이크로소프트 윈도우 데스크탑
-                * 마이크로소프트 윈도우 서버
-                * 리눅스
-                * 맥 OS
-
-            - icon: "fas fa-code"
-              title: "지원되는 프레임워크"
-              content: |
-                * 자바 7(1.7) 이상
-
-        right:
-          enable: true
-          table:
-            - icon: "fas fa-cogs"
-              title: "개발 환경"
-              content: |
-                * 넷빈
-                * IntelliJ 아이디어
-                * 이클립스
-            - icon: "fas fa-tools"
-              title: "빌드 자동화 도구"
-              content: |
-                * 메이븐
-
-features:
-    enable: true
-    title: "Java 기능을 위한 GroupDocs.Assembly"
-
-    feature:
-      - icon: "fas fa-copy"
-        content: "이미지 비율을 유지하면서 Word, Excel, 프레젠테이션 및 이메일의 텍스트 상자에서 이미지 조정"
-
-      - icon: "fas fa-eye"
-        content: "수식 사용 및 순차적 데이터 작업 수행 - 스프레드시트 조립 중 수식 적용"
-
-      - icon: "fas fa-bolt"
-        content: "템플릿 구문의 문자열에 Upper, Lower, Capital, FirstCap 서식 적용"
-      
-      - icon: "fas fa-file-powerpoint"
-        content: "템플릿 구문 지원 Ordinal, Cardinal, Alphabetic Numeric Nature의 서식 지정"
-
-      - icon: "fas fa-code"
-        content: "템플릿 구문 태그 내에서 사용자 정의 변수 및 텍스트 주석이 있는 템플릿 문서 지원"
-
-      - icon: "fas fa-cloud"
-        content: "보고서에 문서 내용을 동적으로 삽입"
-
-      - icon: "fas fa-remove-format"
-        content: "HTML 문서의 배경색을 동적으로 구성하고 보고서에서 바코드 생성"
-
-      - icon: "fas fa-comment-slash"
-        content: "보고서에 동적으로 하이퍼링크 삽입 및 이메일 메시지 본문에 속성 적용"
-
-      - icon: "fas fa-location-arrow"
-        content: "워드 프로세싱 문서 어셈블리 중 이메일 첨부 파일을 동적으로 첨부하고 필드 업데이트"
-
-      - icon: "fas fa-border-all"
-        content: "Microsoft Word의 NEXT Field Analogue 지원"
-
-      - icon: "fas fa-wrench"
-        content: "문서 형식에 링크 및 책갈피를 동적으로 추가하고 Excel 스프레드시트의 셀 범위 이름 지정"
-
-      - icon: "fas fa-columns"
-        content: "조립된 POT 및 OTP 프레젠테이션 문서 형식 로드 및 저장"
-
-      - icon: "fas fa-file-word"
-        content: "숫자, 텍스트, 이미지, 날짜-시간, 차트 요소에 대한 템플릿 서식 지정"
-
-      - icon: "fas fa-envelope"
-        content: "Base64로 인코딩된 바이트에서 이미지 및 문서를 동적으로 삽입"
-
-      - icon: "fas fa-print"
-        content: "LINQ 기반 템플릿 구문"
-
-      - icon: "fas fa-file-archive"
-        content: "명시적 사양 또는 파일 확장자를 사용하여 어셈블된 파일의 형식 변경"
-
-      - icon: "fas fa-lock"
-        content: "Markdown 지원되는 주문 목록 - Markdown에 새로 조립된 이메일 및 Word 문서 저장"
-
-      - icon: "fas fa-file-code"
-        content: "차트, 이미지, 테이블, 목록 등 다양한 보고서 유형 생성"
-      
-      - icon: "fas fa-fill-drip"
-        content: "예외 발생 대신 생성된 문서의 인라인 템플릿 구문 오류"
-
-      - icon: "fas fa-file-excel"
-        content: "HTML 및 RTF 본문이 포함된 이메일은 물론 Word 문서의 번호 매기기 목록을 동적으로 다시 시작"
-
-      - icon: "fas fa-heading"
-        content: "조립된 마크다운 문서에 대한 테이블, 자동 링크, 인라인 링크 및 이미지 지원"
-
-      - icon: "fas fa-project-diagram"
-        content: "동적으로 바코드 생성(GS1-128 AI 8102 쿠폰 확장 및 UPCA 및 GS1 데이터바 쿠폰"
-
-      - icon: "fas fa-cube"
-        content: "리소스가 포함된 HTML에서 템플릿 문서 로드 및 리소스가 포함된 HTML에 조립된 Word, Excel, PowerPoint 및 이메일 저장"
-
-    more_feature:
-      - title: "템플릿 요소 조작"
-        content: |
-          Java API용 GroupDocs.Assembly로 수많은 템플릿 요소를 조작합니다. 작업할 수 있는 템플릿 요소에는 텍스트 블록, 이미지, 하이퍼링크, HTML 블록, 바코드(바코드 글꼴 사용) 및 차트가 있습니다. 목록 항목 및 테이블 행에 대해 반복 블록 및 조건부 블록을 적용할 수도 있습니다. HTML 및 RTF 본문이 있는 문서, 프리젠테이션, 스프레드시트 및 이메일에 대한 템플릿 표현식을 기반으로 동일한 텍스트를 포함하는 테이블 셀의 동적 병합.
-      
-      - title: "목록 보고서 조작"
-        content: |
-          Java API용 GroupDocs.Assembly를 사용하여 다음 유형의 목록 보고서를 지원합니다.  
-
-          * 글머리 기호 목록
-          * 번호 매기기 목록
-          * 컬러 번호 매기기 목록
-
-      - title: "차트 보고서 조작"
-        content: |
-          Java용 GroupDocs.Assembly는 다음 유형의 차트 보고서를 지원합니다.
-
-          * 3차원 데이터를 표시하는 거품형 차트
-          * 기둥형 차트
-          * 파이 차트
-          * 분산형 차트
-          * 시리즈 차트(컬러)
-
-      - title: "테이블 보고서 조작"
-        content: |
-          Java용 GroupDocs.Assembly는 다음 유형의 테이블 보고서를 지원합니다.  
-
-          * 마스터-디테일 테이블
-          * 강조 표시된 행이 있는 표
-          * 대체 콘텐츠가 있는 표
-          * 필터링, 그룹화 및 정렬이 포함된 테이블  
-
-          테이블 행에서 단면정보 테이블을 사용할 수도 있습니다.
-
-      - title: "차트 보고서 조작"
-        content: |
-          Java API용 GroupDocs.Assembly를 Java 애플리케이션과 통합하는 것은 매우 쉽습니다. 다음은 Java를 사용하여 OpenDocument 형식으로 보고서를 생성하는 예제 코드 블록입니다.  
-
-          ```java
-          // DocumentAssembler 클래스 인스턴스화
-          DocumentAssembler assembler = new DocumentAssembler();
-          //AssembleDocument를 호출하여 보고서 생성
-          assembler.assembleDocument("D:\\WordTemplates\\Nested External Document.docx", "D:\\WordReports\\Nested External Document.docx", 
-          new DataSourceInfo( new DataStorage(), null));
-          //(https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-Java에서 새로운 DataStorage() 메서드 세부 정보 참조)
-          ```
-
-support:
-    enable: true
-
-solutions:
-    enable: true
-    title: "GroupDocs.Assembly는 다른 인기 있는 개발 환경을 위한 문서 보기 API를 제공합니다."
-
-    solution:
-        - img_alt: "GroupDocs.Assembly for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-assembly-net.png"
-          product: "GroupDocs.Assembly"
-          platform: ".NET"
-          link: "/assembly/net/"
-
-back_to_top:
   enable: true
+  title: "GroupDocs.Assembly 개요"
+  description: "문서 생성을 자동화하고 원활한 데이터 통합을 위해 설계된 Java 라이브러리입니다."
+  features:
+    # feature loop
+    - title: "Java로 템플릿에 비즈니스 데이터 병합하기"
+      content: "GroupDocs.Assembly for Java를 사용하여 JSON, XML 또는 기타 소스의 데이터를 디자인된 템플릿에 쉽게 삽입하여 전문 보고서를 생성합니다."
+
+    # feature loop
+    - title: "포함된 객체 작업하기"
+      content: "외부 소스의 데이터를 사용하여 문서의 테이블, 차트 및 다이어그램과 같은 요소를 자동으로 채웁니다."
+
+    # feature loop
+    - title: "고급 사용자 정의"
+      content: "GroupDocs.Assembly for Java는 바코드 생성, URL을 통해 온라인 데이터 가져오기, 여러 형식으로 출력 내보내기와 같은 유연한 기능을 제공합니다."
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "플랫폼 독립성"
+  description: "GroupDocs.Assembly for Java는 인기 있는 운영 체제, 개발 프레임워크 및 패키지 관리자와 원활하게 작동합니다."
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "지원하는 파일 형식"
+  description: |
+    GroupDocs.Assembly for Java는 다양한 [문서 형식](https://docs.groupdocs.com/assembly/java/supported-document-formats/)을 지원합니다.
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office 형식
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF, WordprocessingML
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPTM, PPS, PPSX, PPSM, POTM, POTX
+    # group loop
+    - color: "blue"
+      content: |
+        ### 이미지 및 기타 형식
+        * **휴대용:** PDF
+        * **이미지:** SVG, TIFF
+        * **기타 오피스 형식:** ODT, OTT, OTS, ODS, ODP, OTP
+      # group loop
+    - color: "red"
+      content: |
+        ### 기타 형식
+        * **웹:** HTML, MHTML
+        * **이메일:** EML, MSG, EMLX
+        * **기타:** EPUB, MD
+
+############################# Features ############################
+features:
+  enable: true
+  title: "GroupDocs.Assembly의 주요 기능"
+  description: "고급 데이터 핸들링으로 전문 문서 및 보고서를 생성합니다."
+
+  items:
+    # feature loop
+    - icon: "preview"
+      title: "시각적 데이터 요소"
+      content: "문서에 차트, 테이블, 이미지 및 목록과 같은 요소를 추가하고 형식화합니다."
+
+    # feature loop
+    - icon: "manipulate"
+      title: "데이터 변환"
+      content: "효과적으로 데이터를 정리하고 표시하기 위해 수식, 정렬 및 기타 도구를 사용합니다."
+
+    # feature loop
+    - icon: "two_pages"
+      title: "다양한 형식 지원"
+      content: "템플릿과 출력 파일 모두 일반 파일 형식으로 쉽게 작업할 수 있습니다."
+
+    # feature loop
+    - icon: "document_settings"
+      title: "향상된 템플릿 형식화"
+      content: "서수, 기수 및 기타 고급 형식 옵션으로 템플릿을 사용자 정의합니다."
+
+    # feature loop
+    - icon: "text"
+      title: "동적 바코드 생성"
+      content: "필요에 따라 신속하게 바코드 이미지를 생성하고 문서에 삽입합니다."
+
+    # feature loop
+    - icon: "add"
+      title: "유연한 텍스트 스타일링"
+      content: "템플릿에서 대문자, 소문자, 제목 대문자 또는 기타 스타일을 적용합니다."
+
+    # feature loop
+    - icon: "manipulate"
+      title: "외부 콘텐츠 가져오기"
+      content: "문서를 생성하는 동안 외부 파일의 콘텐츠를 동적으로 삽입합니다."
+
+    # feature loop
+    - icon: "convert"
+      title: "여러 형식으로 내보내기"
+      content: "지정한 확장자 또는 구성을 사용하여 최종 문서를 다양한 파일 형식으로 저장합니다."
+
+    # feature loop
+    - icon: "update"
+      title: "동적 미디어 삽입"
+      content: "문서 생성 중에 Base64 인코딩된 데이터를 사용하여 이미지 또는 기타 콘텐츠를 삽입합니다."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "코드 샘플"
+  description: "GroupDocs.Assembly의 일반적인 작업을 위한 샘플 코드 탐색."
+  items:
+    # code sample loop
+    - title: "Word에서 글머리 목록 만들기"
+      content: |
+        Word 문서에 조직적인 데이터 표현을 위해 [글머리 목록](https://docs.groupdocs.com/assembly/java/bulleted-list-in-word-processing-document/)을 추가하는 방법을 배웁니다. 이 예는 GroupDocs.Assembly를 사용하여 Word에 목록을 생성하는 방법을 보여줍니다.
+        {{< landing/code title="Word에서 글머리 목록 만들기">}}
+        ```java {style=abap}
+        // 문서 페이지에 이 템플릿을 삽입하세요:
+        // 관리자의 성과 지표
+        // . <<foreach [in products]>><<[ProductName]>>
+        // <</foreach>>
+
+        // 템플릿 경로 지정
+        String template = "Bulleted List Template.docx";
+
+        // 출력 파일 경로 설정
+        String result = "Result Report.docx"
+
+        // JSON 소스에서 관리자 데이터를 가져옵니다
+        JsonDataSource dataSource = new JsonDataSource("Report data.json");
+        DataSourceInfo data = new DataSourceInfo(dataSource, "managers")
+
+        // 채워진 데이터로 보고서를 생성합니다
+        DocumentAssembler assembler = new DocumentAssembler();
+        assembler.assembleDocument(template, result, data);
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "PPTX에서 원형 차트 생성하기"
+      content: |
+        템플릿과 XML을 사용하여 프레젠테이션에 [원형 차트](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/)를 추가합니다. 데이터를 시각화하여 보고서를 더욱 매력적으로 만듭니다.
+        {{< landing/code title="PPTX에서 원형 차트 생성하기">}}
+        ```java {style=abap}   
+        // 프레젠테이션에 차트 제목 템플릿 추가:
+        // 고객 수익 <<foreach [in customers]>> 
+        // <<x [CustomerName]>>
+
+        // 차트 데이터 템플릿도 포함하세요:
+        // Total Order Price<<foreach [in customers]>> 
+        // <<x [CustomerName]>>
+
+        // 차트 템플릿 경로 지정
+        String template = "Pie Chart Template.pptx";
+
+        // 출력 파일 경로 설정
+        String result = "Result Report.pptx"
+
+        // XML 소스에서 고객 데이터를 가져옵니다
+        JsonDataSource dataSource = new JsonDataSource("Chart data.xml");
+        DataSourceInfo data = new DataSourceInfo(dataSource, "customers")
+
+        // 차트를 생성하고 결과를 저장합니다
+        DocumentAssembler assembler = new DocumentAssembler();
+        assembler.assembleDocument(template, result, data);
+        ```
+        {{< /landing/code >}}
+
 ---

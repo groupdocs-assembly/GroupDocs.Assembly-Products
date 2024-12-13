@@ -1,0 +1,77 @@
+{
+  "head": {
+    "title": "Crea grafici in file {{FileFormatUp}} con {{ProgLang}}",
+    "description": "L'API {{ProdFullName}} consente agli sviluppatori di generare e inserire grafici o diagrammi nei documenti in modo dinamico utilizzando dati in tempo reale."
+  },
+  "header": {
+    "title": "Incorpora grafici in file {{FileFormatUp}} con API {{EnvNameShort}}",
+    "description": "{{ProdFullName}} offre un modo potente per popolare file {{FileFormatUp}} con dati dinamici e integrare grafici senza sforzo.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Prova Gratis"
+  },
+  "about": {
+    "title": "Che cos'è {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è uno strumento progettato per semplificare la creazione di documenti e report integrando dati provenienti da varie fonti. Genera dinamicamente grafici, tabelle, elenchi, codici a barre e immagini. Opzioni di formattazione avanzate consentono un posizionamento preciso e la personalizzazione dei contenuti. Supporta oltre 50 formati di file, inclusi PDF, documenti MS Office e email."
+  },
+  "more_features": {
+    "title": "Aggiungi grafici dinamici ai tuoi documenti senza sforzo",
+    "description": "{{ProdFullName}} semplifica la creazione di documenti basati su dati in formati ampiamente utilizzati. Utilizza modelli per inserire grafici, tabelle, codici a barre, elenchi, collegamenti ipertestuali e immagini con integrazione di dati dinamici avanzata.",
+    "image_description": "Caratteristiche principali di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Trasforma i dati in grafici professionali",
+      "content": "Converti dati da JSON, XML, CSV e altre fonti in grafici visivamente attraenti con pochi passaggi utilizzando la nostra API."
+    },
+    "feature_2": {
+      "title": "Crea contenuti visivamente coinvolgenti",
+      "content": "{{ProdShortName}} supporta vari tipi di grafico come istogrammi, grafici a torta e grafici a linee. Combina questi con tabelle, codici a barre, immagini e altri elementi per creare report professionali."
+    },
+    "feature_3": {
+      "title": "Posiziona e personalizza i grafici con precisione",
+      "content": "Con la sintassi LINQ, puoi generare e posizionare dinamicamente grafici esattamente dove necessario. Personalizza facilmente stili, colori e layout in base alle tue esigenze."
+    },
+    "feature_4": {
+      "title": "Funziona con vari formati di file",
+      "content": "Produci documenti in formati popolari come MS Office, PDF, OpenOffice e HTML. Incorpora grafici senza soluzione di continuità in qualsiasi formato supportato con piena compatibilità."
+    }
+  },
+  "formats": {
+    "title": "Crea report visivamente ricchi in più formati",
+    "description": "{{EnvName}} ti consente di generare documenti con grafici integrati in oltre 50 formati supportati, combinando modelli con i tuoi dati senza sforzo."
+  },
+  "operations": {
+    "title": "Scopri le capacità chiave",
+    "description": "La nostra piattaforma ti aiuta a creare documenti coinvolgenti e basati su dati, adattati alle tue esigenze."
+  },
+  "examples": {
+    "comment_1": "Inserisci questo tag nel tuo modello per generare un grafico",
+    "comment_2": "Specifica il percorso del file per il tuo modello",
+    "comment_3": "Carica i dati dalla tua fonte preferita",
+    "comment_4": "Salva il documento con il grafico incorporato"
+  },
+  "steps": {
+    "title": "Come aggiungere un grafico a un documento {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) semplifica la generazione e l'incorporazione di grafici nei tuoi modelli {{FileFormatUp}}. Supporta una varietà di tipi di grafico, come grafici a barre, a torta e a linee.",
+      "step_1": "Progetta un modello {{FileFormatUp}} con segnaposto per i grafici.",
+      "step_2": "Recupera i tuoi dati da una fonte compatibile.",
+      "step_3": "Definisci le opzioni del grafico come tipo, etichette e schema colori.",
+      "step_4": "Salva il file aggiornato con il grafico incorporato."
+    }
+  },
+  "code_1": {
+    "title": "Crea un grafico programmaticamente",
+    "content": "Questo esempio dimostra come creare dinamicamente e incorporare un grafico in un documento {{FileFormatUp}}.",
+    "comment_1": "Prepara un modello con un segnaposto per il grafico",
+    "comment_2": "Fornisci il percorso al file del modello",
+    "comment_3": "Recupera i dati dalla tua fonte",
+    "comment_4": "Costruisci un oggetto dati con le informazioni necessarie",
+    "comment_5": "Imposta le proprietà del grafico come tipo e aspetto",
+    "comment_6": "Inizializza {{DocumentAssembler}}",
+    "comment_7": "Esporta il documento con il grafico incluso"
+  },
+  "texts_pdf": {
+    "step_1": "Progetta un modello con spazi designati per il grafico (i modelli PDF non sono supportati).",
+    "step_4": "Esporta il documento con il grafico come file PDF.",
+    "comment_tmp": "Attualmente, i modelli PDF non sono supportati."
+  }
+}

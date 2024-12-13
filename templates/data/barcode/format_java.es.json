@@ -1,0 +1,77 @@
+{
+  "head": {
+    "title": "Incrustar códigos de barras en archivos {{FileFormatUp}} con {{ProgLang}}",
+    "description": "La API {{ProdFullName}} facilita la creación e inserción de imágenes de códigos de barras en sus documentos y correos electrónicos en tiempo real."
+  },
+  "header": {
+    "title": "Generar códigos de barras para archivos {{FileFormatUp}} con nuestra API {{EnvNameShort}}",
+    "description": "{{ProdFullName}} proporciona herramientas exhaustivas para crear, personalizar e incrustar códigos de barras dinámicamente en archivos {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar Ahora"
+  },
+  "about": {
+    "title": "¿Qué es {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) le ayuda a generar y personalizar documentos añadiendo datos de múltiples fuentes. Inserte texto, números, gráficos, tablas, listas, imágenes y códigos de barras. Utilice plantillas avanzadas para garantizar que los datos aparezcan exactamente donde los necesita. Soporta más de 50 formatos, incluidos PDF, archivos de Office y correos electrónicos."
+  },
+  "more_features": {
+    "title": "Construya documentos utilizando plantillas potentes basadas en datos",
+    "description": "{{ProdFullName}} simplifica la creación de documentos en tipos de archivo populares. Utilice plantillas para añadir gráficos, tablas, listas, enlaces, imágenes y códigos de barras de manera fluida.",
+    "image_description": "Características de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Generar informes utilizando datos empresariales",
+      "content": "La API completa documentos con datos de formatos como JSON, XML y CSV de manera eficiente y precisa."
+    },
+    "feature_2": {
+      "title": "Visualizar datos con elementos integrados",
+      "content": "{{ProdShortName}} soporta elementos nativos como tablas, gráficos y listas, junto con texto, enlaces, imágenes y generación de códigos de barras en tiempo real."
+    },
+    "feature_3": {
+      "title": "Inserte datos donde los necesita",
+      "content": "Con plantillas basadas en LINQ, puede ubicar datos de manera precisa, usar bucles para añadir arreglos y personalizar el formato, como el color, de forma programática."
+    },
+    "feature_4": {
+      "title": "Amplia compatibilidad con tipos de archivos",
+      "content": "Maneje archivos como documentos de MS Office, PDFs, HTML, OpenOffice y correos electrónicos. También puede combinar un documento dentro de otro."
+    }
+  },
+  "formats": {
+    "title": "Crear informes en varios formatos",
+    "description": "{{EnvName}} admite más de 50 tipos de archivo, lo que permite la fusión de datos y el procesamiento de plantillas para obtener resultados profesionales."
+  },
+  "operations": {
+    "title": "Descubre características clave",
+    "description": "Nuestra plataforma simplifica el manejo de documentos empresariales con herramientas poderosas y automatización."
+  },
+  "examples": {
+    "comment_1": "Utiliza esta etiqueta en tu plantilla para crear un código de barras en el documento de salida",
+    "comment_2": "Establecer la ruta del archivo para la plantilla",
+    "comment_3": "Obtener datos de tu fuente",
+    "comment_4": "Guardar el documento actualizado con el código de barras"
+  },
+  "steps": {
+    "title": "Cómo incrustar un código de barras en un documento {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) le permite insertar códigos de barras en formatos populares como las plantillas {{FileFormatUp}}. Soporta más de 60 tipos, incluidos códigos de barras 1D y 2D.",
+      "step_1": "Configurar una plantilla {{FileFormatUp}} con marcadores de código de barras.",
+      "step_2": "Obtener datos de una fuente compatible.",
+      "step_3": "Ajustar configuraciones del código de barras, como tamaño y resolución.",
+      "step_4": "Guardar el documento con el código de barras incrustado."
+    }
+  },
+  "code_1": {
+    "title": "Cómo crear un código de barras dinámicamente",
+    "content": "Este ejemplo muestra cómo generar y añadir dinámicamente un código de barras a un documento {{FileFormatUp}}.",
+    "comment_1": "Preparar una plantilla con un marcador de código de barras",
+    "comment_2": "Establecer la ruta a su archivo de plantilla",
+    "comment_3": "Cargar datos de una fuente específica",
+    "comment_4": "Construir un objeto fuente de datos con la información necesaria",
+    "comment_5": "Crear una instancia de {{DocumentAssembler}}",
+    "comment_6": "Personalizar configuraciones del código de barras",
+    "comment_7": "Guardar el documento actualizado con el código de barras"
+  },
+  "texts_pdf": {
+    "step_1": "Prepare una plantilla con marcadores para códigos de barras (los templates PDF no son soportados).",
+    "step_4": "Guardar el documento con el código de barras añadido como un archivo PDF.",
+    "comment_tmp": "Los templates PDF no son soportados actualmente."
+  }
+}

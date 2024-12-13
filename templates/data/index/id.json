@@ -1,0 +1,310 @@
+{
+  "index-content": {
+    "head_title": "API & Aplikasi Penyusunan Dokumen .NET, Java oleh GroupDocs",
+    "head_description": "Dapatkan Solusi Otomasi & Pelaporan Dokumen All-in-One untuk aplikasi .NET dan Java. Hasilkan semua dokumen umum dari template dan data kustom.",
+    "title": "Solusi Otomasi dan Pelaporan Dokumen",
+    "description_1": "Buat laporan terperinci menggunakan template dan sumber data dengan aplikasi dan API lintas platform kami.",
+    "description_2": "Hasilkan laporan dalam format seperti Word, Excel, Presentasi, dan banyak lagi menggunakan template dengan markup yang fleksibel.",
+    "description_3": "Isi grafik, barcode, tabel, dan elemen lainnya dengan data dari sumber seperti JSON, XML, CSV, dll.",
+    "words_for": "untuk",
+    "release_title": "Versi {0} dirilis",
+    "release_notes": "Lihat apa yang baru",
+    "release_downloads": "Unduhan",
+    "code_more": "Lebih banyak contoh",
+    "overview_title": "Ikhtisar {{ProdShortName}}",
+    "code_comment_1": "Path ke template utama",
+    "code_comment_2": "Ambil data produktivitas manajer dari sumber",
+    "code_comment_3": "Buat instance {{DataSourceInfo}} dengan data",
+    "code_comment_4": "Atur warna grafik menggunakan {{DataSourceInfo}} lain",
+    "code_comment_5": "Isi template dengan data dan simpan ke output",
+    "formats_title": "Format file yang didukung",
+    "platforms": {
+      "title": "Independensi platform",
+      "head_title": "Pilih platform Anda",
+      "description": "{{ProdShortName}} kompatibel dengan sistem operasi dan framework berikut:",
+      "learn_more": "Pelajari lebih lanjut",
+      "any_other_text_editor": "Editor teks lainnya"
+    },
+    "features": {
+      "title": "Fitur Utama {{ProdShortName}}",
+      "description": "Solusi ini membantu Anda membuat laporan dalam format dokumen yang populer, secara otomatis diisi dengan data bisnis Anda. Otomatisasi tugas pembuatan dokumen Anda.",
+      "feature_1": {
+        "title": "Isi template dengan data",
+        "content": "Isi laporan menggunakan data dari sumber yang didukung."
+      },
+      "feature_2": {
+        "title": "Markup yang fleksibel",
+        "content": "Tambahkan data ke dokumen dengan cara yang dapat disesuaikan."
+      },
+      "feature_3": {
+        "title": "Fitur dokumen asli",
+        "content": "Tampilkan data menggunakan tabel, grafik, dan barcode."
+      },
+      "feature_4": {
+        "title": "Semua format populer",
+        "content": "Mendukung semua format dokumen yang umum digunakan."
+      }
+    },
+    "formats": {
+      "title": "Mendukung lebih dari 50 format file",
+      "description": "{{ProdShortName}} bekerja dengan hampir semua format file populer"
+    },
+    "code_samples": {
+      "title": "Contoh kode",
+      "index_title": "Hasilkan laporan yang kustomisasi dengan baik",
+      "index_description": "{{ProdShortName}} contoh kode",
+      "more_examples": "Lebih banyak contoh",
+      "sample_index": {
+        "title": "Menggunakan Barcode yang Dihasilkan",
+        "content": "{{ProdShortName}} memungkinkan markup barcode dalam template laporan. Saat membuat laporan, sebuah barcode dihasilkan berdasarkan markup dan data yang disediakan. Tentukan path ke template yang berisi teks, objek data, dan markup. Juga, tentukan sumber data untuk mengisi barcode dengan konten.",
+        "comment_1": "Buat instance kelas {{DocumentAssembler}}",
+        "comment_2": "Tentukan path ke template",
+        "comment_3": "Tentukan path untuk dokumen hasil",
+        "comment_4": "Buat instance dari datasource",
+        "comment_5": "Panggil {{AssembleDocument}} untuk menghasilkan laporan"
+      },
+      "sample_1": {
+        "code_title": "Cara Mengisi Daftar dalam Dokumen",
+        "comment_1": "Sisipkan template ini di halaman dokumen:",
+        "comment_2": "Indikator kinerja manajer",
+        "comment_3": "Tentukan path template",
+        "comment_4": "Atur path file output",
+        "comment_5": "Ambil data manajer dari sumber JSON",
+        "comment_6": "Hasilkan laporan dengan data yang diisi"
+      },
+      "sample_2": {
+        "code_title": "Cara Mewakili Data dalam Grafik Pie",
+        "comment_1": "Tambahkan template judul grafik ke presentasi:",
+        "comment_2": "Pendapatan pelanggan",
+        "comment_3": "Sertakan juga template data grafik:",
+        "comment_4": "Tentukan path template grafik",
+        "comment_5": "Atur path file output",
+        "comment_6": "Ambil data pelanggan dari sumber XML",
+        "comment_7": "Hasilkan grafik dan simpan hasilnya"
+      }
+    },
+    "metrics": {
+      "title": "Statistik produk kami",
+      "description": "Jelajahi metrik produk untuk mendapatkan wawasan tentang kemajuan, dampak, dan pertumbuhan kami.",
+      "item_1": {
+        "title": "Format yang Didukung",
+        "description": "Kami mendukung lebih dari 50 format dokumen yang paling banyak digunakan."
+      },
+      "item_2": {
+        "title": "Unduhan NuGet",
+        "description": "{{ProdShortName}} untuk .NET adalah pustaka populer dengan lebih dari 650.000 unduhan di NuGet."
+      },
+      "item_3": {
+        "title": "Unduhan Maven",
+        "description": "Pengembang Java telah mengunduh {{ProdShortName}} di Maven lebih dari 18.000 kali."
+      },
+      "item_4": {
+        "title": "Pelanggan Puas",
+        "description": "Produk kami dipercaya oleh pengembang individu dan perusahaan terkemuka di seluruh dunia untuk menciptakan solusi inovatif."
+      }
+    },
+    "customers": {
+      "title": "Pelanggan Kami yang Puas",
+      "description": "Perpustakaan GroupDocs digunakan oleh beberapa merek paling terkenal dan dihormati di seluruh dunia."
+    },
+    "actions": {
+      "alt": "Lisensi",
+      "title": "Siap untuk Memulai?",
+      "description": "Coba fitur {{ProdShortName}} secara gratis atau minta lisensi.",
+      "description_index": "Uji fitur {{ProdShortName}} secara gratis di platform Anda."
+    },
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "description": "Jelajahi Pertanyaan yang Sering Diajukan kami.",
+      "item_1": {
+        "question": "Apakah {{ProdShortName}} memerlukan pustaka eksternal untuk menyusun dokumen?",
+        "answer": "Tidak, {{ProdShortName}} bekerja secara independen dan tidak memerlukan pustaka pihak ketiga seperti Adobe Acrobat atau Microsoft Office."
+      },
+      "item_2": {
+        "question": "Bisakah saya menguji fitur {{ProdShortName}} sebelum membeli?",
+        "answer": "Ya, Anda bisa! {{ProdShortName}} menawarkan uji coba gratis. Instal dan eksplor fitur-fiturnya. Versi percobaan menambahkan 'badge percobaan' ke dokumen Anda dan hanya memproses 3 halaman pertama. Untuk pengalaman penuh, dapatkan lisensi sementara gratis selama 30 hari untuk mengakses semua fitur. Detail lebih lanjut tersedia di [lisensi sementara]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "Jenis lisensi apa yang tersedia?",
+        "answer": "Mencari lisensi {{ProdShortName}}? Kami menawarkan berbagai pilihan yang sesuai dengan kebutuhan Anda. Pilih berdasarkan ukuran tim, lokasi penerapan (kantor tunggal atau jarak jauh), dan apakah Anda perlu membagikan SDK/API dengan klien untuk distribusi. Sebagai alternatif, pilih lisensi penggunaan bulanan dengan rencana terukur—bayar hanya untuk apa yang Anda gunakan. Temukan opsi terbaik untuk Anda di [harga]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "API Low-Code {{ProdShortName}}",
+      "description": "Hasilkan dokumen menggunakan aplikasi Anda melalui REST API berbasis cloud kami.",
+      "item_1": {
+        "content": "Gunakan API RESTful cURL untuk menambahkan data ke Word, Excel, PowerPoint, dan banyak template lainnya."
+      },
+      "item_2": {
+        "content": "Tingkatkan aplikasi .NET Anda dengan menghasilkan laporan melalui Cloud SDK. Tampilkan data bisnis dalam format kustom Anda."
+      },
+      "item_3": {
+        "content": "SDK {{ProdShortName}} menawarkan berbagai opsi untuk aplikasi Java untuk menghasilkan berbagai jenis dokumen."
+      }
+    },
+    "app_links": {
+      "title": "Aplikasi Web {{ProdShortName}}",
+      "description": "{{ProdShortName}} menawarkan aplikasi web gratis untuk menghasilkan dokumen. Anda dapat memproses lebih dari 50 format file populer langsung di browser Anda, GRATIS.",
+      "item_1": {
+        "content": "Hasilkan laporan dalam format Excel, Word, PowerPoint, dan banyak jenis file lainnya langsung dari browser web Anda."
+      },
+      "item_2": {
+        "content": "Buat dokumen Microsoft Word dari template dan sumber data."
+      },
+      "item_3": {
+        "content": "Unggah template dan sumber data untuk menghasilkan laporan Excel secara gratis."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Format Microsoft Office",
+      "title_2": "Gambar & Format Lainnya",
+      "title_3": "Format Lainnya",
+      "format_portable": "Portabel",
+      "format_other_office": "Format kantor lainnya",
+      "format_images": "Gambar",
+      "format_web": "Web",
+      "format_emails": "Email",
+      "format_other": "Lainnya"
+    }
+  },
+  "index-content-net": {
+    "head_title": "API .NET untuk Otomasi Dokumen, Penyusunan & Generasi Laporan",
+    "head_description": "API C# .NET untuk otomasi dokumen, penyusunan, dan generasi laporan. Buat dokumen PDF, Word, Excel, PPTX, HTML, dan email dari template kustom.",
+    "title": "API Otomasi & Pelaporan Dokumen .NET",
+    "description": "Hasilkan laporan dalam aplikasi .NET dengan mendefinisikan template dan menggabungkan data.",
+    "actions_main": "Unduh Uji Coba melalui NuGet",
+    "code_title": "Mengisi Grafik di DOCX Menggunakan C#",
+    "overview_description": "Solusi .NET untuk mengotomatisasi pembuatan dokumen dengan integrasi data yang canggih.",
+    "overview_feature_1": {
+      "title": "Tambahkan Data Bisnis ke Template Dokumen dengan C#",
+      "description": "Generasi laporan yang mudah: Dengan {{ProdFullName}}, Anda dapat dengan mudah menyisipkan data dari sumber seperti JSON atau XML ke dalam template yang telah ditentukan."
+    },
+    "overview_feature_2": {
+      "title": "Proses Objek Data Bawaan",
+      "description": "Jenis dokumen yang didukung termasuk objek tertanam seperti diagram, grafik, tabel, dan daftar yang dapat diisi secara otomatis dengan data."
+    },
+    "overview_feature_3": {
+      "title": "Fitur Tambahan",
+      "description": "{{ProdFullName}} menyediakan opsi kustomisasi yang luas. Rancang objek data secara programatis, hasilkan barcode, gunakan sumber data online melalui URL, dan simpan output dalam berbagai format."
+    },
+    "features": {
+      "title": "Fitur {{ProdShortName}}",
+      "description": "Buat dokumen dan laporan menggunakan model data yang canggih.",
+      "feature_1": {
+        "title": "Representasi Data yang Canggih",
+        "content": "Mendukung berbagai objek data seperti grafik, daftar, tabel, gambar, dan lainnya."
+      },
+      "feature_2": {
+        "title": "Manipulasi Data",
+        "content": "Terapkan formula dan operasi berurutan untuk memformat dan menampilkan data secara efektif."
+      },
+      "feature_3": {
+        "title": "Berbagai Format yang Didukung",
+        "content": "Bekerja dengan lancar dengan semua format dokumen umum untuk template atau file output."
+      },
+      "feature_4": {
+        "title": "Markup Template yang Kaya",
+        "content": "Manfaatkan format numerik, kardinal, dan alfabetik dalam template."
+      },
+      "feature_5": {
+        "title": "Sisipkan Barcode",
+        "content": "Hasilkan gambar barcode secara dinamis dan sisipkan ke dalam dokumen Anda."
+      },
+      "feature_6": {
+        "title": "Format Data",
+        "content": "Format string dalam template sebagai huruf besar, huruf kecil, gaya diberi huruf kapital, atau kapitalisasi huruf pertama."
+      },
+      "feature_7": {
+        "title": "Manipulasi Konten Dokumen",
+        "content": "Sisipkan konten dari dokumen eksternal secara dinamis ke dalam laporan Anda."
+      },
+      "feature_8": {
+        "title": "Simpan dalam Beberapa Format",
+        "content": "Tentukan format file output menggunakan ekstensi file atau konfigurasi terperinci."
+      },
+      "feature_9": {
+        "title": "Proses Data yang Fleksibel",
+        "content": "Sisipkan gambar dan dokumen secara dinamis menggunakan byte yang terenkode Base64."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} kompatibel dengan sistem operasi, framework, dan pengelola paket berikut.",
+    "formats_description": "{{ProdFullName}} dapat memproses [format file berikut](https://docs.groupdocs.com/assembly/net/supported-document-formats/).",
+    "code_samples_description": "Potongan kode untuk operasi {{ProdShortName}} yang khas.",
+    "code_title_sample_1": "Daftar Bertitik dalam Dokumen Microsoft Word",
+    "code_samples_sample_1_content_1": "[Daftar bertitik](https://docs.groupdocs.com/assembly/net/bulleted-list-in-word-processing-document/) adalah cara umum untuk menyajikan data bisnis.",
+    "code_samples_sample_1_content_2": "Berikut adalah contoh menambahkan daftar ke dokumen Word menggunakan {{ProdShortName}}.",
+    "code_title_sample_2": "Grafik Pie dalam Presentasi PPTX",
+    "code_samples_sample_2_content_1": "Anda dapat membuat [Grafik Pie](https://docs.groupdocs.com/assembly/net/pie-chart-in-presentation-document/) menggunakan template dan data XML.",
+    "code_samples_sample_2_content_2": "Tingkatkan laporan Anda dengan representasi data yang menarik secara visual."
+  },
+  "index-content-java": {
+    "head_title": "Perpustakaan Java untuk Pembuatan, Otomasi & Pelaporan Dokumen",
+    "head_description": "Perpustakaan Java untuk mengotomatisasi pembuatan dokumen dan menghasilkan laporan. Buat dokumen PDF, Word, Excel, PPTX, HTML, dan email menggunakan template kustom.",
+    "title": "API Java untuk Mengotomatisasi Laporan dan Dokumen",
+    "description": "Sederhanakan pembuatan laporan di Java dengan menggabungkan data dengan template.",
+    "actions_main": "Dapatkan Uji Coba melalui NuGet",
+    "code_title": "Hasilkan Grafik di DOCX dengan Java",
+    "overview_description": "Perpustakaan Java yang dirancang untuk pembuatan dokumen otomatis dan integrasi data yang mulus.",
+    "overview_feature_1": {
+      "title": "Gabungkan Data Bisnis ke dalam Template dengan Java",
+      "description": "Buat laporan profesional dengan mudah dengan memasukkan data dari JSON, XML, atau sumber lain ke dalam template yang telah dirancang menggunakan {{ProdFullName}}."
+    },
+    "overview_feature_2": {
+      "title": "Bekerja dengan Objek Tertanam",
+      "description": "Isi elemen secara otomatis seperti tabel, grafik, dan diagram dalam dokumen menggunakan data dari sumber eksternal."
+    },
+    "overview_feature_3": {
+      "title": "Kustomisasi Canggih",
+      "description": "{{ProdFullName}} menawarkan fitur fleksibel seperti menghasilkan barcode, menarik data online melalui URL, dan mengekspor output dalam berbagai format."
+    },
+    "features": {
+      "title": "Kemampuan Utama {{ProdShortName}}",
+      "description": "Buat dokumen profesional dan laporan dengan penanganan data yang canggih.",
+      "feature_1": {
+        "title": "Elemen Data Visual",
+        "content": "Tambahkan dan format elemen seperti grafik, tabel, gambar, dan daftar langsung di dokumen Anda."
+      },
+      "feature_2": {
+        "title": "Transformasi Data",
+        "content": "Gunakan formula, penyortiran, dan alat lainnya untuk mengatur dan menyajikan data Anda secara efektif."
+      },
+      "feature_3": {
+        "title": "Dukungan untuk Berbagai Format",
+        "content": "Dengan mudah bekerja dengan tipe file umum untuk template dan file output."
+      },
+      "feature_4": {
+        "title": "Format Template yang Ditingkatkan",
+        "content": "Kustomisasi template dengan opsi format numerik, alfabetik, dan lainnya."
+      },
+      "feature_5": {
+        "title": "Pembuatan Barcode Dinamis",
+        "content": "Dengan cepat buat dan sisipkan gambar barcode ke dalam dokumen sesuai kebutuhan."
+      },
+      "feature_6": {
+        "title": "Gaya Teks Fleksibel",
+        "content": "Terapkan transformasi teks seperti huruf besar, huruf kecil, gaya judul, atau gaya lain dalam template."
+      },
+      "feature_7": {
+        "title": "Impor Konten Eksternal",
+        "content": "Sisipkan konten dari file eksternal secara dinamis saat menghasilkan dokumen."
+      },
+      "feature_8": {
+        "title": "Ekspor dalam Berbagai Format",
+        "content": "Simpan dokumen akhir dalam berbagai format file menggunakan ekstensi atau konfigurasi yang ditentukan."
+      },
+      "feature_9": {
+        "title": "Sisipan Media Dinamis",
+        "content": "Sisipkan gambar atau konten lain menggunakan data yang terenkode Base64 saat pembuatan dokumen."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} bekerja dengan mulus dengan sistem operasi, framework, dan pengelola paket populer.",
+    "formats_description": "{{ProdFullName}} mendukung berbagai [format dokumen](https://docs.groupdocs.com/assembly/java/supported-document-formats/).",
+    "code_samples_description": "Jelajahi kode sampel untuk tugas umum dengan {{ProdShortName}}.",
+    "code_title_sample_1": "Buat Daftar Bertitik di Word",
+    "code_samples_sample_1_content_1": "Pelajari cara menambahkan [daftar bertitik](https://docs.groupdocs.com/assembly/java/bulleted-list-in-word-processing-document/) ke dokumen Word untuk representasi data yang terorganisir.",
+    "code_samples_sample_1_content_2": "Contoh ini menunjukkan cara menghasilkan daftar di Word menggunakan {{ProdShortName}}.",
+    "code_title_sample_2": "Buat Grafik Pie di PPTX",
+    "code_samples_sample_2_content_1": "Gunakan template dan XML untuk menambahkan [grafik pie](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/) ke presentasi Anda.",
+    "code_samples_sample_2_content_2": "Buat laporan Anda lebih menarik dengan menyertakan grafik pie untuk memvisualisasikan data."
+  }
+}

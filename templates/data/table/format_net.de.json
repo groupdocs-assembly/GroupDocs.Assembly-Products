@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "Tabellen in {{FileFormatUp}}-Dokumenten mit {{ProgLang}} erstellen",
+    "description": "Die {{ProdFullName}} API ermöglicht es Entwicklern, Tabellen in Dokumenten und E-Mails mühelos mit Daten aus dynamischen Quellen hinzuzufügen und auszufüllen."
+  },
+  "header": {
+    "title": "Daten Tabellen in {{FileFormatUp}}-Dokumenten mit unserer {{EnvNameShort}} API generieren",
+    "description": "{{ProdFullName}} ermöglicht das dynamische Befüllen von Tabellen in {{FileFormatUp}}-Dokumenten mit Daten aus verschiedenen Quellen.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlose Testversion herunterladen"
+  },
+  "about": {
+    "title": "{{ProdFullName}} Übersicht",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) wurde entwickelt, um Dokumente und Berichte durch das Befüllen von Vorlagen mit Daten aus mehreren Quellen zu erstellen. Fügen Sie mühelos strukturierte Daten in Tabellen, Listen und Diagramme ein oder betten Sie Bilder dynamisch ein. Eine ausgeklügelte Syntax gewährleistet eine präzise Datenplatzierung. Unterstützt über 50 Formate, darunter PDFs, MS Office-Dokumente und E-Mail-Dateien."
+  },
+  "more_features": {
+    "title": "Dokumente mit dynamischen Tabellen generieren",
+    "description": "{{ProdFullName}} vereinfacht die Dokumentenerstellung, indem die Tabellenbefüllung automatisiert und zusätzliche Elemente wie Diagramme, Listen und Bilder über Vorlagen und erweiterte Markup unterstützt werden.",
+    "image_description": "Hauptmerkmale von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Berichte aus strukturierten Daten erstellen",
+      "content": "Die API verarbeitet Daten aus Quellen wie JSON, XML und CSV, um Tabellen in Office-Dokumenten effizient und genau zu befüllen."
+    },
+    "feature_2": {
+      "title": "Daten visuell darstellen",
+      "content": "{{ProdShortName}} ermöglicht die Erstellung von Tabellen, Listen und Diagrammen sowie das Einbetten von Text, Links und Bildern für ein professionelles Dokumentendesign."
+    },
+    "feature_3": {
+      "title": "Tabellendaten präzise positionieren",
+      "content": "Verwenden Sie eine LINQ-basierte Syntax, um dynamisch Tabellenzeilen und -spalten hinzuzufügen. Passen Sie Stile, einschließlich Farben und Formatierung, programmatisch an."
+    },
+    "feature_4": {
+      "title": "Unterstützt eine breite Palette von Formaten",
+      "content": "Bearbeiten Sie mühelos gängige Dateiformate wie MS Office, OpenOffice, PDF und HTML. Fügen Sie befüllte Tabellen nahtlos in unterstützte Dokumenttypen ein."
+    }
+  },
+  "formats": {
+    "title": "Berichte mit detaillierten Tabellen erstellen",
+    "description": "{{EnvName}} ermöglicht die Erstellung umfassender Berichte, indem Vorlagen mit Tabellen und anderen Datenelementen in über 50 unterstützten Formaten gefüllt werden."
+  },
+  "operations": {
+    "title": "Entdecken Sie die Hauptmerkmale",
+    "description": "Unsere Lösung vereinfacht die Erstellung professioneller Dokumente mit dynamisch befüllten Tabellen und zusätzlichen Elementen."
+  },
+  "examples": {
+    "comment_1": "Fügen Sie diese Tags in eine Tabellenzeile der Vorlage ein",
+    "comment_2": "Legen Sie den Dateipfad für die Vorlage fest",
+    "comment_3": "Daten aus einer unterstützten Quelle abrufen",
+    "comment_4": "Speichern Sie das Dokument mit der mit Daten gefüllten Tabelle"
+  },
+  "steps": {
+    "title": "So befüllen Sie eine Tabelle in einem {{FileFormatUp}}-Dokument",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ermöglicht es Ihnen, Tabellen in Vorlagen für Formate wie {{FileFormatUp}} dynamisch zu befüllen. Fügen Sie Daten aus verschiedenen Quellen in Ihre Tabellen ein.",
+      "step_1": "Erstellen Sie eine {{FileFormatUp}}-Vorlage mit Platzhaltern für die Tabelle.",
+      "step_2": "Daten aus einer beliebigen unterstützten Quelle abrufen.",
+      "step_3": "Filtern Sie die Daten, um nur die erforderlichen Informationen einzuschließen.",
+      "step_4": "Speichern Sie das Dokument mit der befüllten Tabelle."
+    }
+  },
+  "code_1": {
+    "title": "So befüllen Sie eine Datentabelle dynamisch",
+    "content": "Dieses Beispiel zeigt, wie Sie eine Tabelle in einem {{FileFormatUp}}-Dokument mit dynamischen Daten füllen.",
+    "comment_1": "Bereiten Sie eine Vorlage mit einem Platzhalter für die Tabelle vor",
+    "comment_2": "Geben Sie den Dateipfad zur Vorlage an",
+    "comment_3": "Rufen Sie Daten aus Ihrer gewählten Quelle ab",
+    "comment_4": "Erstellen Sie ein Datenquelle-Objekt mit den erforderlichen Daten",
+    "comment_5": "Initialisieren Sie {{DocumentAssembler}}",
+    "comment_6": "Speichern Sie das fertige Dokument mit der befüllten Tabelle"
+  },
+  "texts_pdf": {
+    "step_1": "Erstellen Sie eine Vorlage und fügen Sie Platzhalter für die Tabelle hinzu (PDF-Vorlagen werden momentan nicht unterstützt).",
+    "step_4": "Speichern Sie das Dokument mit der vollständigen Tabelle als PDF-Datei.",
+    "comment_tmp": "PDF-Vorlagen sind derzeit nicht verfügbar."
+  }
+}

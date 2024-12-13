@@ -1,346 +1,271 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "landing"
+date: 2024-12-13T10:30:57
 draft: false
 
+lang: zh
 product: "Assembly"
 product_tag: "assembly"
 platform: "Java"
 platform_tag: "java"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+
 ############################# Head ############################
-head_title: "Java 文档自动化组装和动态报告生成器 API"
-head_description: "用于文档自动化、组装和报告的 Java API。从自定义模板创建报告。从 DB、JSON、OData 和 XML 数据源组装 PDF Word Excel PPTX HTML."
+head_title: "Java库用于文档创建、自动化和报告"
+head_description: "Java库用于自动化文档创建和生成报告。使用自定义模板创建PDF、Word、Excel、PPTX、HTML和电子邮件文档。"
 
 ############################# Header ############################
-title: "用于自动化文档和报告的 Java API"
-description: "构建文档自动化应用程序以获取数据；将其放入可定制的模板并通过 Java API 生成动态报告."
-button:
-    enable: true
+title: "用于自动化报告和文档的Java API"
+description: "通过将数据与模板合并简化Java中的报告生成。"
+words:
+  for: "用于"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Assembly for Java"
-        image: "/border/groupdocs-assembly-java.svg"
-        product: "GroupDocs.Assembly"
-        platform: "Java"
+actions:
+  main: "通过NuGet获取试用版"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-assembly/"
+  alt: "许可"
+  alt_link: "https://purchase.groupdocs.com/pricing/assembly/java/"
+  title: "准备开始吗？"
+  description: "免费试用GroupDocs.Assembly的功能或请求许可证。"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "概述"
+release:
+  title: "版本 {0} 已发布"
+  notes: "查看新功能"
+  downloads: "下载"
 
-            # button loop
-            - link: "#features"
-              text: "特征"
+code:
+  title: "使用Java在DOCX中生成图表"
+  more: "更多示例"
+  more_link: "https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-Java/"
+  install_title : "Maven XML"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-assembly</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}
+    // 主模板的路径
+    String template = "chart_template.docx";
 
-            # button loop
-            - link: "#support"
-              text: "Support"
+    // 从源中检索管理者的生产力数据
+    DocumentTable data_table = 
+        new DocumentTable("Managers.json", 1);
 
-            # button loop
-            - link: "https://products.groupdocs.app/assembly"
-              text: "Live Demo"
+    // 创建一个包含数据的 DataSourceInfo 实例
+    DataSourceInfo data 
+        = new DataSourceInfo(data_table, "managers");
 
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/assembly/java"
-              text: "价钱"
+    // 使用另一个 DataSourceInfo 设置图表颜色
+    DataSourceInfo design = 
+        new DataSourceInfo("red", "color");
 
-    right:
-        link_download: "https://downloads.groupdocs.com/assembly"
-        link_learn: "https://docs.groupdocs.com/assembly/java/"
-        link_buy: "https://purchase.groupdocs.com"
+    // 用数据填充模板并保存到输出
+    DocumentAssembler asm = new DocumentAssembler();
+    asm.assembleDocument(template, "result.docx", data, design);
+    ```
 
-############################# 概述 ############################
+############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Assembly for Java API 可帮助您在 Java 中快速开发文档自动化和报告应用程序，以从模板生成自定义报告，而无需安装任何外部软件。报告生成引擎从模板文档中获取数据，将其组装并根据定义的语法以指定的输出格式生成报告。它允许您动态配置和插入模板元素的格式属性，并支持各种数据源（JSON、XML、OData、数据库、CSV、电子表格作为数据表、字处理表作为数据表和数据库）从中检索数据。
-
-      文档组装库可识别多种文档格式，并允许您以所有支持的文件类型创建模板，例如 PDF、HTML、Outlook 电子邮件、微软办公软件 Word、Excel 工作表、PowerPoint 演示文稿和文本。它支持基于 LINQ 的模板语法，用户还可以动态配置和插入模板元素的格式属性。
-
-      GroupDocs.Assembly for Java 很容易与新的或现有的 Java 应用程序集成。它与所有 Java 版本高度兼容，并支持能够运行 Java 运行时的流行操作系统（Windows、Linux、MacOS）。
-    tabs:
-      enable: true     
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          以下是 Java 的 GroupDocs.Assembly 的概述：
-
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "概述"
-          content: |
-            * 数据制定
-            * 数据格式化
-            * 数据自动化
-            * 创建模板
-            * 模板元素格式
-            * 报告生成
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          下面列出了 Java 文档生成 API 支持的 [文档文件格式](https://docs.groupdocs.com/assembly/java/supported-document-formats/)。
-
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "微软办公格式"
-              content: |
-                * **Word**: DOC, DOCX, DOT, DOTX, DOTM, DOCM, RTF, WordprocessingML (XML)
-                * **Excel**: XLS, XLSX, XLSM, XLSB, XLT, XLTM, XLTX, SpreadsheetML (XML)
-                * **PowerPoint**: PPT, PPTX, PPTM, PPS, PPSX, PPSM, POTX, POTM
-                * **Outlook**: EML, EMLX, MSG, MHT
-
-            # table loop
-            - title: "支持的数据源"
-              content: |
-                * 数据库
-                * XML
-                * OData
-                * JSON
-                * CSV
-                * 自定义 .NET 对象
-                * 电子表格作为数据表
-                * 文字处理表作为数据表
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "其他格式"
-              content: |
-                * **OpenOffice Document Formats**: ODT, OTT, ODS, ODP
-                * **Email**: MHT, MHTML
-                * **Web**: HTML
-                * **Markdown 文档 File**: MD
-                * **Other**: TXT
-
-            # table loop
-            - title: "格式间汇编支持"
-              content: |
-                * Word Processing **TO** Word Processing, HTML, PDF, XPS, TIFF, MHTML, Markdown, TXT, XAML, OpenXPS, EPUB, SVG, PS, PCL
-                * Spreadsheet **TO** Spreadsheet, HTML, PDF, XPS, TIFF, MHTML
-                * Presentation **TO** Presentation, HTML, PDF, XPS, TIFF
-                * Email **TO** Word Processing, Email, HTML, PDF, XPS, TIFF, MHTML, Markdown, TXT, XAML, OpenXPS, EPUB, SVG, PS, PCL
-                * HTML & TXT **TO** Word Processing, HTML, PDF, XPS, TIFF, MHTML, Markdown, TXT, XAML, OpenXPS, EPUB, SVG, PS, PCL
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Assembly for Java 支持以下框架、框架和管理:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "操作系统"
-              content: |
-                * Microsoft Windows Desktop
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "支持的框架"
-              content: |
-                * Java 7 (1.7) 及更高版本
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-cogs"
-              title: "开发环境"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-            # table loop
-            - icon: "fas fa-tools"
-              title: "构建自动化工具"
-              content: |
-                * Maven
-
-############################# 特征 ############################
-features:
-    enable: true
-    title: "用于 Java 功能的 GroupDocs.Assembly"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "在保持图像比例的同时调整 Word、Excel、演示文稿和电子邮件文本框中的图像"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "使用公式并执行顺序数据操作 - 在电子表格组装期间应用公式"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "对模板语法中的字符串应用大写、小写、大写、FirstCap 格式"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "模板语法支持序数、基数、字母数字性质的格式"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "在模板语法标签中支持带有自定义变量和文本注释的模板文档"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "在报表中动态插入文档内容"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "动态配置 HTML 文档的背景颜色并在报告中生成条码"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "在报告中动态插入超链接并将属性应用于电子邮件正文"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "在文字处理文档组装期间动态附加电子邮件附件和更新字段"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "支持 Microsoft Word 的 NEXT Field Analogue"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "为文档格式动态添加链接和书签并命名 Excel 电子表格的单元格范围"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "加载和保存组装的 POT 和 OTP 演示文档格式"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "数字、文本、图像、日期时间、图表元素的模板格式"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "从 Base64 编码字节动态插入图像和文档"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "基于 LINQ 的模板语法"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "使用显式规范或文件扩展名更改组合文件的格式"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Markdown 支持有序列表 - 将新组装的电子邮件和 Word 文档保存到 Markdown"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "生成各种报告类型，例如图表、图像、表格、列表等"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "生成的文档中的内联模板语法错误，而不是抛出异常"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "动态重新启动 Word 文档中的编号列表以及带有 HTML 和 RTF 正文的电子邮件"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "支持组合 Markdown 文档的表格、自动链接、内联链接和图像"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "生成条码 （GS1-128 AI 8102 Coupon Extended 和 UPCA & GS1 Databar Coupon)"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "使用资源从 HTML 加载模板文档，并使用资源将组装的 Word、Excel、PowerPoint 和电子邮件保存到 HTML"
-
-    more_feature:
-      # more_feature_loop
-      - title: "操作模板元素"
-        content: |
-          使用 GroupDocs.Assembly for Java API 操作大量模板元素。您可以使用的模板元素包括文本块、图像、超链接、HTML 块、条形码（通过条形码字体）和图表。您还可以为列表项和表格行应用重复块和条件块。基于具有 HTML 和 RTF 正文的文档、演示文稿、电子表格和电子邮件的模板表达式，动态合并包含相同文本的表格单元格。
-      
-      # more_feature_loop
-      - title: "处理列表报告"
-        content: |
-          使用 GroupDocs.Assembly for Java API，支持以下类型的列表报告：
-
-          * 项目符号列表
-          * 编号列表
-          * Colored 编号列表
-
-      # more_feature_loop
-      - title: "处理图表报告"
-        content: |
-          GroupDocs.Assembly for Java 支持以下类型的图表报告：
-
-          * 气泡图，显示数据的三个维度
-          * 柱形图
-          * 饼形图
-          * 散点图
-          * 系列图表（彩色）
-
-      # more_feature_loop
-      - title: "处理表格报告"
-        content: |
-          GroupDocs.Assembly for Java 支持以下类型的表格报告：
-
-          * 主从表
-          * 带有突出显示的行的表
-          * 具有替代内容的表格
-          * 具有过滤、分组和排序的表
-
-          您还可以在表格行中使用数据带。
-
-      # more_feature_loop
-      - title: "处理图表报告"
-        content: |
-          将 Java API 的 GroupDocs.Assembly 与您的 Java 应用程序集成是一件轻而易举的事。以下是使用 Java 生成 OpenDocument 格式报告的示例代码块： 
-
-          ```java
-          // 即时 DocumentAssembler 类
-          DocumentAssembler assembler = new DocumentAssembler();
-          // 调用 AssembleDocument 生成报告
-          assembler.assembleDocument("D:\\WordTemplates\\Nested External Document.docx", "D:\\WordReports\\Nested External Document.docx", 
-          new DataSourceInfo( new DataStorage(), null));
-          // 请参阅 https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-Java 上的新 DataStorage () 方法详细信息
-          ```
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Assembly 为其他流行的开发环境提供文档查看 API"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Assembly for .NET"
-          image: "/border/groupdocs-assembly-net.svg"
-          product: "GroupDocs.Assembly"
-          platform: ".NET"
-          link: "/assembly/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Assembly 概述"
+  description: "一个旨在自动化文档创建和无缝数据集成的Java库。"
+  features:
+    # feature loop
+    - title: "使用Java将业务数据合并到模板"
+      content: "轻松创建专业报告，通过使用GroupDocs.Assembly for Java将JSON、XML或其他源的数据嵌入到预设计的模板中。"
+
+    # feature loop
+    - title: "处理嵌入对象"
+      content: "使用来自外部源的数据自动填充文档中的表格、图表和图示等元素。"
+
+    # feature loop
+    - title: "高级自定义"
+      content: "GroupDocs.Assembly for Java 提供灵活的功能，如生成条形码、通过URL提取在线数据和以不同格式导出输出。"
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "平台独立性"
+  description: "GroupDocs.Assembly for Java 与流行的操作系统、开发框架和包管理器无缝协作。"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "支持的文件格式"
+  description: |
+    GroupDocs.Assembly for Java 支持广泛的[文档格式](https://docs.groupdocs.com/assembly/java/supported-document-formats/)。
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office 格式
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF, WordprocessingML
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPTM, PPS, PPSX, PPSM, POTM, POTX
+    # group loop
+    - color: "blue"
+      content: |
+        ### 图像及其他格式
+        * **可移植:** PDF
+        * **图像:** SVG, TIFF
+        * **其他办公格式:** ODT, OTT, OTS, ODS, ODP, OTP
+      # group loop
+    - color: "red"
+      content: |
+        ### 其他格式
+        * **网络:** HTML, MHTML
+        * **电子邮件:** EML, MSG, EMLX
+        * **其他:** EPUB, MD
+
+############################# Features ############################
+features:
+  enable: true
+  title: "GroupDocs.Assembly 的关键能力"
+  description: "使用先进的数据处理创建专业文档和报告。"
+
+  items:
+    # feature loop
+    - icon: "preview"
+      title: "可视数据元素"
+      content: "在文档中直接添加和格式化图表、表格、图像和列表等元素。"
+
+    # feature loop
+    - icon: "manipulate"
+      title: "数据转换"
+      content: "使用公式、排序和其他工具有效地组织和展示数据。"
+
+    # feature loop
+    - icon: "two_pages"
+      title: "支持多种格式"
+      content: "轻松处理常用文件类型，无论是模板还是输出文件。"
+
+    # feature loop
+    - icon: "document_settings"
+      title: "增强的模板格式设置"
+      content: "使用数字、字母和其他高级格式选项自定义模板。"
+
+    # feature loop
+    - icon: "text"
+      title: "动态条形码生成"
+      content: "迅速在需要时创建和插入条形码图像。"
+
+    # feature loop
+    - icon: "add"
+      title: "灵活的文本样式"
+      content: "在模板中应用文本转换，如大写、小写、首字母大写或其他样式。"
+
+    # feature loop
+    - icon: "manipulate"
+      title: "导入外部内容"
+      content: "在生成文档时动态嵌入来自外部文件的内容。"
+
+    # feature loop
+    - icon: "convert"
+      title: "以多种格式导出"
+      content: "使用指定的扩展名或配置保存最终文档。"
+
+    # feature loop
+    - icon: "update"
+      title: "动态媒体嵌入"
+      content: "在文档创建过程中使用Base64编码的数据插入图像或其他内容。"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "代码示例"
+  description: "探索GroupDocs.Assembly常见任务的示例代码。"
+  items:
+    # code sample loop
+    - title: "在Word中创建项目符号列表"
+      content: |
+        了解如何在Word文档中添加[项目符号列表](https://docs.groupdocs.com/assembly/java/bulleted-list-in-word-processing-document/)，以组织数据表示。 此示例展示如何使用GroupDocs.Assembly在Word中生成列表。
+        {{< landing/code title="在Word中创建项目符号列表">}}
+        ```java {style=abap}
+        // 在文档页面插入此模板：
+        // 管理者的绩效指标
+        // . <<foreach [in products]>><<[ProductName]>>
+        // <</foreach>>
+
+        // 指定模板路径
+        String template = "Bulleted List Template.docx";
+
+        // 设置输出文件路径
+        String result = "Result Report.docx"
+
+        // 从JSON源中检索管理者的数据
+        JsonDataSource dataSource = new JsonDataSource("Report data.json");
+        DataSourceInfo data = new DataSourceInfo(dataSource, "managers")
+
+        // 生成填充数据的报告
+        DocumentAssembler assembler = new DocumentAssembler();
+        assembler.assembleDocument(template, result, data);
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "在PPTX中创建饼图"
+      content: |
+        使用模板和XML将[饼图](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/)添加到您的演示文稿中。 通过包含饼图以可视化数据，让您的报告更具吸引力。
+        {{< landing/code title="在PPTX中创建饼图">}}
+        ```java {style=abap}   
+        // 将图表标题模板添加到演示文稿中：
+        // 客户的收入 <<foreach [in customers]>> 
+        // <<x [CustomerName]>>
+
+        // 还要包括图表数据模板：
+        // Total Order Price<<foreach [in customers]>> 
+        // <<x [CustomerName]>>
+
+        // 指定图表模板路径
+        String template = "Pie Chart Template.pptx";
+
+        // 设置输出文件路径
+        String result = "Result Report.pptx"
+
+        // 从XML源中检索客户的数据
+        JsonDataSource dataSource = new JsonDataSource("Chart data.xml");
+        DataSourceInfo data = new DataSourceInfo(dataSource, "customers")
+
+        // 生成图表并保存结果
+        DocumentAssembler assembler = new DocumentAssembler();
+        assembler.assembleDocument(template, result, data);
+        ```
+        {{< /landing/code >}}
+
 ---

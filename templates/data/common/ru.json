@@ -1,0 +1,95 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "description": "Формат документа Adobe Portable"
+      },
+      "docx": {
+        "description": "Документ Microsoft Word Open XML"
+      },
+      "xlsx": {
+        "description": "Электронная таблица Microsoft Excel Open XML"
+      },
+      "pptx": {
+        "description": "Презентация PowerPoint Open XML"
+      },
+      "jpeg": {
+        "description": "Изображение JPEG"
+      }
+    },
+    "format-operations": {
+      "barcode": {
+        "pdf": "Добавить штрих-код в PDF",
+        "docx": "Добавить штрих-код в DOCX",
+        "xlsx": "Добавить штрих-код в XLSX",
+        "pptx": "Добавить штрих-код в PPTX"
+      },
+      "chart": {
+        "pdf": "Диаграммы в PDF",
+        "docx": "Диаграммы в DOCX",
+        "xlsx": "Диаграммы в XLSX",
+        "pptx": "Диаграммы в PPTX"
+      },
+      "document": {
+        "pdf": "Вставить документ в PDF",
+        "docx": "Вставить документ в DOCX",
+        "xlsx": "Вставить документ в XLSX",
+        "pptx": "Вставить документ в PPTX"
+      },
+      "list": {
+        "pdf": "Создать список в PDF",
+        "docx": "Создать список в DOCX",
+        "xlsx": "Создать список в XLSX",
+        "pptx": "Создать список в PPTX"
+      },
+      "table": {
+        "pdf": "Добавить таблицу в PDF",
+        "docx": "Добавить таблицу в DOCX",
+        "xlsx": "Добавить таблицу в XLSX",
+        "pptx": "Добавить таблицу в PPTX"
+      }
+    },
+    "format-code": {
+      "copy_title": "Копировать",
+      "result_title": "Пример документа",
+      "result_title_bottom": "Скачать результат",
+      "copy_tip": "нажмите, чтобы скопировать",
+      "copy_done": "скопировано",
+      "links": {
+        "title_1": "Больше примеров",
+        "title_2": "Документация"
+      }
+    },
+    "format-actions": {
+      "title": "Готовы начать?",
+      "description": "Изучите возможности {{ProdShortName}} бесплатно или запросите лицензию",
+      "comment_1": "Скачать с {{PackageStoreName}}",
+      "comment_2": "Узнать о лицензировании"
+    },
+    "texts": {
+      "learn_more": "Узнать больше"
+    },
+    "operations": {
+      "barcode": {
+        "name": "Генерация штрих-кодов",
+        "description": "Динамически создавайте и добавляйте штрих-коды в документы"
+      },
+      "chart": {
+        "name": "Визуализация данных с помощью диаграмм",
+        "description": "Заполняйте различные типы диаграмм данными"
+      },
+      "document": {
+        "name": "Слияние документов",
+        "description": "Объединяйте содержимое одного документа с другим"
+      },
+      "list": {
+        "name": "Отображение данных с помощью списков",
+        "description": "Генерируйте списки в документах с использованием определенных данных"
+      },
+      "table": {
+        "name": "Организация данных в таблицах",
+        "description": "Извлекайте данные из любых источников и заполняйте таблицы"
+      }
+    }
+  }
+}
