@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-12-13T10:30:57
+date:  2025-01-13T15:11:22
 draft: false
 
 product: "Assembly"
@@ -88,6 +88,34 @@ supported_platforms:
             content: |
                     50+ file formats
 
+    # items loop
+    - title: "Node.js"
+      description: GroupDocs.Assembly "Node.js
+      color: "green"
+      tag: "nodejs-java"
+      link: "/assembly/nodejs-java/"
+      features_link: "https://docs.groupdocs.com/assembly/nodejs-java/system-requirements/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    Node.js 16+ and J2SE 8.0 (1.8)+
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "3"
+            content: |
+                    Atom <br> Visual Studio Code <br> Editor teks lainnya
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats
+
 
 ############################# Features ###############################
 features:
@@ -162,6 +190,28 @@ code_samples:
 
             //Buat instance dari datasource
             DataSourceInfo data = new DataSourceInfo(new DataStorage(), null);
+
+            // Panggil AssembleDocument untuk menghasilkan laporan
+            assembler.assembleDocument(tmp_path, res_path, data);
+
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}   
+            const assemblyLib = require('@groupdocs/groupdocs.assembly');
+
+            // Buat instance kelas DocumentAssembler
+            const assembler = new assemblyLib.DocumentAssembler();
+            
+            //Tentukan path ke template
+            const tmp_path = "barcode_template.docx";
+
+            //Tentukan path untuk dokumen hasil
+            const res_path = "result.docx";
+
+            //Buat instance dari datasource
+            const data = new assemblyLib.DataSourceInfo(new assemblyLib.DataStorage(), null);
 
             // Panggil AssembleDocument untuk menghasilkan laporan
             assembler.assembleDocument(tmp_path, res_path, data);
@@ -267,6 +317,11 @@ actions:
     - title: "Java"
       color: "red"
       link: "/assembly/java/"
+
+    # items loop
+    - title: "Node.js via Java"
+      color: "green"
+      link: "/assembly/nodejs-java/"
 
 ############################# FAQ ###############################
 faq:

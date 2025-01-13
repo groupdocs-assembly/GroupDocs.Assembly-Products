@@ -5,3 +5,5 @@
 <% set "ProdFullName" (dict "products.productFullName") %>
 <% set "DocumentAssembler" (dict "products.documentAssembler") %>
 <% set "AssembleDocument" (dict "products.assembleDocument") %>
+<% set "PackageStoreName" (dict "products.{product}.packageStoreName") %>
+<% set "PackageUrl" (dict "products.{product}.packageUrl") %>

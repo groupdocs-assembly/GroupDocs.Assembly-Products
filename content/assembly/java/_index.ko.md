@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-12-13T10:30:57
+date: 2025-01-13T15:11:22
 draft: false
 
 lang: ko
@@ -19,6 +19,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "문서 생성, 자동화 및 보고를 위한 Java 라이브러리"
@@ -31,7 +34,7 @@ words:
   for: "용"
 
 actions:
-  main: "NuGet에서 무료 체험 받기"
+  main: "Maven에서 무료 체험 받기"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-assembly/"
   alt: "라이선스 관리"
   alt_link: "https://purchase.groupdocs.com/pricing/assembly/java/"
@@ -42,6 +45,7 @@ release:
   title: "버전 {0} 출시"
   notes: "새로운 사항 보기"
   downloads: "다운로드"
+  link: "https://releases.groupdocs.com/assembly/java/"
 
 code:
   title: "Java로 DOCX에서 차트 생성하기"

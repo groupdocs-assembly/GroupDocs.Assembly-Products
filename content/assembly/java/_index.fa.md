@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-12-13T10:30:57
+date: 2025-01-13T15:11:22
 draft: false
 
 lang: fa
@@ -19,6 +19,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "کتابخانه Java برای ایجاد، اتوماسیون و گزارش‌دهی مستندات"
@@ -31,7 +34,7 @@ words:
   for: "برای"
 
 actions:
-  main: "دریافت آزمایشی از طریق NuGet"
+  main: "دریافت آزمایشی از طریق Maven"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-assembly/"
   alt: "مجوزدهی"
   alt_link: "https://purchase.groupdocs.com/pricing/assembly/java/"
@@ -42,6 +45,7 @@ release:
   title: "نسخه {0} منتشر شد"
   notes: "ببینید چه چیزی جدید است"
   downloads: "دانلودها"
+  link: "https://releases.groupdocs.com/assembly/java/"
 
 code:
   title: "ایجاد نموداری در DOCX با Java"

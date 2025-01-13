@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-12-13T10:30:57
+date: 2025-01-13T15:11:22
 draft: false
 
 lang: zh
@@ -19,6 +19,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: ".NET文档自动化、组装和报告生成API"
@@ -31,7 +34,7 @@ words:
   for: "用于"
 
 actions:
-  main: "通过NuGet下载试用版"
+  main: "通过Nuget下载试用版"
   main_link: "https://www.nuget.org/packages/GroupDocs.Assembly"
   alt: "许可"
   alt_link: "https://purchase.groupdocs.com/pricing/assembly/net/"
@@ -42,6 +45,7 @@ release:
   title: "版本 {0} 已发布"
   notes: "查看新功能"
   downloads: "下载"
+  link: "https://releases.groupdocs.com/assembly/net/"
 
 code:
   title: "使用C#填充DOCX中的图表"

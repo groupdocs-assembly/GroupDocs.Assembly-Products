@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-12-13T10:30:57
+date:  2025-01-13T15:11:22
 draft: false
 
 product: "Assembly"
@@ -10,8 +10,8 @@ product_tag: "assembly"
 lang: en
 
 ############################# Head ############################
-head_title: ".NET, Java APIs & Online Document Assembly Apps by GroupDocs"
-head_description: "Get all-in-one Document Automation & Reporting Solution for .NET and Java applications. Generate all common documents from custom templates and data."
+head_title: ".NET, Java, Node.js APIs & Online Document Assembly Apps by GroupDocs"
+head_description: "Get all-in-one Document Automation & Reporting Solution for .NET, Java and Node.js applications. Generate all common documents from custom templates and data."
 
 ############################# Header ############################
 title: "Document Automation and Reporting Solution"
@@ -82,6 +82,34 @@ supported_platforms:
           - rows: "3"
             content: |
                    NetBeans <br> IntelliJ IDEA <br> Eclipse 
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats
+
+    # items loop
+    - title: "Node.js"
+      description: GroupDocs.Assembly "Node.js
+      color: "green"
+      tag: "nodejs-java"
+      link: "/assembly/nodejs-java/"
+      features_link: "https://docs.groupdocs.com/assembly/nodejs-java/system-requirements/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    Node.js 16+ and J2SE 8.0 (1.8)+
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "3"
+            content: |
+                    Atom <br> Visual Studio Code <br> Any other text editor
       
           # features loop
           - rows: "1"
@@ -162,6 +190,28 @@ code_samples:
 
             //Create an instance of the datasource
             DataSourceInfo data = new DataSourceInfo(new DataStorage(), null);
+
+            // Call AssembleDocument to generate the report
+            assembler.assembleDocument(tmp_path, res_path, data);
+
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}   
+            const assemblyLib = require('@groupdocs/groupdocs.assembly');
+
+            // Create an instance of the DocumentAssembler class
+            const assembler = new assemblyLib.DocumentAssembler();
+            
+            //Specify the path to the template
+            const tmp_path = "barcode_template.docx";
+
+            //Specify the path for the result document
+            const res_path = "result.docx";
+
+            //Create an instance of the datasource
+            const data = new assemblyLib.DataSourceInfo(new assemblyLib.DataStorage(), null);
 
             // Call AssembleDocument to generate the report
             assembler.assembleDocument(tmp_path, res_path, data);
@@ -267,6 +317,11 @@ actions:
     - title: "Java"
       color: "red"
       link: "/assembly/java/"
+
+    # items loop
+    - title: "Node.js via Java"
+      color: "green"
+      link: "/assembly/nodejs-java/"
 
 ############################# FAQ ###############################
 faq:

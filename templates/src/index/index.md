@@ -90,6 +90,34 @@ supported_platforms:
             content: |
                     50+ file formats
 
+    # items loop
+    - title: "Node.js"
+      description: GroupDocs.Assembly "Node.js
+      color: "green"
+      tag: "nodejs-java"
+      link: "/assembly/nodejs-java/"
+      features_link: "https://docs.groupdocs.com/assembly/nodejs-java/system-requirements/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    Node.js 16+ and J2SE 8.0 (1.8)+
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "3"
+            content: |
+                    Atom <br> Visual Studio Code <br> <% "{index-content.platforms.any_other_text_editor}" %>
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats
+
 
 ############################# Features ###############################
 features:
@@ -164,6 +192,28 @@ code_samples:
 
             //<% "{index-content.code_samples.sample_index.comment_4}" %>
             DataSourceInfo data = new DataSourceInfo(new DataStorage(), null);
+
+            // <% "{index-content.code_samples.sample_index.comment_5}" %>
+            assembler.assembleDocument(tmp_path, res_path, data);
+
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}   
+            const assemblyLib = require('@groupdocs/groupdocs.assembly');
+
+            // <% "{index-content.code_samples.sample_index.comment_1}" %>
+            const assembler = new assemblyLib.DocumentAssembler();
+            
+            //<% "{index-content.code_samples.sample_index.comment_2}" %>
+            const tmp_path = "barcode_template.docx";
+
+            //<% "{index-content.code_samples.sample_index.comment_3}" %>
+            const res_path = "result.docx";
+
+            //<% "{index-content.code_samples.sample_index.comment_4}" %>
+            const data = new assemblyLib.DataSourceInfo(new assemblyLib.DataStorage(), null);
 
             // <% "{index-content.code_samples.sample_index.comment_5}" %>
             assembler.assembleDocument(tmp_path, res_path, data);
@@ -269,6 +319,11 @@ actions:
     - title: "Java"
       color: "red"
       link: "/assembly/java/"
+
+    # items loop
+    - title: "Node.js via Java"
+      color: "green"
+      link: "/assembly/nodejs-java/"
 
 ############################# FAQ ###############################
 faq:

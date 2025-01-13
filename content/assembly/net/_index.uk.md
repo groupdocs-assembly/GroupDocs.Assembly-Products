@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-12-13T10:30:57
+date: 2025-01-13T15:11:22
 draft: false
 
 lang: uk
@@ -19,6 +19,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "API .NET для автоматизації документів, складання та генерування звітів"
@@ -31,7 +34,7 @@ words:
   for: "для"
 
 actions:
-  main: "Завантажити пробну версію через NuGet"
+  main: "Завантажити пробну версію через Nuget"
   main_link: "https://www.nuget.org/packages/GroupDocs.Assembly"
   alt: "Ліцензування"
   alt_link: "https://purchase.groupdocs.com/pricing/assembly/net/"
@@ -42,6 +45,7 @@ release:
   title: "Версія {0} випущена"
   notes: "Дивіться, що нового"
   downloads: "Завантаження"
+  link: "https://releases.groupdocs.com/assembly/net/"
 
 code:
   title: "Заповнити діаграму у DOCX за допомогою C#"

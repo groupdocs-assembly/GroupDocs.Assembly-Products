@@ -172,7 +172,7 @@
     "head_description": "API C# .NET cho tự động hóa tài liệu, lắp ráp và tạo báo cáo. Tạo tài liệu PDF, Word, Excel, PPTX, HTML và email từ các mẫu tùy chỉnh.",
     "title": "API Tự động hóa Tài liệu & Báo cáo .NET",
     "description": "Tạo báo cáo trong các ứng dụng .NET bằng cách định nghĩa các mẫu và gộp dữ liệu.",
-    "actions_main": "Tải xuống Bản dùng thử qua NuGet",
+    "actions_main": "Tải xuống Bản dùng thử qua {{PackageStoreName}}",
     "code_title": "Điền Biểu đồ trong DOCX Sử dụng C#",
     "overview_description": "Giải pháp .NET cho việc tự động hóa tạo tài liệu với tích hợp dữ liệu nâng cao.",
     "overview_feature_1": {
@@ -242,7 +242,7 @@
     "head_description": "Thư viện Java cho việc tự động hóa tạo tài liệu và tạo báo cáo. Tạo tài liệu PDF, Word, Excel, PPTX, HTML và email bằng cách sử dụng các mẫu tùy chỉnh.",
     "title": "API Java cho Tự động hóa Báo cáo và Tài liệu",
     "description": "Đơn giản hóa việc tạo báo cáo trong Java bằng cách gộp dữ liệu với các mẫu.",
-    "actions_main": "Nhận Bản dùng thử qua NuGet",
+    "actions_main": "Nhận Bản dùng thử qua {{PackageStoreName}}",
     "code_title": "Tạo Biểu đồ trong DOCX bằng Java",
     "overview_description": "Thư viện Java được thiết kế để tự động hóa việc tạo tài liệu và tích hợp dữ liệu liền mạch.",
     "overview_feature_1": {

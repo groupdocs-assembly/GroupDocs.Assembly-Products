@@ -172,7 +172,7 @@
     "head_description": "API C# .NET برای اتوماسیون مستندات، تجمیع و تولید گزارش. ایجاد PDF، Word، Excel، PPTX، HTML و مستندات ایمیلی از الگوهای سفارشی.",
     "title": "API اتوماسیون مستندات و گزارش‌دهی .NET",
     "description": "گزارش‌ها را در برنامه‌های .NET با تعریف الگوها و ادغام داده‌ها تولید کنید.",
-    "actions_main": "دانلود آزمایشی از طریق NuGet",
+    "actions_main": "دانلود آزمایشی از طریق {{PackageStoreName}}",
     "code_title": "پر کردن یک نمودار در DOCX با C#",
     "overview_description": "راه حل .NET برای اتوماسیون ایجاد مستندات با یکپارچگی داده پیشرفته.",
     "overview_feature_1": {
@@ -242,7 +242,7 @@
     "head_description": "کتابخانه Java برای اتوماسیون ایجاد مستندات و تولید گزارش. ایجاد PDF، Word، Excel، PPTX، HTML و مستندات ایمیلی با استفاده از الگوهای سفارشی.",
     "title": "API Java برای اتوماسیون گزارش‌ها و مستندات",
     "description": "تولید گزارش‌ها در Java با ادغام داده‌ها با الگوها را ساده کنید.",
-    "actions_main": "دریافت آزمایشی از طریق NuGet",
+    "actions_main": "دریافت آزمایشی از طریق {{PackageStoreName}}",
     "code_title": "ایجاد نموداری در DOCX با Java",
     "overview_description": "کتابخانه Java طراحی‌شده برای ایجاد اتوماتیک مستندات و یکپارچگی داده بدون مشکل.",
     "overview_feature_1": {

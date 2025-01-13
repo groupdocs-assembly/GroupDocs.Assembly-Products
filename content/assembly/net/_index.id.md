@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-12-13T10:30:57
+date: 2025-01-13T15:11:22
 draft: false
 
 lang: id
@@ -19,6 +19,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "API .NET untuk Otomasi Dokumen, Penyusunan & Generasi Laporan"
@@ -31,7 +34,7 @@ words:
   for: "untuk"
 
 actions:
-  main: "Unduh Uji Coba melalui NuGet"
+  main: "Unduh Uji Coba melalui Nuget"
   main_link: "https://www.nuget.org/packages/GroupDocs.Assembly"
   alt: "Lisensi"
   alt_link: "https://purchase.groupdocs.com/pricing/assembly/net/"
@@ -42,6 +45,7 @@ release:
   title: "Versi {0} dirilis"
   notes: "Lihat apa yang baru"
   downloads: "Unduhan"
+  link: "https://releases.groupdocs.com/assembly/net/"
 
 code:
   title: "Mengisi Grafik di DOCX Menggunakan C#"

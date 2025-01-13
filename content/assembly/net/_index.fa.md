@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-12-13T10:30:57
+date: 2025-01-13T15:11:22
 draft: false
 
 lang: fa
@@ -19,6 +19,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "API .NET برای اتوماسیون مستندات، تجمیع و تولید گزارش"
@@ -31,7 +34,7 @@ words:
   for: "برای"
 
 actions:
-  main: "دانلود آزمایشی از طریق NuGet"
+  main: "دانلود آزمایشی از طریق Nuget"
   main_link: "https://www.nuget.org/packages/GroupDocs.Assembly"
   alt: "مجوزدهی"
   alt_link: "https://purchase.groupdocs.com/pricing/assembly/net/"
@@ -42,6 +45,7 @@ release:
   title: "نسخه {0} منتشر شد"
   notes: "ببینید چه چیزی جدید است"
   downloads: "دانلودها"
+  link: "https://releases.groupdocs.com/assembly/net/"
 
 code:
   title: "پر کردن یک نمودار در DOCX با C#"

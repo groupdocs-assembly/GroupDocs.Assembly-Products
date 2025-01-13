@@ -172,7 +172,7 @@
     "head_description": "API C# .NET para automação de documentos, montagem e geração de relatórios. Crie documentos PDF, Word, Excel, PPTX, HTML e email a partir de templates personalizados.",
     "title": "API .NET para Automação de Documentos & Relatórios",
     "description": "Gere relatórios em aplicações .NET definindo templates e mesclando dados.",
-    "actions_main": "Baixar Trial via NuGet",
+    "actions_main": "Baixar Trial via {{PackageStoreName}}",
     "code_title": "Preencher um Gráfico em DOCX Usando C#",
     "overview_description": "Solução .NET para automação na criação de documentos com integração avançada de dados.",
     "overview_feature_1": {
@@ -242,7 +242,7 @@
     "head_description": "Biblioteca Java para automação na criação de documentos e geração de relatórios. Crie documentos PDF, Word, Excel, PPTX, HTML e email utilizando templates personalizados.",
     "title": "API Java para Automação de Relatórios e Documentos",
     "description": "Simplifique a geração de relatórios em Java mesclando dados com templates.",
-    "actions_main": "Obtenha Trial via NuGet",
+    "actions_main": "Obtenha Trial via {{PackageStoreName}}",
     "code_title": "Gerar um Gráfico em DOCX com Java",
     "overview_description": "Uma biblioteca Java projetada para criação automatizada de documentos e integração de dados sem costura.",
     "overview_feature_1": {

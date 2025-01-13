@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-12-13T10:30:57
+date: 2025-01-13T15:11:22
 draft: false
 
 lang: fr
@@ -19,6 +19,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "Bibliothèque Java pour la création, l'automatisation et le reporting de documents"
@@ -31,7 +34,7 @@ words:
   for: "pour"
 
 actions:
-  main: "Obtenir un essai via NuGet"
+  main: "Obtenir un essai via Maven"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-assembly/"
   alt: "Licences"
   alt_link: "https://purchase.groupdocs.com/pricing/assembly/java/"
@@ -42,6 +45,7 @@ release:
   title: "Version {0} publiée"
   notes: "Découvrez les nouveautés"
   downloads: "Téléchargements"
+  link: "https://releases.groupdocs.com/assembly/java/"
 
 code:
   title: "Générer un graphique dans DOCX avec Java"

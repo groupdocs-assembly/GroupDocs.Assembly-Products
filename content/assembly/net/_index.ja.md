@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-12-13T10:30:57
+date: 2025-01-13T15:11:22
 draft: false
 
 lang: ja
@@ -19,6 +19,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: ".NETドキュメント自動化、アセンブリおよびレポート生成用API"
@@ -31,7 +34,7 @@ words:
   for: "のため"
 
 actions:
-  main: "NuGetからトライアルをダウンロード"
+  main: "Nugetからトライアルをダウンロード"
   main_link: "https://www.nuget.org/packages/GroupDocs.Assembly"
   alt: "ライセンス"
   alt_link: "https://purchase.groupdocs.com/pricing/assembly/net/"
@@ -42,6 +45,7 @@ release:
   title: "バージョン{0}リリース"
   notes: "新機能を確認する"
   downloads: "ダウンロード"
+  link: "https://releases.groupdocs.com/assembly/net/"
 
 code:
   title: "C#を使用してDOCXでチャートを埋める"

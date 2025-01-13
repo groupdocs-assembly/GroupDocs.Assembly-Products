@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-12-13T10:30:57
+date:  2025-01-13T15:11:22
 draft: false
 
 product: "Assembly"
@@ -88,6 +88,34 @@ supported_platforms:
             content: |
                     50+ file formats
 
+    # items loop
+    - title: "Node.js"
+      description: GroupDocs.Assembly "Node.js
+      color: "green"
+      tag: "nodejs-java"
+      link: "/assembly/nodejs-java/"
+      features_link: "https://docs.groupdocs.com/assembly/nodejs-java/system-requirements/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    Node.js 16+ and J2SE 8.0 (1.8)+
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "3"
+            content: |
+                    Atom <br> Visual Studio Code <br> هر ویرایشگر متنی دیگر
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats
+
 
 ############################# Features ###############################
 features:
@@ -162,6 +190,28 @@ code_samples:
 
             //یک نمونه از منبع داده ایجاد کنید
             DataSourceInfo data = new DataSourceInfo(new DataStorage(), null);
+
+            // برای تولید گزارش AssembleDocument را فراخوانی کنید
+            assembler.assembleDocument(tmp_path, res_path, data);
+
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}   
+            const assemblyLib = require('@groupdocs/groupdocs.assembly');
+
+            // یک نمونه از کلاس DocumentAssembler ایجاد کنید
+            const assembler = new assemblyLib.DocumentAssembler();
+            
+            //مسیر الگو را مشخص کنید
+            const tmp_path = "barcode_template.docx";
+
+            //مسیر مستند خروجی را مشخص کنید
+            const res_path = "result.docx";
+
+            //یک نمونه از منبع داده ایجاد کنید
+            const data = new assemblyLib.DataSourceInfo(new assemblyLib.DataStorage(), null);
 
             // برای تولید گزارش AssembleDocument را فراخوانی کنید
             assembler.assembleDocument(tmp_path, res_path, data);
@@ -267,6 +317,11 @@ actions:
     - title: "Java"
       color: "red"
       link: "/assembly/java/"
+
+    # items loop
+    - title: "Node.js via Java"
+      color: "green"
+      link: "/assembly/nodejs-java/"
 
 ############################# FAQ ###############################
 faq:

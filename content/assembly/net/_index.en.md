@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-12-13T10:30:57
+date: 2025-01-13T15:11:22
 draft: false
 
 lang: en
@@ -19,6 +19,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: ".NET API for Document Automation, Assembly & Report Generation"
@@ -31,7 +34,7 @@ words:
   for: "for"
 
 actions:
-  main: "Download Trial via NuGet"
+  main: "Download Trial via Nuget"
   main_link: "https://www.nuget.org/packages/GroupDocs.Assembly"
   alt: "Licensing"
   alt_link: "https://purchase.groupdocs.com/pricing/assembly/net/"
@@ -42,6 +45,7 @@ release:
   title: "Version {0} released"
   notes: "See what’s new"
   downloads: "Downloads"
+  link: "https://releases.groupdocs.com/assembly/net/"
 
 code:
   title: "Fill a Chart in DOCX Using C#"

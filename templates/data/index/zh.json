@@ -172,7 +172,7 @@
     "head_description": "C# .NET API用于文档自动化、组装和报告生成。根据自定义模板创建PDF、Word、Excel、PPTX、HTML和电子邮件文档。",
     "title": ".NET文档自动化和报告API",
     "description": "通过定义模板和合并数据来在.NET应用程序中生成报告。",
-    "actions_main": "通过NuGet下载试用版",
+    "actions_main": "通过{{PackageStoreName}}下载试用版",
     "code_title": "使用C#填充DOCX中的图表",
     "overview_description": ".NET解决方案用于自动化文档创建及高级数据集成。",
     "overview_feature_1": {
@@ -242,7 +242,7 @@
     "head_description": "Java库用于自动化文档创建和生成报告。使用自定义模板创建PDF、Word、Excel、PPTX、HTML和电子邮件文档。",
     "title": "用于自动化报告和文档的Java API",
     "description": "通过将数据与模板合并简化Java中的报告生成。",
-    "actions_main": "通过NuGet获取试用版",
+    "actions_main": "通过{{PackageStoreName}}获取试用版",
     "code_title": "使用Java在DOCX中生成图表",
     "overview_description": "一个旨在自动化文档创建和无缝数据集成的Java库。",
     "overview_feature_1": {

@@ -172,7 +172,7 @@
     "head_description": "C# .NET APIによるドキュメント自動化、アセンブリ、およびレポート生成。カスタムテンプレートからPDF、Word、Excel、PPTX、HTML、およびメール文書を作成します。",
     "title": ".NETドキュメント自動化およびレポーティングAPI",
     "description": ".NETアプリケーションでテンプレートを定義し、データをマージしてレポートを生成。",
-    "actions_main": "NuGetからトライアルをダウンロード",
+    "actions_main": "{{PackageStoreName}}からトライアルをダウンロード",
     "code_title": "C#を使用してDOCXでチャートを埋める",
     "overview_description": ".NETソリューションによる高度なデータ統合を使用したドキュメント作成の自動化。",
     "overview_feature_1": {
@@ -242,7 +242,7 @@
     "head_description": "ドキュメント作成とレポート生成を自動化するためのJavaライブラリ。カスタムテンプレートを使用してPDF、Word、Excel、PPTX、HTML、およびメール文書を作成します。",
     "title": "レポートとドキュメントを自動化するためのJava API",
     "description": "データをテンプレートとマージすることによって、Javaでのレポート生成を簡素化。",
-    "actions_main": "NuGetからトライアルを入手",
+    "actions_main": "{{PackageStoreName}}からトライアルを入手",
     "code_title": "JavaでDOCXにチャートを生成",
     "overview_description": "自動化されたドキュメント作成とシームレスなデータ統合のために設計されたJavaライブラリ。",
     "overview_feature_1": {

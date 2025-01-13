@@ -172,7 +172,7 @@
     "head_description": "API C# .NET untuk otomasi dokumen, penyusunan, dan generasi laporan. Buat dokumen PDF, Word, Excel, PPTX, HTML, dan email dari template kustom.",
     "title": "API Otomasi & Pelaporan Dokumen .NET",
     "description": "Hasilkan laporan dalam aplikasi .NET dengan mendefinisikan template dan menggabungkan data.",
-    "actions_main": "Unduh Uji Coba melalui NuGet",
+    "actions_main": "Unduh Uji Coba melalui {{PackageStoreName}}",
     "code_title": "Mengisi Grafik di DOCX Menggunakan C#",
     "overview_description": "Solusi .NET untuk mengotomatisasi pembuatan dokumen dengan integrasi data yang canggih.",
     "overview_feature_1": {
@@ -242,7 +242,7 @@
     "head_description": "Perpustakaan Java untuk mengotomatisasi pembuatan dokumen dan menghasilkan laporan. Buat dokumen PDF, Word, Excel, PPTX, HTML, dan email menggunakan template kustom.",
     "title": "API Java untuk Mengotomatisasi Laporan dan Dokumen",
     "description": "Sederhanakan pembuatan laporan di Java dengan menggabungkan data dengan template.",
-    "actions_main": "Dapatkan Uji Coba melalui NuGet",
+    "actions_main": "Dapatkan Uji Coba melalui {{PackageStoreName}}",
     "code_title": "Hasilkan Grafik di DOCX dengan Java",
     "overview_description": "Perpustakaan Java yang dirancang untuk pembuatan dokumen otomatis dan integrasi data yang mulus.",
     "overview_feature_1": {

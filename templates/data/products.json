@@ -66,7 +66,30 @@
 
       "more_link": "https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-Java/",
       "release_downloads": "https://releases.groupdocs.com/assembly/java/"
+    },
+    "nodejs-java": {
+      "environmentName": "Node.js via Java",
+      "environmentNameShort": "Node.js",
+      "productCode": "nodejs-java",
+      "productPlatformLink": "/assembly/nodejs-java/",
+      "productFullName": "GroupDocs.Assembly for Node.js via Java",
 
+      "programmingLanguage": "JavaScript",
+      "srcFileExt": ".js",
+      "syntax": "javascript",
+      "runtime": "Node.js",
+
+      "productUrl": "https://products.groupdocs.com/assembly/nodejs-java/",
+      "packageStoreName": "NPM",
+      "packageUrl": "https://www.npmjs.com/package/@groupdocs/groupdocs.assembly",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/assembly/nodejs-java/",
+      "docsUrl": "https://docs.groupdocs.com/assembly/nodejs-java/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/assembly/nodejs-java/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/assembly/nodejs-java/bulleted-list-in-word-processing-document/",
+      "sample2Url": "https://docs.groupdocs.com/assembly/nodejs-java/pie-chart-in-presentation-document/",
+
+      "more_link": "https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-Node.js-via-Java/",
+      "release_downloads": "https://releases.groupdocs.com/assembly/nodejs-java/"
     }
   }
 }

@@ -172,7 +172,7 @@
     "head_description": "API C# .NET para automatización de documentos, ensamblaje y generación de informes. Crea documentos PDF, Word, Excel, PPTX, HTML y de correo electrónico a partir de plantillas personalizadas.",
     "title": "API de Automatización de Documentos y Generación de Informes en .NET",
     "description": "Genera informes en aplicaciones .NET definiendo plantillas y fusionando datos.",
-    "actions_main": "Descargar Prueba a través de NuGet",
+    "actions_main": "Descargar Prueba a través de {{PackageStoreName}}",
     "code_title": "Rellenar un Gráfico en DOCX Usando C#",
     "overview_description": "Solución .NET para automatizar la creación de documentos con integración de datos avanzada.",
     "overview_feature_1": {
@@ -242,7 +242,7 @@
     "head_description": "Biblioteca Java para automatizar la creación de documentos y generar informes. Crea documentos PDF, Word, Excel, PPTX, HTML y de correo electrónico usando plantillas personalizadas.",
     "title": "API Java para Automatizar Informes y Documentos",
     "description": "Simplifica la generación de informes en Java fusionando datos con plantillas.",
-    "actions_main": "Obtén Prueba a través de NuGet",
+    "actions_main": "Obtén Prueba a través de {{PackageStoreName}}",
     "code_title": "Generar un Gráfico en DOCX con Java",
     "overview_description": "Una biblioteca Java diseñada para la creación automatizada de documentos e integración de datos sin interrupciones.",
     "overview_feature_1": {

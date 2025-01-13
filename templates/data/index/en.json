@@ -1,7 +1,7 @@
 {
   "index-content": {
-    "head_title": ".NET, Java APIs & Online Document Assembly Apps by GroupDocs",
-    "head_description": "Get all-in-one Document Automation & Reporting Solution for .NET and Java applications. Generate all common documents from custom templates and data.",
+    "head_title": ".NET, Java, Node.js APIs & Online Document Assembly Apps by GroupDocs",
+    "head_description": "Get all-in-one Document Automation & Reporting Solution for .NET, Java and Node.js applications. Generate all common documents from custom templates and data.",
     "title": "Document Automation and Reporting Solution",
     "description_1": "Easily create detailed reports using templates and data sources with our cross-platform apps and APIs.",
     "description_2": "Generate reports in formats like Word, Excel, Presentations, and many more using templates with flexible markup.",
@@ -172,7 +172,7 @@
     "head_description": "C# .NET API for document automation, assembly, and report generation. Create PDF, Word, Excel, PPTX, HTML, and email documents from custom templates.",
     "title": ".NET Document Automation & Reporting API",
     "description": "Generate reports in .NET applications by defining templates and merging data.",
-    "actions_main": "Download Trial via NuGet",
+    "actions_main": "Download Trial via {{PackageStoreName}}",
     "code_title": "Fill a Chart in DOCX Using C#",
     "overview_description": ".NET solution for automating document creation with advanced data integration.",
     "overview_feature_1": {
@@ -242,7 +242,7 @@
     "head_description": "Java library for automating document creation and generating reports. Create PDF, Word, Excel, PPTX, HTML, and email documents using custom templates.",
     "title": "Java API for Automating Reports and Documents",
     "description": "Simplify report generation in Java by merging data with templates.",
-    "actions_main": "Get Trial via NuGet",
+    "actions_main": "Get Trial via {{PackageStoreName}}",
     "code_title": "Generate a Chart in DOCX with Java",
     "overview_description": "A Java library designed for automated document creation and seamless data integration.",
     "overview_feature_1": {
@@ -306,5 +306,75 @@
     "code_title_sample_2": "Create Pie Charts in PPTX",
     "code_samples_sample_2_content_1": "Use templates and XML to add [pie charts](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/) to your presentations.",
     "code_samples_sample_2_content_2": "Make your reports more engaging by including pie charts to visualize data."
+  },
+  "index-content-nodejs-java": {
+    "head_title": "{{EnvNameShort}} Toolkit for Building, Automating, and Customizing Documents",
+    "head_description": "{{EnvNameShort}} library for automating document workflows. Generate PDF, Word, Excel, PowerPoint, HTML, and email files from your templates.",
+    "title": "{{EnvNameShort}} API for Simplified Document and Report Automation",
+    "description": "Streamline {{ProgLang}} report generation by merging your data with pre-built templates.",
+    "actions_main": "Start Your Trial on {{PackageStoreName}}",
+    "code_title": "Create a Chart in a Word Document Using {{EnvNameShort}}",
+    "overview_description": "A {{EnvNameShort}} library built for creating documents programmatically with integrated data handling.",
+    "overview_feature_1": {
+      "title": "Integrate Business Data into Templates with {{ProgLang}}",
+      "description": "Generate polished reports by embedding JSON, XML, or other data into templates with {{ProdFullName}}."
+    },
+    "overview_feature_2": {
+      "title": "Manage Embedded Content",
+      "description": "Automatically populate tables, charts, and other visuals in your documents using external data."
+    },
+    "overview_feature_3": {
+      "title": "Customizable Options",
+      "description": "{{ProdFullName}} allows you to add features like barcodes, fetch data from URLs, and export files in various formats."
+    },
+    "features": {
+      "title": "Core Features of {{ProdShortName}}",
+      "description": "Create dynamic documents and reports with powerful data management tools.",
+      "feature_1": {
+        "title": "Rich Data Visuals",
+        "content": "Easily insert charts, tables, images, and lists into your documents with full customization."
+      },
+      "feature_2": {
+        "title": "Transform Your Data",
+        "content": "Leverage tools like formulas and sorting to structure and display information effectively."
+      },
+      "feature_3": {
+        "title": "Wide Format Compatibility",
+        "content": "Work seamlessly with popular file formats for templates and outputs."
+      },
+      "feature_4": {
+        "title": "Advanced Template Customization",
+        "content": "Format templates with numeric, alphabetic, and other styling options."
+      },
+      "feature_5": {
+        "title": "Generate Barcodes Dynamically",
+        "content": "Create and embed barcode images directly into your documents on demand."
+      },
+      "feature_6": {
+        "title": "Flexible Text Styling",
+        "content": "Easily apply text styles like capitalization or title case in your templates."
+      },
+      "feature_7": {
+        "title": "Dynamic Content Insertion",
+        "content": "Include content from external files dynamically during document generation."
+      },
+      "feature_8": {
+        "title": "Export to Various Formats",
+        "content": "Save documents in multiple formats with your specified configurations."
+      },
+      "feature_9": {
+        "title": "Embed Media Dynamically",
+        "content": "Insert images or other elements using Base64 data when creating documents."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} integrates smoothly with leading operating systems, frameworks, and package managers.",
+    "formats_description": "{{ProdFullName}} supports a broad array of [document formats]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Discover practical examples of how to use {{ProdShortName}} for common tasks.",
+    "code_title_sample_1": "Add a Bulleted List in Word Documents",
+    "code_samples_sample_1_content_1": "See how to create [bulleted lists]({{sample1Url}}) in Word documents to organize data effectively.",
+    "code_samples_sample_1_content_2": "This example demonstrates how to generate a bulleted list using {{ProdShortName}}.",
+    "code_title_sample_2": "Insert Pie Charts into PowerPoint",
+    "code_samples_sample_2_content_1": "Learn how to use templates and XML to add [pie charts]({{sample2Url}}) in your presentations.",
+    "code_samples_sample_2_content_2": "Enhance your reports with pie charts to present data visually and clearly."
   }
 }

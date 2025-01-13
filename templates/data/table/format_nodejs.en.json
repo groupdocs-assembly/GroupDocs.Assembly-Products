@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "Add tables to {{FileFormatUp}} documents using {{ProgLang}}",
+    "description": "With {{ProdFullName}}, developers can quickly integrate tables into documents and emails, pulling data from dynamic sources."
+  },
+  "header": {
+    "title": "Easily populate tables in {{FileFormatUp}} files with our {{EnvNameShort}} API",
+    "description": "{{ProdFullName}} simplifies the process of filling tables in {{FileFormatUp}} documents with data from various inputs.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Get Your Free Trial"
+  },
+  "about": {
+    "title": "What is {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a tool for generating documents and reports by automatically inserting data into pre-designed templates. You can effortlessly add tables, lists, charts, and images. Its advanced features allow you to precisely place content within your documents. Compatible with over 50 file types, including PDF, MS Office, and email formats."
+  },
+  "more_features": {
+    "title": "Create documents with data-filled tables",
+    "description": "{{ProdFullName}} makes it simple to automate table creation in your documents. It also supports adding elements like charts, lists, and images using templates.",
+    "image_description": "Main Features of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Generate reports from multiple data formats",
+      "content": "The API works seamlessly with JSON, XML, CSV, and other formats to fill tables in your documents with organized data."
+    },
+    "feature_2": {
+      "title": "Present information visually",
+      "content": "{{ProdShortName}} helps you build professional tables, lists, and charts, as well as insert links, text, and images, for a polished look."
+    },
+    "feature_3": {
+      "title": "Place table content with precision",
+      "content": "Use flexible LINQ-based syntax to add rows and columns dynamically. Customize appearance, such as font styles and colors, programmatically."
+    },
+    "feature_4": {
+      "title": "Compatible with multiple formats",
+      "content": "Work with MS Office, OpenOffice, PDF, HTML, and more. Merge tables into any supported file format effortlessly."
+    }
+  },
+  "formats": {
+    "title": "Produce detailed tables in various formats",
+    "description": "With {{EnvName}}, you can populate templates with data and generate detailed reports in over 50 file types."
+  },
+  "operations": {
+    "title": "Key features at a glance",
+    "description": "Our API simplifies creating professional documents by automating table population alongside other powerful components."
+  },
+  "examples": {
+    "comment_1": "Use these tags in a table row placeholder within your template",
+    "comment_2": "Define the path to the template file",
+    "comment_3": "Load data from your chosen source",
+    "comment_4": "Save the output file with the table populated"
+  },
+  "steps": {
+    "title": "Steps to insert data into a {{FileFormatUp}} table",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) helps you populate table templates for {{FileFormatUp}} and other formats. Use dynamic data from your sources to create tables with ease.",
+      "step_1": "Set up a {{FileFormatUp}} template with placeholders for table rows and columns.",
+      "step_2": "Pull data from any supported input source.",
+      "step_3": "Filter or preprocess the data to match your needs.",
+      "step_4": "Generate the final document with the completed table."
+    }
+  },
+  "code_1": {
+    "title": "Dynamically create a data-filled table",
+    "content": "This example shows how to populate a table in a {{FileFormatUp}} document using dynamic input data.",
+    "comment_1": "Design a template with a placeholder for the table",
+    "comment_2": "Set the template file location",
+    "comment_3": "Load data from your preferred source",
+    "comment_4": "Prepare a data object containing the necessary fields",
+    "comment_5": "Create an instance of {{DocumentAssembler}}",
+    "comment_6": "Save the document with the table populated"
+  },
+  "texts_pdf": {
+    "step_1": "Design a template with placeholders for the table (PDF templates are not currently supported).",
+    "step_4": "Save the document with the table filled in as a PDF file.",
+    "comment_tmp": "PDF templates are not supported at this time."
+  }
+}

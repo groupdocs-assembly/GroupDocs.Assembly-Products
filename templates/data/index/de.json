@@ -172,7 +172,7 @@
     "head_description": "C# .NET API für Dokumentautomatisierung, -zusammenstellung und -berichterstellung. Erstellen Sie PDF, Word, Excel, PPTX, HTML- und E-Mail-Dokumente aus benutzerdefinierten Vorlagen.",
     "title": ".NET-Dokumentautomatisierungs- und Berichterstellungs-API",
     "description": "Generieren Sie Berichte in .NET-Anwendungen, indem Sie Vorlagen definieren und Daten zusammenführen.",
-    "actions_main": "Testversion über NuGet herunterladen",
+    "actions_main": "Testversion über {{PackageStoreName}} herunterladen",
     "code_title": "Diagramm in DOCX mit C# ausfüllen",
     "overview_description": ".NET-Lösung zur Automatisierung der Dokumentenerstellung mit fortschrittlicher Datenintegration.",
     "overview_feature_1": {
@@ -242,7 +242,7 @@
     "head_description": "Java-Bibliothek zur Automatisierung der Dokumentenerstellung und Generierung von Berichten. Erstellen Sie PDF-, Word-, Excel-, PPTX-, HTML- und E-Mail-Dokumente mit benutzerdefinierten Vorlagen.",
     "title": "Java-API zur Automatisierung von Berichten und Dokumenten",
     "description": "Vereinfachen Sie die Berichterstellung in Java, indem Sie Daten mit Vorlagen zusammenführen.",
-    "actions_main": "Testversion über NuGet erhalten",
+    "actions_main": "Testversion über {{PackageStoreName}} erhalten",
     "code_title": "Erzeugen eines Diagramms in DOCX mit Java",
     "overview_description": "Eine Java-Bibliothek, die für die automatisierte Dokumentenerstellung und nahtlose Datenintegration entwickelt wurde.",
     "overview_feature_1": {

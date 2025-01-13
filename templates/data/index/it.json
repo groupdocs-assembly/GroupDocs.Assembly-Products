@@ -172,7 +172,7 @@
     "head_description": "API C# .NET per automazione documentale, assemblaggio e generazione di report. Crea documenti PDF, Word, Excel, PPTX, HTML e email da modelli personalizzati.",
     "title": "API di Automazione Documentale e Reporting per .NET",
     "description": "Genera report nelle applicazioni .NET definendo modelli e unendo dati.",
-    "actions_main": "Scarica il Trial tramite NuGet",
+    "actions_main": "Scarica il Trial tramite {{PackageStoreName}}",
     "code_title": "Compila un Grafico in DOCX Utilizzando C#",
     "overview_description": "Soluzione .NET per automatizzare la creazione di documenti con integrazione dati avanzata.",
     "overview_feature_1": {
@@ -242,7 +242,7 @@
     "head_description": "Libreria Java per l'automazione della creazione di documenti e generazione di report. Crea documenti PDF, Word, Excel, PPTX, HTML e email utilizzando modelli personalizzati.",
     "title": "API Java per Automazione di Report e Documenti",
     "description": "Semplifica la generazione di report in Java unendo dati con modelli.",
-    "actions_main": "Richiedi Trial tramite NuGet",
+    "actions_main": "Richiedi Trial tramite {{PackageStoreName}}",
     "code_title": "Genera un Grafico in DOCX con Java",
     "overview_description": "Una libreria Java progettata per la creazione automatica di documenti e l'integrazione dati semplificata.",
     "overview_feature_1": {

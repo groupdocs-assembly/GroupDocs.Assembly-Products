@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-12-13T10:30:57
+date: 2025-01-13T15:11:22
 draft: false
 
 lang: vi
@@ -19,6 +19,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "Thư viện Java cho Tạo Tài liệu, Tự động hóa & Báo cáo"
@@ -31,7 +34,7 @@ words:
   for: "cho"
 
 actions:
-  main: "Nhận Bản dùng thử qua NuGet"
+  main: "Nhận Bản dùng thử qua Maven"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-assembly/"
   alt: "Cấp phép"
   alt_link: "https://purchase.groupdocs.com/pricing/assembly/java/"
@@ -42,6 +45,7 @@ release:
   title: "Phiên bản {0} đã được phát hành"
   notes: "Xem điều gì mới"
   downloads: "Tải xuống"
+  link: "https://releases.groupdocs.com/assembly/java/"
 
 code:
   title: "Tạo Biểu đồ trong DOCX bằng Java"

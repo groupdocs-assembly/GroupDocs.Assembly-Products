@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-12-13T10:30:57
+date: 2025-01-13T15:11:22
 draft: false
 
 lang: vi
@@ -19,6 +19,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "API .NET cho Tự động hóa Tài liệu, Lắp ráp & Tạo báo cáo"
@@ -31,7 +34,7 @@ words:
   for: "cho"
 
 actions:
-  main: "Tải xuống Bản dùng thử qua NuGet"
+  main: "Tải xuống Bản dùng thử qua Nuget"
   main_link: "https://www.nuget.org/packages/GroupDocs.Assembly"
   alt: "Cấp phép"
   alt_link: "https://purchase.groupdocs.com/pricing/assembly/net/"
@@ -42,6 +45,7 @@ release:
   title: "Phiên bản {0} đã được phát hành"
   notes: "Xem điều gì mới"
   downloads: "Tải xuống"
+  link: "https://releases.groupdocs.com/assembly/net/"
 
 code:
   title: "Điền Biểu đồ trong DOCX Sử dụng C#"

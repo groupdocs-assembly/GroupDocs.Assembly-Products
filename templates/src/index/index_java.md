@@ -21,6 +21,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "<% "{index-content-java.head_title}" %>"
@@ -44,6 +47,7 @@ release:
   title: "<% "{index-content.release_title}" %>"
   notes: "<% "{index-content.release_notes}" %>"
   downloads: "<% "{index-content.release_downloads}" %>"
+  link: "<% "{products.java.release_downloads}" %>"
 
 code:
   title: "<% "{index-content-java.code_title}" %>"
