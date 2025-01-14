@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-13T15:11:18
+date:  2025-01-14T15:37:15
 draft: false
 lang: en
 format: Xlsx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Merge Documents in XLSX with JavaScript"
+head_description: "Easily combine XLSX files using JavaScript. GroupDocs.Assembly streamlines document merging in just a few simple steps."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Effortlessly Combine Content in XLSX Files" 
+description: "With GroupDocs.Assembly for Node.js via Java, integrating one XLSX file into another is quick and precise. Enjoy flexible, reliable tools for seamless merging."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Try It Free"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Overview of GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Learn more"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) offers a powerful way to manage documents. Merge one file into another with ease while supporting over 50 formats, such as PDF and MS Office. Customize layouts, edit content, and organize documents exactly how you need.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "How to Merge a Document into a XLSX File"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) makes it easy to insert one XLSX file into another with customizable options.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Design a XLSX template with placeholders for the content.
+      2. Set the file path for the template.
+      3. Provide the file path for the document to merge.
+      4. Export the final file with the combined content.
    
     code:
       platform: "java"
@@ -59,23 +59,7 @@ steps:
       result_link: "/examples/assembly/assembly_all.pdf"
       result_title: "Example document"
       install:
-        command_title: "Maven XML"
-        command: |
-          <dependencies>
-            <dependency>
-              <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-assembly</artifactId>
-              <version>{0}</version>
-            </dependency>
-          </dependencies>
-
-          <repositories>
-            <repository>
-              <id>repository.groupdocs.com</id>
-              <name>GroupDocs Repository</name>
-              <url>https://repository.groupdocs.com/repo/</url>
-            </repository>
-          </repositories>
+        command: "npm i @groupdocs/groupdocs.assembly"
         copy_tip: "click to copy"
         copy_done: "copied"
       links:
@@ -87,90 +71,79 @@ steps:
           link: "https://docs.groupdocs.com/assembly/nodejs-java/"
           
       content: |
-        ```java {style=abap}
-        // {examples.comment_1}
+        ```javascript {style=abap}
+        // Insert this tag into your template to define where the document will be embedded
         // <<doc [doc_expression]>>
+    
+        const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
-        String template = "doc_template.xlsx";
+        // Set the file path for the main template
+        const template = "doc_template.xlsx";
 
-        // {examples.comment_3}
-        DataSourceInfo data 
-            = new DataSourceInfo("insert.xlsx", "doc_expression");
+        // Provide the path for the document you wish to merge
+        const data 
+            = new assemblyLib.DataSourceInfo("insert.xlsx", "doc_expression");
 
-        // {examples.comment_4}
-        DocumentAssembler asm = new DocumentAssembler();
+        // Save the final output with the embedded document
+        const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.xlsx", data);
         ```           
 
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Powerful Tools for Document Integration"
+  description: "GroupDocs.Assembly for Node.js via Java makes embedding files across various formats easy and fully customizable. Deliver consistent, professional results every time."
   image: "/img/assembly/features_document.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Key Features of GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Generate Reports with Business Data"
+      content: "Pull data from JSON, XML, or CSV sources to create comprehensive reports and documents quickly and accurately."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Add Rich Visual Elements"
+      content: "GroupDocs.Assembly enables you to include tables, charts, lists, images, and barcodes alongside text and hyperlinks."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Precise Data Placement"
+      content: "Use LINQ templates to position data exactly where it belongs, handle repeating items like arrays, and customize styles effortlessly."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Works with a Variety of Formats"
+      content: "Merge content seamlessly across formats like PDFs, MS Office files, HTML, and OpenOffice, offering flexibility for all projects."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Embed an Image into a Document Programmatically"
       content: |
-        {code_1.content}
+        This example demonstrates how to insert an image into a XLSX file using GroupDocs.Assembly.
       code:
         title: "Java"
         content: |
-          ```java {style=abap}
-          // {code_1.comment_1}
+          ```javascript {style=abap}
+          // Add a placeholder in the template for the image
           // <<image [expression]>>
+          
+          const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
-          String template = "template.xlsx";
+          // Specify the path to the template file
+          const template = "template.xlsx";
 
-          // {code_1.comment_3}
-          DataSourceInfo data =
-              = new DataSourceInfo("logo.jpg", "expression");
+          // Set the path to the image you want to embed
+          const data =
+              = new assemblyLib.DataSourceInfo("logo.jpg", "expression");
 
-          // {code_1.comment_4}
-          DocumentAssembler asm = new DocumentAssembler();
+          // Initialize the DocumentAssembler object
+          const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_5}
+          // Save the document with the image included
           asm.assembleDocument(template, "result.xlsx", data);
           ```
         platform: "java"
         copy_title: "Copy"
         install:
-          command_title: "Maven XML"
-          command: |
-            <dependencies>
-              <dependency>
-                <groupId>com.groupdocs</groupId>
-                <artifactId>groupdocs-assembly</artifactId>
-                <version>{0}</version>
-              </dependency>
-            </dependencies>
-            <repositories>
-              <repository>
-                <id>repository.groupdocs.com</id>
-                <name>GroupDocs Repository</name>
-                <url>https://repository.groupdocs.com/repo/</url>
-              </repository>
-            </repositories>
+          command: "npm i @groupdocs/groupdocs.assembly"
           copy_tip: "click to copy"
           copy_done: "copied"
         top_links:
@@ -210,9 +183,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Core Features at a Glance"
     exclude: "document"
-    description: ""
+    description: "Explore the comprehensive tools GroupDocs.Assembly offers for efficient and seamless document merging."
     items: 
           
         # operation loop 1
@@ -249,9 +222,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Combine Documents in Many Formats"
     exclude: "XLSX"
-    description: ""
+    description: "Use Node.js via Java to merge content across over 50 file formats, ensuring professional and polished results."
     items: 
           
         # format loop 1

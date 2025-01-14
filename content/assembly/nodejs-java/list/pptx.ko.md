@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-13T15:11:20
+date:  2025-01-14T15:37:16
 draft: false
 lang: ko
 format: Pptx
@@ -59,23 +59,7 @@ steps:
       result_link: "/examples/assembly/assembly_all.pdf"
       result_title: "예제 문서"
       install:
-        command_title: "Maven XML"
-        command: |
-          <dependencies>
-            <dependency>
-              <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-assembly</artifactId>
-              <version>{0}</version>
-            </dependency>
-          </dependencies>
-
-          <repositories>
-            <repository>
-              <id>repository.groupdocs.com</id>
-              <name>GroupDocs Repository</name>
-              <url>https://repository.groupdocs.com/repo/</url>
-            </repository>
-          </repositories>
+        command: "npm i @groupdocs/groupdocs.assembly"
         copy_tip: "복사하려면 클릭"
         copy_done: "복사됨"
       links:
@@ -87,19 +71,21 @@ steps:
           link: "https://docs.groupdocs.com/assembly/nodejs-java/"
           
       content: |
-        ```java {style=abap}
+        ```javascript {style=abap}
         // {examples.comment_1}
         // <<foreach [in customers]>><<[CustomerName]>><</foreach>>
+    
+        const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
         // {examples.comment_2}
-        String template = "list_template.pptx";
+        const template = "list_template.pptx";
 
         // {examples.comment_3}
-        DataSourceInfo data 
-            = new DataSourceInfo(GetData(), "label");
+        const data 
+            = new assemblyLib.DataSourceInfo(GetData(), "label");
 
         // {examples.comment_4}
-        DocumentAssembler asm = new DocumentAssembler();
+        const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pptx", data);
         ```           
 
@@ -135,24 +121,26 @@ more_features:
       code:
         title: "Java"
         content: |
-          ```java {style=abap}
+          ```javascript {style=abap}
           // {code_1.comment_1}
           // <<foreach [in products]>><<[NumberOf()]>>. <<[ProductName]>>
           // <</foreach>>
+          
+          const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
           // {code_1.comment_2}
-          String template = "numlist_template.pptx";
+          const template = "numlist_template.pptx";
 
           // {code_1.comment_3}
-          XmlDataSource data_xml =
-              new XmlDataSource("products.xml");
+          const data_xml =
+              new assemblyLib.XmlDataSource("products.xml");
 
           // {code_1.comment_4}
-          DataSourceInfo data 
-              = new DataSourceInfo(data_xml, "products");
+          const data 
+              = new assemblyLib.DataSourceInfo(data_xml, "products");
 
           // {code_1.comment_5}
-          DocumentAssembler asm = new DocumentAssembler();
+          const asm = new assemblyLib.DocumentAssembler();
 
           // {code_1.comment_6}
           asm.assembleDocument(template, "result.pptx", data);
@@ -160,22 +148,7 @@ more_features:
         platform: "java"
         copy_title: "복사"
         install:
-          command_title: "Maven XML"
-          command: |
-            <dependencies>
-              <dependency>
-                <groupId>com.groupdocs</groupId>
-                <artifactId>groupdocs-assembly</artifactId>
-                <version>{0}</version>
-              </dependency>
-            </dependencies>
-            <repositories>
-              <repository>
-                <id>repository.groupdocs.com</id>
-                <name>GroupDocs Repository</name>
-                <url>https://repository.groupdocs.com/repo/</url>
-              </repository>
-            </repositories>
+          command: "npm i @groupdocs/groupdocs.assembly"
           copy_tip: "복사하려면 클릭"
           copy_done: "복사됨"
         top_links:

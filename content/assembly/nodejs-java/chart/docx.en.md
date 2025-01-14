@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-13T15:11:17
+date:  2025-01-14T15:37:14
 draft: false
 lang: en
 format: Docx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Insert Charts in DOCX Files with JavaScript"
+head_description: "With GroupDocs.Assembly for Node.js via Java, developers can quickly create and embed dynamic charts into documents using live data sources."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Easily Add Charts to DOCX Files Using Node.js" 
+description: "GroupDocs.Assembly for Node.js via Java streamlines the process of integrating charts into DOCX documents with real-time data input."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Start Free Today"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Overview of GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Learn more"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) is a robust solution for creating automated documents and reports. Add charts, tables, images, barcodes, and lists to files with precision and ease. This versatile platform supports over 50 formats, including PDFs, Office documents, and emails.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Steps to Add a Chart to a DOCX Document"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) makes adding charts to DOCX files easy. Choose from chart types like bar, line, or pie charts.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Design a DOCX template with placeholders for charts.
+      2. Load data from a supported source.
+      3. Configure chart options, including type, colors, and labels.
+      4. Export the document with the embedded chart.
    
     code:
       platform: "java"
@@ -59,23 +59,7 @@ steps:
       result_link: "/examples/assembly/assembly_all.pdf"
       result_title: "Example document"
       install:
-        command_title: "Maven XML"
-        command: |
-          <dependencies>
-            <dependency>
-              <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-assembly</artifactId>
-              <version>{0}</version>
-            </dependency>
-          </dependencies>
-
-          <repositories>
-            <repository>
-              <id>repository.groupdocs.com</id>
-              <name>GroupDocs Repository</name>
-              <url>https://repository.groupdocs.com/repo/</url>
-            </repository>
-          </repositories>
+        command: "npm i @groupdocs/groupdocs.assembly"
         copy_tip: "click to copy"
         copy_done: "copied"
       links:
@@ -87,99 +71,88 @@ steps:
           link: "https://docs.groupdocs.com/assembly/nodejs-java/"
           
       content: |
-        ```java {style=abap}
-        // {examples.comment_1}
+        ```javascript {style=abap}
+        // Include this tag in your template to generate a chart
         // Orders Prices by months<<y [Sum(c => c.Price)]>><<size [Count()]>>
+    
+        const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
-        String template = "chart_template.docx";
+        // Specify the template file path
+        const template = "chart_template.docx";
 
-        // {examples.comment_3}
-        DataSourceInfo data 
-            = new DataSourceInfo(GetChartData(), "orders");
+        // Extract data from your source system
+        const data 
+            = new assemblyLib.DataSourceInfo(GetChartData(), "orders");
 
-        // {examples.comment_4}
-        DocumentAssembler asm = new DocumentAssembler();
+        // Save the final document with the embedded chart
+        const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.docx", data);
         ```           
 
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Embed Charts Effortlessly in Your Documents"
+  description: "GroupDocs.Assembly for Node.js via Java makes it simple to generate feature-rich documents in popular file types. Use templates to add charts, tables, barcodes, lists, images, and more with real-time data updates."
   image: "/img/assembly/features_chart.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Top Features of GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Transform Data into Professional Charts"
+      content: "Convert data from sources like JSON, XML, or CSV into high-quality charts that can be directly embedded into documents."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Create Stunning Visuals"
+      content: "Generate bar charts, pie graphs, and line charts that work seamlessly with other document elements like images, tables, and barcodes."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Flexible Chart Styling and Placement"
+      content: "Use LINQ templates to control chart positioning and styling, including colors, layouts, and labels, for a polished presentation."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Supports Many File Formats"
+      content: "Generate documents in formats like MS Office, PDF, OpenOffice, and HTML, with charts perfectly integrated for a professional finish."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Dynamically Generate and Insert Charts"
       content: |
-        {code_1.content}
+        This example illustrates how to create and embed charts into DOCX files programmatically.
       code:
         title: "Java"
         content: |
-          ```java {style=abap}
-          // {code_1.comment_1}
+          ```javascript {style=abap}
+          // Set up a template with a placeholder for the chart
           // Total Contract Price<<y [m.Total_Contract_Price]>>
           // <<seriesColor [color]>>
+          
+          const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
-          String template = "table_template.docx";
+          // Define the path to the template file
+          const template = "table_template.docx";
 
-          // {code_1.comment_3}
-          JsonDataSource data_json = 
-            new JsonDataSource("Items.json");
+          // Retrieve data from a chosen source
+          const data_json = 
+            new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
-          DataSourceInfo data 
-              = new DataSourceInfo(data_json, "items");
+          // Prepare a data object containing the chart information
+          const data 
+              = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
-          DataSourceInfo design 
-              = new DataSourceInfo("red", "color");
+          // Choose the chart type and customize its appearance
+          const design 
+              = new assemblyLib.DataSourceInfo("red", "color");
 
-          // {code_1.comment_6}
-          DocumentAssembler asm = new DocumentAssembler();
+          // Initialize DocumentAssembler
+          const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_7}
+          // Save the updated document with the chart embedded
           asm.assembleDocument(template, "result.docx", data, design);
           ```
         platform: "java"
         copy_title: "Copy"
         install:
-          command_title: "Maven XML"
-          command: |
-            <dependencies>
-              <dependency>
-                <groupId>com.groupdocs</groupId>
-                <artifactId>groupdocs-assembly</artifactId>
-                <version>{0}</version>
-              </dependency>
-            </dependencies>
-            <repositories>
-              <repository>
-                <id>repository.groupdocs.com</id>
-                <name>GroupDocs Repository</name>
-                <url>https://repository.groupdocs.com/repo/</url>
-              </repository>
-            </repositories>
+          command: "npm i @groupdocs/groupdocs.assembly"
           copy_tip: "click to copy"
           copy_done: "copied"
         top_links:
@@ -219,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Discover Advanced Features"
     exclude: "chart"
-    description: ""
+    description: "This platform simplifies document creation with tools designed for data visualization and seamless integration."
     items: 
           
         # operation loop 1
@@ -258,9 +231,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Generate Reports in Multiple File Formats"
     exclude: "DOCX"
-    description: ""
+    description: "Node.js via Java supports over 50 formats, making it easy to combine templates with data to produce polished documents."
     items: 
           
         # format loop 1

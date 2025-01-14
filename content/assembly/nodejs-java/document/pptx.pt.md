@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-13T15:11:18
+date:  2025-01-14T15:37:15
 draft: false
 lang: pt
 format: Pptx
@@ -59,23 +59,7 @@ steps:
       result_link: "/examples/assembly/assembly_all.pdf"
       result_title: "Documento de exemplo"
       install:
-        command_title: "Maven XML"
-        command: |
-          <dependencies>
-            <dependency>
-              <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-assembly</artifactId>
-              <version>{0}</version>
-            </dependency>
-          </dependencies>
-
-          <repositories>
-            <repository>
-              <id>repository.groupdocs.com</id>
-              <name>GroupDocs Repository</name>
-              <url>https://repository.groupdocs.com/repo/</url>
-            </repository>
-          </repositories>
+        command: "npm i @groupdocs/groupdocs.assembly"
         copy_tip: "clique para copiar"
         copy_done: "copiado"
       links:
@@ -87,19 +71,21 @@ steps:
           link: "https://docs.groupdocs.com/assembly/nodejs-java/"
           
       content: |
-        ```java {style=abap}
+        ```javascript {style=abap}
         // {examples.comment_1}
         // <<doc [doc_expression]>>
+    
+        const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
         // {examples.comment_2}
-        String template = "doc_template.pptx";
+        const template = "doc_template.pptx";
 
         // {examples.comment_3}
-        DataSourceInfo data 
-            = new DataSourceInfo("insert.pptx", "doc_expression");
+        const data 
+            = new assemblyLib.DataSourceInfo("insert.pptx", "doc_expression");
 
         // {examples.comment_4}
-        DocumentAssembler asm = new DocumentAssembler();
+        const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pptx", data);
         ```           
 
@@ -135,19 +121,21 @@ more_features:
       code:
         title: "Java"
         content: |
-          ```java {style=abap}
+          ```javascript {style=abap}
           // {code_1.comment_1}
           // <<image [expression]>>
+          
+          const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
           // {code_1.comment_2}
-          String template = "template.pptx";
+          const template = "template.pptx";
 
           // {code_1.comment_3}
-          DataSourceInfo data =
-              = new DataSourceInfo("logo.jpg", "expression");
+          const data =
+              = new assemblyLib.DataSourceInfo("logo.jpg", "expression");
 
           // {code_1.comment_4}
-          DocumentAssembler asm = new DocumentAssembler();
+          const asm = new assemblyLib.DocumentAssembler();
 
           // {code_1.comment_5}
           asm.assembleDocument(template, "result.pptx", data);
@@ -155,22 +143,7 @@ more_features:
         platform: "java"
         copy_title: "Copiar"
         install:
-          command_title: "Maven XML"
-          command: |
-            <dependencies>
-              <dependency>
-                <groupId>com.groupdocs</groupId>
-                <artifactId>groupdocs-assembly</artifactId>
-                <version>{0}</version>
-              </dependency>
-            </dependencies>
-            <repositories>
-              <repository>
-                <id>repository.groupdocs.com</id>
-                <name>GroupDocs Repository</name>
-                <url>https://repository.groupdocs.com/repo/</url>
-              </repository>
-            </repositories>
+          command: "npm i @groupdocs/groupdocs.assembly"
           copy_tip: "clique para copiar"
           copy_done: "copiado"
         top_links:

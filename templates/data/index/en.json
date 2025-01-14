@@ -371,10 +371,10 @@
     "formats_description": "{{ProdFullName}} supports a broad array of [document formats]({{SupportedFormatsUrl}}).",
     "code_samples_description": "Discover practical examples of how to use {{ProdShortName}} for common tasks.",
     "code_title_sample_1": "Add a Bulleted List in Word Documents",
-    "code_samples_sample_1_content_1": "See how to create [bulleted lists]({{sample1Url}}) in Word documents to organize data effectively.",
+    "code_samples_sample_1_content_1": "See how to create [bulleted lists]({{Sample1Url}}) in Word documents to organize data effectively.",
     "code_samples_sample_1_content_2": "This example demonstrates how to generate a bulleted list using {{ProdShortName}}.",
     "code_title_sample_2": "Insert Pie Charts into PowerPoint",
-    "code_samples_sample_2_content_1": "Learn how to use templates and XML to add [pie charts]({{sample2Url}}) in your presentations.",
+    "code_samples_sample_2_content_1": "Learn how to use templates and XML to add [pie charts]({{Sample2Url}}) in your presentations.",
     "code_samples_sample_2_content_2": "Enhance your reports with pie charts to present data visually and clearly."
   }
 }

@@ -219,24 +219,26 @@ code_samples:
       content: |
         <% "{index-content-nodejs-java.code_samples_sample_1_content_1}" %> <% "{index-content-nodejs-java.code_samples_sample_1_content_2}" %>
         {{< landing/code title="<% "{index-content-nodejs-java.code_title_sample_1}" %>">}}
-        ```java {style=abap}
+        ```javascript {style=abap}
         // <% "{index-content.code_samples.sample_1.comment_1}" %>
         // <% "{index-content.code_samples.sample_1.comment_2}" %>
         // . <<foreach [in products]>><<[ProductName]>>
         // <</foreach>>
 
+        const assemblyLib = require('@groupdocs/groupdocs.assembly');
+
         // <% "{index-content.code_samples.sample_1.comment_3}" %>
-        String template = "Bulleted List Template.docx";
+        const template = "Bulleted List Template.docx";
 
         // <% "{index-content.code_samples.sample_1.comment_4}" %>
-        String result = "Result Report.docx"
+        const result = "Result Report.docx"
 
         // <% "{index-content.code_samples.sample_1.comment_5}" %>
-        JsonDataSource dataSource = new JsonDataSource("Report data.json");
-        DataSourceInfo data = new DataSourceInfo(dataSource, "managers")
+        const dataSource = new assemblyLib.JsonDataSource("Report data.json");
+        const data = new assemblyLib.DataSourceInfo(dataSource, "managers")
 
         // <% "{index-content.code_samples.sample_1.comment_6}" %>
-        DocumentAssembler assembler = new DocumentAssembler();
+        const assembler = new assemblyLib.DocumentAssembler();
         assembler.assembleDocument(template, result, data);
         ```
         {{< /landing/code >}}
@@ -245,7 +247,7 @@ code_samples:
       content: |
         <% "{index-content-nodejs-java.code_samples_sample_2_content_1}" %> <% "{index-content-nodejs-java.code_samples_sample_2_content_2}" %>
         {{< landing/code title="<% "{index-content-nodejs-java.code_title_sample_2}" %>">}}
-        ```java {style=abap}   
+        ```javascript {style=abap} 
         // <% "{index-content.code_samples.sample_2.comment_1}" %>
         // <% "{index-content.code_samples.sample_2.comment_2}" %> <<foreach [in customers]>> 
         // <<x [CustomerName]>>
@@ -254,18 +256,20 @@ code_samples:
         // Total Order Price<<foreach [in customers]>> 
         // <<x [CustomerName]>>
 
+        const assemblyLib = require('@groupdocs/groupdocs.assembly');
+
         // <% "{index-content.code_samples.sample_2.comment_4}" %>
-        String template = "Pie Chart Template.pptx";
+        const template = "Pie Chart Template.pptx";
 
         // <% "{index-content.code_samples.sample_2.comment_5}" %>
-        String result = "Result Report.pptx"
+        const result = "Result Report.pptx"
 
         // <% "{index-content.code_samples.sample_2.comment_6}" %>
-        JsonDataSource dataSource = new JsonDataSource("Chart data.xml");
-        DataSourceInfo data = new DataSourceInfo(dataSource, "customers")
+        const dataSource = new assemblyLib.JsonDataSource("Chart data.xml");
+        const data = new assemblyLib.DataSourceInfo(dataSource, "customers")
 
         // <% "{index-content.code_samples.sample_2.comment_7}" %>
-        DocumentAssembler assembler = new DocumentAssembler();
+        const assembler = new assemblyLib.DocumentAssembler();
         assembler.assembleDocument(template, result, data);
         ```
         {{< /landing/code >}}

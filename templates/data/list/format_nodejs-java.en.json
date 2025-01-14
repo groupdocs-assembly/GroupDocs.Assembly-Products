@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "Create Dynamic Lists in {{FileFormatUp}} with {{ProgLang}}",
+    "description": "Easily design and insert lists into {{FileFormatUp}} templates using the {{ProdFullName}} API."
+  },
+  "header": {
+    "title": "Embed Data-Driven Lists in {{FileFormatUp}} Files with {{EnvNameShort}}",
+    "description": "{{ProdFullName}} offers powerful tools to add flexible, data-powered lists to {{FileFormatUp}} documents.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Get Started for Free"
+  },
+  "about": {
+    "title": "About {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) simplifies document creation by pulling data from various sources and embedding it into templates. Use it to build lists, tables, charts, and other elements, with precise placement and formatting options. Supporting over 50 formats, including PDF, MS Office, and emails, it helps automate your document generation process."
+  },
+  "more_features": {
+    "title": "Easily Generate Documents with Integrated Data",
+    "description": "With {{ProdFullName}}, you can embed lists, tables, charts, and other elements into templates, saving time and effort.",
+    "image_description": "Highlights of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Generate Reports from Multiple Data Sources",
+      "content": "Import data from JSON, XML, CSV, or other formats to populate lists and other components efficiently."
+    },
+    "feature_2": {
+      "title": "Add Lists and Other Visual Elements",
+      "content": "{{ProdShortName}} allows you to seamlessly embed lists, tables, charts, and more alongside text, images, and links for polished results."
+    },
+    "feature_3": {
+      "title": "Precisely Place and Style Data",
+      "content": "LINQ-based templates let you control exactly where lists and other data appear, use loops for repeated items, and customize styles to fit your needs."
+    },
+    "feature_4": {
+      "title": "Works Across Multiple Formats",
+      "content": "Create documents in formats like MS Office, PDF, OpenOffice, HTML, and emails. Merge content from various sources into a single file."
+    }
+  },
+  "formats": {
+    "title": "Create Documents in Multiple Formats",
+    "description": "{{EnvName}} supports over 50 file formats, making it easy to merge templates and data into professional results."
+  },
+  "operations": {
+    "title": "Explore the Features of {{ProdShortName}}",
+    "description": "Design and generate data-rich documents effortlessly using powerful integration tools."
+  },
+  "examples": {
+    "comment_1": "Place this tag in your template to mark where the list will go",
+    "comment_2": "Set the file path for your template",
+    "comment_3": "Fetch data from the source you want to use",
+    "comment_4": "Save the file with the embedded list"
+  },
+  "steps": {
+    "title": "Steps to Insert a List into a {{FileFormatUp}} File",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) makes it easy to add detailed, data-driven lists to your {{FileFormatUp}} templates.",
+      "step_1": "Create a {{FileFormatUp}} template and define placeholders for the list.",
+      "step_2": "Provide the template's file path.",
+      "step_3": "Load data from supported sources like JSON or XML.",
+      "step_4": "Save the document with the generated list."
+    }
+  },
+  "code_1": {
+    "title": "Programmatically Create a List in a Document",
+    "content": "This example demonstrates how to dynamically add a list to a {{FileFormatUp}} document using {{ProdShortName}}.",
+    "comment_1": "Add a placeholder in your template for the list",
+    "comment_2": "Specify the file path of the template",
+    "comment_3": "Load data to populate the list",
+    "comment_4": "Prepare the data source with required details",
+    "comment_5": "Initialize the {{DocumentAssembler}}",
+    "comment_6": "Save the final document with the list included"
+  },
+  "texts_pdf": {
+    "step_1": "Design a template with placeholders for the list (PDF templates are not supported).",
+    "step_4": "Export the completed document with the list as a PDF file.",
+    "comment_tmp": "PDF templates are currently unsupported."
+  }
+}

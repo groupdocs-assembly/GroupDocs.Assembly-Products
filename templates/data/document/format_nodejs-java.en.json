@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": "Merge Documents in {{FileFormatUp}} with {{ProgLang}}",
+    "description": "Easily combine {{FileFormatUp}} files using {{ProgLang}}. {{ProdShortName}} streamlines document merging in just a few simple steps."
+  },
+  "header": {
+    "title": "Effortlessly Combine Content in {{FileFormatUp}} Files",
+    "description": "With {{ProdFullName}}, integrating one {{FileFormatUp}} file into another is quick and precise. Enjoy flexible, reliable tools for seamless merging.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Try It Free"
+  },
+  "about": {
+    "title": "Overview of {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers a powerful way to manage documents. Merge one file into another with ease while supporting over 50 formats, such as PDF and MS Office. Customize layouts, edit content, and organize documents exactly how you need."
+  },
+  "more_features": {
+    "title": "Powerful Tools for Document Integration",
+    "description": "{{ProdFullName}} makes embedding files across various formats easy and fully customizable. Deliver consistent, professional results every time.",
+    "image_description": "Key Features of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Generate Reports with Business Data",
+      "content": "Pull data from JSON, XML, or CSV sources to create comprehensive reports and documents quickly and accurately."
+    },
+    "feature_2": {
+      "title": "Add Rich Visual Elements",
+      "content": "{{ProdShortName}} enables you to include tables, charts, lists, images, and barcodes alongside text and hyperlinks."
+    },
+    "feature_3": {
+      "title": "Precise Data Placement",
+      "content": "Use LINQ templates to position data exactly where it belongs, handle repeating items like arrays, and customize styles effortlessly."
+    },
+    "feature_4": {
+      "title": "Works with a Variety of Formats",
+      "content": "Merge content seamlessly across formats like PDFs, MS Office files, HTML, and OpenOffice, offering flexibility for all projects."
+    }
+  },
+  "formats": {
+    "title": "Combine Documents in Many Formats",
+    "description": "Use {{EnvName}} to merge content across over 50 file formats, ensuring professional and polished results."
+  },
+  "operations": {
+    "title": "Core Features at a Glance",
+    "description": "Explore the comprehensive tools {{ProdShortName}} offers for efficient and seamless document merging."
+  },
+  "examples": {
+    "comment_1": "Insert this tag into your template to define where the document will be embedded",
+    "comment_2": "Set the file path for the main template",
+    "comment_3": "Provide the path for the document you wish to merge",
+    "comment_4": "Save the final output with the embedded document"
+  },
+  "steps": {
+    "title": "How to Merge a Document into a {{FileFormatUp}} File",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) makes it easy to insert one {{FileFormatUp}} file into another with customizable options.",
+      "step_1": "Design a {{FileFormatUp}} template with placeholders for the content.",
+      "step_2": "Set the file path for the template.",
+      "step_3": "Provide the file path for the document to merge.",
+      "step_4": "Export the final file with the combined content."
+    }
+  },
+  "code_1": {
+    "title": "Embed an Image into a Document Programmatically",
+    "content": "This example demonstrates how to insert an image into a {{FileFormatUp}} file using {{ProdShortName}}.",
+    "comment_1": "Add a placeholder in the template for the image",
+    "comment_2": "Specify the path to the template file",
+    "comment_3": "Set the path to the image you want to embed",
+    "comment_4": "Initialize the {{DocumentAssembler}} object",
+    "comment_5": "Save the document with the image included"
+  },
+  "texts_pdf": {
+    "step_1": "Design a template with placeholders for embedded content (PDF templates are unsupported).",
+    "step_4": "Save the completed document with the merged content as a PDF file.",
+    "comment_tmp": "Currently, PDF templates are not supported."
+  }
+}

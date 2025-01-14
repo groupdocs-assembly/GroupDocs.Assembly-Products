@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-01-13T15:11:22
+date: 2025-01-14T15:37:19
 draft: false
 
 lang: pt
@@ -217,24 +217,26 @@ code_samples:
       content: |
         {index-content-nodejs-java.code_samples_sample_1_content_1} {index-content-nodejs-java.code_samples_sample_1_content_2}
         {{< landing/code title="{index-content-nodejs-java.code_title_sample_1}">}}
-        ```java {style=abap}
+        ```javascript {style=abap}
         // Insira este template em uma página do documento:
         // Indicadores de desempenho dos gerentes
         // . <<foreach [in products]>><<[ProductName]>>
         // <</foreach>>
 
+        const assemblyLib = require('@groupdocs/groupdocs.assembly');
+
         // Especifique o caminho do template
-        String template = "Bulleted List Template.docx";
+        const template = "Bulleted List Template.docx";
 
         // Defina o caminho do arquivo de saída
-        String result = "Result Report.docx"
+        const result = "Result Report.docx"
 
         // Recupere dados dos gerentes de uma fonte JSON
-        JsonDataSource dataSource = new JsonDataSource("Report data.json");
-        DataSourceInfo data = new DataSourceInfo(dataSource, "managers")
+        const dataSource = new assemblyLib.JsonDataSource("Report data.json");
+        const data = new assemblyLib.DataSourceInfo(dataSource, "managers")
 
         // Gere o relatório com os dados preenchidos
-        DocumentAssembler assembler = new DocumentAssembler();
+        const assembler = new assemblyLib.DocumentAssembler();
         assembler.assembleDocument(template, result, data);
         ```
         {{< /landing/code >}}
@@ -243,7 +245,7 @@ code_samples:
       content: |
         {index-content-nodejs-java.code_samples_sample_2_content_1} {index-content-nodejs-java.code_samples_sample_2_content_2}
         {{< landing/code title="{index-content-nodejs-java.code_title_sample_2}">}}
-        ```java {style=abap}   
+        ```javascript {style=abap} 
         // Adicione o template do título do gráfico à apresentação:
         // Receita dos clientes <<foreach [in customers]>> 
         // <<x [CustomerName]>>
@@ -252,18 +254,20 @@ code_samples:
         // Total Order Price<<foreach [in customers]>> 
         // <<x [CustomerName]>>
 
+        const assemblyLib = require('@groupdocs/groupdocs.assembly');
+
         // Especifique o caminho do template do gráfico
-        String template = "Pie Chart Template.pptx";
+        const template = "Pie Chart Template.pptx";
 
         // Defina o caminho do arquivo de saída
-        String result = "Result Report.pptx"
+        const result = "Result Report.pptx"
 
         // Recupere os dados dos clientes de uma fonte XML
-        JsonDataSource dataSource = new JsonDataSource("Chart data.xml");
-        DataSourceInfo data = new DataSourceInfo(dataSource, "customers")
+        const dataSource = new assemblyLib.JsonDataSource("Chart data.xml");
+        const data = new assemblyLib.DataSourceInfo(dataSource, "customers")
 
         // Gere o gráfico e salve o resultado
-        DocumentAssembler assembler = new DocumentAssembler();
+        const assembler = new assemblyLib.DocumentAssembler();
         assembler.assembleDocument(template, result, data);
         ```
         {{< /landing/code >}}

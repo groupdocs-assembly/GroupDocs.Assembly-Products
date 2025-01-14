@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-01-13T15:11:22
+date: 2025-01-14T15:37:19
 draft: false
 
 lang: en
@@ -215,35 +215,37 @@ code_samples:
     # code sample loop
     - title: "Add a Bulleted List in Word Documents"
       content: |
-        See how to create [bulleted lists]({{sample1Url}}) in Word documents to organize data effectively. This example demonstrates how to generate a bulleted list using GroupDocs.Assembly.
+        See how to create [bulleted lists](https://docs.groupdocs.com/assembly/nodejs-java/bulleted-list-in-word-processing-document/) in Word documents to organize data effectively. This example demonstrates how to generate a bulleted list using GroupDocs.Assembly.
         {{< landing/code title="Add a Bulleted List in Word Documents">}}
-        ```java {style=abap}
+        ```javascript {style=abap}
         // Insert this template on a document page:
         // Managers' performance indicators
         // . <<foreach [in products]>><<[ProductName]>>
         // <</foreach>>
 
+        const assemblyLib = require('@groupdocs/groupdocs.assembly');
+
         // Specify the template path
-        String template = "Bulleted List Template.docx";
+        const template = "Bulleted List Template.docx";
 
         // Set the output file path
-        String result = "Result Report.docx"
+        const result = "Result Report.docx"
 
         // Retrieve managers' data from a JSON source
-        JsonDataSource dataSource = new JsonDataSource("Report data.json");
-        DataSourceInfo data = new DataSourceInfo(dataSource, "managers")
+        const dataSource = new assemblyLib.JsonDataSource("Report data.json");
+        const data = new assemblyLib.DataSourceInfo(dataSource, "managers")
 
         // Generate the report with the filled data
-        DocumentAssembler assembler = new DocumentAssembler();
+        const assembler = new assemblyLib.DocumentAssembler();
         assembler.assembleDocument(template, result, data);
         ```
         {{< /landing/code >}}
     # code sample loop
     - title: "Insert Pie Charts into PowerPoint"
       content: |
-        Learn how to use templates and XML to add [pie charts]({{sample2Url}}) in your presentations. Enhance your reports with pie charts to present data visually and clearly.
+        Learn how to use templates and XML to add [pie charts](https://docs.groupdocs.com/assembly/nodejs-java/pie-chart-in-presentation-document/) in your presentations. Enhance your reports with pie charts to present data visually and clearly.
         {{< landing/code title="Insert Pie Charts into PowerPoint">}}
-        ```java {style=abap}   
+        ```javascript {style=abap} 
         // Add the chart title template to the presentation:
         // Customers' revenue <<foreach [in customers]>> 
         // <<x [CustomerName]>>
@@ -252,18 +254,20 @@ code_samples:
         // Total Order Price<<foreach [in customers]>> 
         // <<x [CustomerName]>>
 
+        const assemblyLib = require('@groupdocs/groupdocs.assembly');
+
         // Specify the chart template path
-        String template = "Pie Chart Template.pptx";
+        const template = "Pie Chart Template.pptx";
 
         // Set the output file path
-        String result = "Result Report.pptx"
+        const result = "Result Report.pptx"
 
         // Retrieve customers' data from an XML source
-        JsonDataSource dataSource = new JsonDataSource("Chart data.xml");
-        DataSourceInfo data = new DataSourceInfo(dataSource, "customers")
+        const dataSource = new assemblyLib.JsonDataSource("Chart data.xml");
+        const data = new assemblyLib.DataSourceInfo(dataSource, "customers")
 
         // Generate the chart and save the result
-        DocumentAssembler assembler = new DocumentAssembler();
+        const assembler = new assemblyLib.DocumentAssembler();
         assembler.assembleDocument(template, result, data);
         ```
         {{< /landing/code >}}

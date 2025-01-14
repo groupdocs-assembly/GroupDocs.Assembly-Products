@@ -1,0 +1,77 @@
+{
+  "head": {
+    "title": "Add Barcodes to {{FileFormatUp}} Files Using {{ProgLang}}",
+    "description": "Easily generate and embed barcodes in your documents and emails with the {{ProdFullName}} API."
+  },
+  "header": {
+    "title": "Create Barcodes for {{FileFormatUp}} Files Using {{EnvNameShort}}",
+    "description": "With {{ProdFullName}}, you can dynamically generate, customize, and embed barcodes into {{FileFormatUp}} documents.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Get Started"
+  },
+  "about": {
+    "title": "Introduction to {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) allows you to create professional documents by combining data from multiple sources. Add charts, tables, lists, images, and barcodes to your files with ease. Use templates to organize content exactly where it belongs. Works with more than 50 formats, including PDFs, Office documents, and emails."
+  },
+  "more_features": {
+    "title": "Generate Documents with Data-Driven Templates",
+    "description": "With {{ProdFullName}}, you can create professional files in popular formats by seamlessly embedding charts, tables, lists, links, images, and barcodes.",
+    "image_description": "Core Features of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Build Reports with Business Data",
+      "content": "Use the API to populate templates with data from formats like JSON, XML, and CSV quickly and accurately."
+    },
+    "feature_2": {
+      "title": "Add Visual Elements",
+      "content": "{{ProdShortName}} supports inserting elements such as charts, tables, lists, text, links, images, and barcodes in real time."
+    },
+    "feature_3": {
+      "title": "Control Data Placement",
+      "content": "With LINQ-based templates, you can precisely position data, loop through arrays, and apply custom formatting programmatically."
+    },
+    "feature_4": {
+      "title": "Compatible with Many Formats",
+      "content": "Work with files like MS Office documents, PDFs, HTML, OpenOffice files, and emails. Merge multiple documents when needed."
+    }
+  },
+  "formats": {
+    "title": "Supported File Formats for Report Creation",
+    "description": "{{EnvName}} handles over 50 file types, making it simple to merge data and process templates for high-quality results."
+  },
+  "operations": {
+    "title": "Explore Key Features",
+    "description": "Simplify document processing with advanced tools and automation capabilities."
+  },
+  "examples": {
+    "comment_1": "Use this tag in the template to include a barcode in the output document",
+    "comment_2": "Specify the path to the template file",
+    "comment_3": "Load the required data from your source",
+    "comment_4": "Save the document with the barcode applied"
+  },
+  "steps": {
+    "title": "Steps to Add a Barcode in {{FileFormatUp}} Files",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) makes it easy to embed barcodes in {{FileFormatUp}} documents. It supports over 60 barcode types, including 1D and 2D formats.",
+      "step_1": "Create a {{FileFormatUp}} template with placeholders for barcodes.",
+      "step_2": "Retrieve data from a compatible source.",
+      "step_3": "Set barcode options such as size and resolution.",
+      "step_4": "Save the final document with the barcode embedded."
+    }
+  },
+  "code_1": {
+    "title": "Example: Generate a Barcode Programmatically",
+    "content": "This example demonstrates how to programmatically generate and insert a barcode into a {{FileFormatUp}} document.",
+    "comment_1": "Design a template with a barcode placeholder",
+    "comment_2": "Specify the template file's path",
+    "comment_3": "Retrieve data from your source",
+    "comment_4": "Create a data source object with the required details",
+    "comment_5": "Initialize an instance of {{DocumentAssembler}}",
+    "comment_6": "Set up the barcode configuration",
+    "comment_7": "Save the document with the barcode included"
+  },
+  "texts_pdf": {
+    "step_1": "Design a template with barcode placeholders (PDF templates are not supported).",
+    "step_4": "Export the document with the barcode as a PDF file.",
+    "comment_tmp": "Note: PDF templates are currently unsupported."
+  }
+}

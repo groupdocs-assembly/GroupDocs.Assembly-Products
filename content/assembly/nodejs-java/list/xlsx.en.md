@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-13T15:11:20
+date:  2025-01-14T15:37:16
 draft: false
 lang: en
 format: Xlsx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Create Dynamic Lists in XLSX with JavaScript"
+head_description: "Easily design and insert lists into XLSX templates using the GroupDocs.Assembly for Node.js via Java API."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Embed Data-Driven Lists in XLSX Files with Node.js" 
+description: "GroupDocs.Assembly for Node.js via Java offers powerful tools to add flexible, data-powered lists to XLSX documents."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Get Started for Free"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "About GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Learn more"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) simplifies document creation by pulling data from various sources and embedding it into templates. Use it to build lists, tables, charts, and other elements, with precise placement and formatting options. Supporting over 50 formats, including PDF, MS Office, and emails, it helps automate your document generation process.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Steps to Insert a List into a XLSX File"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) makes it easy to add detailed, data-driven lists to your XLSX templates.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Create a XLSX template and define placeholders for the list.
+      2. Provide the template's file path.
+      3. Load data from supported sources like JSON or XML.
+      4. Save the document with the generated list.
    
     code:
       platform: "java"
@@ -59,23 +59,7 @@ steps:
       result_link: "/examples/assembly/assembly_all.pdf"
       result_title: "Example document"
       install:
-        command_title: "Maven XML"
-        command: |
-          <dependencies>
-            <dependency>
-              <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-assembly</artifactId>
-              <version>{0}</version>
-            </dependency>
-          </dependencies>
-
-          <repositories>
-            <repository>
-              <id>repository.groupdocs.com</id>
-              <name>GroupDocs Repository</name>
-              <url>https://repository.groupdocs.com/repo/</url>
-            </repository>
-          </repositories>
+        command: "npm i @groupdocs/groupdocs.assembly"
         copy_tip: "click to copy"
         copy_done: "copied"
       links:
@@ -87,95 +71,84 @@ steps:
           link: "https://docs.groupdocs.com/assembly/nodejs-java/"
           
       content: |
-        ```java {style=abap}
-        // {examples.comment_1}
+        ```javascript {style=abap}
+        // Place this tag in your template to mark where the list will go
         // <<foreach [in customers]>><<[CustomerName]>><</foreach>>
+    
+        const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
-        String template = "list_template.xlsx";
+        // Set the file path for your template
+        const template = "list_template.xlsx";
 
-        // {examples.comment_3}
-        DataSourceInfo data 
-            = new DataSourceInfo(GetData(), "label");
+        // Fetch data from the source you want to use
+        const data 
+            = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {examples.comment_4}
-        DocumentAssembler asm = new DocumentAssembler();
+        // Save the file with the embedded list
+        const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.xlsx", data);
         ```           
 
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Easily Generate Documents with Integrated Data"
+  description: "With GroupDocs.Assembly for Node.js via Java, you can embed lists, tables, charts, and other elements into templates, saving time and effort."
   image: "/img/assembly/features_list.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Highlights of GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Generate Reports from Multiple Data Sources"
+      content: "Import data from JSON, XML, CSV, or other formats to populate lists and other components efficiently."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Add Lists and Other Visual Elements"
+      content: "GroupDocs.Assembly allows you to seamlessly embed lists, tables, charts, and more alongside text, images, and links for polished results."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Precisely Place and Style Data"
+      content: "LINQ-based templates let you control exactly where lists and other data appear, use loops for repeated items, and customize styles to fit your needs."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Works Across Multiple Formats"
+      content: "Create documents in formats like MS Office, PDF, OpenOffice, HTML, and emails. Merge content from various sources into a single file."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Programmatically Create a List in a Document"
       content: |
-        {code_1.content}
+        This example demonstrates how to dynamically add a list to a XLSX document using GroupDocs.Assembly.
       code:
         title: "Java"
         content: |
-          ```java {style=abap}
-          // {code_1.comment_1}
+          ```javascript {style=abap}
+          // Add a placeholder in your template for the list
           // <<foreach [in products]>><<[NumberOf()]>>. <<[ProductName]>>
           // <</foreach>>
+          
+          const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
-          String template = "numlist_template.xlsx";
+          // Specify the file path of the template
+          const template = "numlist_template.xlsx";
 
-          // {code_1.comment_3}
-          XmlDataSource data_xml =
-              new XmlDataSource("products.xml");
+          // Load data to populate the list
+          const data_xml =
+              new assemblyLib.XmlDataSource("products.xml");
 
-          // {code_1.comment_4}
-          DataSourceInfo data 
-              = new DataSourceInfo(data_xml, "products");
+          // Prepare the data source with required details
+          const data 
+              = new assemblyLib.DataSourceInfo(data_xml, "products");
 
-          // {code_1.comment_5}
-          DocumentAssembler asm = new DocumentAssembler();
+          // Initialize the DocumentAssembler
+          const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Save the final document with the list included
           asm.assembleDocument(template, "result.xlsx", data);
           ```
         platform: "java"
         copy_title: "Copy"
         install:
-          command_title: "Maven XML"
-          command: |
-            <dependencies>
-              <dependency>
-                <groupId>com.groupdocs</groupId>
-                <artifactId>groupdocs-assembly</artifactId>
-                <version>{0}</version>
-              </dependency>
-            </dependencies>
-            <repositories>
-              <repository>
-                <id>repository.groupdocs.com</id>
-                <name>GroupDocs Repository</name>
-                <url>https://repository.groupdocs.com/repo/</url>
-              </repository>
-            </repositories>
+          command: "npm i @groupdocs/groupdocs.assembly"
           copy_tip: "click to copy"
           copy_done: "copied"
         top_links:
@@ -215,9 +188,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Explore the Features of GroupDocs.Assembly"
     exclude: "list"
-    description: ""
+    description: "Design and generate data-rich documents effortlessly using powerful integration tools."
     items: 
           
         # operation loop 1
@@ -254,9 +227,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Create Documents in Multiple Formats"
     exclude: "XLSX"
-    description: ""
+    description: "Node.js via Java supports over 50 file formats, making it easy to merge templates and data into professional results."
     items: 
           
         # format loop 1

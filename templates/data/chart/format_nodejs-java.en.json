@@ -1,0 +1,77 @@
+{
+  "head": {
+    "title": "Insert Charts in {{FileFormatUp}} Files with {{ProgLang}}",
+    "description": "With {{ProdFullName}}, developers can quickly create and embed dynamic charts into documents using live data sources."
+  },
+  "header": {
+    "title": "Easily Add Charts to {{FileFormatUp}} Files Using {{EnvNameShort}}",
+    "description": "{{ProdFullName}} streamlines the process of integrating charts into {{FileFormatUp}} documents with real-time data input.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Start Free Today"
+  },
+  "about": {
+    "title": "Overview of {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a robust solution for creating automated documents and reports. Add charts, tables, images, barcodes, and lists to files with precision and ease. This versatile platform supports over 50 formats, including PDFs, Office documents, and emails."
+  },
+  "more_features": {
+    "title": "Embed Charts Effortlessly in Your Documents",
+    "description": "{{ProdFullName}} makes it simple to generate feature-rich documents in popular file types. Use templates to add charts, tables, barcodes, lists, images, and more with real-time data updates.",
+    "image_description": "Top Features of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Transform Data into Professional Charts",
+      "content": "Convert data from sources like JSON, XML, or CSV into high-quality charts that can be directly embedded into documents."
+    },
+    "feature_2": {
+      "title": "Create Stunning Visuals",
+      "content": "Generate bar charts, pie graphs, and line charts that work seamlessly with other document elements like images, tables, and barcodes."
+    },
+    "feature_3": {
+      "title": "Flexible Chart Styling and Placement",
+      "content": "Use LINQ templates to control chart positioning and styling, including colors, layouts, and labels, for a polished presentation."
+    },
+    "feature_4": {
+      "title": "Supports Many File Formats",
+      "content": "Generate documents in formats like MS Office, PDF, OpenOffice, and HTML, with charts perfectly integrated for a professional finish."
+    }
+  },
+  "formats": {
+    "title": "Generate Reports in Multiple File Formats",
+    "description": "{{EnvName}} supports over 50 formats, making it easy to combine templates with data to produce polished documents."
+  },
+  "operations": {
+    "title": "Discover Advanced Features",
+    "description": "This platform simplifies document creation with tools designed for data visualization and seamless integration."
+  },
+  "examples": {
+    "comment_1": "Include this tag in your template to generate a chart",
+    "comment_2": "Specify the template file path",
+    "comment_3": "Extract data from your source system",
+    "comment_4": "Save the final document with the embedded chart"
+  },
+  "steps": {
+    "title": "Steps to Add a Chart to a {{FileFormatUp}} Document",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) makes adding charts to {{FileFormatUp}} files easy. Choose from chart types like bar, line, or pie charts.",
+      "step_1": "Design a {{FileFormatUp}} template with placeholders for charts.",
+      "step_2": "Load data from a supported source.",
+      "step_3": "Configure chart options, including type, colors, and labels.",
+      "step_4": "Export the document with the embedded chart."
+    }
+  },
+  "code_1": {
+    "title": "Dynamically Generate and Insert Charts",
+    "content": "This example illustrates how to create and embed charts into {{FileFormatUp}} files programmatically.",
+    "comment_1": "Set up a template with a placeholder for the chart",
+    "comment_2": "Define the path to the template file",
+    "comment_3": "Retrieve data from a chosen source",
+    "comment_4": "Prepare a data object containing the chart information",
+    "comment_5": "Choose the chart type and customize its appearance",
+    "comment_6": "Initialize {{DocumentAssembler}}",
+    "comment_7": "Save the updated document with the chart embedded"
+  },
+  "texts_pdf": {
+    "step_1": "Create a template with placeholders for charts (PDF templates are unsupported).",
+    "step_4": "Save the document with the chart as a PDF file.",
+    "comment_tmp": "Note: PDF templates are not currently supported."
+  }
+}

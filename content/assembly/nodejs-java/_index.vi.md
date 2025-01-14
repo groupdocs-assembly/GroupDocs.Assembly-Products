@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-01-13T15:11:22
+date: 2025-01-14T15:37:19
 draft: false
 
 lang: vi
@@ -217,24 +217,26 @@ code_samples:
       content: |
         {index-content-nodejs-java.code_samples_sample_1_content_1} {index-content-nodejs-java.code_samples_sample_1_content_2}
         {{< landing/code title="{index-content-nodejs-java.code_title_sample_1}">}}
-        ```java {style=abap}
+        ```javascript {style=abap}
         // Chèn mẫu này vào trang tài liệu:
         // Các chỉ số hiệu suất của các quản lý
         // . <<foreach [in products]>><<[ProductName]>>
         // <</foreach>>
 
+        const assemblyLib = require('@groupdocs/groupdocs.assembly');
+
         // Chỉ định đường dẫn mẫu
-        String template = "Bulleted List Template.docx";
+        const template = "Bulleted List Template.docx";
 
         // Đặt đường dẫn tệp đầu ra
-        String result = "Result Report.docx"
+        const result = "Result Report.docx"
 
         // Lấy dữ liệu của các quản lý từ nguồn JSON
-        JsonDataSource dataSource = new JsonDataSource("Report data.json");
-        DataSourceInfo data = new DataSourceInfo(dataSource, "managers")
+        const dataSource = new assemblyLib.JsonDataSource("Report data.json");
+        const data = new assemblyLib.DataSourceInfo(dataSource, "managers")
 
         // Tạo báo cáo với dữ liệu đã được lấp đầy
-        DocumentAssembler assembler = new DocumentAssembler();
+        const assembler = new assemblyLib.DocumentAssembler();
         assembler.assembleDocument(template, result, data);
         ```
         {{< /landing/code >}}
@@ -243,7 +245,7 @@ code_samples:
       content: |
         {index-content-nodejs-java.code_samples_sample_2_content_1} {index-content-nodejs-java.code_samples_sample_2_content_2}
         {{< landing/code title="{index-content-nodejs-java.code_title_sample_2}">}}
-        ```java {style=abap}   
+        ```javascript {style=abap} 
         // Thêm mẫu tiêu đề biểu đồ vào bài thuyết trình:
         // Doanh thu của khách hàng <<foreach [in customers]>> 
         // <<x [CustomerName]>>
@@ -252,18 +254,20 @@ code_samples:
         // Total Order Price<<foreach [in customers]>> 
         // <<x [CustomerName]>>
 
+        const assemblyLib = require('@groupdocs/groupdocs.assembly');
+
         // Chỉ định đường dẫn đến mẫu biểu đồ
-        String template = "Pie Chart Template.pptx";
+        const template = "Pie Chart Template.pptx";
 
         // Đặt đường dẫn tệp đầu ra
-        String result = "Result Report.pptx"
+        const result = "Result Report.pptx"
 
         // Lấy dữ liệu của khách hàng từ nguồn XML
-        JsonDataSource dataSource = new JsonDataSource("Chart data.xml");
-        DataSourceInfo data = new DataSourceInfo(dataSource, "customers")
+        const dataSource = new assemblyLib.JsonDataSource("Chart data.xml");
+        const data = new assemblyLib.DataSourceInfo(dataSource, "customers")
 
         // Tạo biểu đồ và lưu kết quả
-        DocumentAssembler assembler = new DocumentAssembler();
+        const assembler = new assemblyLib.DocumentAssembler();
         assembler.assembleDocument(template, result, data);
         ```
         {{< /landing/code >}}

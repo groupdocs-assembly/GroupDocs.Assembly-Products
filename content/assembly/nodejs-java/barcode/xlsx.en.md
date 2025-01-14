@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-13T15:11:16
+date:  2025-01-14T15:37:12
 draft: false
 lang: en
 format: Xlsx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Add Barcodes to XLSX Files Using JavaScript"
+head_description: "Easily generate and embed barcodes in your documents and emails with the GroupDocs.Assembly for Node.js via Java API."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Create Barcodes for XLSX Files Using Node.js" 
+description: "With GroupDocs.Assembly for Node.js via Java, you can dynamically generate, customize, and embed barcodes into XLSX documents."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Get Started"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Introduction to GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Learn more"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) allows you to create professional documents by combining data from multiple sources. Add charts, tables, lists, images, and barcodes to your files with ease. Use templates to organize content exactly where it belongs. Works with more than 50 formats, including PDFs, Office documents, and emails.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Steps to Add a Barcode in XLSX Files"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) makes it easy to embed barcodes in XLSX documents. It supports over 60 barcode types, including 1D and 2D formats.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Create a XLSX template with placeholders for barcodes.
+      2. Retrieve data from a compatible source.
+      3. Set barcode options such as size and resolution.
+      4. Save the final document with the barcode embedded.
    
     code:
       platform: "java"
@@ -59,23 +59,7 @@ steps:
       result_link: "/examples/assembly/assembly_all.pdf"
       result_title: "Example document"
       install:
-        command_title: "Maven XML"
-        command: |
-          <dependencies>
-            <dependency>
-              <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-assembly</artifactId>
-              <version>{0}</version>
-            </dependency>
-          </dependencies>
-
-          <repositories>
-            <repository>
-              <id>repository.groupdocs.com</id>
-              <name>GroupDocs Repository</name>
-              <url>https://repository.groupdocs.com/repo/</url>
-            </repository>
-          </repositories>
+        command: "npm i @groupdocs/groupdocs.assembly"
         copy_tip: "click to copy"
         copy_done: "copied"
       links:
@@ -87,99 +71,88 @@ steps:
           link: "https://docs.groupdocs.com/assembly/nodejs-java/"
           
       content: |
-        ```java {style=abap}
-        // {examples.comment_1}
+        ```javascript {style=abap}
+        // Use this tag in the template to include a barcode in the output document
         // <<barcode [barcode_expression] -barcode_type>>
+    
+        const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
-        String template = "barcode_template.xlsx";
+        // Specify the path to the template file
+        const template = "barcode_template.xlsx";
 
-        // {examples.comment_3}
-        DataSourceInfo data 
-            = new DataSourceInfo(GetData(), "label");
+        // Load the required data from your source
+        const data 
+            = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {examples.comment_4}
-        DocumentAssembler asm = new DocumentAssembler();
+        // Save the document with the barcode applied
+        const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.xlsx", data);
         ```           
 
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Generate Documents with Data-Driven Templates"
+  description: "With GroupDocs.Assembly for Node.js via Java, you can create professional files in popular formats by seamlessly embedding charts, tables, lists, links, images, and barcodes."
   image: "/img/assembly/features_barcode.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Core Features of GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Build Reports with Business Data"
+      content: "Use the API to populate templates with data from formats like JSON, XML, and CSV quickly and accurately."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Add Visual Elements"
+      content: "GroupDocs.Assembly supports inserting elements such as charts, tables, lists, text, links, images, and barcodes in real time."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Control Data Placement"
+      content: "With LINQ-based templates, you can precisely position data, loop through arrays, and apply custom formatting programmatically."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Compatible with Many Formats"
+      content: "Work with files like MS Office documents, PDFs, HTML, OpenOffice files, and emails. Merge multiple documents when needed."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Example: Generate a Barcode Programmatically"
       content: |
-        {code_1.content}
+        This example demonstrates how to programmatically generate and insert a barcode into a XLSX document.
       code:
         title: "Java"
         content: |
-          ```java {style=abap}
-          // {code_1.comment_1}
+          ```javascript {style=abap}
+          // Design a template with a barcode placeholder
           // <<barcode [barcode_expression] -barcode_type>>
+          
+          const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
-          String template = "barcode_template.xlsx";
+          // Specify the template file's path
+          const template = "barcode_template.xlsx";
 
-          // {code_1.comment_3}
-          CsvDataSource data_csv =
-              new CsvDataSource("Barcode Labels.csv", 
-              new CsvDataLoadOptions(true));
+          // Retrieve data from your source
+          const data_csv =
+              new assemblyLib.CsvDataSource("Barcode Labels.csv", 
+              new assemblyLib.CsvDataLoadOptions(true));
 
-          // {code_1.comment_4}
-          DataSourceInfo data 
-              = new DataSourceInfo(data_csv, "label");
+          // Create a data source object with the required details
+          const data 
+              = new assemblyLib.DataSourceInfo(data_csv, "label");
 
-          // {code_1.comment_5}
-          DocumentAssembler asm = new DocumentAssembler();
+          // Initialize an instance of DocumentAssembler
+          const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Set up the barcode configuration
           asm.getBarcodeSettings().setResolution(1200);
           asm.getBarcodeSettings().setBaseYDimension(5f);
 
-          // {code_1.comment_7}
+          // Save the document with the barcode included
           asm.assembleDocument(template, "result.xlsx", data);
           ```
         platform: "java"
         copy_title: "Copy"
         install:
-          command_title: "Maven XML"
-          command: |
-            <dependencies>
-              <dependency>
-                <groupId>com.groupdocs</groupId>
-                <artifactId>groupdocs-assembly</artifactId>
-                <version>{0}</version>
-              </dependency>
-            </dependencies>
-            <repositories>
-              <repository>
-                <id>repository.groupdocs.com</id>
-                <name>GroupDocs Repository</name>
-                <url>https://repository.groupdocs.com/repo/</url>
-              </repository>
-            </repositories>
+          command: "npm i @groupdocs/groupdocs.assembly"
           copy_tip: "click to copy"
           copy_done: "copied"
         top_links:
@@ -219,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Explore Key Features"
     exclude: "barcode"
-    description: ""
+    description: "Simplify document processing with advanced tools and automation capabilities."
     items: 
           
         # operation loop 1
@@ -258,9 +231,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Supported File Formats for Report Creation"
     exclude: "XLSX"
-    description: ""
+    description: "Node.js via Java handles over 50 file types, making it simple to merge data and process templates for high-quality results."
     items: 
           
         # format loop 1

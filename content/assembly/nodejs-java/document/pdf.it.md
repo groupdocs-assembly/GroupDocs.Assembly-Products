@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-13T15:11:19
+date:  2025-01-14T15:37:15
 draft: false
 lang: it
 format: Pdf
@@ -59,23 +59,7 @@ steps:
       result_link: "/examples/assembly/assembly_all.pdf"
       result_title: "Documento di esempio"
       install:
-        command_title: "Maven XML"
-        command: |
-          <dependencies>
-            <dependency>
-              <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-assembly</artifactId>
-              <version>{0}</version>
-            </dependency>
-          </dependencies>
-
-          <repositories>
-            <repository>
-              <id>repository.groupdocs.com</id>
-              <name>GroupDocs Repository</name>
-              <url>https://repository.groupdocs.com/repo/</url>
-            </repository>
-          </repositories>
+        command: "npm i @groupdocs/groupdocs.assembly"
         copy_tip: "clicca per copiare"
         copy_done: "copiato"
       links:
@@ -87,20 +71,22 @@ steps:
           link: "https://docs.groupdocs.com/assembly/nodejs-java/"
           
       content: |
-        ```java {style=abap}
+        ```javascript {style=abap}
         // {examples.comment_1}
         // <<doc [doc_expression]>>
+    
+        const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
         // {examples.comment_2}
         // {texts_pdf.comment_tmp}
-        String template = "doc_template.docx";
+        const template = "doc_template.docx";
 
         // {examples.comment_3}
-        DataSourceInfo data 
-            = new DataSourceInfo("insert.docx", "doc_expression");
+        const data 
+            = new assemblyLib.DataSourceInfo("insert.docx", "doc_expression");
 
         // {examples.comment_4}
-        DocumentAssembler asm = new DocumentAssembler();
+        const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pdf", data);
         ```           
 
@@ -136,20 +122,22 @@ more_features:
       code:
         title: "Java"
         content: |
-          ```java {style=abap}
+          ```javascript {style=abap}
           // {code_1.comment_1}
           // <<image [expression]>>
 
           // {code_1.comment_2}
           // {texts_pdf.comment_tmp}
           String template = "template.docx";
+          
+          const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
           // {code_1.comment_3}
-          DataSourceInfo data =
-              = new DataSourceInfo("logo.jpg", "expression");
+          const data =
+              = new assemblyLib.DataSourceInfo("logo.jpg", "expression");
 
           // {code_1.comment_4}
-          DocumentAssembler asm = new DocumentAssembler();
+          const asm = new assemblyLib.DocumentAssembler();
 
           // {code_1.comment_5}
           asm.assembleDocument(template, "result.pdf", data);
@@ -157,22 +145,7 @@ more_features:
         platform: "java"
         copy_title: "Copia"
         install:
-          command_title: "Maven XML"
-          command: |
-            <dependencies>
-              <dependency>
-                <groupId>com.groupdocs</groupId>
-                <artifactId>groupdocs-assembly</artifactId>
-                <version>{0}</version>
-              </dependency>
-            </dependencies>
-            <repositories>
-              <repository>
-                <id>repository.groupdocs.com</id>
-                <name>GroupDocs Repository</name>
-                <url>https://repository.groupdocs.com/repo/</url>
-              </repository>
-            </repositories>
+          command: "npm i @groupdocs/groupdocs.assembly"
           copy_tip: "clicca per copiare"
           copy_done: "copiato"
         top_links:

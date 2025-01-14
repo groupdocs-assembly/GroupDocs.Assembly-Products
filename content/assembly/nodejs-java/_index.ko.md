@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-01-13T15:11:22
+date: 2025-01-14T15:37:19
 draft: false
 
 lang: ko
@@ -217,24 +217,26 @@ code_samples:
       content: |
         {index-content-nodejs-java.code_samples_sample_1_content_1} {index-content-nodejs-java.code_samples_sample_1_content_2}
         {{< landing/code title="{index-content-nodejs-java.code_title_sample_1}">}}
-        ```java {style=abap}
+        ```javascript {style=abap}
         // 문서 페이지에 이 템플릿을 삽입하세요:
         // 관리자의 성과 지표
         // . <<foreach [in products]>><<[ProductName]>>
         // <</foreach>>
 
+        const assemblyLib = require('@groupdocs/groupdocs.assembly');
+
         // 템플릿 경로 지정
-        String template = "Bulleted List Template.docx";
+        const template = "Bulleted List Template.docx";
 
         // 출력 파일 경로 설정
-        String result = "Result Report.docx"
+        const result = "Result Report.docx"
 
         // JSON 소스에서 관리자 데이터를 가져옵니다
-        JsonDataSource dataSource = new JsonDataSource("Report data.json");
-        DataSourceInfo data = new DataSourceInfo(dataSource, "managers")
+        const dataSource = new assemblyLib.JsonDataSource("Report data.json");
+        const data = new assemblyLib.DataSourceInfo(dataSource, "managers")
 
         // 채워진 데이터로 보고서를 생성합니다
-        DocumentAssembler assembler = new DocumentAssembler();
+        const assembler = new assemblyLib.DocumentAssembler();
         assembler.assembleDocument(template, result, data);
         ```
         {{< /landing/code >}}
@@ -243,7 +245,7 @@ code_samples:
       content: |
         {index-content-nodejs-java.code_samples_sample_2_content_1} {index-content-nodejs-java.code_samples_sample_2_content_2}
         {{< landing/code title="{index-content-nodejs-java.code_title_sample_2}">}}
-        ```java {style=abap}   
+        ```javascript {style=abap} 
         // 프레젠테이션에 차트 제목 템플릿 추가:
         // 고객 수익 <<foreach [in customers]>> 
         // <<x [CustomerName]>>
@@ -252,18 +254,20 @@ code_samples:
         // Total Order Price<<foreach [in customers]>> 
         // <<x [CustomerName]>>
 
+        const assemblyLib = require('@groupdocs/groupdocs.assembly');
+
         // 차트 템플릿 경로 지정
-        String template = "Pie Chart Template.pptx";
+        const template = "Pie Chart Template.pptx";
 
         // 출력 파일 경로 설정
-        String result = "Result Report.pptx"
+        const result = "Result Report.pptx"
 
         // XML 소스에서 고객 데이터를 가져옵니다
-        JsonDataSource dataSource = new JsonDataSource("Chart data.xml");
-        DataSourceInfo data = new DataSourceInfo(dataSource, "customers")
+        const dataSource = new assemblyLib.JsonDataSource("Chart data.xml");
+        const data = new assemblyLib.DataSourceInfo(dataSource, "customers")
 
         // 차트를 생성하고 결과를 저장합니다
-        DocumentAssembler assembler = new DocumentAssembler();
+        const assembler = new assemblyLib.DocumentAssembler();
         assembler.assembleDocument(template, result, data);
         ```
         {{< /landing/code >}}

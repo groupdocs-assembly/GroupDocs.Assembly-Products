@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-13T15:11:21
+date:  2025-01-14T15:37:18
 draft: false
 lang: ru
 format: Pptx
@@ -59,23 +59,7 @@ steps:
       result_link: "/examples/assembly/assembly_all.pdf"
       result_title: "Пример документа"
       install:
-        command_title: "Maven XML"
-        command: |
-          <dependencies>
-            <dependency>
-              <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-assembly</artifactId>
-              <version>{0}</version>
-            </dependency>
-          </dependencies>
-
-          <repositories>
-            <repository>
-              <id>repository.groupdocs.com</id>
-              <name>GroupDocs Repository</name>
-              <url>https://repository.groupdocs.com/repo/</url>
-            </repository>
-          </repositories>
+        command: "npm i @groupdocs/groupdocs.assembly"
         copy_tip: "нажмите, чтобы скопировать"
         copy_done: "скопировано"
       links:
@@ -87,21 +71,23 @@ steps:
           link: "https://docs.groupdocs.com/assembly/nodejs-java/"
           
       content: |
-        ```java {style=abap}
+        ```javascript {style=abap}
         // {examples.comment_1}
         // <<foreach [c in ds]>>
         // <<[c.Client]>><<[c.Manager]>><<[c.Price]>>
         // <</foreach>>
+    
+        const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
         // {examples.comment_2}
-        String template = "table_template.pptx";
+        const template = "table_template.pptx";
 
         // {examples.comment_3}
-        DataSourceInfo data 
-            = new DataSourceInfo(GetData(), "ds");
+        const data 
+            = new assemblyLib.DataSourceInfo(GetData(), "ds");
 
         // {examples.comment_4}
-        DocumentAssembler asm = new DocumentAssembler();
+        const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pptx", data);
         ```           
 
@@ -137,24 +123,26 @@ more_features:
       code:
         title: "Java"
         content: |
-          ```java {style=abap}
+          ```javascript {style=abap}
           // {code_1.comment_1}
           // <<foreach [c in items]>> <<[c.Client]>><<[c.Manager]>>
           //  <<[c.Price]>> <</foreach>>
+          
+          const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
           // {code_1.comment_2}
-          String template = "table_template.pptx";
+          const template = "table_template.pptx";
 
           // {code_1.comment_3}
-          JsonDataSource data_json = 
-            new JsonDataSource("Items.json");
+          const data_json = 
+            new assemblyLib.JsonDataSource("Items.json");
 
           // {code_1.comment_4}
-          DataSourceInfo data 
-              = new DataSourceInfo(data_json, "items");
+          const data 
+              = new assemblyLib.DataSourceInfo(data_json, "items");
 
           // {code_1.comment_5}
-          DocumentAssembler asm = new DocumentAssembler();
+          const asm = new assemblyLib.DocumentAssembler();
 
           // {code_1.comment_6}
           asm.assembleDocument(template, "result.pptx", data);
@@ -162,22 +150,7 @@ more_features:
         platform: "java"
         copy_title: "Копировать"
         install:
-          command_title: "Maven XML"
-          command: |
-            <dependencies>
-              <dependency>
-                <groupId>com.groupdocs</groupId>
-                <artifactId>groupdocs-assembly</artifactId>
-                <version>{0}</version>
-              </dependency>
-            </dependencies>
-            <repositories>
-              <repository>
-                <id>repository.groupdocs.com</id>
-                <name>GroupDocs Repository</name>
-                <url>https://repository.groupdocs.com/repo/</url>
-              </repository>
-            </repositories>
+          command: "npm i @groupdocs/groupdocs.assembly"
           copy_tip: "нажмите, чтобы скопировать"
           copy_done: "скопировано"
         top_links:

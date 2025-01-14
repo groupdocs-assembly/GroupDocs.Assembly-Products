@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-13T15:11:16
+date:  2025-01-14T15:37:13
 draft: false
 lang: es
 format: Pdf
@@ -59,23 +59,7 @@ steps:
       result_link: "/examples/assembly/assembly_all.pdf"
       result_title: "Documento de ejemplo"
       install:
-        command_title: "Maven XML"
-        command: |
-          <dependencies>
-            <dependency>
-              <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-assembly</artifactId>
-              <version>{0}</version>
-            </dependency>
-          </dependencies>
-
-          <repositories>
-            <repository>
-              <id>repository.groupdocs.com</id>
-              <name>GroupDocs Repository</name>
-              <url>https://repository.groupdocs.com/repo/</url>
-            </repository>
-          </repositories>
+        command: "npm i @groupdocs/groupdocs.assembly"
         copy_tip: "haz clic para copiar"
         copy_done: "copiado"
       links:
@@ -87,20 +71,22 @@ steps:
           link: "https://docs.groupdocs.com/assembly/nodejs-java/"
           
       content: |
-        ```java {style=abap}
+        ```javascript {style=abap}
         // {examples.comment_1}
         // <<barcode [barcode_expression] -barcode_type>>
+    
+        const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
         // {examples.comment_2}
         // {texts_pdf.comment_tmp}
-        String template = "barcode_template.docx";
+        const template = "barcode_template.docx";
 
         // {examples.comment_3}
-        DataSourceInfo data 
-            = new DataSourceInfo(GetData(), "label");
+        const data 
+            = new assemblyLib.DataSourceInfo(GetData(), "label");
 
         // {texts_pdf.step_4}
-        DocumentAssembler asm = new DocumentAssembler();
+        const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pdf", data);
         ```           
 
@@ -136,25 +122,27 @@ more_features:
       code:
         title: "Java"
         content: |
-          ```java {style=abap}
+          ```javascript {style=abap}
           // {code_1.comment_1}
           // <<barcode [barcode_expression] -barcode_type>>
+          
+          const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
           // {code_1.comment_2}
           // {texts_pdf.comment_tmp}
-          String template = "barcode_template.docx";
+          const template = "barcode_template.docx";
 
           // {code_1.comment_3}
-          CsvDataSource data_csv =
-              new CsvDataSource("Barcode Labels.csv", 
-              new CsvDataLoadOptions(true));
+          const data_csv =
+              new assemblyLib.CsvDataSource("Barcode Labels.csv", 
+              new assemblyLib.CsvDataLoadOptions(true));
 
           // {code_1.comment_4}
-          DataSourceInfo data 
-              = new DataSourceInfo(data_csv, "label");
+          const data 
+              = new assemblyLib.DataSourceInfo(data_csv, "label");
 
           // {code_1.comment_5}
-          DocumentAssembler asm = new DocumentAssembler();
+          const asm = new assemblyLib.DocumentAssembler();
 
           // {code_1.comment_6}
           asm.getBarcodeSettings().setResolution(1200);
@@ -166,22 +154,7 @@ more_features:
         platform: "java"
         copy_title: "Copiar"
         install:
-          command_title: "Maven XML"
-          command: |
-            <dependencies>
-              <dependency>
-                <groupId>com.groupdocs</groupId>
-                <artifactId>groupdocs-assembly</artifactId>
-                <version>{0}</version>
-              </dependency>
-            </dependencies>
-            <repositories>
-              <repository>
-                <id>repository.groupdocs.com</id>
-                <name>GroupDocs Repository</name>
-                <url>https://repository.groupdocs.com/repo/</url>
-              </repository>
-            </repositories>
+          command: "npm i @groupdocs/groupdocs.assembly"
           copy_tip: "haz clic para copiar"
           copy_done: "copiado"
         top_links:

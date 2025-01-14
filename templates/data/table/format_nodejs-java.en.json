@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "Insert Tables into {{FileFormatUp}} Documents with {{ProgLang}}",
+    "description": "Use {{ProdFullName}} to quickly embed tables in documents or emails, pulling data from various sources."
+  },
+  "header": {
+    "title": "Effortlessly Add Tables to {{FileFormatUp}} Files with {{EnvNameShort}}",
+    "description": "With {{ProdFullName}}, filling tables in {{FileFormatUp}} documents is simple, using data from multiple sources.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Start Your Free Trial"
+  },
+  "about": {
+    "title": "Introduction to {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a powerful tool for automating document creation. It lets you easily insert tables, charts, lists, and images into templates, with precise content placement. Supporting over 50 file formats, including PDF, Word, and email, it streamlines report generation and other tasks."
+  },
+  "more_features": {
+    "title": "Easily Add Data-Driven Tables to Documents",
+    "description": "{{ProdFullName}} allows users to create tables automatically, while also embedding charts, images, and lists using template-based workflows.",
+    "image_description": "Top Features of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Generate Tables from Structured Data",
+      "content": "Fetch data from JSON, XML, CSV, and other formats to automatically populate document tables."
+    },
+    "feature_2": {
+      "title": "Create Polished Visual Content",
+      "content": "Use {{ProdShortName}} to design professional tables, charts, and lists, and to add links, images, and text for a refined document appearance."
+    },
+    "feature_3": {
+      "title": "Dynamic Table Content Placement",
+      "content": "Add rows and columns programmatically using LINQ-based templates, and customize styles like fonts, colors, and alignment."
+    },
+    "feature_4": {
+      "title": "Works Seamlessly Across Formats",
+      "content": "Easily create or edit tables in MS Office, OpenOffice, PDF, HTML, and other formats, merging them into files as needed."
+    }
+  },
+  "formats": {
+    "title": "Generate Tables in a Variety of Formats",
+    "description": "With {{EnvName}}, populate templates and create comprehensive tables across more than 50 supported file types."
+  },
+  "operations": {
+    "title": "Core Features at a Glance",
+    "description": "Our API automates table creation and enhances document generation with versatile tools and templates."
+  },
+  "examples": {
+    "comment_1": "Include these tags in the table row placeholders of your template",
+    "comment_2": "Specify the template file path",
+    "comment_3": "Load your data from a chosen source",
+    "comment_4": "Save the final document with the completed table"
+  },
+  "steps": {
+    "title": "How to Add Data to a Table in {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) enables you to quickly populate table templates for {{FileFormatUp}} files using dynamic data sources.",
+      "step_1": "Create a {{FileFormatUp}} template with placeholders for table rows and columns.",
+      "step_2": "Load data from a supported source like JSON or CSV.",
+      "step_3": "Organize and format the data as needed.",
+      "step_4": "Generate the document with the completed table."
+    }
+  },
+  "code_1": {
+    "title": "How to Programmatically Populate a Table",
+    "content": "This example demonstrates filling a table in a {{FileFormatUp}} document with data from an external source.",
+    "comment_1": "Design a template with placeholders for the table",
+    "comment_2": "Specify the file path to the template",
+    "comment_3": "Load the required data from your source",
+    "comment_4": "Organize the data into the necessary structure",
+    "comment_5": "Initialize {{DocumentAssembler}}",
+    "comment_6": "Save the output document with the completed table"
+  },
+  "texts_pdf": {
+    "step_1": "Create a template with placeholders for the table (PDF templates are not currently supported).",
+    "step_4": "Export the document with the filled table as a PDF file.",
+    "comment_tmp": "PDF templates are not supported at this time."
+  }
+}

@@ -58,23 +58,7 @@ steps:
       result_link: "/examples/assembly/assembly_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
-        command_title: "Maven XML"
-        command: |
-          <dependencies>
-            <dependency>
-              <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-assembly</artifactId>
-              <version>{0}</version>
-            </dependency>
-          </dependencies>
-
-          <repositories>
-            <repository>
-              <id>repository.groupdocs.com</id>
-              <name>GroupDocs Repository</name>
-              <url>https://repository.groupdocs.com/repo/</url>
-            </repository>
-          </repositories>
+        command: "npm i @groupdocs/groupdocs.assembly"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -86,19 +70,21 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```java {style=abap}
+        ```javascript {style=abap}
         // <% "{examples.comment_1}" %>
         // <<doc [doc_expression]>>
+    
+        const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
         // <% "{examples.comment_2}" %>
-        String template = "doc_template.<% get "fileformat" %>";
+        const template = "doc_template.<% get "fileformat" %>";
 
         // <% "{examples.comment_3}" %>
-        DataSourceInfo data 
-            = new DataSourceInfo("insert.<% get "fileformat" %>", "doc_expression");
+        const data 
+            = new assemblyLib.DataSourceInfo("insert.<% get "fileformat" %>", "doc_expression");
 
         // <% "{examples.comment_4}" %>
-        DocumentAssembler asm = new DocumentAssembler();
+        const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.<% get "fileformat" %>", data);
         ```           
 
@@ -134,19 +120,21 @@ more_features:
       code:
         title: "Java"
         content: |
-          ```java {style=abap}
+          ```javascript {style=abap}
           // <% "{code_1.comment_1}" %>
           // <<image [expression]>>
+          
+          const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
           // <% "{code_1.comment_2}" %>
-          String template = "template.<% get "fileformat" %>";
+          const template = "template.<% get "fileformat" %>";
 
           // <% "{code_1.comment_3}" %>
-          DataSourceInfo data =
-              = new DataSourceInfo("logo.jpg", "expression");
+          const data =
+              = new assemblyLib.DataSourceInfo("logo.jpg", "expression");
 
           // <% "{code_1.comment_4}" %>
-          DocumentAssembler asm = new DocumentAssembler();
+          const asm = new assemblyLib.DocumentAssembler();
 
           // <% "{code_1.comment_5}" %>
           asm.assembleDocument(template, "result.<% get "fileformat" %>", data);
@@ -154,22 +142,7 @@ more_features:
         platform: "java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"
         install:
-          command_title: "Maven XML"
-          command: |
-            <dependencies>
-              <dependency>
-                <groupId>com.groupdocs</groupId>
-                <artifactId>groupdocs-assembly</artifactId>
-                <version>{0}</version>
-              </dependency>
-            </dependencies>
-            <repositories>
-              <repository>
-                <id>repository.groupdocs.com</id>
-                <name>GroupDocs Repository</name>
-                <url>https://repository.groupdocs.com/repo/</url>
-              </repository>
-            </repositories>
+          command: "npm i @groupdocs/groupdocs.assembly"
           copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
           copy_done: "<% "{common-content.format-code.copy_done}" %>"
         top_links:
