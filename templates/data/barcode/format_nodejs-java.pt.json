@@ -1,0 +1,77 @@
+{
+  "head": {
+    "title": "Adicione Códigos de Barras a Arquivos {{FileFormatUp}} Usando {{ProgLang}}",
+    "description": "Gere e incorpore códigos de barras em seus documentos e e-mails com a API {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Crie Códigos de Barras para Arquivos {{FileFormatUp}} Usando {{EnvNameShort}}",
+    "description": "Com {{ProdFullName}}, você pode gerar, personalizar e incorporar códigos de barras dinamicamente em documentos {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Começar"
+  },
+  "about": {
+    "title": "Introdução ao {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) permite que você crie documentos profissionais combinando dados de múltiplas fontes. Adicione gráficos, tabelas, listas, imagens e códigos de barras aos seus arquivos com precisão. Utilize templates para organizar o conteúdo exatamente onde ele pertence. Funciona com mais de 50 formatos, incluindo PDFs, documentos do Office e e-mails."
+  },
+  "more_features": {
+    "title": "Gere Documentos com Templates Baseados em Dados",
+    "description": "Com {{ProdFullName}}, você pode criar arquivos profissionais em formatos populares incorporando perfeitamente gráficos, tabelas, listas, links, imagens e códigos de barras.",
+    "image_description": "Recursos Principais do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Gere Relatórios com Dados Empresariais",
+      "content": "Use a API para preencher templates com dados de formatos como JSON, XML e CSV de forma rápida e precisa."
+    },
+    "feature_2": {
+      "title": "Adicione Elementos Visuais",
+      "content": "{{ProdShortName}} suporta a inserção de elementos como gráficos, tabelas, listas, texto, links, imagens e códigos de barras em tempo real."
+    },
+    "feature_3": {
+      "title": "Controle a Posicionamento dos Dados",
+      "content": "Com templates baseados em LINQ, você pode posicionar dados com precisão, iterar sobre arrays e aplicar formatação personalizada programaticamente."
+    },
+    "feature_4": {
+      "title": "Compatível com Vários Formatos",
+      "content": "Trabalhe com arquivos como documentos do MS Office, PDFs, HTML, arquivos do OpenOffice e e-mails. Mescle múltiplos documentos quando necessário."
+    }
+  },
+  "formats": {
+    "title": "Formatos de Arquivo Suportados para Criação de Relatórios",
+    "description": "{{EnvName}} lida com mais de 50 tipos de arquivo, tornando simples a mesclagem de dados e o processamento de templates para resultados de alta qualidade."
+  },
+  "operations": {
+    "title": "Explore Recursos Principais",
+    "description": "Simplifique o processamento de documentos com ferramentas avançadas e capacidades de automação."
+  },
+  "examples": {
+    "comment_1": "Use esta tag no template para incluir um código de barras no documento de saída",
+    "comment_2": "Especifique o caminho para o arquivo template",
+    "comment_3": "Carregue os dados necessários da sua fonte",
+    "comment_4": "Salve o documento com o código de barras aplicado"
+  },
+  "steps": {
+    "title": "Passos para Adicionar um Código de Barras em Arquivos {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilita a incorporação de códigos de barras em documentos {{FileFormatUp}}. Suporta mais de 60 tipos de código de barras, incluindo formatos 1D e 2D.",
+      "step_1": "Crie um template {{FileFormatUp}} com espaços reservados para códigos de barras.",
+      "step_2": "Recupere dados de uma fonte compatível.",
+      "step_3": "Defina opções de código de barras, como tamanho e resolução.",
+      "step_4": "Salve o documento final com o código de barras incorporado."
+    }
+  },
+  "code_1": {
+    "title": "Exemplo: Gere um Código de Barras Programaticamente",
+    "content": "Este exemplo demonstra como gerar e inserir programaticamente um código de barras em um documento {{FileFormatUp}}.",
+    "comment_1": "Desenhe um template com um espaço reservado para o código de barras",
+    "comment_2": "Especifique o caminho do arquivo template",
+    "comment_3": "Recupere dados da sua fonte",
+    "comment_4": "Crie um objeto de fonte de dados com os detalhes necessários",
+    "comment_5": "Inicialize uma instância do {{DocumentAssembler}}",
+    "comment_6": "Configure as opções do código de barras",
+    "comment_7": "Salve o documento com o código de barras incluído"
+  },
+  "texts_pdf": {
+    "step_1": "Projete um template com espaços reservados para códigos de barras (templates PDF não são suportados).",
+    "step_4": "Exporte o documento com o código de barras como um arquivo PDF.",
+    "comment_tmp": "Nota: Templates PDF atualmente não são suportados."
+  }
+}

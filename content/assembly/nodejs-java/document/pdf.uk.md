@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:15
+date:  2025-01-16T13:04:02
 draft: false
 lang: uk
 format: Pdf
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Об'єднайте документи у PDF за допомогою JavaScript"
+head_description: "Об'єднуйте файли PDF за допомогою JavaScript. GroupDocs.Assembly спрощує злиття документів всього за кілька простих кроків."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Просто об'єднуйте вміст у файли PDF" 
+description: "За допомогою GroupDocs.Assembly for Node.js via Java інтеграція одного файлу PDF в інший є швидкою і точною. Насолоджуйтесь гнучкими, надійними інструментами для безперешкодного злиття."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Спробуйте безкоштовно"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Огляд GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Дізнатися більше"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) пропонує потужний спосіб управління документами. Об'єднуйте один файл в інший, підтримуючи більше 50 форматів, таких як PDF та MS Office. Налаштовуйте макети, редагуйте вміст та організовуйте документи саме так, як вам потрібно.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Як об'єднати документ у файл PDF"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) спрощує вставлення одного файлу PDF в інший з налаштовуваними варіантами.
       
-      1. {texts_pdf.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {texts_pdf.step_4}
+      1. Розробіть шаблон з місцезнаками для вбудованого вмісту (шаблони PDF не підтримуються).
+      2. Встановіть шлях до шаблону.
+      3. Надайте шлях до документа для об'єднання.
+      4. Збережіть завершений документ з об'єднаним вмістом у форматі PDF.
    
     code:
       platform: "java"
@@ -72,20 +72,20 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Вставте цей тег у свій шаблон, щоб визначити, де буде вставлено документ
         // <<doc [doc_expression]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
-        // {texts_pdf.comment_tmp}
+        // Встановіть шлях до основного шаблону
+        // На даний момент шаблони PDF не підтримуються.
         const template = "doc_template.docx";
 
-        // {examples.comment_3}
+        // Надайте шлях до документа, який ви хочете об'єднати
         const data 
             = new assemblyLib.DataSourceInfo("insert.docx", "doc_expression");
 
-        // {examples.comment_4}
+        // Збережіть фінальний вихід із вбудованим документом
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pdf", data);
         ```           
@@ -93,53 +93,53 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Потужні інструменти для інтеграції документів"
+  description: "GroupDocs.Assembly for Node.js via Java спрощує вставку файлів в різноманітні формати, які можна повністю налаштувати. Забезпечте послідовні, професійні результати щоразу."
   image: "/img/assembly/features_document.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Ключові можливості GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Генерація звітів з діловими даними"
+      content: "Отримуйте дані з JSON, XML або CSV джерел для швидкого та точного створення всебічних звітів і документів."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Додавання елементів збагаченого візуального оформлення"
+      content: "GroupDocs.Assembly дозволяє включати таблиці, графіки, списки, зображення та штрих-коди поряд із текстом і гіперпосиланнями."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Точне розташування даних"
+      content: "Використовуйте шаблони LINQ, щоб розташувати дані точно там, де потрібно, обробляйте повторювані елементи, такі як масиви, та налаштовуйте стилі без зусиль."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Працює з різними форматами"
+      content: "Об'єднуйте вміст безперешкодно в таких форматах, як PDF, файли MS Office, HTML та OpenOffice, пропонуючи гнучкість для всіх проектів."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Вбудування зображення в документ програмно"
       content: |
-        {code_1.content}
+        Цей приклад демонструє, як вставити зображення у файл PDF за допомогою GroupDocs.Assembly.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Додайте місцезнак у шаблон для зображення
           // <<image [expression]>>
 
-          // {code_1.comment_2}
-          // {texts_pdf.comment_tmp}
+          // Вкажіть шлях до файлу шаблону
+          // На даний момент шаблони PDF не підтримуються.
           String template = "template.docx";
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_3}
+          // Встановіть шлях до зображення, яке потрібно вбудувати
           const data =
               = new assemblyLib.DataSourceInfo("logo.jpg", "expression");
 
-          // {code_1.comment_4}
+          // Ініціалізуйте об'єкт DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_5}
+          // Збережіть документ з включеним зображенням
           asm.assembleDocument(template, "result.pdf", data);
           ```
         platform: "java"
@@ -185,9 +185,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Основні функції в одному погляді"
     exclude: "document"
-    description: ""
+    description: "Досліджуйте всебічні інструменти, які пропонує GroupDocs.Assembly для ефективного та безперешкодного злиття документів."
     items: 
           
         # operation loop 1
@@ -224,9 +224,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Об'єднуйте документи у багатьох форматах"
     exclude: "PDF"
-    description: ""
+    description: "Використовуйте Node.js via Java, щоб об'єднувати вміст у більше ніж 50 файлових форматах, забезпечуючи професійні та відшліфовані результати."
     items: 
           
         # format loop 1

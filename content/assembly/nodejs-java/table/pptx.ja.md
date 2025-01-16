@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:18
+date:  2025-01-16T13:04:05
 draft: false
 lang: ja
 format: Pptx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "JavaScriptを使ってPPTXドキュメントにテーブルを挿入"
+head_description: "GroupDocs.Assembly for Node.js via Javaを使用して、さまざまなソースからデータを取得し、ドキュメントやメールにテーブルを素早く埋め込むことができます。"
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Node.jsでPPTXファイルにテーブルを容易に追加" 
+description: "GroupDocs.Assembly for Node.js via Javaを使用すると、複数のソースからデータを使用してPPTXドキュメントのテーブルを埋めることがシンプルです。"
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "無料トライアルを開始"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "GroupDocs.Assembly for Node.js via Javaの紹介"
     link: "/assembly/nodejs-java/"
     link_title: "詳細を見る"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/)は、ドキュメント作成の自動化を実現する強力なツールです。テーブル、チャート、リスト、画像をテンプレートに挿入し、正確なコンテンツ配置を可能にします。PDF、Word、メールなど、50以上のファイル形式をサポートし、レポート生成やその他のタスクを効率化します。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "PPTXにテーブルにデータを追加する方法"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/)を使用すると、動的データソースを使用してPPTXファイルのテーブルテンプレートを素早く埋め込むことができます。
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. PPTXテンプレートを作成し、テーブルの行と列のプレースホルダーを追加します。
+      2. JSONやCSVなどのサポートされるソースからデータをロードします。
+      3. 必要に応じてデータを整理し、フォーマットします。
+      4. 完成したテーブルを持つドキュメントを生成します。
    
     code:
       platform: "java"
@@ -72,21 +72,21 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // テーブル行のプレースホルダーにこれらのタグを含めます
         // <<foreach [c in ds]>>
         // <<[c.Client]>><<[c.Manager]>><<[c.Price]>>
         // <</foreach>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // テンプレートファイルパスを指定します
         const template = "table_template.pptx";
 
-        // {examples.comment_3}
+        // 選択したソースからデータをロードします
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "ds");
 
-        // {examples.comment_4}
+        // 完成したテーブルを持つ最終ドキュメントを保存します
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pptx", data);
         ```           
@@ -94,57 +94,57 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "データ駆動型テーブルをドキュメントに追加"
+  description: "GroupDocs.Assembly for Node.js via Javaを使用すると、ユーザーはテンプレートベースのワークフローを用いて、チャート、画像、リストを埋め込むとともに、テーブルを自動的に作成できます。"
   image: "/img/assembly/features_table.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "GroupDocs.Assemblyの主な機能"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "構造化データからテーブルを生成"
+      content: "JSON、XML、CSVなどの形式からデータを取得し、ドキュメントテーブルを自動的に入力します。"
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "洗練されたビジュアルコンテンツを作成"
+      content: "GroupDocs.Assemblyを使用して、プロフェッショナルなテーブル、チャート、リストを設計し、リンク、画像、テキストを追加して洗練されたドキュメントの外観を実現します。"
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "動的なテーブルコンテンツ配置"
+      content: "LINQベースのテンプレートを使用して、プログラム的に行と列を追加し、フォント、色、配置などのスタイルをカスタマイズします。"
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "フォーマットを超えてシームレスに動作"
+      content: "MS Office、OpenOffice、PDF、HTMLなどのフォーマットで簡単にテーブルを作成または編集し、必要に応じてファイルに統合します。"
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "プログラムによりテーブルを埋める方法"
       content: |
-        {code_1.content}
+        この例では、外部ソースからデータを取得してPPTXドキュメントのテーブルを埋める方法を示します。
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // テーブルのプレースホルダーを持つテンプレートを設計します
           // <<foreach [c in items]>> <<[c.Client]>><<[c.Manager]>>
           //  <<[c.Price]>> <</foreach>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // テンプレートのファイルパスを指定します
           const template = "table_template.pptx";
 
-          // {code_1.comment_3}
+          // 必要なデータをソースからロードします
           const data_json = 
             new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
+          // データを必要な構造に整理します
           const data 
               = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
+          // DocumentAssemblerを初期化します
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // 完成したテーブルを持つ出力ドキュメントを保存します
           asm.assembleDocument(template, "result.pptx", data);
           ```
         platform: "java"
@@ -190,9 +190,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "主要機能の概要"
     exclude: "table"
-    description: ""
+    description: "当社のAPIはテーブルの作成を自動化し、多様なツールやテンプレートを使用してドキュメント生成を強化します。"
     items: 
           
         # operation loop 1
@@ -229,9 +229,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "さまざまな形式でテーブルを生成"
     exclude: "PPTX"
-    description: ""
+    description: "Node.js via Javaを使用して、テンプレートを埋め込み、50以上のサポートされるファイルタイプにわたる包括的なテーブルを作成します。"
     items: 
           
         # format loop 1

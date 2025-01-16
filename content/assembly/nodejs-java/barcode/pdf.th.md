@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:13
+date:  2025-01-16T13:03:59
 draft: false
 lang: th
 format: Pdf
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "เพิ่มบาร์โค้ดในไฟล์ PDF โดยใช้ JavaScript"
+head_description: "สร้างและฝังบาร์โค้ดในเอกสารและอีเมลของคุณด้วย API ของ GroupDocs.Assembly for Node.js via Java."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "สร้างบาร์โค้ดสำหรับไฟล์ PDF โดยใช้ Node.js" 
+description: "ด้วย GroupDocs.Assembly for Node.js via Java คุณสามารถสร้างบาร์โค้ดแบบไดนามิก ปรับแต่ง และฝังลงในเอกสาร PDF ได้."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "เริ่มต้นใช้งาน"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "แนะนำเกี่ยวกับ GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "เรียนรู้เพิ่มเติม"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) ช่วยให้คุณสร้างเอกสารระดับมืออาชีพโดยการรวมข้อมูลจากแหล่งที่มาหลายๆ แห่ง เพิ่มกราฟ ตาราง รายการ รูปภาพ และบาร์โค้ดลงในไฟล์ของคุณได้อย่างมีประสิทธิภาพ ใช้เทมเพลตเพื่อจัดระเบียบเนื้อหาให้เหมาะสมที่สุด รองรับมากกว่า 50 รูปแบบ รวมถึง PDFs เอกสาร Office และอีเมล
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "ขั้นตอนในการเพิ่มบาร์โค้ดในไฟล์ PDF"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) ช่วยให้คุณฝังบาร์โค้ดในเอกสาร PDF ได้ง่าย รองรับประเภทบาร์โค้ดมากกว่า 60 ประเภท รวมถึงรูปแบบ 1D และ 2D.
       
-      1. {texts_pdf.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {texts_pdf.step_4}
+      1. ออกแบบเทมเพลตด้วย placeholder สำหรับบาร์โค้ด (เทมเพลต PDF ไม่รองรับ).
+      2. ดึงข้อมูลจากแหล่งข้อมูลที่เข้ากันได้.
+      3. ตั้งค่าตัวเลือกบาร์โค้ด เช่น ขนาดและความละเอียด.
+      4. ส่งออกเอกสารที่มีบาร์โค้ดเป็นไฟล์ PDF.
    
     code:
       platform: "java"
@@ -72,20 +72,20 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // ใช้แท็กนี้ในเทมเพลตเพื่อรวมบาร์โค้ดในเอกสารผลลัพธ์
         // <<barcode [barcode_expression] -barcode_type>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
-        // {texts_pdf.comment_tmp}
+        // ระบุที่อยู่ไฟล์เทมเพลต
+        // หมายเหตุ: เทมเพลต PDF ขณะนี้ไม่ได้รับการสนับสนุน.
         const template = "barcode_template.docx";
 
-        // {examples.comment_3}
+        // โหลดข้อมูลที่จำเป็นจากแหล่งที่มา
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {texts_pdf.step_4}
+        // ส่งออกเอกสารที่มีบาร์โค้ดเป็นไฟล์ PDF.
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pdf", data);
         ```           
@@ -93,62 +93,62 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "สร้างเอกสารด้วยเทมเพลตที่ขับเคลื่อนด้วยข้อมูล"
+  description: "ด้วย GroupDocs.Assembly for Node.js via Java คุณสามารถสร้างไฟล์ระดับมืออาชีพในรูปแบบยอดนิยมโดยการฝังกราฟ ตาราง รายการ ลิงค์ รูปภาพ และบาร์โค้ดได้อย่างลงตัว."
   image: "/img/assembly/features_barcode.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "คุณสมบัติหลักของ GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "สร้างรายงานด้วยข้อมูลธุรกิจ"
+      content: "ใช้ API ในการเติมเต็มเทมเพลตด้วยข้อมูลจากรูปแบบต่างๆ เช่น JSON, XML และ CSV ได้อย่างรวดเร็วและถูกต้อง."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "เพิ่มส่วนประกอบภาพ"
+      content: "GroupDocs.Assembly รองรับการแทรกองค์ประกอบเช่น กราฟ ตาราง รายการ ข้อความ ลิงค์ รูปภาพ และบาร์โค้ดแบบเรียลไทม์."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "ควบคุมการวางข้อมูล"
+      content: "ด้วยเทมเพลตที่ใช้ LINQ คุณสามารถวางข้อมูลได้อย่างแม่นยำ ทำการวนลูปผ่านอาร์เรย์ และนำรูปแบบที่กำหนดเองมาใช้ในโปรแกรม."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "เข้ากันได้กับหลายรูปแบบ"
+      content: "ทำงานกับไฟล์เช่น เอกสาร MS Office PDFs HTML เอกสาร OpenOffice และอีเมล รวมกันหลายเอกสารเมื่อจำเป็น."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "ตัวอย่าง: สร้างบาร์โค้ดแบบโปรแกรมmatically"
       content: |
-        {code_1.content}
+        ตัวอย่างนี้แสดงวิธีการสร้างและแทรกบาร์โค้ดลงในเอกสาร PDF แบบโปรแกรมmatically.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // ออกแบบเทมเพลตด้วย placeholder สำหรับบาร์โค้ด
           // <<barcode [barcode_expression] -barcode_type>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
-          // {texts_pdf.comment_tmp}
+          // ระบุที่อยู่ของไฟล์เทมเพลต
+          // หมายเหตุ: เทมเพลต PDF ขณะนี้ไม่ได้รับการสนับสนุน.
           const template = "barcode_template.docx";
 
-          // {code_1.comment_3}
+          // ดึงข้อมูลจากแหล่งที่มา
           const data_csv =
               new assemblyLib.CsvDataSource("Barcode Labels.csv", 
               new assemblyLib.CsvDataLoadOptions(true));
 
-          // {code_1.comment_4}
+          // สร้างวัตถุข้อมูลแหล่งด้วยข้อมูลที่จำเป็น
           const data 
               = new assemblyLib.DataSourceInfo(data_csv, "label");
 
-          // {code_1.comment_5}
+          // เริ่มต้นอินสแตนซ์ของ DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // ตั้งค่าการกำหนดค่าบาร์โค้ด
           asm.getBarcodeSettings().setResolution(1200);
           asm.getBarcodeSettings().setBaseYDimension(5f);
 
-          // {code_1.comment_7}
+          // บันทึกเอกสารพร้อมบาร์โค้ดที่รวมอยู่
           asm.assembleDocument(template, "result.pdf", data);
           ```
         platform: "java"
@@ -194,9 +194,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "สำรวจคุณสมบัติหลัก"
     exclude: "barcode"
-    description: ""
+    description: "ทำให้การประมวลเอกสารง่ายขึ้นด้วยเครื่องมืออันทันสมัยและความสามารถในการทำงานอัตโนมัติ."
     items: 
           
         # operation loop 1
@@ -233,9 +233,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "รูปแบบไฟล์ที่รองรับสำหรับการสร้างรายงาน"
     exclude: "PDF"
-    description: ""
+    description: "Node.js via Java รองรับไฟล์มากกว่า 50 รูปแบบ ทำให้คุณสามารถรวมข้อมูลและประมวลผลเทมเพลตเพื่อผลลัพธ์ที่มีคุณภาพสูงได้."
     items: 
           
         # format loop 1

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:16
+date:  2025-01-16T13:04:03
 draft: false
 lang: pt
 format: Docx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Crie Listas Dinâmicas em DOCX com JavaScript"
+head_description: "Projete e insira listas em templates DOCX utilizando a API GroupDocs.Assembly for Node.js via Java."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Incorpore Listas Baseadas em Dados em Arquivos DOCX com Node.js" 
+description: "GroupDocs.Assembly for Node.js via Java oferece ferramentas poderosas para adicionar listas flexíveis e impulsionadas por dados a documentos DOCX."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Comece Grátis"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Sobre GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Saiba mais"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) simplifica a criação de documentos extraindo dados de diversas fontes e incorporando-os em templates. Use-o para construir listas, tabelas, gráficos e outros elementos, com opções de formatação e posicionamento precisas. Suportando mais de 50 formatos, incluindo PDF, MS Office e emails, ajuda a automatizar seu processo de geração de documentos.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Passos para Inserir uma Lista em um Arquivo DOCX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) facilita a adição de listas detalhadas e baseadas em dados aos seus templates DOCX.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Crie um template DOCX e defina marcadores de posição para a lista.
+      2. Forneça o caminho do arquivo do template.
+      3. Carregue dados de fontes suportadas, como JSON ou XML.
+      4. Salve o documento com a lista gerada.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Coloque esta tag em seu template para marcar onde a lista irá.
         // <<foreach [in customers]>><<[CustomerName]>><</foreach>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Defina o caminho do arquivo para seu template.
         const template = "list_template.docx";
 
-        // {examples.comment_3}
+        // Busque dados da fonte que deseja usar.
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {examples.comment_4}
+        // Salve o arquivo com a lista incorporada.
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.docx", data);
         ```           
@@ -92,57 +92,57 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Gere Documentos com Dados Integrados"
+  description: "Com GroupDocs.Assembly for Node.js via Java, você pode incorporar listas, tabelas, gráficos e outros elementos em templates, economizando tempo e esforço."
   image: "/img/assembly/features_list.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Destaques do GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Gere Relatórios de Múltiplas Fontes de Dados"
+      content: "Importe dados de JSON, XML, CSV ou outros formatos para preencher listas e outros componentes de forma eficiente."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Adicione Listas e Outros Elementos Visuais"
+      content: "GroupDocs.Assembly permite incorporar listas, tabelas, gráficos e mais ao lado de texto, imagens e links para resultados polidos."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Posicione e Estilize Dados Precisamente"
+      content: "Templates baseados em LINQ permitem controlar exatamente onde listas e outros dados aparecem, utilizar loops para itens repetidos e personalizar estilos de acordo com suas necessidades."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Funciona em Vários Formatos"
+      content: "Crie documentos em formatos como MS Office, PDF, OpenOffice, HTML e emails. Mescle conteúdo de várias fontes em um único arquivo."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Crie Programaticamente uma Lista em um Documento"
       content: |
-        {code_1.content}
+        Este exemplo demonstra como adicionar dinamicamente uma lista a um documento DOCX usando GroupDocs.Assembly.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Adicione um marcador de posição em seu template para a lista.
           // <<foreach [in products]>><<[NumberOf()]>>. <<[ProductName]>>
           // <</foreach>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Especifique o caminho do arquivo do template.
           const template = "numlist_template.docx";
 
-          // {code_1.comment_3}
+          // Carregue dados para preencher a lista.
           const data_xml =
               new assemblyLib.XmlDataSource("products.xml");
 
-          // {code_1.comment_4}
+          // Prepare a fonte de dados com os detalhes necessários.
           const data 
               = new assemblyLib.DataSourceInfo(data_xml, "products");
 
-          // {code_1.comment_5}
+          // Inicialize o DocumentAssembler.
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Salve o documento final com a lista incluída.
           asm.assembleDocument(template, "result.docx", data);
           ```
         platform: "java"
@@ -188,9 +188,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Explore as Funcionalidades do GroupDocs.Assembly"
     exclude: "list"
-    description: ""
+    description: "Desenhe e gere documentos ricos em dados sem esforço utilizando ferramentas de integração poderosas."
     items: 
           
         # operation loop 1
@@ -227,9 +227,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Crie Documentos em Vários Formatos"
     exclude: "DOCX"
-    description: ""
+    description: "Node.js via Java suporta mais de 50 formatos de arquivo, facilitando a fusão de templates e dados em resultados profissionais."
     items: 
           
         # format loop 1

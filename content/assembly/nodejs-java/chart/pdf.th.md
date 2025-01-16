@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:14
+date:  2025-01-16T13:04:00
 draft: false
 lang: th
 format: Pdf
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "แทรกกราฟในไฟล์ PDF ด้วย JavaScript"
+head_description: "ด้วย GroupDocs.Assembly for Node.js via Java นักพัฒนาสามารถสร้างและฝังกราฟที่เคลื่อนไหวได้อย่างรวดเร็วในเอกสารโดยใช้แหล่งข้อมูลสด"
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "เพิ่มกราฟลงในไฟล์ PDF โดยใช้ Node.js" 
+description: "GroupDocs.Assembly for Node.js via Java ทำให้การรวมกราฟเข้ากับเอกสาร PDF ด้วยการป้อนข้อมูลแบบเรียลไทม์เป็นเรื่องง่าย"
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "เริ่มใช้งานฟรีวันนี้"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "ภาพรวมของ GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "เรียนรู้เพิ่มเติม"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) เป็นโซลูชันที่มีความสามารถในการสร้างเอกสารและรายงานอัตโนมัติ เพิ่มกราฟ, ตาราง, รูปภาพ, บาร์โค้ด และรายการลงในไฟล์ด้วยความแม่นยำ โซลูชันนี้รองรับรูปแบบกว่า 50 รูปแบบรวมถึง PDF, เอกสาร Office และอีเมล
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "ขั้นตอนการเพิ่มกราฟเข้าไปในเอกสาร PDF"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) ช่วยให้การเพิ่มกราฟในไฟล์ PDF เป็นเรื่องง่าย เลือกประเภทกราฟเช่น กราฟแท่ง, กราฟเส้น หรือกราฟวงกลม.
       
-      1. {texts_pdf.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {texts_pdf.step_4}
+      1. สร้างเทมเพลตโดยมีที่ว่างสำหรับกราฟ (เทมเพลต PDF ไม่รองรับ).
+      2. โหลดข้อมูลจากแหล่งข้อมูลที่รองรับ.
+      3. กำหนดค่าออปชั่นกราฟ รวมถึงประเภท, สี และป้ายชื่อ.
+      4. บันทึกเอกสารพร้อมกราฟในรูปแบบไฟล์ PDF.
    
     code:
       platform: "java"
@@ -72,20 +72,20 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // เพิ่มแท็กนี้ในเทมเพลตเพื่อสร้างกราฟ
         // Orders Prices by months<<y [Sum(c => c.Price)]>><<size [Count()]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
-        // {texts_pdf.comment_tmp}
+        // ระบุเส้นทางไฟล์เทมเพลต
+        // หมายเหตุ: เทมเพลต PDF ไม่รองรับในปัจจุบัน.
         const template = "chart_template.docx";
 
-        // {examples.comment_3}
+        // ดึงข้อมูลจากระบบแหล่งข้อมูลของคุณ
         const data 
             = new assemblyLib.DataSourceInfo(GetChartData(), "orders");
 
-        // {examples.comment_4}
+        // บันทึกเอกสารสุดท้ายพร้อมกราฟที่ฝัง
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pdf", data);
         ```           
@@ -93,62 +93,62 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "ฝังกราฟในเอกสารของคุณอย่างมีประสิทธิภาพ"
+  description: "GroupDocs.Assembly for Node.js via Java ช่วยให้การสร้างเอกสารที่มีฟีเจอร์หลากหลายในไฟล์ประเภทที่นิยมเป็นเรื่องง่าย ใช้เทมเพลตเพื่อเพิ่มกราฟ, ตาราง, บาร์โค้ด, รายการ, รูปภาพ และอื่นๆ โดยมีการอัปเดตข้อมูลแบบเรียลไทม์"
   image: "/img/assembly/features_chart.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "ฟีเจอร์เด่นของ GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "แปลงข้อมูลเป็นกราฟระดับมืออาชีพ"
+      content: "แปลงข้อมูลจากแหล่งเช่น JSON, XML หรือ CSV เป็นกราฟคุณภาพสูงที่สามารถฝังลงในเอกสารได้โดยตรง"
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "สร้างภาพที่น่าประทับใจ"
+      content: "สร้างกราฟแท่ง, กราฟวงกลม และกราฟเส้นที่ทำงานร่วมกับองค์ประกอบเอกสารอื่น ๆ เช่น รูปภาพ, ตาราง และบาร์โค้ดได้อย่างไม่มีปัญหา"
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "การตั้งค่ากราฟและการจัดวางที่ยืดหยุ่น"
+      content: "ใช้เทมเพลต LINQ ในการควบคุมการจัดตำแหน่งและรูปแบบกราฟ รวมถึงสี, รูปแบบ และป้ายเพื่อการนำเสนอที่สวยงาม"
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "รองรับหลายรูปแบบไฟล์"
+      content: "สร้างเอกสารในรูปแบบต่างๆ เช่น MS Office, PDF, OpenOffice และ HTML โดยมีกราฟที่แทรกอย่างลงตัวเพื่อผลลัพธ์ที่เป็นมืออาชีพ"
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "สร้างและแทรกรูปกราฟแบบไดนามิก"
       content: |
-        {code_1.content}
+        ตัวอย่างนี้แสดงให้เห็นถึงวิธีการสร้างและฝังกราฟลงในไฟล์ PDF โดยใช้โปรแกรม.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // ตั้งค่าเทมเพลตโดยมีที่ว่างสำหรับกราฟ
           // Total Contract Price<<y [m.Total_Contract_Price]>>
           // <<seriesColor [color]>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
-          // {texts_pdf.comment_tmp}
+          // กำหนดเส้นทางไปยังไฟล์เทมเพลต
+          // หมายเหตุ: เทมเพลต PDF ไม่รองรับในปัจจุบัน.
           const template = "table_template.docx";
 
-          // {code_1.comment_3}
+          // ดึงข้อมูลจากแหล่งเลือก
           const data_json = 
             new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
+          // เตรียมวัตถุข้อมูลที่มีข้อมูลกราฟ
           const data 
               = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
+          // เลือกประเภทกราฟและปรับแต่งรูปลักษณ์
           const design 
               = new assemblyLib.DataSourceInfo("red", "color");
 
-          // {code_1.comment_6}
+          // เริ่มต้น DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_7}
+          // บันทึกเอกสารที่ปรับปรุงพร้อมกราฟที่แทรก
           asm.assembleDocument(template, "result.pdf", data, design);
           ```
         platform: "java"
@@ -194,9 +194,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "ค้นพบฟีเจอร์ขั้นสูง"
     exclude: "chart"
-    description: ""
+    description: "แพลตฟอร์มนี้ช่วยให้การสร้างเอกสารเป็นเรื่องง่ายด้วยเครื่องมือที่ออกแบบมาสำหรับการแสดงผลข้อมูลและการรวมที่ราบรื่น"
     items: 
           
         # operation loop 1
@@ -233,9 +233,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "สร้างรายงานในหลายรูปแบบไฟล์"
     exclude: "PDF"
-    description: ""
+    description: "Node.js via Java รองรับมากกว่า 50 รูปแบบ ทำให้ง่ายต่อการรวมเทมเพลตกับข้อมูลเพื่อผลิตเอกสารที่มีคุณภาพ"
     items: 
           
         # format loop 1

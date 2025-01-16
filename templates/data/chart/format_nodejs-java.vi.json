@@ -1,0 +1,77 @@
+{
+  "head": {
+    "title": "Chèn Biểu Đồ vào Tập Tin {{FileFormatUp}} với {{ProgLang}}",
+    "description": "Với {{ProdFullName}}, các nhà phát triển có thể nhanh chóng tạo và nhúng biểu đồ động vào tài liệu sử dụng dữ liệu nguồn trực tiếp."
+  },
+  "header": {
+    "title": "Thêm Biểu Đồ vào Tập Tin {{FileFormatUp}} Bằng {{EnvNameShort}}",
+    "description": "{{ProdFullName}} đơn giản hóa quy trình tích hợp biểu đồ vào tài liệu {{FileFormatUp}} với dữ liệu đầu vào thời gian thực.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Bắt Đầu Miễn Phí Hôm Nay"
+  },
+  "about": {
+    "title": "Tổng Quan Về {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một giải pháp mạnh mẽ cho việc tạo tài liệu và báo cáo tự động. Thêm biểu đồ, bảng, hình ảnh, mã vạch và danh sách vào tập tin một cách chính xác. Nền tảng linh hoạt này hỗ trợ hơn 50 định dạng, bao gồm PDF, tài liệu Office và email."
+  },
+  "more_features": {
+    "title": "Nhúng Biểu Đồ Một Cách Dễ Dàng Vào Tài Liệu Của Bạn",
+    "description": "{{ProdFullName}} giúp tạo ra tài liệu đầy đủ tính năng trong các loại tập tin phổ biến. Sử dụng mẫu để thêm biểu đồ, bảng, mã vạch, danh sách, hình ảnh và nhiều hơn nữa với cập nhật dữ liệu thời gian thực.",
+    "image_description": "Các Tính Năng Nổi Bật Của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Biến Dữ Liệu Thành Biểu Đồ Chuyên Nghiệp",
+      "content": "Chuyển đổi dữ liệu từ các nguồn như JSON, XML hoặc CSV thành biểu đồ chất lượng cao có thể được nhúng trực tiếp vào tài liệu."
+    },
+    "feature_2": {
+      "title": "Tạo Hình Ảnh Ấn Tượng",
+      "content": "Tạo các biểu đồ cột, biểu đồ tròn và biểu đồ đường hoạt động liền mạch với các yếu tố tài liệu khác như hình ảnh, bảng và mã vạch."
+    },
+    "feature_3": {
+      "title": "Phong Cách và Vị Trí Biểu Đồ Linh Hoạt",
+      "content": "Sử dụng mẫu LINQ để kiểm soát vị trí và kiểu dáng biểu đồ, bao gồm màu sắc, bố cục và nhãn, cho một buổi trình bày hoàn thiện."
+    },
+    "feature_4": {
+      "title": "Hỗ Trợ Nhiều Định Dạng Tập Tin",
+      "content": "Tạo tài liệu trong các định dạng như MS Office, PDF, OpenOffice và HTML, với biểu đồ được tích hợp hoàn hảo cho một kết thúc chuyên nghiệp."
+    }
+  },
+  "formats": {
+    "title": "Tạo Báo Cáo Trong Nhiều Định Dạng Tập Tin",
+    "description": "{{EnvName}} hỗ trợ hơn 50 định dạng, giúp kết hợp các mẫu với dữ liệu để sản xuất tài liệu hoàn hảo."
+  },
+  "operations": {
+    "title": "Khám Phá Các Tính Năng Nâng Cao",
+    "description": "Nền tảng này đơn giản hóa việc tạo tài liệu với các công cụ được thiết kế cho trực quan hóa dữ liệu và tích hợp liền mạch."
+  },
+  "examples": {
+    "comment_1": "Bao gồm thẻ này trong mẫu của bạn để tạo biểu đồ",
+    "comment_2": "Chỉ định đường dẫn đến tệp mẫu",
+    "comment_3": "Trích xuất dữ liệu từ hệ thống nguồn của bạn",
+    "comment_4": "Lưu tài liệu cuối cùng với biểu đồ đã nhúng"
+  },
+  "steps": {
+    "title": "Các Bước Thêm Một Biểu Đồ Vào Tài Liệu {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) giúp thêm biểu đồ vào tập tin {{FileFormatUp}} một cách dễ dàng. Chọn từ các loại biểu đồ như biểu đồ cột, biểu đồ đường hoặc biểu đồ tròn.",
+      "step_1": "Thiết kế một mẫu {{FileFormatUp}} với các chỗ trống cho biểu đồ.",
+      "step_2": "Tải dữ liệu từ một nguồn hỗ trợ.",
+      "step_3": "Cấu hình các tùy chọn biểu đồ, bao gồm loại, màu sắc và nhãn.",
+      "step_4": "Xuất tài liệu với biểu đồ đã nhúng."
+    }
+  },
+  "code_1": {
+    "title": "Tạo Và Nhúng Biểu Đồ Tự Động",
+    "content": "Ví dụ này minh họa cách để tạo và nhúng biểu đồ vào các tập tin {{FileFormatUp}} theo cách lập trình.",
+    "comment_1": "Thiết lập một mẫu với một chỗ trống cho biểu đồ",
+    "comment_2": "Định nghĩa đường dẫn đến tệp mẫu",
+    "comment_3": "Lấy dữ liệu từ nguồn đã chọn",
+    "comment_4": "Chuẩn bị một đối tượng dữ liệu chứa thông tin biểu đồ",
+    "comment_5": "Chọn loại biểu đồ và tùy chỉnh hình thức của nó",
+    "comment_6": "Khởi tạo {{DocumentAssembler}}",
+    "comment_7": "Lưu tài liệu đã cập nhật với biểu đồ đã nhúng"
+  },
+  "texts_pdf": {
+    "step_1": "Tạo một mẫu với các chỗ trống cho biểu đồ (mẫu PDF hiện không được hỗ trợ).",
+    "step_4": "Lưu tài liệu với biểu đồ dưới dạng tệp PDF.",
+    "comment_tmp": "Lưu ý: Mẫu PDF hiện không được hỗ trợ."
+  }
+}

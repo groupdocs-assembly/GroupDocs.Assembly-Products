@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:14
+date:  2025-01-16T13:04:00
 draft: false
 lang: ko
 format: Docx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "JavaScript를 사용하여 DOCX 파일에 차트 삽입하기"
+head_description: "GroupDocs.Assembly for Node.js via Java를 사용하면 개발자가 실시간 데이터 소스를 통해 문서에 동적 차트를 신속하게 생성하고 삽입할 수 있습니다."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Node.js를 사용하여 DOCX 파일에 차트 추가하기" 
+description: "GroupDocs.Assembly for Node.js via Java는 실시간 데이터 입력으로 DOCX 문서에 차트를 통합하는 과정을 간소화합니다."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "지금 무료 시작하기"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "GroupDocs.Assembly for Node.js via Java 개요"
     link: "/assembly/nodejs-java/"
     link_title: "자세히 알아보기"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/)는 자동화된 문서 및 보고서를 생성하기 위한 강력한 솔루션입니다. 차트, 테이블, 이미지, 바코드 및 목록을 파일에 정밀하게 추가할 수 있습니다. 이 다목적 플랫폼은 PDF, Office 문서 및 이메일을 포함하여 50개 이상의 파일 형식을 지원합니다.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "DOCX 문서에 차트를 추가하는 단계"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/)는 DOCX 파일에 차트를 추가하는 과정을 단순화합니다. 막대 차트, 선 차트 또는 파이 차트와 같은 차트 유형 중에서 선택하세요.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. DOCX 템플릿을 디자인하고 차트의 자리 표시자를 추가합니다.
+      2. 지원되는 소스에서 데이터를 로드합니다.
+      3. 차트 유형, 색상 및 레이블을 포함하여 차트 옵션을 구성합니다.
+      4. 내장된 차트가 있는 문서를 내보냅니다.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // 차트를 생성하기 위해 템플릿에 이 태그를 포함합니다.
         // Orders Prices by months<<y [Sum(c => c.Price)]>><<size [Count()]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // 템플릿 파일 경로를 지정합니다.
         const template = "chart_template.docx";
 
-        // {examples.comment_3}
+        // 소스 시스템에서 데이터를 추출합니다.
         const data 
             = new assemblyLib.DataSourceInfo(GetChartData(), "orders");
 
-        // {examples.comment_4}
+        // 차트가 포함된 최종 문서를 저장합니다.
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.docx", data);
         ```           
@@ -92,61 +92,61 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "문서에 차트를 손쉽게 삽입하기"
+  description: "GroupDocs.Assembly for Node.js via Java는 인기 있는 파일 형식으로 기능이 풍부한 문서를 생성하는 것을 간편하게 해줍니다. 템플릿을 사용하여 차트, 테이블, 바코드, 목록, 이미지 등을 실시간 데이터 업데이트와 함께 추가하세요."
   image: "/img/assembly/features_chart.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "GroupDocs.Assembly의 주요 기능"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "데이터를 전문적인 차트로 변환하기"
+      content: "JSON, XML 또는 CSV와 같은 소스의 데이터를 고품질 차트로 변환하여 문서에 직접 삽입할 수 있습니다."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "눈에 띄는 시각 자료 생성하기"
+      content: "다른 문서 요소(이미지, 테이블 및 바코드 등)와 원활하게 작동하는 막대 차트, 파이 그래프 및 선 차트를 생성합니다."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "유연한 차트 스타일링 및 배치"
+      content: "LINQ 템플릿을 사용하여 차트 위치 및 스타일을 제어할 수 있으며, 색상, 레이아웃 및 레이블을 설정하여 세련된 프레젠테이션을 구현합니다."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "다양한 파일 형식 지원"
+      content: "MS Office, PDF, OpenOffice 및 HTML 형식으로 문서를 생성할 수 있으며, 차트가 완벽하게 통합되어 전문적인 마무리를 제공합니다."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "차트를 동적으로 생성하고 삽입하기"
       content: |
-        {code_1.content}
+        이 예제는 DOCX 파일에 차트를 프로그래밍 방식으로 생성하고 삽입하는 방법을 보여줍니다.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // 차트의 자리 표시자를 포함한 템플릿을 설정합니다.
           // Total Contract Price<<y [m.Total_Contract_Price]>>
           // <<seriesColor [color]>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // 템플릿 파일 경로를 정의합니다.
           const template = "table_template.docx";
 
-          // {code_1.comment_3}
+          // 선택한 소스에서 데이터를 가져옵니다.
           const data_json = 
             new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
+          // 차트 정보를 포함한 데이터 객체를 준비합니다.
           const data 
               = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
+          // 차트 유형을 선택하고 외관을 사용자 정의합니다.
           const design 
               = new assemblyLib.DataSourceInfo("red", "color");
 
-          // {code_1.comment_6}
+          // DocumentAssembler를 초기화합니다.
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_7}
+          // 차트가 내장된 업데이트된 문서를 저장합니다.
           asm.assembleDocument(template, "result.docx", data, design);
           ```
         platform: "java"
@@ -192,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "첨단 기능 알아보기"
     exclude: "chart"
-    description: ""
+    description: "이 플랫폼은 데이터 시각화와 원활한 통합을 위한 도구로 문서 생성을 간소화합니다."
     items: 
           
         # operation loop 1
@@ -231,9 +231,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "다양한 파일 형식으로 보고서 생성하기"
     exclude: "DOCX"
-    description: ""
+    description: "Node.js via Java는 50개 이상의 형트를 지원하여 데이터를 템플릿과 결합하여 세련된 문서를 생성하는 것이 쉽습니다."
     items: 
           
         # format loop 1

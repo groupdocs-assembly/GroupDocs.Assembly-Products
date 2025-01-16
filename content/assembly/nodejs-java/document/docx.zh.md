@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:15
+date:  2025-01-16T13:04:02
 draft: false
 lang: zh
 format: Docx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "在JavaScript中合并DOCX文档"
+head_description: "使用JavaScript快速合并DOCX文件。GroupDocs.Assembly将文档合并简化为几个简单步骤。"
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "高效地合并DOCX文件中的内容" 
+description: "借助GroupDocs.Assembly for Node.js via Java，将一个DOCX文件集成到另一个文件中既快速又准确。享受灵活可靠的工具，实现无缝合并。"
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "免费下载试用"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "GroupDocs.Assembly for Node.js via Java概述"
     link: "/assembly/nodejs-java/"
     link_title: "了解更多"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/)提供了一种强大的文档管理方式。快速且准确地将一个文件合并到另一个文件中，同时支持超过50种格式，如PDF和MS Office。自定义布局、编辑内容并按照您的需求组织文档。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "如何将文档合并到DOCX文件中"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/)使将一个DOCX文件插入到另一个文件中成为可能，提供可自定义的选项。
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. 设计一个包含内容占位符的DOCX模板。
+      2. 设置模板的文件路径。
+      3. 提供要合并的文档的文件路径。
+      4. 导出包含合并内容的最终文件。
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // 将此标签插入模板中以定义文档嵌入的位置
         // <<doc [doc_expression]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // 设置主模板的文件路径
         const template = "doc_template.docx";
 
-        // {examples.comment_3}
+        // 提供要合并文档的路径
         const data 
             = new assemblyLib.DataSourceInfo("insert.docx", "doc_expression");
 
-        // {examples.comment_4}
+        // 将最终输出文件保存为嵌入的文档
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.docx", data);
         ```           
@@ -92,52 +92,52 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "强大的文档集成工具"
+  description: "GroupDocs.Assembly for Node.js via Java简化了跨各种格式嵌入文件的过程，并实现了完全自定义。每次都能提供一致且专业的结果。"
   image: "/img/assembly/features_document.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "GroupDocs.Assembly的主要特性"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "使用业务数据生成报告"
+      content: "从JSON、XML或CSV源提取数据，快速而准确地创建综合报告和文档。"
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "添加丰富的视觉元素"
+      content: "GroupDocs.Assembly允许您在文本和超链接旁边包括表格、图表、列表、图像和条形码。"
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "精确的数据位置"
+      content: "使用LINQ模板准确定位数据，处理数组等重复项，并轻松自定义样式。"
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "支持多种格式"
+      content: "在PDF、MS Office文件、HTML和OpenOffice等格式之间无缝合并内容，为所有项目提供灵活性。"
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "以编程方式将图像嵌入文档中"
       content: |
-        {code_1.content}
+        此示例演示如何使用GroupDocs.Assembly将图像插入到DOCX文件中。
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // 在模板中添加图像的占位符
           // <<image [expression]>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // 指定模板文件的路径
           const template = "template.docx";
 
-          // {code_1.comment_3}
+          // 设置要嵌入的图像路径
           const data =
               = new assemblyLib.DataSourceInfo("logo.jpg", "expression");
 
-          // {code_1.comment_4}
+          // 初始化DocumentAssembler对象
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_5}
+          // 保存包含图像的文档
           asm.assembleDocument(template, "result.docx", data);
           ```
         platform: "java"
@@ -183,9 +183,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "核心功能一览"
     exclude: "document"
-    description: ""
+    description: "探索GroupDocs.Assembly为高效和无缝文档合并提供的全面工具。"
     items: 
           
         # operation loop 1
@@ -222,9 +222,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "合并多种格式的文档"
     exclude: "DOCX"
-    description: ""
+    description: "使用Node.js via Java在50多种文件格式中合并内容，确保专业和精致的结果。"
     items: 
           
         # format loop 1

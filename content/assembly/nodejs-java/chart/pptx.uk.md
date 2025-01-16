@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:14
+date:  2025-01-16T13:04:00
 draft: false
 lang: uk
 format: Pptx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Вставка діаграм у файли PPTX за допомогою JavaScript"
+head_description: "З допомогою GroupDocs.Assembly for Node.js via Java розробники можуть швидко створювати та вбудовувати динамічні діаграми у документи, використовуючи живі джерела даних."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Додавайте діаграми до файлів PPTX за допомогою Node.js" 
+description: "GroupDocs.Assembly for Node.js via Java спрощує процес інтеграції діаграм у документи PPTX з введенням даних у реальному часі."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Почати безкоштовно сьогодні"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Огляд GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Дізнатися більше"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) – це потужне рішення для створення автоматизованих документів і звітів. Додавайте діаграми, таблиці, зображення, штрих-коди та списки до файлів з точністю та безпосередністю. Ця універсальна платформа підтримує понад 50 форматів, включаючи PDF, документи Office та електронні листи.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Кроки для додавання діаграми до документа PPTX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) дозволяє додавати діаграми до файлів PPTX. Виберіть з типів діаграм, таких як стовпчикові, лінійні або кругові.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Розробіть шаблон PPTX з заповнювачами для діаграм.
+      2. Завантажте дані з підтримуваного джерела.
+      3. Налаштуйте параметри діаграми, включаючи тип, кольори та ярлики.
+      4. Експортуйте документ з вбудованою діаграмою.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Додайте цей тег до свого шаблону для генерації діаграми.
         // Orders Prices by months<<y [Sum(c => c.Price)]>><<size [Count()]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Вкажіть шлях до файлу шаблону.
         const template = "chart_template.pptx";
 
-        // {examples.comment_3}
+        // Отримайте дані з вашої системи-джерела.
         const data 
             = new assemblyLib.DataSourceInfo(GetChartData(), "orders");
 
-        // {examples.comment_4}
+        // Збережіть остаточний документ із вбудованою діагрою.
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pptx", data);
         ```           
@@ -92,61 +92,61 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Без зусиль вбудовуйте діаграми у свої документи"
+  description: "GroupDocs.Assembly for Node.js via Java дозволяє просто генерувати документи з багатим функціоналом у популярних файлових типах. Використовуйте шаблони для додавання діаграм, таблиць, штрих-кодів, списків, зображень та багато іншого з оновленням даних у реальному часі."
   image: "/img/assembly/features_chart.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Основні функції GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Перетворюйте дані на професійні діаграми"
+      content: "Перетворюйте дані з джерел, таких як JSON, XML або CSV, у високоякісні діаграми, які можна безпосередньо вбудовувати в документи."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Створюйте вражаючі візуалізації"
+      content: "Генеруйте стовпчикові, кругові та лінійні діаграми, які бездоганно працюють з іншими елементами документа, такими як зображення, таблиці та штрих-коди."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Гнучке оформлення і розміщення діаграм"
+      content: "Використовуйте шаблони LINQ для контролю за позиціонуванням і стилем діаграм, включаючи кольори, макети та ярлики, для естетичного представлення."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Підтримка багатьох файлових форматів"
+      content: "Генеруйте документи у форматах, таких як MS Office, PDF, OpenOffice та HTML, з діаграмами, які ідеально інтегровані для професійного вигляду."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Динамічно створюйте та вставляйте діаграми"
       content: |
-        {code_1.content}
+        Цей приклад ілюструє, як програмно створювати та вбудовувати діаграми у файли PPTX.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Налаштуйте шаблон з заповнювачем для діаграми.
           // Total Contract Price<<y [m.Total_Contract_Price]>>
           // <<seriesColor [color]>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Визначте шлях до файлу шаблону.
           const template = "table_template.pptx";
 
-          // {code_1.comment_3}
+          // Отримайте дані з вибраного джерела.
           const data_json = 
             new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
+          // Підготуйте об'єкт даних, що містить інформацію про діаграму.
           const data 
               = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
+          // Виберіть тип діаграми та налаштуйте її зовнішній вигляд.
           const design 
               = new assemblyLib.DataSourceInfo("red", "color");
 
-          // {code_1.comment_6}
+          // Ініціалізуйте DocumentAssembler.
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_7}
+          // Збережіть оновлений документ із вбудованою діаграмою.
           asm.assembleDocument(template, "result.pptx", data, design);
           ```
         platform: "java"
@@ -192,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Відкрийте для себе розширені функції"
     exclude: "chart"
-    description: ""
+    description: "Ця платформа спростила створення документів із інструментами, розробленими для візуалізації даних та безперебійної інтеграції."
     items: 
           
         # operation loop 1
@@ -231,9 +231,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Генерація звітів у кількох файлових форматах"
     exclude: "PPTX"
-    description: ""
+    description: "Node.js via Java підтримує понад 50 форматів, що дозволяє зручно поєднувати шаблони з даними для створення вишуканих документів."
     items: 
           
         # format loop 1

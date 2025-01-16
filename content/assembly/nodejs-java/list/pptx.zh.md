@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:17
+date:  2025-01-16T13:04:03
 draft: false
 lang: zh
 format: Pptx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "使用JavaScript在PPTX中创建动态列表"
+head_description: "使用GroupDocs.Assembly for Node.js via Java API 轻松设计和插入列表到PPTX模板中。"
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "在PPTX文件中嵌入数据驱动的列表，使用Node.js" 
+description: "GroupDocs.Assembly for Node.js via Java提供强大的工具，将灵活的数据驱动列表添加到PPTX文档中。"
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "免费开始使用"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "关于GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "了解更多"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/)通过从各种数据源提取数据并嵌入到模板中，简化了文档创建。使用它构建列表、表格、图表及其他元素，具有精确的放置和格式选项。支持50多种格式，包括PDF、MS Office和电子邮件，帮助您自动化文档生成过程。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "在PPTX文件中插入列表的步骤"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/)使您可以轻松地将详细的数据驱动列表添加到您的PPTX模板中。
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. 创建一个PPTX模板并定义列表的占位符。
+      2. 提供模板的文件路径。
+      3. 从支持的源（如JSON或XML）加载数据。
+      4. 保存带有生成列表的文档。
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // 在模板中放置此标签以标记列表的位置
         // <<foreach [in customers]>><<[CustomerName]>><</foreach>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // 设置模板的文件路径
         const template = "list_template.pptx";
 
-        // {examples.comment_3}
+        // 从所需的数据源获取数据
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {examples.comment_4}
+        // 保存带有嵌入列表的文件
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pptx", data);
         ```           
@@ -92,57 +92,57 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "轻松生成带有集成数据的文档"
+  description: "使用GroupDocs.Assembly for Node.js via Java，您可以将列表、表格、图表及其他元素嵌入到模板中，节省时间和精力。"
   image: "/img/assembly/features_list.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "GroupDocs.Assembly 的亮点"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "从多个数据源生成报告"
+      content: "从JSON、XML、CSV等格式导入数据，以高效填充列表和其他组件。"
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "添加列表和其他视觉元素"
+      content: "GroupDocs.Assembly 允许您与文本、图像和链接无缝嵌入列表、表格、图表等，达到精美效果。"
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "精确放置和样式化数据"
+      content: "基于LINQ的模板让您可以精确控制列表和其他数据的位置，使用循环处理重复项，并根据需求自定义样式。"
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "跨多种格式工作"
+      content: "创建MS Office、PDF、OpenOffice、HTML及电子邮件等格式的文档。将来自多个源的内容合并到单一文件中。"
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "以编程方式在文档中创建列表"
       content: |
-        {code_1.content}
+        此示例演示如何使用GroupDocs.Assembly动态添加列表到PPTX文档中。
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // 在模板中为列表添加占位符
           // <<foreach [in products]>><<[NumberOf()]>>. <<[ProductName]>>
           // <</foreach>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // 指定模板的文件路径
           const template = "numlist_template.pptx";
 
-          // {code_1.comment_3}
+          // 加载数据以填充列表
           const data_xml =
               new assemblyLib.XmlDataSource("products.xml");
 
-          // {code_1.comment_4}
+          // 准备包含所需详情的数据源
           const data 
               = new assemblyLib.DataSourceInfo(data_xml, "products");
 
-          // {code_1.comment_5}
+          // 初始化DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // 保存包含列表的最终文档
           asm.assembleDocument(template, "result.pptx", data);
           ```
         platform: "java"
@@ -188,9 +188,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "探索GroupDocs.Assembly的功能"
     exclude: "list"
-    description: ""
+    description: "利用强大的集成工具，轻松设计和生成数据丰富的文档。"
     items: 
           
         # operation loop 1
@@ -227,9 +227,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "以多种格式创建文档"
     exclude: "PPTX"
-    description: ""
+    description: "Node.js via Java支持50多种文件格式，方便将模板和数据合并成专业的结果。"
     items: 
           
         # format loop 1

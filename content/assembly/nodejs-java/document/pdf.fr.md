@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:15
+date:  2025-01-16T13:04:02
 draft: false
 lang: fr
 format: Pdf
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Fusionner des documents en PDF avec JavaScript"
+head_description: "Combinez des fichiers PDF rapidement avec JavaScript. GroupDocs.Assembly simplifie la fusion de documents en quelques étapes simples."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Combinez sans effort le contenu dans des fichiers PDF" 
+description: "Avec GroupDocs.Assembly for Node.js via Java, l'intégration d'un fichier PDF dans un autre est rapide et précise. Profitez d'outils flexibles et fiables pour une fusion sans faille."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Essayez-le gratuitement"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Aperçu de GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "En savoir plus"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) offre une méthode puissante pour gérer les documents. Fusionnez un fichier dans un autre tout en prenant en charge plus de 50 formats, tels que PDF et MS Office. Personnalisez les mises en page, modifiez le contenu et organisez les documents exactement comme vous le souhaitez.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Comment fusionner un document dans un fichier PDF"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) facilite l'insertion d'un fichier PDF dans un autre avec des options personnalisables.
       
-      1. {texts_pdf.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {texts_pdf.step_4}
+      1. Concevez un modèle avec des espaces réservés pour le contenu intégré (les modèles PDF ne sont pas pris en charge).
+      2. Définissez le chemin du fichier pour le modèle.
+      3. Fournissez le chemin du fichier à fusionner.
+      4. Enregistrez le document final avec le contenu fusionné en tant que fichier PDF.
    
     code:
       platform: "java"
@@ -72,20 +72,20 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Insérez cette balise dans votre modèle pour définir où le document sera intégré
         // <<doc [doc_expression]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
-        // {texts_pdf.comment_tmp}
+        // Définissez le chemin du fichier pour le modèle principal
+        // Actuellement, les modèles PDF ne sont pas pris en charge.
         const template = "doc_template.docx";
 
-        // {examples.comment_3}
+        // Fournissez le chemin pour le document que vous souhaitez fusionner
         const data 
             = new assemblyLib.DataSourceInfo("insert.docx", "doc_expression");
 
-        // {examples.comment_4}
+        // Enregistrez la sortie finale avec le document intégré
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pdf", data);
         ```           
@@ -93,53 +93,53 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Outils puissants pour l'intégration de documents"
+  description: "GroupDocs.Assembly for Node.js via Java facilite l'intégration de fichiers à travers divers formats de manière entièrement personnalisable. Fournissez des résultats cohérents et professionnels à chaque fois."
   image: "/img/assembly/features_document.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Fonctionnalités clés de GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Générer des rapports avec des données commerciales"
+      content: "Récupérez des données à partir de sources JSON, XML ou CSV pour créer rapidement et avec précision des rapports et des documents complets."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Ajouter des éléments visuels riches"
+      content: "GroupDocs.Assembly vous permet d'inclure des tableaux, des graphiques, des listes, des images et des codes-barres aux côtés de texte et de liens hypertextes."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Placement de données précis"
+      content: "Utilisez des modèles LINQ pour positionner les données exactement là où elles doivent être, gérez les éléments répétitifs comme les tableaux et personnalisez les styles sans effort."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Compatible avec une variété de formats"
+      content: "Fusionnez le contenu de manière transparente à travers des formats tels que les fichiers PDF, MS Office, HTML et OpenOffice, offrant flexibilité pour tous les projets."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Intégrer une image dans un document par programme"
       content: |
-        {code_1.content}
+        Cet exemple démontre comment insérer une image dans un fichier PDF en utilisant GroupDocs.Assembly.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Ajoutez un espace réservé dans le modèle pour l'image
           // <<image [expression]>>
 
-          // {code_1.comment_2}
-          // {texts_pdf.comment_tmp}
+          // Spécifiez le chemin vers le fichier modèle
+          // Actuellement, les modèles PDF ne sont pas pris en charge.
           String template = "template.docx";
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_3}
+          // Définissez le chemin vers l'image que vous souhaitez intégrer
           const data =
               = new assemblyLib.DataSourceInfo("logo.jpg", "expression");
 
-          // {code_1.comment_4}
+          // Initialisez l'objet DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_5}
+          // Enregistrez le document avec l'image incluse
           asm.assembleDocument(template, "result.pdf", data);
           ```
         platform: "java"
@@ -185,9 +185,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Fonctionnalités principales en un coup d'œil"
     exclude: "document"
-    description: ""
+    description: "Découvrez les outils complets que GroupDocs.Assembly offre pour une fusion de documents efficace et sans faille."
     items: 
           
         # operation loop 1
@@ -224,9 +224,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Combinez des documents dans de nombreux formats"
     exclude: "PDF"
-    description: ""
+    description: "Utilisez Node.js via Java pour fusionner du contenu à travers plus de 50 formats de fichiers, garantissant des résultats professionnels et soignés."
     items: 
           
         # format loop 1

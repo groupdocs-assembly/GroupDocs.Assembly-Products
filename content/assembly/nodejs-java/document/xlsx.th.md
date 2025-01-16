@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:15
+date:  2025-01-16T13:04:02
 draft: false
 lang: th
 format: Xlsx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "รวมเอกสารในรูปแบบ XLSX ด้วย JavaScript"
+head_description: "รวมไฟล์ XLSX โดยใช้ JavaScript. GroupDocs.Assembly ช่วยให้การรวมเอกสารถูกต้องและรวดเร็วในไม่กี่ขั้นตอนง่ายๆ."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "รวมเนื้อหาในไฟล์ XLSX ได้อย่างมีประสิทธิภาพ" 
+description: "ด้วย GroupDocs.Assembly for Node.js via Java การรวมไฟล์ XLSX เข้าไปในอีกไฟล์หนึ่งเป็นเรื่องที่รวดเร็วและแม่นยำ เพลิดเพลินไปกับเครื่องมือที่ยืดหยุ่นและเชื่อถือได้สำหรับการรวมเนื้อหาอย่างไร้รอยต่อ."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "ทดลองใช้งานฟรี"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "ภาพรวมของ GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "เรียนรู้เพิ่มเติม"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) ให้วิธีการที่ทรงพลังในการจัดการเอกสาร รวมไฟล์หนึ่งไปยังอีกไฟล์หนึ่งได้อย่างมีประสิทธิภาพ รองรับรูปแบบมากกว่า 50 รูปแบบ เช่น PDF และ MS Office ปรับแต่งรูปแบบ แก้ไขเนื้อหา และจัดระเบียบเอกสารได้ตามต้องการ.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "วิธีการรวมเอกสารเข้ากับไฟล์ XLSX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) ทำให้การแทรกไฟล์ XLSX ลงในอีกไฟล์หนึ่งเป็นเรื่องที่ปรับแต่งได้ง่าย.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. ออกแบบเทมเพลต XLSX ที่มีที่ว่างสำหรับเนื้อหา.
+      2. กำหนดเส้นทางไฟล์สำหรับเทมเพลต.
+      3. ระบุเส้นทางไฟล์สำหรับเอกสารที่ต้องการรวม.
+      4. ส่งออกไฟล์สุดท้ายที่มีเนื้อหารวม.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // เพิ่มแท็กนี้ลงในเทมเพลตเพื่อกำหนดตำแหน่งที่เอกสารจะถูกฝัง
         // <<doc [doc_expression]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // กำหนดเส้นทางไฟล์สำหรับเทมเพลตหลัก
         const template = "doc_template.xlsx";
 
-        // {examples.comment_3}
+        // ระบุเส้นทางสำหรับเอกสารที่คุณต้องการรวม
         const data 
             = new assemblyLib.DataSourceInfo("insert.xlsx", "doc_expression");
 
-        // {examples.comment_4}
+        // บันทึกผลลัพธ์สุดท้ายพร้อมเอกสารที่ฝังอยู่
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.xlsx", data);
         ```           
@@ -92,52 +92,52 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "เครื่องมือที่ทรงพลังสำหรับการรวมเอกสาร"
+  description: "GroupDocs.Assembly for Node.js via Java ช่วยให้การฝังไฟล์ในรูปแบบต่างๆ เป็นเรื่องง่ายและปรับแต่งได้เต็มที่ มอบผลลัพธ์ที่สม่ำเสมอและเป็นมืออาชีพทุกครั้ง."
   image: "/img/assembly/features_document.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "ฟีเจอร์หลักของ GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "สร้างรายงานด้วยข้อมูลธุรกิจ"
+      content: "ดึงข้อมูลจาก JSON, XML หรือ CSV เพื่อสร้างรายงานและเอกสารที่ละเอียดและแม่นยำอย่างรวดเร็ว."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "เพิ่มองค์ประกอบภาพที่หลากหลาย"
+      content: "GroupDocs.Assembly ช่วยให้คุณรวมตาราง กราฟ รายการ รูปภาพ และบาร์โค้ดร่วมกับข้อความและลิงก์ได้."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "การวางข้อมูลอย่างแม่นยำ"
+      content: "ใช้เทมเพลต LINQ เพื่อจัดตำแหน่งข้อมูลให้ถูกต้องตามที่ต้องการ จัดการกับข้อมูลซ้ำ เช่น อาร์เรย์ และปรับแต่งสไตล์ได้อย่างง่ายดาย."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "ทำงานกับรูปแบบที่หลากหลาย"
+      content: "รวมเนื้อหาอย่างไร้รอยต่อในรูปแบบต่างๆ เช่น PDF ไฟล์ MS Office HTML และ OpenOffice โดยมอบความยืดหยุ่นสำหรับทุกโปรเจกต์."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "ฝังภาพลงในเอกสารโดยโปรแกรม"
       content: |
-        {code_1.content}
+        ตัวอย่างนี้แสดงให้เห็นวิธีการแทรกรูปภาพลงในไฟล์ XLSX โดยใช้ GroupDocs.Assembly.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // เพิ่มที่ว่างในเทมเพลตสำหรับภาพ
           // <<image [expression]>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // ระบุเส้นทางไปยังไฟล์เทมเพลต
           const template = "template.xlsx";
 
-          // {code_1.comment_3}
+          // กำหนดเส้นทางไปยังรูปภาพที่คุณต้องการฝัง
           const data =
               = new assemblyLib.DataSourceInfo("logo.jpg", "expression");
 
-          // {code_1.comment_4}
+          // เริ่มต้นวัตถุ DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_5}
+          // บันทึกเอกสารพร้อมด้วยภาพที่ฝังอยู่
           asm.assembleDocument(template, "result.xlsx", data);
           ```
         platform: "java"
@@ -183,9 +183,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "ฟีเจอร์หลักในภาพรวม"
     exclude: "document"
-    description: ""
+    description: "สำรวจเครื่องมือที่ครบครันที่ GroupDocs.Assembly มีเพื่อการรวมเอกสารที่มีประสิทธิภาพและไร้รอยต่อ."
     items: 
           
         # operation loop 1
@@ -222,9 +222,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "รวมเอกสารในหลายรูปแบบ"
     exclude: "XLSX"
-    description: ""
+    description: "ใช้ Node.js via Java เพื่อรวมเนื้อหาในกว่ารูปแบบไฟล์ 50 รูปแบบ เพื่อผลลัพธ์ที่เป็นมืออาชีพและดูดี."
     items: 
           
         # format loop 1

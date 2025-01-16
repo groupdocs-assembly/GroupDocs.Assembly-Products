@@ -1,0 +1,77 @@
+{
+  "head": {
+    "title": "Insérer des graphiques dans des fichiers {{FileFormatUp}} avec {{ProgLang}}",
+    "description": "Avec {{ProdFullName}}, les développeurs peuvent rapidement créer et intégrer des graphiques dynamiques dans des documents utilisant des sources de données en direct."
+  },
+  "header": {
+    "title": "Ajoutez des graphiques à des fichiers {{FileFormatUp}} en utilisant {{EnvNameShort}}",
+    "description": "{{ProdFullName}} simplifie le processus d'intégration de graphiques dans des documents {{FileFormatUp}} avec des entrées de données en temps réel.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Commencez gratuitement aujourd'hui"
+  },
+  "about": {
+    "title": "Présentation de {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est une solution robuste pour la création de documents automatisés et de rapports. Ajoutez des graphiques, des tableaux, des images, des codes-barres et des listes aux fichiers avec précision. Cette plateforme polyvalente prend en charge plus de 50 formats, y compris les PDF, les documents Office et les e-mails."
+  },
+  "more_features": {
+    "title": "Intégrez sans effort des graphiques dans vos documents",
+    "description": "{{ProdFullName}} facilite la génération de documents riches en fonctionnalités dans des types de fichiers populaires. Utilisez des modèles pour ajouter des graphiques, des tableaux, des codes-barres, des listes, des images, et plus encore avec des mises à jour de données en temps réel.",
+    "image_description": "Caractéristiques principales de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Transformez les données en graphiques professionnels",
+      "content": "Convertissez des données provenant de sources telles que JSON, XML ou CSV en graphiques de haute qualité pouvant être intégrés directement dans des documents."
+    },
+    "feature_2": {
+      "title": "Créez des visuels époustouflants",
+      "content": "Générez des graphiques à barres, des graphiques circulaires et des graphiques linéaires qui s'intègrent parfaitement aux autres éléments des documents comme des images, des tableaux et des codes-barres."
+    },
+    "feature_3": {
+      "title": "Style et placement flexibles des graphiques",
+      "content": "Utilisez des modèles LINQ pour contrôler le positionnement et le style des graphiques, y compris les couleurs, les mises en page et les étiquettes, pour une présentation impeccable."
+    },
+    "feature_4": {
+      "title": "Prend en charge de nombreux formats de fichiers",
+      "content": "Générez des documents dans des formats tels que MS Office, PDF, OpenOffice et HTML, avec des graphiques parfaitement intégrés pour un rendu professionnel."
+    }
+  },
+  "formats": {
+    "title": "Générez des rapports dans plusieurs formats de fichiers",
+    "description": "{{EnvName}} prend en charge plus de 50 formats, facilitant ainsi la combinaison de modèles avec des données pour produire des documents soignés."
+  },
+  "operations": {
+    "title": "Découvrez des fonctionnalités avancées",
+    "description": "Cette plateforme simplifie la création de documents avec des outils conçus pour la visualisation de données et l'intégration fluide."
+  },
+  "examples": {
+    "comment_1": "Incluez ce tag dans votre modèle pour générer un graphique",
+    "comment_2": "Spécifiez le chemin du fichier modèle",
+    "comment_3": "Extrayez les données de votre système source",
+    "comment_4": "Enregistrez le document final avec le graphique intégré"
+  },
+  "steps": {
+    "title": "Étapes pour ajouter un graphique à un document {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilite l'ajout de graphiques aux fichiers {{FileFormatUp}}. Choisissez parmi des types de graphiques tels que les graphiques à barres, linéaires ou circulaires.",
+      "step_1": "Concevez un modèle {{FileFormatUp}} avec des espaces réservés pour les graphiques.",
+      "step_2": "Chargez les données d'une source prise en charge.",
+      "step_3": "Configurez les options du graphique, y compris le type, les couleurs et les étiquettes.",
+      "step_4": "Exportez le document avec le graphique intégré."
+    }
+  },
+  "code_1": {
+    "title": "Générez et insérez des graphiques dynamiquement",
+    "content": "Cet exemple illustre comment créer et intégrer des graphiques dans des fichiers {{FileFormatUp}} par programmation.",
+    "comment_1": "Configurez un modèle avec un espace réservé pour le graphique",
+    "comment_2": "Définissez le chemin d'accès au fichier modèle",
+    "comment_3": "Récupérez les données d'une source choisie",
+    "comment_4": "Préparez un objet de données contenant les informations du graphique",
+    "comment_5": "Choisissez le type de graphique et personnalisez son apparence",
+    "comment_6": "Initialisez {{DocumentAssembler}}",
+    "comment_7": "Enregistrez le document mis à jour avec le graphique intégré"
+  },
+  "texts_pdf": {
+    "step_1": "Créez un modèle avec des espaces réservés pour les graphiques (les modèles PDF ne sont pas pris en charge).",
+    "step_4": "Enregistrez le document avec le graphique en tant que fichier PDF.",
+    "comment_tmp": "Remarque : les modèles PDF ne sont pas actuellement supportés."
+  }
+}

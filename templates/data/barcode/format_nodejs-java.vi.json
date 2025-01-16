@@ -1,0 +1,77 @@
+{
+  "head": {
+    "title": "Thêm mã vạch vào tệp {{FileFormatUp}} bằng {{ProgLang}}",
+    "description": "Tạo và nhúng mã vạch vào tài liệu và email của bạn với API {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Tạo mã vạch cho tệp {{FileFormatUp}} bằng {{EnvNameShort}}",
+    "description": "Với {{ProdFullName}}, bạn có thể tạo mã vạch một cách động, tùy chỉnh và nhúng chúng vào tài liệu {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Bắt đầu"
+  },
+  "about": {
+    "title": "Giới thiệu về {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) cho phép bạn tạo tài liệu chuyên nghiệp bằng cách kết hợp dữ liệu từ nhiều nguồn. Thêm biểu đồ, bảng, danh sách, hình ảnh và mã vạch vào tệp của bạn một cách tiện lợi. Sử dụng các mẫu để tổ chức nội dung đúng vị trí. Hỗ trợ hơn 50 định dạng, bao gồm PDF, tài liệu Office và email."
+  },
+  "more_features": {
+    "title": "Tạo tài liệu với mẫu dữ liệu động",
+    "description": "Với {{ProdFullName}}, bạn có thể tạo các tệp chuyên nghiệp ở các định dạng phổ biến bằng cách nhúng liền mạch biểu đồ, bảng, danh sách, liên kết, hình ảnh và mã vạch.",
+    "image_description": "Các tính năng chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Xây dựng báo cáo với dữ liệu kinh doanh",
+      "content": "Sử dụng API để nhanh chóng và chính xác làm đầy các mẫu bằng dữ liệu từ các định dạng như JSON, XML và CSV."
+    },
+    "feature_2": {
+      "title": "Thêm các yếu tố hình ảnh",
+      "content": "{{ProdShortName}} hỗ trợ việc chèn các yếu tố như biểu đồ, bảng, danh sách, văn bản, liên kết, hình ảnh và mã vạch theo thời gian thực."
+    },
+    "feature_3": {
+      "title": "Kiểm soát vị trí dữ liệu",
+      "content": "Với các mẫu dựa trên LINQ, bạn có thể định vị chính xác dữ liệu, lặp qua các mảng và áp dụng định dạng tùy chỉnh một cách lập trình."
+    },
+    "feature_4": {
+      "title": "Tương thích với nhiều định dạng",
+      "content": "Làm việc với các tệp như tài liệu MS Office, PDF, HTML, tệp OpenOffice và email. Kết hợp nhiều tài liệu khi cần thiết."
+    }
+  },
+  "formats": {
+    "title": "Các định dạng tệp được hỗ trợ cho việc tạo báo cáo",
+    "description": "{{EnvName}} xử lý hơn 50 loại tệp, giúp đơn giản hóa việc kết hợp dữ liệu và xử lý mẫu để đạt được kết quả chất lượng cao."
+  },
+  "operations": {
+    "title": "Khám phá các tính năng chính",
+    "description": "Đơn giản hóa quy trình xử lý tài liệu với các công cụ và khả năng tự động hóa tiên tiến."
+  },
+  "examples": {
+    "comment_1": "Sử dụng thẻ này trong mẫu để bao gồm mã vạch trong tài liệu đầu ra",
+    "comment_2": "Chỉ định đường dẫn đến tệp mẫu",
+    "comment_3": "Tải dữ liệu cần thiết từ nguồn của bạn",
+    "comment_4": "Lưu tài liệu với mã vạch đã được áp dụng"
+  },
+  "steps": {
+    "title": "Các bước thêm mã vạch vào tệp {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) giúp nhúng mã vạch vào tài liệu {{FileFormatUp}} một cách dễ dàng. Nó hỗ trợ hơn 60 loại mã vạch, bao gồm các định dạng 1D và 2D.",
+      "step_1": "Tạo một mẫu {{FileFormatUp}} với các vị trí cho mã vạch.",
+      "step_2": "Lấy dữ liệu từ một nguồn tương thích.",
+      "step_3": "Đặt tùy chọn mã vạch như kích thước và độ phân giải.",
+      "step_4": "Lưu tài liệu cuối cùng với mã vạch đã nhúng."
+    }
+  },
+  "code_1": {
+    "title": "Ví dụ: Tạo mã vạch một cách lập trình",
+    "content": "Ví dụ này minh họa cách tạo và chèn mã vạch vào tài liệu {{FileFormatUp}} một cách lập trình.",
+    "comment_1": "Thiết kế một mẫu với một vị trí mã vạch",
+    "comment_2": "Chỉ định đường dẫn đến tệp mẫu",
+    "comment_3": "Lấy dữ liệu từ nguồn của bạn",
+    "comment_4": "Tạo một đối tượng nguồn dữ liệu với các chi tiết cần thiết",
+    "comment_5": "Khởi tạo một thể hiện của {{DocumentAssembler}}",
+    "comment_6": "Thiết lập cấu hình mã vạch",
+    "comment_7": "Lưu tài liệu với mã vạch đã bao gồm"
+  },
+  "texts_pdf": {
+    "step_1": "Thiết kế một mẫu với các vị trí mã vạch (mẫu PDF không được hỗ trợ).",
+    "step_4": "Xuất tài liệu với mã vạch dưới dạng tệp PDF.",
+    "comment_tmp": "Lưu ý: Mẫu PDF hiện chưa được hỗ trợ."
+  }
+}

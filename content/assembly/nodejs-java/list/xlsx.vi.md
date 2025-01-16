@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:17
+date:  2025-01-16T13:04:03
 draft: false
 lang: vi
 format: Xlsx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Tạo danh sách động trong XLSX bằng JavaScript"
+head_description: "Thiết kế và chèn danh sách vào mẫu XLSX sử dụng API GroupDocs.Assembly for Node.js via Java."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Nhúng danh sách dựa trên dữ liệu vào tệp XLSX với Node.js" 
+description: "GroupDocs.Assembly for Node.js via Java cung cấp công cụ mạnh mẽ để thêm danh sách linh hoạt, dựa trên dữ liệu vào tài liệu XLSX."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Bắt đầu miễn phí"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Giới thiệu về GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Tìm hiểu thêm"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) đơn giản hóa việc tạo tài liệu bằng cách kéo dữ liệu từ nhiều nguồn và nhúng nó vào các mẫu. Sử dụng nó để xây dựng danh sách, bảng biểu, biểu đồ và các phần tử khác, với các tùy chọn định vị và định dạng chính xác. Hỗ trợ hơn 50 định dạng, bao gồm PDF, MS Office và email, nó giúp tự động hóa quy trình tạo tài liệu của bạn.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Các bước để chèn danh sách vào tệp XLSX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) giúp thêm danh sách chi tiết, dựa trên dữ liệu vào các mẫu XLSX của bạn.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Tạo một mẫu XLSX và xác định các chỗ trống cho danh sách.
+      2. Cung cấp đường dẫn tệp của mẫu.
+      3. Tải dữ liệu từ các nguồn hỗ trợ như JSON hoặc XML.
+      4. Lưu tài liệu với danh sách đã được tạo.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Đặt thẻ này trong mẫu của bạn để đánh dấu vị trí của danh sách
         // <<foreach [in customers]>><<[CustomerName]>><</foreach>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Chỉ định đường dẫn tệp cho mẫu của bạn
         const template = "list_template.xlsx";
 
-        // {examples.comment_3}
+        // Lấy dữ liệu từ nguồn bạn muốn sử dụng
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {examples.comment_4}
+        // Lưu tệp với danh sách đã nhúng
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.xlsx", data);
         ```           
@@ -92,57 +92,57 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Tạo tài liệu dễ dàng với dữ liệu tích hợp"
+  description: "Với GroupDocs.Assembly for Node.js via Java, bạn có thể nhúng danh sách, bảng biểu, biểu đồ và các phần tử khác vào các mẫu, tiết kiệm thời gian và công sức."
   image: "/img/assembly/features_list.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Điểm nổi bật của GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Tạo báo cáo từ nhiều nguồn dữ liệu"
+      content: "Nhập dữ liệu từ JSON, XML, CSV hoặc các định dạng khác để làm đầy danh sách và các thành phần khác một cách hiệu quả."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Thêm danh sách và các phần tử hình ảnh khác"
+      content: "GroupDocs.Assembly cho phép bạn nhúng một cách liền mạch danh sách, bảng biểu, biểu đồ và nhiều hơn nữa bên cạnh văn bản, hình ảnh và liên kết để có kết quả tinh xảo."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Định vị và định dạng dữ liệu chính xác"
+      content: "Các mẫu dựa trên LINQ cho phép bạn kiểm soát chính xác nơi danh sách và dữ liệu khác xuất hiện, sử dụng vòng lặp cho các mục lặp lại và tùy chỉnh kiểu dáng theo nhu cầu của bạn."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Hoạt động trên nhiều định dạng"
+      content: "Tạo tài liệu ở các định dạng như MS Office, PDF, OpenOffice, HTML và email. Gộp nội dung từ nhiều nguồn vào một tệp duy nhất."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Tạo danh sách trong một tài liệu một cách lập trình"
       content: |
-        {code_1.content}
+        Ví dụ này minh họa cách thêm động một danh sách vào tài liệu XLSX bằng cách sử dụng GroupDocs.Assembly.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Thêm một chỗ trống trong mẫu của bạn cho danh sách
           // <<foreach [in products]>><<[NumberOf()]>>. <<[ProductName]>>
           // <</foreach>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Chỉ định đường dẫn tệp của mẫu
           const template = "numlist_template.xlsx";
 
-          // {code_1.comment_3}
+          // Tải dữ liệu để làm đầy danh sách
           const data_xml =
               new assemblyLib.XmlDataSource("products.xml");
 
-          // {code_1.comment_4}
+          // Chuẩn bị nguồn dữ liệu với các chi tiết cần thiết
           const data 
               = new assemblyLib.DataSourceInfo(data_xml, "products");
 
-          // {code_1.comment_5}
+          // Khởi tạo DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Lưu tài liệu cuối cùng với danh sách được bao gồm
           asm.assembleDocument(template, "result.xlsx", data);
           ```
         platform: "java"
@@ -188,9 +188,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Khám phá các tính năng của GroupDocs.Assembly"
     exclude: "list"
-    description: ""
+    description: "Thiết kế và tạo tài liệu phong phú dữ liệu một cách hiệu quả bằng cách sử dụng các công cụ tích hợp mạnh mẽ."
     items: 
           
         # operation loop 1
@@ -227,9 +227,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Tạo tài liệu ở nhiều định dạng"
     exclude: "XLSX"
-    description: ""
+    description: "Node.js via Java hỗ trợ hơn 50 định dạng tệp, giúp dễ dàng kết hợp các mẫu và dữ liệu vào kết quả chuyên nghiệp."
     items: 
           
         # format loop 1

@@ -1,7 +1,7 @@
 {
   "index-content": {
-    "head_title": "APIs .NET e Java & Aplicativos Online de Montagem de Documentos pelo GroupDocs",
-    "head_description": "Obtenha uma solução completa de Automação e Relatórios de Documentos para aplicações .NET e Java. Gere todos os documentos comuns a partir de templates personalizados e dados.",
+    "head_title": "APIs .NET, Java, Node.js e Aplicativos Online de Montagem de Documentos da GroupDocs",
+    "head_description": "Obtenha uma solução completa para Automação de Documentos e Relatórios para aplicações .NET, Java e Node.js. Gere todos os documentos comuns a partir de templates personalizados e dados.",
     "title": "Solução de Automação e Relatórios de Documentos",
     "description_1": "Crie relatórios detalhados utilizando templates e fontes de dados com nossos aplicativos e APIs multiplataforma.",
     "description_2": "Gere relatórios em formatos como Word, Excel, Apresentações e muitos mais, utilizando templates com marcação flexível.",
@@ -306,5 +306,75 @@
     "code_title_sample_2": "Crie Gráficos de Pizza em PPTX",
     "code_samples_sample_2_content_1": "Use templates e XML para adicionar [gráficos de pizza](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/) às suas apresentações.",
     "code_samples_sample_2_content_2": "Torne seus relatórios mais envolventes ao incluir gráficos de pizza para visualizar dados."
+  },
+  "index-content-nodejs-java": {
+    "head_title": "Kit de Ferramentas {{EnvNameShort}} para Construir, Automatizar e Personalizar Documentos",
+    "head_description": "Biblioteca {{EnvNameShort}} para automatizar fluxos de trabalho de documentos. Gere arquivos PDF, Word, Excel, PowerPoint, HTML e e-mails a partir de seus templates.",
+    "title": "API {{EnvNameShort}} para Automatização Simplificada de Documentos e Relatórios",
+    "description": "Otimize a geração de relatórios {{ProgLang}} combinando seus dados com templates pré-construídos.",
+    "actions_main": "Inicie seu Teste no {{PackageStoreName}}",
+    "code_title": "Criar um Gráfico em um Documento Word Usando {{EnvNameShort}}",
+    "overview_description": "Uma biblioteca {{EnvNameShort}} desenvolvida para criar documentos programaticamente com manuseio de dados integrado.",
+    "overview_feature_1": {
+      "title": "Integre Dados da Empresa nos Templates com {{ProgLang}}",
+      "description": "Gere relatórios sofisticados embutindo JSON, XML ou outros dados em templates com {{ProdFullName}}."
+    },
+    "overview_feature_2": {
+      "title": "Gerenciar Conteúdo Incorporado",
+      "description": "Preencha automaticamente tabelas, gráficos e outras visualizações em seus documentos usando dados externos."
+    },
+    "overview_feature_3": {
+      "title": "Opções Customizáveis",
+      "description": "{{ProdFullName}} permite adicionar recursos como códigos de barras, buscar dados de URLs e exportar arquivos em vários formatos."
+    },
+    "features": {
+      "title": "Principais Recursos do {{ProdShortName}}",
+      "description": "Crie documentos dinâmicos e relatórios com poderosas ferramentas de gerenciamento de dados.",
+      "feature_1": {
+        "title": "Visuais de Dados Ricos",
+        "content": "Insira gráficos, tabelas, imagens e listas em seus documentos com total personalização."
+      },
+      "feature_2": {
+        "title": "Transforme Seus Dados",
+        "content": "Aproveite ferramentas como fórmulas e ordenação para estruturar e exibir informações de forma eficaz."
+      },
+      "feature_3": {
+        "title": "Ampla Compatibilidade de Formatos",
+        "content": "Trabalhe de forma fluida com formatos de arquivo populares para templates e saídas."
+      },
+      "feature_4": {
+        "title": "Customização Avançada de Templates",
+        "content": "Formate templates com opções de estilo numérico, alfabético e outras."
+      },
+      "feature_5": {
+        "title": "Gere Códigos de Barras Dinamicamente",
+        "content": "Crie e insira imagens de código de barras diretamente em seus documentos sob demanda."
+      },
+      "feature_6": {
+        "title": "Estilo de Texto Flexível",
+        "content": "Aplique facilmente estilos de texto como capitalização ou título em seus templates."
+      },
+      "feature_7": {
+        "title": "Inserção Dinâmica de Conteúdo",
+        "content": "Inclua conteúdo de arquivos externos de forma dinâmica durante a geração de documentos."
+      },
+      "feature_8": {
+        "title": "Exporte para Vários Formatos",
+        "content": "Salve documentos em múltiplos formatos com suas configurações especificadas."
+      },
+      "feature_9": {
+        "title": "Incorpore Mídia Dinamicamente",
+        "content": "Insira imagens ou outros elementos usando dados Base64 ao criar documentos."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} integra-se suavemente com os principais sistemas operacionais, frameworks e gerenciadores de pacotes.",
+    "formats_description": "{{ProdFullName}} suporta uma ampla gama de [formatos de documento]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Descubra exemplos práticos de como utilizar {{ProdShortName}} para tarefas comuns.",
+    "code_title_sample_1": "Adicionar uma Lista com Marcadores em Documentos Word",
+    "code_samples_sample_1_content_1": "Veja como criar [listas com marcadores]({{Sample1Url}}) em documentos Word para organizar dados de forma eficaz.",
+    "code_samples_sample_1_content_2": "Este exemplo demonstra como gerar uma lista com marcadores usando {{ProdShortName}}.",
+    "code_title_sample_2": "Inserir Gráficos de Pizza em PowerPoint",
+    "code_samples_sample_2_content_1": "Aprenda como usar templates e XML para adicionar [gráficos de pizza]({{Sample2Url}}) em suas apresentações.",
+    "code_samples_sample_2_content_2": "Melhore seus relatórios com gráficos de pizza para apresentar dados de forma visual e clara."
   }
 }

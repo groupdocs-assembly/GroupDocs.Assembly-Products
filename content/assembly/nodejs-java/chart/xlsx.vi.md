@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:14
+date:  2025-01-16T13:04:00
 draft: false
 lang: vi
 format: Xlsx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Chèn Biểu Đồ vào Tập Tin XLSX với JavaScript"
+head_description: "Với GroupDocs.Assembly for Node.js via Java, các nhà phát triển có thể nhanh chóng tạo và nhúng biểu đồ động vào tài liệu sử dụng dữ liệu nguồn trực tiếp."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Thêm Biểu Đồ vào Tập Tin XLSX Bằng Node.js" 
+description: "GroupDocs.Assembly for Node.js via Java đơn giản hóa quy trình tích hợp biểu đồ vào tài liệu XLSX với dữ liệu đầu vào thời gian thực."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Bắt Đầu Miễn Phí Hôm Nay"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Tổng Quan Về GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Tìm hiểu thêm"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) là một giải pháp mạnh mẽ cho việc tạo tài liệu và báo cáo tự động. Thêm biểu đồ, bảng, hình ảnh, mã vạch và danh sách vào tập tin một cách chính xác. Nền tảng linh hoạt này hỗ trợ hơn 50 định dạng, bao gồm PDF, tài liệu Office và email.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Các Bước Thêm Một Biểu Đồ Vào Tài Liệu XLSX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) giúp thêm biểu đồ vào tập tin XLSX một cách dễ dàng. Chọn từ các loại biểu đồ như biểu đồ cột, biểu đồ đường hoặc biểu đồ tròn.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Thiết kế một mẫu XLSX với các chỗ trống cho biểu đồ.
+      2. Tải dữ liệu từ một nguồn hỗ trợ.
+      3. Cấu hình các tùy chọn biểu đồ, bao gồm loại, màu sắc và nhãn.
+      4. Xuất tài liệu với biểu đồ đã nhúng.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Bao gồm thẻ này trong mẫu của bạn để tạo biểu đồ
         // Orders Prices by months<<y [Sum(c => c.Price)]>><<size [Count()]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Chỉ định đường dẫn đến tệp mẫu
         const template = "chart_template.xlsx";
 
-        // {examples.comment_3}
+        // Trích xuất dữ liệu từ hệ thống nguồn của bạn
         const data 
             = new assemblyLib.DataSourceInfo(GetChartData(), "orders");
 
-        // {examples.comment_4}
+        // Lưu tài liệu cuối cùng với biểu đồ đã nhúng
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.xlsx", data);
         ```           
@@ -92,61 +92,61 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Nhúng Biểu Đồ Một Cách Dễ Dàng Vào Tài Liệu Của Bạn"
+  description: "GroupDocs.Assembly for Node.js via Java giúp tạo ra tài liệu đầy đủ tính năng trong các loại tập tin phổ biến. Sử dụng mẫu để thêm biểu đồ, bảng, mã vạch, danh sách, hình ảnh và nhiều hơn nữa với cập nhật dữ liệu thời gian thực."
   image: "/img/assembly/features_chart.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Các Tính Năng Nổi Bật Của GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Biến Dữ Liệu Thành Biểu Đồ Chuyên Nghiệp"
+      content: "Chuyển đổi dữ liệu từ các nguồn như JSON, XML hoặc CSV thành biểu đồ chất lượng cao có thể được nhúng trực tiếp vào tài liệu."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Tạo Hình Ảnh Ấn Tượng"
+      content: "Tạo các biểu đồ cột, biểu đồ tròn và biểu đồ đường hoạt động liền mạch với các yếu tố tài liệu khác như hình ảnh, bảng và mã vạch."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Phong Cách và Vị Trí Biểu Đồ Linh Hoạt"
+      content: "Sử dụng mẫu LINQ để kiểm soát vị trí và kiểu dáng biểu đồ, bao gồm màu sắc, bố cục và nhãn, cho một buổi trình bày hoàn thiện."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Hỗ Trợ Nhiều Định Dạng Tập Tin"
+      content: "Tạo tài liệu trong các định dạng như MS Office, PDF, OpenOffice và HTML, với biểu đồ được tích hợp hoàn hảo cho một kết thúc chuyên nghiệp."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Tạo Và Nhúng Biểu Đồ Tự Động"
       content: |
-        {code_1.content}
+        Ví dụ này minh họa cách để tạo và nhúng biểu đồ vào các tập tin XLSX theo cách lập trình.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Thiết lập một mẫu với một chỗ trống cho biểu đồ
           // Total Contract Price<<y [m.Total_Contract_Price]>>
           // <<seriesColor [color]>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Định nghĩa đường dẫn đến tệp mẫu
           const template = "table_template.xlsx";
 
-          // {code_1.comment_3}
+          // Lấy dữ liệu từ nguồn đã chọn
           const data_json = 
             new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
+          // Chuẩn bị một đối tượng dữ liệu chứa thông tin biểu đồ
           const data 
               = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
+          // Chọn loại biểu đồ và tùy chỉnh hình thức của nó
           const design 
               = new assemblyLib.DataSourceInfo("red", "color");
 
-          // {code_1.comment_6}
+          // Khởi tạo DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_7}
+          // Lưu tài liệu đã cập nhật với biểu đồ đã nhúng
           asm.assembleDocument(template, "result.xlsx", data, design);
           ```
         platform: "java"
@@ -192,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Khám Phá Các Tính Năng Nâng Cao"
     exclude: "chart"
-    description: ""
+    description: "Nền tảng này đơn giản hóa việc tạo tài liệu với các công cụ được thiết kế cho trực quan hóa dữ liệu và tích hợp liền mạch."
     items: 
           
         # operation loop 1
@@ -231,9 +231,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Tạo Báo Cáo Trong Nhiều Định Dạng Tập Tin"
     exclude: "XLSX"
-    description: ""
+    description: "Node.js via Java hỗ trợ hơn 50 định dạng, giúp kết hợp các mẫu với dữ liệu để sản xuất tài liệu hoàn hảo."
     items: 
           
         # format loop 1

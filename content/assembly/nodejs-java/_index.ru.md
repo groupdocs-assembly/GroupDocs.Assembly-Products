@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-01-14T15:37:19
+date: 2025-01-16T13:04:06
 draft: false
 
 lang: ru
@@ -24,17 +24,17 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "{index-content-nodejs-java.head_title}"
-head_description: "{index-content-nodejs-java.head_description}"
+head_title: "Инструментарий Node.js для создания, автоматизации и настройки документов"
+head_description: "Библиотека Node.js для автоматизации рабочих процессов с документами. Генерируйте файлы PDF, Word, Excel, PowerPoint, HTML и электронную почту из своих шаблонов."
 
 ############################# Header ############################
-title: "{index-content-nodejs-java.title}"
-description: "{index-content-nodejs-java.description}"
+title: "API Node.js для упрощенной автоматизации документов и отчетов"
+description: "Оптимизируйте генерацию отчетов на JavaScript, объединяя ваши данные с заранее созданными шаблонами."
 words:
   for: "для"
 
 actions:
-  main: "{index-content-nodejs-java.actions_main}"
+  main: "Начните пробный период на NPM"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.assembly"
   alt: "Лицензирование"
   alt_link: "https://purchase.groupdocs.com/pricing/assembly/nodejs-java/"
@@ -48,7 +48,7 @@ release:
   link: "https://releases.groupdocs.com/assembly/nodejs-java/"
 
 code:
-  title: "{index-content-nodejs-java.code_title}"
+  title: "Создание диаграммы в документе Word с использованием Node.js"
   more: "Больше примеров"
   more_link: "https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-Node.js-via-Java/"
   install: "npm i @groupdocs/groupdocs.assembly"
@@ -80,25 +80,25 @@ code:
 overview:
   enable: true
   title: "Обзор GroupDocs.Assembly"
-  description: "{index-content-nodejs-java.overview_description}"
+  description: "Библиотека Node.js для программного создания документов с интегрированной обработкой данных."
   features:
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_1.title}"
-      content: "{index-content-nodejs-java.overview_feature_1.description}"
+    - title: "Интеграция бизнес-данных в шаблоны с помощью JavaScript"
+      content: "Генерируйте качественные отчеты, встраивая JSON, XML или другие данные в шаблоны с использованием GroupDocs.Assembly for Node.js via Java."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_2.title}"
-      content: "{index-content-nodejs-java.overview_feature_2.description}"
+    - title: "Управление встроенным контентом"
+      content: "Автоматически заполняйте таблицы, диаграммы и другие визуальные элементы в ваших документах с помощью внешних данных."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_3.title}"
-      content: "{index-content-nodejs-java.overview_feature_3.description}"
+    - title: "Настраиваемые параметры"
+      content: "GroupDocs.Assembly for Node.js via Java позволяет добавлять функции, такие как штрих-коды, извлечение данных из URL и экспорт файлов в различных форматах."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Платформенная независимость"
-  description: "{index-content-nodejs-java.platforms_description}"
+  description: "GroupDocs.Assembly for Node.js via Java без проблем интегрируется с ведущими операционными системами, фреймворками и менеджерами пакетов."
   items:
     # platform loop
     - title: "Amazon"
@@ -130,7 +130,7 @@ formats:
   enable: true
   title: "Поддерживаемые форматы файлов"
   description: |
-    {index-content-nodejs-java.formats_description}
+    GroupDocs.Assembly for Node.js via Java поддерживает широкий спектр [форматов документов](https://docs.groupdocs.com/assembly/nodejs-java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -157,66 +157,66 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-nodejs-java.features.title}"
-  description: "{index-content-nodejs-java.features.description}"
+  title: "Ключевые функции GroupDocs.Assembly"
+  description: "Создавайте динамические документы и отчеты с мощными инструментами управления данными."
 
   items:
     # feature loop
     - icon: "preview"
-      title: "{index-content-nodejs-java.features.feature_1.title}"
-      content: "{index-content-nodejs-java.features.feature_1.content}"
+      title: "Насыщенные визуальные данные"
+      content: "Интегрируйте диаграммы, таблицы, изображения и списки в ваши документы с полной настройкой."
 
     # feature loop
     - icon: "manipulate"
-      title: "{index-content-nodejs-java.features.feature_2.title}"
-      content: "{index-content-nodejs-java.features.feature_2.content}"
+      title: "Преобразование ваших данных"
+      content: "Используйте инструменты, такие как формулы и сортировка, для структурирования и отображения информации эффективно."
 
     # feature loop
     - icon: "two_pages"
-      title: "{index-content-nodejs-java.features.feature_3.title}"
-      content: "{index-content-nodejs-java.features.feature_3.content}"
+      title: "Широкая совместимость форматов"
+      content: "Работайте без проблем с популярными форматами файлов для шаблонов и выходных данных."
 
     # feature loop
     - icon: "document_settings"
-      title: "{index-content-nodejs-java.features.feature_4.title}"
-      content: "{index-content-nodejs-java.features.feature_4.content}"
+      title: "Расширенная настройка шаблонов"
+      content: "Форматируйте шаблоны с числовыми, алфавитными и другими стилевыми опциями."
 
     # feature loop
     - icon: "text"
-      title: "{index-content-nodejs-java.features.feature_5.title}"
-      content: "{index-content-nodejs-java.features.feature_5.content}"
+      title: "Динамическая генерация штрих-кодов"
+      content: "Создавайте и встраивайте изображения штрих-кодов прямо в ваши документы по запросу."
 
     # feature loop
     - icon: "add"
-      title: "{index-content-nodejs-java.features.feature_6.title}"
-      content: "{index-content-nodejs-java.features.feature_6.content}"
+      title: "Гибкое стилизация текста"
+      content: "Применяйте текстовые стили, такие как прописные или заглавные буквы, в ваших шаблонах."
 
     # feature loop
     - icon: "manipulate"
-      title: "{index-content-nodejs-java.features.feature_7.title}"
-      content: "{index-content-nodejs-java.features.feature_7.content}"
+      title: "Динамическая вставка контента"
+      content: "Включайте контент из внешних файлов динамически во время генерации документа."
 
     # feature loop
     - icon: "convert"
-      title: "{index-content-nodejs-java.features.feature_8.title}"
-      content: "{index-content-nodejs-java.features.feature_8.content}"
+      title: "Экспорт в различные форматы"
+      content: "Сохраняйте документы в нескольких форматах с вашими указанными конфигурациями."
 
     # feature loop
     - icon: "update"
-      title: "{index-content-nodejs-java.features.feature_9.title}"
-      content: "{index-content-nodejs-java.features.feature_9.content}"
+      title: "Динамическая интеграция медиа"
+      content: "Вставляйте изображения или другие элементы, используя данные Base64 при создании документов."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Примеры кода"
-  description: "{index-content-nodejs-java.code_samples_description}"
+  description: "Изучите практические примеры использования GroupDocs.Assembly для выполнения распространенных задач."
   items:
     # code sample loop
-    - title: "{index-content-nodejs-java.code_title_sample_1}"
+    - title: "Добавление маркированного списка в документы Word"
       content: |
-        {index-content-nodejs-java.code_samples_sample_1_content_1} {index-content-nodejs-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-nodejs-java.code_title_sample_1}">}}
+        Узнайте, как создать [маркированные списки](https://docs.groupdocs.com/assembly/nodejs-java/bulleted-list-in-word-processing-document/) в документах Word для эффективной организации данных. Этот пример демонстрирует, как сгенерировать маркированный список с использованием GroupDocs.Assembly.
+        {{< landing/code title="Добавление маркированного списка в документы Word">}}
         ```javascript {style=abap}
         // Вставьте этот шаблон на страницу документа:
         // Индикаторы производительности менеджеров
@@ -241,10 +241,10 @@ code_samples:
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-nodejs-java.code_title_sample_2}"
+    - title: "Вставка круговых диаграмм в PowerPoint"
       content: |
-        {index-content-nodejs-java.code_samples_sample_2_content_1} {index-content-nodejs-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-nodejs-java.code_title_sample_2}">}}
+        Узнайте, как использовать шаблоны и XML для добавления [круговых диаграмм](https://docs.groupdocs.com/assembly/nodejs-java/pie-chart-in-presentation-document/) в ваши презентации. Улучшите ваши отчеты с круговыми диаграммами для визуального и четкого представления данных.
+        {{< landing/code title="Вставка круговых диаграмм в PowerPoint">}}
         ```javascript {style=abap} 
         // Добавьте шаблон заголовка диаграммы в презентацию:
         // Доходы клиентов <<foreach [in customers]>> 

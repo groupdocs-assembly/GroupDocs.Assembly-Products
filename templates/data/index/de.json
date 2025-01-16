@@ -1,7 +1,7 @@
 {
   "index-content": {
-    "head_title": ".NET, Java APIs & Online Dokumentenerstellungsanwendungen von GroupDocs",
-    "head_description": "Erhalten Sie die All-in-One-Lösung für Dokumentautomatisierung und Berichterstattung für .NET- und Java-Anwendungen. Generieren Sie alle gängigen Dokumente aus benutzerdefinierten Vorlagen und Daten.",
+    "head_title": ".NET, Java, Node.js APIs & Online-Dokumentenerstellungsanwendungen von GroupDocs",
+    "head_description": "Erhalten Sie eine umfassende Dokumentenautomatisierungs- und Reporting-Lösung für .NET-, Java- und Node.js-Anwendungen. Generieren Sie alle gängigen Dokumente aus benutzerdefinierten Vorlagen und Daten.",
     "title": "Dokumentautomatisierung und Berichterstattungslösung",
     "description_1": "Erstellen Sie detaillierte Berichte mit Vorlagen und Datenquellen mit unseren plattformübergreifenden Apps und APIs.",
     "description_2": "Generieren Sie Berichte in Formaten wie Word, Excel, Präsentationen und vielen weiteren mithilfe von Vorlagen mit flexibel einstellbarem Markup.",
@@ -306,5 +306,75 @@
     "code_title_sample_2": "Erstellen Sie Tortendiagramme in PPTX",
     "code_samples_sample_2_content_1": "Verwenden Sie Vorlagen und XML, um [Tortendiagramme](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/) in Ihre Präsentationen einzufügen.",
     "code_samples_sample_2_content_2": "Machen Sie Ihre Berichte ansprechender, indem Sie Tortendiagramme zur Visualisierung von Daten einfügen."
+  },
+  "index-content-nodejs-java": {
+    "head_title": "{{EnvNameShort}} Toolkit zum Erstellen, Automatisieren und Anpassen von Dokumenten",
+    "head_description": "{{EnvNameShort}}-Bibliothek zur Automatisierung von Dokumenten-Workflows. Erstellen Sie PDF-, Word-, Excel-, PowerPoint-, HTML- und E-Mail-Dateien aus Ihren Vorlagen.",
+    "title": "{{EnvNameShort}} API für vereinfachte Dokumenten- und Berichtautomatisierung",
+    "description": "Optimieren Sie die Erstellung von {{ProgLang}}-Berichten, indem Sie Ihre Daten mit vorgefertigten Vorlagen zusammenführen.",
+    "actions_main": "Beginnen Sie Ihre Testversion bei {{PackageStoreName}}",
+    "code_title": "Erstellen Sie ein Diagramm in einem Word-Dokument mit {{EnvNameShort}}",
+    "overview_description": "Eine {{EnvNameShort}}-Bibliothek, die entwickelt wurde, um Dokumente programmatisch mit integrierter Datenverarbeitung zu erstellen.",
+    "overview_feature_1": {
+      "title": "Geschäftsdaten in Vorlagen mit {{ProgLang}} integrieren",
+      "description": "Erstellen Sie ansprechende Berichte, indem Sie JSON, XML oder andere Daten in Vorlagen mit {{ProdFullName}} einbetten."
+    },
+    "overview_feature_2": {
+      "title": "Inhalt verwalten",
+      "description": "Füllen Sie automatisch Tabellen, Diagramme und andere visuelle Elemente in Ihren Dokumenten mit externen Daten aus."
+    },
+    "overview_feature_3": {
+      "title": "Anpassbare Optionen",
+      "description": "{{ProdFullName}} ermöglicht es Ihnen, Funktionen wie Barcodes hinzuzufügen, Daten von URLs abzurufen und Dateien in verschiedenen Formaten zu exportieren."
+    },
+    "features": {
+      "title": "Kernfunktionen von {{ProdShortName}}",
+      "description": "Erstellen Sie dynamische Dokumente und Berichte mit leistungsstarken Datenmanagement-Tools.",
+      "feature_1": {
+        "title": "Reiche Datenvisualisierungen",
+        "content": "Fügen Sie problemlos Diagramme, Tabellen, Bilder und Listen in Ihre Dokumente mit vollständiger Anpassung ein."
+      },
+      "feature_2": {
+        "title": "Daten transformieren",
+        "content": "Nutzen Sie Tools wie Formeln und Sortierung, um Informationen effektiv zu strukturieren und darzustellen."
+      },
+      "feature_3": {
+        "title": "Breite Formatkompatibilität",
+        "content": "Arbeiten Sie nahtlos mit gängigen Dateiformaten für Vorlagen und Ausgaben."
+      },
+      "feature_4": {
+        "title": "Erweiterte Vorlagenanpassung",
+        "content": "Formatieren Sie Vorlagen mit numerischen, alphabetischen und anderen Stiloptionen."
+      },
+      "feature_5": {
+        "title": "Dynamisches Generieren von Barcodes",
+        "content": "Erstellen und betten Sie Barcode-Bilder direkt nach Bedarf in Ihre Dokumente ein."
+      },
+      "feature_6": {
+        "title": "Flexible Textgestaltung",
+        "content": "Wenden Sie einfach Textstile wie Großschreibung oder Titel-Schreibung in Ihren Vorlagen an."
+      },
+      "feature_7": {
+        "title": "Dynamische Inhaltsintegration",
+        "content": "Fügen Sie während der Dokumentenerstellung dynamisch Inhalte aus externen Dateien ein."
+      },
+      "feature_8": {
+        "title": "Exportieren in verschiedene Formate",
+        "content": "Speichern Sie Dokumente in mehreren Formaten mit Ihren spezifizierten Konfigurationen."
+      },
+      "feature_9": {
+        "title": "Dynamisches Einbetten von Medien",
+        "content": "Fügen Sie Bilder oder andere Elemente mit Base64-Daten beim Erstellen von Dokumenten ein."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} integriert sich nahtlos mit führenden Betriebssystemen, Frameworks und Paketmanagern.",
+    "formats_description": "{{ProdFullName}} unterstützt eine Vielzahl von [Dokumentenformaten]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Entdecken Sie praktische Beispiele, wie Sie {{ProdShortName}} für gängige Aufgaben nutzen können.",
+    "code_title_sample_1": "Fügen Sie eine Aufzählungsliste in Word-Dokumente ein",
+    "code_samples_sample_1_content_1": "Erfahren Sie, wie Sie [aufgezählte Listen]({{Sample1Url}}) in Word-Dokumenten erstellen, um Daten effektiv zu organisieren.",
+    "code_samples_sample_1_content_2": "Dieses Beispiel zeigt, wie Sie eine Aufzählungsliste mit {{ProdShortName}} erstellen.",
+    "code_title_sample_2": "Kreisdiagramme in PowerPoint einfügen",
+    "code_samples_sample_2_content_1": "Erfahren Sie, wie Sie Vorlagen und XML verwenden, um [Kreisdiagramme]({{Sample2Url}}) in Ihren Präsentationen hinzuzufügen.",
+    "code_samples_sample_2_content_2": "Verbessern Sie Ihre Berichte mit Kreisdiagrammen, um Daten visuell und klar darzustellen."
   }
 }

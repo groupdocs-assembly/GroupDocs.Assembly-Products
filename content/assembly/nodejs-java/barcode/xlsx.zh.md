@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:12
+date:  2025-01-16T13:03:58
 draft: false
 lang: zh
 format: Xlsx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "使用 JavaScript 在 XLSX 文件中添加条形码"
+head_description: "使用 GroupDocs.Assembly for Node.js via Java API 轻松生成并嵌入条形码到您的文档和电子邮件中。"
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "使用 Node.js 创建 XLSX 文件的条形码" 
+description: "借助 GroupDocs.Assembly for Node.js via Java，您可以动态生成、定制并嵌入条形码到 XLSX 文档中。"
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "开始使用"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "关于 GroupDocs.Assembly for Node.js via Java 的介绍"
     link: "/assembly/nodejs-java/"
     link_title: "了解更多"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) 允许您通过结合多个来源的数据来创建专业文档。将图表、表格、列表、图像和条形码添加到您的文件中。使用模板将内容组织到恰当的位置。支持超过 50 种格式，包括 PDF、Office 文档和电子邮件。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "在 XLSX 文件中添加条形码的步骤"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) 使得在 XLSX 文档中嵌入条形码变得简单。它支持超过 60 种条形码类型，包括 1D 和 2D 格式。
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. 创建一个包含条形码占位符的 XLSX 模板。
+      2. 从兼容的源获取数据。
+      3. 设置条形码选项，如大小和分辨率。
+      4. 保存最终文档，嵌入条形码。
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // 在模板中使用此标签以在输出文档中包含条形码
         // <<barcode [barcode_expression] -barcode_type>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // 指定模板文件的路径
         const template = "barcode_template.xlsx";
 
-        // {examples.comment_3}
+        // 从源获取所需数据
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {examples.comment_4}
+        // 保存应用了条形码的文档
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.xlsx", data);
         ```           
@@ -92,61 +92,61 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "使用数据驱动的模板生成文档"
+  description: "借助 GroupDocs.Assembly for Node.js via Java，您可以通过无缝嵌入图表、表格、列表、链接、图像和条形码，以专业的格式创建文件。"
   image: "/img/assembly/features_barcode.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "GroupDocs.Assembly 的核心功能"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "使用业务数据生成报告"
+      content: "使用 API 快速准确地用 JSON、XML 和 CSV 等格式的数据填充模板。"
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "添加视觉元素"
+      content: "GroupDocs.Assembly 支持实时插入图表、表格、列表、文本、链接、图像和条形码等元素。"
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "控制数据位置"
+      content: "使用基于 LINQ 的模板，您可以精确定位数据，循环处理数组，并以编程方式应用自定义格式。"
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "兼容多种格式"
+      content: "处理如 MS Office 文档、PDF、HTML、OpenOffice 文件和电子邮件等文件。按需合并多个文档。"
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "示例：以编程方式生成条形码"
       content: |
-        {code_1.content}
+        此示例演示如何以编程方式生成并插入条形码到 XLSX 文档中。
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // 设计一个带有条形码占位符的模板
           // <<barcode [barcode_expression] -barcode_type>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // 指定模板文件的路径
           const template = "barcode_template.xlsx";
 
-          // {code_1.comment_3}
+          // 从您的源获取数据
           const data_csv =
               new assemblyLib.CsvDataSource("Barcode Labels.csv", 
               new assemblyLib.CsvDataLoadOptions(true));
 
-          // {code_1.comment_4}
+          // 创建一个包含所需详细信息的数据源对象
           const data 
               = new assemblyLib.DataSourceInfo(data_csv, "label");
 
-          // {code_1.comment_5}
+          // 初始化 DocumentAssembler 的实例
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // 设置条形码配置
           asm.getBarcodeSettings().setResolution(1200);
           asm.getBarcodeSettings().setBaseYDimension(5f);
 
-          // {code_1.comment_7}
+          // 保存包含条形码的文档
           asm.assembleDocument(template, "result.xlsx", data);
           ```
         platform: "java"
@@ -192,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "探索主要功能"
     exclude: "barcode"
-    description: ""
+    description: "通过先进的工具和自动化功能简化文档处理。"
     items: 
           
         # operation loop 1
@@ -231,9 +231,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "报告创建支持的文件格式"
     exclude: "XLSX"
-    description: ""
+    description: "Node.js via Java 处理超过 50 种文件类型，使得合并数据和处理模板以获得高质量结果变得简单。"
     items: 
           
         # format loop 1

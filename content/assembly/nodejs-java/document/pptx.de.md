@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:15
+date:  2025-01-16T13:04:01
 draft: false
 lang: de
 format: Pptx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Dokumente im PPTX mit JavaScript zusammenführen"
+head_description: "JavaScript ermöglicht das Kombinieren von PPTX-Dateien. GroupDocs.Assembly vereinfacht das Zusammenführen von Dokumenten in nur wenigen Schritten."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Inhalte in PPTX-Dateien mühelos kombinieren" 
+description: "Mit GroupDocs.Assembly for Node.js via Java ist das Integrieren einer PPTX-Datei in eine andere schnell und präzise. Profitieren Sie von flexiblen, zuverlässigen Werkzeugen für nahtloses Merging."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Jetzt kostenlos testen"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Überblick über GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Mehr erfahren"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) bietet eine leistungsstarke Möglichkeit zur Verwaltung von Dokumenten. Fügen Sie mit Leichtigkeit eine Datei in eine andere ein und unterstützen Sie über 50 Formate, darunter PDF und MS Office. Passen Sie Layouts an, bearbeiten Sie Inhalte und organisieren Sie Dokumente ganz nach Ihren Bedürfnissen.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Wie man ein Dokument in eine PPTX-Datei zusammenführt"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) ermöglicht es Ihnen, eine PPTX-Datei in eine andere mit anpassbaren Optionen einzufügen.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Entwerfen Sie eine PPTX-Vorlage mit Platzhaltern für den Inhalt.
+      2. Setzen Sie den Dateipfad für die Vorlage.
+      3. Geben Sie den Dateipfad für das zusammenzufügende Dokument an.
+      4. Exportieren Sie die endgültige Datei mit dem kombinierten Inhalt.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Fügen Sie dieses Tag in Ihre Vorlage ein, um zu definieren, wo das Dokument eingebettet wird.
         // <<doc [doc_expression]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Setzen Sie den Dateipfad für die Hauptvorlage.
         const template = "doc_template.pptx";
 
-        // {examples.comment_3}
+        // Geben Sie den Pfad für das Dokument an, das Sie zusammenführen möchten.
         const data 
             = new assemblyLib.DataSourceInfo("insert.pptx", "doc_expression");
 
-        // {examples.comment_4}
+        // Speichern Sie die endgültige Ausgabe mit dem eingebetteten Dokument.
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pptx", data);
         ```           
@@ -92,52 +92,52 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Leistungsstarke Werkzeuge für die Dokumentenintegration"
+  description: "GroupDocs.Assembly for Node.js via Java ermöglicht das Einbetten von Dateien in verschiedenen Formaten auf einfache und vollständig anpassbare Weise. Liefern Sie jedes Mal konsistente, professionelle Ergebnisse."
   image: "/img/assembly/features_document.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Hauptmerkmale von GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Berichte mit Geschäftsdaten generieren"
+      content: "Ziehen Sie Daten aus JSON-, XML- oder CSV-Quellen, um umfassende Berichte und Dokumente schnell und präzise zu erstellen."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Reiche visuelle Elemente hinzufügen"
+      content: "GroupDocs.Assembly ermöglicht es Ihnen, Tabellen, Diagramme, Listen, Bilder und Strichcodes neben Text und Hyperlinks einzufügen."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Präzise Datenplatzierung"
+      content: "Verwenden Sie LINQ-Vorlagen, um Daten genau dort zu platzieren, wo sie hingehören, wiederkehrende Elemente wie Arrays zu handhaben und Stile mühelos anzupassen."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Kompatibel mit verschiedenen Formaten"
+      content: "Fügen Sie Inhalte nahtlos über Formate wie PDFs, MS Office-Dateien, HTML und OpenOffice zusammen und bieten Sie Flexibilität für alle Projekte."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Ein Bild programmgesteuert in ein Dokument einfügen"
       content: |
-        {code_1.content}
+        Dieses Beispiel zeigt, wie man ein Bild in eine PPTX-Datei mit GroupDocs.Assembly einfügt.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Fügen Sie einen Platzhalter in die Vorlage für das Bild ein.
           // <<image [expression]>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Geben Sie den Pfad zur Vorlage an.
           const template = "template.pptx";
 
-          // {code_1.comment_3}
+          // Setzen Sie den Pfad zum Bild, das Sie einbetten möchten.
           const data =
               = new assemblyLib.DataSourceInfo("logo.jpg", "expression");
 
-          // {code_1.comment_4}
+          // Initialisieren Sie das DocumentAssembler-Objekt.
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_5}
+          // Speichern Sie das Dokument mit dem enthaltenen Bild.
           asm.assembleDocument(template, "result.pptx", data);
           ```
         platform: "java"
@@ -183,9 +183,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Kernfunktionen auf einen Blick"
     exclude: "document"
-    description: ""
+    description: "Erkunden Sie die umfassenden Werkzeuge, die GroupDocs.Assembly für effizientes und nahtloses Dokumenten-Merging bietet."
     items: 
           
         # operation loop 1
@@ -222,9 +222,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Dokumente in vielen Formaten kombinieren"
     exclude: "PPTX"
-    description: ""
+    description: "Verwenden Sie Node.js via Java, um Inhalte über 50 Datei-Formate hinweg zusammenzuführen und professionelle und makellose Ergebnisse zu garantieren."
     items: 
           
         # format loop 1

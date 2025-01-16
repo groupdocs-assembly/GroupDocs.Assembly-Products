@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:17
+date:  2025-01-16T13:04:03
 draft: false
 lang: ja
 format: Pdf
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "JavaScriptでPDFの動的リストを作成"
+head_description: "GroupDocs.Assembly for Node.js via Java APIを使用してPDFテンプレートにリストをデザインし、挿入します。"
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Node.jsを使ったPDFファイルへのデータ駆動型リストの埋め込み" 
+description: "GroupDocs.Assembly for Node.js via Javaは、PDF文書に柔軟でデータ駆動のリストを追加するための強力なツールを提供します。"
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "無料で始める"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "GroupDocs.Assembly for Node.js via Javaについて"
     link: "/assembly/nodejs-java/"
     link_title: "詳細を見る"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/)は、さまざまなソースからデータを取得し、それをテンプレートに埋め込むことで文書作成を簡素化します。リスト、表、チャート、その他の要素を精密に配置し、フォーマットオプションを用いて構築することができます。PDFやMS Office、電子メールを含む50以上のフォーマットに対応し、文書生成プロセスを自動化します。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "PDFファイルにリストを挿入する手順"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/)を使用すると、PDFテンプレートに詳細なデータ駆動型リストを追加することができます。
       
-      1. {texts_pdf.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {texts_pdf.step_4}
+      1. リスト用のプレースホルダーがあるテンプレートをデザインします（PDFテンプレートはサポートされていません）。
+      2. テンプレートのファイルパスを提供します。
+      3. JSONやXMLなどのサポートされているソースからデータを読み込みます。
+      4. リストを含む完成した文書をPDFファイルとしてエクスポートします。
    
     code:
       platform: "java"
@@ -72,20 +72,20 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // このタグをテンプレートに配置して、リストの挿入位置を指定します
         // <<foreach [in customers]>><<[CustomerName]>><</foreach>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
-        // {texts_pdf.comment_tmp}
+        // テンプレートのファイルパスを設定します
+        // PDFテンプレートは現在サポートされていません。
         const template = "list_template.docx";
 
-        // {examples.comment_3}
+        // 使用するデータソースからデータを取得します
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {examples.comment_4}
+        // 埋め込まれたリストを含むファイルとして保存します
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pdf", data);
         ```           
@@ -93,58 +93,58 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "統合データを使った文書の生成"
+  description: "GroupDocs.Assembly for Node.js via Javaを使用すると、リスト、表、チャート、その他の要素をテンプレートに埋め込むことができ、時間と労力を節約できます。"
   image: "/img/assembly/features_list.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "GroupDocs.Assemblyのハイライト"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "複数のデータソースからのレポート生成"
+      content: "JSON、XML、CSVなどのフォーマットからデータをインポートし、リストやその他のコンポーネントを効率的にポピュレートします。"
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "リストやその他の視覚要素の追加"
+      content: "GroupDocs.Assemblyを使用すると、テキスト、画像、リンクと並べてリスト、表、チャートなどをシームレスに埋め込むことができ、洗練された結果を得られます。"
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "データの正確な配置とスタイル設定"
+      content: "LINQベースのテンプレートを使用すると、リストやその他のデータが表示される正確な位置を制御し、繰り返し要素のためのループを使用して、ニーズに合わせたスタイルをカスタマイズできます。"
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "複数のフォーマットに対応"
+      content: "MS Office、PDF、OpenOffice、HTML、電子メールなどのフォーマットで文書を作成します。さまざまなソースからコンテンツを統合して1つのファイルにまとめます。"
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "プログラムで文書にリストを作成する"
       content: |
-        {code_1.content}
+        この例では、GroupDocs.Assemblyを使用してPDF文書にリストを動的に追加する方法を示します。
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // リスト用のプレースホルダーをテンプレートに追加します
           // <<foreach [in products]>><<[NumberOf()]>>. <<[ProductName]>>
           // <</foreach>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
-          // {texts_pdf.comment_tmp}
+          // テンプレートのファイルパスを指定します
+          // PDFテンプレートは現在サポートされていません。
           const template = "numlist_template.docx";
 
-          // {code_1.comment_3}
+          // リストをポピュレートするためにデータを読み込みます
           const data_xml =
               new assemblyLib.XmlDataSource("products.xml");
 
-          // {code_1.comment_4}
+          // 必要な詳細を含むデータソースを準備します
           const data 
               = new assemblyLib.DataSourceInfo(data_xml, "products");
 
-          // {code_1.comment_5}
+          // DocumentAssemblerを初期化します
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // リストを含む最終文書を保存します
           asm.assembleDocument(template, "result.pdf", data);
           ```
         platform: "java"
@@ -190,9 +190,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "GroupDocs.Assemblyの機能を探索"
     exclude: "list"
-    description: ""
+    description: "強力な統合ツールを使用して、データが豊富な文書を手間なくデザインおよび生成します。"
     items: 
           
         # operation loop 1
@@ -229,9 +229,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "複数のフォーマットで文書を作成"
     exclude: "PDF"
-    description: ""
+    description: "Node.js via Javaは50以上のファイルフォーマットをサポートし、テンプレートとデータを専門的な成果に統合することが簡単です。"
     items: 
           
         # format loop 1

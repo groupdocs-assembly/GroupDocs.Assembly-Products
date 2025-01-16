@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:15
+date:  2025-01-16T13:04:02
 draft: false
 lang: fa
 format: Xlsx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "ترکیب اسناد در XLSX با JavaScript"
+head_description: "با استفاده از JavaScript فایل‌های XLSX را ترکیب کنید. GroupDocs.Assembly ادغام اسناد را در چند مرحله ساده تسریع می‌بخشد."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "ادغام محتوای فایل‌های XLSX بدون دردسر" 
+description: "با GroupDocs.Assembly for Node.js via Java، ادغام یک فایل XLSX به دیگری سریع و دقیق است. از ابزارهای قابل اعتماد و منعطف برای ادغام روان لذت ببرید."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "آزمایش رایگان"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "مروری بر GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "بیشتر بیاموزید"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) یک روش قوی برای مدیریت اسناد ارائه می‌دهد. یک فایل را به دیگری بدون زحمت ادغام کنید و از بیش از ۵۰ فرمت، از جمله PDF و MS Office پشتیبانی کنید. طرح‌ها را شخصی‌سازی کنید، محتوا را ویرایش کنید و اسناد را دقیقاً به شیوه‌ای که نیاز دارید سازماندهی کنید.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "چگونه یک سند را به یک فایل XLSX ادغام کنیم"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) به شما امکان می‌دهد یک فایل XLSX را به دیگری با گزینه‌های قابل سفارشی‌سازی اضافه کنید.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. یک الگوی XLSX با جای‌گذاری برای محتوا طراحی کنید.
+      2. مسیر فایل را برای الگو مشخص کنید.
+      3. مسیر فایل را برای سندی که می‌خواهید ادغام کنید، ارائه دهید.
+      4. فایل نهایی را با محتوای ترکیب شده صادر کنید.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // این برچسب را به الگوی خود اضافه کنید تا مشخص کنید کجا سند درج خواهد شد.
         // <<doc [doc_expression]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // مسیر فایل را برای قالب اصلی تنظیم کنید.
         const template = "doc_template.xlsx";
 
-        // {examples.comment_3}
+        // مسیر سندی را که می‌خواهید ادغام کنید، ارائه دهید.
         const data 
             = new assemblyLib.DataSourceInfo("insert.xlsx", "doc_expression");
 
-        // {examples.comment_4}
+        // خروجی نهایی را با سند ادغام شده ذخیره کنید.
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.xlsx", data);
         ```           
@@ -92,52 +92,52 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "ابزارهای قدرتمند برای ادغام اسناد"
+  description: "GroupDocs.Assembly for Node.js via Java ادغام فایل‌ها را در قالب‌های مختلف آسان و کاملاً قابل سفارشی‌سازی می‌کند. نتایج حرفه‌ای و یکپارچه را هر بار ارائه می‌دهد."
   image: "/img/assembly/features_document.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "ویژگی‌های کلیدی GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "تولید گزارش‌ها با داده‌های تجاری"
+      content: "داده‌ها را از منابع JSON، XML یا CSV استخراج کنید تا گزارش‌ها و اسناد جامع را به سرعت و دقت ایجاد کنید."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "اضافه کردن عناصر بصری غنی"
+      content: "GroupDocs.Assembly به شما امکان می‌دهد جداول، نمودارها، لیست‌ها، تصاویر و بارکدها را در کنار متن و هایپرلینک‌ها درج کنید."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "قرارگیری دقیق داده‌ها"
+      content: "از الگوهای LINQ برای قرار دادن داده‌ها در مکان دقیق خود استفاده کنید، اشیای تکراری مانند آرایه‌ها را مدیریت کنید و به راحتی سبک‌ها را سفارشی‌سازی کنید."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "کار با انواع فرمت‌ها"
+      content: "محتوا را در بین فرمت‌هایی مانند PDF، فایل‌های MS Office، HTML و OpenOffice به‌طور یکپارچه ادغام کنید و انعطاف‌پذیری برای تمام پروژه‌ها ارائه دهید."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "برنامه‌نویسی برای درج یک تصویر در یک سند"
       content: |
-        {code_1.content}
+        این مثال نشان می‌دهد که چگونه می‌توان یک تصویر را در یک فایل XLSX با استفاده از GroupDocs.Assembly درج کرد.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // یک جای‌گذاری در الگو برای تصویر اضافه کنید.
           // <<image [expression]>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // مسیر فایل الگو را مشخص کنید.
           const template = "template.xlsx";
 
-          // {code_1.comment_3}
+          // مسیر تصویر مورد نظر برای درج را تنظیم کنید.
           const data =
               = new assemblyLib.DataSourceInfo("logo.jpg", "expression");
 
-          // {code_1.comment_4}
+          // شیء DocumentAssembler را مقداردهی اولیه کنید.
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_5}
+          // سند را با تصویر درون‌گریزی ذخیره کنید.
           asm.assembleDocument(template, "result.xlsx", data);
           ```
         platform: "java"
@@ -183,9 +183,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "ویژگی‌های اصلی در یک نگاه"
     exclude: "document"
-    description: ""
+    description: "ابزارهای جامع را که GroupDocs.Assembly برای ادغام کارآمد و یکپارچه اسناد ارائه می‌دهد، کشف کنید."
     items: 
           
         # operation loop 1
@@ -222,9 +222,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "ترکیب اسناد در فرمت‌های متعدد"
     exclude: "XLSX"
-    description: ""
+    description: "با استفاده از Node.js via Java محتوای خود را در بیش از ۵۰ فرمت فایل ادغام کنید و نتایج حرفه‌ای و بی‌نقصی را تضمین کنید."
     items: 
           
         # format loop 1

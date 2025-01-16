@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:18
+date:  2025-01-16T13:04:04
 draft: false
 lang: de
 format: Pptx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Tabellen in PPTX-Dokumente mit JavaScript einfügen"
+head_description: "Verwenden Sie GroupDocs.Assembly for Node.js via Java, um Tabellen schnell in Dokumente oder E-Mails einzufügen und Daten aus verschiedenen Quellen zu beziehen."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Tabellen mühelos zu PPTX-Dateien mit Node.js hinzufügen" 
+description: "Mit GroupDocs.Assembly for Node.js via Java ist das Befüllen von Tabellen in PPTX-Dokumenten unkompliziert, indem Daten aus mehreren Quellen verwendet werden."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Testversion starten"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Einführung in GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Mehr erfahren"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) ist ein leistungsstarkes Tool zur Automatisierung der Dokumentenerstellung. Es ermöglicht das einfache Einfügen von Tabellen, Diagrammen, Listen und Bildern in Vorlagen mit präziser Inhaltsplatzierung. Mit Unterstützung für über 50 Dateiformate, einschließlich PDF, Word und E-Mail, optimiert es die Erstellung von Berichten und anderen Aufgaben.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Wie man Daten in eine Tabelle in PPTX einfügt"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) ermöglicht es Ihnen, dynamische Datenquellen schnell für Tabellenvorlagen in PPTX-Dateien zu nutzen.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Erstellen Sie eine PPTX-Vorlage mit Platzhaltern für Tabellenzeilen und -spalten.
+      2. Laden Sie Daten aus einer unterstützten Quelle wie JSON oder CSV.
+      3. Organisieren und formatieren Sie die Daten nach Bedarf.
+      4. Generieren Sie das Dokument mit der ausgefüllten Tabelle.
    
     code:
       platform: "java"
@@ -72,21 +72,21 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Fügen Sie diese Tags in die Platzhalter für Tabellenzeilen Ihrer Vorlage ein
         // <<foreach [c in ds]>>
         // <<[c.Client]>><<[c.Manager]>><<[c.Price]>>
         // <</foreach>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Geben Sie den Pfad zur Vorlagendatei an
         const template = "table_template.pptx";
 
-        // {examples.comment_3}
+        // Laden Sie Ihre Daten aus einer ausgewählten Quelle
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "ds");
 
-        // {examples.comment_4}
+        // Speichern Sie das endgültige Dokument mit der ausgefüllten Tabelle
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pptx", data);
         ```           
@@ -94,57 +94,57 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Datengetriebene Tabellen einfach in Dokumente einfügen"
+  description: "GroupDocs.Assembly for Node.js via Java ermöglicht es Benutzern, Tabellen automatisch zu erstellen und gleichzeitig Diagramme, Bilder und Listen mit vorlagenbasierten Workflows einzufügen."
   image: "/img/assembly/features_table.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Top-Funktionen von GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Tabellen aus strukturierten Daten generieren"
+      content: "Daten aus JSON, XML, CSV und anderen Formaten abrufen, um Dokumenttabellen automatisch auszufüllen."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Professionelle visuelle Inhalte erstellen"
+      content: "Verwenden Sie GroupDocs.Assembly, um professionelle Tabellen, Diagramme und Listen zu gestalten und Links, Bilder sowie Text für ein verfeinertes Dokumentenlayout hinzuzufügen."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Dynamische Inhaltsplatzierung in Tabellen"
+      content: "Reihen und Spalten programmgesteuert mit LINQ-basierten Vorlagen hinzufügen und Stile wie Schriftarten, Farben und Ausrichtung anpassen."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Funktioniert nahtlos über Formate hinweg"
+      content: "Tabellen in MS Office, OpenOffice, PDF, HTML und anderen Formaten einfach erstellen oder bearbeiten und nach Bedarf in Dateien zusammenführen."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "So fügen Sie programmgesteuert eine Tabelle ein"
       content: |
-        {code_1.content}
+        Dieses Beispiel zeigt, wie man eine Tabelle in einem PPTX-Dokument mit Daten aus einer externen Quelle füllt.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Gestalten Sie eine Vorlage mit Platzhaltern für die Tabelle
           // <<foreach [c in items]>> <<[c.Client]>><<[c.Manager]>>
           //  <<[c.Price]>> <</foreach>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Geben Sie den Dateipfad zur Vorlage an
           const template = "table_template.pptx";
 
-          // {code_1.comment_3}
+          // Laden Sie die erforderlichen Daten aus Ihrer Quelle
           const data_json = 
             new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
+          // Organisieren Sie die Daten in die notwendige Struktur
           const data 
               = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
+          // Initialisieren Sie DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Speichern Sie das Ausgabedokument mit der ausgefüllten Tabelle
           asm.assembleDocument(template, "result.pptx", data);
           ```
         platform: "java"
@@ -190,9 +190,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Kernfunktionen auf einen Blick"
     exclude: "table"
-    description: ""
+    description: "Unsere API automatisiert die Tabellenerstellung und verbessert die Dokumentengenerierung mit vielseitigen Tools und Vorlagen."
     items: 
           
         # operation loop 1
@@ -229,9 +229,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Tabellen in einer Vielzahl von Formaten generieren"
     exclude: "PPTX"
-    description: ""
+    description: "Mit Node.js via Java Vorlagen ausfüllen und umfassende Tabellen über mehr als 50 unterstützte Dateitypen erstellen."
     items: 
           
         # format loop 1

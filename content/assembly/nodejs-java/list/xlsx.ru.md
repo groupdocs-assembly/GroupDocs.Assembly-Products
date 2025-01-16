@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:16
+date:  2025-01-16T13:04:03
 draft: false
 lang: ru
 format: Xlsx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Создание Динамических Списков в XLSX с помощью JavaScript"
+head_description: "Проектируйте и вставляйте списки в шаблоны XLSX с использованием API GroupDocs.Assembly for Node.js via Java."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Встраивание Данных в Списки для Файлов XLSX с Node.js" 
+description: "GroupDocs.Assembly for Node.js via Java предлагает мощные инструменты для добавления гибких списков на основе данных в документы XLSX."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Начать Бесплатно"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "О GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Узнать больше"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) упрощает создание документов, извлекая данные из различных источников и встраивая их в шаблоны. С его помощью можно создавать списки, таблицы, диаграммы и другие элементы с точным размещением и параметрами форматирования. Поддерживая более 50 форматов, включая PDF, MS Office и электронную почту, он помогает автоматизировать процесс генерации документов.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Шаги для Вставки Списка в Файл XLSX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) позволяет добавлять детализированные списки, основанные на данных, в ваши шаблоны XLSX.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Создайте шаблон XLSX и определите места для списка.
+      2. Укажите путь к файлу шаблона.
+      3. Загрузите данные из поддерживаемых источников, таких как JSON или XML.
+      4. Сохраните документ с созданным списком.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Разместите этот тег в своем шаблоне, чтобы отметить, где будет находиться список
         // <<foreach [in customers]>><<[CustomerName]>><</foreach>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Укажите путь к файлу для вашего шаблона
         const template = "list_template.xlsx";
 
-        // {examples.comment_3}
+        // Получите данные из источника, который хотите использовать
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {examples.comment_4}
+        // Сохраните файл со встроенным списком
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.xlsx", data);
         ```           
@@ -92,57 +92,57 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Эффективное Генерирование Документов с Интегрированными Данными"
+  description: "С GroupDocs.Assembly for Node.js via Java вы можете встраивать списки, таблицы, диаграммы и другие элементы в шаблоны, экономя время и усилия."
   image: "/img/assembly/features_list.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Основные возможности GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Генерация Отчетов из Нескольких Источников Данных"
+      content: "Импортируйте данные из JSON, XML, CSV или других форматов для эффективного заполнения списков и других компонентов."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Добавление Списков и Других Визуальных Элементов"
+      content: "GroupDocs.Assembly позволяет бесшовно встраивать списки, таблицы, диаграммы и другое вместе с текстом, изображениями и ссылками для получения качественных результатов."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Точное Размещение и Стилизация Данных"
+      content: "Шаблоны на основе LINQ позволяют контролировать, где точно будут располагаться списки и другие данные, использовать циклы для повторяющихся элементов и настраивать стили в соответствии с вашими потребностями."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Работа с Несколькими Форматами"
+      content: "Создавайте документы в форматах, таких как MS Office, PDF, OpenOffice, HTML и электронные письма. Объединяйте контент из различных источников в один файл."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Программное Создание Списка в Документе"
       content: |
-        {code_1.content}
+        Этот пример демонстрирует, как динамически добавить список в документ формата XLSX с помощью GroupDocs.Assembly.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Добавьте заполнитель в своем шаблоне для списка
           // <<foreach [in products]>><<[NumberOf()]>>. <<[ProductName]>>
           // <</foreach>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Укажите путь к файлу шаблона
           const template = "numlist_template.xlsx";
 
-          // {code_1.comment_3}
+          // Загрузите данные для заполнения списка
           const data_xml =
               new assemblyLib.XmlDataSource("products.xml");
 
-          // {code_1.comment_4}
+          // Подготовьте источник данных с необходимыми деталями
           const data 
               = new assemblyLib.DataSourceInfo(data_xml, "products");
 
-          // {code_1.comment_5}
+          // Инициализируйте DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Сохраните окончательный документ с включенным списком
           asm.assembleDocument(template, "result.xlsx", data);
           ```
         platform: "java"
@@ -188,9 +188,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Изучите Возможности GroupDocs.Assembly"
     exclude: "list"
-    description: ""
+    description: "Проектируйте и генерируйте насыщенные данными документы без лишних усилий с использованием мощных интеграционных инструментов."
     items: 
           
         # operation loop 1
@@ -227,9 +227,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Создание Документов в Нескольких Форматах"
     exclude: "XLSX"
-    description: ""
+    description: "Node.js via Java поддерживает более 50 форматов файлов, что упрощает объединение шаблонов и данных в профессиональные результаты."
     items: 
           
         # format loop 1

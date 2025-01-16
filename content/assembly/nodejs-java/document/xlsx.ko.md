@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:15
+date:  2025-01-16T13:04:02
 draft: false
 lang: ko
 format: Xlsx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "JavaScript로 XLSX 파일 병합하기"
+head_description: "JavaScript를 사용하여 XLSX 파일을 간편하게 결합하세요. GroupDocs.Assembly는 문서 병합을 몇 가지 간단한 단계로 효율적으로 처리합니다."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "XLSX 파일의 내용을 손쉽게 결합하기" 
+description: "GroupDocs.Assembly for Node.js via Java을 사용하면 하나의 XLSX 파일을 다른 파일에 신속하고 정확하게 통합할 수 있습니다. 매끄러운 병합을 위한 유연하고 신뢰할 수 있는 도구를 즐기세요."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "무료 체험하기"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "GroupDocs.Assembly for Node.js via Java 개요"
     link: "/assembly/nodejs-java/"
     link_title: "자세히 알아보기"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/)는 문서 관리를 위한 강력한 방법을 제공합니다. PDF 및 MS Office와 같은 50개 이상의 형식을 지원하며, 하나의 파일을 다른 파일에 결합하는 과정이 간편합니다. 레이아웃을 사용자 정의하고, 내용을 편집하며, 문서를 필요한 대로 정확하게 조직하세요.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "XLSX 파일에 문서 병합하기"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/)은 커스터마이즈 가능한 옵션으로 하나의 XLSX 파일을 다른 파일에 삽입하는 과정을 간소화합니다.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. XLSX 템플릿을 콘텐츠에 대한 플레이스홀더와 함께 디자인합니다.
+      2. 템플릿에 대한 파일 경로를 설정합니다.
+      3. 병합할 문서의 파일 경로를 제공합니다.
+      4. 결합된 콘텐츠로 최종 파일을 내보냅니다.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // 템플릿에 이 태그를 삽입하여 문서가 삽입될 위치를 정의합니다.
         // <<doc [doc_expression]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // 주 템플릿의 파일 경로를 설정합니다.
         const template = "doc_template.xlsx";
 
-        // {examples.comment_3}
+        // 병합할 문서의 경로를 제공하세요.
         const data 
             = new assemblyLib.DataSourceInfo("insert.xlsx", "doc_expression");
 
-        // {examples.comment_4}
+        // 삽입된 문서와 함께 최종 출력을 저장합니다.
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.xlsx", data);
         ```           
@@ -92,52 +92,52 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "문서 통합을 위한 강력한 도구"
+  description: "GroupDocs.Assembly for Node.js via Java은 다양한 형식 간 파일 삽입을 쉽고 완전히 사용자 정의할 수 있도록 합니다. 매번 일관되고 전문적인 결과를 제공합니다."
   image: "/img/assembly/features_document.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "GroupDocs.Assembly의 주요 기능"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "비즈니스 데이터로 보고서 생성"
+      content: "JSON, XML 또는 CSV 소스에서 데이터를 추출하여 신속하고 정확하게 포괄적인 보고서와 문서를 작성할 수 있습니다."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "풍부한 시각적 요소 추가"
+      content: "GroupDocs.Assembly를 사용하면 테이블, 차트, 목록, 이미지 및 바코드를 텍스트와 하이퍼링크와 함께 포함할 수 있습니다."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "정확한 데이터 배치"
+      content: "LINQ 템플릿을 사용하여 데이터를 정확한 위치에 배치하고, 배열과 같은 반복 항목을 처리하며, 스타일을 간편하게 사용자 정의하세요."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "다양한 형식 지원"
+      content: "PDF, MS Office 파일, HTML, OpenOffice와 같은 형식 간 콘텐츠를 매끄럽게 병합하여 모든 프로젝트에 유연성을 제공합니다."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "프로그램을 통해 문서에 이미지 삽입하기"
       content: |
-        {code_1.content}
+        이 예제는 GroupDocs.Assembly를 사용하여 XLSX 파일에 이미지를 삽입하는 방법을 보여줍니다.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // 이미지를 위한 템플릿에 플레이스홀더를 추가합니다.
           // <<image [expression]>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // 템플릿 파일의 경로를 지정합니다.
           const template = "template.xlsx";
 
-          // {code_1.comment_3}
+          // 삽입할 이미지의 경로를 설정합니다.
           const data =
               = new assemblyLib.DataSourceInfo("logo.jpg", "expression");
 
-          // {code_1.comment_4}
+          // DocumentAssembler 객체를 초기화합니다.
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_5}
+          // 이미지가 포함된 문서를 저장합니다.
           asm.assembleDocument(template, "result.xlsx", data);
           ```
         platform: "java"
@@ -183,9 +183,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "핵심 기능 개요"
     exclude: "document"
-    description: ""
+    description: "GroupDocs.Assembly이 제공하는 효율적이고 원활한 문서 병합을 위한 종합 도구를 탐색하세요."
     items: 
           
         # operation loop 1
@@ -222,9 +222,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "여러 형식의 문서 결합"
     exclude: "XLSX"
-    description: ""
+    description: "Node.js via Java을 사용하여 50개 이상의 파일 형식 간 콘텐츠를 병합하여 전문적이고 세련된 결과를 보장하세요."
     items: 
           
         # format loop 1

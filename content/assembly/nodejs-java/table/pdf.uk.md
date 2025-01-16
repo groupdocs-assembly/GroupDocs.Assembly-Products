@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:18
+date:  2025-01-16T13:04:05
 draft: false
 lang: uk
 format: Pdf
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Вставка таблиць у PDF документи з JavaScript"
+head_description: "Використовуйте GroupDocs.Assembly for Node.js via Java для швидкого вбудовування таблиць у документи або електронні листи, отримуючи дані з різних джерел."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Без зусиль додавайте таблиці до PDF файлів за допомогою Node.js" 
+description: "З GroupDocs.Assembly for Node.js via Java заповнення таблиць у PDF документах є простим, використовуючи дані з кількох джерел."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Розпочати безкоштовний пробний період"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Вступ до GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Дізнатися більше"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) — це потужний інструмент для автоматизації створення документів. Він дозволяє вставляти таблиці, графіки, списки та зображення в шаблони з точною розміткою вмісту. Підтримуючи понад 50 форматів файлів, включаючи PDF, Word та електронну пошту, він спрощує створення звітів та інші завдання.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Як додати дані до таблиці в PDF"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) дозволяє вам швидко заповнювати шаблони таблиць для файлів PDF, використовуючи динамічні джерела даних.
       
-      1. {texts_pdf.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {texts_pdf.step_4}
+      1. Створіть шаблон з заповнювачами для таблиці (на даний момент PDF-шаблони не підтримуються).
+      2. Завантажте дані з підтримуваного джерела, наприклад JSON або CSV.
+      3. Організуйте та відформатуйте дані за потреби.
+      4. Експортуйте документ з заповненою таблицею у PDF файл.
    
     code:
       platform: "java"
@@ -72,22 +72,22 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Додайте ці теги до заповнювачів рядків таблиці у вашому шаблоні
         // <<foreach [c in ds]>>
         // <<[c.Client]>><<[c.Manager]>><<[c.Price]>>
         // <</foreach>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
-        // {texts_pdf.comment_tmp}
+        // Вкажіть шлях до шаблону
+        // PDF-шаблони на даний момент не підтримуються.
         const template = "table_template.docx";
 
-        // {examples.comment_3}
+        // Завантажте свої дані з обраного джерела
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "ds");
 
-        // {examples.comment_4}
+        // Збережіть остаточний документ з заповненою таблицею
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pdf", data);
         ```           
@@ -95,58 +95,58 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Легке додавання таблиць на основі даних до документів"
+  description: "GroupDocs.Assembly for Node.js via Java дозволяє користувачам автоматично створювати таблиці, при цьому вбудовуючи графіки, зображення та списки за допомогою шаблонізованих робочих процесів."
   image: "/img/assembly/features_table.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Основні функції GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Генерація таблиць з структурованих даних"
+      content: "Отримуйте дані з JSON, XML, CSV та інших форматів для автоматичного заповнення таблиць документа."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Створення естетичного вмісту"
+      content: "Використовуйте GroupDocs.Assembly для проектування професійних таблиць, графіків і списків, а також для додавання посилань, зображень і тексту для вдосконаленого вигляду документа."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Динамічне розміщення вмісту таблиці"
+      content: "Додавайте рядки та стовпці програмно за допомогою шаблонів на основі LINQ та налаштовуйте стилі, такі як шрифти, кольори та вирівнювання."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Безперешкодно працює з різними форматами"
+      content: "Легко створюйте або редагуйте таблиці в MS Office, OpenOffice, PDF, HTML та інших форматах, об'єднуючи їх у файли за потреби."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Як програмно заповнити таблицю"
       content: |
-        {code_1.content}
+        Цей приклад демонструє заповнення таблиці в документі PDF даними з зовнішнього джерела.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Розробіть шаблон із заповнювачами для таблиці
           // <<foreach [c in items]>> <<[c.Client]>><<[c.Manager]>>
           //  <<[c.Price]>> <</foreach>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
-          // {texts_pdf.comment_tmp}
+          // Вкажіть шлях до файлу шаблону
+          // PDF-шаблони на даний момент не підтримуються.
           const template = "table_template.docx";
 
-          // {code_1.comment_3}
+          // Завантажте необхідні дані з вашого джерела
           const data_json = 
             new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
+          // Організуйте дані у потрібну структуру
           const data 
               = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
+          // Ініціалізуйте DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Збережіть вихідний документ з готовою таблицею
           asm.assembleDocument(template, "result.pdf", data);
           ```
         platform: "java"
@@ -192,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Основні функції в одному погляді"
     exclude: "table"
-    description: ""
+    description: "Наш API автоматизує створення таблиць і покращує генерацію документів з універсальними інструментами та шаблонами."
     items: 
           
         # operation loop 1
@@ -231,9 +231,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Генерація таблиць у різних форматах"
     exclude: "PDF"
-    description: ""
+    description: "З Node.js via Java заповнюйте шаблони та створюйте всебічні таблиці у більш ніж 50 підтримуваних форматах файлів."
     items: 
           
         # format loop 1

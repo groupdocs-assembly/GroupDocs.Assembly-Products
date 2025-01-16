@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-01-14T15:37:19
+date: 2025-01-16T13:04:06
 draft: false
 
 lang: th
@@ -24,17 +24,17 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "{index-content-nodejs-java.head_title}"
-head_description: "{index-content-nodejs-java.head_description}"
+head_title: "เครื่องมือ Node.js สำหรับการสร้าง อัตโนมัติ และปรับแต่งเอกสาร"
+head_description: "ไลบรารี Node.js สำหรับการทำงานอัตโนมัติของเอกสาร สร้างไฟล์ PDF, Word, Excel, PowerPoint, HTML, และอีเมลจากเทมเพลตของคุณ."
 
 ############################# Header ############################
-title: "{index-content-nodejs-java.title}"
-description: "{index-content-nodejs-java.description}"
+title: "API Node.js สำหรับการจัดทำเอกสารและรายงานอย่างง่าย"
+description: "ปรับปรุงการสร้างรายงานใน JavaScript โดยการรวมข้อมูลของคุณกับเทมเพลตที่สร้างไว้ล่วงหน้า."
 words:
   for: "สำหรับ"
 
 actions:
-  main: "{index-content-nodejs-java.actions_main}"
+  main: "เริ่มทดลองใช้งานบน NPM"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.assembly"
   alt: "การจัดทำใบอนุญาต"
   alt_link: "https://purchase.groupdocs.com/pricing/assembly/nodejs-java/"
@@ -48,7 +48,7 @@ release:
   link: "https://releases.groupdocs.com/assembly/nodejs-java/"
 
 code:
-  title: "{index-content-nodejs-java.code_title}"
+  title: "สร้างแผนภูมิในเอกสาร Word โดยใช้ Node.js"
   more: "ตัวอย่างเพิ่มเติม"
   more_link: "https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-Node.js-via-Java/"
   install: "npm i @groupdocs/groupdocs.assembly"
@@ -80,25 +80,25 @@ code:
 overview:
   enable: true
   title: "ภาพรวม GroupDocs.Assembly"
-  description: "{index-content-nodejs-java.overview_description}"
+  description: "ไลบรารี Node.js ที่ออกแบบมาเพื่อสร้างเอกสารโปรแกรมmatically พร้อมการจัดการข้อมูลที่รวมไว้."
   features:
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_1.title}"
-      content: "{index-content-nodejs-java.overview_feature_1.description}"
+    - title: "รวมข้อมูลธุรกิจเข้ากับเทมเพลตด้วย JavaScript"
+      content: "สร้างรายงานที่ดูดีโดยการฝัง JSON, XML, หรือข้อมูลอื่น ๆ ในเทมเพลตด้วย GroupDocs.Assembly for Node.js via Java."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_2.title}"
-      content: "{index-content-nodejs-java.overview_feature_2.description}"
+    - title: "จัดการเนื้อหาที่ฝัง"
+      content: "ทำให้ตาราง แผนภูมิ และวิชวลอื่น ๆ ในเอกสารของคุณถูกกรอกโดยอัตโนมัติด้วยข้อมูลภายนอก."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_3.title}"
-      content: "{index-content-nodejs-java.overview_feature_3.description}"
+    - title: "ตัวเลือกที่ปรับแต่งได้"
+      content: "GroupDocs.Assembly for Node.js via Java อนุญาตให้คุณเพิ่มฟีเจอร์ต่าง ๆ เช่น บาร์โค้ด ดึงข้อมูลจาก URL และส่งออกไฟล์ในรูปแบบต่าง ๆ."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "ความเป็นอิสระของแพลตฟอร์ม"
-  description: "{index-content-nodejs-java.platforms_description}"
+  description: "GroupDocs.Assembly for Node.js via Java เข้ากันได้อย่างราบรื่นกับระบบปฏิบัติการ เฟรมเวิร์ก และการจัดการแพ็คเกจชั้นนำ."
   items:
     # platform loop
     - title: "Amazon"
@@ -130,7 +130,7 @@ formats:
   enable: true
   title: "รูปแบบไฟล์ที่รองรับ"
   description: |
-    {index-content-nodejs-java.formats_description}
+    GroupDocs.Assembly for Node.js via Java รองรับรายการที่กว้างขวางของ [รูปแบบเอกสาร](https://docs.groupdocs.com/assembly/nodejs-java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -157,66 +157,66 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-nodejs-java.features.title}"
-  description: "{index-content-nodejs-java.features.description}"
+  title: "คุณสมบัติหลักของ GroupDocs.Assembly"
+  description: "สร้างเอกสารและรายงานที่มีพลศาสตร์ด้วยเครื่องมือการจัดการข้อมูลที่ทรงพลัง."
 
   items:
     # feature loop
     - icon: "preview"
-      title: "{index-content-nodejs-java.features.feature_1.title}"
-      content: "{index-content-nodejs-java.features.feature_1.content}"
+      title: "วิชวลข้อมูลที่หลากหลาย"
+      content: "แทรกแผนภูมิ ตาราง รูปภาพ และรายการต่าง ๆ ลงในเอกสารของคุณได้อย่างเต็มที่."
 
     # feature loop
     - icon: "manipulate"
-      title: "{index-content-nodejs-java.features.feature_2.title}"
-      content: "{index-content-nodejs-java.features.feature_2.content}"
+      title: "แปลงข้อมูลของคุณ"
+      content: "ใช้เครื่องมืออย่างสูตรและการจัดเรียงเพื่อจัดโครงสร้างและแสดงข้อมูลอย่างมีประสิทธิภาพ."
 
     # feature loop
     - icon: "two_pages"
-      title: "{index-content-nodejs-java.features.feature_3.title}"
-      content: "{index-content-nodejs-java.features.feature_3.content}"
+      title: "รองรับรูปแบบที่หลากหลาย"
+      content: "ทำงานร่วมกับรูปแบบไฟล์ยอดนิยมสำหรับเทมเพลตและผลลัพธ์ได้อย่างไร้รอยต่อ."
 
     # feature loop
     - icon: "document_settings"
-      title: "{index-content-nodejs-java.features.feature_4.title}"
-      content: "{index-content-nodejs-java.features.feature_4.content}"
+      title: "การปรับแต่งเทมเพลตขั้นสูง"
+      content: "จัดรูปแบบเทมเพลตด้วยตัวเลือกการจัดสไตล์เช่น ตัวเลข ตัวอักษร และอื่น ๆ."
 
     # feature loop
     - icon: "text"
-      title: "{index-content-nodejs-java.features.feature_5.title}"
-      content: "{index-content-nodejs-java.features.feature_5.content}"
+      title: "สร้างบาร์โค้ดแบบพลศาสตร์"
+      content: "สร้างและฝังภาพบาร์โค้ดโดยตรงเข้าไปในเอกสารของคุณตามที่ต้องการ."
 
     # feature loop
     - icon: "add"
-      title: "{index-content-nodejs-java.features.feature_6.title}"
-      content: "{index-content-nodejs-java.features.feature_6.content}"
+      title: "การจัดรูปแบบข้อความที่ยืดหยุ่น"
+      content: "นำรูปแบบข้อความเช่น การใช้ตัวใหญ่ทั้งหมดหรือชื่อตำแหน่งในเทมเพลตของคุณได้อย่างง่ายดาย."
 
     # feature loop
     - icon: "manipulate"
-      title: "{index-content-nodejs-java.features.feature_7.title}"
-      content: "{index-content-nodejs-java.features.feature_7.content}"
+      title: "การแทรกเนื้อหาที่พลศาสตร์"
+      content: "รวมเนื้อหาจากไฟล์ภายนอกแบบพลศาสตร์ในระหว่างการสร้างเอกสาร."
 
     # feature loop
     - icon: "convert"
-      title: "{index-content-nodejs-java.features.feature_8.title}"
-      content: "{index-content-nodejs-java.features.feature_8.content}"
+      title: "ส่งออกไปยังรูปแบบต่าง ๆ"
+      content: "บันทึกเอกสารในหลายรูปแบบตามการกำหนดค่าที่คุณระบุ."
 
     # feature loop
     - icon: "update"
-      title: "{index-content-nodejs-java.features.feature_9.title}"
-      content: "{index-content-nodejs-java.features.feature_9.content}"
+      title: "แทรกสื่อแบบพลศาสตร์"
+      content: "แทรกรูปภาพหรือวัตถุอื่น ๆ โดยใช้ข้อมูล Base64 เมื่อสร้างเอกสาร."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "ตัวอย่างโค้ด"
-  description: "{index-content-nodejs-java.code_samples_description}"
+  description: "ค้นหาตัวอย่างการใช้งานจริงของ GroupDocs.Assembly สำหรับงานทั่วไป."
   items:
     # code sample loop
-    - title: "{index-content-nodejs-java.code_title_sample_1}"
+    - title: "เพิ่มรายการแบบมีสัญลักษณ์ในเอกสาร Word"
       content: |
-        {index-content-nodejs-java.code_samples_sample_1_content_1} {index-content-nodejs-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-nodejs-java.code_title_sample_1}">}}
+        ดูวิธีการสร้าง [รายการแบบมีสัญลักษณ์](https://docs.groupdocs.com/assembly/nodejs-java/bulleted-list-in-word-processing-document/) ในเอกสาร Word เพื่อจัดระเบียบข้อมูลได้อย่างมีประสิทธิภาพ. ตัวอย่างนี้แสดงให้เห็นถึงการสร้างรายการแบบมีสัญลักษณ์โดยใช้ GroupDocs.Assembly.
+        {{< landing/code title="เพิ่มรายการแบบมีสัญลักษณ์ในเอกสาร Word">}}
         ```javascript {style=abap}
         // แทรกเทมเพลตนี้บนหน้าของเอกสาร:
         // ตัวชี้วัดประสิทธิภาพของผู้จัดการ
@@ -241,10 +241,10 @@ code_samples:
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-nodejs-java.code_title_sample_2}"
+    - title: "แทรกแผนภูมิวงกลมใน PowerPoint"
       content: |
-        {index-content-nodejs-java.code_samples_sample_2_content_1} {index-content-nodejs-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-nodejs-java.code_title_sample_2}">}}
+        เรียนรู้วิธีใช้เทมเพลตและ XML เพื่อเพิ่ม [แผนภูมิวงกลม](https://docs.groupdocs.com/assembly/nodejs-java/pie-chart-in-presentation-document/) ในงานนำเสนอของคุณ. ปรับปรุงรายงานของคุณด้วยแผนภูมิวงกลมเพื่อเสนอข้อมูลให้ชัดเจนและเข้าใจง่าย.
+        {{< landing/code title="แทรกแผนภูมิวงกลมใน PowerPoint">}}
         ```javascript {style=abap} 
         // เพิ่มเทมเพลตชื่อกราฟไปยังงานนำเสนอ:
         // รายได้จากลูกค้า <<foreach [in customers]>> 

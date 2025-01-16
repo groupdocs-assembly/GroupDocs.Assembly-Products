@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:13
+date:  2025-01-16T13:03:59
 draft: false
 lang: it
 format: Pdf
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Aggiungi Codici a Barre a File PDF Utilizzando JavaScript"
+head_description: "Genera e incorpora codici a barre nei tuoi documenti e nelle tue email con l'API GroupDocs.Assembly for Node.js via Java."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Crea Codici a Barre per File PDF Utilizzando Node.js" 
+description: "Con GroupDocs.Assembly for Node.js via Java, puoi generare dinamicamente, personalizzare e incorporare codici a barre nei documenti PDF."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Inizia"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Introduzione a GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Scopri di più"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) consente di creare documenti professionali combinando dati provenienti da più fonti. Aggiungi grafici, tabelle, elenchi, immagini e codici a barre ai tuoi file. Utilizza modelli per organizzare i contenuti esattamente dove devono essere. Funziona con oltre 50 formati, inclusi PDF, documenti Office ed email.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Passaggi per Aggiungere un Codice a Barre in File PDF"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) semplifica l'incorporamento di codici a barre nei documenti PDF. Supporta oltre 60 tipi di codici a barre, inclusi formati 1D e 2D.
       
-      1. {texts_pdf.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {texts_pdf.step_4}
+      1. Progetta un modello con segnaposto per codici a barre (i modelli PDF non sono supportati).
+      2. Recupera i dati da una fonte compatibile.
+      3. Imposta le opzioni del codice a barre come dimensione e risoluzione.
+      4. Esporta il documento con il codice a barre come file PDF.
    
     code:
       platform: "java"
@@ -72,20 +72,20 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Usa questo tag nel modello per includere un codice a barre nel documento di output
         // <<barcode [barcode_expression] -barcode_type>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
-        // {texts_pdf.comment_tmp}
+        // Specifica il percorso del file modello
+        // Nota: i modelli PDF non sono attualmente supportati.
         const template = "barcode_template.docx";
 
-        // {examples.comment_3}
+        // Carica i dati necessari dalla tua fonte
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {texts_pdf.step_4}
+        // Esporta il documento con il codice a barre come file PDF.
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pdf", data);
         ```           
@@ -93,62 +93,62 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Genera Documenti con Modelli Basati su Dati"
+  description: "Con GroupDocs.Assembly for Node.js via Java, puoi creare file professionali in formati popolari incorporando senza problemi grafici, tabelle, elenchi, collegamenti, immagini e codici a barre."
   image: "/img/assembly/features_barcode.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Funzionalità Principali di GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Crea Report con Dati Aziendali"
+      content: "Utilizza l'API per popolare i modelli con dati provenienti da formati come JSON, XML e CSV in modo rapido e accurato."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Aggiungi Elementi Visivi"
+      content: "GroupDocs.Assembly supporta l'inserimento di elementi come grafici, tabelle, elenchi, testo, collegamenti, immagini e codici a barre in tempo reale."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Controllo della Posizione dei Dati"
+      content: "Con i modelli basati su LINQ, puoi posizionare con precisione i dati, eseguire cicli attraverso gli array e applicare formattazioni personalizzate tramite codice."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Compatibile con Molti Formati"
+      content: "Lavora con file come documenti MS Office, PDF, HTML, file OpenOffice e email. Unisci più documenti quando necessario."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Esempio: Generare un Codice a Barre Programmaticamente"
       content: |
-        {code_1.content}
+        Questo esempio dimostra come generare e inserire programmaticamente un codice a barre in un documento PDF.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Progetta un modello con un segnaposto per il codice a barre
           // <<barcode [barcode_expression] -barcode_type>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
-          // {texts_pdf.comment_tmp}
+          // Specifica il percorso del file modello
+          // Nota: i modelli PDF non sono attualmente supportati.
           const template = "barcode_template.docx";
 
-          // {code_1.comment_3}
+          // Recupera i dati dalla tua fonte
           const data_csv =
               new assemblyLib.CsvDataSource("Barcode Labels.csv", 
               new assemblyLib.CsvDataLoadOptions(true));
 
-          // {code_1.comment_4}
+          // Crea un oggetto data source con i dettagli richiesti
           const data 
               = new assemblyLib.DataSourceInfo(data_csv, "label");
 
-          // {code_1.comment_5}
+          // Inizializza un'istanza di DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Configura il codice a barre
           asm.getBarcodeSettings().setResolution(1200);
           asm.getBarcodeSettings().setBaseYDimension(5f);
 
-          // {code_1.comment_7}
+          // Salva il documento con il codice a barre incluso
           asm.assembleDocument(template, "result.pdf", data);
           ```
         platform: "java"
@@ -194,9 +194,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Esplora le Funzionalità Chiave"
     exclude: "barcode"
-    description: ""
+    description: "Semplifica l'elaborazione dei documenti con strumenti avanzati e capacità di automazione."
     items: 
           
         # operation loop 1
@@ -233,9 +233,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Formati di File Supportati per la Creazione di Report"
     exclude: "PDF"
-    description: ""
+    description: "Node.js via Java gestisce oltre 50 tipi di files, semplificando l'unione dei dati e l'elaborazione dei modelli per risultati di alta qualità."
     items: 
           
         # format loop 1

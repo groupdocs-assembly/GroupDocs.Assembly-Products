@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:12
+date:  2025-01-16T13:03:58
 draft: false
 lang: ko
 format: Pptx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "JavaScript를 사용하여 PPTX 파일에 바코드 추가"
+head_description: "GroupDocs.Assembly for Node.js via Java API로 문서 및 이메일에 바코드를 생성하고 삽입합니다."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Node.js를 사용하여 PPTX 파일에 바코드 생성" 
+description: "GroupDocs.Assembly for Node.js via Java를 사용하면 PPTX 문서에 바코드를 동적으로 생성하고 사용자 지정하며 삽입할 수 있습니다."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "시작하기"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "GroupDocs.Assembly for Node.js via Java 소개"
     link: "/assembly/nodejs-java/"
     link_title: "자세히 알아보기"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/)는 여러 소스의 데이터를 결합하여 전문적인 문서를 만들 수 있게 해줍니다. 차트, 표, 목록, 이미지 및 바코드를 문서에 추가할 수 있습니다. 콘텐츠를 정확히 필요하는 곳에 정리할 수 있도록 템플릿을 사용하세요. PDF, Office 문서 및 이메일을 포함하여 50개 이상의 형식과 호환됩니다.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "PPTX 파일에 바코드 추가 단계"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/)는 PPTX 문서에 바코드를 삽입하는 과정을 간소화합니다. 1D 및 2D 형식을 포함하여 60개 이상의 바코드 유형을 지원합니다.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. PPTX 템플릿을 생성하여 바코드 자리 표시자를 추가합니다.
+      2. 호환 가능한 소스에서 데이터를 검색합니다.
+      3. 크기 및 해상도와 같은 바코드 옵션을 설정합니다.
+      4. 바코드가 포함된 최종 문서를 저장합니다.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // 출력 문서에 바코드를 포함하려면 템플릿에 이 태그를 사용하세요.
         // <<barcode [barcode_expression] -barcode_type>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // 템플릿 파일의 경로를 지정하세요.
         const template = "barcode_template.pptx";
 
-        // {examples.comment_3}
+        // 소스에서 필요한 데이터를 로드하세요.
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {examples.comment_4}
+        // 바코드가 적용된 문서를 저장합니다.
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pptx", data);
         ```           
@@ -92,61 +92,61 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "데이터 기반 템플릿으로 문서 생성"
+  description: "GroupDocs.Assembly for Node.js via Java을 사용하면 인기 있는 형식으로 전문적인 파일을 생성하면서 차트, 표, 목록, 링크, 이미지 및 바코드를 원활하게 삽입할 수 있습니다."
   image: "/img/assembly/features_barcode.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "GroupDocs.Assembly의 핵심 기능"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "비즈니스 데이터로 보고서 작성"
+      content: "API를 사용하여 JSON, XML 및 CSV 형식의 데이터로 템플릿을 신속하고 정확하게 채울 수 있습니다."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "시각적 요소 추가"
+      content: "GroupDocs.Assembly는 실시간으로 차트, 표, 목록, 텍스트, 링크, 이미지 및 바코드와 같은 요소를 삽입할 수 있도록 지원합니다."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "데이터 배치 제어"
+      content: "LINQ 기반 템플릿으로 데이터를 정확하게 배치하고 배열을 순회하며 프로그래밍 방식으로 사용자 정의 형식을 적용할 수 있습니다."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "다양한 형식과 호환"
+      content: "MS Office 문서, PDF, HTML, OpenOffice 파일 및 이메일과 같은 파일에서 작업할 수 있습니다. 필요에 따라 여러 문서를 병합할 수 있습니다."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "예제: 프로그래밍 방식으로 바코드 생성"
       content: |
-        {code_1.content}
+        이 예제에서는 PPTX 문서에 바코드를 프로그래밍 방식으로 생성하고 삽입하는 방법을 보여줍니다.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // 바코드 자리 표시자가 포함된 템플릿을 디자인합니다.
           // <<barcode [barcode_expression] -barcode_type>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // 템플릿 파일의 경로를 지정합니다.
           const template = "barcode_template.pptx";
 
-          // {code_1.comment_3}
+          // 소스에서 데이터를 가져옵니다.
           const data_csv =
               new assemblyLib.CsvDataSource("Barcode Labels.csv", 
               new assemblyLib.CsvDataLoadOptions(true));
 
-          // {code_1.comment_4}
+          // 필요한 세부정보로 데이터를 원본 객체를 생성합니다.
           const data 
               = new assemblyLib.DataSourceInfo(data_csv, "label");
 
-          // {code_1.comment_5}
+          // DocumentAssembler의 인스턴스를 초기화합니다.
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // 바코드 구성을 설정합니다.
           asm.getBarcodeSettings().setResolution(1200);
           asm.getBarcodeSettings().setBaseYDimension(5f);
 
-          // {code_1.comment_7}
+          // 바코드가 포함된 문서를 저장합니다.
           asm.assembleDocument(template, "result.pptx", data);
           ```
         platform: "java"
@@ -192,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "핵심 기능 탐색"
     exclude: "barcode"
-    description: ""
+    description: "고급 도구와 자동화 기능을 활용하여 문서 처리 과정을 간소화합니다."
     items: 
           
         # operation loop 1
@@ -231,9 +231,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "보고서 생성을 위한 지원 파일 형식"
     exclude: "PPTX"
-    description: ""
+    description: "Node.js via Java는 50개 이상의 파일 형식을 처리하여 데이터 병합 및 템플릿 처리를 통해 고품질 결과를 얻는 것을 단순하게 만듭니다."
     items: 
           
         # format loop 1

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:18
+date:  2025-01-16T13:04:05
 draft: false
 lang: ru
 format: Pdf
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Вставка таблиц в документы PDF с помощью JavaScript"
+head_description: "Используйте GroupDocs.Assembly for Node.js via Java для быстрого встраивания таблиц в документы или электронные письма, получая данные из различных источников."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Просто добавляйте таблицы в файлы PDF с Node.js" 
+description: "С GroupDocs.Assembly for Node.js via Java заполнение таблиц в документах PDF происходит эффективно, используя данные из множества источников."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Начните бесплатный пробный период"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Введение в GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Узнать больше"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) — это мощный инструмент для автоматизации создания документов. Он позволяет вставлять таблицы, диаграммы, списки и изображения в шаблоны с точным размещением содержимого. Поддерживая более 50 форматов файлов, включая PDF, Word и электронную почту, он упрощает генерацию отчетов и выполнение других задач.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Как добавить данные в таблицу в PDF"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) позволяет быстро заполнять шаблоны таблиц для файлов PDF с использованием динамических источников данных.
       
-      1. {texts_pdf.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {texts_pdf.step_4}
+      1. Создайте шаблон с заполнителями для таблицы (PDF-шаблоны в настоящее время не поддерживаются).
+      2. Загрузите данные из поддерживаемого источника, например, JSON или CSV.
+      3. Организуйте и отформатируйте данные по мере необходимости.
+      4. Экспортируйте документ с заполненной таблицей в формате PDF.
    
     code:
       platform: "java"
@@ -72,22 +72,22 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Включите эти теги в заполнители строк таблицы вашего шаблона
         // <<foreach [c in ds]>>
         // <<[c.Client]>><<[c.Manager]>><<[c.Price]>>
         // <</foreach>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
-        // {texts_pdf.comment_tmp}
+        // Укажите путь к файлу шаблона
+        // PDF-шаблоны в настоящее время не поддерживаются.
         const template = "table_template.docx";
 
-        // {examples.comment_3}
+        // Загрузите ваши данные из выбранного источника
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "ds");
 
-        // {examples.comment_4}
+        // Сохраните финальный документ с заполненной таблицей
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pdf", data);
         ```           
@@ -95,58 +95,58 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Добавляйте таблицы, основанные на данных, в документы"
+  description: "GroupDocs.Assembly for Node.js via Java позволяет пользователям автоматически создавать таблицы, а также встраивать диаграммы, изображения и списки с использованием шаблонов."
   image: "/img/assembly/features_table.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Ключевые особенности GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Генерация таблиц из структурированных данных"
+      content: "Получайте данные из JSON, XML, CSV и других форматов для автоматического заполнения таблиц в документах."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Создание высококачественного визуального контента"
+      content: "Используйте GroupDocs.Assembly для разработки профессиональных таблиц, диаграмм и списков, а также для добавления ссылок, изображений и текста для улучшения внешнего вида документа."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Динамическое размещение содержимого таблицы"
+      content: "Добавляйте строки и столбцы программно с помощью шаблонов на основе LINQ и настраивайте стили, такие как шрифты, цвета и выравнивание."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Бесшовная работа с различными форматами"
+      content: "Создавайте или редактируйте таблицы в MS Office, OpenOffice, PDF, HTML и других форматах, объединяя их в файлы по мере необходимости."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Как программно заполнить таблицу"
       content: |
-        {code_1.content}
+        Этот пример демонстрирует, как заполнить таблицу в документе PDF данными из внешнего источника.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Разработайте шаблон с заполнителями для таблицы
           // <<foreach [c in items]>> <<[c.Client]>><<[c.Manager]>>
           //  <<[c.Price]>> <</foreach>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
-          // {texts_pdf.comment_tmp}
+          // Укажите путь к файлу шаблона
+          // PDF-шаблоны в настоящее время не поддерживаются.
           const template = "table_template.docx";
 
-          // {code_1.comment_3}
+          // Загрузите необходимые данные из вашего источника
           const data_json = 
             new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
+          // Организуйте данные в необходимую структуру
           const data 
               = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
+          // Инициализируйте DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Сохраните выходной документ с заполненной таблицей
           asm.assembleDocument(template, "result.pdf", data);
           ```
         platform: "java"
@@ -192,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Основные функции в одном взгляде"
     exclude: "table"
-    description: ""
+    description: "Наш API автоматизирует создание таблиц и улучшает генерацию документов с помощью универсальных инструментов и шаблонов."
     items: 
           
         # operation loop 1
@@ -231,9 +231,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Генерация таблиц в различных форматах"
     exclude: "PDF"
-    description: ""
+    description: "С Node.js via Java заполняйте шаблоны и создавайте обширные таблицы более чем в 50 поддерживаемых типах файлов."
     items: 
           
         # format loop 1

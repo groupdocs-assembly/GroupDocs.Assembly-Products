@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:17
+date:  2025-01-16T13:04:03
 draft: false
 lang: th
 format: Pdf
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "สร้างรายการแบบไดนามิกใน PDF ด้วย JavaScript"
+head_description: "ออกแบบและแทรกรายการในเทมเพลต PDF โดยใช้ API ของ GroupDocs.Assembly for Node.js via Java."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "แทรกรายการที่ขับเคลื่อนด้วยข้อมูลในไฟล์ PDF ด้วย Node.js" 
+description: "GroupDocs.Assembly for Node.js via Java มอบเครื่องมือที่ทรงพลังในการเพิ่มรายการที่ยืดหยุ่นและขับเคลื่อนด้วยข้อมูลลงในเอกสาร PDF."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "เริ่มต้นใช้งานฟรี"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "เกี่ยวกับ GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "เรียนรู้เพิ่มเติม"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) ช่วยให้การสร้างเอกสารเป็นเรื่องง่ายด้วยการดึงข้อมูลจากแหล่งต่าง ๆ และแทรกเข้าไปในเทมเพลต ใช้เพื่อสร้างรายการ ตาราง แผนภูมิ และองค์ประกอบอื่น ๆ พร้อมตัวเลือกในการจัดวางและการจัดรูปแบบที่แม่นยำ รองรับกว่า 50 รูปแบบ รวมทั้ง PDF, MS Office และอีเมล ช่วยให้คุณสามารถทำงานเอกสารอัตโนมัติได้
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "ขั้นตอนการแทรกรายการลงในไฟล์ PDF"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) ทำให้การเพิ่มรายการที่มีรายละเอียดและขับเคลื่อนด้วยข้อมูลลงในเทมเพลต PDF เป็นเรื่องง่าย.
       
-      1. {texts_pdf.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {texts_pdf.step_4}
+      1. ออกแบบเทมเพลตด้วยจุดแทนสำหรับรายการ (เทมเพลต PDF ไม่รองรับ).
+      2. ระบุเส้นทางไฟล์ของเทมเพลต.
+      3. โหลดข้อมูลจากแหล่งที่รองรับ เช่น JSON หรือ XML.
+      4. ส่งออกเอกสารที่เสร็จสมบูรณ์พร้อมรายการเป็นไฟล์ PDF.
    
     code:
       platform: "java"
@@ -72,20 +72,20 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // แทรกแท็กนี้ในเทมเพลตเพื่อทำเครื่องหมายจุดที่รายการจะไป
         // <<foreach [in customers]>><<[CustomerName]>><</foreach>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
-        // {texts_pdf.comment_tmp}
+        // ตั้งค่าเส้นทางไฟล์สำหรับเทมเพลตของคุณ
+        // เทมเพลต PDF ยังคงไม่ถูกสนับสนุน.
         const template = "list_template.docx";
 
-        // {examples.comment_3}
+        // ดึงข้อมูลจากแหล่งที่คุณต้องการใช้งาน
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {examples.comment_4}
+        // บันทึกไฟล์พร้อมด้วยรายการที่แทรก
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pdf", data);
         ```           
@@ -93,58 +93,58 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "สร้างเอกสารได้อย่างง่ายดายด้วยข้อมูลที่รวมเข้าด้วยกัน"
+  description: "ด้วย GroupDocs.Assembly for Node.js via Java คุณสามารถแทรกรายการ ตาราง แผนภูมิ และองค์ประกอบอื่น ๆ ลงในเทมเพลต ช่วยประหยัดเวลาและความพยายาม."
   image: "/img/assembly/features_list.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "จุดเด่นของ GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "สร้างรายงานจากแหล่งข้อมูลหลายแห่ง"
+      content: "นำเข้าข้อมูลจาก JSON, XML, CSV หรือรูปแบบอื่น ๆ เพื่อนำไปใช้ในการเติมรายการและองค์ประกอบอื่น ๆ ได้อย่างมีประสิทธิภาพ."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "เพิ่มรายการและองค์ประกอบภาพอื่น ๆ"
+      content: "GroupDocs.Assembly ช่วยให้คุณแทรกรายการ ตาราง แผนภูมิ และอื่น ๆ ได้อย่างไร้รอยต่อควบคู่ไปกับข้อความ รูปภาพ และลิงก์เพื่อผลลัพธ์ที่ดูดี."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "ควบคุมตำแหน่งและสไตล์ข้อมูลอย่างแม่นยำ"
+      content: "เทมเพลตที่ใช้ LINQ ช่วยให้คุณควบคุมได้อย่างแน่ชัดว่ารายการและข้อมูลอื่น ๆ จะปรากฏที่ใด ใช้ลูปสำหรับรายการที่ซ้ำกัน และปรับแต่งสไตล์ให้เหมาะกับความต้องการของคุณ."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "ทำงานในหลายรูปแบบ"
+      content: "สร้างเอกสารในรูปแบบต่าง ๆ เช่น MS Office, PDF, OpenOffice, HTML และอีเมล รวมเนื้อหาจากแหล่งต่าง ๆ เป็นไฟล์เดียว."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "สร้างรายการในเอกสารด้วยโปรแกรม"
       content: |
-        {code_1.content}
+        ตัวอย่างนี้แสดงวิธีการเพิ่มรายการแบบไดนามิกไปยังเอกสาร PDF โดยใช้ GroupDocs.Assembly.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // เพิ่มจุดแทนในเทมเพลตสำหรับรายการ
           // <<foreach [in products]>><<[NumberOf()]>>. <<[ProductName]>>
           // <</foreach>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
-          // {texts_pdf.comment_tmp}
+          // ระบุเส้นทางไฟล์ของเทมเพลต
+          // เทมเพลต PDF ยังคงไม่ถูกสนับสนุน.
           const template = "numlist_template.docx";
 
-          // {code_1.comment_3}
+          // โหลดข้อมูลเพื่อนำไปเติมรายการ
           const data_xml =
               new assemblyLib.XmlDataSource("products.xml");
 
-          // {code_1.comment_4}
+          // เตรียมแหล่งข้อมูลด้วยรายละเอียดที่จำเป็น
           const data 
               = new assemblyLib.DataSourceInfo(data_xml, "products");
 
-          // {code_1.comment_5}
+          // เริ่มต้น DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // บันทึกเอกสารสุดท้ายพร้อมด้วยรายการที่รวมอยู่
           asm.assembleDocument(template, "result.pdf", data);
           ```
         platform: "java"
@@ -190,9 +190,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "สำรวจฟีเจอร์ของ GroupDocs.Assembly"
     exclude: "list"
-    description: ""
+    description: "ออกแบบและสร้างเอกสารที่อุดมไปด้วยข้อมูลได้อย่างง่ายดายด้วยเครื่องมือการรวมที่ทรงพลัง."
     items: 
           
         # operation loop 1
@@ -229,9 +229,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "สร้างเอกสารในหลายรูปแบบ"
     exclude: "PDF"
-    description: ""
+    description: "Node.js via Java รองรับรูปแบบไฟล์มากกว่า 50 รูปแบบ ทำให้การรวมเทมเพลตและข้อมูลเป็นไปอย่างมืออาชีพ."
     items: 
           
         # format loop 1

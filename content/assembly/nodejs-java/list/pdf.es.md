@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:17
+date:  2025-01-16T13:04:03
 draft: false
 lang: es
 format: Pdf
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Crea Listas Dinámicas en PDF con JavaScript"
+head_description: "Diseña e inserta listas en plantillas de PDF utilizando la API de GroupDocs.Assembly for Node.js via Java."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Incorpora Listas Basadas en Datos en Archivos PDF con Node.js" 
+description: "GroupDocs.Assembly for Node.js via Java ofrece herramientas poderosas para añadir listas flexibles impulsadas por datos a documentos PDF."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Comienza Gratis"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Acerca de GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Aprender más"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) simplifica la creación de documentos extrayendo datos de diversas fuentes e incorporándolos en plantillas. Úsalo para construir listas, tablas, gráficos y otros elementos, con opciones de posicionamiento y formato precisas. Soporta más de 50 formatos, incluyendo PDF, MS Office y correos electrónicos, ayudando a automatizar tu proceso de generación de documentos.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Pasos para Insertar una Lista en un Archivo PDF"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) facilita la adición de listas detalladas y basadas en datos a tus plantillas PDF.
       
-      1. {texts_pdf.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {texts_pdf.step_4}
+      1. Diseña una plantilla con marcadores de posición para la lista (las plantillas PDF no son soportadas).
+      2. Proporciona la ruta del archivo de la plantilla.
+      3. Carga datos desde fuentes compatibles como JSON o XML.
+      4. Exporta el documento completado con la lista como un archivo PDF.
    
     code:
       platform: "java"
@@ -72,20 +72,20 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Coloca esta etiqueta en tu plantilla para marcar dónde irá la lista
         // <<foreach [in customers]>><<[CustomerName]>><</foreach>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
-        // {texts_pdf.comment_tmp}
+        // Establece la ruta del archivo para tu plantilla
+        // Las plantillas PDF actualmente no son compatibles.
         const template = "list_template.docx";
 
-        // {examples.comment_3}
+        // Obtén los datos de la fuente que deseas utilizar
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {examples.comment_4}
+        // Guarda el archivo con la lista incorporada
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pdf", data);
         ```           
@@ -93,58 +93,58 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Genera Documentos con Datos Integrados"
+  description: "Con GroupDocs.Assembly for Node.js via Java, puedes incorporar listas, tablas, gráficos y otros elementos en plantillas, ahorrando tiempo y esfuerzo."
   image: "/img/assembly/features_list.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Aspectos destacados de GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Genera Informes desde Múltiples Fuentes de Datos"
+      content: "Importa datos de JSON, XML, CSV u otros formatos para rellenar listas y otros componentes de manera eficiente."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Añade Listas y Otros Elementos Visuales"
+      content: "GroupDocs.Assembly te permite incorporar sin problemas listas, tablas, gráficos y más junto a texto, imágenes y enlaces para obtener resultados pulidos."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Coloca y Estiliza Datos con Precisión"
+      content: "Las plantillas basadas en LINQ te permiten controlar exactamente dónde aparecen las listas y otros datos, usar bucles para elementos repetidos y personalizar estilos según tus necesidades."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Funciona en Múltiples Formatos"
+      content: "Crea documentos en formatos como MS Office, PDF, OpenOffice, HTML y correos electrónicos. Combina contenido de diversas fuentes en un único archivo."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Crea Programáticamente una Lista en un Documento"
       content: |
-        {code_1.content}
+        Este ejemplo demuestra cómo añadir dinámicamente una lista a un documento PDF utilizando GroupDocs.Assembly.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Añade un marcador de posición en tu plantilla para la lista
           // <<foreach [in products]>><<[NumberOf()]>>. <<[ProductName]>>
           // <</foreach>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
-          // {texts_pdf.comment_tmp}
+          // Especifica la ruta de archivo de la plantilla
+          // Las plantillas PDF actualmente no son compatibles.
           const template = "numlist_template.docx";
 
-          // {code_1.comment_3}
+          // Carga datos para rellenar la lista
           const data_xml =
               new assemblyLib.XmlDataSource("products.xml");
 
-          // {code_1.comment_4}
+          // Prepara la fuente de datos con los detalles requeridos
           const data 
               = new assemblyLib.DataSourceInfo(data_xml, "products");
 
-          // {code_1.comment_5}
+          // Inicializa el DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Guarda el documento final con la lista incluida
           asm.assembleDocument(template, "result.pdf", data);
           ```
         platform: "java"
@@ -190,9 +190,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Explora las Funciones de GroupDocs.Assembly"
     exclude: "list"
-    description: ""
+    description: "Diseña y genera documentos ricos en datos sin esfuerzo utilizando potentes herramientas de integración."
     items: 
           
         # operation loop 1
@@ -229,9 +229,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Crea Documentos en Múltiples Formatos"
     exclude: "PDF"
-    description: ""
+    description: "Node.js via Java soporta más de 50 formatos de archivo, facilitando la fusión de plantillas y datos en resultados profesionales."
     items: 
           
         # format loop 1

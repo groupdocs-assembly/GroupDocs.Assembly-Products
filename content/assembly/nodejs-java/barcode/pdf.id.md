@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:13
+date:  2025-01-16T13:03:59
 draft: false
 lang: id
 format: Pdf
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Tambahkan Barcode ke Berkas PDF Menggunakan JavaScript"
+head_description: "Hasilkan dan sematkan barcode dalam dokumen dan email Anda dengan API GroupDocs.Assembly for Node.js via Java."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Buat Barcode untuk Berkas PDF Menggunakan Node.js" 
+description: "Dengan GroupDocs.Assembly for Node.js via Java, Anda dapat secara dinamis menghasilkan, menyesuaikan, dan menyematkan barcode ke dalam dokumen PDF."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Mulai Sekarang"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Pendahuluan ke GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Pelajari lebih lanjut"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) memungkinkan Anda untuk membuat dokumen profesional dengan menggabungkan data dari berbagai sumber. Tambahkan grafik, tabel, daftar, gambar, dan barcode ke berkas Anda dengan baik. Gunakan template untuk mengatur konten tepat di tempatnya. Bekerja dengan lebih dari 50 format, termasuk PDF, dokumen Office, dan email.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Langkah-langkah untuk Menambahkan Barcode dalam Berkas PDF"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) memudahkan untuk menyematkan barcode dalam dokumen PDF. Ini mendukung lebih dari 60 tipe barcode, termasuk format 1D dan 2D.
       
-      1. {texts_pdf.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {texts_pdf.step_4}
+      1. Rancang template dengan placeholder barcode (template PDF tidak didukung).
+      2. Ambil data dari sumber yang kompatibel.
+      3. Atur opsi barcode seperti ukuran dan resolusi.
+      4. Ekspor dokumen dengan barcode sebagai berkas PDF.
    
     code:
       platform: "java"
@@ -72,20 +72,20 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Gunakan tag ini dalam template untuk menyertakan barcode dalam dokumen keluaran.
         // <<barcode [barcode_expression] -barcode_type>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
-        // {texts_pdf.comment_tmp}
+        // Tentukan jalur ke berkas template.
+        // Catatan: Template PDF saat ini tidak didukung.
         const template = "barcode_template.docx";
 
-        // {examples.comment_3}
+        // Muat data yang diperlukan dari sumber Anda.
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {texts_pdf.step_4}
+        // Ekspor dokumen dengan barcode sebagai berkas PDF.
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pdf", data);
         ```           
@@ -93,62 +93,62 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Hasilkan Dokumen dengan Template Berbasis Data"
+  description: "Dengan GroupDocs.Assembly for Node.js via Java, Anda dapat membuat berkas profesional dalam format populer dengan menyematkan grafik, tabel, daftar, tautan, gambar, dan barcode secara mulus."
   image: "/img/assembly/features_barcode.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Fitur Inti dari GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Buat Laporan dengan Data Bisnis"
+      content: "Gunakan API untuk mengisi template dengan data dari format seperti JSON, XML, dan CSV dengan cepat dan akurat."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Tambahkan Elemen Visual"
+      content: "GroupDocs.Assembly mendukung penyisipan elemen seperti grafik, tabel, daftar, teks, tautan, gambar, dan barcode secara real time."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Kontrol Penempatan Data"
+      content: "Dengan template berbasis LINQ, Anda dapat secara tepat memposisikan data, mengulang melalui array, dan menerapkan format kustom secara programatik."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Kompatibel dengan Banyak Format"
+      content: "Bekerja dengan berkas seperti dokumen MS Office, PDF, HTML, berkas OpenOffice, dan email. Gabungkan beberapa dokumen saat diperlukan."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Contoh: Hasilkan Barcode Secara Programatik"
       content: |
-        {code_1.content}
+        Contoh ini menunjukkan cara menghasilkan dan menyisipkan barcode ke dalam dokumen PDF secara programatik.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Rancang template dengan placeholder barcode.
           // <<barcode [barcode_expression] -barcode_type>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
-          // {texts_pdf.comment_tmp}
+          // Tentukan jalur berkas template.
+          // Catatan: Template PDF saat ini tidak didukung.
           const template = "barcode_template.docx";
 
-          // {code_1.comment_3}
+          // Ambil data dari sumber Anda.
           const data_csv =
               new assemblyLib.CsvDataSource("Barcode Labels.csv", 
               new assemblyLib.CsvDataLoadOptions(true));
 
-          // {code_1.comment_4}
+          // Buat objek sumber data dengan detail yang diperlukan.
           const data 
               = new assemblyLib.DataSourceInfo(data_csv, "label");
 
-          // {code_1.comment_5}
+          // Inisialisasi sebuah instance DocumentAssembler.
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Atur konfigurasi barcode.
           asm.getBarcodeSettings().setResolution(1200);
           asm.getBarcodeSettings().setBaseYDimension(5f);
 
-          // {code_1.comment_7}
+          // Simpan dokumen dengan barcode yang disertakan.
           asm.assembleDocument(template, "result.pdf", data);
           ```
         platform: "java"
@@ -194,9 +194,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Jelajahi Fitur Utama"
     exclude: "barcode"
-    description: ""
+    description: "Sederhanakan pemrosesan dokumen dengan alat canggih dan kemampuan otomatisasi."
     items: 
           
         # operation loop 1
@@ -233,9 +233,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Format Berkas yang Didukung untuk Pembuatan Laporan"
     exclude: "PDF"
-    description: ""
+    description: "Node.js via Java menangani lebih dari 50 tipe berkas, memudahkan penggabungan data dan pemrosesan template untuk hasil yang berkualitas tinggi."
     items: 
           
         # format loop 1

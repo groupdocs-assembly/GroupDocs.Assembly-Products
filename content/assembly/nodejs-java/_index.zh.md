@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-01-14T15:37:19
+date: 2025-01-16T13:04:06
 draft: false
 
 lang: zh
@@ -24,17 +24,17 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "{index-content-nodejs-java.head_title}"
-head_description: "{index-content-nodejs-java.head_description}"
+head_title: "Node.js 工具包用于构建、自动化和定制文档"
+head_description: "Node.js 库用于自动化文档工作流程。从模板生成 PDF、Word、Excel、PowerPoint、HTML 和电子邮件文件。"
 
 ############################# Header ############################
-title: "{index-content-nodejs-java.title}"
-description: "{index-content-nodejs-java.description}"
+title: "Node.js API 简化文档和报告自动化"
+description: "通过将您的数据与预构建模板合并，简化 JavaScript 报告生成。"
 words:
   for: "用于"
 
 actions:
-  main: "{index-content-nodejs-java.actions_main}"
+  main: "在 NPM 开始您的试用"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.assembly"
   alt: "许可"
   alt_link: "https://purchase.groupdocs.com/pricing/assembly/nodejs-java/"
@@ -48,7 +48,7 @@ release:
   link: "https://releases.groupdocs.com/assembly/nodejs-java/"
 
 code:
-  title: "{index-content-nodejs-java.code_title}"
+  title: "使用 Node.js 在 Word 文档中创建图表"
   more: "更多示例"
   more_link: "https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-Node.js-via-Java/"
   install: "npm i @groupdocs/groupdocs.assembly"
@@ -80,25 +80,25 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Assembly 概述"
-  description: "{index-content-nodejs-java.overview_description}"
+  description: "一个专为使用数据处理集成编程创建文档的 Node.js 库。"
   features:
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_1.title}"
-      content: "{index-content-nodejs-java.overview_feature_1.description}"
+    - title: "使用 JavaScript 将业务数据集成到模板中"
+      content: "通过将 JSON、XML 或其他数据嵌入模板中，生成精美的报告。"
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_2.title}"
-      content: "{index-content-nodejs-java.overview_feature_2.description}"
+    - title: "管理嵌入内容"
+      content: "使用外部数据自动填充文档中的表格、图表和其他可视元素。"
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_3.title}"
-      content: "{index-content-nodejs-java.overview_feature_3.description}"
+    - title: "可定制的选项"
+      content: "GroupDocs.Assembly for Node.js via Java 允许您添加条形码、从 URL 获取数据，并以多种格式导出文件。"
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "平台独立性"
-  description: "{index-content-nodejs-java.platforms_description}"
+  description: "GroupDocs.Assembly for Node.js via Java 与领先的操作系统、框架和包管理器无缝集成。"
   items:
     # platform loop
     - title: "Amazon"
@@ -130,7 +130,7 @@ formats:
   enable: true
   title: "支持的文件格式"
   description: |
-    {index-content-nodejs-java.formats_description}
+    GroupDocs.Assembly for Node.js via Java 支持多种 [文档格式](https://docs.groupdocs.com/assembly/nodejs-java/supported-document-formats/)。
   groups:
     # group loop
     - color: "green"
@@ -157,66 +157,66 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-nodejs-java.features.title}"
-  description: "{index-content-nodejs-java.features.description}"
+  title: "GroupDocs.Assembly 的核心功能"
+  description: "通过强大的数据管理工具创建动态文档和报告。"
 
   items:
     # feature loop
     - icon: "preview"
-      title: "{index-content-nodejs-java.features.feature_1.title}"
-      content: "{index-content-nodejs-java.features.feature_1.content}"
+      title: "丰富的数据可视化"
+      content: "将图表、表格、图像和列表轻松插入文档中，完全自定义。"
 
     # feature loop
     - icon: "manipulate"
-      title: "{index-content-nodejs-java.features.feature_2.title}"
-      content: "{index-content-nodejs-java.features.feature_2.content}"
+      title: "转换您的数据"
+      content: "利用公式和排序等工具有效地结构化和展示信息。"
 
     # feature loop
     - icon: "two_pages"
-      title: "{index-content-nodejs-java.features.feature_3.title}"
-      content: "{index-content-nodejs-java.features.feature_3.content}"
+      title: "广泛的格式兼容性"
+      content: "与流行文件格式无缝协作，用于模板和输出。"
 
     # feature loop
     - icon: "document_settings"
-      title: "{index-content-nodejs-java.features.feature_4.title}"
-      content: "{index-content-nodejs-java.features.feature_4.content}"
+      title: "高级模板定制"
+      content: "使用数字、字母及其他样式选项格式化模板。"
 
     # feature loop
     - icon: "text"
-      title: "{index-content-nodejs-java.features.feature_5.title}"
-      content: "{index-content-nodejs-java.features.feature_5.content}"
+      title: "动态生成条形码"
+      content: "按需创建并嵌入条形码图像到文档中。"
 
     # feature loop
     - icon: "add"
-      title: "{index-content-nodejs-java.features.feature_6.title}"
-      content: "{index-content-nodejs-java.features.feature_6.content}"
+      title: "灵活的文本样式"
+      content: "轻松在模板中应用文本样式，如大写或标题样式。"
 
     # feature loop
     - icon: "manipulate"
-      title: "{index-content-nodejs-java.features.feature_7.title}"
-      content: "{index-content-nodejs-java.features.feature_7.content}"
+      title: "动态内容插入"
+      content: "在文档生成过程中，动态包括外部文件中的内容。"
 
     # feature loop
     - icon: "convert"
-      title: "{index-content-nodejs-java.features.feature_8.title}"
-      content: "{index-content-nodejs-java.features.feature_8.content}"
+      title: "导出到多种格式"
+      content: "根据您的指定配置将文档保存为多种格式。"
 
     # feature loop
     - icon: "update"
-      title: "{index-content-nodejs-java.features.feature_9.title}"
-      content: "{index-content-nodejs-java.features.feature_9.content}"
+      title: "动态嵌入媒体"
+      content: "在创建文档时，使用 Base64 数据插入图像或其他元素。"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "代码示例"
-  description: "{index-content-nodejs-java.code_samples_description}"
+  description: "发现如何使用 GroupDocs.Assembly 进行常见任务的实用示例。"
   items:
     # code sample loop
-    - title: "{index-content-nodejs-java.code_title_sample_1}"
+    - title: "在 Word 文档中添加项目符号列表"
       content: |
-        {index-content-nodejs-java.code_samples_sample_1_content_1} {index-content-nodejs-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-nodejs-java.code_title_sample_1}">}}
+        了解如何在 Word 文档中创建 [项目符号列表](https://docs.groupdocs.com/assembly/nodejs-java/bulleted-list-in-word-processing-document/)，有效组织数据。 此示例演示如何使用 GroupDocs.Assembly 生成项目符号列表。
+        {{< landing/code title="在 Word 文档中添加项目符号列表">}}
         ```javascript {style=abap}
         // 在文档页面插入此模板：
         // 管理者的绩效指标
@@ -241,10 +241,10 @@ code_samples:
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-nodejs-java.code_title_sample_2}"
+    - title: "在 PowerPoint 中插入饼图"
       content: |
-        {index-content-nodejs-java.code_samples_sample_2_content_1} {index-content-nodejs-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-nodejs-java.code_title_sample_2}">}}
+        了解如何使用模板和 XML 在演示文稿中添加 [饼图](https://docs.groupdocs.com/assembly/nodejs-java/pie-chart-in-presentation-document/)。 通过饼图增强您的报告，以清晰直观地呈现数据。
+        {{< landing/code title="在 PowerPoint 中插入饼图">}}
         ```javascript {style=abap} 
         // 将图表标题模板添加到演示文稿中：
         // 客户的收入 <<foreach [in customers]>> 

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:14
+date:  2025-01-16T13:04:00
 draft: false
 lang: ja
 format: Docx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "JavaScriptを使用してDOCXファイルにチャートを挿入"
+head_description: "GroupDocs.Assembly for Node.js via Javaを使用することで、開発者はライブデータソースを利用してドキュメントに動的なチャートを迅速に作成し、埋め込むことができます。"
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Node.jsを使用してDOCXファイルにチャートを追加" 
+description: "GroupDocs.Assembly for Node.js via Javaは、リアルタイムデータ入力を用いてDOCXドキュメントにチャートを統合するプロセスを簡素化します。"
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "今すぐ無料で始める"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "GroupDocs.Assembly for Node.js via Javaの概要"
     link: "/assembly/nodejs-java/"
     link_title: "詳細を見る"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/)は、自動化されたドキュメントとレポートを作成するための強力なソリューションです。チャート、表、画像、バーコード、リストを高精度でファイルに追加できます。この多目的プラットフォームは、PDF、Officeドキュメント、メールなど、50以上のフォーマットをサポートしています。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "DOCXドキュメントにチャートを追加する手順"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/)は、DOCXファイルにチャートを追加することを簡単にします。バー、折れ線、円形グラフなどのチャートタイプから選択します。
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. DOCXテンプレートを設計し、チャート用のプレースホルダーを配置します。
+      2. サポートされているソースからデータをロードします。
+      3. チャートオプション（タイプ、色、ラベルなど）を設定します。
+      4. 埋め込まれたチャートを含むドキュメントをエクスポートします。
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // このタグをテンプレートに含めてチャートを生成します
         // Orders Prices by months<<y [Sum(c => c.Price)]>><<size [Count()]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // テンプレートファイルのパスを指定します
         const template = "chart_template.docx";
 
-        // {examples.comment_3}
+        // ソースシステムからデータを抽出します
         const data 
             = new assemblyLib.DataSourceInfo(GetChartData(), "orders");
 
-        // {examples.comment_4}
+        // 埋め込まれたチャートを持つ最終ドキュメントを保存します
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.docx", data);
         ```           
@@ -92,61 +92,61 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "ドキュメントにチャートを簡単に埋め込む"
+  description: "GroupDocs.Assembly for Node.js via Javaは、一般的なファイルタイプで機能豊かなドキュメントを生成することを簡単にします。テンプレートを使用してリアルタイムデータ更新と共にチャート、表、バーコード、リスト、画像などを追加します。"
   image: "/img/assembly/features_chart.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "GroupDocs.Assemblyの主な機能"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "データをプロフェッショナルなチャートに変換"
+      content: "JSON、XML、CSVなどのソースからデータを変換し、高品質のチャートを作成してドキュメントに直接埋め込むことができます。"
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "魅力的なビジュアルを作成"
+      content: "バーグラフ、円グラフ、折れ線グラフを生成し、他のドキュメント要素（画像、表、バーコードなど）とシームレスに統合します。"
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "柔軟なチャートスタイリングと配置"
+      content: "LINQテンプレートを使用してチャートの位置とスタイルを制御します。色、レイアウト、ラベルを整えて、洗練されたプレゼンテーションを実現します。"
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "多くのファイルフォーマットに対応"
+      content: "MS Office、PDF、OpenOffice、HTMLなどのフォーマットでドキュメントを生成できます。チャートは完璧に統合され、プロフェッショナルな仕上がりになります。"
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "チャートを動的に生成し挿入する"
       content: |
-        {code_1.content}
+        この例では、DOCXファイルにチャートをプログラムで作成し埋め込む方法を示しています。
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // チャートのプレースホルダーを含むテンプレートを設定します
           // Total Contract Price<<y [m.Total_Contract_Price]>>
           // <<seriesColor [color]>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // テンプレートファイルへのパスを定義します
           const template = "table_template.docx";
 
-          // {code_1.comment_3}
+          // 選択したソースからデータを取得します
           const data_json = 
             new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
+          // チャート情報を含むデータオブジェクトを準備します
           const data 
               = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
+          // チャートタイプを選択し、その外観をカスタマイズします
           const design 
               = new assemblyLib.DataSourceInfo("red", "color");
 
-          // {code_1.comment_6}
+          // DocumentAssemblerを初期化します
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_7}
+          // チャートを埋め込んだ更新済みドキュメントを保存します
           asm.assembleDocument(template, "result.docx", data, design);
           ```
         platform: "java"
@@ -192,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "高度な機能を発見"
     exclude: "chart"
-    description: ""
+    description: "このプラットフォームは、データビジュアライゼーションとシームレスな統合のためのツールを備え、ドキュメント作成を簡素化します。"
     items: 
           
         # operation loop 1
@@ -231,9 +231,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "複数のファイルフォーマットでレポートを生成"
     exclude: "DOCX"
-    description: ""
+    description: "Node.js via Javaは50以上のフォーマットをサポートしているため、テンプレートとデータを組み合わせて、洗練されたドキュメントを簡単に作成できます。"
     items: 
           
         # format loop 1

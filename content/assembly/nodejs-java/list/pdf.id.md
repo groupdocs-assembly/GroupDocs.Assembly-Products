@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:17
+date:  2025-01-16T13:04:03
 draft: false
 lang: id
 format: Pdf
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Buat Daftar Dinamis dalam PDF dengan JavaScript"
+head_description: "Desain dan masukkan daftar ke dalam template PDF menggunakan API GroupDocs.Assembly for Node.js via Java."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Sisipkan Daftar Berbasis Data ke dalam Berkas PDF dengan Node.js" 
+description: "GroupDocs.Assembly for Node.js via Java menawarkan alat yang kuat untuk menambahkan daftar fleksibel yang didorong oleh data ke dalam dokumen PDF."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Mulai Gratis"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Tentang GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Pelajari lebih lanjut"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) menyederhanakan pembuatan dokumen dengan menarik data dari berbagai sumber dan menyematkannya ke dalam template. Gunakan untuk membangun daftar, tabel, grafik, dan elemen lainnya, dengan opsi penempatan dan format yang tepat. Mendukung lebih dari 50 format, termasuk PDF, MS Office, dan email, ini membantu mengotomatiskan proses pembuatan dokumen Anda.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Langkah untuk Menyisipkan Daftar ke dalam Berkas PDF"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) memudahkan penambahan daftar rinci yang didorong oleh data ke dalam template PDF Anda.
       
-      1. {texts_pdf.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {texts_pdf.step_4}
+      1. Desain template dengan placeholder untuk daftar (template PDF tidak didukung).
+      2. Sediakan jalur file untuk template.
+      3. Muat data dari sumber yang didukung seperti JSON atau XML.
+      4. Ekspor dokumen yang lengkap dengan daftar sebagai file PDF.
    
     code:
       platform: "java"
@@ -72,20 +72,20 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Tempatkan tag ini dalam template Anda untuk menandai di mana daftar akan ditempatkan
         // <<foreach [in customers]>><<[CustomerName]>><</foreach>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
-        // {texts_pdf.comment_tmp}
+        // Tentukan jalur file untuk template Anda
+        // Template PDF saat ini tidak didukung.
         const template = "list_template.docx";
 
-        // {examples.comment_3}
+        // Ambil data dari sumber yang ingin Anda gunakan
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {examples.comment_4}
+        // Simpan file dengan daftar yang disematkan
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pdf", data);
         ```           
@@ -93,58 +93,58 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Hasilkan Dokumen dengan Data yang Terintegrasi"
+  description: "Dengan GroupDocs.Assembly for Node.js via Java, Anda dapat menyematkan daftar, tabel, grafik, dan elemen lainnya ke dalam template, menghemat waktu dan usaha."
   image: "/img/assembly/features_list.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Sorotan dari GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Hasilkan Laporan dari Berbagai Sumber Data"
+      content: "Impor data dari JSON, XML, CSV, atau format lain untuk mengisi daftar dan komponen lainnya dengan efisien."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Tambahkan Daftar dan Elemen Visual Lainnya"
+      content: "GroupDocs.Assembly memungkinkan Anda untuk menyisipkan daftar, tabel, grafik, dan lainnya dengan lancar di samping teks, gambar, dan tautan untuk hasil yang rapi."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Tepat Menempatkan dan Mengatur Gaya Data"
+      content: "Template berbasis LINQ memungkinkan Anda mengontrol dengan tepat di mana daftar dan data lainnya muncul, menggunakan loop untuk item yang berulang, dan menyesuaikan gaya agar sesuai dengan kebutuhan Anda."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Bekerja di Berbagai Format"
+      content: "Buat dokumen dalam format seperti MS Office, PDF, OpenOffice, HTML, dan email. Gabungkan konten dari berbagai sumber ke dalam satu file."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Buat Daftar Secara Programatis dalam Dokumen"
       content: |
-        {code_1.content}
+        Contoh ini menunjukkan cara menambahkan daftar secara dinamis ke dalam dokumen PDF menggunakan GroupDocs.Assembly.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Tambahkan placeholder dalam template Anda untuk daftar
           // <<foreach [in products]>><<[NumberOf()]>>. <<[ProductName]>>
           // <</foreach>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
-          // {texts_pdf.comment_tmp}
+          // Tentukan jalur file template
+          // Template PDF saat ini tidak didukung.
           const template = "numlist_template.docx";
 
-          // {code_1.comment_3}
+          // Muat data untuk mengisi daftar
           const data_xml =
               new assemblyLib.XmlDataSource("products.xml");
 
-          // {code_1.comment_4}
+          // Siapkan sumber data dengan detail yang diperlukan
           const data 
               = new assemblyLib.DataSourceInfo(data_xml, "products");
 
-          // {code_1.comment_5}
+          // Inisialisasi DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Simpan dokumen akhir dengan daftar yang disertakan
           asm.assembleDocument(template, "result.pdf", data);
           ```
         platform: "java"
@@ -190,9 +190,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Jelajahi Fitur GroupDocs.Assembly"
     exclude: "list"
-    description: ""
+    description: "Desain dan hasilkan dokumen kaya data dengan tanpa usaha menggunakan alat integrasi yang kuat."
     items: 
           
         # operation loop 1
@@ -229,9 +229,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Buat Dokumen dalam Berbagai Format"
     exclude: "PDF"
-    description: ""
+    description: "Node.js via Java mendukung lebih dari 50 format file, memudahkan penggabungan template dan data menjadi hasil yang profesional."
     items: 
           
         # format loop 1

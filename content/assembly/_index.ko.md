@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-01-13T15:11:22
+date:  2025-01-16T13:04:05
 draft: false
 
 product: "Assembly"
@@ -10,8 +10,8 @@ product_tag: "assembly"
 lang: ko
 
 ############################# Head ############################
-head_title: "GroupDocs의 .NET 및 Java API 및 온라인 문서 생성 앱"
-head_description: ".NET 및 Java 애플리케이션을 위한 올인원 문서 자동화 및 보고 솔루션. 사용자 정의 템플릿 및 데이터에서 모든 일반 문서를 생성합니다."
+head_title: "GroupDocs의 .NET, Java, Node.js API 및 온라인 문서 조립 애플리케이션"
+head_description: ".NET, Java 및 Node.js 애플리케이션을 위한 올인원 문서 자동화 및 보고 솔루션을 받아보세요. 사용자 정의 템플릿과 데이터를 통해 모든 일반 문서를 생성합니다."
 
 ############################# Header ############################
 title: "문서 자동화 및 보고 솔루션"

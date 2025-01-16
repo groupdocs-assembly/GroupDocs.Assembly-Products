@@ -1,0 +1,77 @@
+{
+  "head": {
+    "title": "Insira Gráficos em Arquivos {{FileFormatUp}} com {{ProgLang}}",
+    "description": "Com {{ProdFullName}}, os desenvolvedores podem criar e incorporar rapidamente gráficos dinâmicos em documentos usando fontes de dados ao vivo."
+  },
+  "header": {
+    "title": "Adicione Gráficos a Arquivos {{FileFormatUp}} Usando {{EnvNameShort}}",
+    "description": "{{ProdFullName}} simplifica o processo de integração de gráficos em documentos {{FileFormatUp}} com entrada de dados em tempo real.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Comece Grátis Hoje"
+  },
+  "about": {
+    "title": "Visão Geral do {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma solução robusta para a criação de documentos e relatórios automatizados. Adicione gráficos, tabelas, imagens, códigos de barras e listas aos arquivos com precisão. Esta plataforma versátil suporta mais de 50 formatos, incluindo PDFs, documentos do Office e e-mails."
+  },
+  "more_features": {
+    "title": "Incorpore Gráficos de Forma Eficiente em Seus Documentos",
+    "description": "{{ProdFullName}} facilita a geração de documentos repletos de recursos em formatos populares. Utilize templates para adicionar gráficos, tabelas, códigos de barras, listas, imagens e muito mais com atualizações de dados em tempo real.",
+    "image_description": "Principais Recursos do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Transforme Dados em Gráficos Profissionais",
+      "content": "Converta dados de fontes como JSON, XML ou CSV em gráficos de alta qualidade que podem ser incorporados diretamente em documentos."
+    },
+    "feature_2": {
+      "title": "Crie Visuais Impressionantes",
+      "content": "Gere gráficos de barras, gráficos de pizza e gráficos de linhas que funcionam perfeitamente com outros elementos do documento, como imagens, tabelas e códigos de barras."
+    },
+    "feature_3": {
+      "title": "Estilização e Posicionamento de Gráficos Flexíveis",
+      "content": "Utilize templates LINQ para controlar o posicionamento e a estilização dos gráficos, incluindo cores, layouts e rótulos, para uma apresentação polida."
+    },
+    "feature_4": {
+      "title": "Suporte a Muitos Formatos de Arquivo",
+      "content": "Gere documentos em formatos como MS Office, PDF, OpenOffice e HTML, com gráficos perfeitamente integrados para um acabamento profissional."
+    }
+  },
+  "formats": {
+    "title": "Gere Relatórios em Múltiplos Formatos de Arquivo",
+    "description": "{{EnvName}} suporta mais de 50 formatos, facilitando a combinação de templates com dados para produzir documentos refinados."
+  },
+  "operations": {
+    "title": "Descubra Recursos Avançados",
+    "description": "Esta plataforma simplifica a criação de documentos com ferramentas projetadas para visualização de dados e integração tranquila."
+  },
+  "examples": {
+    "comment_1": "Inclua esta tag em seu template para gerar um gráfico",
+    "comment_2": "Especifique o caminho do arquivo do template",
+    "comment_3": "Extraia dados de seu sistema de origem",
+    "comment_4": "Salve o documento final com o gráfico incorporado"
+  },
+  "steps": {
+    "title": "Passos para Adicionar um Gráfico a um Documento {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilita a adição de gráficos a arquivos {{FileFormatUp}}. Escolha entre tipos de gráficos como gráfico de barras, gráfico de linhas ou gráfico de pizza.",
+      "step_1": "Projete um template {{FileFormatUp}} com espaços reservados para gráficos.",
+      "step_2": "Carregue dados de uma fonte suportada.",
+      "step_3": "Configure opções do gráfico, incluindo tipo, cores e rótulos.",
+      "step_4": "Exporte o documento com o gráfico incorporado."
+    }
+  },
+  "code_1": {
+    "title": "Gere e Insira Gráficos Dinamicamente",
+    "content": "Este exemplo ilustra como criar e incorporar gráficos em arquivos {{FileFormatUp}} programaticamente.",
+    "comment_1": "Configure um template com um espaço reservado para o gráfico",
+    "comment_2": "Defina o caminho para o arquivo do template",
+    "comment_3": "Recupere dados de uma fonte escolhida",
+    "comment_4": "Prepare um objeto de dados contendo as informações do gráfico",
+    "comment_5": "Escolha o tipo de gráfico e personalize sua aparência",
+    "comment_6": "Inicialize {{DocumentAssembler}}",
+    "comment_7": "Salve o documento atualizado com o gráfico incorporado"
+  },
+  "texts_pdf": {
+    "step_1": "Crie um template com espaços reservados para gráficos (templates PDF não são suportados).",
+    "step_4": "Salve o documento com o gráfico como um arquivo PDF.",
+    "comment_tmp": "Nota: Templates PDF não são atualmente suportados."
+  }
+}

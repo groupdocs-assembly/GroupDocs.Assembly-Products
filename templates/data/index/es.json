@@ -1,7 +1,7 @@
 {
   "index-content": {
-    "head_title": "APIs de .NET, Java y Aplicaciones en Línea de Generación de Documentos por GroupDocs",
-    "head_description": "Obtén una solución integral de automatización y generación de informes de documentos para aplicaciones .NET y Java. Genera todos los documentos comunes a partir de plantillas personalizadas y datos.",
+    "head_title": "APIs de .NET, Java, Node.js y Aplicaciones de Documentos en Línea de GroupDocs",
+    "head_description": "Obtén una solución integral de automatización de documentos e informes para aplicaciones .NET, Java y Node.js. Genera todos los documentos comunes a partir de plantillas y datos personalizados.",
     "title": "Solución de Automatización de Documentos y Generación de Informes",
     "description_1": "Crea informes detallados usando plantillas y fuentes de datos con nuestras aplicaciones y APIs multiplataforma.",
     "description_2": "Genera informes en formatos como Word, Excel, Presentaciones y muchos más utilizando plantillas con marcado flexible.",
@@ -306,5 +306,75 @@
     "code_title_sample_2": "Crear Gráficos Circulares en PPTX",
     "code_samples_sample_2_content_1": "Usa plantillas y XML para agregar [gráficos circulares](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/) a tus presentaciones.",
     "code_samples_sample_2_content_2": "Haz que tus informes sean más atractivos al incluir gráficos circulares para visualizar datos."
+  },
+  "index-content-nodejs-java": {
+    "head_title": "Kit de Herramientas de {{EnvNameShort}} para Construir, Automatizar y Personalizar Documentos",
+    "head_description": "Biblioteca {{EnvNameShort}} para automatizar flujos de trabajo de documentos. Genera archivos PDF, Word, Excel, PowerPoint, HTML y de correo electrónico a partir de tus plantillas.",
+    "title": "API {{EnvNameShort}} para la Automatización Simplificada de Documentos e Informes",
+    "description": "Optimiza la generación de informes en {{ProgLang}} fusionando tus datos con plantillas predefinidas.",
+    "actions_main": "Inicia tu Prueba en {{PackageStoreName}}",
+    "code_title": "Crear un Gráfico en un Documento de Word Usando {{EnvNameShort}}",
+    "overview_description": "Una biblioteca {{EnvNameShort}} diseñada para crear documentos programáticamente con manejo de datos integrado.",
+    "overview_feature_1": {
+      "title": "Integra Datos Empresariales en Plantillas con {{ProgLang}}",
+      "description": "Genera informes pulidos al incrustar JSON, XML u otros datos en plantillas con {{ProdFullName}}."
+    },
+    "overview_feature_2": {
+      "title": "Gestiona Contenido Integrado",
+      "description": "Rellena automáticamente tablas, gráficos y otros elementos visuales en tus documentos utilizando datos externos."
+    },
+    "overview_feature_3": {
+      "title": "Opciones Personalizables",
+      "description": "{{ProdFullName}} te permite agregar características como códigos de barras, obtener datos de URL y exportar archivos en varios formatos."
+    },
+    "features": {
+      "title": "Funcionalidades Principales de {{ProdShortName}}",
+      "description": "Crea documentos e informes dinámicos con potentes herramientas de gestión de datos.",
+      "feature_1": {
+        "title": "Visuales de Datos Ricos",
+        "content": "Inserta gráficos, tablas, imágenes y listas en tus documentos con total personalización."
+      },
+      "feature_2": {
+        "title": "Transforma Tus Datos",
+        "content": "Aprovecha herramientas como fórmulas y ordenación para estructurar y mostrar información de manera efectiva."
+      },
+      "feature_3": {
+        "title": "Amplia Compatibilidad de Formatos",
+        "content": "Trabaja sin problemas con formatos de archivo populares para plantillas y salidas."
+      },
+      "feature_4": {
+        "title": "Personalización Avanzada de Plantillas",
+        "content": "Da formato a las plantillas con opciones de estilo numérico, alfabético y otros."
+      },
+      "feature_5": {
+        "title": "Genera Códigos de Barras Dinámicamente",
+        "content": "Crea e incrusta imágenes de códigos de barras directamente en tus documentos a demanda."
+      },
+      "feature_6": {
+        "title": "Estilo de Texto Flexible",
+        "content": "Aplica fácilmente estilos de texto como capitalización o mayúsculas en tus plantillas."
+      },
+      "feature_7": {
+        "title": "Inserción Dinámica de Contenido",
+        "content": "Incluye contenido de archivos externos de manera dinámica durante la generación del documento."
+      },
+      "feature_8": {
+        "title": "Exporta a Varios Formatos",
+        "content": "Guarda documentos en múltiples formatos con las configuraciones que especifiques."
+      },
+      "feature_9": {
+        "title": "Incrusta Medios Dinámicamente",
+        "content": "Inserta imágenes u otros elementos utilizando datos Base64 al crear documentos."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} se integra sin problemas con los sistemas operativos, marcos y gestores de paquetes líderes.",
+    "formats_description": "{{ProdFullName}} admite una amplia gama de [formatos de documento]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Descubre ejemplos prácticos de cómo usar {{ProdShortName}} para tareas comunes.",
+    "code_title_sample_1": "Agregar una Lista con Viñetas en Documentos de Word",
+    "code_samples_sample_1_content_1": "Consulta cómo crear [listas con viñetas]({{Sample1Url}}) en documentos de Word para organizar datos de manera efectiva.",
+    "code_samples_sample_1_content_2": "Este ejemplo demuestra cómo generar una lista con viñetas utilizando {{ProdShortName}}.",
+    "code_title_sample_2": "Insertar Gráficos de Pastel en PowerPoint",
+    "code_samples_sample_2_content_1": "Aprende a usar plantillas y XML para agregar [gráficos de pastel]({{Sample2Url}}) en tus presentaciones.",
+    "code_samples_sample_2_content_2": "Mejora tus informes con gráficos de pastel para presentar datos de forma visual y clara."
   }
 }

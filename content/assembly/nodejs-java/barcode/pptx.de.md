@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:12
+date:  2025-01-16T13:03:58
 draft: false
 lang: de
 format: Pptx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Barcodes zu PPTX-Dateien mit JavaScript hinzufügen"
+head_description: "Generieren und integrieren Sie Barcodes in Ihre Dokumente und E-Mails mit der GroupDocs.Assembly for Node.js via Java-API."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Erstellen von Barcodes für PPTX-Dateien mit Node.js" 
+description: "Mit GroupDocs.Assembly for Node.js via Java können Sie Barcodes dynamisch generieren, anpassen und in PPTX-Dokumente einfügen."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Loslegen"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Einführung in GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Mehr erfahren"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) ermöglicht Ihnen die Erstellung professioneller Dokumente durch die Kombination von Daten aus mehreren Quellen. Fügen Sie Diagramme, Tabellen, Listen, Bilder und Barcodes zu Ihren Dateien hinzu. Nutzen Sie Vorlagen, um den Inhalt genau dort zu organisieren, wo er hingehört. Funktioniert mit mehr als 50 Formaten, einschließlich PDFs, Office-Dokumenten und E-Mails.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Schritte zum Hinzufügen eines Barcodes in PPTX-Dateien"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) ermöglicht das Einfügen von Barcodes in PPTX-Dokumenten. Es unterstützt über 60 Barcode-Typen, einschließlich 1D- und 2D-Formate.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Erstellen Sie eine PPTX-Vorlage mit Platzhaltern für Barcodes.
+      2. Abrufen von Daten aus einer kompatiblen Quelle.
+      3. Barcode-Optionen wie Größe und Auflösung festlegen.
+      4. Speichern Sie das endgültige Dokument mit dem eingebetteten Barcode.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Verwenden Sie dieses Tag in der Vorlage, um einen Barcode im Ausgabedokument einzufügen.
         // <<barcode [barcode_expression] -barcode_type>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Geben Sie den Pfad zur Vorlagendatei an.
         const template = "barcode_template.pptx";
 
-        // {examples.comment_3}
+        // Laden Sie die erforderlichen Daten aus Ihrer Quelle.
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {examples.comment_4}
+        // Speichern Sie das Dokument mit dem angewendeten Barcode.
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pptx", data);
         ```           
@@ -92,61 +92,61 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Generieren Sie Dokumente mit datengestützten Vorlagen"
+  description: "Mit GroupDocs.Assembly for Node.js via Java können Sie professionelle Dateien in gängigen Formaten erstellen, indem Sie Diagramme, Tabellen, Listen, Links, Bilder und Barcodes nahtlos integrieren."
   image: "/img/assembly/features_barcode.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Hauptmerkmale von GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Berichte mit Geschäftsdaten erstellen"
+      content: "Verwenden Sie die API, um Vorlagen schnell und präzise mit Daten aus Formaten wie JSON, XML und CSV zu füllen."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Visuelle Elemente hinzufügen"
+      content: "GroupDocs.Assembly unterstützt das Einfügen von Elementen wie Diagrammen, Tabellen, Listen, Text, Links, Bildern und Barcodes in Echtzeit."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Datenplatzierung steuern"
+      content: "Mit LINQ-basierten Vorlagen können Sie Daten präzise positionieren, durch Arrays iterieren und benutzerdefinierte Formatierungen programmatisch anwenden."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Kompatibel mit vielen Formaten"
+      content: "Arbeiten Sie mit Dateien wie MS Office-Dokumenten, PDFs, HTML, OpenOffice-Dateien und E-Mails. Fügen Sie bei Bedarf mehrere Dokumente zusammen."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Beispiel: Barcode programmgesteuert generieren"
       content: |
-        {code_1.content}
+        Dieses Beispiel zeigt, wie ein Barcode programmgesteuert in ein PPTX-Dokument generiert und eingefügt wird.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Gestalten Sie eine Vorlage mit einem Barcode-Platzhalter.
           // <<barcode [barcode_expression] -barcode_type>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Geben Sie den Pfad zur Vorlagendatei an.
           const template = "barcode_template.pptx";
 
-          // {code_1.comment_3}
+          // Rufen Sie Daten aus Ihrer Quelle ab.
           const data_csv =
               new assemblyLib.CsvDataSource("Barcode Labels.csv", 
               new assemblyLib.CsvDataLoadOptions(true));
 
-          // {code_1.comment_4}
+          // Erstellen Sie ein Datenquellenobjekt mit den erforderlichen Details.
           const data 
               = new assemblyLib.DataSourceInfo(data_csv, "label");
 
-          // {code_1.comment_5}
+          // Initialisieren Sie eine Instanz von DocumentAssembler.
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Richten Sie die Barcode-Konfiguration ein.
           asm.getBarcodeSettings().setResolution(1200);
           asm.getBarcodeSettings().setBaseYDimension(5f);
 
-          // {code_1.comment_7}
+          // Speichern Sie das Dokument mit dem enthaltenen Barcode.
           asm.assembleDocument(template, "result.pptx", data);
           ```
         platform: "java"
@@ -192,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Entdecken Sie die Hauptmerkmale"
     exclude: "barcode"
-    description: ""
+    description: "Vereinfachen Sie die Dokumentenverarbeitung mit fortschrittlichen Tools und Automatisierungsfunktionen."
     items: 
           
         # operation loop 1
@@ -231,9 +231,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Unterstützte Dateiformate für die Berichtserstellung"
     exclude: "PPTX"
-    description: ""
+    description: "Node.js via Java verarbeitet über 50 Dateitypen, was das Zusammenführen von Daten und die Verarbeitung von Vorlagen für hochwertige Ergebnisse vereinfacht."
     items: 
           
         # format loop 1

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-01-14T15:37:19
+date: 2025-01-16T13:04:06
 draft: false
 
 lang: id
@@ -24,17 +24,17 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "{index-content-nodejs-java.head_title}"
-head_description: "{index-content-nodejs-java.head_description}"
+head_title: "Toolkit Node.js untuk Membangun, Mengotomatiskan, dan Menyesuaikan Dokumen"
+head_description: "Library Node.js untuk mengotomatiskan alur kerja dokumen. Hasilkan file PDF, Word, Excel, PowerPoint, HTML, dan email dari template Anda."
 
 ############################# Header ############################
-title: "{index-content-nodejs-java.title}"
-description: "{index-content-nodejs-java.description}"
+title: "API Node.js untuk Otomasi Dokumen dan Laporan yang Disederhanakan"
+description: "Percepat proses pembuatan laporan JavaScript dengan menggabungkan data Anda dengan template yang sudah ada."
 words:
   for: "untuk"
 
 actions:
-  main: "{index-content-nodejs-java.actions_main}"
+  main: "Mulai Uji Coba Anda di NPM"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.assembly"
   alt: "Lisensi"
   alt_link: "https://purchase.groupdocs.com/pricing/assembly/nodejs-java/"
@@ -48,7 +48,7 @@ release:
   link: "https://releases.groupdocs.com/assembly/nodejs-java/"
 
 code:
-  title: "{index-content-nodejs-java.code_title}"
+  title: "Buat Grafik dalam Dokumen Word Menggunakan Node.js"
   more: "Lebih banyak contoh"
   more_link: "https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-Node.js-via-Java/"
   install: "npm i @groupdocs/groupdocs.assembly"
@@ -80,25 +80,25 @@ code:
 overview:
   enable: true
   title: "Ikhtisar GroupDocs.Assembly"
-  description: "{index-content-nodejs-java.overview_description}"
+  description: "Library Node.js yang dirancang untuk membuat dokumen secara programatik dengan penanganan data yang terintegrasi."
   features:
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_1.title}"
-      content: "{index-content-nodejs-java.overview_feature_1.description}"
+    - title: "Integrasikan Data Bisnis ke dalam Template dengan JavaScript"
+      content: "Hasilkan laporan yang menarik dengan menyematkan JSON, XML, atau data lainnya ke dalam template dengan GroupDocs.Assembly for Node.js via Java."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_2.title}"
-      content: "{index-content-nodejs-java.overview_feature_2.description}"
+    - title: "Kelola Konten yang Disematkan"
+      content: "Secara otomatis mengisi tabel, grafik, dan visual lainnya dalam dokumen Anda menggunakan data eksternal."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_3.title}"
-      content: "{index-content-nodejs-java.overview_feature_3.description}"
+    - title: "Opsi Kustomisasi"
+      content: "GroupDocs.Assembly for Node.js via Java memungkinkan Anda menambahkan fitur seperti kode batang, mengambil data dari URL, dan mengekspor file dalam berbagai format."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Independensi platform"
-  description: "{index-content-nodejs-java.platforms_description}"
+  description: "GroupDocs.Assembly for Node.js via Java terintegrasi dengan lancar dengan sistem operasi, kerangka kerja, dan manajer paket terkemuka."
   items:
     # platform loop
     - title: "Amazon"
@@ -130,7 +130,7 @@ formats:
   enable: true
   title: "Format file yang didukung"
   description: |
-    {index-content-nodejs-java.formats_description}
+    GroupDocs.Assembly for Node.js via Java mendukung berbagai macam [format dokumen](https://docs.groupdocs.com/assembly/nodejs-java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -157,66 +157,66 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-nodejs-java.features.title}"
-  description: "{index-content-nodejs-java.features.description}"
+  title: "Fitur Utama GroupDocs.Assembly"
+  description: "Buat dokumen dan laporan dinamis dengan alat manajemen data yang kuat."
 
   items:
     # feature loop
     - icon: "preview"
-      title: "{index-content-nodejs-java.features.feature_1.title}"
-      content: "{index-content-nodejs-java.features.feature_1.content}"
+      title: "Visual Data Kaya"
+      content: "Sisipkan grafik, tabel, gambar, dan daftar ke dalam dokumen Anda dengan kustomisasi penuh."
 
     # feature loop
     - icon: "manipulate"
-      title: "{index-content-nodejs-java.features.feature_2.title}"
-      content: "{index-content-nodejs-java.features.feature_2.content}"
+      title: "Transformasi Data Anda"
+      content: "Manfaatkan alat seperti rumus dan pengurutan untuk menyusun dan menampilkan informasi secara efektif."
 
     # feature loop
     - icon: "two_pages"
-      title: "{index-content-nodejs-java.features.feature_3.title}"
-      content: "{index-content-nodejs-java.features.feature_3.content}"
+      title: "Kompatibilitas Format yang Luas"
+      content: "Bekerja secara mulus dengan format file populer untuk template dan keluaran."
 
     # feature loop
     - icon: "document_settings"
-      title: "{index-content-nodejs-java.features.feature_4.title}"
-      content: "{index-content-nodejs-java.features.feature_4.content}"
+      title: "Kustomisasi Template Lanjutan"
+      content: "Format template dengan opsi gaya numerik, alfabet, dan lainnya."
 
     # feature loop
     - icon: "text"
-      title: "{index-content-nodejs-java.features.feature_5.title}"
-      content: "{index-content-nodejs-java.features.feature_5.content}"
+      title: "Hasilkan Kode Batang Secara Dinamis"
+      content: "Buat dan sematkan gambar kode batang langsung ke dalam dokumen Anda sesuai permintaan."
 
     # feature loop
     - icon: "add"
-      title: "{index-content-nodejs-java.features.feature_6.title}"
-      content: "{index-content-nodejs-java.features.feature_6.content}"
+      title: "Gaya Teks Fleksibel"
+      content: "Terapkan gaya teks seperti kapitalisasi atau huruf besar kecil judul di dalam template Anda."
 
     # feature loop
     - icon: "manipulate"
-      title: "{index-content-nodejs-java.features.feature_7.title}"
-      content: "{index-content-nodejs-java.features.feature_7.content}"
+      title: "Penyisipan Konten Dinamis"
+      content: "Sertakan konten dari file eksternal secara dinamis saat pembuatan dokumen."
 
     # feature loop
     - icon: "convert"
-      title: "{index-content-nodejs-java.features.feature_8.title}"
-      content: "{index-content-nodejs-java.features.feature_8.content}"
+      title: "Ekspor ke Berbagai Format"
+      content: "Simpan dokumen dalam berbagai format dengan konfigurasi yang Anda tentukan."
 
     # feature loop
     - icon: "update"
-      title: "{index-content-nodejs-java.features.feature_9.title}"
-      content: "{index-content-nodejs-java.features.feature_9.content}"
+      title: "Sematkan Media Secara Dinamis"
+      content: "Sisipkan gambar atau elemen lainnya menggunakan data Base64 saat membuat dokumen."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Contoh kode"
-  description: "{index-content-nodejs-java.code_samples_description}"
+  description: "Temukan contoh praktis tentang cara menggunakan GroupDocs.Assembly untuk tugas umum."
   items:
     # code sample loop
-    - title: "{index-content-nodejs-java.code_title_sample_1}"
+    - title: "Tambahkan Daftar Ber nomor dalam Dokumen Word"
       content: |
-        {index-content-nodejs-java.code_samples_sample_1_content_1} {index-content-nodejs-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-nodejs-java.code_title_sample_1}">}}
+        Lihat cara membuat [daftar ber nomor](https://docs.groupdocs.com/assembly/nodejs-java/bulleted-list-in-word-processing-document/) dalam dokumen Word untuk mengatur data secara efektif. Contoh ini menunjukkan cara menghasilkan daftar ber nomor menggunakan GroupDocs.Assembly.
+        {{< landing/code title="Tambahkan Daftar Ber nomor dalam Dokumen Word">}}
         ```javascript {style=abap}
         // Sisipkan template ini di halaman dokumen:
         // Indikator kinerja manajer
@@ -241,10 +241,10 @@ code_samples:
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-nodejs-java.code_title_sample_2}"
+    - title: "Sisipkan Grafik Lingkaran ke dalam PowerPoint"
       content: |
-        {index-content-nodejs-java.code_samples_sample_2_content_1} {index-content-nodejs-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-nodejs-java.code_title_sample_2}">}}
+        Pelajari cara menggunakan template dan XML untuk menambahkan [grafik lingkaran](https://docs.groupdocs.com/assembly/nodejs-java/pie-chart-in-presentation-document/) dalam presentasi Anda. Tingkatkan laporan Anda dengan grafik lingkaran untuk menyajikan data secara visual dan jelas.
+        {{< landing/code title="Sisipkan Grafik Lingkaran ke dalam PowerPoint">}}
         ```javascript {style=abap} 
         // Tambahkan template judul grafik ke presentasi:
         // Pendapatan pelanggan <<foreach [in customers]>> 

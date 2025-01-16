@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:12
+date:  2025-01-16T13:03:58
 draft: false
 lang: pt
 format: Pptx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Adicione Códigos de Barras a Arquivos PPTX Usando JavaScript"
+head_description: "Gere e incorpore códigos de barras em seus documentos e e-mails com a API GroupDocs.Assembly for Node.js via Java."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Crie Códigos de Barras para Arquivos PPTX Usando Node.js" 
+description: "Com GroupDocs.Assembly for Node.js via Java, você pode gerar, personalizar e incorporar códigos de barras dinamicamente em documentos PPTX."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Começar"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Introdução ao GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Saiba mais"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) permite que você crie documentos profissionais combinando dados de múltiplas fontes. Adicione gráficos, tabelas, listas, imagens e códigos de barras aos seus arquivos com precisão. Utilize templates para organizar o conteúdo exatamente onde ele pertence. Funciona com mais de 50 formatos, incluindo PDFs, documentos do Office e e-mails.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Passos para Adicionar um Código de Barras em Arquivos PPTX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) facilita a incorporação de códigos de barras em documentos PPTX. Suporta mais de 60 tipos de código de barras, incluindo formatos 1D e 2D.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Crie um template PPTX com espaços reservados para códigos de barras.
+      2. Recupere dados de uma fonte compatível.
+      3. Defina opções de código de barras, como tamanho e resolução.
+      4. Salve o documento final com o código de barras incorporado.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Use esta tag no template para incluir um código de barras no documento de saída
         // <<barcode [barcode_expression] -barcode_type>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Especifique o caminho para o arquivo template
         const template = "barcode_template.pptx";
 
-        // {examples.comment_3}
+        // Carregue os dados necessários da sua fonte
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {examples.comment_4}
+        // Salve o documento com o código de barras aplicado
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pptx", data);
         ```           
@@ -92,61 +92,61 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Gere Documentos com Templates Baseados em Dados"
+  description: "Com GroupDocs.Assembly for Node.js via Java, você pode criar arquivos profissionais em formatos populares incorporando perfeitamente gráficos, tabelas, listas, links, imagens e códigos de barras."
   image: "/img/assembly/features_barcode.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Recursos Principais do GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Gere Relatórios com Dados Empresariais"
+      content: "Use a API para preencher templates com dados de formatos como JSON, XML e CSV de forma rápida e precisa."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Adicione Elementos Visuais"
+      content: "GroupDocs.Assembly suporta a inserção de elementos como gráficos, tabelas, listas, texto, links, imagens e códigos de barras em tempo real."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Controle a Posicionamento dos Dados"
+      content: "Com templates baseados em LINQ, você pode posicionar dados com precisão, iterar sobre arrays e aplicar formatação personalizada programaticamente."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Compatível com Vários Formatos"
+      content: "Trabalhe com arquivos como documentos do MS Office, PDFs, HTML, arquivos do OpenOffice e e-mails. Mescle múltiplos documentos quando necessário."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Exemplo: Gere um Código de Barras Programaticamente"
       content: |
-        {code_1.content}
+        Este exemplo demonstra como gerar e inserir programaticamente um código de barras em um documento PPTX.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Desenhe um template com um espaço reservado para o código de barras
           // <<barcode [barcode_expression] -barcode_type>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Especifique o caminho do arquivo template
           const template = "barcode_template.pptx";
 
-          // {code_1.comment_3}
+          // Recupere dados da sua fonte
           const data_csv =
               new assemblyLib.CsvDataSource("Barcode Labels.csv", 
               new assemblyLib.CsvDataLoadOptions(true));
 
-          // {code_1.comment_4}
+          // Crie um objeto de fonte de dados com os detalhes necessários
           const data 
               = new assemblyLib.DataSourceInfo(data_csv, "label");
 
-          // {code_1.comment_5}
+          // Inicialize uma instância do DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Configure as opções do código de barras
           asm.getBarcodeSettings().setResolution(1200);
           asm.getBarcodeSettings().setBaseYDimension(5f);
 
-          // {code_1.comment_7}
+          // Salve o documento com o código de barras incluído
           asm.assembleDocument(template, "result.pptx", data);
           ```
         platform: "java"
@@ -192,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Explore Recursos Principais"
     exclude: "barcode"
-    description: ""
+    description: "Simplifique o processamento de documentos com ferramentas avançadas e capacidades de automação."
     items: 
           
         # operation loop 1
@@ -231,9 +231,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Formatos de Arquivo Suportados para Criação de Relatórios"
     exclude: "PPTX"
-    description: ""
+    description: "Node.js via Java lida com mais de 50 tipos de arquivo, tornando simples a mesclagem de dados e o processamento de templates para resultados de alta qualidade."
     items: 
           
         # format loop 1

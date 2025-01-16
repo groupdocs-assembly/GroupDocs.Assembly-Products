@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:14
+date:  2025-01-16T13:04:00
 draft: false
 lang: pt
 format: Xlsx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Insira Gráficos em Arquivos XLSX com JavaScript"
+head_description: "Com GroupDocs.Assembly for Node.js via Java, os desenvolvedores podem criar e incorporar rapidamente gráficos dinâmicos em documentos usando fontes de dados ao vivo."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Adicione Gráficos a Arquivos XLSX Usando Node.js" 
+description: "GroupDocs.Assembly for Node.js via Java simplifica o processo de integração de gráficos em documentos XLSX com entrada de dados em tempo real."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Comece Grátis Hoje"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Visão Geral do GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Saiba mais"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) é uma solução robusta para a criação de documentos e relatórios automatizados. Adicione gráficos, tabelas, imagens, códigos de barras e listas aos arquivos com precisão. Esta plataforma versátil suporta mais de 50 formatos, incluindo PDFs, documentos do Office e e-mails.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Passos para Adicionar um Gráfico a um Documento XLSX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) facilita a adição de gráficos a arquivos XLSX. Escolha entre tipos de gráficos como gráfico de barras, gráfico de linhas ou gráfico de pizza.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Projete um template XLSX com espaços reservados para gráficos.
+      2. Carregue dados de uma fonte suportada.
+      3. Configure opções do gráfico, incluindo tipo, cores e rótulos.
+      4. Exporte o documento com o gráfico incorporado.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Inclua esta tag em seu template para gerar um gráfico
         // Orders Prices by months<<y [Sum(c => c.Price)]>><<size [Count()]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Especifique o caminho do arquivo do template
         const template = "chart_template.xlsx";
 
-        // {examples.comment_3}
+        // Extraia dados de seu sistema de origem
         const data 
             = new assemblyLib.DataSourceInfo(GetChartData(), "orders");
 
-        // {examples.comment_4}
+        // Salve o documento final com o gráfico incorporado
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.xlsx", data);
         ```           
@@ -92,61 +92,61 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Incorpore Gráficos de Forma Eficiente em Seus Documentos"
+  description: "GroupDocs.Assembly for Node.js via Java facilita a geração de documentos repletos de recursos em formatos populares. Utilize templates para adicionar gráficos, tabelas, códigos de barras, listas, imagens e muito mais com atualizações de dados em tempo real."
   image: "/img/assembly/features_chart.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Principais Recursos do GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Transforme Dados em Gráficos Profissionais"
+      content: "Converta dados de fontes como JSON, XML ou CSV em gráficos de alta qualidade que podem ser incorporados diretamente em documentos."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Crie Visuais Impressionantes"
+      content: "Gere gráficos de barras, gráficos de pizza e gráficos de linhas que funcionam perfeitamente com outros elementos do documento, como imagens, tabelas e códigos de barras."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Estilização e Posicionamento de Gráficos Flexíveis"
+      content: "Utilize templates LINQ para controlar o posicionamento e a estilização dos gráficos, incluindo cores, layouts e rótulos, para uma apresentação polida."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Suporte a Muitos Formatos de Arquivo"
+      content: "Gere documentos em formatos como MS Office, PDF, OpenOffice e HTML, com gráficos perfeitamente integrados para um acabamento profissional."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Gere e Insira Gráficos Dinamicamente"
       content: |
-        {code_1.content}
+        Este exemplo ilustra como criar e incorporar gráficos em arquivos XLSX programaticamente.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Configure um template com um espaço reservado para o gráfico
           // Total Contract Price<<y [m.Total_Contract_Price]>>
           // <<seriesColor [color]>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Defina o caminho para o arquivo do template
           const template = "table_template.xlsx";
 
-          // {code_1.comment_3}
+          // Recupere dados de uma fonte escolhida
           const data_json = 
             new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
+          // Prepare um objeto de dados contendo as informações do gráfico
           const data 
               = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
+          // Escolha o tipo de gráfico e personalize sua aparência
           const design 
               = new assemblyLib.DataSourceInfo("red", "color");
 
-          // {code_1.comment_6}
+          // Inicialize DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_7}
+          // Salve o documento atualizado com o gráfico incorporado
           asm.assembleDocument(template, "result.xlsx", data, design);
           ```
         platform: "java"
@@ -192,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Descubra Recursos Avançados"
     exclude: "chart"
-    description: ""
+    description: "Esta plataforma simplifica a criação de documentos com ferramentas projetadas para visualização de dados e integração tranquila."
     items: 
           
         # operation loop 1
@@ -231,9 +231,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Gere Relatórios em Múltiplos Formatos de Arquivo"
     exclude: "XLSX"
-    description: ""
+    description: "Node.js via Java suporta mais de 50 formatos, facilitando a combinação de templates com dados para produzir documentos refinados."
     items: 
           
         # format loop 1

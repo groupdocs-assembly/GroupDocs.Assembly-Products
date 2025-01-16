@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": "Dokumente im {{FileFormatUp}} mit {{ProgLang}} zusammenführen",
+    "description": "{{ProgLang}} ermöglicht das Kombinieren von {{FileFormatUp}}-Dateien. {{ProdShortName}} vereinfacht das Zusammenführen von Dokumenten in nur wenigen Schritten."
+  },
+  "header": {
+    "title": "Inhalte in {{FileFormatUp}}-Dateien mühelos kombinieren",
+    "description": "Mit {{ProdFullName}} ist das Integrieren einer {{FileFormatUp}}-Datei in eine andere schnell und präzise. Profitieren Sie von flexiblen, zuverlässigen Werkzeugen für nahtloses Merging.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Jetzt kostenlos testen"
+  },
+  "about": {
+    "title": "Überblick über {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) bietet eine leistungsstarke Möglichkeit zur Verwaltung von Dokumenten. Fügen Sie mit Leichtigkeit eine Datei in eine andere ein und unterstützen Sie über 50 Formate, darunter PDF und MS Office. Passen Sie Layouts an, bearbeiten Sie Inhalte und organisieren Sie Dokumente ganz nach Ihren Bedürfnissen."
+  },
+  "more_features": {
+    "title": "Leistungsstarke Werkzeuge für die Dokumentenintegration",
+    "description": "{{ProdFullName}} ermöglicht das Einbetten von Dateien in verschiedenen Formaten auf einfache und vollständig anpassbare Weise. Liefern Sie jedes Mal konsistente, professionelle Ergebnisse.",
+    "image_description": "Hauptmerkmale von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Berichte mit Geschäftsdaten generieren",
+      "content": "Ziehen Sie Daten aus JSON-, XML- oder CSV-Quellen, um umfassende Berichte und Dokumente schnell und präzise zu erstellen."
+    },
+    "feature_2": {
+      "title": "Reiche visuelle Elemente hinzufügen",
+      "content": "{{ProdShortName}} ermöglicht es Ihnen, Tabellen, Diagramme, Listen, Bilder und Strichcodes neben Text und Hyperlinks einzufügen."
+    },
+    "feature_3": {
+      "title": "Präzise Datenplatzierung",
+      "content": "Verwenden Sie LINQ-Vorlagen, um Daten genau dort zu platzieren, wo sie hingehören, wiederkehrende Elemente wie Arrays zu handhaben und Stile mühelos anzupassen."
+    },
+    "feature_4": {
+      "title": "Kompatibel mit verschiedenen Formaten",
+      "content": "Fügen Sie Inhalte nahtlos über Formate wie PDFs, MS Office-Dateien, HTML und OpenOffice zusammen und bieten Sie Flexibilität für alle Projekte."
+    }
+  },
+  "formats": {
+    "title": "Dokumente in vielen Formaten kombinieren",
+    "description": "Verwenden Sie {{EnvName}}, um Inhalte über 50 Datei-Formate hinweg zusammenzuführen und professionelle und makellose Ergebnisse zu garantieren."
+  },
+  "operations": {
+    "title": "Kernfunktionen auf einen Blick",
+    "description": "Erkunden Sie die umfassenden Werkzeuge, die {{ProdShortName}} für effizientes und nahtloses Dokumenten-Merging bietet."
+  },
+  "examples": {
+    "comment_1": "Fügen Sie dieses Tag in Ihre Vorlage ein, um zu definieren, wo das Dokument eingebettet wird.",
+    "comment_2": "Setzen Sie den Dateipfad für die Hauptvorlage.",
+    "comment_3": "Geben Sie den Pfad für das Dokument an, das Sie zusammenführen möchten.",
+    "comment_4": "Speichern Sie die endgültige Ausgabe mit dem eingebetteten Dokument."
+  },
+  "steps": {
+    "title": "Wie man ein Dokument in eine {{FileFormatUp}}-Datei zusammenführt",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ermöglicht es Ihnen, eine {{FileFormatUp}}-Datei in eine andere mit anpassbaren Optionen einzufügen.",
+      "step_1": "Entwerfen Sie eine {{FileFormatUp}}-Vorlage mit Platzhaltern für den Inhalt.",
+      "step_2": "Setzen Sie den Dateipfad für die Vorlage.",
+      "step_3": "Geben Sie den Dateipfad für das zusammenzufügende Dokument an.",
+      "step_4": "Exportieren Sie die endgültige Datei mit dem kombinierten Inhalt."
+    }
+  },
+  "code_1": {
+    "title": "Ein Bild programmgesteuert in ein Dokument einfügen",
+    "content": "Dieses Beispiel zeigt, wie man ein Bild in eine {{FileFormatUp}}-Datei mit {{ProdShortName}} einfügt.",
+    "comment_1": "Fügen Sie einen Platzhalter in die Vorlage für das Bild ein.",
+    "comment_2": "Geben Sie den Pfad zur Vorlage an.",
+    "comment_3": "Setzen Sie den Pfad zum Bild, das Sie einbetten möchten.",
+    "comment_4": "Initialisieren Sie das {{DocumentAssembler}}-Objekt.",
+    "comment_5": "Speichern Sie das Dokument mit dem enthaltenen Bild."
+  },
+  "texts_pdf": {
+    "step_1": "Entwerfen Sie eine Vorlage mit Platzhaltern für eingebettete Inhalte (PDF-Vorlagen werden nicht unterstützt).",
+    "step_4": "Speichern Sie das vervollständigte Dokument mit dem zusammengeführten Inhalt als PDF-Datei.",
+    "comment_tmp": "Momentan werden PDF-Vorlagen nicht unterstützt."
+  }
+}

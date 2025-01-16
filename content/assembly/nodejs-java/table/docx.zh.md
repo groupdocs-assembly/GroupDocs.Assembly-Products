@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:18
+date:  2025-01-16T13:04:05
 draft: false
 lang: zh
 format: Docx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "在DOCX文档中插入表格，使用JavaScript"
+head_description: "利用GroupDocs.Assembly for Node.js via Java快速在文档或电子邮件中嵌入表格，从各种数据源提取数据。"
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "轻松添加表格到DOCX文件，使用Node.js" 
+description: "借助GroupDocs.Assembly for Node.js via Java，在DOCX文档中填充表格变得简便，可以从多个数据源获取数据。"
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "开始您的免费试用"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "GroupDocs.Assembly for Node.js via Java简介"
     link: "/assembly/nodejs-java/"
     link_title: "了解更多"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) 是一个强大的文档创建自动化工具。它允许您精确地在模板中插入表格、图表、列表和图像，支持超过50种文件格式，包括PDF、Word和电子邮件，简化报告生成及其他任务。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "如何在DOCX中向表格添加数据"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/)使您能够快速使用动态数据源填充DOCX文件的表格模板。
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. 创建一个含有表格行和列占位符的DOCX模板。
+      2. 从支持的源加载数据，如JSON或CSV。
+      3. 根据需要组织和格式化数据。
+      4. 生成包含完整表格的文档。
    
     code:
       platform: "java"
@@ -72,21 +72,21 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // 在您的模板的表格行占位符中包含这些标签
         // <<foreach [c in ds]>>
         // <<[c.Client]>><<[c.Manager]>><<[c.Price]>>
         // <</foreach>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // 指定模板文件路径
         const template = "table_template.docx";
 
-        // {examples.comment_3}
+        // 从选定的源加载数据
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "ds");
 
-        // {examples.comment_4}
+        // 保存包含完整表格的最终文档
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.docx", data);
         ```           
@@ -94,57 +94,57 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "轻松将数据驱动的表格添加到文档中"
+  description: "GroupDocs.Assembly for Node.js via Java允许用户自动创建表格，同时使用基于模板的工作流程嵌入图表、图像和列表。"
   image: "/img/assembly/features_table.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "GroupDocs.Assembly的主要特点"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "从结构化数据生成表格"
+      content: "从JSON、XML、CSV等格式提取数据，自动填充文档表格。"
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "创建精美的视觉内容"
+      content: "使用GroupDocs.Assembly设计专业表格、图表和列表，并为文档添加链接、图像和文本，以提升文档外观。"
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "动态表格内容布局"
+      content: "使用基于LINQ的模板程序化添加行和列，并自定义字体、颜色和对齐等样式。"
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "在多种格式中无缝工作"
+      content: "轻松在MS Office、OpenOffice、PDF、HTML等格式中创建或编辑表格，按需将其合并到文件中。"
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "如何程序化填充表格"
       content: |
-        {code_1.content}
+        此示例演示如何从外部源填充DOCX文档中的表格。
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // 设计一个含有表格占位符的模板
           // <<foreach [c in items]>> <<[c.Client]>><<[c.Manager]>>
           //  <<[c.Price]>> <</foreach>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // 指定模板的文件路径
           const template = "table_template.docx";
 
-          // {code_1.comment_3}
+          // 从源加载所需的数据
           const data_json = 
             new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
+          // 组织数据成必要结构
           const data 
               = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
+          // 初始化DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // 保存包含完整表格的输出文档
           asm.assembleDocument(template, "result.docx", data);
           ```
         platform: "java"
@@ -190,9 +190,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "核心功能一览"
     exclude: "table"
-    description: ""
+    description: "我们的API自动化表格创建，使用多功能工具和模板增强文档生成。"
     items: 
           
         # operation loop 1
@@ -229,9 +229,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "在各种格式中生成表格"
     exclude: "DOCX"
-    description: ""
+    description: "使用Node.js via Java，填充模板并在超过50种支持的文件类型中创建全面的表格。"
     items: 
           
         # format loop 1

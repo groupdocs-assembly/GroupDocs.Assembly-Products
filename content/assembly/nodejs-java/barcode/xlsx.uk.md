@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:12
+date:  2025-01-16T13:03:58
 draft: false
 lang: uk
 format: Xlsx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Додавання штрих-кодів до файлів XLSX за допомогою JavaScript"
+head_description: "Генеруйте та вбудовуйте штрих-коди у ваші документи та електронні листи з API GroupDocs.Assembly for Node.js via Java."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Створення штрих-кодів для файлів XLSX за допомогою Node.js" 
+description: "За допомогою GroupDocs.Assembly for Node.js via Java ви можете динамічно генерувати, налаштовувати та вбудовувати штрих-коди у документи XLSX."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Почати"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Вступ до GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Дізнатися більше"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) дозволяє створювати професійні документи, поєднуючи дані з кількох джерел. Додавайте графіки, таблиці, списки, зображення та штрих-коди до ваших файлів. Використовуйте шаблони для впорядкування вмісту у відповідні місця. Підтримує більше 50 форматів, включаючи PDF, документи Office та електронні листи.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Кроки для додавання штрих-коду у файли XLSX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) дозволяє вбудовувати штрих-коди в документи XLSX. Він підтримує понад 60 типів штрих-кодів, включаючи 1D та 2D формати.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Створіть шаблон XLSX з заповнювачами для штрих-кодів.
+      2. Отримайте дані з сумісного джерела.
+      3. Встановіть параметри штрих-коду, такі як розмір та роздільна здатність.
+      4. Збережіть фінальний документ з вбудованим штрих-кодом.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Використовуйте цей тег у шаблоні, щоб включити штрих-код у вихідний документ
         // <<barcode [barcode_expression] -barcode_type>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Вкажіть шлях до файлу шаблону
         const template = "barcode_template.xlsx";
 
-        // {examples.comment_3}
+        // Завантажте необхідні дані з вашого джерела
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {examples.comment_4}
+        // Збережіть документ зі штрих-кодом
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.xlsx", data);
         ```           
@@ -92,61 +92,61 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Генеруйте документи з шаблонами, заснованими на даних"
+  description: "За допомогою GroupDocs.Assembly for Node.js via Java ви можете створювати професійні файли в популярних форматах, безперешкодно вбудовуючи графіки, таблиці, списки, посилання, зображення та штрих-коди."
   image: "/img/assembly/features_barcode.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Основні функції GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Створення звітів з бізнес-даних"
+      content: "Використовуйте API для швидкого та точного заповнення шаблонів даними з форматів, таких як JSON, XML та CSV."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Додавання візуальних елементів"
+      content: "GroupDocs.Assembly підтримує вставлення елементів, таких як графіки, таблиці, списки, текст, посилання, зображення та штрих-коди в реальному часі."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Контроль розташування даних"
+      content: "З шаблонами на основі LINQ ви можете точно розміщувати дані, проходити через масиви та застосовувати користувацьке форматування програмно."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Сумісність з багатьма форматами"
+      content: "Працюйте з файлами, такими як документи MS Office, PDF, HTML, файли OpenOffice та електронні листи. Об'єднуйте кілька документів за потреби."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Приклад: Генерація штрих-коду програмно"
       content: |
-        {code_1.content}
+        Цей приклад демонструє, як програмно згенерувати та вставити штрих-код у документ XLSX.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Створіть шаблон із заповнювачем для штрих-коду
           // <<barcode [barcode_expression] -barcode_type>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Вкажіть шлях до файлу шаблону
           const template = "barcode_template.xlsx";
 
-          // {code_1.comment_3}
+          // Отримайте дані з вашого джерела
           const data_csv =
               new assemblyLib.CsvDataSource("Barcode Labels.csv", 
               new assemblyLib.CsvDataLoadOptions(true));
 
-          // {code_1.comment_4}
+          // Створіть об'єкт джерела даних з необхідними деталями
           const data 
               = new assemblyLib.DataSourceInfo(data_csv, "label");
 
-          // {code_1.comment_5}
+          // Ініціалізуйте екземпляр DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Налаштуйте конфігурацію штрих-коду
           asm.getBarcodeSettings().setResolution(1200);
           asm.getBarcodeSettings().setBaseYDimension(5f);
 
-          // {code_1.comment_7}
+          // Збережіть документ із включеним штрих-кодом
           asm.assembleDocument(template, "result.xlsx", data);
           ```
         platform: "java"
@@ -192,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Досліджуйте ключові функції"
     exclude: "barcode"
-    description: ""
+    description: "Спростіть обробку документів з допомогою розширених інструментів та можливостей автоматизації."
     items: 
           
         # operation loop 1
@@ -231,9 +231,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Підтримувані формати файлів для створення звітів"
     exclude: "XLSX"
-    description: ""
+    description: "Node.js via Java обробляє понад 50 типів файлів, спрощуючи злиття даних та обробку шаблонів для отримання якісних результатів."
     items: 
           
         # format loop 1

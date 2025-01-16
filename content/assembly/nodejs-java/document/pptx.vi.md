@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:15
+date:  2025-01-16T13:04:02
 draft: false
 lang: vi
 format: Pptx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Kết hợp Tài liệu trong PPTX với JavaScript"
+head_description: "Kết hợp các tệp PPTX bằng JavaScript. GroupDocs.Assembly đơn giản hóa việc kết hợp tài liệu chỉ sau vài bước đơn giản."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Kết hợp Nội dung trong Các Tệp PPTX một cách Nhanh chóng" 
+description: "Với GroupDocs.Assembly for Node.js via Java, việc tích hợp một tệp PPTX vào tệp khác diễn ra nhanh chóng và chính xác. Tận hưởng công cụ linh hoạt, đáng tin cậy cho việc kết hợp liền mạch."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Thử Miễn Phí"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Tổng Quan về GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Tìm hiểu thêm"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) cung cấp một cách mạnh mẽ để quản lý tài liệu. Kết hợp một tệp vào một tệp khác một cách dễ dàng trong khi hỗ trợ hơn 50 định dạng, như PDF và MS Office. Tùy chỉnh bố cục, chỉnh sửa nội dung và sắp xếp tài liệu theo đúng cách bạn cần.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Cách Kết Hợp một Tài Liệu vào một Tệp PPTX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) giúp bạn chèn một tệp PPTX vào một tệp khác với các tùy chọn tùy biến.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Thiết kế một mẫu PPTX với các chỗ trống cho nội dung.
+      2. Đặt đường dẫn tệp cho mẫu.
+      3. Cung cấp đường dẫn tệp cho tài liệu để kết hợp.
+      4. Xuất tệp cuối cùng với nội dung đã kết hợp.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Chèn thẻ này vào mẫu của bạn để xác định nơi tài liệu sẽ được nhúng
         // <<doc [doc_expression]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Đặt đường dẫn tệp cho mẫu chính
         const template = "doc_template.pptx";
 
-        // {examples.comment_3}
+        // Cung cấp đường dẫn cho tài liệu bạn muốn kết hợp
         const data 
             = new assemblyLib.DataSourceInfo("insert.pptx", "doc_expression");
 
-        // {examples.comment_4}
+        // Lưu đầu ra cuối cùng với tài liệu đã nhúng
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pptx", data);
         ```           
@@ -92,52 +92,52 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Công Cụ Mạnh Mẽ cho Việc Tích Hợp Tài Liệu"
+  description: "GroupDocs.Assembly for Node.js via Java giúp việc nhúng tệp qua các định dạng khác nhau trở nên dễ dàng và hoàn toàn tùy chỉnh. Đảm bảo mang lại kết quả nhất quán và chuyên nghiệp mỗi lần."
   image: "/img/assembly/features_document.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Các Tính Năng Nổi Bật của GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Tạo Báo Cáo với Dữ Liệu Kinh Doanh"
+      content: "Kéo dữ liệu từ các nguồn JSON, XML hoặc CSV để tạo báo cáo và tài liệu toàn diện một cách nhanh chóng và chính xác."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Thêm Các Yếu Tố Hình Ảnh Đa Dạng"
+      content: "GroupDocs.Assembly cho phép bạn bao gồm bảng, biểu đồ, danh sách, hình ảnh và mã vạch bên cạnh văn bản và liên kết."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Đặt Dữ Liệu Chính Xác"
+      content: "Sử dụng các mẫu LINQ để định vị dữ liệu chính xác ở vị trí mà nó thuộc về, xử lý các mục lặp lại như mảng và tùy chỉnh kiểu dáng một cách dễ dàng."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Hoạt Động với Nhiều Định Dạng Khác Nhau"
+      content: "Kết hợp nội dung liền mạch qua các định dạng như PDF, tệp MS Office, HTML và OpenOffice, cung cấp sự linh hoạt cho tất cả các dự án."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Nhúng Hình Ảnh vào Tài Liệu Qua Mã Lập Trình"
       content: |
-        {code_1.content}
+        Ví dụ này minh họa cách chèn một hình ảnh vào tệp PPTX bằng cách sử dụng GroupDocs.Assembly.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Thêm một chỗ trống trong mẫu cho hình ảnh
           // <<image [expression]>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Chỉ định đường dẫn đến tệp mẫu
           const template = "template.pptx";
 
-          // {code_1.comment_3}
+          // Đặt đường dẫn đến hình ảnh bạn muốn nhúng
           const data =
               = new assemblyLib.DataSourceInfo("logo.jpg", "expression");
 
-          // {code_1.comment_4}
+          // Khởi tạo đối tượng DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_5}
+          // Lưu tài liệu với hình ảnh đã bao gồm
           asm.assembleDocument(template, "result.pptx", data);
           ```
         platform: "java"
@@ -183,9 +183,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Các Tính Năng Cốt Lõi Tóm Tắt"
     exclude: "document"
-    description: ""
+    description: "Khám phá các công cụ toàn diện mà GroupDocs.Assembly cung cấp cho việc kết hợp tài liệu hiệu quả và liền mạch."
     items: 
           
         # operation loop 1
@@ -222,9 +222,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Kết Hợp Tài Liệu trong Nhiều Định Dạng"
     exclude: "PPTX"
-    description: ""
+    description: "Sử dụng Node.js via Java để kết hợp nội dung qua hơn 50 định dạng tệp, đảm bảo kết quả chuyên nghiệp và trau chuốt."
     items: 
           
         # format loop 1

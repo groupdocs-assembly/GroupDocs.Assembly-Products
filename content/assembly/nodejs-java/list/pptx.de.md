@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:16
+date:  2025-01-16T13:04:03
 draft: false
 lang: de
 format: Pptx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Erstellen Sie dynamische Listen in PPTX mit JavaScript"
+head_description: "Gestalten und fügen Sie Listen in PPTX-Vorlagen über die GroupDocs.Assembly for Node.js via Java-API ein."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Datengetriebene Listen in PPTX-Dateien mit Node.js einbetten" 
+description: "GroupDocs.Assembly for Node.js via Java bietet leistungsstarke Werkzeuge, um flexible, datenbasierte Listen in PPTX-Dokumente einzufügen."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Kostenlos starten"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Über GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Mehr erfahren"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) vereinfacht die Dokumentenerstellung, indem Daten aus verschiedenen Quellen gezogen und in Vorlagen eingebettet werden. Nutzen Sie es, um Listen, Tabellen, Diagramme und andere Elemente zu erstellen, mit präziser Platzierung und Formatierungsoptionen. Mit Unterstützung für über 50 Formate, einschließlich PDF, MS Office und E-Mails, hilft es, Ihren Dokumentenerstellungsprozess zu automatisieren.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Schritte zum Einfügen einer Liste in eine PPTX-Datei"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) vereinfacht das Hinzufügen detaillierter, datengetriebener Listen zu Ihren PPTX-Vorlagen.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Erstellen Sie eine PPTX-Vorlage und definieren Sie Platzhalter für die Liste.
+      2. Geben Sie den Dateipfad der Vorlage an.
+      3. Laden Sie Daten aus unterstützten Quellen wie JSON oder XML.
+      4. Speichern Sie das Dokument mit der generierten Liste.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Platzieren Sie dieses Tag in Ihrer Vorlage, um zu markieren, wo die Liste erscheinen soll
         // <<foreach [in customers]>><<[CustomerName]>><</foreach>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Setzen Sie den Dateipfad für Ihre Vorlage
         const template = "list_template.pptx";
 
-        // {examples.comment_3}
+        // Holen Sie die Daten aus der gewünschten Quelle
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {examples.comment_4}
+        // Speichern Sie die Datei mit der eingefügten Liste
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pptx", data);
         ```           
@@ -92,57 +92,57 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Dokumente mit integrierten Daten auf einfache Weise erstellen"
+  description: "Mit GroupDocs.Assembly for Node.js via Java können Sie Listen, Tabellen, Diagramme und andere Elemente in Vorlagen einbetten und so Zeit und Aufwand sparen."
   image: "/img/assembly/features_list.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Highlights von GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Berichte aus mehreren Datenquellen generieren"
+      content: "Importieren Sie Daten aus JSON, XML, CSV oder anderen Formaten, um Listen und andere Komponenten effizient zu befüllen."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Listen und andere visuelle Elemente hinzufügen"
+      content: "GroupDocs.Assembly ermöglicht es Ihnen, Listen, Tabellen, Diagramme und mehr nahtlos neben Text, Bildern und Links für ein professionelles Ergebnis einzufügen."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Daten präzise platzieren und gestalten"
+      content: "LINQ-basierte Vorlagen ermöglichen es Ihnen, genau zu steuern, wo Listen und andere Daten erscheinen, Schleifen für wiederkehrende Elemente zu verwenden und Stile anzupassen, um Ihren Anforderungen gerecht zu werden."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Funktioniert über mehrere Formate hinweg"
+      content: "Erstellen Sie Dokumente in Formaten wie MS Office, PDF, OpenOffice, HTML und E-Mails. Fügen Sie Inhalte aus verschiedenen Quellen in eine einzige Datei zusammen."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Programmatisch eine Liste in ein Dokument erstellen"
       content: |
-        {code_1.content}
+        Dieses Beispiel zeigt, wie Sie dynamisch eine Liste zu einem PPTX-Dokument mit GroupDocs.Assembly hinzufügen.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Fügen Sie in Ihrer Vorlage einen Platzhalter für die Liste hinzu
           // <<foreach [in products]>><<[NumberOf()]>>. <<[ProductName]>>
           // <</foreach>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Geben Sie den Dateipfad der Vorlage an
           const template = "numlist_template.pptx";
 
-          // {code_1.comment_3}
+          // Laden Sie Daten, um die Liste zu befüllen
           const data_xml =
               new assemblyLib.XmlDataSource("products.xml");
 
-          // {code_1.comment_4}
+          // Bereiten Sie die Datenquelle mit den erforderlichen Details vor
           const data 
               = new assemblyLib.DataSourceInfo(data_xml, "products");
 
-          // {code_1.comment_5}
+          // Initialisieren Sie den DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Speichern Sie das endgültige Dokument mit der enthaltenen Liste
           asm.assembleDocument(template, "result.pptx", data);
           ```
         platform: "java"
@@ -188,9 +188,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Entdecken Sie die Funktionen von GroupDocs.Assembly"
     exclude: "list"
-    description: ""
+    description: "Gestalten und generieren Sie datenreiche Dokumente mühelos mithilfe leistungsstarker Integrationswerkzeuge."
     items: 
           
         # operation loop 1
@@ -227,9 +227,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Dokumente in mehreren Formaten erstellen"
     exclude: "PPTX"
-    description: ""
+    description: "Node.js via Java unterstützt über 50 Dateiformate, wodurch es leicht ist, Vorlagen und Daten in professionelle Ergebnisse zu integrieren."
     items: 
           
         # format loop 1

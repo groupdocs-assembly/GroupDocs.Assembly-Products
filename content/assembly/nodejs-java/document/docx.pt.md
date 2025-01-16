@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:15
+date:  2025-01-16T13:04:02
 draft: false
 lang: pt
 format: Docx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Mesclar Documentos em DOCX com JavaScript"
+head_description: "Combine arquivos DOCX usando JavaScript. GroupDocs.Assembly simplifica a mesclagem de documentos em apenas alguns passos simples."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Combine Conteúdo em Arquivos DOCX de Forma Eficiente" 
+description: "Com GroupDocs.Assembly for Node.js via Java, integrar um arquivo DOCX a outro é rápido e preciso. Desfrute de ferramentas flexíveis e confiáveis para uma mesclagem perfeita."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Experimente Gratuitamente"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Visão Geral do GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Saiba mais"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) oferece uma maneira poderosa de gerenciar documentos. Mescle um arquivo em outro com eficiência, suportando mais de 50 formatos, como PDF e MS Office. Personalize layouts, edite conteúdo e organize documentos exatamente como necessário.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Como Mesclar um Documento em um Arquivo DOCX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) facilita a inserção de um arquivo DOCX em outro com opções personalizáveis.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Desenhe um template DOCX com espaços reservados para o conteúdo.
+      2. Defina o caminho do arquivo para o template.
+      3. Forneça o caminho do arquivo para mesclar.
+      4. Exporte o arquivo final com o conteúdo combinado.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Insira esta tag em seu template para definir onde o documento será incorporado
         // <<doc [doc_expression]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Defina o caminho do arquivo para o template principal
         const template = "doc_template.docx";
 
-        // {examples.comment_3}
+        // Forneça o caminho do documento que deseja mesclar
         const data 
             = new assemblyLib.DataSourceInfo("insert.docx", "doc_expression");
 
-        // {examples.comment_4}
+        // Salve a saída final com o documento incorporado
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.docx", data);
         ```           
@@ -92,52 +92,52 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Ferramentas Poderosas para Integração de Documentos"
+  description: "GroupDocs.Assembly for Node.js via Java torna a incorporação de arquivos em diversos formatos fácil e totalmente personalizável. Forneça resultados consistentes e profissionais a cada vez."
   image: "/img/assembly/features_document.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Recursos Principais do GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Gere Relatórios com Dados Empresariais"
+      content: "Extraia dados de fontes JSON, XML ou CSV para criar relatórios e documentos abrangentes de forma rápida e precisa."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Adicione Elementos Visuais Ricos"
+      content: "GroupDocs.Assembly permite incluir tabelas, gráficos, listas, imagens e códigos de barras junto com texto e hyperlinks."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Posicionamento Preciso de Dados"
+      content: "Utilize templates LINQ para posicionar os dados exatamente onde pertencem, lidar com itens repetidos como arrays e personalizar estilos de maneira eficiente."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Funciona com uma Variedade de Formatos"
+      content: "Mescle conteúdo de forma contínua em formatos como PDFs, arquivos do MS Office, HTML e OpenOffice, oferecendo flexibilidade para todos os projetos."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Incorpore uma Imagem em um Documento Programaticamente"
       content: |
-        {code_1.content}
+        Este exemplo demonstra como inserir uma imagem em um arquivo DOCX usando GroupDocs.Assembly.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Adicione um espaço reservado no template para a imagem
           // <<image [expression]>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Especifique o caminho para o arquivo do template
           const template = "template.docx";
 
-          // {code_1.comment_3}
+          // Defina o caminho para a imagem que deseja incorporar
           const data =
               = new assemblyLib.DataSourceInfo("logo.jpg", "expression");
 
-          // {code_1.comment_4}
+          // Inicialize o objeto DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_5}
+          // Salve o documento com a imagem incluída
           asm.assembleDocument(template, "result.docx", data);
           ```
         platform: "java"
@@ -183,9 +183,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Recursos Essenciais em Resumo"
     exclude: "document"
-    description: ""
+    description: "Explore as ferramentas abrangentes que GroupDocs.Assembly oferece para uma mesclagem de documentos eficiente e sem problemas."
     items: 
           
         # operation loop 1
@@ -222,9 +222,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Combine Documentos em Vários Formatos"
     exclude: "DOCX"
-    description: ""
+    description: "Use Node.js via Java para mesclar conteúdo em mais de 50 formatos de arquivo, garantindo resultados profissionais e acabados."
     items: 
           
         # format loop 1

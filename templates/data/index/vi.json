@@ -1,7 +1,7 @@
 {
   "index-content": {
-    "head_title": "APIs .NET, Java & Ứng dụng Tài liệu Trực tuyến của GroupDocs",
-    "head_description": "Nhận Giải pháp Tự động hóa Tài liệu & Báo cáo toàn diện cho các ứng dụng .NET và Java. Tạo tất cả các tài liệu thông dụng từ các mẫu tùy chỉnh và dữ liệu.",
+    "head_title": "API & Ứng Dụng Tạo Tài Liệu Trực Tuyến GroupDocs cho .NET, Java, Node.js",
+    "head_description": "Giải pháp Tự Động Hóa và Báo Cáo Tài Liệu toàn diện cho ứng dụng .NET, Java và Node.js. Tạo tất cả các tài liệu phổ biến từ mẫu và dữ liệu tùy chỉnh.",
     "title": "Giải pháp Tự động hóa Tài liệu và Báo cáo",
     "description_1": "Tạo báo cáo chi tiết bằng cách sử dụng mẫu và nguồn dữ liệu với các ứng dụng và API đa nền tảng của chúng tôi.",
     "description_2": "Tạo báo cáo ở các định dạng như Word, Excel, Bản trình bày và nhiều hơn nữa bằng cách sử dụng các mẫu với cú pháp linh hoạt.",
@@ -306,5 +306,75 @@
     "code_title_sample_2": "Tạo Biểu đồ Bánh trong PPTX",
     "code_samples_sample_2_content_1": "Sử dụng các mẫu và XML để thêm [biểu đồ bánh](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/) vào các bài thuyết trình của bạn.",
     "code_samples_sample_2_content_2": "Làm cho báo cáo của bạn hấp dẫn hơn bằng cách bao gồm biểu đồ bánh để trực quan hóa dữ liệu."
+  },
+  "index-content-nodejs-java": {
+    "head_title": "Bộ Công Cụ {{EnvNameShort}} để Xây Dựng, Tự Động Hóa và Tùy Chỉnh Tài Liệu",
+    "head_description": "Thư viện {{EnvNameShort}} để tự động hóa quy trình làm việc tài liệu. Tạo tệp PDF, Word, Excel, PowerPoint, HTML và email từ các mẫu của bạn.",
+    "title": "API {{EnvNameShort}} cho Tự Động Hóa Tài Liệu và Báo Cáo Đơn Giản",
+    "description": "Tối ưu hóa việc tạo báo cáo {{ProgLang}} bằng cách kết hợp dữ liệu của bạn với các mẫu đã được xây dựng sẵn.",
+    "actions_main": "Bắt Đầu Dùng Thử Trên {{PackageStoreName}}",
+    "code_title": "Tạo Biểu Đồ Trong Tài Liệu Word Sử Dụng {{EnvNameShort}}",
+    "overview_description": "Thư viện {{EnvNameShort}} được xây dựng để tạo tài liệu theo cách lập trình với việc xử lý dữ liệu tích hợp.",
+    "overview_feature_1": {
+      "title": "Tích Hợp Dữ Liệu Kinh Doanh Vào Mẫu Với {{ProgLang}}",
+      "description": "Tạo báo cáo chuyên nghiệp bằng cách nhúng JSON, XML hoặc dữ liệu khác vào mẫu với {{ProdFullName}}."
+    },
+    "overview_feature_2": {
+      "title": "Quản Lý Nội Dung Nhúng",
+      "description": "Tự động điền bảng, biểu đồ và các hình ảnh khác trong tài liệu của bạn bằng cách sử dụng dữ liệu bên ngoài."
+    },
+    "overview_feature_3": {
+      "title": "Tùy Chọn Tùy Biến",
+      "description": "{{ProdFullName}} cho phép bạn thêm các tính năng như mã vạch, lấy dữ liệu từ URL và xuất tệp trong nhiều định dạng khác nhau."
+    },
+    "features": {
+      "title": "Các Tính Năng Cốt Lõi Của {{ProdShortName}}",
+      "description": "Tạo tài liệu và báo cáo động với các công cụ quản lý dữ liệu mạnh mẽ.",
+      "feature_1": {
+        "title": "Hình Ảnh Dữ Liệu Đầy Đủ",
+        "content": "Chèn đầy đủ biểu đồ, bảng, hình ảnh và danh sách vào tài liệu của bạn với tùy chỉnh hoàn toàn."
+      },
+      "feature_2": {
+        "title": "Chuyển Đổi Dữ Liệu Của Bạn",
+        "content": "Sử dụng các công cụ như công thức và sắp xếp để cấu trúc và hiển thị thông tin hiệu quả."
+      },
+      "feature_3": {
+        "title": "Tính Tương Thích Định Dạng Rộng",
+        "content": "Làm việc liền mạch với các định dạng tệp phổ biến cho mẫu và đầu ra."
+      },
+      "feature_4": {
+        "title": "Tùy Chỉnh Mẫu Cao Cấp",
+        "content": "Định dạng các mẫu với các tùy chọn kiểu dáng số, chữ cái và các kiểu khác."
+      },
+      "feature_5": {
+        "title": "Tạo Mã Vạch Động",
+        "content": "Tạo và nhúng hình ảnh mã vạch trực tiếp vào tài liệu của bạn theo yêu cầu."
+      },
+      "feature_6": {
+        "title": "Tùy Chỉnh Kiểu Chữ Linh Hoạt",
+        "content": "Áp dụng các kiểu chữ như chữ viết hoa hoặc chữ cái đầu tiên trong mẫu của bạn một cách dễ dàng."
+      },
+      "feature_7": {
+        "title": "Chèn Nội Dung Động",
+        "content": "Bao gồm nội dung từ các tệp bên ngoài một cách động trong quá trình tạo tài liệu."
+      },
+      "feature_8": {
+        "title": "Xuất Sang Nhiều Định Dạng",
+        "content": "Lưu tài liệu ở nhiều định dạng với các cấu hình mà bạn chỉ định."
+      },
+      "feature_9": {
+        "title": "Nhúng Media Động",
+        "content": "Chèn hình ảnh hoặc các yếu tố khác bằng cách sử dụng dữ liệu Base64 khi tạo tài liệu."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} tích hợp mượt mà với các hệ điều hành, framework và trình quản lý gói hàng đầu.",
+    "formats_description": "{{ProdFullName}} hỗ trợ một loạt [định dạng tài liệu]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Khám phá các ví dụ thực tiễn về cách sử dụng {{ProdShortName}} cho các tác vụ phổ biến.",
+    "code_title_sample_1": "Thêm Danh Sách Có Dấu Chấm Trong Tài Liệu Word",
+    "code_samples_sample_1_content_1": "Xem cách tạo [danh sách có dấu chấm]({{Sample1Url}}) trong tài liệu Word để tổ chức dữ liệu hiệu quả.",
+    "code_samples_sample_1_content_2": "Ví dụ này minh họa cách tạo một danh sách có dấu chấm bằng {{ProdShortName}}.",
+    "code_title_sample_2": "Chèn Biểu Đồ Bánh Vào PowerPoint",
+    "code_samples_sample_2_content_1": "Tìm hiểu cách sử dụng các mẫu và XML để thêm [biểu đồ bánh]({{Sample2Url}}) vào bài thuyết trình của bạn.",
+    "code_samples_sample_2_content_2": "Nâng cao báo cáo của bạn với biểu đồ bánh để trình bày dữ liệu một cách trực quan và rõ ràng."
   }
 }

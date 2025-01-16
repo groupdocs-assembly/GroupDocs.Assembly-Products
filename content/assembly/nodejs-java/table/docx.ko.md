@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:18
+date:  2025-01-16T13:04:05
 draft: false
 lang: ko
 format: Docx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "JavaScript을 사용하여 DOCX 문서에 테이블 삽입하기"
+head_description: "GroupDocs.Assembly for Node.js via Java를 사용하여 다양한 출처에서 데이터를 가져와 문서나 이메일에 테이블을 빠르게 삽입하세요."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Node.js에서 DOCX 파일에 테이블 추가하기" 
+description: "GroupDocs.Assembly for Node.js via Java을 사용하면 여러 출처의 데이터를 이용해 DOCX 문서에 테이블을 쉽게 채울 수 있습니다."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "무료 체험 시작하기"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "GroupDocs.Assembly for Node.js via Java 소개"
     link: "/assembly/nodejs-java/"
     link_title: "자세히 알아보기"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/)는 문서 생성 자동화를 위한 강력한 도구입니다. 테이블, 차트, 리스트, 이미지를 템플릿에 정밀하게 삽입할 수 있습니다. PDF, Word, 이메일을 포함해 50개 이상의 파일 형식을 지원하며, 보고서 생성 및 기타 작업을 간소화합니다.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "DOCX에서 테이블에 데이터 추가하기"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/)은 동적 데이터 소스를 사용하여 DOCX 파일의 테이블 템플릿을 빠르게 채울 수 있도록 합니다.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. DOCX 템플릿을 생성하고 테이블 행 및 열을 위한 자리 표시자를 추가합니다.
+      2. JSON 또는 CSV와 같은 지원되는 출처에서 데이터를 로드합니다.
+      3. 필요에 따라 데이터를 정리하고 형식을 지정합니다.
+      4. 완성된 테이블이 포함된 문서를 생성합니다.
    
     code:
       platform: "java"
@@ -72,21 +72,21 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // 템플릿의 테이블 행 자리 표시자에 이러한 태그를 포함하세요.
         // <<foreach [c in ds]>>
         // <<[c.Client]>><<[c.Manager]>><<[c.Price]>>
         // <</foreach>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // 템플릿 파일 경로를 지정하세요.
         const template = "table_template.docx";
 
-        // {examples.comment_3}
+        // 선택한 출처에서 데이터를 로드하세요.
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "ds");
 
-        // {examples.comment_4}
+        // 완성된 테이블이 포함된 최종 문서를 저장하세요.
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.docx", data);
         ```           
@@ -94,57 +94,57 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "데이터 기반 테이블을 문서에 추가하기"
+  description: "GroupDocs.Assembly for Node.js via Java을 통해 사용자는 테이블을 자동으로 생성할 수 있을 뿐만 아니라, 템플릿 기반 워크플로우를 사용하여 차트, 이미지 및 리스트를 삽입할 수 있습니다."
   image: "/img/assembly/features_table.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "GroupDocs.Assembly의 주요 기능"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "구조화된 데이터로부터 테이블 생성"
+      content: "JSON, XML, CSV 등 다양한 형식에서 데이터를 가져와 문서 테이블을 자동으로 채울 수 있습니다."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "세련된 시각적 콘텐츠 생성"
+      content: "GroupDocs.Assembly을 사용하여 전문적인 테이블, 차트 및 리스트를 디자인하고, 링크, 이미지 및 텍스트를 추가하여 다듬어진 문서의 외관을 제공합니다."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "동적 테이블 내용 배치"
+      content: "LINQ 기반 템플릿을 사용하여 프로그래밍적으로 행과 열을 추가하고, 글꼴, 색상 및 정렬과 같은 스타일을 사용자 정의할 수 있습니다."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "다양한 형식에서 원활하게 작동"
+      content: "MS Office, OpenOffice, PDF, HTML 등에서 테이블을 쉽게 생성하거나 편집하고, 필요에 따라 파일에 병합할 수 있습니다."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "프로그램적으로 테이블 채우기"
       content: |
-        {code_1.content}
+        이 예시는 외부 출처의 데이터를 사용하여 DOCX 문서의 테이블을 채우는 방법을 보여줍니다.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // 테이블을 위한 자리 표시자가 포함된 템플릿을 디자인합니다.
           // <<foreach [c in items]>> <<[c.Client]>><<[c.Manager]>>
           //  <<[c.Price]>> <</foreach>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // 템플릿의 파일 경로를 지정합니다.
           const template = "table_template.docx";
 
-          // {code_1.comment_3}
+          // 필요한 데이터를 출처에서 로드합니다.
           const data_json = 
             new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
+          // 데이터를 필요한 구조로 구성합니다.
           const data 
               = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
+          // DocumentAssembler 초기화하기.
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // 완성된 테이블이 포함된 출력 문서를 저장합니다.
           asm.assembleDocument(template, "result.docx", data);
           ```
         platform: "java"
@@ -190,9 +190,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "핵심 기능 한눈에 보기"
     exclude: "table"
-    description: ""
+    description: "우리의 API는 테이블 생성 자동화 및 다양화된 도구와 템플릿으로 문서 생성을 향상합니다."
     items: 
           
         # operation loop 1
@@ -229,9 +229,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "다양한 형식으로 테이블 생성하기"
     exclude: "DOCX"
-    description: ""
+    description: "Node.js via Java을 사용하여 템플릿을 채우고 50개 이상의 지원되는 파일 형식에서 포괄적인 테이블을 생성합니다."
     items: 
           
         # format loop 1

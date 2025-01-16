@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": "Kết hợp Tài liệu trong {{FileFormatUp}} với {{ProgLang}}",
+    "description": "Kết hợp các tệp {{FileFormatUp}} bằng {{ProgLang}}. {{ProdShortName}} đơn giản hóa việc kết hợp tài liệu chỉ sau vài bước đơn giản."
+  },
+  "header": {
+    "title": "Kết hợp Nội dung trong Các Tệp {{FileFormatUp}} một cách Nhanh chóng",
+    "description": "Với {{ProdFullName}}, việc tích hợp một tệp {{FileFormatUp}} vào tệp khác diễn ra nhanh chóng và chính xác. Tận hưởng công cụ linh hoạt, đáng tin cậy cho việc kết hợp liền mạch.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Thử Miễn Phí"
+  },
+  "about": {
+    "title": "Tổng Quan về {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) cung cấp một cách mạnh mẽ để quản lý tài liệu. Kết hợp một tệp vào một tệp khác một cách dễ dàng trong khi hỗ trợ hơn 50 định dạng, như PDF và MS Office. Tùy chỉnh bố cục, chỉnh sửa nội dung và sắp xếp tài liệu theo đúng cách bạn cần."
+  },
+  "more_features": {
+    "title": "Công Cụ Mạnh Mẽ cho Việc Tích Hợp Tài Liệu",
+    "description": "{{ProdFullName}} giúp việc nhúng tệp qua các định dạng khác nhau trở nên dễ dàng và hoàn toàn tùy chỉnh. Đảm bảo mang lại kết quả nhất quán và chuyên nghiệp mỗi lần.",
+    "image_description": "Các Tính Năng Nổi Bật của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Tạo Báo Cáo với Dữ Liệu Kinh Doanh",
+      "content": "Kéo dữ liệu từ các nguồn JSON, XML hoặc CSV để tạo báo cáo và tài liệu toàn diện một cách nhanh chóng và chính xác."
+    },
+    "feature_2": {
+      "title": "Thêm Các Yếu Tố Hình Ảnh Đa Dạng",
+      "content": "{{ProdShortName}} cho phép bạn bao gồm bảng, biểu đồ, danh sách, hình ảnh và mã vạch bên cạnh văn bản và liên kết."
+    },
+    "feature_3": {
+      "title": "Đặt Dữ Liệu Chính Xác",
+      "content": "Sử dụng các mẫu LINQ để định vị dữ liệu chính xác ở vị trí mà nó thuộc về, xử lý các mục lặp lại như mảng và tùy chỉnh kiểu dáng một cách dễ dàng."
+    },
+    "feature_4": {
+      "title": "Hoạt Động với Nhiều Định Dạng Khác Nhau",
+      "content": "Kết hợp nội dung liền mạch qua các định dạng như PDF, tệp MS Office, HTML và OpenOffice, cung cấp sự linh hoạt cho tất cả các dự án."
+    }
+  },
+  "formats": {
+    "title": "Kết Hợp Tài Liệu trong Nhiều Định Dạng",
+    "description": "Sử dụng {{EnvName}} để kết hợp nội dung qua hơn 50 định dạng tệp, đảm bảo kết quả chuyên nghiệp và trau chuốt."
+  },
+  "operations": {
+    "title": "Các Tính Năng Cốt Lõi Tóm Tắt",
+    "description": "Khám phá các công cụ toàn diện mà {{ProdShortName}} cung cấp cho việc kết hợp tài liệu hiệu quả và liền mạch."
+  },
+  "examples": {
+    "comment_1": "Chèn thẻ này vào mẫu của bạn để xác định nơi tài liệu sẽ được nhúng",
+    "comment_2": "Đặt đường dẫn tệp cho mẫu chính",
+    "comment_3": "Cung cấp đường dẫn cho tài liệu bạn muốn kết hợp",
+    "comment_4": "Lưu đầu ra cuối cùng với tài liệu đã nhúng"
+  },
+  "steps": {
+    "title": "Cách Kết Hợp một Tài Liệu vào một Tệp {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) giúp bạn chèn một tệp {{FileFormatUp}} vào một tệp khác với các tùy chọn tùy biến.",
+      "step_1": "Thiết kế một mẫu {{FileFormatUp}} với các chỗ trống cho nội dung.",
+      "step_2": "Đặt đường dẫn tệp cho mẫu.",
+      "step_3": "Cung cấp đường dẫn tệp cho tài liệu để kết hợp.",
+      "step_4": "Xuất tệp cuối cùng với nội dung đã kết hợp."
+    }
+  },
+  "code_1": {
+    "title": "Nhúng Hình Ảnh vào Tài Liệu Qua Mã Lập Trình",
+    "content": "Ví dụ này minh họa cách chèn một hình ảnh vào tệp {{FileFormatUp}} bằng cách sử dụng {{ProdShortName}}.",
+    "comment_1": "Thêm một chỗ trống trong mẫu cho hình ảnh",
+    "comment_2": "Chỉ định đường dẫn đến tệp mẫu",
+    "comment_3": "Đặt đường dẫn đến hình ảnh bạn muốn nhúng",
+    "comment_4": "Khởi tạo đối tượng {{DocumentAssembler}}",
+    "comment_5": "Lưu tài liệu với hình ảnh đã bao gồm"
+  },
+  "texts_pdf": {
+    "step_1": "Thiết kế mẫu với các chỗ trống cho nội dung đã nhúng (các mẫu PDF không được hỗ trợ).",
+    "step_4": "Lưu tài liệu hoàn thành với nội dung đã kết hợp dưới dạng tệp PDF.",
+    "comment_tmp": "Hiện tại, các mẫu PDF không được hỗ trợ."
+  }
+}

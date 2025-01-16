@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "Erstellen Sie dynamische Listen in {{FileFormatUp}} mit {{ProgLang}}",
+    "description": "Gestalten und fügen Sie Listen in {{FileFormatUp}}-Vorlagen über die {{ProdFullName}}-API ein."
+  },
+  "header": {
+    "title": "Datengetriebene Listen in {{FileFormatUp}}-Dateien mit {{EnvNameShort}} einbetten",
+    "description": "{{ProdFullName}} bietet leistungsstarke Werkzeuge, um flexible, datenbasierte Listen in {{FileFormatUp}}-Dokumente einzufügen.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlos starten"
+  },
+  "about": {
+    "title": "Über {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) vereinfacht die Dokumentenerstellung, indem Daten aus verschiedenen Quellen gezogen und in Vorlagen eingebettet werden. Nutzen Sie es, um Listen, Tabellen, Diagramme und andere Elemente zu erstellen, mit präziser Platzierung und Formatierungsoptionen. Mit Unterstützung für über 50 Formate, einschließlich PDF, MS Office und E-Mails, hilft es, Ihren Dokumentenerstellungsprozess zu automatisieren."
+  },
+  "more_features": {
+    "title": "Dokumente mit integrierten Daten auf einfache Weise erstellen",
+    "description": "Mit {{ProdFullName}} können Sie Listen, Tabellen, Diagramme und andere Elemente in Vorlagen einbetten und so Zeit und Aufwand sparen.",
+    "image_description": "Highlights von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Berichte aus mehreren Datenquellen generieren",
+      "content": "Importieren Sie Daten aus JSON, XML, CSV oder anderen Formaten, um Listen und andere Komponenten effizient zu befüllen."
+    },
+    "feature_2": {
+      "title": "Listen und andere visuelle Elemente hinzufügen",
+      "content": "{{ProdShortName}} ermöglicht es Ihnen, Listen, Tabellen, Diagramme und mehr nahtlos neben Text, Bildern und Links für ein professionelles Ergebnis einzufügen."
+    },
+    "feature_3": {
+      "title": "Daten präzise platzieren und gestalten",
+      "content": "LINQ-basierte Vorlagen ermöglichen es Ihnen, genau zu steuern, wo Listen und andere Daten erscheinen, Schleifen für wiederkehrende Elemente zu verwenden und Stile anzupassen, um Ihren Anforderungen gerecht zu werden."
+    },
+    "feature_4": {
+      "title": "Funktioniert über mehrere Formate hinweg",
+      "content": "Erstellen Sie Dokumente in Formaten wie MS Office, PDF, OpenOffice, HTML und E-Mails. Fügen Sie Inhalte aus verschiedenen Quellen in eine einzige Datei zusammen."
+    }
+  },
+  "formats": {
+    "title": "Dokumente in mehreren Formaten erstellen",
+    "description": "{{EnvName}} unterstützt über 50 Dateiformate, wodurch es leicht ist, Vorlagen und Daten in professionelle Ergebnisse zu integrieren."
+  },
+  "operations": {
+    "title": "Entdecken Sie die Funktionen von {{ProdShortName}}",
+    "description": "Gestalten und generieren Sie datenreiche Dokumente mühelos mithilfe leistungsstarker Integrationswerkzeuge."
+  },
+  "examples": {
+    "comment_1": "Platzieren Sie dieses Tag in Ihrer Vorlage, um zu markieren, wo die Liste erscheinen soll",
+    "comment_2": "Setzen Sie den Dateipfad für Ihre Vorlage",
+    "comment_3": "Holen Sie die Daten aus der gewünschten Quelle",
+    "comment_4": "Speichern Sie die Datei mit der eingefügten Liste"
+  },
+  "steps": {
+    "title": "Schritte zum Einfügen einer Liste in eine {{FileFormatUp}}-Datei",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) vereinfacht das Hinzufügen detaillierter, datengetriebener Listen zu Ihren {{FileFormatUp}}-Vorlagen.",
+      "step_1": "Erstellen Sie eine {{FileFormatUp}}-Vorlage und definieren Sie Platzhalter für die Liste.",
+      "step_2": "Geben Sie den Dateipfad der Vorlage an.",
+      "step_3": "Laden Sie Daten aus unterstützten Quellen wie JSON oder XML.",
+      "step_4": "Speichern Sie das Dokument mit der generierten Liste."
+    }
+  },
+  "code_1": {
+    "title": "Programmatisch eine Liste in ein Dokument erstellen",
+    "content": "Dieses Beispiel zeigt, wie Sie dynamisch eine Liste zu einem {{FileFormatUp}}-Dokument mit {{ProdShortName}} hinzufügen.",
+    "comment_1": "Fügen Sie in Ihrer Vorlage einen Platzhalter für die Liste hinzu",
+    "comment_2": "Geben Sie den Dateipfad der Vorlage an",
+    "comment_3": "Laden Sie Daten, um die Liste zu befüllen",
+    "comment_4": "Bereiten Sie die Datenquelle mit den erforderlichen Details vor",
+    "comment_5": "Initialisieren Sie den {{DocumentAssembler}}",
+    "comment_6": "Speichern Sie das endgültige Dokument mit der enthaltenen Liste"
+  },
+  "texts_pdf": {
+    "step_1": "Gestalten Sie eine Vorlage mit Platzhaltern für die Liste (PDF-Vorlagen werden derzeit nicht unterstützt).",
+    "step_4": "Exportieren Sie das fertiggestellte Dokument mit der Liste als PDF-Datei.",
+    "comment_tmp": "PDF-Vorlagen werden derzeit nicht unterstützt."
+  }
+}

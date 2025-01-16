@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:12
+date:  2025-01-16T13:03:58
 draft: false
 lang: es
 format: Xlsx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Agregar Códigos de Barras a Archivos XLSX Usando JavaScript"
+head_description: "Genera e incrusta códigos de barras en tus documentos y correos electrónicos con la API de GroupDocs.Assembly for Node.js via Java."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Crear Códigos de Barras para Archivos XLSX Usando Node.js" 
+description: "Con GroupDocs.Assembly for Node.js via Java, puedes generar, personalizar e incrustar dinámicamente códigos de barras en documentos XLSX."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Comienza Ahora"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Introducción a GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Aprender más"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) te permite crear documentos profesionales combinando datos de múltiples fuentes. Agrega gráficos, tablas, listas, imágenes y códigos de barras a tus archivos. Utiliza plantillas para organizar el contenido exactamente donde corresponde. Funciona con más de 50 formatos, incluidos PDFs, documentos de Office y correos electrónicos.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Pasos para Agregar un Código de Barras en Archivos XLSX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) facilita la inserción de códigos de barras en documentos XLSX. Soporta más de 60 tipos de códigos de barras, incluidos formatos 1D y 2D.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Crea una plantilla XLSX con marcadores de posición para los códigos de barras.
+      2. Recupera datos de una fuente compatible.
+      3. Configura las opciones del código de barras, como tamaño y resolución.
+      4. Guarda el documento final con el código de barras incrustado.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Usa esta etiqueta en la plantilla para incluir un código de barras en el documento de salida
         // <<barcode [barcode_expression] -barcode_type>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Especifica la ruta al archivo de plantilla
         const template = "barcode_template.xlsx";
 
-        // {examples.comment_3}
+        // Carga los datos requeridos desde tu fuente
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {examples.comment_4}
+        // Guarda el documento con el código de barras aplicado
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.xlsx", data);
         ```           
@@ -92,61 +92,61 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Generar Documentos con Plantillas Basadas en Datos"
+  description: "Con GroupDocs.Assembly for Node.js via Java, puedes crear archivos profesionales en formatos populares mediante la inclusión fluida de gráficos, tablas, listas, enlaces, imágenes y códigos de barras."
   image: "/img/assembly/features_barcode.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Características Principales de GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Construir Informes con Datos Empresariales"
+      content: "Utiliza la API para rellenar plantillas con datos de formatos como JSON, XML y CSV de manera rápida y precisa."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Agregar Elementos Visuales"
+      content: "GroupDocs.Assembly permite la inserción de elementos como gráficos, tablas, listas, texto, enlaces, imágenes y códigos de barras en tiempo real."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Controlar la Ubicación de los Datos"
+      content: "Con plantillas basadas en LINQ, puedes posicionar datos con precisión, iterar sobre arreglos y aplicar formato personalizado programáticamente."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Compatible con Muchos Formatos"
+      content: "Trabaja con archivos como documentos de MS Office, PDFs, HTML, archivos de OpenOffice y correos electrónicos. Combina múltiples documentos cuando sea necesario."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Ejemplo: Generar un Código de Barras Programáticamente"
       content: |
-        {code_1.content}
+        Este ejemplo demuestra cómo generar e insertar programáticamente un código de barras en un documento XLSX.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Diseña una plantilla con un marcador de posición para el código de barras
           // <<barcode [barcode_expression] -barcode_type>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Especifica la ruta del archivo de plantilla
           const template = "barcode_template.xlsx";
 
-          // {code_1.comment_3}
+          // Recupera datos desde tu fuente
           const data_csv =
               new assemblyLib.CsvDataSource("Barcode Labels.csv", 
               new assemblyLib.CsvDataLoadOptions(true));
 
-          // {code_1.comment_4}
+          // Crea un objeto fuente de datos con los detalles requeridos
           const data 
               = new assemblyLib.DataSourceInfo(data_csv, "label");
 
-          // {code_1.comment_5}
+          // Inicializa una instancia de DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Configura la configuración del código de barras
           asm.getBarcodeSettings().setResolution(1200);
           asm.getBarcodeSettings().setBaseYDimension(5f);
 
-          // {code_1.comment_7}
+          // Guarda el documento con el código de barras incluido
           asm.assembleDocument(template, "result.xlsx", data);
           ```
         platform: "java"
@@ -192,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Explora Características Clave"
     exclude: "barcode"
-    description: ""
+    description: "Simplifica el procesamiento de documentos con herramientas avanzadas y capacidades de automatización."
     items: 
           
         # operation loop 1
@@ -231,9 +231,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Formatos de Archivo Soportados para la Creación de Informes"
     exclude: "XLSX"
-    description: ""
+    description: "Node.js via Java maneja más de 50 tipos de archivos, facilitando la combinación de datos y el procesamiento de plantillas para obtener resultados de alta calidad."
     items: 
           
         # format loop 1

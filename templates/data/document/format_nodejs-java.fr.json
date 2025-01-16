@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": "Fusionner des documents en {{FileFormatUp}} avec {{ProgLang}}",
+    "description": "Combinez des fichiers {{FileFormatUp}} rapidement avec {{ProgLang}}. {{ProdShortName}} simplifie la fusion de documents en quelques étapes simples."
+  },
+  "header": {
+    "title": "Combinez sans effort le contenu dans des fichiers {{FileFormatUp}}",
+    "description": "Avec {{ProdFullName}}, l'intégration d'un fichier {{FileFormatUp}} dans un autre est rapide et précise. Profitez d'outils flexibles et fiables pour une fusion sans faille.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Essayez-le gratuitement"
+  },
+  "about": {
+    "title": "Aperçu de {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offre une méthode puissante pour gérer les documents. Fusionnez un fichier dans un autre tout en prenant en charge plus de 50 formats, tels que PDF et MS Office. Personnalisez les mises en page, modifiez le contenu et organisez les documents exactement comme vous le souhaitez."
+  },
+  "more_features": {
+    "title": "Outils puissants pour l'intégration de documents",
+    "description": "{{ProdFullName}} facilite l'intégration de fichiers à travers divers formats de manière entièrement personnalisable. Fournissez des résultats cohérents et professionnels à chaque fois.",
+    "image_description": "Fonctionnalités clés de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Générer des rapports avec des données commerciales",
+      "content": "Récupérez des données à partir de sources JSON, XML ou CSV pour créer rapidement et avec précision des rapports et des documents complets."
+    },
+    "feature_2": {
+      "title": "Ajouter des éléments visuels riches",
+      "content": "{{ProdShortName}} vous permet d'inclure des tableaux, des graphiques, des listes, des images et des codes-barres aux côtés de texte et de liens hypertextes."
+    },
+    "feature_3": {
+      "title": "Placement de données précis",
+      "content": "Utilisez des modèles LINQ pour positionner les données exactement là où elles doivent être, gérez les éléments répétitifs comme les tableaux et personnalisez les styles sans effort."
+    },
+    "feature_4": {
+      "title": "Compatible avec une variété de formats",
+      "content": "Fusionnez le contenu de manière transparente à travers des formats tels que les fichiers PDF, MS Office, HTML et OpenOffice, offrant flexibilité pour tous les projets."
+    }
+  },
+  "formats": {
+    "title": "Combinez des documents dans de nombreux formats",
+    "description": "Utilisez {{EnvName}} pour fusionner du contenu à travers plus de 50 formats de fichiers, garantissant des résultats professionnels et soignés."
+  },
+  "operations": {
+    "title": "Fonctionnalités principales en un coup d'œil",
+    "description": "Découvrez les outils complets que {{ProdShortName}} offre pour une fusion de documents efficace et sans faille."
+  },
+  "examples": {
+    "comment_1": "Insérez cette balise dans votre modèle pour définir où le document sera intégré",
+    "comment_2": "Définissez le chemin du fichier pour le modèle principal",
+    "comment_3": "Fournissez le chemin pour le document que vous souhaitez fusionner",
+    "comment_4": "Enregistrez la sortie finale avec le document intégré"
+  },
+  "steps": {
+    "title": "Comment fusionner un document dans un fichier {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilite l'insertion d'un fichier {{FileFormatUp}} dans un autre avec des options personnalisables.",
+      "step_1": "Concevez un modèle {{FileFormatUp}} avec des espaces réservés pour le contenu.",
+      "step_2": "Définissez le chemin du fichier pour le modèle.",
+      "step_3": "Fournissez le chemin du fichier à fusionner.",
+      "step_4": "Exportez le fichier final avec le contenu combiné."
+    }
+  },
+  "code_1": {
+    "title": "Intégrer une image dans un document par programme",
+    "content": "Cet exemple démontre comment insérer une image dans un fichier {{FileFormatUp}} en utilisant {{ProdShortName}}.",
+    "comment_1": "Ajoutez un espace réservé dans le modèle pour l'image",
+    "comment_2": "Spécifiez le chemin vers le fichier modèle",
+    "comment_3": "Définissez le chemin vers l'image que vous souhaitez intégrer",
+    "comment_4": "Initialisez l'objet {{DocumentAssembler}}",
+    "comment_5": "Enregistrez le document avec l'image incluse"
+  },
+  "texts_pdf": {
+    "step_1": "Concevez un modèle avec des espaces réservés pour le contenu intégré (les modèles PDF ne sont pas pris en charge).",
+    "step_4": "Enregistrez le document final avec le contenu fusionné en tant que fichier PDF.",
+    "comment_tmp": "Actuellement, les modèles PDF ne sont pas pris en charge."
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "在{{FileFormatUp}}文档中插入表格，使用{{ProgLang}}",
+    "description": "利用{{ProdFullName}}快速在文档或电子邮件中嵌入表格，从各种数据源提取数据。"
+  },
+  "header": {
+    "title": "轻松添加表格到{{FileFormatUp}}文件，使用{{EnvNameShort}}",
+    "description": "借助{{ProdFullName}}，在{{FileFormatUp}}文档中填充表格变得简便，可以从多个数据源获取数据。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "开始您的免费试用"
+  },
+  "about": {
+    "title": "{{ProdFullName}}简介",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是一个强大的文档创建自动化工具。它允许您精确地在模板中插入表格、图表、列表和图像，支持超过50种文件格式，包括PDF、Word和电子邮件，简化报告生成及其他任务。"
+  },
+  "more_features": {
+    "title": "轻松将数据驱动的表格添加到文档中",
+    "description": "{{ProdFullName}}允许用户自动创建表格，同时使用基于模板的工作流程嵌入图表、图像和列表。",
+    "image_description": "{{ProdShortName}}的主要特点",
+    "feature_1": {
+      "title": "从结构化数据生成表格",
+      "content": "从JSON、XML、CSV等格式提取数据，自动填充文档表格。"
+    },
+    "feature_2": {
+      "title": "创建精美的视觉内容",
+      "content": "使用{{ProdShortName}}设计专业表格、图表和列表，并为文档添加链接、图像和文本，以提升文档外观。"
+    },
+    "feature_3": {
+      "title": "动态表格内容布局",
+      "content": "使用基于LINQ的模板程序化添加行和列，并自定义字体、颜色和对齐等样式。"
+    },
+    "feature_4": {
+      "title": "在多种格式中无缝工作",
+      "content": "轻松在MS Office、OpenOffice、PDF、HTML等格式中创建或编辑表格，按需将其合并到文件中。"
+    }
+  },
+  "formats": {
+    "title": "在各种格式中生成表格",
+    "description": "使用{{EnvName}}，填充模板并在超过50种支持的文件类型中创建全面的表格。"
+  },
+  "operations": {
+    "title": "核心功能一览",
+    "description": "我们的API自动化表格创建，使用多功能工具和模板增强文档生成。"
+  },
+  "examples": {
+    "comment_1": "在您的模板的表格行占位符中包含这些标签",
+    "comment_2": "指定模板文件路径",
+    "comment_3": "从选定的源加载数据",
+    "comment_4": "保存包含完整表格的最终文档"
+  },
+  "steps": {
+    "title": "如何在{{FileFormatUp}}中向表格添加数据",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})使您能够快速使用动态数据源填充{{FileFormatUp}}文件的表格模板。",
+      "step_1": "创建一个含有表格行和列占位符的{{FileFormatUp}}模板。",
+      "step_2": "从支持的源加载数据，如JSON或CSV。",
+      "step_3": "根据需要组织和格式化数据。",
+      "step_4": "生成包含完整表格的文档。"
+    }
+  },
+  "code_1": {
+    "title": "如何程序化填充表格",
+    "content": "此示例演示如何从外部源填充{{FileFormatUp}}文档中的表格。",
+    "comment_1": "设计一个含有表格占位符的模板",
+    "comment_2": "指定模板的文件路径",
+    "comment_3": "从源加载所需的数据",
+    "comment_4": "组织数据成必要结构",
+    "comment_5": "初始化{{DocumentAssembler}}",
+    "comment_6": "保存包含完整表格的输出文档"
+  },
+  "texts_pdf": {
+    "step_1": "创建一个含有表格占位符的模板（不支持PDF模板）。",
+    "step_4": "将填充的表格导出为PDF文件的文档。",
+    "comment_tmp": "目前不支持PDF模板。"
+  }
+}

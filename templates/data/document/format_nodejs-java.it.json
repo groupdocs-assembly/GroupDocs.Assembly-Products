@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": "Unisci Documenti in {{FileFormatUp}} con {{ProgLang}}",
+    "description": "Combina file {{FileFormatUp}} utilizzando {{ProgLang}}. {{ProdShortName}} semplifica la fusione dei documenti in pochi e semplici passaggi."
+  },
+  "header": {
+    "title": "Combina Contenuti in File {{FileFormatUp}}",
+    "description": "Con {{ProdFullName}}, integrare un file {{FileFormatUp}} in un altro è rapido e preciso. Goditi strumenti flessibili e affidabili per una fusione senza interruzioni.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Provalo Gratis"
+  },
+  "about": {
+    "title": "Panoramica di {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offre un modo potente per gestire documenti. Unisci un file in un altro mentre supporti oltre 50 formati, come PDF e MS Office. Personalizza i layout, modifica il contenuto e organizza i documenti esattamente come necessario."
+  },
+  "more_features": {
+    "title": "Strumenti Potenti per l'Integrazione dei Documenti",
+    "description": "{{ProdFullName}} rende l'incorporamento di file attraverso vari formati facile e completamente personalizzabile. Offri risultati coerenti e professionali ogni volta.",
+    "image_description": "Funzionalità Chiave di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Genera Report con Dati Aziendali",
+      "content": "Estrai dati da fonti JSON, XML o CSV per creare rapidamente report e documenti completi e accurati."
+    },
+    "feature_2": {
+      "title": "Aggiungi Elementi Visivi Ricchi",
+      "content": "{{ProdShortName}} ti consente di includere tabelle, grafici, elenchi, immagini e codici a barre insieme a testo e collegamenti ipertestuali."
+    },
+    "feature_3": {
+      "title": "Posizionamento Dati Preciso",
+      "content": "Utilizza modelli LINQ per posizionare i dati esattamente dove devono stare, gestisci elementi ripetuti come array e personalizza gli stili senza sforzo."
+    },
+    "feature_4": {
+      "title": "Funziona con una Vasta Gamma di Formati",
+      "content": "Unisci contenuti senza interruzioni attraverso formati come PDF, file MS Office, HTML e OpenOffice, offrendo flessibilità per tutti i progetti."
+    }
+  },
+  "formats": {
+    "title": "Combina Documenti in Molti Formati",
+    "description": "Usa {{EnvName}} per unire contenuti in oltre 50 formati di file, garantendo risultati professionali e rifiniti."
+  },
+  "operations": {
+    "title": "Caratteristiche Principali a Colpo d'Occhio",
+    "description": "Esplora gli strumenti completi che {{ProdShortName}} offre per una fusione documentale efficiente e fluida."
+  },
+  "examples": {
+    "comment_1": "Inserisci questo tag nel tuo modello per definire dove verrà incorporato il documento",
+    "comment_2": "Imposta il percorso del file per il modello principale",
+    "comment_3": "Fornisci il percorso per il documento che desideri unire",
+    "comment_4": "Salva l'output finale con il documento incorporato"
+  },
+  "steps": {
+    "title": "Come Unire un Documento in un File {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) rende semplice inserire un file {{FileFormatUp}} in un altro con opzioni personalizzabili.",
+      "step_1": "Progetta un modello {{FileFormatUp}} con segnaposto per il contenuto.",
+      "step_2": "Imposta il percorso del file per il modello.",
+      "step_3": "Fornisci il percorso per il documento da unire.",
+      "step_4": "Esporta il file finale con il contenuto combinato."
+    }
+  },
+  "code_1": {
+    "title": "Incorpora un'Immagine in un Documento Programmaticamente",
+    "content": "Questo esempio dimostra come inserire un'immagine in un file {{FileFormatUp}} utilizzando {{ProdShortName}}.",
+    "comment_1": "Aggiungi un segnaposto nel modello per l'immagine",
+    "comment_2": "Specifica il percorso del file del modello",
+    "comment_3": "Imposta il percorso dell'immagine che desideri incorporare",
+    "comment_4": "Inizializza l'oggetto {{DocumentAssembler}}",
+    "comment_5": "Salva il documento con l'immagine inclusa"
+  },
+  "texts_pdf": {
+    "step_1": "Progetta un modello con segnaposto per il contenuto incorporato (i modelli PDF non sono supportati).",
+    "step_4": "Salva il documento completato con il contenuto unito come file PDF.",
+    "comment_tmp": "Attualmente, i modelli PDF non sono supportati."
+  }
+}

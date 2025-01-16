@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:18
+date:  2025-01-16T13:04:04
 draft: false
 lang: it
 format: Pptx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Inserisci tabelle nei documenti PPTX con JavaScript"
+head_description: "Utilizza GroupDocs.Assembly for Node.js via Java per inserire rapidamente tabelle in documenti o e-mail, estraendo dati da diverse fonti."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Aggiungi tabelle ai file PPTX con Node.js" 
+description: "Con GroupDocs.Assembly for Node.js via Java, riempire tabelle nei documenti PPTX è semplice, utilizzando dati da più fonti."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Inizia la tua prova gratuita"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Introduzione a GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Scopri di più"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) è uno strumento potente per automatizzare la creazione di documenti. Ti consente di inserire tabelle, grafici, elenchi e immagini nei modelli, con posizionamento preciso del contenuto. Supportando oltre 50 formati di file, inclusi PDF, Word e e-mail, semplifica la generazione di report e altre attività.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Come aggiungere dati a una tabella in PPTX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) ti consente di popolare rapidamente i modelli di tabella per file PPTX utilizzando sorgenti di dati dinamiche.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Crea un modello PPTX con segnaposto per righe e colonne della tabella.
+      2. Carica dati da una fonte supportata come JSON o CSV.
+      3. Organizza e formatta i dati secondo necessità.
+      4. Genera il documento con la tabella completata.
    
     code:
       platform: "java"
@@ -72,21 +72,21 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Includi questi tag nei segnaposto delle righe della tabella del tuo modello
         // <<foreach [c in ds]>>
         // <<[c.Client]>><<[c.Manager]>><<[c.Price]>>
         // <</foreach>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Specifica il percorso del file modello
         const template = "table_template.pptx";
 
-        // {examples.comment_3}
+        // Carica i tuoi dati da una fonte scelta
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "ds");
 
-        // {examples.comment_4}
+        // Salva il documento finale con la tabella completata
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pptx", data);
         ```           
@@ -94,57 +94,57 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Aggiungi tabelle basate su dati ai documenti"
+  description: "GroupDocs.Assembly for Node.js via Java consente agli utenti di generare tabelle automaticamente, integrando anche grafici, immagini ed elenchi utilizzando flussi di lavoro basati su modelli."
   image: "/img/assembly/features_table.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Caratteristiche principali di GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Genera tabelle da dati strutturati"
+      content: "Estrai dati da JSON, XML, CSV e altri formati per popolare automaticamente le tabelle nei documenti."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Crea contenuti visivi curati"
+      content: "Utilizza GroupDocs.Assembly per progettare tabelle, grafici ed elenchi professionali, e aggiungere link, immagini e testo per un aspetto raffinato del documento."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Posizionamento dinamico del contenuto delle tabelle"
+      content: "Aggiungi righe e colonne programmaticamente utilizzando modelli basati su LINQ, e personalizza stili come font, colori e allineamento."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Funziona senza problemi tra i formati"
+      content: "Crea o modifica facilmente tabelle in MS Office, OpenOffice, PDF, HTML e altri formati, unendoli nei file secondo necessità."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Come popolare programmaticamente una tabella"
       content: |
-        {code_1.content}
+        Questo esempio dimostra come riempire una tabella in un documento PPTX con dati provenienti da una fonte esterna.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Progetta un modello con segnaposti per la tabella
           // <<foreach [c in items]>> <<[c.Client]>><<[c.Manager]>>
           //  <<[c.Price]>> <</foreach>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Specifica il percorso del file al modello
           const template = "table_template.pptx";
 
-          // {code_1.comment_3}
+          // Carica i dati necessari dalla tua fonte
           const data_json = 
             new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
+          // Organizza i dati nella struttura necessaria
           const data 
               = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
+          // Inizializza DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Salva il documento di output con la tabella completata
           asm.assembleDocument(template, "result.pptx", data);
           ```
         platform: "java"
@@ -190,9 +190,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Caratteristiche principali a colpo d'occhio"
     exclude: "table"
-    description: ""
+    description: "La nostra API automatizza la creazione di tabelle e migliora la generazione di documenti con strumenti e modelli versatili."
     items: 
           
         # operation loop 1
@@ -229,9 +229,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Genera tabelle in una varietà di formati"
     exclude: "PPTX"
-    description: ""
+    description: "Con Node.js via Java, popola modelli e crea tabelle complete su oltre 50 tipi di file supportati."
     items: 
           
         # format loop 1

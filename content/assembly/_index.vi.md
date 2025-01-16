@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-01-13T15:11:22
+date:  2025-01-16T13:04:05
 draft: false
 
 product: "Assembly"
@@ -10,8 +10,8 @@ product_tag: "assembly"
 lang: vi
 
 ############################# Head ############################
-head_title: "APIs .NET, Java & Ứng dụng Tài liệu Trực tuyến của GroupDocs"
-head_description: "Nhận Giải pháp Tự động hóa Tài liệu & Báo cáo toàn diện cho các ứng dụng .NET và Java. Tạo tất cả các tài liệu thông dụng từ các mẫu tùy chỉnh và dữ liệu."
+head_title: "API & Ứng Dụng Tạo Tài Liệu Trực Tuyến GroupDocs cho .NET, Java, Node.js"
+head_description: "Giải pháp Tự Động Hóa và Báo Cáo Tài Liệu toàn diện cho ứng dụng .NET, Java và Node.js. Tạo tất cả các tài liệu phổ biến từ mẫu và dữ liệu tùy chỉnh."
 
 ############################# Header ############################
 title: "Giải pháp Tự động hóa Tài liệu và Báo cáo"

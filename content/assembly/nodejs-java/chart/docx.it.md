@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:14
+date:  2025-01-16T13:04:00
 draft: false
 lang: it
 format: Docx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Inserisci grafici nei file DOCX con JavaScript"
+head_description: "Con GroupDocs.Assembly for Node.js via Java, gli sviluppatori possono creare e incorporare rapidamente grafici dinamici nei documenti utilizzando fonti di dati live."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Aggiungi grafici ai file DOCX utilizzando Node.js" 
+description: "GroupDocs.Assembly for Node.js via Java semplifica il processo di integrazione dei grafici nei documenti DOCX con input di dati in tempo reale."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Inizia gratis oggi"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Panoramica di GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Scopri di più"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) è una soluzione robusta per la creazione di documenti e report automatizzati. Aggiungi grafici, tabelle, immagini, codici a barre e liste ai file con precisione e senza difficoltà. Questa piattaforma versatile supporta oltre 50 formati, inclusi PDF, documenti Office e email.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Passi per aggiungere un grafico a un documento DOCX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) rende aggiungere grafici ai file DOCX semplice. Scegli tra tipi di grafici come grafici a barre, a linee o a torta.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Progetta un modello DOCX con segnaposto per i grafici.
+      2. Carica dati da una fonte supportata.
+      3. Configura le opzioni del grafico, inclusi tipo, colori e etichette.
+      4. Esporta il documento con il grafico incorporato.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Includi questo tag nel tuo modello per generare un grafico
         // Orders Prices by months<<y [Sum(c => c.Price)]>><<size [Count()]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Specifica il percorso del file modello
         const template = "chart_template.docx";
 
-        // {examples.comment_3}
+        // Estrai dati dal tuo sistema sorgente
         const data 
             = new assemblyLib.DataSourceInfo(GetChartData(), "orders");
 
-        // {examples.comment_4}
+        // Salva il documento finale con il grafico incorporato
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.docx", data);
         ```           
@@ -92,61 +92,61 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Incorpora grafici senza sforzo nei tuoi documenti"
+  description: "GroupDocs.Assembly for Node.js via Java rende semplice generare documenti ricchi di funzionalità nei formati di file più diffusi. Usa modelli per aggiungere grafici, tabelle, codici a barre, liste, immagini e altro con aggiornamenti dei dati in tempo reale."
   image: "/img/assembly/features_chart.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Caratteristiche principali di GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Trasforma i dati in grafici professionali"
+      content: "Converti dati provenienti da sorgenti come JSON, XML o CSV in grafici di alta qualità che possono essere incorporati direttamente nei documenti."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Crea visualizzazioni straordinarie"
+      content: "Genera grafici a barre, grafici a torta e grafici a linee che funzionano perfettamente con altri elementi del documento come immagini, tabelle e codici a barre."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Stilizzazione e posizionamento flessibili dei grafici"
+      content: "Utilizza modelli LINQ per controllare il posizionamento e la stilizzazione dei grafici, inclusi colori, layout e etichette, per una presentazione curata."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Supporta molti formati di file"
+      content: "Genera documenti in formati come MS Office, PDF, OpenOffice e HTML, con grafici perfettamente integrati per un risultato professionale."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Genera e inserisci grafici dinamicamente"
       content: |
-        {code_1.content}
+        Questo esempio illustra come creare e incorporare grafici nei file DOCX programmaticamente.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Imposta un modello con un segnaposto per il grafico
           // Total Contract Price<<y [m.Total_Contract_Price]>>
           // <<seriesColor [color]>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Definisci il percorso del file modello
           const template = "table_template.docx";
 
-          // {code_1.comment_3}
+          // Recupera dati da una sorgente scelta
           const data_json = 
             new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
+          // Prepara un oggetto dati contenente le informazioni sul grafico
           const data 
               = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
+          // Scegli il tipo di grafico e personalizza il suo aspetto
           const design 
               = new assemblyLib.DataSourceInfo("red", "color");
 
-          // {code_1.comment_6}
+          // Inizializza DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_7}
+          // Salva il documento aggiornato con il grafico incorporato
           asm.assembleDocument(template, "result.docx", data, design);
           ```
         platform: "java"
@@ -192,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Scopri funzionalità avanzate"
     exclude: "chart"
-    description: ""
+    description: "Questa piattaforma semplifica la creazione di documenti con strumenti progettati per la visualizzazione dei dati e integrazione fluida."
     items: 
           
         # operation loop 1
@@ -231,9 +231,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Genera report in più formati di file"
     exclude: "DOCX"
-    description: ""
+    description: "Node.js via Java supporta oltre 50 formati, facilitando la combinazione di modelli con dati per produrre documenti rifiniti."
     items: 
           
         # format loop 1

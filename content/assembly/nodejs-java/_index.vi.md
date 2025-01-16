@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-01-14T15:37:19
+date: 2025-01-16T13:04:06
 draft: false
 
 lang: vi
@@ -24,17 +24,17 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "{index-content-nodejs-java.head_title}"
-head_description: "{index-content-nodejs-java.head_description}"
+head_title: "Bộ Công Cụ Node.js để Xây Dựng, Tự Động Hóa và Tùy Chỉnh Tài Liệu"
+head_description: "Thư viện Node.js để tự động hóa quy trình làm việc tài liệu. Tạo tệp PDF, Word, Excel, PowerPoint, HTML và email từ các mẫu của bạn."
 
 ############################# Header ############################
-title: "{index-content-nodejs-java.title}"
-description: "{index-content-nodejs-java.description}"
+title: "API Node.js cho Tự Động Hóa Tài Liệu và Báo Cáo Đơn Giản"
+description: "Tối ưu hóa việc tạo báo cáo JavaScript bằng cách kết hợp dữ liệu của bạn với các mẫu đã được xây dựng sẵn."
 words:
   for: "cho"
 
 actions:
-  main: "{index-content-nodejs-java.actions_main}"
+  main: "Bắt Đầu Dùng Thử Trên NPM"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.assembly"
   alt: "Cấp phép"
   alt_link: "https://purchase.groupdocs.com/pricing/assembly/nodejs-java/"
@@ -48,7 +48,7 @@ release:
   link: "https://releases.groupdocs.com/assembly/nodejs-java/"
 
 code:
-  title: "{index-content-nodejs-java.code_title}"
+  title: "Tạo Biểu Đồ Trong Tài Liệu Word Sử Dụng Node.js"
   more: "Thêm ví dụ"
   more_link: "https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-Node.js-via-Java/"
   install: "npm i @groupdocs/groupdocs.assembly"
@@ -80,25 +80,25 @@ code:
 overview:
   enable: true
   title: "Tổng quan về GroupDocs.Assembly"
-  description: "{index-content-nodejs-java.overview_description}"
+  description: "Thư viện Node.js được xây dựng để tạo tài liệu theo cách lập trình với việc xử lý dữ liệu tích hợp."
   features:
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_1.title}"
-      content: "{index-content-nodejs-java.overview_feature_1.description}"
+    - title: "Tích Hợp Dữ Liệu Kinh Doanh Vào Mẫu Với JavaScript"
+      content: "Tạo báo cáo chuyên nghiệp bằng cách nhúng JSON, XML hoặc dữ liệu khác vào mẫu với GroupDocs.Assembly for Node.js via Java."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_2.title}"
-      content: "{index-content-nodejs-java.overview_feature_2.description}"
+    - title: "Quản Lý Nội Dung Nhúng"
+      content: "Tự động điền bảng, biểu đồ và các hình ảnh khác trong tài liệu của bạn bằng cách sử dụng dữ liệu bên ngoài."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_3.title}"
-      content: "{index-content-nodejs-java.overview_feature_3.description}"
+    - title: "Tùy Chọn Tùy Biến"
+      content: "GroupDocs.Assembly for Node.js via Java cho phép bạn thêm các tính năng như mã vạch, lấy dữ liệu từ URL và xuất tệp trong nhiều định dạng khác nhau."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Tính độc lập của nền tảng"
-  description: "{index-content-nodejs-java.platforms_description}"
+  description: "GroupDocs.Assembly for Node.js via Java tích hợp mượt mà với các hệ điều hành, framework và trình quản lý gói hàng đầu."
   items:
     # platform loop
     - title: "Amazon"
@@ -130,7 +130,7 @@ formats:
   enable: true
   title: "Các định dạng tệp được hỗ trợ"
   description: |
-    {index-content-nodejs-java.formats_description}
+    GroupDocs.Assembly for Node.js via Java hỗ trợ một loạt [định dạng tài liệu](https://docs.groupdocs.com/assembly/nodejs-java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -157,66 +157,66 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-nodejs-java.features.title}"
-  description: "{index-content-nodejs-java.features.description}"
+  title: "Các Tính Năng Cốt Lõi Của GroupDocs.Assembly"
+  description: "Tạo tài liệu và báo cáo động với các công cụ quản lý dữ liệu mạnh mẽ."
 
   items:
     # feature loop
     - icon: "preview"
-      title: "{index-content-nodejs-java.features.feature_1.title}"
-      content: "{index-content-nodejs-java.features.feature_1.content}"
+      title: "Hình Ảnh Dữ Liệu Đầy Đủ"
+      content: "Chèn đầy đủ biểu đồ, bảng, hình ảnh và danh sách vào tài liệu của bạn với tùy chỉnh hoàn toàn."
 
     # feature loop
     - icon: "manipulate"
-      title: "{index-content-nodejs-java.features.feature_2.title}"
-      content: "{index-content-nodejs-java.features.feature_2.content}"
+      title: "Chuyển Đổi Dữ Liệu Của Bạn"
+      content: "Sử dụng các công cụ như công thức và sắp xếp để cấu trúc và hiển thị thông tin hiệu quả."
 
     # feature loop
     - icon: "two_pages"
-      title: "{index-content-nodejs-java.features.feature_3.title}"
-      content: "{index-content-nodejs-java.features.feature_3.content}"
+      title: "Tính Tương Thích Định Dạng Rộng"
+      content: "Làm việc liền mạch với các định dạng tệp phổ biến cho mẫu và đầu ra."
 
     # feature loop
     - icon: "document_settings"
-      title: "{index-content-nodejs-java.features.feature_4.title}"
-      content: "{index-content-nodejs-java.features.feature_4.content}"
+      title: "Tùy Chỉnh Mẫu Cao Cấp"
+      content: "Định dạng các mẫu với các tùy chọn kiểu dáng số, chữ cái và các kiểu khác."
 
     # feature loop
     - icon: "text"
-      title: "{index-content-nodejs-java.features.feature_5.title}"
-      content: "{index-content-nodejs-java.features.feature_5.content}"
+      title: "Tạo Mã Vạch Động"
+      content: "Tạo và nhúng hình ảnh mã vạch trực tiếp vào tài liệu của bạn theo yêu cầu."
 
     # feature loop
     - icon: "add"
-      title: "{index-content-nodejs-java.features.feature_6.title}"
-      content: "{index-content-nodejs-java.features.feature_6.content}"
+      title: "Tùy Chỉnh Kiểu Chữ Linh Hoạt"
+      content: "Áp dụng các kiểu chữ như chữ viết hoa hoặc chữ cái đầu tiên trong mẫu của bạn một cách dễ dàng."
 
     # feature loop
     - icon: "manipulate"
-      title: "{index-content-nodejs-java.features.feature_7.title}"
-      content: "{index-content-nodejs-java.features.feature_7.content}"
+      title: "Chèn Nội Dung Động"
+      content: "Bao gồm nội dung từ các tệp bên ngoài một cách động trong quá trình tạo tài liệu."
 
     # feature loop
     - icon: "convert"
-      title: "{index-content-nodejs-java.features.feature_8.title}"
-      content: "{index-content-nodejs-java.features.feature_8.content}"
+      title: "Xuất Sang Nhiều Định Dạng"
+      content: "Lưu tài liệu ở nhiều định dạng với các cấu hình mà bạn chỉ định."
 
     # feature loop
     - icon: "update"
-      title: "{index-content-nodejs-java.features.feature_9.title}"
-      content: "{index-content-nodejs-java.features.feature_9.content}"
+      title: "Nhúng Media Động"
+      content: "Chèn hình ảnh hoặc các yếu tố khác bằng cách sử dụng dữ liệu Base64 khi tạo tài liệu."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Mẫu mã"
-  description: "{index-content-nodejs-java.code_samples_description}"
+  description: "Khám phá các ví dụ thực tiễn về cách sử dụng GroupDocs.Assembly cho các tác vụ phổ biến."
   items:
     # code sample loop
-    - title: "{index-content-nodejs-java.code_title_sample_1}"
+    - title: "Thêm Danh Sách Có Dấu Chấm Trong Tài Liệu Word"
       content: |
-        {index-content-nodejs-java.code_samples_sample_1_content_1} {index-content-nodejs-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-nodejs-java.code_title_sample_1}">}}
+        Xem cách tạo [danh sách có dấu chấm](https://docs.groupdocs.com/assembly/nodejs-java/bulleted-list-in-word-processing-document/) trong tài liệu Word để tổ chức dữ liệu hiệu quả. Ví dụ này minh họa cách tạo một danh sách có dấu chấm bằng GroupDocs.Assembly.
+        {{< landing/code title="Thêm Danh Sách Có Dấu Chấm Trong Tài Liệu Word">}}
         ```javascript {style=abap}
         // Chèn mẫu này vào trang tài liệu:
         // Các chỉ số hiệu suất của các quản lý
@@ -241,10 +241,10 @@ code_samples:
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-nodejs-java.code_title_sample_2}"
+    - title: "Chèn Biểu Đồ Bánh Vào PowerPoint"
       content: |
-        {index-content-nodejs-java.code_samples_sample_2_content_1} {index-content-nodejs-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-nodejs-java.code_title_sample_2}">}}
+        Tìm hiểu cách sử dụng các mẫu và XML để thêm [biểu đồ bánh](https://docs.groupdocs.com/assembly/nodejs-java/pie-chart-in-presentation-document/) vào bài thuyết trình của bạn. Nâng cao báo cáo của bạn với biểu đồ bánh để trình bày dữ liệu một cách trực quan và rõ ràng.
+        {{< landing/code title="Chèn Biểu Đồ Bánh Vào PowerPoint">}}
         ```javascript {style=abap} 
         // Thêm mẫu tiêu đề biểu đồ vào bài thuyết trình:
         // Doanh thu của khách hàng <<foreach [in customers]>> 

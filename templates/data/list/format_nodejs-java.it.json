@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "Crea elenchi dinamici in {{FileFormatUp}} con {{ProgLang}}",
+    "description": "Progetta e inserisci facilmente elenchi nei modelli {{FileFormatUp}} utilizzando l'API {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Incorpora elenchi basati su dati nei file {{FileFormatUp}} con {{EnvNameShort}}",
+    "description": "{{ProdFullName}} offre strumenti potenti per aggiungere elenchi flessibili e alimentati da dati ai documenti {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Inizia gratuitamente"
+  },
+  "about": {
+    "title": "Informazioni su {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) semplifica la creazione di documenti estraendo dati da diverse fonti e incorporandoli nei modelli. Utilizzalo per costruire elenchi, tabelle, grafici e altri elementi, con opzioni di posizionamento e formattazione precise. Supportando oltre 50 formati, inclusi PDF, MS Office e email, aiuta ad automatizzare il processo di generazione dei documenti."
+  },
+  "more_features": {
+    "title": "Genera facilmente documenti con dati integrati",
+    "description": "Con {{ProdFullName}}, puoi integrare elenchi, tabelle, grafici e altri elementi nei modelli, risparmiando tempo e sforzi.",
+    "image_description": "Punti salienti di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Genera report da più fonti di dati",
+      "content": "Importa dati da JSON, XML, CSV o altri formati per popolare elenchi e componenti in modo efficiente."
+    },
+    "feature_2": {
+      "title": "Aggiungi elenchi e altri elementi visivi",
+      "content": "{{ProdShortName}} ti consente di incorporare senza soluzione di continuità elenchi, tabelle, grafici e altro accanto a testi, immagini e collegamenti per risultati raffinati."
+    },
+    "feature_3": {
+      "title": "Posiziona e stila i dati con precisione",
+      "content": "I modelli basati su LINQ ti permettono di controllare esattamente dove appaiono elenchi e altri dati, utilizzare cicli per elementi ripetuti e personalizzare gli stili in base alle tue esigenze."
+    },
+    "feature_4": {
+      "title": "Funziona su più formati",
+      "content": "Crea documenti in formati come MS Office, PDF, OpenOffice, HTML e email. Unisci contenuti provenienti da diverse fonti in un unico file."
+    }
+  },
+  "formats": {
+    "title": "Crea documenti in diversi formati",
+    "description": "{{EnvName}} supporta oltre 50 formati di file, semplificando la fusione di modelli e dati per risultati professionali."
+  },
+  "operations": {
+    "title": "Esplora le funzionalità di {{ProdShortName}}",
+    "description": "Progetta e genera documenti ricchi di dati senza sforzo utilizzando potenti strumenti di integrazione."
+  },
+  "examples": {
+    "comment_1": "Posiziona questo tag nel tuo modello per indicare dove andrà l'elenco",
+    "comment_2": "Imposta il percorso del file per il tuo modello",
+    "comment_3": "Recupera dati dalla fonte che desideri utilizzare",
+    "comment_4": "Salva il file con l'elenco incorporato"
+  },
+  "steps": {
+    "title": "Passaggi per inserire un elenco in un file {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) rende semplice aggiungere elenchi dettagliati e alimentati da dati ai tuoi modelli {{FileFormatUp}}.",
+      "step_1": "Crea un modello {{FileFormatUp}} e definisci i segnaposto per l'elenco.",
+      "step_2": "Fornisci il percorso del file del modello.",
+      "step_3": "Carica dati da sorgenti supportate come JSON o XML.",
+      "step_4": "Salva il documento con l'elenco generato."
+    }
+  },
+  "code_1": {
+    "title": "Crea programmaticamente un elenco in un documento",
+    "content": "Questo esempio dimostra come aggiungere dinamicamente un elenco a un documento {{FileFormatUp}} utilizzando {{ProdShortName}}.",
+    "comment_1": "Aggiungi un segnaposto nel tuo modello per l'elenco",
+    "comment_2": "Specifica il percorso del file del modello",
+    "comment_3": "Carica dati per popolare l'elenco",
+    "comment_4": "Prepara la sorgente dati con i dettagli richiesti",
+    "comment_5": "Inizializza il {{DocumentAssembler}}",
+    "comment_6": "Salva il documento finale con l'elenco incluso"
+  },
+  "texts_pdf": {
+    "step_1": "Progetta un modello con segnaposto per l'elenco (i modelli PDF non sono supportati).",
+    "step_4": "Esporta il documento completato con l'elenco come file PDF.",
+    "comment_tmp": "I modelli PDF non sono attualmente supportati."
+  }
+}

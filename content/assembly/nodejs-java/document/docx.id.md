@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:15
+date:  2025-01-16T13:04:02
 draft: false
 lang: id
 format: Docx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Gabungkan Dokumen dalam DOCX dengan JavaScript"
+head_description: "Gabungkan file DOCX dengan menggunakan JavaScript. GroupDocs.Assembly menyederhanakan penggabungan dokumen hanya dalam beberapa langkah sederhana."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Gabungkan Konten dalam File DOCX dengan Mudah" 
+description: "Dengan GroupDocs.Assembly for Node.js via Java, mengintegrasikan satu file DOCX ke dalam yang lain berlangsung cepat dan tepat. Nikmati alat yang fleksibel dan andal untuk penggabungan yang mulus."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Coba Gratis"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Gambaran Umum GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Pelajari lebih lanjut"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) menawarkan cara yang kuat untuk mengelola dokumen. Gabungkan satu file ke dalam yang lain sambil mendukung lebih dari 50 format, seperti PDF dan MS Office. Sesuaikan tata letak, edit konten, dan atur dokumen persis seperti yang Anda butuhkan.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Cara Menggabungkan Dokumen ke dalam File DOCX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) memudahkan untuk menyisipkan satu file DOCX ke dalam yang lain dengan opsi yang dapat disesuaikan.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Rancang template DOCX dengan placeholder untuk konten.
+      2. Tentukan jalur file untuk template.
+      3. Berikan jalur file untuk dokumen yang akan digabung.
+      4. Ekspor file akhir dengan konten yang digabung.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Masukkan tag ini ke dalam template Anda untuk mendefinisikan tempat di mana dokumen akan disisipkan
         // <<doc [doc_expression]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Tentukan jalur file untuk template utama
         const template = "doc_template.docx";
 
-        // {examples.comment_3}
+        // Berikan jalur untuk dokumen yang ingin Anda gabungkan
         const data 
             = new assemblyLib.DataSourceInfo("insert.docx", "doc_expression");
 
-        // {examples.comment_4}
+        // Simpan output akhir dengan dokumen yang disisipkan
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.docx", data);
         ```           
@@ -92,52 +92,52 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Alat Kuat untuk Integrasi Dokumen"
+  description: "GroupDocs.Assembly for Node.js via Java memudahkan penyisipan file di berbagai format yang sepenuhnya dapat disesuaikan. Berikan hasil yang konsisten dan profesional setiap saat."
   image: "/img/assembly/features_document.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Fitur Utama dari GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Buat Laporan dengan Data Bisnis"
+      content: "Ambil data dari sumber JSON, XML, atau CSV untuk membuat laporan dan dokumen yang komprehensif dengan cepat dan akurat."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Tambahkan Elemen Visual yang Kaya"
+      content: "GroupDocs.Assembly memungkinkan Anda untuk menyertakan tabel, grafik, daftar, gambar, dan kode batang di samping teks dan hyperlink."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Penempatan Data yang Presisi"
+      content: "Gunakan template LINQ untuk menempatkan data tepat di tempatnya, tangani item yang berulang seperti array, dan sesuaikan gaya tanpa kesulitan."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Bekerja dengan Berbagai Format"
+      content: "Gabungkan konten secara mulus di berbagai format seperti PDF, file MS Office, HTML, dan OpenOffice, menawarkan fleksibilitas untuk semua proyek."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Sisipkan Gambar ke dalam Dokumen Secara Pemrograman"
       content: |
-        {code_1.content}
+        Contoh ini menunjukkan cara menyisipkan gambar ke dalam file DOCX menggunakan GroupDocs.Assembly.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Tambahkan placeholder dalam template untuk gambar
           // <<image [expression]>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Tentukan jalur ke file template
           const template = "template.docx";
 
-          // {code_1.comment_3}
+          // Atur jalur ke gambar yang ingin Anda sisipkan
           const data =
               = new assemblyLib.DataSourceInfo("logo.jpg", "expression");
 
-          // {code_1.comment_4}
+          // Inisialisasi objek DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_5}
+          // Simpan dokumen dengan gambar yang disertakan
           asm.assembleDocument(template, "result.docx", data);
           ```
         platform: "java"
@@ -183,9 +183,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Fitur Utama dalam Sekilas"
     exclude: "document"
-    description: ""
+    description: "Jelajahi alat komprehensif yang ditawarkan GroupDocs.Assembly untuk penggabungan dokumen yang efisien dan mulus."
     items: 
           
         # operation loop 1
@@ -222,9 +222,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Gabungkan Dokumen dalam Berbagai Format"
     exclude: "DOCX"
-    description: ""
+    description: "Gunakan Node.js via Java untuk menggabungkan konten di lebih dari 50 format file, memastikan hasil yang profesional dan rapi."
     items: 
           
         # format loop 1

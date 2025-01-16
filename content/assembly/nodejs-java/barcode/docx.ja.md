@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:12
+date:  2025-01-16T13:03:58
 draft: false
 lang: ja
 format: Docx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "JavaScriptを使用してDOCXファイルにバーコードを追加"
+head_description: "GroupDocs.Assembly for Node.js via Java APIを使用して、ドキュメントやメールにバーコードを簡単に生成および埋め込むことができます。"
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Node.jsを使用してDOCXファイルのバーコードを作成" 
+description: "GroupDocs.Assembly for Node.js via Javaを使用すると、DOCXドキュメントにバーコードを動的に生成、カスタマイズ、および埋め込むことができます。"
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "始める"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "GroupDocs.Assembly for Node.js via Javaの紹介"
     link: "/assembly/nodejs-java/"
     link_title: "詳細を見る"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/)を使用すると、複数のソースからのデータを組み合わせてプロフェッショナルなドキュメントを作成できます。グラフ、テーブル、リスト、画像、バーコードをファイルに追加し、内容を正確に整理するためのテンプレートを使用します。PDF、Officeドキュメント、メールを含む50以上のフォーマットに対応しています。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "DOCXファイルにバーコードを追加するステップ"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/)を使用すると、DOCXドキュメントにバーコードを埋め込むのが簡単です。60以上のバーコードタイプに対応しており、1Dおよび2Dフォーマットを含みます。
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. DOCXテンプレートをバーコードのためのプレースホルダーを使用して作成します。
+      2. 互換性のあるソースからデータを取得します。
+      3. サイズや解像度などのバーコードオプションを設定します。
+      4. バーコードを埋め込んだ最終的なドキュメントを保存します。
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // このタグをテンプレートに使用して出力ドキュメントにバーコードを含めます
         // <<barcode [barcode_expression] -barcode_type>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // テンプレートファイルへのパスを指定します
         const template = "barcode_template.docx";
 
-        // {examples.comment_3}
+        // ソースから必要なデータを取得します
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {examples.comment_4}
+        // バーコードが適用されたドキュメントを保存します
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.docx", data);
         ```           
@@ -92,61 +92,61 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "データ駆動のテンプレートで文書を生成"
+  description: "GroupDocs.Assembly for Node.js via Javaを使用すると、人気のフォーマットでプロフェッショナルなファイルを作成し、グラフ、テーブル、リスト、リンク、画像、バーコードをシームレスに埋め込むことができます。"
   image: "/img/assembly/features_barcode.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "GroupDocs.Assemblyの主要機能"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "ビジネスデータを使ったレポート作成"
+      content: "APIを使用して、JSON、XML、CSVなどのフォーマットからテンプレートにデータを迅速かつ正確にポピュレートできます。"
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "視覚要素の追加"
+      content: "GroupDocs.Assemblyは、リアルタイムでグラフ、テーブル、リスト、テキスト、リンク、画像、バーコードなどの要素を挿入することをサポートします。"
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "データ配置の制御"
+      content: "LINQベースのテンプレートを使用すると、データの正確な位置を指定し、配列をループ処理し、プログラムでカスタムフォーマットを適用できます。"
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "多くのフォーマットとの互換性"
+      content: "MS Officeドキュメント、PDF、HTML、OpenOfficeファイル、メールなどのファイルで作業できます。必要に応じて複数のドキュメントをマージします。"
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "例: プログラムでバーコードを生成"
       content: |
-        {code_1.content}
+        この例では、プログラムでバーコードを生成し、DOCXドキュメントに挿入する方法を示します。
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // バーコードプレースホルダーを持つテンプレートを設計します
           // <<barcode [barcode_expression] -barcode_type>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // テンプレートファイルのパスを指定します
           const template = "barcode_template.docx";
 
-          // {code_1.comment_3}
+          // ソースからデータを取得します
           const data_csv =
               new assemblyLib.CsvDataSource("Barcode Labels.csv", 
               new assemblyLib.CsvDataLoadOptions(true));
 
-          // {code_1.comment_4}
+          // 必要な詳細を含むデータソースオブジェクトを作成します
           const data 
               = new assemblyLib.DataSourceInfo(data_csv, "label");
 
-          // {code_1.comment_5}
+          // DocumentAssemblerのインスタンスを初期化します
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // バーコードの設定を行います
           asm.getBarcodeSettings().setResolution(1200);
           asm.getBarcodeSettings().setBaseYDimension(5f);
 
-          // {code_1.comment_7}
+          // バーコードを含むドキュメントを保存します
           asm.assembleDocument(template, "result.docx", data);
           ```
         platform: "java"
@@ -192,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "主要機能の探求"
     exclude: "barcode"
-    description: ""
+    description: "高度なツールと自動化機能を使用してドキュメント処理を簡素化します。"
     items: 
           
         # operation loop 1
@@ -231,9 +231,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "レポート作成のためのサポートファイル形式"
     exclude: "DOCX"
-    description: ""
+    description: "Node.js via Javaは50以上のファイルタイプを扱っており、データをマージし、高品質の結果のためにテンプレートを処理するのが簡単です。"
     items: 
           
         # format loop 1

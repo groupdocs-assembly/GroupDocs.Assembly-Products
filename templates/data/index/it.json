@@ -1,7 +1,7 @@
 {
   "index-content": {
-    "head_title": "API per Document Automation e Applicazioni Online di GroupDocs per .NET e Java",
-    "head_description": "Ottieni una soluzione completa di automazione documentale e reporting per applicazioni .NET e Java. Genera tutti i documenti comuni da modelli e dati personalizzati.",
+    "head_title": "API e App per l'Assemblaggio di Documenti per .NET, Java, Node.js di GroupDocs",
+    "head_description": "Ottieni una soluzione di automazione e reporting documentale tutto-in-uno per applicazioni .NET, Java e Node.js. Genera tutti i documenti comuni da modelli personalizzati e dati.",
     "title": "Soluzione di Automazione Documentale e Reporting",
     "description_1": "Crea report dettagliati utilizzando modelli e fonti di dati con le nostre app e API multipiattaforma.",
     "description_2": "Genera report in formati come Word, Excel, Presentazioni e molti altri utilizzando modelli con markup flessibile.",
@@ -306,5 +306,75 @@
     "code_title_sample_2": "Crea Grafici a Torta in PPTX",
     "code_samples_sample_2_content_1": "Utilizza modelli e XML per aggiungere [grafici a torta](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/) alle tue presentazioni.",
     "code_samples_sample_2_content_2": "Rendi i tuoi report più coinvolgenti includendo grafici a torta per visualizzare i dati."
+  },
+  "index-content-nodejs-java": {
+    "head_title": "Toolkit {{EnvNameShort}} per Creare, Automatizzare e Personalizzare Documenti",
+    "head_description": "Libreria {{EnvNameShort}} per l'automazione dei flussi documentali. Genera file PDF, Word, Excel, PowerPoint, HTML e email dai tuoi modelli.",
+    "title": "API {{EnvNameShort}} per l'Automazione Semplificata di Documenti e Report",
+    "description": "Ottimizza la generazione di report {{ProgLang}} unendo i tuoi dati con modelli predefiniti.",
+    "actions_main": "Inizia la tua Prova su {{PackageStoreName}}",
+    "code_title": "Crea un Grafico in un Documento Word Utilizzando {{EnvNameShort}}",
+    "overview_description": "Una libreria {{EnvNameShort}} progettata per creare documenti in modo programmatico con gestione dei dati integrata.",
+    "overview_feature_1": {
+      "title": "Integra Dati Aziendali nei Modelli con {{ProgLang}}",
+      "description": "Genera report professionali incorporando JSON, XML o altri dati nei modelli utilizzando {{ProdFullName}}."
+    },
+    "overview_feature_2": {
+      "title": "Gestisci Contenuti Integrati",
+      "description": "Compila automaticamente tabelle, grafici e altre visualizzazioni nei tuoi documenti utilizzando dati esterni."
+    },
+    "overview_feature_3": {
+      "title": "Opzioni Personalizzabili",
+      "description": "{{ProdFullName}} ti consente di aggiungere funzionalità come codici a barre, recupero dati da URL e esportazione di file in vari formati."
+    },
+    "features": {
+      "title": "Caratteristiche Principali di {{ProdShortName}}",
+      "description": "Crea documenti e report dinamici con potenti strumenti di gestione dei dati.",
+      "feature_1": {
+        "title": "Visualizzazioni Dati Ricche",
+        "content": "Inserisci grafici, tabelle, immagini e elenchi nei tuoi documenti con piena personalizzazione."
+      },
+      "feature_2": {
+        "title": "Trasforma i Tuoi Dati",
+        "content": "Sfrutta strumenti come formule e ordinamenti per strutturare e visualizzare le informazioni in modo efficace."
+      },
+      "feature_3": {
+        "title": "Ampia Compatibilità con i Formati",
+        "content": "Lavora senza soluzione di continuità con i formati di file più diffusi per modelli e output."
+      },
+      "feature_4": {
+        "title": "Personalizzazione Avanzata dei Modelli",
+        "content": "Formatta i modelli con opzioni di stile numeriche, alfabetiche e altre."
+      },
+      "feature_5": {
+        "title": "Generazione Dinamica di Codici a Barre",
+        "content": "Crea e incorpora immagini di codici a barre direttamente nei tuoi documenti su richiesta."
+      },
+      "feature_6": {
+        "title": "Stile del Testo Flessibile",
+        "content": "Applica facilmente stili di testo come maiuscole o maiuscole iniziali nei tuoi modelli."
+      },
+      "feature_7": {
+        "title": "Inserimento Dinamico di Contenuti",
+        "content": "Include contenuti da file esterni dinamicamente durante la generazione di documenti."
+      },
+      "feature_8": {
+        "title": "Esporta in Vari Formati",
+        "content": "Salva documenti in più formati con le configurazioni specificate."
+      },
+      "feature_9": {
+        "title": "Incorpora Media Dinamicamente",
+        "content": "Inserisci immagini o altri elementi utilizzando dati Base64 durante la creazione dei documenti."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} si integra perfettamente con i principali sistemi operativi, framework e gestori di pacchetti.",
+    "formats_description": "{{ProdFullName}} supporta un'ampia gamma di [formati documentali]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Scopri esempi pratici su come utilizzare {{ProdShortName}} per compiti comuni.",
+    "code_title_sample_1": "Aggiungi un Elenco Puntato nei Documenti Word",
+    "code_samples_sample_1_content_1": "Vedi come creare [elenchi puntati]({{Sample1Url}}) nei documenti Word per organizzare i dati in modo efficace.",
+    "code_samples_sample_1_content_2": "Questo esempio dimostra come generare un elenco puntato utilizzando {{ProdShortName}}.",
+    "code_title_sample_2": "Inserisci Grafici a Torta in PowerPoint",
+    "code_samples_sample_2_content_1": "Scopri come utilizzare modelli e XML per aggiungere [grafici a torta]({{Sample2Url}}) nelle tue presentazioni.",
+    "code_samples_sample_2_content_2": "Migliora i tuoi report con grafici a torta per presentare visivamente e chiaramente i dati."
   }
 }

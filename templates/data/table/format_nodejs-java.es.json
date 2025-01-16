@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "Inserta Tablas en Documentos {{FileFormatUp}} con {{ProgLang}}",
+    "description": "Utiliza {{ProdFullName}} para incrustar rápidamente tablas en documentos o correos electrónicos, extrayendo datos de diversas fuentes."
+  },
+  "header": {
+    "title": "Agrega Tablas a Archivos {{FileFormatUp}} sin Complicaciones con {{EnvNameShort}}",
+    "description": "Con {{ProdFullName}}, llenar tablas en documentos {{FileFormatUp}} es directo, utilizando datos de múltiples fuentes.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Comienza Tu Prueba Gratuita"
+  },
+  "about": {
+    "title": "Introducción a {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una herramienta poderosa para automatizar la creación de documentos. Te permite insertar tablas, gráficos, listas e imágenes en plantillas, con una colocación de contenido precisa. Apoyando más de 50 formatos de archivo, incluidos PDF, Word y correos electrónicos, agiliza la generación de informes y otras tareas."
+  },
+  "more_features": {
+    "title": "Agrega Tablas Basadas en Datos a Documentos",
+    "description": "{{ProdFullName}} permite a los usuarios crear tablas automáticamente, mientras también incrustan gráficos, imágenes y listas utilizando flujos de trabajo basados en plantillas.",
+    "image_description": "Características Principales de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Genera Tablas a Partir de Datos Estructurados",
+      "content": "Extrae datos de JSON, XML, CSV y otros formatos para poblar automáticamente tablas en documentos."
+    },
+    "feature_2": {
+      "title": "Crea Contenido Visual Pulido",
+      "content": "Utiliza {{ProdShortName}} para diseñar tablas, gráficos y listas profesionales, y agregar enlaces, imágenes y texto para una apariencia de documento refinada."
+    },
+    "feature_3": {
+      "title": "Colocación de Contenido Dinámico en Tablas",
+      "content": "Añade filas y columnas programáticamente utilizando plantillas basadas en LINQ y personaliza estilos como fuentes, colores y alineación."
+    },
+    "feature_4": {
+      "title": "Funciona sin Problemas a Través de Formatos",
+      "content": "Crea o edita fácilmente tablas en MS Office, OpenOffice, PDF, HTML y otros formatos, integrándolas en archivos según sea necesario."
+    }
+  },
+  "formats": {
+    "title": "Genera Tablas en una Variedad de Formatos",
+    "description": "Con {{EnvName}}, pobla plantillas y crea tablas completas en más de 50 tipos de archivo soportados."
+  },
+  "operations": {
+    "title": "Características Clave a Simple Vista",
+    "description": "Nuestra API automatiza la creación de tablas y mejora la generación de documentos con herramientas y plantillas versátiles."
+  },
+  "examples": {
+    "comment_1": "Incluye estas etiquetas en los marcadores de fila de tu plantilla",
+    "comment_2": "Especifica la ruta del archivo de plantilla",
+    "comment_3": "Carga tus datos desde una fuente elegida",
+    "comment_4": "Guarda el documento final con la tabla completada"
+  },
+  "steps": {
+    "title": "Cómo Agregar Datos a una Tabla en {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) te permite poblar rápidamente las plantillas de tabla para archivos {{FileFormatUp}} utilizando fuentes de datos dinámicas.",
+      "step_1": "Crea una plantilla {{FileFormatUp}} con marcadores de posición para las filas y columnas de la tabla.",
+      "step_2": "Carga datos desde una fuente soportada como JSON o CSV.",
+      "step_3": "Organiza y formatea los datos según sea necesario.",
+      "step_4": "Genera el documento con la tabla completada."
+    }
+  },
+  "code_1": {
+    "title": "Cómo Población Programáticamente una Tabla",
+    "content": "Este ejemplo demuestra cómo llenar una tabla en un documento {{FileFormatUp}} con datos de una fuente externa.",
+    "comment_1": "Diseña una plantilla con marcadores de posición para la tabla",
+    "comment_2": "Especifica la ruta del archivo a la plantilla",
+    "comment_3": "Carga los datos requeridos desde tu fuente",
+    "comment_4": "Organiza los datos en la estructura necesaria",
+    "comment_5": "Inicializa {{DocumentAssembler}}",
+    "comment_6": "Guarda el documento de salida con la tabla completada"
+  },
+  "texts_pdf": {
+    "step_1": "Crea una plantilla con marcadores de posición para la tabla (las plantillas PDF no son compatibles en este momento).",
+    "step_4": "Exporta el documento con la tabla completada como un archivo PDF.",
+    "comment_tmp": "Las plantillas PDF no son compatibles en este momento."
+  }
+}

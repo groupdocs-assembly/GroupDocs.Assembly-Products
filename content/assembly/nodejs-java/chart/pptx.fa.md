@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:14
+date:  2025-01-16T13:04:00
 draft: false
 lang: fa
 format: Pptx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "اضافه کردن نمودارها به فایل‌های PPTX با JavaScript"
+head_description: "با GroupDocs.Assembly for Node.js via Java، توسعه‌دهندگان می‌توانند به‌سرعت نمودارهای دینامیک را با استفاده از منابع داده زنده در اسناد ایجاد و درج کنند."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "نمودارها را به فایل‌های PPTX با استفاده از Node.js اضافه کنید" 
+description: "GroupDocs.Assembly for Node.js via Java روند ادغام نمودارها به اسناد PPTX با ورودی داده‌های بلادرنگ را تسهیل می‌کند."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "هم‌اکنون رایگان شروع کنید"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "مروری بر GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "بیشتر بیاموزید"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) یک راه‌حل قوی برای ایجاد اسناد و گزارشات خودکار است. می‌توانید به‌دقت نمودارها، جداول، تصاویر، بارکدها و لیست‌ها را به فایل‌ها اضافه کنید. این پلتفرم چندمنظوره از بیش از ۵۰ فرمت، از جمله PDF، اسناد آفیس و ایمیل‌ها پشتیبانی می‌کند.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "مراحل افزودن یک نمودار به سند PPTX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) افزودن نمودارها به فایل‌های PPTX را ساده می‌کند. از انواع نمودار مانند میله‌ای، خطی یا دایره‌ای انتخاب کنید.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. یک الگوی PPTX با جایگاه‌های خالی برای نمودارها طراحی کنید.
+      2. داده‌ها را از یک منبع پشتیبانی شده بارگذاری کنید.
+      3. گزینه‌های نمودار شامل نوع، رنگ‌ها و برچسب‌ها را پیکربندی کنید.
+      4. سند را با نمودار درج‌شده صادر کنید.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // این تگ را در الگوی خود قرار دهید تا یک نمودار تولید شود
         // Orders Prices by months<<y [Sum(c => c.Price)]>><<size [Count()]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // مسیر فایل الگو را مشخص کنید
         const template = "chart_template.pptx";
 
-        // {examples.comment_3}
+        // داده‌ها را از سیستم منبع خود استخراج نمایید
         const data 
             = new assemblyLib.DataSourceInfo(GetChartData(), "orders");
 
-        // {examples.comment_4}
+        // سند نهایی را با نمودار درج‌شده ذخیره کنید
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pptx", data);
         ```           
@@ -92,61 +92,61 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "به‌راحتی نمودارها را در اسناد خود ادغام کنید"
+  description: "GroupDocs.Assembly for Node.js via Java ایجاد اسناد غنی از ویژگی را در انواع فایل‌های معروف آسان می‌کند. از الگوها برای افزودن نمودارها، جداول، بارکدها، لیست‌ها، تصاویر و بیشتر با به‌روزرسانی‌های داده بلادرنگ استفاده کنید."
   image: "/img/assembly/features_chart.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "ویژگی‌های برتر GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "تبدیل داده‌ها به نمودارهای حرفه‌ای"
+      content: "داده‌ها را از منابعی مانند JSON، XML یا CSV به نمودارهای باکیفیت تبدیل کنید که می‌توانند به‌طور مستقیم در اسناد درج شوند."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "ایجاد جلوه‌های بصری خیره‌کننده"
+      content: "نمودارهای میله‌ای، نمودارهای دایره‌ای و نمودارهای خطی تولید کنید که به‌طور یکپارچه با دیگر عناصر سند مانند تصاویر، جداول و بارکدها کار می‌کنند."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "قابلیت‌های انعطاف‌پذیر در طراحی و جایگذاری نمودار"
+      content: "از الگوهای LINQ برای کنترل موقعیت و طراحی نمودار، از جمله رنگ‌ها، طرح‌ها و برچسب‌ها استفاده کنید تا ارائه‌ای زیبا داشته باشید."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "پشتیبانی از فرمت‌های مختلف فایل"
+      content: "اسناد را در فرمت‌هایی مانند MS Office، PDF، OpenOffice و HTML تولید کنید، با نمودارهایی که به‌طور کامل ادغام شده‌اند برای یک نتیجه حرفه‌ای."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "تولید و درج نمودارها به‌صورت دینامیک"
       content: |
-        {code_1.content}
+        این مثال نشان می‌دهد که چگونه می‌توانید به‌صورت برنامه‌نویسی نمودارها را در فایل‌های PPTX ایجاد و درج کنید.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // یک الگو با یک جایگاه برای نمودار آماده کنید
           // Total Contract Price<<y [m.Total_Contract_Price]>>
           // <<seriesColor [color]>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // مسیر فایل الگو را تعیین کنید
           const template = "table_template.pptx";
 
-          // {code_1.comment_3}
+          // داده‌ها را از یک منبع انتخاب شده دریافت کنید
           const data_json = 
             new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
+          // یک شی داده شامل اطلاعات نمودار آماده کنید
           const data 
               = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
+          // نوع نمودار را انتخاب کنید و ظاهر آن را سفارشی کنید
           const design 
               = new assemblyLib.DataSourceInfo("red", "color");
 
-          // {code_1.comment_6}
+          // DocumentAssembler را راه‌اندازی کنید
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_7}
+          // سند به‌روز شده را با نمودار درج شده ذخیره کنید
           asm.assembleDocument(template, "result.pptx", data, design);
           ```
         platform: "java"
@@ -192,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "کشف ویژگی‌های پیشرفته"
     exclude: "chart"
-    description: ""
+    description: "این پلتفرم ایجاد اسناد را با ابزارهایی که برای تجزیه و تحلیل داده‌ها و ادغام یکپارچه طراحی شده‌اند، تسهیل می‌کند."
     items: 
           
         # operation loop 1
@@ -231,9 +231,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "تولید گزارش‌ها در فرمت‌های مختلف فایل"
     exclude: "PPTX"
-    description: ""
+    description: "Node.js via Java از بیش از ۵۰ فرمت پشتیبانی می‌کند، و این امکان را می‌دهد که الگوها را با داده‌ها ترکیب کنید تا اسناد شکیل تولید نمایید."
     items: 
           
         # format loop 1

@@ -1,7 +1,7 @@
 {
   "index-content": {
-    "head_title": "APIs .NET, Java et applications d'assemblage de documents en ligne par GroupDocs",
-    "head_description": "Obtenez une solution d'automatisation et de reporting des documents tout-en-un pour les applications .NET et Java. Générez tous les documents courants à partir de modèles et de données personnalisés.",
+    "head_title": "APIs & Applications en ligne d'assemblage de documents pour .NET, Java, Node.js par GroupDocs",
+    "head_description": "Obtenez une solution d'automatisation et de reporting de documents tout-en-un pour les applications .NET, Java et Node.js. Générez tous les documents courants à partir de modèles et de données personnalisées.",
     "title": "Solution d'automatisation des documents et de reporting",
     "description_1": "Créez des rapports détaillés en utilisant des modèles et des sources de données avec nos applications et APIs multiplateformes.",
     "description_2": "Générez des rapports dans des formats tels que Word, Excel, Présentations, et bien d'autres en utilisant des modèles avec un balisage flexible.",
@@ -306,5 +306,75 @@
     "code_title_sample_2": "Créer des graphiques circulaires dans PPTX",
     "code_samples_sample_2_content_1": "Utilisez des modèles et XML pour ajouter [des graphiques circulaires](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/) à vos présentations.",
     "code_samples_sample_2_content_2": "Rendez vos rapports plus engageants en incluant des graphiques circulaires pour visualiser les données."
+  },
+  "index-content-nodejs-java": {
+    "head_title": "Boîte à outils {{EnvNameShort}} pour la création, l'automatisation et la personnalisation de documents",
+    "head_description": "Bibliothèque {{EnvNameShort}} pour automatiser les workflows de documents. Générez des fichiers PDF, Word, Excel, PowerPoint, HTML et email à partir de vos modèles.",
+    "title": "API {{EnvNameShort}} pour l'automatisation simplifiée de documents et de rapports",
+    "description": "Rationalisez la génération de rapports {{ProgLang}} en fusionnant vos données avec des modèles préconstruits.",
+    "actions_main": "Commencez votre essai sur {{PackageStoreName}}",
+    "code_title": "Créer un graphique dans un document Word en utilisant {{EnvNameShort}}",
+    "overview_description": "Bibliothèque {{EnvNameShort}} conçue pour créer des documents de manière programmatique avec gestion des données intégrée.",
+    "overview_feature_1": {
+      "title": "Intégrer les données commerciales dans des modèles avec {{ProgLang}}",
+      "description": "Générez des rapports soignés en intégrant des données JSON, XML ou autres dans des modèles avec {{ProdFullName}}."
+    },
+    "overview_feature_2": {
+      "title": "Gérer le contenu intégré",
+      "description": "Remplissez automatiquement tables, graphiques et autres visuels dans vos documents en utilisant des données externes."
+    },
+    "overview_feature_3": {
+      "title": "Options personnalisables",
+      "description": "{{ProdFullName}} vous permet d'ajouter des fonctionnalités telles que des codes-barres, de récupérer des données à partir d'URLs et d'exporter des fichiers dans divers formats."
+    },
+    "features": {
+      "title": "Fonctionnalités principales de {{ProdShortName}}",
+      "description": "Créez des documents et des rapports dynamiques avec des outils de gestion de données puissants.",
+      "feature_1": {
+        "title": "Visuels de données riches",
+        "content": "Insérez des graphiques, tableaux, images et listes dans vos documents avec une personnalisation complète."
+      },
+      "feature_2": {
+        "title": "Transformez vos données",
+        "content": "Utilisez des outils comme des formules et le tri pour structurer et afficher les informations efficacement."
+      },
+      "feature_3": {
+        "title": "Large compatibilité de formats",
+        "content": "Travaillez sans effort avec des formats de fichiers populaires pour les modèles et les sorties."
+      },
+      "feature_4": {
+        "title": "Personnalisation avancée des modèles",
+        "content": "Formatez les modèles avec des options de style numériques, alphabétiques et autres."
+      },
+      "feature_5": {
+        "title": "Générez des codes-barres dynamiquement",
+        "content": "Créez et intégrez des images de codes-barres directement dans vos documents à la demande."
+      },
+      "feature_6": {
+        "title": "Style de texte flexible",
+        "content": "Appliquez facilement des styles de texte tels que la capitalisation ou la casse de titre dans vos modèles."
+      },
+      "feature_7": {
+        "title": "Insertion dynamique de contenu",
+        "content": "Incluez dynamiquement du contenu à partir de fichiers externes lors de la génération de documents."
+      },
+      "feature_8": {
+        "title": "Export vers divers formats",
+        "content": "Enregistrez des documents dans plusieurs formats avec vos configurations spécifiées."
+      },
+      "feature_9": {
+        "title": "Intégrez dynamiquement des médias",
+        "content": "Insérez des images ou d'autres éléments en utilisant des données Base64 lors de la création de documents."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} s'intègre parfaitement avec les systèmes d'exploitation, frameworks et gestionnaires de paquets les plus utilisés.",
+    "formats_description": "{{ProdFullName}} prend en charge un large éventail de [formats de documents]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Découvrez des exemples pratiques de l'utilisation de {{ProdShortName}} pour des tâches courantes.",
+    "code_title_sample_1": "Ajouter une liste à puces dans des documents Word",
+    "code_samples_sample_1_content_1": "Voir comment créer des [listes à puces]({{Sample1Url}}) dans des documents Word pour organiser les données efficacement.",
+    "code_samples_sample_1_content_2": "Cet exemple démontre comment générer une liste à puces en utilisant {{ProdShortName}}.",
+    "code_title_sample_2": "Insérer des graphiques circulaires dans PowerPoint",
+    "code_samples_sample_2_content_1": "Apprenez à utiliser des modèles et XML pour ajouter des [graphiques circulaires]({{Sample2Url}}) dans vos présentations.",
+    "code_samples_sample_2_content_2": "Améliorez vos rapports avec des graphiques circulaires pour présenter les données visuellement et clairement."
   }
 }

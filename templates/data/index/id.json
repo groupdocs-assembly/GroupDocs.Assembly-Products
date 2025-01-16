@@ -1,7 +1,7 @@
 {
   "index-content": {
-    "head_title": "API & Aplikasi Penyusunan Dokumen .NET, Java oleh GroupDocs",
-    "head_description": "Dapatkan Solusi Otomasi & Pelaporan Dokumen All-in-One untuk aplikasi .NET dan Java. Hasilkan semua dokumen umum dari template dan data kustom.",
+    "head_title": "API .NET, Java, Node.js & Aplikasi Penyusunan Dokumen Online oleh GroupDocs",
+    "head_description": "Dapatkan Solusi Otomasi & Pelaporan Dokumen serba ada untuk aplikasi .NET, Java, dan Node.js. Hasilkan semua dokumen umum dari template dan data kustom.",
     "title": "Solusi Otomasi dan Pelaporan Dokumen",
     "description_1": "Buat laporan terperinci menggunakan template dan sumber data dengan aplikasi dan API lintas platform kami.",
     "description_2": "Hasilkan laporan dalam format seperti Word, Excel, Presentasi, dan banyak lagi menggunakan template dengan markup yang fleksibel.",
@@ -306,5 +306,75 @@
     "code_title_sample_2": "Buat Grafik Pie di PPTX",
     "code_samples_sample_2_content_1": "Gunakan template dan XML untuk menambahkan [grafik pie](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/) ke presentasi Anda.",
     "code_samples_sample_2_content_2": "Buat laporan Anda lebih menarik dengan menyertakan grafik pie untuk memvisualisasikan data."
+  },
+  "index-content-nodejs-java": {
+    "head_title": "Toolkit {{EnvNameShort}} untuk Membangun, Mengotomatiskan, dan Menyesuaikan Dokumen",
+    "head_description": "Library {{EnvNameShort}} untuk mengotomatiskan alur kerja dokumen. Hasilkan file PDF, Word, Excel, PowerPoint, HTML, dan email dari template Anda.",
+    "title": "API {{EnvNameShort}} untuk Otomasi Dokumen dan Laporan yang Disederhanakan",
+    "description": "Percepat proses pembuatan laporan {{ProgLang}} dengan menggabungkan data Anda dengan template yang sudah ada.",
+    "actions_main": "Mulai Uji Coba Anda di {{PackageStoreName}}",
+    "code_title": "Buat Grafik dalam Dokumen Word Menggunakan {{EnvNameShort}}",
+    "overview_description": "Library {{EnvNameShort}} yang dirancang untuk membuat dokumen secara programatik dengan penanganan data yang terintegrasi.",
+    "overview_feature_1": {
+      "title": "Integrasikan Data Bisnis ke dalam Template dengan {{ProgLang}}",
+      "description": "Hasilkan laporan yang menarik dengan menyematkan JSON, XML, atau data lainnya ke dalam template dengan {{ProdFullName}}."
+    },
+    "overview_feature_2": {
+      "title": "Kelola Konten yang Disematkan",
+      "description": "Secara otomatis mengisi tabel, grafik, dan visual lainnya dalam dokumen Anda menggunakan data eksternal."
+    },
+    "overview_feature_3": {
+      "title": "Opsi Kustomisasi",
+      "description": "{{ProdFullName}} memungkinkan Anda menambahkan fitur seperti kode batang, mengambil data dari URL, dan mengekspor file dalam berbagai format."
+    },
+    "features": {
+      "title": "Fitur Utama {{ProdShortName}}",
+      "description": "Buat dokumen dan laporan dinamis dengan alat manajemen data yang kuat.",
+      "feature_1": {
+        "title": "Visual Data Kaya",
+        "content": "Sisipkan grafik, tabel, gambar, dan daftar ke dalam dokumen Anda dengan kustomisasi penuh."
+      },
+      "feature_2": {
+        "title": "Transformasi Data Anda",
+        "content": "Manfaatkan alat seperti rumus dan pengurutan untuk menyusun dan menampilkan informasi secara efektif."
+      },
+      "feature_3": {
+        "title": "Kompatibilitas Format yang Luas",
+        "content": "Bekerja secara mulus dengan format file populer untuk template dan keluaran."
+      },
+      "feature_4": {
+        "title": "Kustomisasi Template Lanjutan",
+        "content": "Format template dengan opsi gaya numerik, alfabet, dan lainnya."
+      },
+      "feature_5": {
+        "title": "Hasilkan Kode Batang Secara Dinamis",
+        "content": "Buat dan sematkan gambar kode batang langsung ke dalam dokumen Anda sesuai permintaan."
+      },
+      "feature_6": {
+        "title": "Gaya Teks Fleksibel",
+        "content": "Terapkan gaya teks seperti kapitalisasi atau huruf besar kecil judul di dalam template Anda."
+      },
+      "feature_7": {
+        "title": "Penyisipan Konten Dinamis",
+        "content": "Sertakan konten dari file eksternal secara dinamis saat pembuatan dokumen."
+      },
+      "feature_8": {
+        "title": "Ekspor ke Berbagai Format",
+        "content": "Simpan dokumen dalam berbagai format dengan konfigurasi yang Anda tentukan."
+      },
+      "feature_9": {
+        "title": "Sematkan Media Secara Dinamis",
+        "content": "Sisipkan gambar atau elemen lainnya menggunakan data Base64 saat membuat dokumen."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} terintegrasi dengan lancar dengan sistem operasi, kerangka kerja, dan manajer paket terkemuka.",
+    "formats_description": "{{ProdFullName}} mendukung berbagai macam [format dokumen]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Temukan contoh praktis tentang cara menggunakan {{ProdShortName}} untuk tugas umum.",
+    "code_title_sample_1": "Tambahkan Daftar Ber nomor dalam Dokumen Word",
+    "code_samples_sample_1_content_1": "Lihat cara membuat [daftar ber nomor]({{Sample1Url}}) dalam dokumen Word untuk mengatur data secara efektif.",
+    "code_samples_sample_1_content_2": "Contoh ini menunjukkan cara menghasilkan daftar ber nomor menggunakan {{ProdShortName}}.",
+    "code_title_sample_2": "Sisipkan Grafik Lingkaran ke dalam PowerPoint",
+    "code_samples_sample_2_content_1": "Pelajari cara menggunakan template dan XML untuk menambahkan [grafik lingkaran]({{Sample2Url}}) dalam presentasi Anda.",
+    "code_samples_sample_2_content_2": "Tingkatkan laporan Anda dengan grafik lingkaran untuk menyajikan data secara visual dan jelas."
   }
 }

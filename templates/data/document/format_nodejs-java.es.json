@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": "Combina Documentos en {{FileFormatUp}} con {{ProgLang}}",
+    "description": "Combina archivos {{FileFormatUp}} utilizando {{ProgLang}}. {{ProdShortName}} simplifica la fusión de documentos en solo unos pocos pasos."
+  },
+  "header": {
+    "title": "Combina Contenido en Archivos {{FileFormatUp}} de Forma Eficiente",
+    "description": "Con {{ProdFullName}}, integrar un archivo {{FileFormatUp}} en otro es rápido y preciso. Disfruta de herramientas flexibles y confiables para una fusión sin complicaciones.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Prueba Gratis"
+  },
+  "about": {
+    "title": "Descripción General de {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ofrece una forma potente de gestionar documentos. Combina un archivo en otro fácilmente mientras soporta más de 50 formatos, como PDF y MS Office. Personaliza diseños, edita contenido y organiza documentos exactamente como los necesitas."
+  },
+  "more_features": {
+    "title": "Herramientas Potentes para la Integración de Documentos",
+    "description": "{{ProdFullName}} facilita la inserción de archivos en varios formatos y es completamente personalizable. Ofrece resultados consistentes y profesionales en cada ocasión.",
+    "image_description": "Características Clave de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Genera Informes con Datos Empresariales",
+      "content": "Extrae datos de fuentes JSON, XML o CSV para crear informes y documentos completos de manera rápida y precisa."
+    },
+    "feature_2": {
+      "title": "Añade Elementos Visuales Ricos",
+      "content": "{{ProdShortName}} te permite incluir tablas, gráficos, listas, imágenes y códigos de barras junto con texto y enlaces."
+    },
+    "feature_3": {
+      "title": "Colocación Precisa de Datos",
+      "content": "Utiliza plantillas LINQ para posicionar datos exactamente donde pertenecen, maneja elementos repetidos como arreglos y personaliza estilos con facilidad."
+    },
+    "feature_4": {
+      "title": "Trabaja con una Variedad de Formatos",
+      "content": "Fusiona contenido sin problemas entre formatos como PDFs, archivos de MS Office, HTML y OpenOffice, ofreciendo flexibilidad para todos los proyectos."
+    }
+  },
+  "formats": {
+    "title": "Combina Documentos en Muchos Formatos",
+    "description": "Usa {{EnvName}} para fusionar contenido en más de 50 formatos de archivo, asegurando resultados profesionales y pulidos."
+  },
+  "operations": {
+    "title": "Características Clave de un Vistazo",
+    "description": "Explora las herramientas completas que {{ProdShortName}} ofrece para una fusión de documentos eficiente y fluida."
+  },
+  "examples": {
+    "comment_1": "Inserta esta etiqueta en tu plantilla para definir dónde se incrustará el documento",
+    "comment_2": "Establece la ruta del archivo para la plantilla principal",
+    "comment_3": "Proporciona la ruta para el documento que deseas fusionar",
+    "comment_4": "Guarda la salida final con el documento incrustado"
+  },
+  "steps": {
+    "title": "Cómo Fusionar un Documento en un Archivo {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilita la inserción de un archivo {{FileFormatUp}} en otro con opciones personalizables.",
+      "step_1": "Diseña una plantilla {{FileFormatUp}} con marcadores de posición para el contenido.",
+      "step_2": "Establece la ruta del archivo para la plantilla.",
+      "step_3": "Proporciona la ruta del archivo para el documento a fusionar.",
+      "step_4": "Exporta el archivo final con el contenido combinado."
+    }
+  },
+  "code_1": {
+    "title": "Incrustar una Imagen en un Documento Programáticamente",
+    "content": "Este ejemplo muestra cómo insertar una imagen en un archivo {{FileFormatUp}} utilizando {{ProdShortName}}.",
+    "comment_1": "Añade un marcador de posición en la plantilla para la imagen",
+    "comment_2": "Especifica la ruta al archivo de la plantilla",
+    "comment_3": "Establece la ruta a la imagen que deseas incrustar",
+    "comment_4": "Inicializa el objeto {{DocumentAssembler}}",
+    "comment_5": "Guarda el documento con la imagen incluida"
+  },
+  "texts_pdf": {
+    "step_1": "Diseña una plantilla con marcadores de posición para contenido incrustado (las plantillas PDF no son compatibles).",
+    "step_4": "Guarda el documento completado con el contenido fusionado como un archivo PDF.",
+    "comment_tmp": "Actualmente, las plantillas PDF no son compatibles."
+  }
+}

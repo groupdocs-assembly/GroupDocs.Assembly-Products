@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-01-14T15:37:19
+date: 2025-01-16T13:04:06
 draft: false
 
 lang: de
@@ -24,17 +24,17 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "{index-content-nodejs-java.head_title}"
-head_description: "{index-content-nodejs-java.head_description}"
+head_title: "Node.js Toolkit zum Erstellen, Automatisieren und Anpassen von Dokumenten"
+head_description: "Node.js-Bibliothek zur Automatisierung von Dokumenten-Workflows. Erstellen Sie PDF-, Word-, Excel-, PowerPoint-, HTML- und E-Mail-Dateien aus Ihren Vorlagen."
 
 ############################# Header ############################
-title: "{index-content-nodejs-java.title}"
-description: "{index-content-nodejs-java.description}"
+title: "Node.js API für vereinfachte Dokumenten- und Berichtautomatisierung"
+description: "Optimieren Sie die Erstellung von JavaScript-Berichten, indem Sie Ihre Daten mit vorgefertigten Vorlagen zusammenführen."
 words:
   for: "für"
 
 actions:
-  main: "{index-content-nodejs-java.actions_main}"
+  main: "Beginnen Sie Ihre Testversion bei NPM"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.assembly"
   alt: "Lizenzierung"
   alt_link: "https://purchase.groupdocs.com/pricing/assembly/nodejs-java/"
@@ -48,7 +48,7 @@ release:
   link: "https://releases.groupdocs.com/assembly/nodejs-java/"
 
 code:
-  title: "{index-content-nodejs-java.code_title}"
+  title: "Erstellen Sie ein Diagramm in einem Word-Dokument mit Node.js"
   more: "Weitere Beispiele"
   more_link: "https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-Node.js-via-Java/"
   install: "npm i @groupdocs/groupdocs.assembly"
@@ -80,25 +80,25 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Assembly Übersicht"
-  description: "{index-content-nodejs-java.overview_description}"
+  description: "Eine Node.js-Bibliothek, die entwickelt wurde, um Dokumente programmatisch mit integrierter Datenverarbeitung zu erstellen."
   features:
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_1.title}"
-      content: "{index-content-nodejs-java.overview_feature_1.description}"
+    - title: "Geschäftsdaten in Vorlagen mit JavaScript integrieren"
+      content: "Erstellen Sie ansprechende Berichte, indem Sie JSON, XML oder andere Daten in Vorlagen mit GroupDocs.Assembly for Node.js via Java einbetten."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_2.title}"
-      content: "{index-content-nodejs-java.overview_feature_2.description}"
+    - title: "Inhalt verwalten"
+      content: "Füllen Sie automatisch Tabellen, Diagramme und andere visuelle Elemente in Ihren Dokumenten mit externen Daten aus."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_3.title}"
-      content: "{index-content-nodejs-java.overview_feature_3.description}"
+    - title: "Anpassbare Optionen"
+      content: "GroupDocs.Assembly for Node.js via Java ermöglicht es Ihnen, Funktionen wie Barcodes hinzuzufügen, Daten von URLs abzurufen und Dateien in verschiedenen Formaten zu exportieren."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Plattformunabhängigkeit"
-  description: "{index-content-nodejs-java.platforms_description}"
+  description: "GroupDocs.Assembly for Node.js via Java integriert sich nahtlos mit führenden Betriebssystemen, Frameworks und Paketmanagern."
   items:
     # platform loop
     - title: "Amazon"
@@ -130,7 +130,7 @@ formats:
   enable: true
   title: "Unterstützte Dateiformate"
   description: |
-    {index-content-nodejs-java.formats_description}
+    GroupDocs.Assembly for Node.js via Java unterstützt eine Vielzahl von [Dokumentenformaten](https://docs.groupdocs.com/assembly/nodejs-java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -157,66 +157,66 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-nodejs-java.features.title}"
-  description: "{index-content-nodejs-java.features.description}"
+  title: "Kernfunktionen von GroupDocs.Assembly"
+  description: "Erstellen Sie dynamische Dokumente und Berichte mit leistungsstarken Datenmanagement-Tools."
 
   items:
     # feature loop
     - icon: "preview"
-      title: "{index-content-nodejs-java.features.feature_1.title}"
-      content: "{index-content-nodejs-java.features.feature_1.content}"
+      title: "Reiche Datenvisualisierungen"
+      content: "Fügen Sie problemlos Diagramme, Tabellen, Bilder und Listen in Ihre Dokumente mit vollständiger Anpassung ein."
 
     # feature loop
     - icon: "manipulate"
-      title: "{index-content-nodejs-java.features.feature_2.title}"
-      content: "{index-content-nodejs-java.features.feature_2.content}"
+      title: "Daten transformieren"
+      content: "Nutzen Sie Tools wie Formeln und Sortierung, um Informationen effektiv zu strukturieren und darzustellen."
 
     # feature loop
     - icon: "two_pages"
-      title: "{index-content-nodejs-java.features.feature_3.title}"
-      content: "{index-content-nodejs-java.features.feature_3.content}"
+      title: "Breite Formatkompatibilität"
+      content: "Arbeiten Sie nahtlos mit gängigen Dateiformaten für Vorlagen und Ausgaben."
 
     # feature loop
     - icon: "document_settings"
-      title: "{index-content-nodejs-java.features.feature_4.title}"
-      content: "{index-content-nodejs-java.features.feature_4.content}"
+      title: "Erweiterte Vorlagenanpassung"
+      content: "Formatieren Sie Vorlagen mit numerischen, alphabetischen und anderen Stiloptionen."
 
     # feature loop
     - icon: "text"
-      title: "{index-content-nodejs-java.features.feature_5.title}"
-      content: "{index-content-nodejs-java.features.feature_5.content}"
+      title: "Dynamisches Generieren von Barcodes"
+      content: "Erstellen und betten Sie Barcode-Bilder direkt nach Bedarf in Ihre Dokumente ein."
 
     # feature loop
     - icon: "add"
-      title: "{index-content-nodejs-java.features.feature_6.title}"
-      content: "{index-content-nodejs-java.features.feature_6.content}"
+      title: "Flexible Textgestaltung"
+      content: "Wenden Sie einfach Textstile wie Großschreibung oder Titel-Schreibung in Ihren Vorlagen an."
 
     # feature loop
     - icon: "manipulate"
-      title: "{index-content-nodejs-java.features.feature_7.title}"
-      content: "{index-content-nodejs-java.features.feature_7.content}"
+      title: "Dynamische Inhaltsintegration"
+      content: "Fügen Sie während der Dokumentenerstellung dynamisch Inhalte aus externen Dateien ein."
 
     # feature loop
     - icon: "convert"
-      title: "{index-content-nodejs-java.features.feature_8.title}"
-      content: "{index-content-nodejs-java.features.feature_8.content}"
+      title: "Exportieren in verschiedene Formate"
+      content: "Speichern Sie Dokumente in mehreren Formaten mit Ihren spezifizierten Konfigurationen."
 
     # feature loop
     - icon: "update"
-      title: "{index-content-nodejs-java.features.feature_9.title}"
-      content: "{index-content-nodejs-java.features.feature_9.content}"
+      title: "Dynamisches Einbetten von Medien"
+      content: "Fügen Sie Bilder oder andere Elemente mit Base64-Daten beim Erstellen von Dokumenten ein."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Codebeispiele"
-  description: "{index-content-nodejs-java.code_samples_description}"
+  description: "Entdecken Sie praktische Beispiele, wie Sie GroupDocs.Assembly für gängige Aufgaben nutzen können."
   items:
     # code sample loop
-    - title: "{index-content-nodejs-java.code_title_sample_1}"
+    - title: "Fügen Sie eine Aufzählungsliste in Word-Dokumente ein"
       content: |
-        {index-content-nodejs-java.code_samples_sample_1_content_1} {index-content-nodejs-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-nodejs-java.code_title_sample_1}">}}
+        Erfahren Sie, wie Sie [aufgezählte Listen](https://docs.groupdocs.com/assembly/nodejs-java/bulleted-list-in-word-processing-document/) in Word-Dokumenten erstellen, um Daten effektiv zu organisieren. Dieses Beispiel zeigt, wie Sie eine Aufzählungsliste mit GroupDocs.Assembly erstellen.
+        {{< landing/code title="Fügen Sie eine Aufzählungsliste in Word-Dokumente ein">}}
         ```javascript {style=abap}
         // Fügen Sie diese Vorlage auf einer Dokumentseite ein:
         // Leistungsindikatoren der Manager
@@ -241,10 +241,10 @@ code_samples:
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-nodejs-java.code_title_sample_2}"
+    - title: "Kreisdiagramme in PowerPoint einfügen"
       content: |
-        {index-content-nodejs-java.code_samples_sample_2_content_1} {index-content-nodejs-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-nodejs-java.code_title_sample_2}">}}
+        Erfahren Sie, wie Sie Vorlagen und XML verwenden, um [Kreisdiagramme](https://docs.groupdocs.com/assembly/nodejs-java/pie-chart-in-presentation-document/) in Ihren Präsentationen hinzuzufügen. Verbessern Sie Ihre Berichte mit Kreisdiagrammen, um Daten visuell und klar darzustellen.
+        {{< landing/code title="Kreisdiagramme in PowerPoint einfügen">}}
         ```javascript {style=abap} 
         // Fügen Sie das Titel-Template für das Diagramm zur Präsentation hinzu:
         // Umsatz der Kunden <<foreach [in customers]>> 

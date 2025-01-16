@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:16
+date:  2025-01-16T13:04:03
 draft: false
 lang: it
 format: Xlsx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Crea elenchi dinamici in XLSX con JavaScript"
+head_description: "Progetta e inserisci facilmente elenchi nei modelli XLSX utilizzando l'API GroupDocs.Assembly for Node.js via Java."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Incorpora elenchi basati su dati nei file XLSX con Node.js" 
+description: "GroupDocs.Assembly for Node.js via Java offre strumenti potenti per aggiungere elenchi flessibili e alimentati da dati ai documenti XLSX."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Inizia gratuitamente"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Informazioni su GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Scopri di più"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) semplifica la creazione di documenti estraendo dati da diverse fonti e incorporandoli nei modelli. Utilizzalo per costruire elenchi, tabelle, grafici e altri elementi, con opzioni di posizionamento e formattazione precise. Supportando oltre 50 formati, inclusi PDF, MS Office e email, aiuta ad automatizzare il processo di generazione dei documenti.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Passaggi per inserire un elenco in un file XLSX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) rende semplice aggiungere elenchi dettagliati e alimentati da dati ai tuoi modelli XLSX.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Crea un modello XLSX e definisci i segnaposto per l'elenco.
+      2. Fornisci il percorso del file del modello.
+      3. Carica dati da sorgenti supportate come JSON o XML.
+      4. Salva il documento con l'elenco generato.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Posiziona questo tag nel tuo modello per indicare dove andrà l'elenco
         // <<foreach [in customers]>><<[CustomerName]>><</foreach>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Imposta il percorso del file per il tuo modello
         const template = "list_template.xlsx";
 
-        // {examples.comment_3}
+        // Recupera dati dalla fonte che desideri utilizzare
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {examples.comment_4}
+        // Salva il file con l'elenco incorporato
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.xlsx", data);
         ```           
@@ -92,57 +92,57 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Genera facilmente documenti con dati integrati"
+  description: "Con GroupDocs.Assembly for Node.js via Java, puoi integrare elenchi, tabelle, grafici e altri elementi nei modelli, risparmiando tempo e sforzi."
   image: "/img/assembly/features_list.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Punti salienti di GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Genera report da più fonti di dati"
+      content: "Importa dati da JSON, XML, CSV o altri formati per popolare elenchi e componenti in modo efficiente."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Aggiungi elenchi e altri elementi visivi"
+      content: "GroupDocs.Assembly ti consente di incorporare senza soluzione di continuità elenchi, tabelle, grafici e altro accanto a testi, immagini e collegamenti per risultati raffinati."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Posiziona e stila i dati con precisione"
+      content: "I modelli basati su LINQ ti permettono di controllare esattamente dove appaiono elenchi e altri dati, utilizzare cicli per elementi ripetuti e personalizzare gli stili in base alle tue esigenze."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Funziona su più formati"
+      content: "Crea documenti in formati come MS Office, PDF, OpenOffice, HTML e email. Unisci contenuti provenienti da diverse fonti in un unico file."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Crea programmaticamente un elenco in un documento"
       content: |
-        {code_1.content}
+        Questo esempio dimostra come aggiungere dinamicamente un elenco a un documento XLSX utilizzando GroupDocs.Assembly.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Aggiungi un segnaposto nel tuo modello per l'elenco
           // <<foreach [in products]>><<[NumberOf()]>>. <<[ProductName]>>
           // <</foreach>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Specifica il percorso del file del modello
           const template = "numlist_template.xlsx";
 
-          // {code_1.comment_3}
+          // Carica dati per popolare l'elenco
           const data_xml =
               new assemblyLib.XmlDataSource("products.xml");
 
-          // {code_1.comment_4}
+          // Prepara la sorgente dati con i dettagli richiesti
           const data 
               = new assemblyLib.DataSourceInfo(data_xml, "products");
 
-          // {code_1.comment_5}
+          // Inizializza il DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Salva il documento finale con l'elenco incluso
           asm.assembleDocument(template, "result.xlsx", data);
           ```
         platform: "java"
@@ -188,9 +188,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Esplora le funzionalità di GroupDocs.Assembly"
     exclude: "list"
-    description: ""
+    description: "Progetta e genera documenti ricchi di dati senza sforzo utilizzando potenti strumenti di integrazione."
     items: 
           
         # operation loop 1
@@ -227,9 +227,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Crea documenti in diversi formati"
     exclude: "XLSX"
-    description: ""
+    description: "Node.js via Java supporta oltre 50 formati di file, semplificando la fusione di modelli e dati per risultati professionali."
     items: 
           
         # format loop 1

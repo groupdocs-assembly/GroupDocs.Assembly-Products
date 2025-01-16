@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "{{ProgLang}}을 사용하여 {{FileFormatUp}} 문서에 테이블 삽입하기",
+    "description": "{{ProdFullName}}를 사용하여 다양한 출처에서 데이터를 가져와 문서나 이메일에 테이블을 빠르게 삽입하세요."
+  },
+  "header": {
+    "title": "{{EnvNameShort}}에서 {{FileFormatUp}} 파일에 테이블 추가하기",
+    "description": "{{ProdFullName}}을 사용하면 여러 출처의 데이터를 이용해 {{FileFormatUp}} 문서에 테이블을 쉽게 채울 수 있습니다.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료 체험 시작하기"
+  },
+  "about": {
+    "title": "{{ProdFullName}} 소개",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 문서 생성 자동화를 위한 강력한 도구입니다. 테이블, 차트, 리스트, 이미지를 템플릿에 정밀하게 삽입할 수 있습니다. PDF, Word, 이메일을 포함해 50개 이상의 파일 형식을 지원하며, 보고서 생성 및 기타 작업을 간소화합니다."
+  },
+  "more_features": {
+    "title": "데이터 기반 테이블을 문서에 추가하기",
+    "description": "{{ProdFullName}}을 통해 사용자는 테이블을 자동으로 생성할 수 있을 뿐만 아니라, 템플릿 기반 워크플로우를 사용하여 차트, 이미지 및 리스트를 삽입할 수 있습니다.",
+    "image_description": "{{ProdShortName}}의 주요 기능",
+    "feature_1": {
+      "title": "구조화된 데이터로부터 테이블 생성",
+      "content": "JSON, XML, CSV 등 다양한 형식에서 데이터를 가져와 문서 테이블을 자동으로 채울 수 있습니다."
+    },
+    "feature_2": {
+      "title": "세련된 시각적 콘텐츠 생성",
+      "content": "{{ProdShortName}}을 사용하여 전문적인 테이블, 차트 및 리스트를 디자인하고, 링크, 이미지 및 텍스트를 추가하여 다듬어진 문서의 외관을 제공합니다."
+    },
+    "feature_3": {
+      "title": "동적 테이블 내용 배치",
+      "content": "LINQ 기반 템플릿을 사용하여 프로그래밍적으로 행과 열을 추가하고, 글꼴, 색상 및 정렬과 같은 스타일을 사용자 정의할 수 있습니다."
+    },
+    "feature_4": {
+      "title": "다양한 형식에서 원활하게 작동",
+      "content": "MS Office, OpenOffice, PDF, HTML 등에서 테이블을 쉽게 생성하거나 편집하고, 필요에 따라 파일에 병합할 수 있습니다."
+    }
+  },
+  "formats": {
+    "title": "다양한 형식으로 테이블 생성하기",
+    "description": "{{EnvName}}을 사용하여 템플릿을 채우고 50개 이상의 지원되는 파일 형식에서 포괄적인 테이블을 생성합니다."
+  },
+  "operations": {
+    "title": "핵심 기능 한눈에 보기",
+    "description": "우리의 API는 테이블 생성 자동화 및 다양화된 도구와 템플릿으로 문서 생성을 향상합니다."
+  },
+  "examples": {
+    "comment_1": "템플릿의 테이블 행 자리 표시자에 이러한 태그를 포함하세요.",
+    "comment_2": "템플릿 파일 경로를 지정하세요.",
+    "comment_3": "선택한 출처에서 데이터를 로드하세요.",
+    "comment_4": "완성된 테이블이 포함된 최종 문서를 저장하세요."
+  },
+  "steps": {
+    "title": "{{FileFormatUp}}에서 테이블에 데이터 추가하기",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})은 동적 데이터 소스를 사용하여 {{FileFormatUp}} 파일의 테이블 템플릿을 빠르게 채울 수 있도록 합니다.",
+      "step_1": "{{FileFormatUp}} 템플릿을 생성하고 테이블 행 및 열을 위한 자리 표시자를 추가합니다.",
+      "step_2": "JSON 또는 CSV와 같은 지원되는 출처에서 데이터를 로드합니다.",
+      "step_3": "필요에 따라 데이터를 정리하고 형식을 지정합니다.",
+      "step_4": "완성된 테이블이 포함된 문서를 생성합니다."
+    }
+  },
+  "code_1": {
+    "title": "프로그램적으로 테이블 채우기",
+    "content": "이 예시는 외부 출처의 데이터를 사용하여 {{FileFormatUp}} 문서의 테이블을 채우는 방법을 보여줍니다.",
+    "comment_1": "테이블을 위한 자리 표시자가 포함된 템플릿을 디자인합니다.",
+    "comment_2": "템플릿의 파일 경로를 지정합니다.",
+    "comment_3": "필요한 데이터를 출처에서 로드합니다.",
+    "comment_4": "데이터를 필요한 구조로 구성합니다.",
+    "comment_5": "{{DocumentAssembler}} 초기화하기.",
+    "comment_6": "완성된 테이블이 포함된 출력 문서를 저장합니다."
+  },
+  "texts_pdf": {
+    "step_1": "테이블을 위한 자리 표시자가 포함된 템플릿을 생성하세요 (PDF 템플릿은 현재 지원되지 않습니다).",
+    "step_4": "채워진 테이블이 포함된 문서를 PDF 파일로 내보내세요.",
+    "comment_tmp": "현재 PDF 템플릿은 지원되지 않습니다."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "head": {
+    "title": "Inserta Gráficos en Archivos {{FileFormatUp}} con {{ProgLang}}",
+    "description": "Con {{ProdFullName}}, los desarrolladores pueden crear y agregar rápidamente gráficos dinámicos a documentos utilizando fuentes de datos en vivo."
+  },
+  "header": {
+    "title": "Agrega Gráficos a Archivos {{FileFormatUp}} Usando {{EnvNameShort}}",
+    "description": "{{ProdFullName}} simplifica el proceso de integrar gráficos en documentos {{FileFormatUp}} con entrada de datos en tiempo real.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Empieza Gratis Hoy"
+  },
+  "about": {
+    "title": "Resumen de {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una solución robusta para crear documentos y reportes automatizados. Agrega gráficos, tablas, imágenes, códigos de barras y listas a archivos con precisión. Esta versátil plataforma soporta más de 50 formatos, incluyendo PDFs, documentos de Office y correos electrónicos."
+  },
+  "more_features": {
+    "title": "Incorpora Gráficos Sin Esfuerzo en Tus Documentos",
+    "description": "{{ProdFullName}} permite generar documentos ricos en características en tipos de archivos populares. Utiliza plantillas para agregar gráficos, tablas, códigos de barras, listas, imágenes y más, con actualizaciones de datos en tiempo real.",
+    "image_description": "Características Principales de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Transforma Datos en Gráficos Profesionales",
+      "content": "Convierte datos de fuentes como JSON, XML o CSV en gráficos de alta calidad que pueden ser incrustados directamente en documentos."
+    },
+    "feature_2": {
+      "title": "Crea Visuales Impresionantes",
+      "content": "Genera gráficos de barras, gráficos circulares y gráficos de líneas que funcionan a la perfección con otros elementos del documento como imágenes, tablas y códigos de barras."
+    },
+    "feature_3": {
+      "title": "Estilo y Posicionamiento de Gráficos Flexibles",
+      "content": "Utiliza plantillas LINQ para controlar la ubicación y el estilo de los gráficos, incluyendo colores, diseños y etiquetas, para una presentación pulida."
+    },
+    "feature_4": {
+      "title": "Soporta Muchos Formatos de Archivo",
+      "content": "Genera documentos en formatos como MS Office, PDF, OpenOffice y HTML, con gráficos perfectamente integrados para un acabado profesional."
+    }
+  },
+  "formats": {
+    "title": "Genera Informes en Múltiples Formatos de Archivo",
+    "description": "{{EnvName}} soporta más de 50 formatos, facilitando la combinación de plantillas con datos para producir documentos pulidos."
+  },
+  "operations": {
+    "title": "Descubre Características Avanzadas",
+    "description": "Esta plataforma simplifica la creación de documentos con herramientas diseñadas para la visualización de datos e integración seamless."
+  },
+  "examples": {
+    "comment_1": "Incluye esta etiqueta en tu plantilla para generar un gráfico",
+    "comment_2": "Especifica la ruta del archivo de plantilla",
+    "comment_3": "Extrae datos de tu sistema de origen",
+    "comment_4": "Guarda el documento final con el gráfico incrustado"
+  },
+  "steps": {
+    "title": "Pasos para Agregar un Gráfico a un Documento {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilita la incorporación de gráficos a archivos {{FileFormatUp}}. Elige entre tipos de gráficos como barras, líneas o circulares.",
+      "step_1": "Diseña una plantilla {{FileFormatUp}} con marcadores de posición para gráficos.",
+      "step_2": "Carga datos desde una fuente soportada.",
+      "step_3": "Configura las opciones del gráfico, incluyendo tipo, colores y etiquetas.",
+      "step_4": "Exporta el documento con el gráfico incrustado."
+    }
+  },
+  "code_1": {
+    "title": "Generar e Insertar Gráficos Dinámicamente",
+    "content": "Este ejemplo ilustra cómo crear e incrustar gráficos en archivos {{FileFormatUp}} de manera programática.",
+    "comment_1": "Configura una plantilla con un marcador de posición para el gráfico",
+    "comment_2": "Define la ruta al archivo de plantilla",
+    "comment_3": "Recupera datos de una fuente elegida",
+    "comment_4": "Prepara un objeto de datos que contenga la información del gráfico",
+    "comment_5": "Elige el tipo de gráfico y personaliza su apariencia",
+    "comment_6": "Inicializa {{DocumentAssembler}}",
+    "comment_7": "Guarda el documento actualizado con el gráfico incrustado"
+  },
+  "texts_pdf": {
+    "step_1": "Crea una plantilla con marcadores de posición para gráficos (las plantillas PDF no son compatibles).",
+    "step_4": "Guarda el documento con el gráfico como un archivo PDF.",
+    "comment_tmp": "Nota: Las plantillas PDF no son actualmente compatibles."
+  }
+}

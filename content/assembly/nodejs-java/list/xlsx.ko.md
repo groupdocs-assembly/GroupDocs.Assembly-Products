@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:16
+date:  2025-01-16T13:04:03
 draft: false
 lang: ko
 format: Xlsx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "JavaScript로 XLSX에서 동적 목록 생성하기"
+head_description: "GroupDocs.Assembly for Node.js via Java API를 사용해 XLSX 템플릿에 목록을 디자인하고 삽입하는 과정을 간소화합니다."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Node.js로 XLSX 파일에 데이터 기반 목록 삽입하기" 
+description: "GroupDocs.Assembly for Node.js via Java는 XLSX 문서에 유연하며 데이터 중심의 목록을 추가할 수 있는 강력한 도구를 제공합니다."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "무료로 시작하기"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "GroupDocs.Assembly for Node.js via Java 소개"
     link: "/assembly/nodejs-java/"
     link_title: "자세히 알아보기"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/)는 다양한 소스에서 데이터를 불러와 템플릿에 내장하여 문서 생성 과정을 단순화합니다. 목록, 표, 차트 및 기타 요소를 정확한 위치와 서식 옵션으로 구축할 수 있습니다. PDF, MS Office, 이메일 등 50개 이상의 형식을 지원하여 문서 생성 프로세스를 자동화합니다.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "XLSX 파일에 목록을 삽입하는 단계"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/)을 사용하면 XLSX 템플릿에 세부적이고 데이터 기반 목록을 추가하는 과정이 간편합니다.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. XLSX 템플릿을 생성하고 목록에 대한 자리 표시자를 정의합니다.
+      2. 템플릿의 파일 경로를 제공합니다.
+      3. JSON 또는 XML과 같은 지원되는 소스에서 데이터를 로드합니다.
+      4. 생성된 목록과 함께 문서를 저장합니다.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // 템플릿에 이 태그를 배치하여 목록이 들어갈 위치를 표시합니다.
         // <<foreach [in customers]>><<[CustomerName]>><</foreach>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // 템플릿의 파일 경로를 설정하세요.
         const template = "list_template.xlsx";
 
-        // {examples.comment_3}
+        // 사용하려는 소스에서 데이터를 가져옵니다.
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {examples.comment_4}
+        // 내장 목록과 함께 파일을 저장합니다.
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.xlsx", data);
         ```           
@@ -92,57 +92,57 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "통합 데이터로 문서 생성하기"
+  description: "GroupDocs.Assembly for Node.js via Java를 사용하면 목록, 표, 차트 및 기타 요소를 템플릿에 삽입하여 시간과 노력을 절약할 수 있습니다."
   image: "/img/assembly/features_list.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "GroupDocs.Assembly의 주요 기능"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "다양한 데이터 소스로부터 보고서 생성"
+      content: "JSON, XML, CSV 등에서 데이터를 가져와 목록 및 기타 요소를 효율적으로 채울 수 있습니다."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "목록 및 기타 시각적 요소 추가"
+      content: "GroupDocs.Assembly를 사용하면 텍스트, 이미지 및 링크와 함께 목록, 표, 차트를 매끄럽게 삽입할 수 있어 품질 높은 결과를 얻을 수 있습니다."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "데이터의 위치와 스타일을 정밀하게 조정"
+      content: "LINQ 기반 템플릿을 통해 목록 및 기타 데이터의 위치를 정확히 제어하고 반복 항목을 위한 루프를 사용하며 스타일을 맞춤 설정할 수 있습니다."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "다양한 형식에서 작동"
+      content: "MS Office, PDF, OpenOffice, HTML 및 이메일 등 다양한 형식으로 문서를 생성할 수 있으며, 여러 소스의 내용을 하나의 파일로 통합할 수 있습니다."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "문서 내에서 목록을 프로그래밍 방식으로 생성하기"
       content: |
-        {code_1.content}
+        이 예제는 GroupDocs.Assembly를 사용하여 XLSX 문서에 동적으로 목록을 추가하는 방법을 보여줍니다.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // 템플릿에 목록용 자리 표시자를 추가합니다.
           // <<foreach [in products]>><<[NumberOf()]>>. <<[ProductName]>>
           // <</foreach>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // 템플릿의 파일 경로를 지정합니다.
           const template = "numlist_template.xlsx";
 
-          // {code_1.comment_3}
+          // 목록을 채울 데이터를 로드합니다.
           const data_xml =
               new assemblyLib.XmlDataSource("products.xml");
 
-          // {code_1.comment_4}
+          // 필요한 세부정보로 데이터 소스를 준비합니다.
           const data 
               = new assemblyLib.DataSourceInfo(data_xml, "products");
 
-          // {code_1.comment_5}
+          // DocumentAssembler를 초기화합니다.
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // 목록이 포함된 최종 문서를 저장합니다.
           asm.assembleDocument(template, "result.xlsx", data);
           ```
         platform: "java"
@@ -188,9 +188,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "GroupDocs.Assembly의 기능 탐색하기"
     exclude: "list"
-    description: ""
+    description: "강력한 통합 도구를 사용하여 데이터가 풍부한 문서를 간편하게 디자인하고 생성하세요."
     items: 
           
         # operation loop 1
@@ -227,9 +227,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "다양한 형식으로 문서 생성하기"
     exclude: "XLSX"
-    description: ""
+    description: "Node.js via Java는 50개 이상의 파일 형식을 지원하여 템플릿과 데이터를 통합하여 전문적인 결과를 쉽게 만들어 냅니다."
     items: 
           
         # format loop 1

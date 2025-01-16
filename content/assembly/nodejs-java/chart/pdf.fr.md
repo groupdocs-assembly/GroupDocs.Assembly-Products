@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:14
+date:  2025-01-16T13:04:00
 draft: false
 lang: fr
 format: Pdf
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Insérer des graphiques dans des fichiers PDF avec JavaScript"
+head_description: "Avec GroupDocs.Assembly for Node.js via Java, les développeurs peuvent rapidement créer et intégrer des graphiques dynamiques dans des documents utilisant des sources de données en direct."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Ajoutez des graphiques à des fichiers PDF en utilisant Node.js" 
+description: "GroupDocs.Assembly for Node.js via Java simplifie le processus d'intégration de graphiques dans des documents PDF avec des entrées de données en temps réel."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Commencez gratuitement aujourd'hui"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Présentation de GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "En savoir plus"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) est une solution robuste pour la création de documents automatisés et de rapports. Ajoutez des graphiques, des tableaux, des images, des codes-barres et des listes aux fichiers avec précision. Cette plateforme polyvalente prend en charge plus de 50 formats, y compris les PDF, les documents Office et les e-mails.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Étapes pour ajouter un graphique à un document PDF"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) facilite l'ajout de graphiques aux fichiers PDF. Choisissez parmi des types de graphiques tels que les graphiques à barres, linéaires ou circulaires.
       
-      1. {texts_pdf.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {texts_pdf.step_4}
+      1. Créez un modèle avec des espaces réservés pour les graphiques (les modèles PDF ne sont pas pris en charge).
+      2. Chargez les données d'une source prise en charge.
+      3. Configurez les options du graphique, y compris le type, les couleurs et les étiquettes.
+      4. Enregistrez le document avec le graphique en tant que fichier PDF.
    
     code:
       platform: "java"
@@ -72,20 +72,20 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Incluez ce tag dans votre modèle pour générer un graphique
         // Orders Prices by months<<y [Sum(c => c.Price)]>><<size [Count()]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
-        // {texts_pdf.comment_tmp}
+        // Spécifiez le chemin du fichier modèle
+        // Remarque : les modèles PDF ne sont pas actuellement supportés.
         const template = "chart_template.docx";
 
-        // {examples.comment_3}
+        // Extrayez les données de votre système source
         const data 
             = new assemblyLib.DataSourceInfo(GetChartData(), "orders");
 
-        // {examples.comment_4}
+        // Enregistrez le document final avec le graphique intégré
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pdf", data);
         ```           
@@ -93,62 +93,62 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Intégrez sans effort des graphiques dans vos documents"
+  description: "GroupDocs.Assembly for Node.js via Java facilite la génération de documents riches en fonctionnalités dans des types de fichiers populaires. Utilisez des modèles pour ajouter des graphiques, des tableaux, des codes-barres, des listes, des images, et plus encore avec des mises à jour de données en temps réel."
   image: "/img/assembly/features_chart.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Caractéristiques principales de GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Transformez les données en graphiques professionnels"
+      content: "Convertissez des données provenant de sources telles que JSON, XML ou CSV en graphiques de haute qualité pouvant être intégrés directement dans des documents."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Créez des visuels époustouflants"
+      content: "Générez des graphiques à barres, des graphiques circulaires et des graphiques linéaires qui s'intègrent parfaitement aux autres éléments des documents comme des images, des tableaux et des codes-barres."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Style et placement flexibles des graphiques"
+      content: "Utilisez des modèles LINQ pour contrôler le positionnement et le style des graphiques, y compris les couleurs, les mises en page et les étiquettes, pour une présentation impeccable."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Prend en charge de nombreux formats de fichiers"
+      content: "Générez des documents dans des formats tels que MS Office, PDF, OpenOffice et HTML, avec des graphiques parfaitement intégrés pour un rendu professionnel."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Générez et insérez des graphiques dynamiquement"
       content: |
-        {code_1.content}
+        Cet exemple illustre comment créer et intégrer des graphiques dans des fichiers PDF par programmation.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Configurez un modèle avec un espace réservé pour le graphique
           // Total Contract Price<<y [m.Total_Contract_Price]>>
           // <<seriesColor [color]>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
-          // {texts_pdf.comment_tmp}
+          // Définissez le chemin d'accès au fichier modèle
+          // Remarque : les modèles PDF ne sont pas actuellement supportés.
           const template = "table_template.docx";
 
-          // {code_1.comment_3}
+          // Récupérez les données d'une source choisie
           const data_json = 
             new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
+          // Préparez un objet de données contenant les informations du graphique
           const data 
               = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
+          // Choisissez le type de graphique et personnalisez son apparence
           const design 
               = new assemblyLib.DataSourceInfo("red", "color");
 
-          // {code_1.comment_6}
+          // Initialisez DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_7}
+          // Enregistrez le document mis à jour avec le graphique intégré
           asm.assembleDocument(template, "result.pdf", data, design);
           ```
         platform: "java"
@@ -194,9 +194,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Découvrez des fonctionnalités avancées"
     exclude: "chart"
-    description: ""
+    description: "Cette plateforme simplifie la création de documents avec des outils conçus pour la visualisation de données et l'intégration fluide."
     items: 
           
         # operation loop 1
@@ -233,9 +233,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Générez des rapports dans plusieurs formats de fichiers"
     exclude: "PDF"
-    description: ""
+    description: "Node.js via Java prend en charge plus de 50 formats, facilitant ainsi la combinaison de modèles avec des données pour produire des documents soignés."
     items: 
           
         # format loop 1

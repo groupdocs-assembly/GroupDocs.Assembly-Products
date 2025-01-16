@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "Chèn Bảng vào Tài liệu {{FileFormatUp}} với {{ProgLang}}",
+    "description": "Sử dụng {{ProdFullName}} để nhanh chóng chèn bảng vào tài liệu hoặc email, lấy dữ liệu từ nhiều nguồn khác nhau."
+  },
+  "header": {
+    "title": "Thêm Bảng vào Tập tin {{FileFormatUp}} một cách Nhanh Chóng với {{EnvNameShort}}",
+    "description": "Với {{ProdFullName}}, việc điền bảng vào tài liệu {{FileFormatUp}} trở nên đơn giản, sử dụng dữ liệu từ nhiều nguồn khác nhau.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Bắt Đầu Dùng Thử Miễn Phí"
+  },
+  "about": {
+    "title": "Giới Thiệu về {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một công cụ mạnh mẽ để tự động hóa việc tạo tài liệu. Nó cho phép bạn dễ dàng chèn bảng, biểu đồ, danh sách và hình ảnh vào các mẫu, với vị trí nội dung chính xác. Hỗ trợ trên 50 định dạng tệp, bao gồm PDF, Word và email, nó giúp tối ưu hóa quá trình tạo báo cáo và các tác vụ khác."
+  },
+  "more_features": {
+    "title": "Thêm Bảng Dựa trên Dữ Liệu vào Tài Liệu một cách Đơn Giản",
+    "description": "{{ProdFullName}} cho phép người dùng tự động tạo bảng, đồng thời chèn biểu đồ, hình ảnh và danh sách bằng các quy trình dựa trên mẫu.",
+    "image_description": "Các Tính Năng Nổi Bật của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Tạo Bảng từ Dữ Liệu Có Cấu Trúc",
+      "content": "Lấy dữ liệu từ JSON, XML, CSV và các định dạng khác để tự động điền bảng tài liệu."
+    },
+    "feature_2": {
+      "title": "Tạo Nội Dung Hình Ảnh Chuyên Nghiệp",
+      "content": "Sử dụng {{ProdShortName}} để thiết kế bảng, biểu đồ và danh sách chuyên nghiệp, và để thêm liên kết, hình ảnh và văn bản cho ngoại hình tài liệu tinh tế."
+    },
+    "feature_3": {
+      "title": "Cách Đặt Nội Dung Bảng Động",
+      "content": "Thêm hàng và cột một cách lập trình qua các mẫu dựa trên LINQ, và tùy chỉnh các kiểu như phông chữ, màu sắc, và căn chỉnh."
+    },
+    "feature_4": {
+      "title": "Hoạt Động Mượt Mà Trên Nhiều Định Dạng",
+      "content": "Dễ dàng tạo hoặc chỉnh sửa bảng trong MS Office, OpenOffice, PDF, HTML, và các định dạng khác, gộp chúng vào các tệp khi cần."
+    }
+  },
+  "formats": {
+    "title": "Tạo Bảng Trong Nhiều Định Dạng Khác Nhau",
+    "description": "Với {{EnvName}}, bạn có thể điền dữ liệu vào các mẫu và tạo các bảng toàn diện trên hơn 50 loại tệp được hỗ trợ."
+  },
+  "operations": {
+    "title": "Các Tính Năng Chính Nổi Bật",
+    "description": "API của chúng tôi tự động hóa việc tạo bảng và nâng cao quy trình tạo tài liệu với các công cụ và mẫu đa dạng."
+  },
+  "examples": {
+    "comment_1": "Bao gồm các thẻ này trong các vị trí hàng bảng của mẫu của bạn",
+    "comment_2": "Chỉ định đường dẫn tệp mẫu",
+    "comment_3": "Tải dữ liệu từ nguồn đã chọn",
+    "comment_4": "Lưu tài liệu cuối cùng với bảng đã hoàn tất"
+  },
+  "steps": {
+    "title": "Cách Thêm Dữ Liệu vào Một Bảng trong {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) cho phép bạn nhanh chóng điền các mẫu bảng cho tệp {{FileFormatUp}} sử dụng các nguồn dữ liệu động.",
+      "step_1": "Tạo một mẫu {{FileFormatUp}} với các vị trí cho hàng và cột bảng.",
+      "step_2": "Tải dữ liệu từ một nguồn được hỗ trợ như JSON hoặc CSV.",
+      "step_3": "Sắp xếp và định dạng dữ liệu theo nhu cầu.",
+      "step_4": "Tạo tài liệu với bảng đã hoàn tất."
+    }
+  },
+  "code_1": {
+    "title": "Cách Điền Bảng Qua Lập Trình",
+    "content": "Ví dụ này minh họa việc điền một bảng trong tài liệu {{FileFormatUp}} với dữ liệu từ một nguồn bên ngoài.",
+    "comment_1": "Thiết kế một mẫu với các vị trí cho bảng",
+    "comment_2": "Chỉ định đường dẫn tệp đến mẫu",
+    "comment_3": "Tải dữ liệu cần thiết từ nguồn của bạn",
+    "comment_4": "Sắp xếp dữ liệu vào cấu trúc cần thiết",
+    "comment_5": "Khởi tạo {{DocumentAssembler}}",
+    "comment_6": "Lưu tài liệu đầu ra với bảng đã hoàn tất"
+  },
+  "texts_pdf": {
+    "step_1": "Tạo một mẫu với các vị trí cho bảng (các mẫu PDF hiện tại không được hỗ trợ).",
+    "step_4": "Xuất tài liệu với bảng đã điền dưới dạng tệp PDF.",
+    "comment_tmp": "Các mẫu PDF hiện tại không được hỗ trợ."
+  }
+}

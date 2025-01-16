@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:18
+date:  2025-01-16T13:04:05
 draft: false
 lang: fr
 format: Pdf
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Insérer des tableaux dans des documents PDF avec JavaScript"
+head_description: "Utilisez GroupDocs.Assembly for Node.js via Java pour intégrer rapidement des tableaux dans des documents ou des emails, en tirant des données de diverses sources."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Ajoutez facilement des tableaux aux fichiers PDF avec Node.js" 
+description: "Avec GroupDocs.Assembly for Node.js via Java, remplir des tableaux dans des documents PDF est simple, en utilisant des données provenant de plusieurs sources."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Commencez votre essai gratuit"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Introduction à GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "En savoir plus"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) est un outil puissant pour automatiser la création de documents. Il vous permet d'insérer des tableaux, des graphiques, des listes et des images dans des modèles, avec un placement précis du contenu. Prisant en charge plus de 50 formats de fichiers, y compris PDF, Word et email, il simplifie la génération de rapports et d'autres tâches.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Comment ajouter des données à un tableau dans PDF"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) vous permet de remplir rapidement des modèles de tableau pour des fichiers PDF en utilisant des sources de données dynamiques.
       
-      1. {texts_pdf.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {texts_pdf.step_4}
+      1. Créez un modèle avec des espaces réservés pour le tableau (les modèles PDF ne sont pas actuellement pris en charge).
+      2. Chargez des données à partir d'une source prise en charge, comme JSON ou CSV.
+      3. Organisez et formatez les données selon vos besoins.
+      4. Exportez le document avec le tableau rempli au format PDF.
    
     code:
       platform: "java"
@@ -72,22 +72,22 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Inclure ces balises dans les espaces réservés de lignes de tableau de votre modèle
         // <<foreach [c in ds]>>
         // <<[c.Client]>><<[c.Manager]>><<[c.Price]>>
         // <</foreach>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
-        // {texts_pdf.comment_tmp}
+        // Spécifiez le chemin du fichier modèle
+        // Les modèles PDF ne sont pas pris en charge pour le moment.
         const template = "table_template.docx";
 
-        // {examples.comment_3}
+        // Chargez vos données à partir d'une source choisie
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "ds");
 
-        // {examples.comment_4}
+        // Enregistrez le document final avec le tableau complété
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pdf", data);
         ```           
@@ -95,58 +95,58 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Ajoutez des tableaux dynamiques à vos documents"
+  description: "GroupDocs.Assembly for Node.js via Java permet aux utilisateurs de créer automatiquement des tableaux, tout en intégrant des graphiques, des images et des listes grâce à des flux de travail basés sur des modèles."
   image: "/img/assembly/features_table.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Principales fonctionnalités de GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Générer des tableaux à partir de données structurées"
+      content: "Récupérez des données à partir de JSON, XML, CSV et d'autres formats pour peupler automatiquement des tableaux de documents."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Créer du contenu visuel soigné"
+      content: "Utilisez GroupDocs.Assembly pour concevoir des tableaux, des graphiques et des listes professionnels, et ajoutez des liens, des images et du texte pour une apparence raffinée du document."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Placement dynamique du contenu des tableaux"
+      content: "Ajoutez des lignes et des colonnes programmatiquement en utilisant des modèles basés sur LINQ, et personnalisez des styles comme les polices, les couleurs et l'alignement."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Fonctionne sans accroc à travers les formats"
+      content: "Créez ou modifiez facilement des tableaux dans MS Office, OpenOffice, PDF, HTML et d'autres formats, en les intégrant dans des fichiers selon les besoins."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Comment peupler un tableau par programmation"
       content: |
-        {code_1.content}
+        Cet exemple démontre le remplissage d'un tableau dans un document PDF avec des données provenant d'une source externe.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Concevez un modèle avec des espaces réservés pour le tableau
           // <<foreach [c in items]>> <<[c.Client]>><<[c.Manager]>>
           //  <<[c.Price]>> <</foreach>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
-          // {texts_pdf.comment_tmp}
+          // Spécifiez le chemin du fichier vers le modèle
+          // Les modèles PDF ne sont pas pris en charge pour le moment.
           const template = "table_template.docx";
 
-          // {code_1.comment_3}
+          // Chargez les données nécessaires depuis votre source
           const data_json = 
             new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
+          // Organisez les données dans la structure nécessaire
           const data 
               = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
+          // Initialisez DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Enregistrez le document de sortie avec le tableau complété
           asm.assembleDocument(template, "result.pdf", data);
           ```
         platform: "java"
@@ -192,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Fonctionnalités clés en un coup d'œil"
     exclude: "table"
-    description: ""
+    description: "Notre API automatise la création de tableaux et améliore la génération de documents avec des outils et des modèles polyvalents."
     items: 
           
         # operation loop 1
@@ -231,9 +231,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Générer des tableaux dans une variété de formats"
     exclude: "PDF"
-    description: ""
+    description: "Avec Node.js via Java, remplissez des modèles et créez des tableaux complets à travers plus de 50 types de fichiers pris en charge."
     items: 
           
         # format loop 1

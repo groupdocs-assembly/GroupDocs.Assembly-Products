@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "Buat Daftar Dinamis dalam {{FileFormatUp}} dengan {{ProgLang}}",
+    "description": "Desain dan masukkan daftar ke dalam template {{FileFormatUp}} menggunakan API {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Sisipkan Daftar Berbasis Data ke dalam Berkas {{FileFormatUp}} dengan {{EnvNameShort}}",
+    "description": "{{ProdFullName}} menawarkan alat yang kuat untuk menambahkan daftar fleksibel yang didorong oleh data ke dalam dokumen {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Mulai Gratis"
+  },
+  "about": {
+    "title": "Tentang {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) menyederhanakan pembuatan dokumen dengan menarik data dari berbagai sumber dan menyematkannya ke dalam template. Gunakan untuk membangun daftar, tabel, grafik, dan elemen lainnya, dengan opsi penempatan dan format yang tepat. Mendukung lebih dari 50 format, termasuk PDF, MS Office, dan email, ini membantu mengotomatiskan proses pembuatan dokumen Anda."
+  },
+  "more_features": {
+    "title": "Hasilkan Dokumen dengan Data yang Terintegrasi",
+    "description": "Dengan {{ProdFullName}}, Anda dapat menyematkan daftar, tabel, grafik, dan elemen lainnya ke dalam template, menghemat waktu dan usaha.",
+    "image_description": "Sorotan dari {{ProdShortName}}",
+    "feature_1": {
+      "title": "Hasilkan Laporan dari Berbagai Sumber Data",
+      "content": "Impor data dari JSON, XML, CSV, atau format lain untuk mengisi daftar dan komponen lainnya dengan efisien."
+    },
+    "feature_2": {
+      "title": "Tambahkan Daftar dan Elemen Visual Lainnya",
+      "content": "{{ProdShortName}} memungkinkan Anda untuk menyisipkan daftar, tabel, grafik, dan lainnya dengan lancar di samping teks, gambar, dan tautan untuk hasil yang rapi."
+    },
+    "feature_3": {
+      "title": "Tepat Menempatkan dan Mengatur Gaya Data",
+      "content": "Template berbasis LINQ memungkinkan Anda mengontrol dengan tepat di mana daftar dan data lainnya muncul, menggunakan loop untuk item yang berulang, dan menyesuaikan gaya agar sesuai dengan kebutuhan Anda."
+    },
+    "feature_4": {
+      "title": "Bekerja di Berbagai Format",
+      "content": "Buat dokumen dalam format seperti MS Office, PDF, OpenOffice, HTML, dan email. Gabungkan konten dari berbagai sumber ke dalam satu file."
+    }
+  },
+  "formats": {
+    "title": "Buat Dokumen dalam Berbagai Format",
+    "description": "{{EnvName}} mendukung lebih dari 50 format file, memudahkan penggabungan template dan data menjadi hasil yang profesional."
+  },
+  "operations": {
+    "title": "Jelajahi Fitur {{ProdShortName}}",
+    "description": "Desain dan hasilkan dokumen kaya data dengan tanpa usaha menggunakan alat integrasi yang kuat."
+  },
+  "examples": {
+    "comment_1": "Tempatkan tag ini dalam template Anda untuk menandai di mana daftar akan ditempatkan",
+    "comment_2": "Tentukan jalur file untuk template Anda",
+    "comment_3": "Ambil data dari sumber yang ingin Anda gunakan",
+    "comment_4": "Simpan file dengan daftar yang disematkan"
+  },
+  "steps": {
+    "title": "Langkah untuk Menyisipkan Daftar ke dalam Berkas {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memudahkan penambahan daftar rinci yang didorong oleh data ke dalam template {{FileFormatUp}} Anda.",
+      "step_1": "Buat template {{FileFormatUp}} dan tentukan placeholder untuk daftar.",
+      "step_2": "Sediakan jalur file untuk template.",
+      "step_3": "Muat data dari sumber yang didukung seperti JSON atau XML.",
+      "step_4": "Simpan dokumen dengan daftar yang dihasilkan."
+    }
+  },
+  "code_1": {
+    "title": "Buat Daftar Secara Programatis dalam Dokumen",
+    "content": "Contoh ini menunjukkan cara menambahkan daftar secara dinamis ke dalam dokumen {{FileFormatUp}} menggunakan {{ProdShortName}}.",
+    "comment_1": "Tambahkan placeholder dalam template Anda untuk daftar",
+    "comment_2": "Tentukan jalur file template",
+    "comment_3": "Muat data untuk mengisi daftar",
+    "comment_4": "Siapkan sumber data dengan detail yang diperlukan",
+    "comment_5": "Inisialisasi {{DocumentAssembler}}",
+    "comment_6": "Simpan dokumen akhir dengan daftar yang disertakan"
+  },
+  "texts_pdf": {
+    "step_1": "Desain template dengan placeholder untuk daftar (template PDF tidak didukung).",
+    "step_4": "Ekspor dokumen yang lengkap dengan daftar sebagai file PDF.",
+    "comment_tmp": "Template PDF saat ini tidak didukung."
+  }
+}

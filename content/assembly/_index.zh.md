@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-01-13T15:11:22
+date:  2025-01-16T13:04:05
 draft: false
 
 product: "Assembly"
@@ -10,8 +10,8 @@ product_tag: "assembly"
 lang: zh
 
 ############################# Head ############################
-head_title: "GroupDocs的.NET、Java API和在线文档生成应用"
-head_description: "获取针对.NET和Java应用的全能文档自动化与报告解决方案。根据自定义模板和数据生成所有常见文档。"
+head_title: "GroupDocs 的 .NET、Java、Node.js API 及在线文档生成应用"
+head_description: "获取适用于 .NET、Java 和 Node.js 应用的全方位文档自动化和报告解决方案。从自定义模板和数据生成所有常见文档。"
 
 ############################# Header ############################
 title: "文档自动化和报告解决方案"

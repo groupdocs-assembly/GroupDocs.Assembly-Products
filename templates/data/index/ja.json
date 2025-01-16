@@ -1,7 +1,7 @@
 {
   "index-content": {
-    "head_title": "GroupDocsによる.NETおよびJavaのAPIとオンラインドキュメント生成アプリ",
-    "head_description": ".NETおよびJavaアプリケーションのためのオールインワンドキュメント自動化・レポーティングソリューション。カスタムテンプレートとデータから一般的なドキュメントを生成します。",
+    "head_title": "GroupDocsによる.NET、Java、Node.js APIおよびオンライン文書生成アプリ",
+    "head_description": ".NET、Java、およびNode.jsアプリケーション用のオールインワン文書自動化およびレポートソリューションを手に入れましょう。カスタムテンプレートとデータから一般的な文書を生成します。",
     "title": "ドキュメント自動化およびレポーティングソリューション",
     "description_1": "クロスプラットフォームアプリおよびAPIを使用して、テンプレートとデータソースを利用した詳細なレポートを作成します。",
     "description_2": "柔軟なマークアップを使用して、Word、Excel、プレゼンテーションなどの形式でレポートを生成します。",
@@ -306,5 +306,75 @@
     "code_title_sample_2": "PPTXで円グラフを作成",
     "code_samples_sample_2_content_1": "テンプレートとXMLを使用してプレゼンテーションに[円グラフ](https://docs.groupdocs.com/assembly/java/pie-chart-in-presentation-document/)を追加します。",
     "code_samples_sample_2_content_2": "データを視覚化するために円グラフを含めることで、レポートをより魅力的にします。"
+  },
+  "index-content-nodejs-java": {
+    "head_title": "{{EnvNameShort}}を使用した文書の作成、オートメーション、カスタマイズのためのツールキット",
+    "head_description": "{{EnvNameShort}}を使用して文書ワークフローを自動化するライブラリです。テンプレートからPDF、Word、Excel、PowerPoint、HTML、メールファイルを生成します。",
+    "title": "{{EnvNameShort}} APIによる文書とレポートの自動化の簡素化",
+    "description": "事前に構築されたテンプレートとデータを統合して{{ProgLang}}レポート生成を効率化します。",
+    "actions_main": "{{PackageStoreName}}で無料トライアルを始める",
+    "code_title": "{{EnvNameShort}}を使用してWord文書にチャートを作成する",
+    "overview_description": "データ処理が統合されたプログラム的に文書を作成するための{{EnvNameShort}}ライブラリです。",
+    "overview_feature_1": {
+      "title": "{{ProgLang}}を使用してビジネスデータをテンプレートに統合",
+      "description": "{{ProdFullName}}を使用してJSON、XML、または他のデータをテンプレートに埋め込むことで洗練されたレポートを生成します。"
+    },
+    "overview_feature_2": {
+      "title": "埋め込まれたコンテンツの管理",
+      "description": "外部データを使って文書内のテーブル、チャート、その他のビジュアルを自動的に埋め込みます。"
+    },
+    "overview_feature_3": {
+      "title": "カスタマイズ可能なオプション",
+      "description": "{{ProdFullName}}では、バーコードの追加、URLからのデータ取得、さまざまな形式でのファイルのエクスポートなどの機能を追加できます。"
+    },
+    "features": {
+      "title": "{{ProdShortName}}の主要機能",
+      "description": "強力なデータ管理ツールを使用して動的な文書とレポートを作成します。",
+      "feature_1": {
+        "title": "リッチデータビジュアル",
+        "content": "完全にカスタマイズ可能なチャート、表、画像、リストを文書に挿入します。"
+      },
+      "feature_2": {
+        "title": "データの変換",
+        "content": "情報を効果的に構造化および表示するために、数式やソートなどのツールを活用します。"
+      },
+      "feature_3": {
+        "title": "広範な形式互換性",
+        "content": "テンプレートや出力のために人気のファイル形式をシームレスに使用します。"
+      },
+      "feature_4": {
+        "title": "高度なテンプレートカスタマイズ",
+        "content": "数値、アルファベット、その他のスタイルオプションでテンプレートのフォーマットが可能です。"
+      },
+      "feature_5": {
+        "title": "動的なバーコードの生成",
+        "content": "必要に応じて、文書にバーコード画像を直接作成して埋め込みます。"
+      },
+      "feature_6": {
+        "title": "柔軟なテキストスタイリング",
+        "content": "テンプレート内で大文字化やタイトルケースなどのテキストスタイルを適用します。"
+      },
+      "feature_7": {
+        "title": "動的なコンテンツ挿入",
+        "content": "文書生成中に外部ファイルからのコンテンツを動的に含めます。"
+      },
+      "feature_8": {
+        "title": "さまざまな形式へのエクスポート",
+        "content": "指定した設定で複数の形式で文書を保存します。"
+      },
+      "feature_9": {
+        "title": "メディアを動的に埋め込む",
+        "content": "文書作成時にBase64データを使用して画像やその他の要素を挿入します。"
+      }
+    },
+    "platforms_description": "{{ProdFullName}}は主要なオペレーティングシステム、フレームワーク、およびパッケージマネージャーとスムーズに統合されます。",
+    "formats_description": "{{ProdFullName}}は多様な[文書フォーマット]({{SupportedFormatsUrl}})をサポートしています。",
+    "code_samples_description": "{{ProdShortName}}を使用して一般的なタスクを実行するための実用的な例を見つけてください。",
+    "code_title_sample_1": "Word文書に箇条書きリストを追加する",
+    "code_samples_sample_1_content_1": "データを効果的に整理する方法として、Word文書での[箇条書きリスト]({{Sample1Url}})の作成方法を確認してください。",
+    "code_samples_sample_1_content_2": "この例では、{{ProdShortName}}を使用して箇条書きリストを生成する方法を示します。",
+    "code_title_sample_2": "PowerPointに円グラフを挿入する",
+    "code_samples_sample_2_content_1": "テンプレートとXMLを使用してプレゼンテーションに[円グラフ]({{Sample2Url}})を追加する方法を学びます。",
+    "code_samples_sample_2_content_2": "データを視覚的かつ明確に提示するために、円グラフでレポートを強化します。"
   }
 }

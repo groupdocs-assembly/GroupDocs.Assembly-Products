@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "Sisipkan Tabel ke Dalam Dokumen {{FileFormatUp}} dengan {{ProgLang}}",
+    "description": "Gunakan {{ProdFullName}} untuk dengan cepat menyisipkan tabel dalam dokumen atau email, menarik data dari berbagai sumber."
+  },
+  "header": {
+    "title": "Tambah Tabel ke Berkas {{FileFormatUp}} dengan Mudah Menggunakan {{EnvNameShort}}",
+    "description": "Dengan {{ProdFullName}}, mengisi tabel dalam dokumen {{FileFormatUp}} menjadi lebih sederhana, menggunakan data dari berbagai sumber.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Mulai Uji Coba Gratis Anda"
+  },
+  "about": {
+    "title": "Pendahuluan ke {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah alat yang kuat untuk mengotomasi pembuatan dokumen. Alat ini memungkinkan Anda untuk menyisipkan tabel, grafik, daftar, dan gambar ke dalam templat, dengan penempatan konten yang tepat. Mendukung lebih dari 50 format file, termasuk PDF, Word, dan email, alat ini mempermudah pembuatan laporan dan tugas lainnya."
+  },
+  "more_features": {
+    "title": "Tambahkan Tabel Berbasis Data ke Dokumen",
+    "description": "{{ProdFullName}} memungkinkan pengguna untuk secara otomatis membuat tabel, dan juga menyisipkan grafik, gambar, dan daftar menggunakan alur kerja berbasis templat.",
+    "image_description": "Fitur Utama dari {{ProdShortName}}",
+    "feature_1": {
+      "title": "Hasilkan Tabel dari Data Terstruktur",
+      "content": "Ambil data dari JSON, XML, CSV, dan format lainnya untuk secara otomatis mengisi tabel dokumen."
+    },
+    "feature_2": {
+      "title": "Buat Konten Visual yang Menarik",
+      "content": "Gunakan {{ProdShortName}} untuk merancang tabel, grafik, dan daftar yang profesional, serta menambahkan tautan, gambar, dan teks untuk tampilan dokumen yang lebih halus."
+    },
+    "feature_3": {
+      "title": "Penempatan Konten Tabel Dinamis",
+      "content": "Tambah baris dan kolom secara programatis menggunakan templat berbasis LINQ, dan sesuaikan gaya seperti font, warna, dan penempatan."
+    },
+    "feature_4": {
+      "title": "Bekerja Tanpa Hambatan di Berbagai Format",
+      "content": "Dengan mudah buat atau edit tabel di MS Office, OpenOffice, PDF, HTML, dan format lainnya, menggabungkannya ke dalam file sesuai kebutuhan."
+    }
+  },
+  "formats": {
+    "title": "Hasilkan Tabel dalam Berbagai Format",
+    "description": "Dengan {{EnvName}}, isi templat dan buat tabel komprehensif di lebih dari 50 jenis file yang didukung."
+  },
+  "operations": {
+    "title": "Fitur Inti dalam Genggaman",
+    "description": "API kami mengotomasi pembuatan tabel dan meningkatkan pembuatan dokumen dengan alat dan templat yang serbaguna."
+  },
+  "examples": {
+    "comment_1": "Sertakan tag ini di placeholder baris tabel dari templat Anda",
+    "comment_2": "Tentukan jalur file templat",
+    "comment_3": "Muat data Anda dari sumber yang dipilih",
+    "comment_4": "Simpan dokumen akhir dengan tabel yang diisi"
+  },
+  "steps": {
+    "title": "Cara Menambahkan Data ke Tabel di {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memungkinkan Anda untuk dengan cepat mengisi templat tabel untuk file {{FileFormatUp}} menggunakan sumber data dinamis.",
+      "step_1": "Buat templat {{FileFormatUp}} dengan placeholder untuk baris dan kolom tabel.",
+      "step_2": "Muat data dari sumber yang didukung seperti JSON atau CSV.",
+      "step_3": "Atur dan format data sesuai kebutuhan.",
+      "step_4": "Hasilkan dokumen dengan tabel yang telah diisi."
+    }
+  },
+  "code_1": {
+    "title": "Cara Mengisi Tabel Secara Programatis",
+    "content": "Contoh ini menunjukkan cara mengisi tabel dalam dokumen {{FileFormatUp}} dengan data dari sumber eksternal.",
+    "comment_1": "Rancang templat dengan placeholder untuk tabel",
+    "comment_2": "Tentukan jalur file ke templat",
+    "comment_3": "Muat data yang diperlukan dari sumber Anda",
+    "comment_4": "Atur data ke dalam struktur yang diperlukan",
+    "comment_5": "Inisialisasi {{DocumentAssembler}}",
+    "comment_6": "Simpan dokumen keluaran dengan tabel yang telah diisi"
+  },
+  "texts_pdf": {
+    "step_1": "Buat template dengan placeholder untuk tabel (template PDF saat ini tidak didukung).",
+    "step_4": "Ekspor dokumen dengan tabel yang diisi sebagai file PDF.",
+    "comment_tmp": "Template PDF tidak didukung saat ini."
+  }
+}

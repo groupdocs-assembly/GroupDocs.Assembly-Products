@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:12
+date:  2025-01-16T13:03:58
 draft: false
 lang: vi
 format: Xlsx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Thêm mã vạch vào tệp XLSX bằng JavaScript"
+head_description: "Tạo và nhúng mã vạch vào tài liệu và email của bạn với API GroupDocs.Assembly for Node.js via Java."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Tạo mã vạch cho tệp XLSX bằng Node.js" 
+description: "Với GroupDocs.Assembly for Node.js via Java, bạn có thể tạo mã vạch một cách động, tùy chỉnh và nhúng chúng vào tài liệu XLSX."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Bắt đầu"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Giới thiệu về GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Tìm hiểu thêm"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) cho phép bạn tạo tài liệu chuyên nghiệp bằng cách kết hợp dữ liệu từ nhiều nguồn. Thêm biểu đồ, bảng, danh sách, hình ảnh và mã vạch vào tệp của bạn một cách tiện lợi. Sử dụng các mẫu để tổ chức nội dung đúng vị trí. Hỗ trợ hơn 50 định dạng, bao gồm PDF, tài liệu Office và email.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Các bước thêm mã vạch vào tệp XLSX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) giúp nhúng mã vạch vào tài liệu XLSX một cách dễ dàng. Nó hỗ trợ hơn 60 loại mã vạch, bao gồm các định dạng 1D và 2D.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Tạo một mẫu XLSX với các vị trí cho mã vạch.
+      2. Lấy dữ liệu từ một nguồn tương thích.
+      3. Đặt tùy chọn mã vạch như kích thước và độ phân giải.
+      4. Lưu tài liệu cuối cùng với mã vạch đã nhúng.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Sử dụng thẻ này trong mẫu để bao gồm mã vạch trong tài liệu đầu ra
         // <<barcode [barcode_expression] -barcode_type>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Chỉ định đường dẫn đến tệp mẫu
         const template = "barcode_template.xlsx";
 
-        // {examples.comment_3}
+        // Tải dữ liệu cần thiết từ nguồn của bạn
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {examples.comment_4}
+        // Lưu tài liệu với mã vạch đã được áp dụng
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.xlsx", data);
         ```           
@@ -92,61 +92,61 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Tạo tài liệu với mẫu dữ liệu động"
+  description: "Với GroupDocs.Assembly for Node.js via Java, bạn có thể tạo các tệp chuyên nghiệp ở các định dạng phổ biến bằng cách nhúng liền mạch biểu đồ, bảng, danh sách, liên kết, hình ảnh và mã vạch."
   image: "/img/assembly/features_barcode.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Các tính năng chính của GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Xây dựng báo cáo với dữ liệu kinh doanh"
+      content: "Sử dụng API để nhanh chóng và chính xác làm đầy các mẫu bằng dữ liệu từ các định dạng như JSON, XML và CSV."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Thêm các yếu tố hình ảnh"
+      content: "GroupDocs.Assembly hỗ trợ việc chèn các yếu tố như biểu đồ, bảng, danh sách, văn bản, liên kết, hình ảnh và mã vạch theo thời gian thực."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Kiểm soát vị trí dữ liệu"
+      content: "Với các mẫu dựa trên LINQ, bạn có thể định vị chính xác dữ liệu, lặp qua các mảng và áp dụng định dạng tùy chỉnh một cách lập trình."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Tương thích với nhiều định dạng"
+      content: "Làm việc với các tệp như tài liệu MS Office, PDF, HTML, tệp OpenOffice và email. Kết hợp nhiều tài liệu khi cần thiết."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Ví dụ: Tạo mã vạch một cách lập trình"
       content: |
-        {code_1.content}
+        Ví dụ này minh họa cách tạo và chèn mã vạch vào tài liệu XLSX một cách lập trình.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Thiết kế một mẫu với một vị trí mã vạch
           // <<barcode [barcode_expression] -barcode_type>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Chỉ định đường dẫn đến tệp mẫu
           const template = "barcode_template.xlsx";
 
-          // {code_1.comment_3}
+          // Lấy dữ liệu từ nguồn của bạn
           const data_csv =
               new assemblyLib.CsvDataSource("Barcode Labels.csv", 
               new assemblyLib.CsvDataLoadOptions(true));
 
-          // {code_1.comment_4}
+          // Tạo một đối tượng nguồn dữ liệu với các chi tiết cần thiết
           const data 
               = new assemblyLib.DataSourceInfo(data_csv, "label");
 
-          // {code_1.comment_5}
+          // Khởi tạo một thể hiện của DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Thiết lập cấu hình mã vạch
           asm.getBarcodeSettings().setResolution(1200);
           asm.getBarcodeSettings().setBaseYDimension(5f);
 
-          // {code_1.comment_7}
+          // Lưu tài liệu với mã vạch đã bao gồm
           asm.assembleDocument(template, "result.xlsx", data);
           ```
         platform: "java"
@@ -192,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Khám phá các tính năng chính"
     exclude: "barcode"
-    description: ""
+    description: "Đơn giản hóa quy trình xử lý tài liệu với các công cụ và khả năng tự động hóa tiên tiến."
     items: 
           
         # operation loop 1
@@ -231,9 +231,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Các định dạng tệp được hỗ trợ cho việc tạo báo cáo"
     exclude: "XLSX"
-    description: ""
+    description: "Node.js via Java xử lý hơn 50 loại tệp, giúp đơn giản hóa việc kết hợp dữ liệu và xử lý mẫu để đạt được kết quả chất lượng cao."
     items: 
           
         # format loop 1

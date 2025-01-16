@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:14
+date:  2025-01-16T13:04:00
 draft: false
 lang: de
 format: Xlsx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Diagramme in XLSX-Dateien mit JavaScript einfügen"
+head_description: "Mit GroupDocs.Assembly for Node.js via Java können Entwickler schnell dynamische Diagramme in Dokumente einfügen, die auf Live-Datenquellen basieren."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Fügen Sie Diagramme mit Node.js zu XLSX-Dateien hinzu" 
+description: "GroupDocs.Assembly for Node.js via Java vereinfacht den Prozess der Integration von Diagrammen in XLSX-Dokumente mit Echtzeitdaten."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Jetzt kostenlos starten"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Überblick über GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Mehr erfahren"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) ist eine leistungsstarke Lösung zum Erstellen von automatisierten Dokumenten und Berichten. Fügen Sie Diagramme, Tabellen, Bilder, Barcodes und Listen präzise hinzu. Diese vielseitige Plattform unterstützt über 50 Formate, einschließlich PDFs, Office-Dokumenten und E-Mails.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Schritte zum Hinzufügen eines Diagramms zu einem XLSX-Dokument"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) erleichtert das Hinzufügen von Diagrammen zu XLSX-Dateien. Wählen Sie aus Diagrammtypen wie Balken-, Linien- oder Kreisdiagrammen.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Entwerfen Sie eine XLSX-Vorlage mit Platzhaltern für Diagramme.
+      2. Laden Sie Daten aus einer unterstützten Quelle.
+      3. Konfigurieren Sie die Diagrammoptionen, einschließlich Typ, Farben und Beschriftungen.
+      4. Exportieren Sie das Dokument mit dem eingebetteten Diagramm.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Fügen Sie dieses Tag in Ihre Vorlage ein, um ein Diagramm zu generieren
         // Orders Prices by months<<y [Sum(c => c.Price)]>><<size [Count()]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Geben Sie den Pfad zur Vorlagendatei an
         const template = "chart_template.xlsx";
 
-        // {examples.comment_3}
+        // Extrahieren Sie Daten aus Ihrem Quellsystem
         const data 
             = new assemblyLib.DataSourceInfo(GetChartData(), "orders");
 
-        // {examples.comment_4}
+        // Speichern Sie das endgültige Dokument mit dem eingebetteten Diagramm
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.xlsx", data);
         ```           
@@ -92,61 +92,61 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Diagramme mühelos in Ihren Dokumenten einfügen"
+  description: "GroupDocs.Assembly for Node.js via Java ermöglicht es, funktionsreiche Dokumente in gängigen Dateiformaten zu erstellen. Verwenden Sie Vorlagen, um Diagramme, Tabellen, Barcodes, Listen, Bilder und mehr mit Echtzeitdatenaktualisierungen hinzuzufügen."
   image: "/img/assembly/features_chart.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Hauptmerkmale von GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Daten in professionelle Diagramme umwandeln"
+      content: "Konvertieren Sie Daten aus Quellen wie JSON, XML oder CSV in hochwertige Diagramme, die direkt in Dokumente eingebettet werden können."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Erstellen Sie beeindruckende Grafiken"
+      content: "Generieren Sie Balkendiagramme, Kreisdiagramme und Liniendiagramme, die nahtlos mit anderen Dokumentenelementen wie Bildern, Tabellen und Barcodes funktionieren."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Flexible Diagrammgestaltung und -platzierung"
+      content: "Nutzen Sie LINQ-Vorlagen, um die Positionierung und Gestaltung von Diagrammen zu steuern, einschließlich Farben, Layouts und Beschriftungen, für eine ansprechende Präsentation."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Unterstützt viele Dateiformate"
+      content: "Erstellen Sie Dokumente in Formaten wie MS Office, PDF, OpenOffice und HTML, mit perfekt integrierten Diagrammen für ein professionelles Finish."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Diagramme dynamisch generieren und einfügen"
       content: |
-        {code_1.content}
+        Dieses Beispiel veranschaulicht, wie man programmatisch Diagramme in XLSX-Dateien erstellt und einfügt.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Richten Sie eine Vorlage mit einem Platzhalter für das Diagramm ein
           // Total Contract Price<<y [m.Total_Contract_Price]>>
           // <<seriesColor [color]>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Definieren Sie den Pfad zur Vorlagendatei
           const template = "table_template.xlsx";
 
-          // {code_1.comment_3}
+          // Rufen Sie Daten aus einer gewählten Quelle ab
           const data_json = 
             new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
+          // Bereiten Sie ein Datenobjekt mit den Diagramminformationen vor
           const data 
               = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
+          // Wählen Sie den Diagrammtyp und passen Sie dessen Aussehen an
           const design 
               = new assemblyLib.DataSourceInfo("red", "color");
 
-          // {code_1.comment_6}
+          // Initialisieren Sie DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_7}
+          // Speichern Sie das aktualisierte Dokument mit dem eingebetteten Diagramm
           asm.assembleDocument(template, "result.xlsx", data, design);
           ```
         platform: "java"
@@ -192,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Entdecken Sie erweiterte Funktionen"
     exclude: "chart"
-    description: ""
+    description: "Diese Plattform vereinfacht die Dokumentenerstellung mit Tools, die für Datenvisualisierung und nahtlose Integration entwickelt wurden."
     items: 
           
         # operation loop 1
@@ -231,9 +231,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Berichte in mehreren Dateiformaten erstellen"
     exclude: "XLSX"
-    description: ""
+    description: "Node.js via Java unterstützt über 50 Formate, was es einfach macht, Vorlagen mit Daten zu kombinieren, um aufpolierte Dokumente zu produzieren."
     items: 
           
         # format loop 1

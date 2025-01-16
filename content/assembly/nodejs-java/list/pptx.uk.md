@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:17
+date:  2025-01-16T13:04:03
 draft: false
 lang: uk
 format: Pptx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Створення динамічних списків у PPTX за допомогою JavaScript"
+head_description: "Проектуйте та вставляйте списки в шаблони PPTX за допомогою API GroupDocs.Assembly for Node.js via Java."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Вставка списків на основі даних у файли PPTX за допомогою Node.js" 
+description: "GroupDocs.Assembly for Node.js via Java пропонує потужні інструменти для додавання гнучких списків, підключених до даних, у документи PPTX."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Почати безкоштовно"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Про GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Дізнатися більше"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) спрощує створення документів, витягуючи дані з різних джерел та вбудовуючи їх у шаблони. Використовуйте його для створення списків, таблиць, діаграм та інших елементів із точним розташуванням та параметрами форматування. Підтримуючи понад 50 форматів, включаючи PDF, MS Office та електронну пошту, він допомагає автоматизувати процес генерації документів.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Кроки для вставлення списку в файл PPTX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) спрощує додавання докладних, підключених до даних списків у ваші шаблони PPTX.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Створіть шаблон PPTX та визначте заповнювачі для списку.
+      2. Вкажіть шлях до файлу шаблону.
+      3. Завантажте дані з підтримуваних джерел, таких як JSON або XML.
+      4. Збережіть документ з згенерованим списком.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Вставте цей тег у свій шаблон, щоб позначити, куди буде вставлено список
         // <<foreach [in customers]>><<[CustomerName]>><</foreach>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Вкажіть шлях до файлу вашого шаблону
         const template = "list_template.pptx";
 
-        // {examples.comment_3}
+        // Отримайте дані з бажаного джерела
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {examples.comment_4}
+        // Збережіть файл з вбудованим списком
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pptx", data);
         ```           
@@ -92,57 +92,57 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Просто генеруйте документи з інтегрованими даними"
+  description: "За допомогою GroupDocs.Assembly for Node.js via Java ви можете вбудовувати списки, таблиці, діаграми та інші елементи в шаблони, заощаджуючи час і зусилля."
   image: "/img/assembly/features_list.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Особливості GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Генерація звітів з кількох джерел даних"
+      content: "Імпортуйте дані з JSON, XML, CSV або інших форматів для ефективного заповнення списків та інших компонентів."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Додавання списків та інших візуальних елементів"
+      content: "GroupDocs.Assembly дозволяє безперешкодно впроваджувати списки, таблиці, діаграми тощо поряд із текстом, зображеннями та посиланнями для досягнення вишуканих результатів."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Точне розміщення та стилізація даних"
+      content: "Шаблони на основі LINQ дають змогу контролювати, де саме з'являються списки та інші дані, використовувати цикли для повторюваних елементів і налаштовувати стилі відповідно до ваших потреб."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Підходить для кількох форматів"
+      content: "Створюйте документи у форматах, таких як MS Office, PDF, OpenOffice, HTML та електронна пошта. Об'єднуйте вміст з різних джерел в один файл."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Програмне створення списку в документі"
       content: |
-        {code_1.content}
+        Цей приклад демонструє, як динамічно додати список до документа PPTX за допомогою GroupDocs.Assembly.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Додайте заповнювач у свій шаблон для списку
           // <<foreach [in products]>><<[NumberOf()]>>. <<[ProductName]>>
           // <</foreach>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Вкажіть шлях до файлу шаблону
           const template = "numlist_template.pptx";
 
-          // {code_1.comment_3}
+          // Завантажте дані для заповнення списку
           const data_xml =
               new assemblyLib.XmlDataSource("products.xml");
 
-          // {code_1.comment_4}
+          // Підготуйте джерело даних з необхідними даними
           const data 
               = new assemblyLib.DataSourceInfo(data_xml, "products");
 
-          // {code_1.comment_5}
+          // Ініціалізуйте DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Збережіть фінальний документ з включеним списком
           asm.assembleDocument(template, "result.pptx", data);
           ```
         platform: "java"
@@ -188,9 +188,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Досліджуйте можливості GroupDocs.Assembly"
     exclude: "list"
-    description: ""
+    description: "Проектуйте та генеруйте документи, насичені даними, без зусиль завдяки потужним інтеграційним інструментам."
     items: 
           
         # operation loop 1
@@ -227,9 +227,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Створення документів у різних форматах"
     exclude: "PPTX"
-    description: ""
+    description: "Node.js via Java підтримує понад 50 форматів файлів, що спрощує об'єднання шаблонів і даних у професійні результати."
     items: 
           
         # format loop 1

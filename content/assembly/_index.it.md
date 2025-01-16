@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-01-13T15:11:22
+date:  2025-01-16T13:04:05
 draft: false
 
 product: "Assembly"
@@ -10,8 +10,8 @@ product_tag: "assembly"
 lang: it
 
 ############################# Head ############################
-head_title: "API per Document Automation e Applicazioni Online di GroupDocs per .NET e Java"
-head_description: "Ottieni una soluzione completa di automazione documentale e reporting per applicazioni .NET e Java. Genera tutti i documenti comuni da modelli e dati personalizzati."
+head_title: "API e App per l'Assemblaggio di Documenti per .NET, Java, Node.js di GroupDocs"
+head_description: "Ottieni una soluzione di automazione e reporting documentale tutto-in-uno per applicazioni .NET, Java e Node.js. Genera tutti i documenti comuni da modelli personalizzati e dati."
 
 ############################# Header ############################
 title: "Soluzione di Automazione Documentale e Reporting"

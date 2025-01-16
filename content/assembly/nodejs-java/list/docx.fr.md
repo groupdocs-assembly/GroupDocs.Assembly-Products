@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:16
+date:  2025-01-16T13:04:03
 draft: false
 lang: fr
 format: Docx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Créer des listes dynamiques en DOCX avec JavaScript"
+head_description: "Concevez et insérez facilement des listes dans des modèles DOCX en utilisant l'API GroupDocs.Assembly for Node.js via Java."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Intégrez des listes pilotées par les données dans des fichiers DOCX avec Node.js" 
+description: "GroupDocs.Assembly for Node.js via Java offre des outils puissants pour ajouter des listes flexibles alimentées par des données dans des documents DOCX."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Commencer gratuitement"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "À propos de GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "En savoir plus"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) simplifie la création de documents en extrayant des données provenant de diverses sources et en les intégrant dans des modèles. Utilisez-le pour créer des listes, des tableaux, des graphiques et d'autres éléments, avec des options de positionnement et de mise en forme précises. Supportant plus de 50 formats, y compris PDF, MS Office, et emails, il aide à automatiser votre processus de génération de documents.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Étapes pour insérer une liste dans un fichier DOCX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) facilite l'ajout de listes détaillées et pilotées par les données à vos modèles DOCX.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Créez un modèle DOCX et définissez des espaces réservés pour la liste.
+      2. Fournissez le chemin d'accès du fichier du modèle.
+      3. Chargez des données à partir de sources prises en charge comme JSON ou XML.
+      4. Enregistrez le document avec la liste générée.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Placez cette balise dans votre modèle pour indiquer où la liste sera insérée
         // <<foreach [in customers]>><<[CustomerName]>><</foreach>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Définissez le chemin d'accès du fichier pour votre modèle
         const template = "list_template.docx";
 
-        // {examples.comment_3}
+        // Récupérez les données de la source que vous souhaitez utiliser
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {examples.comment_4}
+        // Enregistrez le fichier avec la liste intégrée
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.docx", data);
         ```           
@@ -92,57 +92,57 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Générez facilement des documents avec des données intégrées"
+  description: "Avec GroupDocs.Assembly for Node.js via Java, vous pouvez intégrer des listes, des tableaux, des graphiques et d'autres éléments dans des modèles, économisant ainsi du temps et des efforts."
   image: "/img/assembly/features_list.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Points forts de GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Générez des rapports à partir de plusieurs sources de données"
+      content: "Importez des données à partir de JSON, XML, CSV, ou d'autres formats pour remplir efficacement des listes et d'autres composants."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Ajoutez des listes et d'autres éléments visuels"
+      content: "GroupDocs.Assembly vous permet d'incorporer sans effort des listes, des tableaux, des graphiques et plus encore aux côtés de textes, d'images et de liens pour un résultat soigné."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Placez et stylisez les données avec précision"
+      content: "Des modèles basés sur LINQ vous permettent de contrôler exactement où apparaissent les listes et d'autres données, d'utiliser des boucles pour les éléments répétés et de personnaliser les styles selon vos besoins."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Fonctionne avec plusieurs formats"
+      content: "Créez des documents dans des formats tels que MS Office, PDF, OpenOffice, HTML, et emails. Fusionnez le contenu de diverses sources dans un seul fichier."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Créer une liste dans un document par programmation"
       content: |
-        {code_1.content}
+        Cet exemple montre comment ajouter dynamiquement une liste à un document DOCX en utilisant GroupDocs.Assembly.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Ajoutez un espace réservé dans votre modèle pour la liste
           // <<foreach [in products]>><<[NumberOf()]>>. <<[ProductName]>>
           // <</foreach>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Spécifiez le chemin d'accès du modèle
           const template = "numlist_template.docx";
 
-          // {code_1.comment_3}
+          // Chargez les données pour remplir la liste
           const data_xml =
               new assemblyLib.XmlDataSource("products.xml");
 
-          // {code_1.comment_4}
+          // Préparez la source de données avec les détails nécessaires
           const data 
               = new assemblyLib.DataSourceInfo(data_xml, "products");
 
-          // {code_1.comment_5}
+          // Initialisez le DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Enregistrez le document final avec la liste incluse
           asm.assembleDocument(template, "result.docx", data);
           ```
         platform: "java"
@@ -188,9 +188,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Explorez les fonctionnalités de GroupDocs.Assembly"
     exclude: "list"
-    description: ""
+    description: "Concevez et générez des documents riches en données sans effort en utilisant des outils d'intégration puissants."
     items: 
           
         # operation loop 1
@@ -227,9 +227,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Créez des documents dans plusieurs formats"
     exclude: "DOCX"
-    description: ""
+    description: "Node.js via Java prend en charge plus de 50 formats de fichiers, facilitant la fusion de modèles et de données dans des résultats professionnels."
     items: 
           
         # format loop 1

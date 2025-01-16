@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-01-13T15:11:22
+date:  2025-01-16T13:04:05
 draft: false
 
 product: "Assembly"
@@ -10,8 +10,8 @@ product_tag: "assembly"
 lang: id
 
 ############################# Head ############################
-head_title: "API & Aplikasi Penyusunan Dokumen .NET, Java oleh GroupDocs"
-head_description: "Dapatkan Solusi Otomasi & Pelaporan Dokumen All-in-One untuk aplikasi .NET dan Java. Hasilkan semua dokumen umum dari template dan data kustom."
+head_title: "API .NET, Java, Node.js & Aplikasi Penyusunan Dokumen Online oleh GroupDocs"
+head_description: "Dapatkan Solusi Otomasi & Pelaporan Dokumen serba ada untuk aplikasi .NET, Java, dan Node.js. Hasilkan semua dokumen umum dari template dan data kustom."
 
 ############################# Header ############################
 title: "Solusi Otomasi dan Pelaporan Dokumen"

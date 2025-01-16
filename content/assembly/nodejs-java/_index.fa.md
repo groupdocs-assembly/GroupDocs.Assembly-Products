@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-01-14T15:37:19
+date: 2025-01-16T13:04:06
 draft: false
 
 lang: fa
@@ -24,17 +24,17 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "{index-content-nodejs-java.head_title}"
-head_description: "{index-content-nodejs-java.head_description}"
+head_title: "ابزار Node.js برای ساخت، اتوماسیون و سفارشی‌سازی اسناد"
+head_description: "کتابخانه Node.js برای اتوماسیون گردش کار اسنادی. ایجاد فایل‌های PDF، ورد، اکسل، پاورپوینت، HTML و ایمیل از قالب‌های خود."
 
 ############################# Header ############################
-title: "{index-content-nodejs-java.title}"
-description: "{index-content-nodejs-java.description}"
+title: "API Node.js برای اتوماسیون ساده اسناد و گزارش‌ها"
+description: "تولید گزارش‌های JavaScript را با ترکیب داده‌های خود با قالب‌های از پیش ساخته شده تسهیل کنید."
 words:
   for: "برای"
 
 actions:
-  main: "{index-content-nodejs-java.actions_main}"
+  main: "آزمایش خود را در NPM آغاز کنید"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.assembly"
   alt: "مجوزدهی"
   alt_link: "https://purchase.groupdocs.com/pricing/assembly/nodejs-java/"
@@ -48,7 +48,7 @@ release:
   link: "https://releases.groupdocs.com/assembly/nodejs-java/"
 
 code:
-  title: "{index-content-nodejs-java.code_title}"
+  title: "ایجاد نمودار در یک سند ورد با استفاده از Node.js"
   more: "نمونه‌های بیشتر"
   more_link: "https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-Node.js-via-Java/"
   install: "npm i @groupdocs/groupdocs.assembly"
@@ -80,25 +80,25 @@ code:
 overview:
   enable: true
   title: "نگاهی به GroupDocs.Assembly"
-  description: "{index-content-nodejs-java.overview_description}"
+  description: "کتابخانه Node.js برای ایجاد اسناد به صورت برنامه‌نویسی با مدیریت داده‌های یکپارچه ساخته شده است."
   features:
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_1.title}"
-      content: "{index-content-nodejs-java.overview_feature_1.description}"
+    - title: "ترکیب داده‌های کسب‌وکار با قالب‌ها با JavaScript"
+      content: "گزارش‌های حرفه‌ای با گنجاندن داده‌های JSON، XML یا سایر داده‌ها در قالب‌ها با کمک GroupDocs.Assembly for Node.js via Java تولید کنید."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_2.title}"
-      content: "{index-content-nodejs-java.overview_feature_2.description}"
+    - title: "مدیریت محتوای گنجانده شده"
+      content: "به‌طور خودکار جداول، نمودارها و سایر عناصر بصری را در اسناد خود با استفاده از داده‌های خارجی پر کنید."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_3.title}"
-      content: "{index-content-nodejs-java.overview_feature_3.description}"
+    - title: "گزینه‌های سفارشی‌سازی"
+      content: "GroupDocs.Assembly for Node.js via Java به شما این امکان را می‌دهد که ویژگی‌هایی مانند بارکدها را اضافه کنید، داده‌ها را از URLها استخراج کنید و فایل‌ها را در فرمت‌های مختلف صادر کنید."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "عدم وابستگی به پلتفرم"
-  description: "{index-content-nodejs-java.platforms_description}"
+  description: "GroupDocs.Assembly for Node.js via Java به‌طور روان با سیستم‌عامل‌ها، چارچوب‌ها و مدیران بسته‌ی پیشرو ادغام می‌شود."
   items:
     # platform loop
     - title: "Amazon"
@@ -130,7 +130,7 @@ formats:
   enable: true
   title: "فرمت‌های پشتیبانی شده"
   description: |
-    {index-content-nodejs-java.formats_description}
+    GroupDocs.Assembly for Node.js via Java از مجموعه‌ی وسیعی از [فرمت‌های اسناد](https://docs.groupdocs.com/assembly/nodejs-java/supported-document-formats/) پشتیبانی می‌کند.
   groups:
     # group loop
     - color: "green"
@@ -157,66 +157,66 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-nodejs-java.features.title}"
-  description: "{index-content-nodejs-java.features.description}"
+  title: "ویژگی‌های اصلی GroupDocs.Assembly"
+  description: "ایجاد اسناد و گزارش‌های پویا با ابزارهای مدیریت داده قدرتمند."
 
   items:
     # feature loop
     - icon: "preview"
-      title: "{index-content-nodejs-java.features.feature_1.title}"
-      content: "{index-content-nodejs-java.features.feature_1.content}"
+      title: "نمایش‌های غنی داده"
+      content: "به سادگی نمودارها، جداول، تصاویر و لیست‌ها را با سفارشی‌سازی کامل به اسناد خود اضافه کنید."
 
     # feature loop
     - icon: "manipulate"
-      title: "{index-content-nodejs-java.features.feature_2.title}"
-      content: "{index-content-nodejs-java.features.feature_2.content}"
+      title: "تبدیل داده‌های شما"
+      content: "از ابزارهایی مانند فرمول‌ها و مرتب‌سازی برای ساختاردهی و نمایش مؤثر اطلاعات استفاده کنید."
 
     # feature loop
     - icon: "two_pages"
-      title: "{index-content-nodejs-java.features.feature_3.title}"
-      content: "{index-content-nodejs-java.features.feature_3.content}"
+      title: "سازگاری با فرمت‌های وسیع"
+      content: "به‌طور همزمان با فرمت‌های رایج فایل برای قالب‌ها و خروجی‌ها کار کنید."
 
     # feature loop
     - icon: "document_settings"
-      title: "{index-content-nodejs-java.features.feature_4.title}"
-      content: "{index-content-nodejs-java.features.feature_4.content}"
+      title: "سفارشی‌سازی پیشرفته قالب‌ها"
+      content: "قالب‌ها را با گزینه‌های فرمت‌دهی عددی، الفبایی و سایر گزینه‌های استایل فرمت کنید."
 
     # feature loop
     - icon: "text"
-      title: "{index-content-nodejs-java.features.feature_5.title}"
-      content: "{index-content-nodejs-java.features.feature_5.content}"
+      title: "ایجاد بارکدها به‌طور پویا"
+      content: "تصاویر بارکد را به‌طور مستقیم و طبق درخواست در اسناد خود ایجاد و درج کنید."
 
     # feature loop
     - icon: "add"
-      title: "{index-content-nodejs-java.features.feature_6.title}"
-      content: "{index-content-nodejs-java.features.feature_6.content}"
+      title: "استایل متن انعطاف‌پذیر"
+      content: "به سادگی استایل‌های متنی مانند حروف بزرگ یا عنوان را در قالب‌های خود اعمال کنید."
 
     # feature loop
     - icon: "manipulate"
-      title: "{index-content-nodejs-java.features.feature_7.title}"
-      content: "{index-content-nodejs-java.features.feature_7.content}"
+      title: "درج محتوای پویا"
+      content: "در حین تولید اسناد، به‌طور پویا محتوای فایل‌های خارجی را شامل کنید."
 
     # feature loop
     - icon: "convert"
-      title: "{index-content-nodejs-java.features.feature_8.title}"
-      content: "{index-content-nodejs-java.features.feature_8.content}"
+      title: "صادرات به فرمت‌های مختلف"
+      content: "اسناد را با پیکربندی‌های مشخص شده خود در چندین فرمت ذخیره کنید."
 
     # feature loop
     - icon: "update"
-      title: "{index-content-nodejs-java.features.feature_9.title}"
-      content: "{index-content-nodejs-java.features.feature_9.content}"
+      title: "گنجاندن رسانه به‌طور پویا"
+      content: "در زمان ایجاد اسناد، تصاویر یا عناصر دیگر را با استفاده از داده‌های Base64 درج کنید."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "نمونه‌های کد"
-  description: "{index-content-nodejs-java.code_samples_description}"
+  description: "نمونه‌های عملی از نحوه استفاده از GroupDocs.Assembly برای وظایف رایج را کشف کنید."
   items:
     # code sample loop
-    - title: "{index-content-nodejs-java.code_title_sample_1}"
+    - title: "اضافه کردن یک لیست گلوله‌ای در اسناد ورد"
       content: |
-        {index-content-nodejs-java.code_samples_sample_1_content_1} {index-content-nodejs-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-nodejs-java.code_title_sample_1}">}}
+        چگونگی ایجاد [لیست‌های گلوله‌ای](https://docs.groupdocs.com/assembly/nodejs-java/bulleted-list-in-word-processing-document/) در اسناد ورد برای سازماندهی مؤثر داده‌ها را ببینید. این مثال نحوه تولید یک لیست گلوله‌ای با استفاده از GroupDocs.Assembly را نشان می‌دهد.
+        {{< landing/code title="اضافه کردن یک لیست گلوله‌ای در اسناد ورد">}}
         ```javascript {style=abap}
         // این الگو را در یک صفحه مستند وارد کنید:
         // شاخص‌های عملکرد مدیران
@@ -241,10 +241,10 @@ code_samples:
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-nodejs-java.code_title_sample_2}"
+    - title: "درج نمودارهای دایره‌ای در پاورپوینت"
       content: |
-        {index-content-nodejs-java.code_samples_sample_2_content_1} {index-content-nodejs-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-nodejs-java.code_title_sample_2}">}}
+        یاد بگیرید چگونه از قالب‌ها و XML برای افزودن [نمودارهای دایره‌ای](https://docs.groupdocs.com/assembly/nodejs-java/pie-chart-in-presentation-document/) در ارائه‌های خود استفاده کنید. گزارش‌های خود را با نمودارهای دایره‌ای برای ارائه بصری و شفاف داده‌ها تقویت کنید.
+        {{< landing/code title="درج نمودارهای دایره‌ای در پاورپوینت">}}
         ```javascript {style=abap} 
         // الگوی عنوان نمودار را به ارائه اضافه کنید:
         // درآمد مشتریان <<foreach [in customers]>> 

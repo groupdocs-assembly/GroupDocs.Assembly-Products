@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:15
+date:  2025-01-16T13:04:02
 draft: false
 lang: ru
 format: Xlsx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Объединение документов в XLSX с помощью JavaScript"
+head_description: "GroupDocs.Assembly позволяет быстро объединять файлы XLSX с помощью JavaScript за несколько простых шагов."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Легкое объединение содержимого в файлах XLSX" 
+description: "С помощью GroupDocs.Assembly for Node.js via Java интеграция одного файла XLSX в другой происходит быстро и точно. Получите гибкие и надежные инструменты для безупречного объединения."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Попробуйте бесплатно"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Обзор GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Узнать больше"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) предлагает мощные возможности управления документами. Объединяйте один файл с другим, поддерживая более 50 форматов, таких как PDF и MS Office. Настраивайте макеты, редактируйте содержимое и организуйте документы так, как вам нужно.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Как объединить документ в файл XLSX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) упрощает вставку одного файла XLSX в другой с настраиваемыми параметрами.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Создайте шаблон XLSX с заполнителями для содержимого.
+      2. Установите путь к шаблону.
+      3. Укажите путь к документу для объединения.
+      4. Экспортируйте окончательный файл с объединенным содержимым.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Вставьте этот тег в свой шаблон, чтобы определить, где будет встроен документ
         // <<doc [doc_expression]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Установите путь к основному шаблону
         const template = "doc_template.xlsx";
 
-        // {examples.comment_3}
+        // Укажите путь к документу, который вы хотите объединить
         const data 
             = new assemblyLib.DataSourceInfo("insert.xlsx", "doc_expression");
 
-        // {examples.comment_4}
+        // Сохраните конечный результат с встроенным документом
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.xlsx", data);
         ```           
@@ -92,52 +92,52 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Мощные инструменты для интеграции документов"
+  description: "GroupDocs.Assembly for Node.js via Java упрощает встраивание файлов различных форматов и предлагает полную настройку. Обеспечьте постоянные, профессиональные результаты каждый раз."
   image: "/img/assembly/features_document.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Ключевые возможности GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Генерация отчетов с бизнес-данными"
+      content: "Извлекайте данные из источников JSON, XML или CSV для быстрого и точного создания комплексных отчетов и документов."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Добавление богатых визуальных элементов"
+      content: "GroupDocs.Assembly позволяет включать таблицы, диаграммы, списки, изображения и штрих-коды наряду с текстом и гиперссылками."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Точное размещение данных"
+      content: "Используйте шаблоны LINQ для точного позиционирования данных, работы с повторяющимися элементами, такими как массивы, и простого настраивания стилей."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Работа с различными форматами"
+      content: "Эффективно объединяйте содержимое в таких форматах, как PDF, файлы MS Office, HTML и OpenOffice, обеспечивая гибкость для всех проектов."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Программное встраивание изображения в документ"
       content: |
-        {code_1.content}
+        Этот пример демонстрирует, как вставить изображение в файл XLSX с помощью GroupDocs.Assembly.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Добавьте заполнитель в шаблон для изображения
           // <<image [expression]>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Укажите путь к файлу шаблона
           const template = "template.xlsx";
 
-          // {code_1.comment_3}
+          // Установите путь к изображению, которое хотите встроить
           const data =
               = new assemblyLib.DataSourceInfo("logo.jpg", "expression");
 
-          // {code_1.comment_4}
+          // Инициализируйте объект DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_5}
+          // Сохраните документ с включенным изображением
           asm.assembleDocument(template, "result.xlsx", data);
           ```
         platform: "java"
@@ -183,9 +183,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Основные функции на первый взгляд"
     exclude: "document"
-    description: ""
+    description: "Изучите комплексные инструменты, которые предлагает GroupDocs.Assembly для эффективного и бесшовного объединения документов."
     items: 
           
         # operation loop 1
@@ -222,9 +222,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Объединение документов в различных форматах"
     exclude: "XLSX"
-    description: ""
+    description: "Используйте Node.js via Java для объединения содержимого более чем в 50 форматах файлов, гарантируя профессиональные и гладкие результаты."
     items: 
           
         # format loop 1

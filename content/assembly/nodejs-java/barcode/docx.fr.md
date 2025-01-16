@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:12
+date:  2025-01-16T13:03:58
 draft: false
 lang: fr
 format: Docx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Ajouter des codes-barres aux fichiers DOCX avec JavaScript"
+head_description: "Générez et intégrez facilement des codes-barres dans vos documents et e-mails avec l'API GroupDocs.Assembly for Node.js via Java."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Créer des codes-barres pour les fichiers DOCX avec Node.js" 
+description: "Avec GroupDocs.Assembly for Node.js via Java, vous pouvez générer, personnaliser et intégrer dynamiquement des codes-barres dans des documents DOCX."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Commencer"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Introduction à GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "En savoir plus"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) vous permet de créer des documents professionnels en combinant des données de plusieurs sources. Ajoutez des graphiques, des tableaux, des listes, des images et des codes-barres à vos fichiers. Utilisez des modèles pour organiser le contenu exactement où il doit être. Compatible avec plus de 50 formats, y compris PDF, documents Office et e-mails.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Étapes pour ajouter un code-barres dans des fichiers DOCX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) permet d'intégrer des codes-barres dans les documents DOCX. Il prend en charge plus de 60 types de codes-barres, y compris les formats 1D et 2D.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Créez un modèle DOCX avec des espaces réservés pour les codes-barres.
+      2. Récupérez des données d'une source compatible.
+      3. Définissez les options du code-barres telles que la taille et la résolution.
+      4. Enregistrez le document final avec le code-barres intégré.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Utilisez cette balise dans le modèle pour inclure un code-barres dans le document de sortie
         // <<barcode [barcode_expression] -barcode_type>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Précisez le chemin vers le fichier modèle
         const template = "barcode_template.docx";
 
-        // {examples.comment_3}
+        // Chargez les données requises depuis votre source
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "label");
 
-        // {examples.comment_4}
+        // Enregistrez le document avec le code-barres appliqué
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.docx", data);
         ```           
@@ -92,61 +92,61 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Générez des documents avec des modèles basés sur des données"
+  description: "Avec GroupDocs.Assembly for Node.js via Java, vous pouvez créer des fichiers professionnels dans des formats populaires en intégrant sans effort des graphiques, tableaux, listes, liens, images et codes-barres."
   image: "/img/assembly/features_barcode.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Fonctionnalités principales de GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Établir des rapports avec des données commerciales"
+      content: "Utilisez l'API pour remplir rapidement et avec précision des modèles avec des données provenant de formats comme JSON, XML et CSV."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Ajouter des éléments visuels"
+      content: "GroupDocs.Assembly prend en charge l'insertion d'éléments tels que des graphiques, des tableaux, des listes, du texte, des liens, des images et des codes-barres en temps réel."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Contrôler le placement des données"
+      content: "Avec des modèles basés sur LINQ, vous pouvez positionner avec précision les données, parcourir des tableaux et appliquer un formatage personnalisé par programme."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Compatible avec de nombreux formats"
+      content: "Travaillez avec des fichiers comme des documents MS Office, des PDF, HTML, fichiers OpenOffice et e-mails. Fusionnez plusieurs documents si nécessaire."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Exemple : Générer un code-barres par programme"
       content: |
-        {code_1.content}
+        Cet exemple démontre comment générer par programme et insérer un code-barres dans un document DOCX.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Concevez un modèle avec un espace réservé pour le code-barres
           // <<barcode [barcode_expression] -barcode_type>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Précisez le chemin du fichier modèle
           const template = "barcode_template.docx";
 
-          // {code_1.comment_3}
+          // Récupérez des données depuis votre source
           const data_csv =
               new assemblyLib.CsvDataSource("Barcode Labels.csv", 
               new assemblyLib.CsvDataLoadOptions(true));
 
-          // {code_1.comment_4}
+          // Créez un objet source de données avec les détails requis
           const data 
               = new assemblyLib.DataSourceInfo(data_csv, "label");
 
-          // {code_1.comment_5}
+          // Initialisez une instance de DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Configurez les options du code-barres
           asm.getBarcodeSettings().setResolution(1200);
           asm.getBarcodeSettings().setBaseYDimension(5f);
 
-          // {code_1.comment_7}
+          // Enregistrez le document avec le code-barres inclus
           asm.assembleDocument(template, "result.docx", data);
           ```
         platform: "java"
@@ -192,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Explorer les fonctionnalités clés"
     exclude: "barcode"
-    description: ""
+    description: "Simplifiez le traitement de documents avec des outils avancés et des capacités d'automatisation."
     items: 
           
         # operation loop 1
@@ -231,9 +231,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Formats de fichiers pris en charge pour la création de rapports"
     exclude: "DOCX"
-    description: ""
+    description: "Node.js via Java gère plus de 50 types de fichiers, facilitant la fusion de données et le traitement de modèles pour des résultats de haute qualité."
     items: 
           
         # format loop 1

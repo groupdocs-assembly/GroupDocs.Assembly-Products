@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-01-14T15:37:19
+date: 2025-01-16T13:04:06
 draft: false
 
 lang: it
@@ -24,17 +24,17 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "{index-content-nodejs-java.head_title}"
-head_description: "{index-content-nodejs-java.head_description}"
+head_title: "Toolkit Node.js per Creare, Automatizzare e Personalizzare Documenti"
+head_description: "Libreria Node.js per l'automazione dei flussi documentali. Genera file PDF, Word, Excel, PowerPoint, HTML e email dai tuoi modelli."
 
 ############################# Header ############################
-title: "{index-content-nodejs-java.title}"
-description: "{index-content-nodejs-java.description}"
+title: "API Node.js per l'Automazione Semplificata di Documenti e Report"
+description: "Ottimizza la generazione di report JavaScript unendo i tuoi dati con modelli predefiniti."
 words:
   for: "per"
 
 actions:
-  main: "{index-content-nodejs-java.actions_main}"
+  main: "Inizia la tua Prova su NPM"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.assembly"
   alt: "Licenze"
   alt_link: "https://purchase.groupdocs.com/pricing/assembly/nodejs-java/"
@@ -48,7 +48,7 @@ release:
   link: "https://releases.groupdocs.com/assembly/nodejs-java/"
 
 code:
-  title: "{index-content-nodejs-java.code_title}"
+  title: "Crea un Grafico in un Documento Word Utilizzando Node.js"
   more: "Ulteriori esempi"
   more_link: "https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-Node.js-via-Java/"
   install: "npm i @groupdocs/groupdocs.assembly"
@@ -80,25 +80,25 @@ code:
 overview:
   enable: true
   title: "Panoramica di GroupDocs.Assembly"
-  description: "{index-content-nodejs-java.overview_description}"
+  description: "Una libreria Node.js progettata per creare documenti in modo programmatico con gestione dei dati integrata."
   features:
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_1.title}"
-      content: "{index-content-nodejs-java.overview_feature_1.description}"
+    - title: "Integra Dati Aziendali nei Modelli con JavaScript"
+      content: "Genera report professionali incorporando JSON, XML o altri dati nei modelli utilizzando GroupDocs.Assembly for Node.js via Java."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_2.title}"
-      content: "{index-content-nodejs-java.overview_feature_2.description}"
+    - title: "Gestisci Contenuti Integrati"
+      content: "Compila automaticamente tabelle, grafici e altre visualizzazioni nei tuoi documenti utilizzando dati esterni."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_3.title}"
-      content: "{index-content-nodejs-java.overview_feature_3.description}"
+    - title: "Opzioni Personalizzabili"
+      content: "GroupDocs.Assembly for Node.js via Java ti consente di aggiungere funzionalità come codici a barre, recupero dati da URL e esportazione di file in vari formati."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Indipendenza dalla piattaforma"
-  description: "{index-content-nodejs-java.platforms_description}"
+  description: "GroupDocs.Assembly for Node.js via Java si integra perfettamente con i principali sistemi operativi, framework e gestori di pacchetti."
   items:
     # platform loop
     - title: "Amazon"
@@ -130,7 +130,7 @@ formats:
   enable: true
   title: "Formati di file supportati"
   description: |
-    {index-content-nodejs-java.formats_description}
+    GroupDocs.Assembly for Node.js via Java supporta un'ampia gamma di [formati documentali](https://docs.groupdocs.com/assembly/nodejs-java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -157,66 +157,66 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-nodejs-java.features.title}"
-  description: "{index-content-nodejs-java.features.description}"
+  title: "Caratteristiche Principali di GroupDocs.Assembly"
+  description: "Crea documenti e report dinamici con potenti strumenti di gestione dei dati."
 
   items:
     # feature loop
     - icon: "preview"
-      title: "{index-content-nodejs-java.features.feature_1.title}"
-      content: "{index-content-nodejs-java.features.feature_1.content}"
+      title: "Visualizzazioni Dati Ricche"
+      content: "Inserisci grafici, tabelle, immagini e elenchi nei tuoi documenti con piena personalizzazione."
 
     # feature loop
     - icon: "manipulate"
-      title: "{index-content-nodejs-java.features.feature_2.title}"
-      content: "{index-content-nodejs-java.features.feature_2.content}"
+      title: "Trasforma i Tuoi Dati"
+      content: "Sfrutta strumenti come formule e ordinamenti per strutturare e visualizzare le informazioni in modo efficace."
 
     # feature loop
     - icon: "two_pages"
-      title: "{index-content-nodejs-java.features.feature_3.title}"
-      content: "{index-content-nodejs-java.features.feature_3.content}"
+      title: "Ampia Compatibilità con i Formati"
+      content: "Lavora senza soluzione di continuità con i formati di file più diffusi per modelli e output."
 
     # feature loop
     - icon: "document_settings"
-      title: "{index-content-nodejs-java.features.feature_4.title}"
-      content: "{index-content-nodejs-java.features.feature_4.content}"
+      title: "Personalizzazione Avanzata dei Modelli"
+      content: "Formatta i modelli con opzioni di stile numeriche, alfabetiche e altre."
 
     # feature loop
     - icon: "text"
-      title: "{index-content-nodejs-java.features.feature_5.title}"
-      content: "{index-content-nodejs-java.features.feature_5.content}"
+      title: "Generazione Dinamica di Codici a Barre"
+      content: "Crea e incorpora immagini di codici a barre direttamente nei tuoi documenti su richiesta."
 
     # feature loop
     - icon: "add"
-      title: "{index-content-nodejs-java.features.feature_6.title}"
-      content: "{index-content-nodejs-java.features.feature_6.content}"
+      title: "Stile del Testo Flessibile"
+      content: "Applica facilmente stili di testo come maiuscole o maiuscole iniziali nei tuoi modelli."
 
     # feature loop
     - icon: "manipulate"
-      title: "{index-content-nodejs-java.features.feature_7.title}"
-      content: "{index-content-nodejs-java.features.feature_7.content}"
+      title: "Inserimento Dinamico di Contenuti"
+      content: "Include contenuti da file esterni dinamicamente durante la generazione di documenti."
 
     # feature loop
     - icon: "convert"
-      title: "{index-content-nodejs-java.features.feature_8.title}"
-      content: "{index-content-nodejs-java.features.feature_8.content}"
+      title: "Esporta in Vari Formati"
+      content: "Salva documenti in più formati con le configurazioni specificate."
 
     # feature loop
     - icon: "update"
-      title: "{index-content-nodejs-java.features.feature_9.title}"
-      content: "{index-content-nodejs-java.features.feature_9.content}"
+      title: "Incorpora Media Dinamicamente"
+      content: "Inserisci immagini o altri elementi utilizzando dati Base64 durante la creazione dei documenti."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Esempi di codice"
-  description: "{index-content-nodejs-java.code_samples_description}"
+  description: "Scopri esempi pratici su come utilizzare GroupDocs.Assembly per compiti comuni."
   items:
     # code sample loop
-    - title: "{index-content-nodejs-java.code_title_sample_1}"
+    - title: "Aggiungi un Elenco Puntato nei Documenti Word"
       content: |
-        {index-content-nodejs-java.code_samples_sample_1_content_1} {index-content-nodejs-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-nodejs-java.code_title_sample_1}">}}
+        Vedi come creare [elenchi puntati](https://docs.groupdocs.com/assembly/nodejs-java/bulleted-list-in-word-processing-document/) nei documenti Word per organizzare i dati in modo efficace. Questo esempio dimostra come generare un elenco puntato utilizzando GroupDocs.Assembly.
+        {{< landing/code title="Aggiungi un Elenco Puntato nei Documenti Word">}}
         ```javascript {style=abap}
         // Inserisci questo modello in una pagina del documento:
         // Indicatori di prestazione dei manager
@@ -241,10 +241,10 @@ code_samples:
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-nodejs-java.code_title_sample_2}"
+    - title: "Inserisci Grafici a Torta in PowerPoint"
       content: |
-        {index-content-nodejs-java.code_samples_sample_2_content_1} {index-content-nodejs-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-nodejs-java.code_title_sample_2}">}}
+        Scopri come utilizzare modelli e XML per aggiungere [grafici a torta](https://docs.groupdocs.com/assembly/nodejs-java/pie-chart-in-presentation-document/) nelle tue presentazioni. Migliora i tuoi report con grafici a torta per presentare visivamente e chiaramente i dati.
+        {{< landing/code title="Inserisci Grafici a Torta in PowerPoint">}}
         ```javascript {style=abap} 
         // Aggiungi il modello del titolo del grafico alla presentazione:
         // Fatturato dei clienti <<foreach [in customers]>> 

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:14
+date:  2025-01-16T13:04:00
 draft: false
 lang: id
 format: Pptx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Sisipkan Grafik ke dalam Berkas PPTX dengan JavaScript"
+head_description: "Dengan GroupDocs.Assembly for Node.js via Java, pengembang dapat dengan cepat membuat dan menyisipkan grafik dinamis ke dalam dokumen menggunakan sumber data langsung."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Tambahkan Grafik ke Berkas PPTX Menggunakan Node.js" 
+description: "GroupDocs.Assembly for Node.js via Java menyederhanakan proses integrasi grafik ke dalam dokumen PPTX dengan input data secara real-time."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Mulai Gratis Hari Ini"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Gambaran Umum GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Pelajari lebih lanjut"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) adalah solusi yang kuat untuk membuat dokumen dan laporan otomatis. Tambahkan grafik, tabel, gambar, kode batang, dan daftar ke dalam berkas dengan presisi. Platform serbaguna ini mendukung lebih dari 50 format, termasuk PDF, dokumen Office, dan email.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Langkah-Langkah untuk Menambahkan Grafik ke Dokumen PPTX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) memudahkan menambahkan grafik ke berkas PPTX. Pilih dari jenis grafik seperti grafik batang, garis, atau lingkaran.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Desain template PPTX dengan placeholder untuk grafik.
+      2. Muat data dari sumber yang didukung.
+      3. Konfigurasi opsi grafik, termasuk jenis, warna, dan label.
+      4. Ekspor dokumen dengan grafik yang disisipkan.
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Sisipkan tag ini di template Anda untuk menghasilkan grafik.
         // Orders Prices by months<<y [Sum(c => c.Price)]>><<size [Count()]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Tentukan jalur berkas template.
         const template = "chart_template.pptx";
 
-        // {examples.comment_3}
+        // Ambil data dari sistem sumber Anda.
         const data 
             = new assemblyLib.DataSourceInfo(GetChartData(), "orders");
 
-        // {examples.comment_4}
+        // Simpan dokumen akhir dengan grafik yang disisipkan.
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pptx", data);
         ```           
@@ -92,61 +92,61 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Sisipkan Grafik dengan Mudah di Dokumen Anda"
+  description: "GroupDocs.Assembly for Node.js via Java memudahkan pembuatan dokumen kaya fitur dalam jenis berkas populer. Gunakan template untuk menambahkan grafik, tabel, kode batang, daftar, gambar, dan lebih banyak lagi dengan pembaruan data secara real-time."
   image: "/img/assembly/features_chart.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Fitur Utama GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Ubah Data Menjadi Grafik Profesional"
+      content: "Konversi data dari sumber seperti JSON, XML, atau CSV menjadi grafik berkualitas tinggi yang dapat disisipkan langsung ke dalam dokumen."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Buat Visual Menakjubkan"
+      content: "Hasilkan grafik batang, grafik lingkaran, dan grafik garis yang bekerja tanpa masalah dengan elemen dokumen lain seperti gambar, tabel, dan kode batang."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Penataan dan Penempatan Grafik yang Fleksibel"
+      content: "Gunakan template LINQ untuk mengontrol penempatan dan penataan grafik, termasuk warna, tata letak, dan label, untuk presentasi yang rapi."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Mendukung Banyak Format Berkas"
+      content: "Hasilkan dokumen dalam format seperti MS Office, PDF, OpenOffice, dan HTML, dengan grafik yang terintegrasi sempurna untuk hasil yang profesional."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Hasilkan dan Sisipkan Grafik Secara Dinamis"
       content: |
-        {code_1.content}
+        Contoh ini menggambarkan cara membuat dan menyisipkan grafik ke dalam berkas PPTX secara programatik.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Siapkan template dengan placeholder untuk grafik.
           // Total Contract Price<<y [m.Total_Contract_Price]>>
           // <<seriesColor [color]>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Tentukan jalur ke berkas template.
           const template = "table_template.pptx";
 
-          // {code_1.comment_3}
+          // Ambil data dari sumber yang dipilih.
           const data_json = 
             new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
+          // Siapkan objek data berisi informasi grafik.
           const data 
               = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
+          // Pilih jenis grafik dan sesuaikan tampilannya.
           const design 
               = new assemblyLib.DataSourceInfo("red", "color");
 
-          // {code_1.comment_6}
+          // Inisialisasi DocumentAssembler.
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_7}
+          // Simpan dokumen yang diperbarui dengan grafik yang disisipkan.
           asm.assembleDocument(template, "result.pptx", data, design);
           ```
         platform: "java"
@@ -192,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Temukan Fitur Lanjutan"
     exclude: "chart"
-    description: ""
+    description: "Platform ini menyederhanakan pembuatan dokumen dengan alat yang dirancang untuk visualisasi data dan integrasi yang mulus."
     items: 
           
         # operation loop 1
@@ -231,9 +231,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Hasilkan Laporan dalam Berbagai Format Berkas"
     exclude: "PPTX"
-    description: ""
+    description: "Node.js via Java mendukung lebih dari 50 format, memudahkan penggabungan template dengan data untuk memproduksi dokumen yang terpolish."
     items: 
           
         # format loop 1

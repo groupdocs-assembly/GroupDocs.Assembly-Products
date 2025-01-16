@@ -1,0 +1,77 @@
+{
+  "head": {
+    "title": "使用 {{ProgLang}} 在 {{FileFormatUp}} 文件中添加条形码",
+    "description": "使用 {{ProdFullName}} API 轻松生成并嵌入条形码到您的文档和电子邮件中。"
+  },
+  "header": {
+    "title": "使用 {{EnvNameShort}} 创建 {{FileFormatUp}} 文件的条形码",
+    "description": "借助 {{ProdFullName}}，您可以动态生成、定制并嵌入条形码到 {{FileFormatUp}} 文档中。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "开始使用"
+  },
+  "about": {
+    "title": "关于 {{ProdFullName}} 的介绍",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 允许您通过结合多个来源的数据来创建专业文档。将图表、表格、列表、图像和条形码添加到您的文件中。使用模板将内容组织到恰当的位置。支持超过 50 种格式，包括 PDF、Office 文档和电子邮件。"
+  },
+  "more_features": {
+    "title": "使用数据驱动的模板生成文档",
+    "description": "借助 {{ProdFullName}}，您可以通过无缝嵌入图表、表格、列表、链接、图像和条形码，以专业的格式创建文件。",
+    "image_description": "{{ProdShortName}} 的核心功能",
+    "feature_1": {
+      "title": "使用业务数据生成报告",
+      "content": "使用 API 快速准确地用 JSON、XML 和 CSV 等格式的数据填充模板。"
+    },
+    "feature_2": {
+      "title": "添加视觉元素",
+      "content": "{{ProdShortName}} 支持实时插入图表、表格、列表、文本、链接、图像和条形码等元素。"
+    },
+    "feature_3": {
+      "title": "控制数据位置",
+      "content": "使用基于 LINQ 的模板，您可以精确定位数据，循环处理数组，并以编程方式应用自定义格式。"
+    },
+    "feature_4": {
+      "title": "兼容多种格式",
+      "content": "处理如 MS Office 文档、PDF、HTML、OpenOffice 文件和电子邮件等文件。按需合并多个文档。"
+    }
+  },
+  "formats": {
+    "title": "报告创建支持的文件格式",
+    "description": "{{EnvName}} 处理超过 50 种文件类型，使得合并数据和处理模板以获得高质量结果变得简单。"
+  },
+  "operations": {
+    "title": "探索主要功能",
+    "description": "通过先进的工具和自动化功能简化文档处理。"
+  },
+  "examples": {
+    "comment_1": "在模板中使用此标签以在输出文档中包含条形码",
+    "comment_2": "指定模板文件的路径",
+    "comment_3": "从源获取所需数据",
+    "comment_4": "保存应用了条形码的文档"
+  },
+  "steps": {
+    "title": "在 {{FileFormatUp}} 文件中添加条形码的步骤",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 使得在 {{FileFormatUp}} 文档中嵌入条形码变得简单。它支持超过 60 种条形码类型，包括 1D 和 2D 格式。",
+      "step_1": "创建一个包含条形码占位符的 {{FileFormatUp}} 模板。",
+      "step_2": "从兼容的源获取数据。",
+      "step_3": "设置条形码选项，如大小和分辨率。",
+      "step_4": "保存最终文档，嵌入条形码。"
+    }
+  },
+  "code_1": {
+    "title": "示例：以编程方式生成条形码",
+    "content": "此示例演示如何以编程方式生成并插入条形码到 {{FileFormatUp}} 文档中。",
+    "comment_1": "设计一个带有条形码占位符的模板",
+    "comment_2": "指定模板文件的路径",
+    "comment_3": "从您的源获取数据",
+    "comment_4": "创建一个包含所需详细信息的数据源对象",
+    "comment_5": "初始化 {{DocumentAssembler}} 的实例",
+    "comment_6": "设置条形码配置",
+    "comment_7": "保存包含条形码的文档"
+  },
+  "texts_pdf": {
+    "step_1": "设计一个带有条形码占位符的模板（PDF 模板不受支持）。",
+    "step_4": "将文档导出为带有条形码的 PDF 文件。",
+    "comment_tmp": "注意：当前不支持 PDF 模板。"
+  }
+}

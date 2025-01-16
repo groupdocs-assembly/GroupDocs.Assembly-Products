@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-01-14T15:37:19
+date: 2025-01-16T13:04:06
 draft: false
 
 lang: ja
@@ -24,17 +24,17 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "{index-content-nodejs-java.head_title}"
-head_description: "{index-content-nodejs-java.head_description}"
+head_title: "Node.jsを使用した文書の作成、オートメーション、カスタマイズのためのツールキット"
+head_description: "Node.jsを使用して文書ワークフローを自動化するライブラリです。テンプレートからPDF、Word、Excel、PowerPoint、HTML、メールファイルを生成します。"
 
 ############################# Header ############################
-title: "{index-content-nodejs-java.title}"
-description: "{index-content-nodejs-java.description}"
+title: "Node.js APIによる文書とレポートの自動化の簡素化"
+description: "事前に構築されたテンプレートとデータを統合してJavaScriptレポート生成を効率化します。"
 words:
   for: "のため"
 
 actions:
-  main: "{index-content-nodejs-java.actions_main}"
+  main: "NPMで無料トライアルを始める"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.assembly"
   alt: "ライセンス"
   alt_link: "https://purchase.groupdocs.com/pricing/assembly/nodejs-java/"
@@ -48,7 +48,7 @@ release:
   link: "https://releases.groupdocs.com/assembly/nodejs-java/"
 
 code:
-  title: "{index-content-nodejs-java.code_title}"
+  title: "Node.jsを使用してWord文書にチャートを作成する"
   more: "詳細な例"
   more_link: "https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-Node.js-via-Java/"
   install: "npm i @groupdocs/groupdocs.assembly"
@@ -80,25 +80,25 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Assemblyの概要"
-  description: "{index-content-nodejs-java.overview_description}"
+  description: "データ処理が統合されたプログラム的に文書を作成するためのNode.jsライブラリです。"
   features:
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_1.title}"
-      content: "{index-content-nodejs-java.overview_feature_1.description}"
+    - title: "JavaScriptを使用してビジネスデータをテンプレートに統合"
+      content: "GroupDocs.Assembly for Node.js via Javaを使用してJSON、XML、または他のデータをテンプレートに埋め込むことで洗練されたレポートを生成します。"
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_2.title}"
-      content: "{index-content-nodejs-java.overview_feature_2.description}"
+    - title: "埋め込まれたコンテンツの管理"
+      content: "外部データを使って文書内のテーブル、チャート、その他のビジュアルを自動的に埋め込みます。"
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_3.title}"
-      content: "{index-content-nodejs-java.overview_feature_3.description}"
+    - title: "カスタマイズ可能なオプション"
+      content: "GroupDocs.Assembly for Node.js via Javaでは、バーコードの追加、URLからのデータ取得、さまざまな形式でのファイルのエクスポートなどの機能を追加できます。"
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "プラットフォームの独立性"
-  description: "{index-content-nodejs-java.platforms_description}"
+  description: "GroupDocs.Assembly for Node.js via Javaは主要なオペレーティングシステム、フレームワーク、およびパッケージマネージャーとスムーズに統合されます。"
   items:
     # platform loop
     - title: "Amazon"
@@ -130,7 +130,7 @@ formats:
   enable: true
   title: "サポートされているファイル形式"
   description: |
-    {index-content-nodejs-java.formats_description}
+    GroupDocs.Assembly for Node.js via Javaは多様な[文書フォーマット](https://docs.groupdocs.com/assembly/nodejs-java/supported-document-formats/)をサポートしています。
   groups:
     # group loop
     - color: "green"
@@ -157,66 +157,66 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-nodejs-java.features.title}"
-  description: "{index-content-nodejs-java.features.description}"
+  title: "GroupDocs.Assemblyの主要機能"
+  description: "強力なデータ管理ツールを使用して動的な文書とレポートを作成します。"
 
   items:
     # feature loop
     - icon: "preview"
-      title: "{index-content-nodejs-java.features.feature_1.title}"
-      content: "{index-content-nodejs-java.features.feature_1.content}"
+      title: "リッチデータビジュアル"
+      content: "完全にカスタマイズ可能なチャート、表、画像、リストを文書に挿入します。"
 
     # feature loop
     - icon: "manipulate"
-      title: "{index-content-nodejs-java.features.feature_2.title}"
-      content: "{index-content-nodejs-java.features.feature_2.content}"
+      title: "データの変換"
+      content: "情報を効果的に構造化および表示するために、数式やソートなどのツールを活用します。"
 
     # feature loop
     - icon: "two_pages"
-      title: "{index-content-nodejs-java.features.feature_3.title}"
-      content: "{index-content-nodejs-java.features.feature_3.content}"
+      title: "広範な形式互換性"
+      content: "テンプレートや出力のために人気のファイル形式をシームレスに使用します。"
 
     # feature loop
     - icon: "document_settings"
-      title: "{index-content-nodejs-java.features.feature_4.title}"
-      content: "{index-content-nodejs-java.features.feature_4.content}"
+      title: "高度なテンプレートカスタマイズ"
+      content: "数値、アルファベット、その他のスタイルオプションでテンプレートのフォーマットが可能です。"
 
     # feature loop
     - icon: "text"
-      title: "{index-content-nodejs-java.features.feature_5.title}"
-      content: "{index-content-nodejs-java.features.feature_5.content}"
+      title: "動的なバーコードの生成"
+      content: "必要に応じて、文書にバーコード画像を直接作成して埋め込みます。"
 
     # feature loop
     - icon: "add"
-      title: "{index-content-nodejs-java.features.feature_6.title}"
-      content: "{index-content-nodejs-java.features.feature_6.content}"
+      title: "柔軟なテキストスタイリング"
+      content: "テンプレート内で大文字化やタイトルケースなどのテキストスタイルを適用します。"
 
     # feature loop
     - icon: "manipulate"
-      title: "{index-content-nodejs-java.features.feature_7.title}"
-      content: "{index-content-nodejs-java.features.feature_7.content}"
+      title: "動的なコンテンツ挿入"
+      content: "文書生成中に外部ファイルからのコンテンツを動的に含めます。"
 
     # feature loop
     - icon: "convert"
-      title: "{index-content-nodejs-java.features.feature_8.title}"
-      content: "{index-content-nodejs-java.features.feature_8.content}"
+      title: "さまざまな形式へのエクスポート"
+      content: "指定した設定で複数の形式で文書を保存します。"
 
     # feature loop
     - icon: "update"
-      title: "{index-content-nodejs-java.features.feature_9.title}"
-      content: "{index-content-nodejs-java.features.feature_9.content}"
+      title: "メディアを動的に埋め込む"
+      content: "文書作成時にBase64データを使用して画像やその他の要素を挿入します。"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "コードサンプル"
-  description: "{index-content-nodejs-java.code_samples_description}"
+  description: "GroupDocs.Assemblyを使用して一般的なタスクを実行するための実用的な例を見つけてください。"
   items:
     # code sample loop
-    - title: "{index-content-nodejs-java.code_title_sample_1}"
+    - title: "Word文書に箇条書きリストを追加する"
       content: |
-        {index-content-nodejs-java.code_samples_sample_1_content_1} {index-content-nodejs-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-nodejs-java.code_title_sample_1}">}}
+        データを効果的に整理する方法として、Word文書での[箇条書きリスト](https://docs.groupdocs.com/assembly/nodejs-java/bulleted-list-in-word-processing-document/)の作成方法を確認してください。 この例では、GroupDocs.Assemblyを使用して箇条書きリストを生成する方法を示します。
+        {{< landing/code title="Word文書に箇条書きリストを追加する">}}
         ```javascript {style=abap}
         // ドキュメントページにこのテンプレートを挿入:
         // マネージャーのパフォーマンス指標
@@ -241,10 +241,10 @@ code_samples:
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-nodejs-java.code_title_sample_2}"
+    - title: "PowerPointに円グラフを挿入する"
       content: |
-        {index-content-nodejs-java.code_samples_sample_2_content_1} {index-content-nodejs-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-nodejs-java.code_title_sample_2}">}}
+        テンプレートとXMLを使用してプレゼンテーションに[円グラフ](https://docs.groupdocs.com/assembly/nodejs-java/pie-chart-in-presentation-document/)を追加する方法を学びます。 データを視覚的かつ明確に提示するために、円グラフでレポートを強化します。
+        {{< landing/code title="PowerPointに円グラフを挿入する">}}
         ```javascript {style=abap} 
         // プレゼンテーションにチャートタイトルテンプレートを追加:
         // 顧客の収益 <<foreach [in customers]>> 

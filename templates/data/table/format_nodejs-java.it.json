@@ -1,0 +1,76 @@
+{
+  "head": {
+    "title": "Inserisci tabelle nei documenti {{FileFormatUp}} con {{ProgLang}}",
+    "description": "Utilizza {{ProdFullName}} per inserire rapidamente tabelle in documenti o e-mail, estraendo dati da diverse fonti."
+  },
+  "header": {
+    "title": "Aggiungi tabelle ai file {{FileFormatUp}} con {{EnvNameShort}}",
+    "description": "Con {{ProdFullName}}, riempire tabelle nei documenti {{FileFormatUp}} è semplice, utilizzando dati da più fonti.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Inizia la tua prova gratuita"
+  },
+  "about": {
+    "title": "Introduzione a {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è uno strumento potente per automatizzare la creazione di documenti. Ti consente di inserire tabelle, grafici, elenchi e immagini nei modelli, con posizionamento preciso del contenuto. Supportando oltre 50 formati di file, inclusi PDF, Word e e-mail, semplifica la generazione di report e altre attività."
+  },
+  "more_features": {
+    "title": "Aggiungi tabelle basate su dati ai documenti",
+    "description": "{{ProdFullName}} consente agli utenti di generare tabelle automaticamente, integrando anche grafici, immagini ed elenchi utilizzando flussi di lavoro basati su modelli.",
+    "image_description": "Caratteristiche principali di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Genera tabelle da dati strutturati",
+      "content": "Estrai dati da JSON, XML, CSV e altri formati per popolare automaticamente le tabelle nei documenti."
+    },
+    "feature_2": {
+      "title": "Crea contenuti visivi curati",
+      "content": "Utilizza {{ProdShortName}} per progettare tabelle, grafici ed elenchi professionali, e aggiungere link, immagini e testo per un aspetto raffinato del documento."
+    },
+    "feature_3": {
+      "title": "Posizionamento dinamico del contenuto delle tabelle",
+      "content": "Aggiungi righe e colonne programmaticamente utilizzando modelli basati su LINQ, e personalizza stili come font, colori e allineamento."
+    },
+    "feature_4": {
+      "title": "Funziona senza problemi tra i formati",
+      "content": "Crea o modifica facilmente tabelle in MS Office, OpenOffice, PDF, HTML e altri formati, unendoli nei file secondo necessità."
+    }
+  },
+  "formats": {
+    "title": "Genera tabelle in una varietà di formati",
+    "description": "Con {{EnvName}}, popola modelli e crea tabelle complete su oltre 50 tipi di file supportati."
+  },
+  "operations": {
+    "title": "Caratteristiche principali a colpo d'occhio",
+    "description": "La nostra API automatizza la creazione di tabelle e migliora la generazione di documenti con strumenti e modelli versatili."
+  },
+  "examples": {
+    "comment_1": "Includi questi tag nei segnaposto delle righe della tabella del tuo modello",
+    "comment_2": "Specifica il percorso del file modello",
+    "comment_3": "Carica i tuoi dati da una fonte scelta",
+    "comment_4": "Salva il documento finale con la tabella completata"
+  },
+  "steps": {
+    "title": "Come aggiungere dati a una tabella in {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ti consente di popolare rapidamente i modelli di tabella per file {{FileFormatUp}} utilizzando sorgenti di dati dinamiche.",
+      "step_1": "Crea un modello {{FileFormatUp}} con segnaposto per righe e colonne della tabella.",
+      "step_2": "Carica dati da una fonte supportata come JSON o CSV.",
+      "step_3": "Organizza e formatta i dati secondo necessità.",
+      "step_4": "Genera il documento con la tabella completata."
+    }
+  },
+  "code_1": {
+    "title": "Come popolare programmaticamente una tabella",
+    "content": "Questo esempio dimostra come riempire una tabella in un documento {{FileFormatUp}} con dati provenienti da una fonte esterna.",
+    "comment_1": "Progetta un modello con segnaposti per la tabella",
+    "comment_2": "Specifica il percorso del file al modello",
+    "comment_3": "Carica i dati necessari dalla tua fonte",
+    "comment_4": "Organizza i dati nella struttura necessaria",
+    "comment_5": "Inizializza {{DocumentAssembler}}",
+    "comment_6": "Salva il documento di output con la tabella completata"
+  },
+  "texts_pdf": {
+    "step_1": "Crea un modello con segnaposto per la tabella (i modelli PDF non sono attualmente supportati).",
+    "step_4": "Esporta il documento con la tabella compilata come file PDF.",
+    "comment_tmp": "I modelli PDF non sono supportati al momento."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "head": {
+    "title": "Sisipkan Grafik ke dalam Berkas {{FileFormatUp}} dengan {{ProgLang}}",
+    "description": "Dengan {{ProdFullName}}, pengembang dapat dengan cepat membuat dan menyisipkan grafik dinamis ke dalam dokumen menggunakan sumber data langsung."
+  },
+  "header": {
+    "title": "Tambahkan Grafik ke Berkas {{FileFormatUp}} Menggunakan {{EnvNameShort}}",
+    "description": "{{ProdFullName}} menyederhanakan proses integrasi grafik ke dalam dokumen {{FileFormatUp}} dengan input data secara real-time.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Mulai Gratis Hari Ini"
+  },
+  "about": {
+    "title": "Gambaran Umum {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah solusi yang kuat untuk membuat dokumen dan laporan otomatis. Tambahkan grafik, tabel, gambar, kode batang, dan daftar ke dalam berkas dengan presisi. Platform serbaguna ini mendukung lebih dari 50 format, termasuk PDF, dokumen Office, dan email."
+  },
+  "more_features": {
+    "title": "Sisipkan Grafik dengan Mudah di Dokumen Anda",
+    "description": "{{ProdFullName}} memudahkan pembuatan dokumen kaya fitur dalam jenis berkas populer. Gunakan template untuk menambahkan grafik, tabel, kode batang, daftar, gambar, dan lebih banyak lagi dengan pembaruan data secara real-time.",
+    "image_description": "Fitur Utama {{ProdShortName}}",
+    "feature_1": {
+      "title": "Ubah Data Menjadi Grafik Profesional",
+      "content": "Konversi data dari sumber seperti JSON, XML, atau CSV menjadi grafik berkualitas tinggi yang dapat disisipkan langsung ke dalam dokumen."
+    },
+    "feature_2": {
+      "title": "Buat Visual Menakjubkan",
+      "content": "Hasilkan grafik batang, grafik lingkaran, dan grafik garis yang bekerja tanpa masalah dengan elemen dokumen lain seperti gambar, tabel, dan kode batang."
+    },
+    "feature_3": {
+      "title": "Penataan dan Penempatan Grafik yang Fleksibel",
+      "content": "Gunakan template LINQ untuk mengontrol penempatan dan penataan grafik, termasuk warna, tata letak, dan label, untuk presentasi yang rapi."
+    },
+    "feature_4": {
+      "title": "Mendukung Banyak Format Berkas",
+      "content": "Hasilkan dokumen dalam format seperti MS Office, PDF, OpenOffice, dan HTML, dengan grafik yang terintegrasi sempurna untuk hasil yang profesional."
+    }
+  },
+  "formats": {
+    "title": "Hasilkan Laporan dalam Berbagai Format Berkas",
+    "description": "{{EnvName}} mendukung lebih dari 50 format, memudahkan penggabungan template dengan data untuk memproduksi dokumen yang terpolish."
+  },
+  "operations": {
+    "title": "Temukan Fitur Lanjutan",
+    "description": "Platform ini menyederhanakan pembuatan dokumen dengan alat yang dirancang untuk visualisasi data dan integrasi yang mulus."
+  },
+  "examples": {
+    "comment_1": "Sisipkan tag ini di template Anda untuk menghasilkan grafik.",
+    "comment_2": "Tentukan jalur berkas template.",
+    "comment_3": "Ambil data dari sistem sumber Anda.",
+    "comment_4": "Simpan dokumen akhir dengan grafik yang disisipkan."
+  },
+  "steps": {
+    "title": "Langkah-Langkah untuk Menambahkan Grafik ke Dokumen {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memudahkan menambahkan grafik ke berkas {{FileFormatUp}}. Pilih dari jenis grafik seperti grafik batang, garis, atau lingkaran.",
+      "step_1": "Desain template {{FileFormatUp}} dengan placeholder untuk grafik.",
+      "step_2": "Muat data dari sumber yang didukung.",
+      "step_3": "Konfigurasi opsi grafik, termasuk jenis, warna, dan label.",
+      "step_4": "Ekspor dokumen dengan grafik yang disisipkan."
+    }
+  },
+  "code_1": {
+    "title": "Hasilkan dan Sisipkan Grafik Secara Dinamis",
+    "content": "Contoh ini menggambarkan cara membuat dan menyisipkan grafik ke dalam berkas {{FileFormatUp}} secara programatik.",
+    "comment_1": "Siapkan template dengan placeholder untuk grafik.",
+    "comment_2": "Tentukan jalur ke berkas template.",
+    "comment_3": "Ambil data dari sumber yang dipilih.",
+    "comment_4": "Siapkan objek data berisi informasi grafik.",
+    "comment_5": "Pilih jenis grafik dan sesuaikan tampilannya.",
+    "comment_6": "Inisialisasi {{DocumentAssembler}}.",
+    "comment_7": "Simpan dokumen yang diperbarui dengan grafik yang disisipkan."
+  },
+  "texts_pdf": {
+    "step_1": "Buat template dengan placeholder untuk grafik (template PDF tidak didukung).",
+    "step_4": "Simpan dokumen dengan grafik sebagai berkas PDF.",
+    "comment_tmp": "Catatan: Template PDF saat ini tidak didukung."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "head": {
+    "title": "Tambahkan Barcode ke Berkas {{FileFormatUp}} Menggunakan {{ProgLang}}",
+    "description": "Hasilkan dan sematkan barcode dalam dokumen dan email Anda dengan API {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Buat Barcode untuk Berkas {{FileFormatUp}} Menggunakan {{EnvNameShort}}",
+    "description": "Dengan {{ProdFullName}}, Anda dapat secara dinamis menghasilkan, menyesuaikan, dan menyematkan barcode ke dalam dokumen {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Mulai Sekarang"
+  },
+  "about": {
+    "title": "Pendahuluan ke {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) memungkinkan Anda untuk membuat dokumen profesional dengan menggabungkan data dari berbagai sumber. Tambahkan grafik, tabel, daftar, gambar, dan barcode ke berkas Anda dengan baik. Gunakan template untuk mengatur konten tepat di tempatnya. Bekerja dengan lebih dari 50 format, termasuk PDF, dokumen Office, dan email."
+  },
+  "more_features": {
+    "title": "Hasilkan Dokumen dengan Template Berbasis Data",
+    "description": "Dengan {{ProdFullName}}, Anda dapat membuat berkas profesional dalam format populer dengan menyematkan grafik, tabel, daftar, tautan, gambar, dan barcode secara mulus.",
+    "image_description": "Fitur Inti dari {{ProdShortName}}",
+    "feature_1": {
+      "title": "Buat Laporan dengan Data Bisnis",
+      "content": "Gunakan API untuk mengisi template dengan data dari format seperti JSON, XML, dan CSV dengan cepat dan akurat."
+    },
+    "feature_2": {
+      "title": "Tambahkan Elemen Visual",
+      "content": "{{ProdShortName}} mendukung penyisipan elemen seperti grafik, tabel, daftar, teks, tautan, gambar, dan barcode secara real time."
+    },
+    "feature_3": {
+      "title": "Kontrol Penempatan Data",
+      "content": "Dengan template berbasis LINQ, Anda dapat secara tepat memposisikan data, mengulang melalui array, dan menerapkan format kustom secara programatik."
+    },
+    "feature_4": {
+      "title": "Kompatibel dengan Banyak Format",
+      "content": "Bekerja dengan berkas seperti dokumen MS Office, PDF, HTML, berkas OpenOffice, dan email. Gabungkan beberapa dokumen saat diperlukan."
+    }
+  },
+  "formats": {
+    "title": "Format Berkas yang Didukung untuk Pembuatan Laporan",
+    "description": "{{EnvName}} menangani lebih dari 50 tipe berkas, memudahkan penggabungan data dan pemrosesan template untuk hasil yang berkualitas tinggi."
+  },
+  "operations": {
+    "title": "Jelajahi Fitur Utama",
+    "description": "Sederhanakan pemrosesan dokumen dengan alat canggih dan kemampuan otomatisasi."
+  },
+  "examples": {
+    "comment_1": "Gunakan tag ini dalam template untuk menyertakan barcode dalam dokumen keluaran.",
+    "comment_2": "Tentukan jalur ke berkas template.",
+    "comment_3": "Muat data yang diperlukan dari sumber Anda.",
+    "comment_4": "Simpan dokumen dengan barcode yang diterapkan."
+  },
+  "steps": {
+    "title": "Langkah-langkah untuk Menambahkan Barcode dalam Berkas {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memudahkan untuk menyematkan barcode dalam dokumen {{FileFormatUp}}. Ini mendukung lebih dari 60 tipe barcode, termasuk format 1D dan 2D.",
+      "step_1": "Buat template {{FileFormatUp}} dengan placeholder untuk barcode.",
+      "step_2": "Ambil data dari sumber yang kompatibel.",
+      "step_3": "Atur opsi barcode seperti ukuran dan resolusi.",
+      "step_4": "Simpan dokumen akhir dengan barcode yang disematkan."
+    }
+  },
+  "code_1": {
+    "title": "Contoh: Hasilkan Barcode Secara Programatik",
+    "content": "Contoh ini menunjukkan cara menghasilkan dan menyisipkan barcode ke dalam dokumen {{FileFormatUp}} secara programatik.",
+    "comment_1": "Rancang template dengan placeholder barcode.",
+    "comment_2": "Tentukan jalur berkas template.",
+    "comment_3": "Ambil data dari sumber Anda.",
+    "comment_4": "Buat objek sumber data dengan detail yang diperlukan.",
+    "comment_5": "Inisialisasi sebuah instance {{DocumentAssembler}}.",
+    "comment_6": "Atur konfigurasi barcode.",
+    "comment_7": "Simpan dokumen dengan barcode yang disertakan."
+  },
+  "texts_pdf": {
+    "step_1": "Rancang template dengan placeholder barcode (template PDF tidak didukung).",
+    "step_4": "Ekspor dokumen dengan barcode sebagai berkas PDF.",
+    "comment_tmp": "Catatan: Template PDF saat ini tidak didukung."
+  }
+}

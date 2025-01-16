@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:14
+date:  2025-01-16T13:04:00
 draft: false
 lang: ru
 format: Pdf
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Вставка диаграмм в файлы PDF с помощью JavaScript"
+head_description: "С помощью GroupDocs.Assembly for Node.js via Java разработчики могут быстро создавать и встраивать динамические диаграммы в документы, используя живые источники данных."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Добавляйте диаграммы в файлы PDF с помощью Node.js" 
+description: "GroupDocs.Assembly for Node.js via Java упрощает процесс интеграции диаграмм в документы PDF с вводом данных в реальном времени."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Начните бесплатно сегодня"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Обзор GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Узнать больше"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) — это мощное решение для создания автоматизированных документов и отчетов. Добавляйте диаграммы, таблицы, изображения, штрих-коды и списки в файлы с точностью и эффективностью. Эта универсальная платформа поддерживает более 50 форматов, включая PDF, документы Office и электронную почту.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Шаги для добавления диаграммы в документ PDF"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) упрощает добавление диаграмм в файлы PDF. Выберите из таких типов диаграмм, как столбчатые, линейные или круговые.
       
-      1. {texts_pdf.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {texts_pdf.step_4}
+      1. Создайте шаблон с заполнителями для диаграмм (шаблоны PDF в настоящее время не поддерживаются).
+      2. Загрузите данные из поддерживаемого источника.
+      3. Настройте параметры диаграммы, включая тип, цвета и метки.
+      4. Сохраните документ с диаграммой в виде файла PDF.
    
     code:
       platform: "java"
@@ -72,20 +72,20 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Включите этот тег в ваш шаблон для генерации диаграммы
         // Orders Prices by months<<y [Sum(c => c.Price)]>><<size [Count()]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
-        // {texts_pdf.comment_tmp}
+        // Укажите путь к файлу шаблона
+        // Примечание: Шаблоны PDF в настоящее время не поддерживаются.
         const template = "chart_template.docx";
 
-        // {examples.comment_3}
+        // Извлеките данные из вашей системы источника
         const data 
             = new assemblyLib.DataSourceInfo(GetChartData(), "orders");
 
-        // {examples.comment_4}
+        // Сохраните окончательный документ со встроенной диаграммой
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pdf", data);
         ```           
@@ -93,62 +93,62 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Легко встраивайте диаграммы в ваши документы"
+  description: "GroupDocs.Assembly for Node.js via Java упрощает создание документов с множеством функций в популярных файловых форматах. Используйте шаблоны для добавления диаграмм, таблиц, штрих-кодов, списков, изображений и многого другого с обновлениями данных в реальном времени."
   image: "/img/assembly/features_chart.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Ключевые функции GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Преобразуйте данные в профессиональные диаграммы"
+      content: "Конвертируйте данные из таких источников, как JSON, XML или CSV, в высококачественные диаграммы, которые можно напрямую встроить в документы."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Создавайте потрясающие визуализации"
+      content: "Генерируйте столбчатые диаграммы, круговые диаграммы и линейные графики, которые бесшовно интегрируются с другими элементами документа, такими как изображения, таблицы и штрих-коды."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Гибкое оформление и размещение диаграмм"
+      content: "Используйте шаблоны LINQ для контроля позиционирования и оформления диаграмм, включая цвета, макеты и метки, для безупречной презентации."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Поддержка множества форматов файлов"
+      content: "Создавайте документы в форматах, таких как MS Office, PDF, OpenOffice и HTML, с идеально интегрированными диаграммами для профессионального завершения."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Динамическое создание и вставка диаграмм"
       content: |
-        {code_1.content}
+        В этом примере иллюстрируется, как программно создавать и встраивать диаграммы в файлы PDF.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Настройте шаблон с заполнителем для диаграммы
           // Total Contract Price<<y [m.Total_Contract_Price]>>
           // <<seriesColor [color]>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
-          // {texts_pdf.comment_tmp}
+          // Определите путь к файлу шаблона
+          // Примечание: Шаблоны PDF в настоящее время не поддерживаются.
           const template = "table_template.docx";
 
-          // {code_1.comment_3}
+          // Извлеките данные из выбранного источника
           const data_json = 
             new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
+          // Подготовьте объект данных, содержащий информацию о диаграмме
           const data 
               = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
+          // Выберите тип диаграммы и настройте ее внешний вид
           const design 
               = new assemblyLib.DataSourceInfo("red", "color");
 
-          // {code_1.comment_6}
+          // Инициализируйте DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_7}
+          // Сохраните обновленный документ с встроенной диаграммой
           asm.assembleDocument(template, "result.pdf", data, design);
           ```
         platform: "java"
@@ -194,9 +194,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Откройте для себя продвинутые функции"
     exclude: "chart"
-    description: ""
+    description: "Эта платформа упрощает создание документов с инструментами, предназначенными для визуализации данных и бесшовной интеграции."
     items: 
           
         # operation loop 1
@@ -233,9 +233,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Генерация отчетов в нескольких форматах файлов"
     exclude: "PDF"
-    description: ""
+    description: "Node.js via Java поддерживает более 50 форматов, что упрощает комбинирование шаблонов с данными для получения отшлифованных документов."
     items: 
           
         # format loop 1

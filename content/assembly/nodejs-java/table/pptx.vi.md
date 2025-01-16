@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:18
+date:  2025-01-16T13:04:05
 draft: false
 lang: vi
 format: Pptx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Chèn Bảng vào Tài liệu PPTX với JavaScript"
+head_description: "Sử dụng GroupDocs.Assembly for Node.js via Java để nhanh chóng chèn bảng vào tài liệu hoặc email, lấy dữ liệu từ nhiều nguồn khác nhau."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Thêm Bảng vào Tập tin PPTX một cách Nhanh Chóng với Node.js" 
+description: "Với GroupDocs.Assembly for Node.js via Java, việc điền bảng vào tài liệu PPTX trở nên đơn giản, sử dụng dữ liệu từ nhiều nguồn khác nhau."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Bắt Đầu Dùng Thử Miễn Phí"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "Giới Thiệu về GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "Tìm hiểu thêm"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) là một công cụ mạnh mẽ để tự động hóa việc tạo tài liệu. Nó cho phép bạn dễ dàng chèn bảng, biểu đồ, danh sách và hình ảnh vào các mẫu, với vị trí nội dung chính xác. Hỗ trợ trên 50 định dạng tệp, bao gồm PDF, Word và email, nó giúp tối ưu hóa quá trình tạo báo cáo và các tác vụ khác.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "Cách Thêm Dữ Liệu vào Một Bảng trong PPTX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) cho phép bạn nhanh chóng điền các mẫu bảng cho tệp PPTX sử dụng các nguồn dữ liệu động.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. Tạo một mẫu PPTX với các vị trí cho hàng và cột bảng.
+      2. Tải dữ liệu từ một nguồn được hỗ trợ như JSON hoặc CSV.
+      3. Sắp xếp và định dạng dữ liệu theo nhu cầu.
+      4. Tạo tài liệu với bảng đã hoàn tất.
    
     code:
       platform: "java"
@@ -72,21 +72,21 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // Bao gồm các thẻ này trong các vị trí hàng bảng của mẫu của bạn
         // <<foreach [c in ds]>>
         // <<[c.Client]>><<[c.Manager]>><<[c.Price]>>
         // <</foreach>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // Chỉ định đường dẫn tệp mẫu
         const template = "table_template.pptx";
 
-        // {examples.comment_3}
+        // Tải dữ liệu từ nguồn đã chọn
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "ds");
 
-        // {examples.comment_4}
+        // Lưu tài liệu cuối cùng với bảng đã hoàn tất
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pptx", data);
         ```           
@@ -94,57 +94,57 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "Thêm Bảng Dựa trên Dữ Liệu vào Tài Liệu một cách Đơn Giản"
+  description: "GroupDocs.Assembly for Node.js via Java cho phép người dùng tự động tạo bảng, đồng thời chèn biểu đồ, hình ảnh và danh sách bằng các quy trình dựa trên mẫu."
   image: "/img/assembly/features_table.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "Các Tính Năng Nổi Bật của GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "Tạo Bảng từ Dữ Liệu Có Cấu Trúc"
+      content: "Lấy dữ liệu từ JSON, XML, CSV và các định dạng khác để tự động điền bảng tài liệu."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "Tạo Nội Dung Hình Ảnh Chuyên Nghiệp"
+      content: "Sử dụng GroupDocs.Assembly để thiết kế bảng, biểu đồ và danh sách chuyên nghiệp, và để thêm liên kết, hình ảnh và văn bản cho ngoại hình tài liệu tinh tế."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "Cách Đặt Nội Dung Bảng Động"
+      content: "Thêm hàng và cột một cách lập trình qua các mẫu dựa trên LINQ, và tùy chỉnh các kiểu như phông chữ, màu sắc, và căn chỉnh."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "Hoạt Động Mượt Mà Trên Nhiều Định Dạng"
+      content: "Dễ dàng tạo hoặc chỉnh sửa bảng trong MS Office, OpenOffice, PDF, HTML, và các định dạng khác, gộp chúng vào các tệp khi cần."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "Cách Điền Bảng Qua Lập Trình"
       content: |
-        {code_1.content}
+        Ví dụ này minh họa việc điền một bảng trong tài liệu PPTX với dữ liệu từ một nguồn bên ngoài.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // Thiết kế một mẫu với các vị trí cho bảng
           // <<foreach [c in items]>> <<[c.Client]>><<[c.Manager]>>
           //  <<[c.Price]>> <</foreach>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // Chỉ định đường dẫn tệp đến mẫu
           const template = "table_template.pptx";
 
-          // {code_1.comment_3}
+          // Tải dữ liệu cần thiết từ nguồn của bạn
           const data_json = 
             new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
+          // Sắp xếp dữ liệu vào cấu trúc cần thiết
           const data 
               = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
+          // Khởi tạo DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // Lưu tài liệu đầu ra với bảng đã hoàn tất
           asm.assembleDocument(template, "result.pptx", data);
           ```
         platform: "java"
@@ -190,9 +190,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Các Tính Năng Chính Nổi Bật"
     exclude: "table"
-    description: ""
+    description: "API của chúng tôi tự động hóa việc tạo bảng và nâng cao quy trình tạo tài liệu với các công cụ và mẫu đa dạng."
     items: 
           
         # operation loop 1
@@ -229,9 +229,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "Tạo Bảng Trong Nhiều Định Dạng Khác Nhau"
     exclude: "PPTX"
-    description: ""
+    description: "Với Node.js via Java, bạn có thể điền dữ liệu vào các mẫu và tạo các bảng toàn diện trên hơn 50 loại tệp được hỗ trợ."
     items: 
           
         # format loop 1

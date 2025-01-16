@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:18
+date:  2025-01-16T13:04:05
 draft: false
 lang: th
 format: Pptx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "แทรกตารางในเอกสาร PPTX ด้วย JavaScript"
+head_description: "ใช้ GroupDocs.Assembly for Node.js via Java เพื่อแทรกตารางในเอกสารหรืออีเมลได้อย่างรวดเร็ว โดยดึงข้อมูลจากแหล่งต่างๆ."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "เพิ่มตารางลงในไฟล์ PPTX อย่างไม่ยุ่งยากด้วย Node.js" 
+description: "ด้วย GroupDocs.Assembly for Node.js via Java การกรอกตารางในเอกสาร PPTX เป็นเรื่องง่าย โดยใช้ข้อมูลจากหลายแหล่ง."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "เริ่มทดลองใช้งานฟรีของคุณ"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "แนะนำ GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "เรียนรู้เพิ่มเติม"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) เป็นเครื่องมือทรงพลังสำหรับการสร้างเอกสารอัตโนมัติ ช่วยให้คุณสามารถแทรกตาราง แผนภูมิ รายการ และรูปภาพลงในเทมเพลต พร้อมการวางเนื้อหาที่แม่นยำ สนับสนุนกว่า 50 รูปแบบไฟล์ รวมถึง PDF, Word, และอีเมล ช่วยให้กระบวนการสร้างรายงานและงานอื่นๆ เป็นไปอย่างราบรื่น.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "วิธีเพิ่มข้อมูลในตารางใน PPTX"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) ช่วยให้คุณสามารถกรอกเทมเพลตตารางสำหรับไฟล์ PPTX ได้อย่างรวดเร็ว โดยใช้แหล่งข้อมูลเชิงพลศาสตร์.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. สร้างเทมเพลต PPTX พร้อมตัวแทนสำหรับแถวและคอลัมน์ตาราง.
+      2. โหลดข้อมูลจากแหล่งที่รองรับ เช่น JSON หรือ CSV.
+      3. จัดระเบียบและจัดรูปแบบข้อมูลตามต้องการ.
+      4. สร้างเอกสารที่มีตารางที่เสร็จสมบูรณ์.
    
     code:
       platform: "java"
@@ -72,21 +72,21 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // รวมแท็กเหล่านี้ในตัวแทนแถวตารางของเทมเพลตของคุณ
         // <<foreach [c in ds]>>
         // <<[c.Client]>><<[c.Manager]>><<[c.Price]>>
         // <</foreach>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // ระบุที่อยู่ไฟล์เทมเพลต
         const template = "table_template.pptx";
 
-        // {examples.comment_3}
+        // นำเข้าข้อมูลจากแหล่งที่เลือก
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "ds");
 
-        // {examples.comment_4}
+        // บันทึกเอกสารสุดท้ายด้วยตารางที่เสร็จสมบูรณ์
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pptx", data);
         ```           
@@ -94,57 +94,57 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "เพิ่มตารางที่ขับเคลื่อนด้วยข้อมูลลงในเอกสารอย่างง่ายดาย"
+  description: "GroupDocs.Assembly for Node.js via Java ช่วยให้ผู้ใช้สร้างตารางอัตโนมัติ ขณะเดียวกันก็แทรกแผนภูมิ รูปภาพ และรายการโดยใช้การทำงานตามเทมเพลต."
   image: "/img/assembly/features_table.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "คุณสมบัติเด่นของ GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "สร้างตารางจากข้อมูลที่มีโครงสร้าง"
+      content: "ดึงข้อมูลจาก JSON, XML, CSV, และรูปแบบอื่นๆ เพื่อกรอกข้อมูลในตารางเอกสารโดยอัตโนมัติ."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "สร้างเนื้อหาที่มีลักษณะสวยงาม"
+      content: "ใช้ GroupDocs.Assembly ในการออกแบบตาราง แผนภูมิ และรายการระดับมืออาชีพ และเพิ่มลิงค์ รูปภาพ และข้อความเพื่อปรับแต่งลักษณะของเอกสาร."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "การวางเนื้อหาตารางแบบไดนามิก"
+      content: "เพิ่มแถวและคอลัมน์ด้วยโปรแกรมโดยใช้เทมเพลตพื้นฐาน LINQ และปรับแต่งสไตล์ เช่น ฟอนต์ สี และการจัดแนว."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "ทำงานได้อย่างไร้รอยต่อในหลากหลายรูปแบบ"
+      content: "สร้างหรือแก้ไขตารางใน MS Office, OpenOffice, PDF, HTML, และรูปแบบอื่นๆ ได้โดยง่าย รวมเข้ากับไฟล์ตามที่ต้องการ."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "วิธีการกรอกตารางแบบโปรแกรม"
       content: |
-        {code_1.content}
+        ตัวอย่างนี้แสดงการกรอกตารางในเอกสาร PPTX ด้วยข้อมูลจากแหล่งภายนอก.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // ออกแบบเทมเพลตที่มีตัวแทนสำหรับตาราง
           // <<foreach [c in items]>> <<[c.Client]>><<[c.Manager]>>
           //  <<[c.Price]>> <</foreach>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // ระบุที่อยู่ไฟล์สำหรับเทมเพลต
           const template = "table_template.pptx";
 
-          // {code_1.comment_3}
+          // โหลดข้อมูลที่จำเป็นจากแหล่งของคุณ
           const data_json = 
             new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
+          // จัดระเบียบข้อมูลให้อยู่ในโครงสร้างที่จำเป็น
           const data 
               = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
+          // เริ่มต้น DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // บันทึกเอกสารผลลัพธ์ด้วยตารางที่เสร็จสมบูรณ์
           asm.assembleDocument(template, "result.pptx", data);
           ```
         platform: "java"
@@ -190,9 +190,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "คุณสมบัติหลักในภาพรวม"
     exclude: "table"
-    description: ""
+    description: "API ของเราช่วยให้อัตโนมัติในการสร้างตารางและพัฒนากระบวนการสร้างเอกสารด้วยเครื่องมือและเทมเพลตที่หลากหลาย."
     items: 
           
         # operation loop 1
@@ -229,9 +229,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "สร้างตารางในรูปแบบที่หลากหลาย"
     exclude: "PPTX"
-    description: ""
+    description: "ด้วย Node.js via Java คุณสามารถกรอกเทมเพลตและสร้างตารางที่ครบถ้วนในมากกว่า 50 รูปแบบไฟล์ที่รองรับ."
     items: 
           
         # format loop 1

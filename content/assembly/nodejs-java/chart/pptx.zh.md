@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:14
+date:  2025-01-16T13:04:00
 draft: false
 lang: zh
 format: Pptx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "在PPTX文件中插入图表，使用JavaScript"
+head_description: "借助GroupDocs.Assembly for Node.js via Java，开发人员可以快速创建和嵌入动态图表到文档中，并使用实时数据源。"
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "使用Node.js轻松将图表添加到PPTX文件中" 
+description: "GroupDocs.Assembly for Node.js via Java简化了将图表集成到含有实时数据输入的PPTX文档中的过程。"
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "立即免费开始"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "GroupDocs.Assembly for Node.js via Java概述"
     link: "/assembly/nodejs-java/"
     link_title: "了解更多"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/)是一个强大的解决方案，用于创建自动化文档和报告。精确和简便地向文件中添加图表、表格、图像、条形码和列表。这个多功能平台支持超过50种格式，包括PDF、Office文档和电子邮件。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "将图表添加到PPTX文档的步骤"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/)使将图表添加到PPTX文件变得简单。选择条形图、折线图或饼图等图表类型。
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. 设计一个带有图表占位符的PPTX模板。
+      2. 从支持的来源加载数据。
+      3. 配置图表选项，包括类型、颜色和标签。
+      4. 导出带有嵌入图表的文档。
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // 在模板中包含此标签以生成图表
         // Orders Prices by months<<y [Sum(c => c.Price)]>><<size [Count()]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // 指定模板文件路径
         const template = "chart_template.pptx";
 
-        // {examples.comment_3}
+        // 从源系统提取数据
         const data 
             = new assemblyLib.DataSourceInfo(GetChartData(), "orders");
 
-        // {examples.comment_4}
+        // 保存最终文档并嵌入图表
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.pptx", data);
         ```           
@@ -92,61 +92,61 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "轻松在文档中嵌入图表"
+  description: "GroupDocs.Assembly for Node.js via Java使您能够在流行文件类型中生成功能丰富的文档。使用模板向文档中添加图表、表格、条形码、列表、图像等，并提供实时数据更新。"
   image: "/img/assembly/features_chart.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "GroupDocs.Assembly的主要功能"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "将数据转换为专业图表"
+      content: "将来自JSON、XML或CSV等源的数据转换为可以直接嵌入文档的高质量图表。"
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "创建令人惊叹的视觉效果"
+      content: "生成与其他文档元素（如图像、表格和条形码）无缝配合的条形图、饼图和折线图。"
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "灵活的图表样式和布局"
+      content: "使用LINQ模板来控制图表的位置和样式，包括颜色、布局和标签，实现精美的展示效果。"
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "支持多种文件格式"
+      content: "生成MS Office、PDF、OpenOffice和HTML等格式的文档，其中图表完美嵌入，展现专业的效果。"
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "动态生成和插入图表"
       content: |
-        {code_1.content}
+        本示例展示如何通过编程方式创建并嵌入图表到PPTX文件中。
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // 建立一个带有图表占位符的模板
           // Total Contract Price<<y [m.Total_Contract_Price]>>
           // <<seriesColor [color]>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // 定义模板文件的路径
           const template = "table_template.pptx";
 
-          // {code_1.comment_3}
+          // 从选定的来源检索数据
           const data_json = 
             new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
+          // 准备一个包含图表信息的数据对象
           const data 
               = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
+          // 选择图表类型并自定义其外观
           const design 
               = new assemblyLib.DataSourceInfo("red", "color");
 
-          // {code_1.comment_6}
+          // 初始化DocumentAssembler
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_7}
+          // 保存包含嵌入图表的更新文档
           asm.assembleDocument(template, "result.pptx", data, design);
           ```
         platform: "java"
@@ -192,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "发现高级功能"
     exclude: "chart"
-    description: ""
+    description: "该平台通过旨在数据可视化和无缝集成的工具简化了文档的创建过程。"
     items: 
           
         # operation loop 1
@@ -231,9 +231,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "生成多种文件格式的报告"
     exclude: "PPTX"
-    description: ""
+    description: "Node.js via Java支持超过50种格式，轻松将模板与数据结合以制作精美文件。"
     items: 
           
         # format loop 1

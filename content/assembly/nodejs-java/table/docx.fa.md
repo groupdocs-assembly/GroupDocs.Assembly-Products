@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:18
+date:  2025-01-16T13:04:04
 draft: false
 lang: fa
 format: Docx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "DOCX: جدول‌ها را با JavaScript وارد کنید"
+head_description: "از GroupDocs.Assembly for Node.js via Java برای درج سریع جدول‌ها در مستندات یا ایمیل‌ها استفاده کنید و داده‌ها را از منابع مختلف استخراج کنید."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "به راحتی جدول‌ها را به فایل‌های DOCX با Node.js اضافه کنید" 
+description: "با GroupDocs.Assembly for Node.js via Java، پر کردن جدول‌ها در مستندات DOCX ساده است و از داده‌های متعدد استفاده می‌کند."
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "آغاز آزمایش رایگان شما"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "آشنایی با GroupDocs.Assembly for Node.js via Java"
     link: "/assembly/nodejs-java/"
     link_title: "بیشتر بیاموزید"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/) ابزاری قدرتمند برای خودکارسازی ایجاد مستندات است. این ابزار به شما امکان می‌دهد به راحتی جدول‌ها، نمودارها، لیست‌ها و تصاویر را به الگوها اضافه کنید و محتوا را به طور دقیق قرار دهید. با پشتیبانی از بیش از ۵۰ فرمت فایل، از جمله PDF، Word و ایمیل، فرآیند ایجاد گزارش و سایر وظایف را تسهیل می‌کند.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "چگونه داده‌ها را به جدول در DOCX اضافه کنیم"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/) به شما این امکان را می‌دهد که به سرعت الگوهای جدول را برای فایل‌های DOCX با استفاده از منابع داده داینامیک پر کنید.
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. یک الگوی DOCX با جاهای خالی برای ردیف‌ها و ستون‌های جدول ایجاد کنید.
+      2. داده‌ها را از یک منبع پشتیبانی‌شده مانند JSON یا CSV بارگذاری کنید.
+      3. داده‌ها را به شکل مطلوب سازماندهی و فرمت دهید.
+      4. مستند را با جدول تکمیل‌شده ایجاد کنید.
    
     code:
       platform: "java"
@@ -72,21 +72,21 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // این تگ‌ها را در جاهای خالی ردیف جدول الگوی خود قرار دهید.
         // <<foreach [c in ds]>>
         // <<[c.Client]>><<[c.Manager]>><<[c.Price]>>
         // <</foreach>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // مسیر فایل الگو را مشخص کنید.
         const template = "table_template.docx";
 
-        // {examples.comment_3}
+        // داده‌های خود را از منبع انتخابی بارگذاری کنید.
         const data 
             = new assemblyLib.DataSourceInfo(GetData(), "ds");
 
-        // {examples.comment_4}
+        // مستند نهایی را با جدول تکمیل‌شده ذخیره کنید.
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.docx", data);
         ```           
@@ -94,57 +94,57 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "به راحتی جدول‌های مبتنی بر داده را به مستندات اضافه کنید"
+  description: "GroupDocs.Assembly for Node.js via Java به کاربران این امکان را می‌دهد که جدول‌ها را به طور خودکار ایجاد کنند و در عین حال نمودارها، تصاویر و لیست‌ها را با استفاده از کارکردهای مبتنی بر الگو ادغام کنند."
   image: "/img/assembly/features_table.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "ویژگی‌های برتر GroupDocs.Assembly"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "ایجاد جدول از داده‌های ساختاریافته"
+      content: "داده‌ها را از JSON، XML، CSV و سایر فرمت‌ها استخراج کنید تا به طور خودکار جدول‌های مستندات را پر کنید."
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "ایجاد محتوای بصری حرفه‌ای"
+      content: "از GroupDocs.Assembly برای طراحی جدول‌ها، نمودارها و لیست‌های حرفه‌ای استفاده کنید و لینک‌ها، تصاویر و متن را برای ظاهری شیک به مستند اضافه کنید."
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "قرار دادن محتوای جدول به صورت داینامیک"
+      content: "برای افزودن ردیف‌ها و ستون‌ها به صورت برنامه‌نویسی از الگوهای مبتنی بر LINQ استفاده کنید و سبک‌هایی مانند قلم، رنگ‌ها و تراز را سفارشی کنید."
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "عملکرد بی‌نقص در تمام فرمت‌ها"
+      content: "به راحتی جدول‌ها را در فرمت‌های MS Office، OpenOffice، PDF، HTML و دیگر فرمت‌ها ایجاد یا ویرایش کنید و آن‌ها را به فایل‌ها ادغام کنید."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "چگونه به صورت برنامه‌نویسی یک جدول را پر کنیم"
       content: |
-        {code_1.content}
+        این مثال پر کردن یک جدول در مستند DOCX را با داده‌هایی از یک منبع خارجی نشان می‌دهد.
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // یک الگو طراحی کنید که جاهای خالی برای جدول داشته باشد.
           // <<foreach [c in items]>> <<[c.Client]>><<[c.Manager]>>
           //  <<[c.Price]>> <</foreach>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // مسیر فایل الگو را مشخص کنید.
           const template = "table_template.docx";
 
-          // {code_1.comment_3}
+          // داده‌های مورد نیاز را از منبع خود بارگذاری کنید.
           const data_json = 
             new assemblyLib.JsonDataSource("Items.json");
 
-          // {code_1.comment_4}
+          // داده‌ها را به ساختار مورد نیاز سازماندهی کنید.
           const data 
               = new assemblyLib.DataSourceInfo(data_json, "items");
 
-          // {code_1.comment_5}
+          // اقدام به راه‌اندازی DocumentAssembler کنید.
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_6}
+          // مستند خروجی را با جدول تکمیل‌شده ذخیره کنید.
           asm.assembleDocument(template, "result.docx", data);
           ```
         platform: "java"
@@ -190,9 +190,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "ویژگی‌های اصلی در یک نگاه"
     exclude: "table"
-    description: ""
+    description: "API ما ایجاد جدول را خودکار می‌کند و فرآیند تولید مستند را با ابزارها و الگوهای چندمنظوره بهبود می‌بخشد."
     items: 
           
         # operation loop 1
@@ -229,9 +229,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "ایجاد جدول در انواع فرمت‌ها"
     exclude: "DOCX"
-    description: ""
+    description: "با Node.js via Java، الگوها را پر کنید و جدول‌های جامع ایجاد کنید که شامل بیش از ۵۰ نوع فایل پشتیبانی‌شده است."
     items: 
           
         # format loop 1

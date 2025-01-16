@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-01-14T15:37:15
+date:  2025-01-16T13:04:02
 draft: false
 lang: ja
 format: Docx
@@ -15,42 +15,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "JavaScriptでDOCXのドキュメントをマージする"
+head_description: "JavaScriptを使用してDOCXファイルを結合します。GroupDocs.Assemblyはドキュメントのマージを数ステップでスムーズに行います。"
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "DOCXファイル内のコンテンツを簡単に結合" 
+description: "GroupDocs.Assembly for Node.js via Javaを使用すると、1つのDOCXファイルを別のファイルに迅速かつ正確に統合できます。シームレスなマージのための柔軟で信頼性のあるツールをお楽しみください。"
+subtitle: "GroupDocs.Assembly for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "無料で試す"
       link: "https://releases.groupdocs.com/assembly/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "GroupDocs.Assembly for Node.js via Javaの概要"
     link: "/assembly/nodejs-java/"
     link_title: "詳細を見る"
     picture: "about_assembly.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Assembly for Node.js via Java](/assembly/nodejs-java/)は、ドキュメントを管理するための強力な方法を提供します。PDFやMS Officeなど、50を超えるフォーマットをサポートし、他のファイルに1つのファイルを結合します。レイアウトをカスタマイズし、コンテンツを編集し、必要なようにドキュメントを整理できます。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "{steps.title}"
+    title: "DOCXファイルにドキュメントをマージする方法"
     content: |
-      {steps.content.title}
+      [GroupDocs.Assembly](/assembly/nodejs-java/)を使用すると、カスタマイズ可能なオプションで1つのDOCXファイルを別のファイルに挿入できます。
       
-      1. {steps.content.step_1}
-      2. {steps.content.step_2}
-      3. {steps.content.step_3}
-      4. {steps.content.step_4}
+      1. DOCXテンプレートを設計し、コンテンツのためのプレースホルダーを作成します。
+      2. テンプレートのファイルパスを設定します。
+      3. マージするドキュメントのファイルパスを提供します。
+      4. 結合されたコンテンツを含む最終ファイルをエクスポートします。
    
     code:
       platform: "java"
@@ -72,19 +72,19 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // {examples.comment_1}
+        // このタグをテンプレートに挿入して、ドキュメントが埋め込まれる場所を定義します
         // <<doc [doc_expression]>>
     
         const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-        // {examples.comment_2}
+        // メインテンプレートのファイルパスを設定します
         const template = "doc_template.docx";
 
-        // {examples.comment_3}
+        // マージしたいドキュメントのパスを提供します
         const data 
             = new assemblyLib.DataSourceInfo("insert.docx", "doc_expression");
 
-        // {examples.comment_4}
+        // 埋め込まれたドキュメントとともに最終出力を保存します
         const asm = new assemblyLib.DocumentAssembler();
         asm.assembleDocument(template, "result.docx", data);
         ```           
@@ -92,52 +92,52 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "{more_features.title}"
-  description: "{more_features.description}"
+  title: "ドキュメント統合のための強力なツール"
+  description: "GroupDocs.Assembly for Node.js via Javaは、さまざまなフォーマット間でのファイル埋め込みを簡単かつ完全にカスタマイズ可能にします。毎回一貫性のあるプロフェッショナルな結果を提供します。"
   image: "/img/assembly/features_document.webp" # 500x500 px
-  image_description: "{more_features.image_description}"
+  image_description: "GroupDocs.Assemblyの主な機能"
   features:
     # feature loop
-    - title: "{more_features.feature_1.title}"
-      content: "{more_features.feature_1.content}"
+    - title: "ビジネスデータでレポートを生成"
+      content: "JSON、XML、またはCSVソースからデータを取得し、包括的なレポートやドキュメントを迅速かつ正確に作成します。"
 
     # feature loop
-    - title: "{more_features.feature_2.title}"
-      content: "{more_features.feature_2.content}"
+    - title: "リッチな視覚要素を追加"
+      content: "GroupDocs.Assemblyを使用すると、テキストやハイパーリンクとともにテーブル、チャート、リスト、画像、バーコードを含めることができます。"
 
     # feature loop
-    - title: "{more_features.feature_3.title}"
-      content: "{more_features.feature_3.content}"
+    - title: "精密なデータ配置"
+      content: "LINQテンプレートを使用して、データを正確に配置し、配列などの繰り返しアイテムを処理し、スタイルを簡単にカスタマイズできます。"
 
     # feature loop
-    - title: "{more_features.feature_4.title}"
-      content: "{more_features.feature_4.content}"
+    - title: "さまざまなフォーマットに対応"
+      content: "PDF、MS Officeファイル、HTML、OpenOfficeなど、フォーマット間でコンテンツをシームレスにマージし、すべてのプロジェクトに柔軟性を提供します。"
       
   code_samples_ext:
     # code sample ext loop
-    - title: "{code_1.title}"
+    - title: "プログラム的にドキュメントに画像を埋め込む"
       content: |
-        {code_1.content}
+        この例では、GroupDocs.Assemblyを使用してDOCXファイルに画像を挿入する方法を示します。
       code:
         title: "Java"
         content: |
           ```javascript {style=abap}
-          // {code_1.comment_1}
+          // 画像のためのプレースホルダーをテンプレートに追加します
           // <<image [expression]>>
           
           const assemblyLib = require('@groupdocs/groupdocs.assembly');
 
-          // {code_1.comment_2}
+          // テンプレートファイルへのパスを指定します
           const template = "template.docx";
 
-          // {code_1.comment_3}
+          // 埋め込む画像へのパスを設定します
           const data =
               = new assemblyLib.DataSourceInfo("logo.jpg", "expression");
 
-          // {code_1.comment_4}
+          // DocumentAssemblerオブジェクトを初期化します
           const asm = new assemblyLib.DocumentAssembler();
 
-          // {code_1.comment_5}
+          // 画像を含むドキュメントを保存します
           asm.assembleDocument(template, "result.docx", data);
           ```
         platform: "java"
@@ -183,9 +183,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "一目でわかるコア機能"
     exclude: "document"
-    description: ""
+    description: "GroupDocs.Assemblyが提供する効率的でシームレスなドキュメントマージのための包括的なツールを探ります。"
     items: 
           
         # operation loop 1
@@ -222,9 +222,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: ""
+    title: "多様なフォーマットでのドキュメントの結合"
     exclude: "DOCX"
-    description: ""
+    description: "Node.js via Javaを使用して、50を超えるファイルフォーマット間でコンテンツを結合し、プロフェッショナルで洗練された結果を保証します。"
     items: 
           
         # format loop 1
