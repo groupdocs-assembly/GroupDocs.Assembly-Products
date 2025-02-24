@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-12-13T10:30:57
+date:  2025-02-24T17:52:12
 draft: false
 lang: it
 format: Pdf
