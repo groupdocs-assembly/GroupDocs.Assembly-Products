@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-02-24T17:52:12
+date:  2025-03-17T13:11:11
 draft: false
 
 product: "Assembly"
@@ -88,35 +88,6 @@ supported_platforms:
             content: |
                     50+ file formats
 
-    # items loop
-    - title: "Node.js"
-      description: GroupDocs.Assembly "Node.js
-      color: "green"
-      tag: "nodejs-java"
-      link: "/assembly/nodejs-java/"
-      features_link: "https://docs.groupdocs.com/assembly/nodejs-java/system-requirements/"
-      features:
-          # features loop
-          - rows: "3"
-            content: |
-                    Node.js 16+ and J2SE 8.0 (1.8)+
-      
-          # features loop
-          - rows: "4"
-            content: |
-                    Windows <br> Linux <br> Mac OS
-      
-          # features loop
-          - rows: "3"
-            content: |
-                    Atom <br> Visual Studio Code <br> その他のテキストエディタ
-      
-          # features loop
-          - rows: "1"
-            content: |
-                    50+ file formats
-
-
 ############################# Features ###############################
 features:
   enable: true
@@ -195,29 +166,6 @@ code_samples:
             assembler.assembleDocument(tmp_path, res_path, data);
 
             ```
-        - language: "TypeScript"
-          color: "green"
-          content: |
-            ```javascript {style=abap}   
-            const assemblyLib = require('@groupdocs/groupdocs.assembly');
-
-            // DocumentAssemblerクラスのインスタンスを作成
-            const assembler = new assemblyLib.DocumentAssembler();
-            
-            //テンプレートへのパスを指定
-            const tmp_path = "barcode_template.docx";
-
-            //結果ドキュメントへのパスを指定
-            const res_path = "result.docx";
-
-            //データソースのインスタンスを作成
-            const data = new assemblyLib.DataSourceInfo(new assemblyLib.DataStorage(), null);
-
-            // AssembleDocumentを呼び出してレポートを生成
-            assembler.assembleDocument(tmp_path, res_path, data);
-
-            ```
-
 
 ############################# Supported Formats ###############################
 formats:
@@ -317,11 +265,6 @@ actions:
     - title: "Java"
       color: "red"
       link: "/assembly/java/"
-
-    # items loop
-    - title: "Node.js via Java"
-      color: "green"
-      link: "/assembly/nodejs-java/"
 
 ############################# FAQ ###############################
 faq:

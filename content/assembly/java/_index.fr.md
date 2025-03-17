@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-02-24T17:52:12
+date: 2025-03-17T13:11:11
 draft: false
 
 lang: fr
@@ -19,9 +19,6 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
-    # supported_platforms loop
-    - title: "Node.js"
-      tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "Bibliothèque Java pour la création, l'automatisation et le reporting de documents"
